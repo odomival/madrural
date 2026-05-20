@@ -1,0 +1,95 @@
+# ==========================
+# WordPress - configuración sensible/local
+# ==========================
+wp-config.php
+.htaccess
+
+# ==========================
+# Backups / bases de datos / comprimidos
+# ==========================
+*.sql
+*.sql.gz
+*.zip
+*.zip.*
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.bak
+*.backup
+*.wpress
+*.gz
+*.dump
+
+# Backups concretos del proyecto
+madrural.zip
+bk_madrurp416.sql
+
+# ==========================
+# Backups de plugins WordPress
+# ==========================
+wp-content/madruralbackup/
+wp-content/ai1wm-backups/
+wp-content/wpvividbackups/
+wp-content/updraft/
+wp-content/backups/
+wp-content/backup/
+wp-content/backup*/
+wp-content/uploads/wpvivid/
+wp-content/uploads/backup/
+wp-content/uploads/backups/
+wp-content/uploads/ai1wm-backups/
+
+# ==========================
+# Uploads y media de WordPress
+# ==========================
+wp-content/uploads/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+wp-content/debug.log
+error_log
+
+# ==========================
+# Cachés y temporales WordPress
+# ==========================
+wp-content/cache/
+wp-content/upgrade/
+wp-content/temp/
+wp-content/tmp/
+wp-content/litespeed/
+wp-content/wflogs/
+wp-content/wp-rocket-config/
+wp-content/et-cache/
+wp-content/cache-enabler/
+wp-content/uploads/cache/
+wp-content/uploads/elementor/css/
+wp-content/uploads/elementor/tmp/
+
+# ==========================
+# Archivos generados por plugins
+# ==========================
+wp-content/object-cache.php
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+
+# ==========================
+# Sistema / IDE
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ==========================
+# Node / build
+# ==========================
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+dist/
+build/

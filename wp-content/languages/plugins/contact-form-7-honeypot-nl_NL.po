@@ -1,0 +1,1600 @@
+# Translation of Plugins - CF7 Apps – Honeypot, Database, Redirection, Webhook, and Addons for Contact Form 7 - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - CF7 Apps – Honeypot, Database, Redirection, Webhook, and Addons for Contact Form 7 - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-04-23 06:31:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - CF7 Apps – Honeypot, Database, Redirection, Webhook, and Addons for Contact Form 7 - Stable (latest release)\n"
+
+#: includes/apps/ai-form-generator/includes/class-cf7-ai-middleware-client.php:450
+msgid "AI returned no form code. Try a clearer description or check middleware logs."
+msgstr "AI heeft geen formuliercode teruggestuurd. Probeer een duidelijkere beschrijving of controleer de logs van de middleware."
+
+#: includes/apps/ai-form-generator/includes/class-cf7-ai-middleware-client.php:435
+#: includes/apps/ai-form-generator/includes/class-cf7-ai-middleware-client.php:440
+msgid "AI request failed."
+msgstr "AI aanvraag mislukt."
+
+#: includes/apps/ai-form-generator/includes/class-cf7-ai-middleware-client.php:430
+msgid "AI server returned an invalid response."
+msgstr "AI server heeft een ongeldige reactie teruggestuurd."
+
+#. translators: %s error message
+#: includes/apps/ai-form-generator/includes/class-cf7-ai-middleware-client.php:417
+msgid "Could not reach AI server: %s"
+msgstr "Kan AI server niet bereiken: %s"
+
+#: includes/apps/ai-form-generator/includes/class-cf7-ai-middleware-client.php:382
+msgid "No license key is available for the middleware. Check provision-free response or set CF7APPS_AI_MIDDLEWARE_LICENSE_KEY."
+msgstr "Er is geen licentiesleutel beschikbaar voor de middleware. Controleer reacties zonder voorziening of stel CF7APPS_AI_MIDDLEWARE_LICENSE_KEY in."
+
+#: includes/apps/ai-form-generator/includes/class-cf7-ai-middleware-client.php:298
+msgid "License provisioning failed."
+msgstr "Licentieverstrekking mislukt."
+
+#. translators: %s error message
+#: includes/apps/ai-form-generator/includes/class-cf7-ai-middleware-client.php:280
+msgid "Could not provision license: %s"
+msgstr "Kon licentie niet verstrekken: %s"
+
+#: includes/apps/ai-form-generator/includes/class-cf7-ai-middleware-client.php:232
+msgid "The middleware requires a license key, and this site could not obtain one (empty provision secret after filters). Set CF7APPS_AI_MIDDLEWARE_LICENSE_KEY or fix CF7APPS_AI_PROVISION_SECRET."
+msgstr "De middleware vereist een licentiesleutel en deze site kon er geen verkrijgen (leeg provisie geheim na filteren). Stel CF7APPS_AI_MIDDLEWARE_LICENSE_KEY in of stel CF7APPS_AI_PROVISION_SECRET in."
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:251
+msgid "Please enter form details or select a template to continue."
+msgstr "Voer details van het formulier in of selecteer een template om verder te gaan."
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:229
+#: includes/apps/ai-form-generator/includes/class-cf7-ai-middleware-client.php:240
+#: includes/apps/ai-form-generator/includes/class-cf7-ai-middleware-client.php:369
+msgid "AI middleware base URL is not set. Define CF7APPS_AI_MIDDLEWARE_BASE_URL in wp-config.php."
+msgstr "AI middleware basis URL is niet ingesteld. Definieer CF7APPS_AI_MIDDLEWARE_BASE_URL in wp-config.php."
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:220
+msgid "AI Form Generator is disabled."
+msgstr "AI formulier generator is uitgeschakeld."
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:211
+msgid "Permission denied."
+msgstr "Toestemming geweigerd."
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:196
+msgid "Could not copy."
+msgstr "Kon niet kopiëren."
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:195
+msgid "Copied to clipboard."
+msgstr "Naar klembord gekopieerd."
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:194
+msgid "This field is required."
+msgstr "Dit veld is vereist."
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:193
+msgid "Reset"
+msgstr "Reset"
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:192
+msgid "Insert"
+msgstr "Invoegen"
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:191
+msgid "Copy"
+msgstr "Kopiëren"
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:190
+msgid "Generated form code"
+msgstr "Gegenereerde formuliercode"
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:188
+msgid "e.g., Create a customer feedback form with rating scale, comments section, and contact information fields..."
+msgstr "bijv. Een formulier voor klantenfeedback maken met waarderingsschaal, sectie voor reacties en velden voor contactgegevens..."
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:187
+msgid "Describe the form you want to create"
+msgstr "Beschrijf het formulier dat je wil maken"
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:185
+#: includes/apps/ai-form-generator/ai-form-generator.php:186
+#: includes/apps/ai-form-generator/ai-form-generator.php:189
+msgid "Generate Form with AI"
+msgstr "Formulieren maken met AI"
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:126
+msgid "Create a contact and inquiry form for real estate property listings."
+msgstr "Een contact- en aanvraagformulier voor advertenties van onroerend goed maken."
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:125
+msgid "For real estate property listings"
+msgstr "Voor onroerend goed advertenties"
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:124
+msgid "Contact & Inquiry Form"
+msgstr "Contact & inlichtingen formulier"
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:121
+msgid "Create a customer feedback and rating form for after a purchase."
+msgstr "Een feedback- en waarderingsformulier voor klanten na een aankoop maken."
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:120
+msgid "For customers after a purchase"
+msgstr "Voor klanten na een aankoop"
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:119
+msgid "Feedback & Rating Form"
+msgstr "Feedback & waardering formulier"
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:116
+msgid "Create an appointment booking form for my clinic or healthcare service."
+msgstr "Een formulier om een afspraak te maken voor mijn kliniek of gezondheidszorg maken."
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:115
+msgid "For my clinic or healthcare service"
+msgstr "Voor mijn kliniek of gezondheidszorg"
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:114
+msgid "Appointment Booking Form"
+msgstr "Formulier voor het maken van een afspraak"
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:111
+msgid "Create a job application form for my company's career page."
+msgstr "Een sollicitatieformulier voor de carrièrepagina van mijn bedrijf maken."
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:110
+msgid "For my company's career page"
+msgstr "Voor de carrière pagina van mijn bedrijf"
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:109
+msgid "Job Application Form"
+msgstr "Sollicitatie formulier"
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:76
+msgid "Enable AI-powered form suggestions for Contact Form 7, allowing users to quickly generate complex form templates with ease."
+msgstr "AI gestuurde formulier suggesties voor Contact Form 7 inschakelen, waardoor gebruikers snel en eenvoudig complexe templates voor formulieren kunnen genereren."
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:73
+msgid "Enable AI Form Generator"
+msgstr "AI formuliergenerator inschakelen"
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:44
+msgid "Generate Contact Form 7 field tags from a short description or templates, powered by AI."
+msgstr "Genereer Contact Form 7 veld tags uit een korte beschrijving of templates, aangedreven door AI."
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:43
+#: includes/apps/ai-form-generator/ai-form-generator.php:58
+msgid "AI Form Generator"
+msgstr "AI formulier generator"
+
+#. translators: %d: post ID.
+#: includes/cf7apps-functions.php:125
+msgid "(no title) (ID: %d)"
+msgstr "(geen titel) (ID: %d)"
+
+#: includes/apps/hcaptcha/hcaptcha.php:412
+msgid "for more settings/info"
+msgstr "voor meer instellingen/informatie"
+
+#: includes/apps/hcaptcha/hcaptcha.php:409
+msgid "Generate a form-tag for adding an hCaptcha verification widget to stop spam bots. Check out"
+msgstr "Genereer een formulier-tag om een hCaptcha verificatie widget toe te voegen om spam bots te stoppen. Bekijk"
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:843
+msgid "Please enter a field name before inserting the tag."
+msgstr "Voer een veldnaam in voordat je de tag invoegt."
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:835
+msgid "Please select an ACF field from the dropdown before inserting the tag."
+msgstr "Selecteer een ACF veld uit de dropdown voordat je de tag invoegt."
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:672
+msgid "Please enter no more than %d characters."
+msgstr "Voer niet meer dan %d karakters in."
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:664
+msgid "Please enter a number less than or equal to %s."
+msgstr "Voer een getal in dat kleiner van gelijk is aan %s."
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:661
+msgid "Please enter a number greater than or equal to %s."
+msgstr "Voer een nummer in dat groter of gelijk is aan %s."
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:657
+msgid "Please enter a valid number."
+msgstr "Voer een geldig nummer in."
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:445
+msgid "ACF field not found."
+msgstr "ACF veld niet gevonden."
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:439
+msgid "Advanced Custom Fields plugin is required for this field to work."
+msgstr "De Advanced Custom Fields plugin is vereist om dit veld te laten werken."
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:432
+msgid "Should be:"
+msgstr "Zou moeten zijn:"
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:431
+msgid "Current tag:"
+msgstr "Huidig label:"
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:430
+msgid "The field key will be automatically added"
+msgstr "Het veld sleutel wordt automatisch toegevoegd"
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:429
+msgid "Enter field name and SELECT an ACF field from the dropdown"
+msgstr "Voer veldnaam in en SELECTEER een ACF veld uit DE dropdown"
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:428
+msgid "Click \"Insert Tag\" → \"ACF Field\""
+msgstr "Klik \"Tag invoegen\" → \"ACF veld\""
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:427
+msgid "Delete this tag from your form"
+msgstr "Verwijder deze tag van je formulier"
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:426
+msgid "How to fix:"
+msgstr "Hoe te repareren:"
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:425
+msgid "ACF field key is missing from the tag."
+msgstr "Het ACF veld sleutel ontbreekt uit de tag."
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:348
+msgid "ACF Field: Field name is missing."
+msgstr "ACF veld: veldnaam ontbreekt."
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:260
+msgid "Field Group"
+msgstr "Veldgroep"
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:219
+msgid "This field key is automatically populated when you select an ACF field above."
+msgstr "Dit veld sleutel wordt automatisch ingevuld wanneer je een ACF veld hierboven selecteert."
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:217
+msgid "Select a field above to see the key"
+msgstr "Selecteer een veld hierboven om de sleutel te zien"
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:213
+msgid "Field Key"
+msgstr "Veld sleutel"
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:206
+msgid "The field key will be automatically added when you select a field above."
+msgstr "Het sleutelveld wordt automatisch toegevoegd wanneer je een veld boven selecteert."
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:203
+msgid "⚠️ Please select an ACF field before inserting the tag."
+msgstr "⚠️ Selecteer een ACF veld voordat je de tag invoegt."
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:199
+msgid "-- Select ACF Field (Required) --"
+msgstr "-- Selecteer ACF veld (vereist) --"
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:182
+msgid "Field name"
+msgstr "Veldnaam"
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:154
+msgid "Create form-tags using ACF fields to automatically populate and manage dynamic form data. Visit the <a href=\"%s\">ACF Integration settings.</a>"
+msgstr "Gebruik formulier-tags om ACF velden te gebruiken om dynamische formuliergegevens automatisch te vullen en te beheren. Ga naar de <a href=\"%s\">ACF integratie instellingen.</a>"
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:114
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:127
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:149
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:193
+msgid "ACF Field"
+msgstr "ACF veld"
+
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-url.php:94
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:651
+msgid "Please enter a valid URL."
+msgstr "Voer een geldige URL in."
+
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-url.php:19
+msgid "CF7Apps URL"
+msgstr "CF7Apps URL"
+
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-textarea.php:74
+msgid "Sets the textarea height"
+msgstr "Stelt de hoogte van het tekstgebied in"
+
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-textarea.php:73
+msgid "Rows"
+msgstr "Rijen"
+
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-textarea.php:19
+msgid "CF7Apps Textarea"
+msgstr "CF7Apps tekstgebied"
+
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-text.php:63
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-textarea.php:62
+msgid "Character Limit"
+msgstr "Karakter beperken"
+
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-text.php:19
+msgid "CF7Apps Text"
+msgstr "CF7Apps tekst"
+
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-number.php:110
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-text.php:86
+msgid "Appears after the input"
+msgstr "Wordt weergegeven na de invoer"
+
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-number.php:109
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-text.php:85
+msgid "Append"
+msgstr "Toevoegen"
+
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-number.php:99
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-text.php:75
+msgid "Appears before the input"
+msgstr "Wordt weergegeven vóór de invoer"
+
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-number.php:98
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-text.php:74
+msgid "Prepend"
+msgstr "Voorvoegen"
+
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-number.php:88
+msgid "Increment/decrement amount"
+msgstr "Bedrag verhogen/verlagen"
+
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-number.php:87
+msgid "Step Size"
+msgstr "Stapgrootte"
+
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-number.php:76
+msgid "Maximum Value"
+msgstr "Maximale waarde"
+
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-number.php:66
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-number.php:77
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-text.php:64
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-textarea.php:63
+msgid "Leave blank for no limit"
+msgstr "Laat leeg voor geen limiet"
+
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-number.php:65
+msgid "Minimum Value"
+msgstr "Minimum waarde"
+
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-number.php:19
+msgid "CF7Apps Number"
+msgstr "CF7Apps nummer"
+
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-email.php:94
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:645
+msgid "Please enter a valid email address."
+msgstr "Geef een geldig e-mailadres op."
+
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-email.php:50
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-number.php:55
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-text.php:53
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-textarea.php:52
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-url.php:50
+msgid "Appears within the input"
+msgstr "Wordt weergegeven in de invoer"
+
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-email.php:49
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-number.php:54
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-text.php:52
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-textarea.php:51
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-url.php:49
+msgid "Placeholder Text"
+msgstr "Plaatshouder tekst"
+
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-email.php:39
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-number.php:44
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-text.php:42
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-textarea.php:41
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-url.php:39
+msgid "Appears when creating a new post"
+msgstr "Wordt weergegeven bij het maken van een nieuw bericht"
+
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-email.php:38
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-number.php:43
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-text.php:41
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-textarea.php:40
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-url.php:38
+msgid "Default Value"
+msgstr "Standaardwaarde"
+
+#: includes/apps/acf-integration/includes/class-acf-field-cf7apps-email.php:19
+msgid "CF7Apps Email"
+msgstr "CF7Apps e-mail"
+
+#: includes/apps/acf-integration/acf-integration.php:188
+msgid "When enabled, the ACF integration bridge is created between Contact Form 7 and Advanced Custom Fields."
+msgstr "Wanneer ingeschakeld, wordt de ACF integratie brug aangemaakt tussen Contact Form 7 en aangepaste velden."
+
+#: includes/apps/acf-integration/acf-integration.php:185
+msgid "Enable Advanced Custom Fields"
+msgstr "Geavanceerde aangepaste velden inschakelen"
+
+#: includes/apps/acf-integration/acf-integration.php:180
+msgid "ACF Integration"
+msgstr "ACF integratie"
+
+#: includes/apps/acf-integration/acf-integration.php:172 src/screens/Apps.js:69
+#: src/screens/AppSettings.js:813
+msgid "Install ACF Plugin"
+msgstr "ACF plugin installeren"
+
+#. translators: %s: Install plugin link
+#: includes/apps/acf-integration/acf-integration.php:171
+msgid "This integration requires the Advanced Custom Fields plugin to be active. %s"
+msgstr "Deze integratie vereist dat de Advanced Custom Fields plugin actief is. %s"
+
+#: includes/apps/acf-integration/acf-integration.php:131
+msgid "This integration requires the Advanced Custom Fields plugin to be active."
+msgstr "Deze integratie vereist dat de Advanced Custom Fields plugin actief is."
+
+#: includes/apps/acf-integration/acf-integration.php:130
+msgid "CF7 Apps ACF Integration:"
+msgstr "CF7 apps ACF integratie:"
+
+#: includes/apps/acf-integration/acf-integration.php:27
+msgid "Connect Advanced Custom Fields with Contact Form 7. Create CF7Apps field types in ACF and use them directly in your CF7 forms."
+msgstr "Connect Advanced Custom Fields met Contact Form 7. Maak CF7Apps veldtypen in ACF en gebruik ze direct in je CF7 formulieren."
+
+#: includes/apps/acf-integration/acf-integration.php:26
+msgid "Advanced Custom Fields"
+msgstr "Advanced Custom Fields"
+
+#: includes/apps/webhook/webhook.php:30
+msgid "Send Contact Form 7 data to third-party apps instantly using webhook endpoints."
+msgstr "Stuur Contact Form 7 gegevens direct naar apps van derden met behulp van webhook endpoints."
+
+#: includes/apps/webhook/webhook.php:224
+msgid "Use {{form_id}} and {{fields}} placeholders."
+msgstr "Gebruik {{form_id}} en {{fields}} plaatshouders."
+
+#: includes/apps/webhook/webhook.php:172
+msgid "Enable Webhook"
+msgstr "Webhook inschakelen"
+
+#: includes/apps/webhook/webhook.php:118 includes/apps/webhook/webhook.php:228
+msgid "To create your own body, you can replace values like in mail body (case sensitive).<br>Example: {\"message\": \"Sir [your-name] from [your-city].\" }<br><br>We will send your form data as JSON:<br><br><textarea style=\"width: 500px; min-height: 150px; font-family: monospace; background: #f8f9fa; border: 1px solid #ddd; padding: 10px; pointer-events: none;\" readonly>%s</textarea><br><br>This is just an example of field names and will not reflect actual data or customizations."
+msgstr "Om je eigen body te maken, kun je waarden vervangen zoals in mail body (hoofdlettergevoelig).<br>Voorbeeld: {\"bericht\": \"Meneer [je-naam] uit [je-stad].\" <br><br> We versturen je formuliergegevens als JSON:<br><br><textarea style=\"width: 500px; min-height: 150px; font-family: monospace; background: #f8f9fa; border: 1px solid #ddd; padding: 10px; pointer-events: none;\" readonly>%s</textarea><br><br>Dit is slechts een voorbeeld van veldnamen en weerspiegelt niet de werkelijke gegevens of aanpassingen."
+
+#: includes/apps/webhook/webhook.php:117 includes/apps/webhook/webhook.php:227
+msgid "When you need customize your request.<br><br><strong style=\"color: #A61B1B;\">BE CAREFUL!</strong> This can break your integration (check your quotes).<br>REMEMBER: You can change field name with webhook config: [email* your_email webhook:email]"
+msgstr "Wanneer je je aanvraag moet aanpassen.<br><br><strong style=\"color: #A61B1B;\">Wees voorzichtig!</strong> Dit kan je integratie verbreken (controleer je aanhalingskarakters).<br>HERINNEREN: Je kunt de veldnaam wijzigen met webhook config: [e-mail* je_email webhook:email]"
+
+#: includes/apps/webhook/webhook.php:114
+msgid "Use {{form_id}} and {{fields}} placeholders. {{fields}} will be a JSON object of submitted fields."
+msgstr "Gebruik {{form_id}} en {{fields}} plaatshouders. {{fields}} zal een JSON object zijn van ingediende velden."
+
+#: includes/apps/webhook/webhook.php:111 includes/apps/webhook/webhook.php:220
+msgid "Request Body"
+msgstr "Aanvraag body"
+
+#: includes/apps/webhook/webhook.php:107 includes/apps/webhook/webhook.php:216
+msgid "One header by line, separated by colon. Example: Authorization: Bearer 99999999999999999999"
+msgstr "Een header per regel, gescheiden door een dubbele punt. Voorbeeld: Autorisatie: Bearer 99999999999999999999"
+
+#: includes/apps/webhook/webhook.php:106 includes/apps/webhook/webhook.php:215
+msgid "When you need authentication/authorization.<br>You can add %s to your webhook request."
+msgstr "Wanneer je authenticatie/autorisatie nodig hebt.<br>Je kunt %s toevoegen aan je webhook aanvraag."
+
+#: includes/apps/webhook/webhook.php:103 includes/apps/webhook/webhook.php:212
+msgid "Optional JSON object of headers to send with the webhook request."
+msgstr "Optioneel JSON object van headers om mee te sturen met het webhook aanvraag."
+
+#: includes/apps/webhook/webhook.php:99 includes/apps/webhook/webhook.php:207
+msgid "Request Headers"
+msgstr "Headers voor aanvragen"
+
+#: includes/apps/webhook/webhook.php:93 includes/apps/webhook/webhook.php:200
+msgid "Form Data"
+msgstr "Formuliergegevens"
+
+#: includes/apps/webhook/webhook.php:93 includes/apps/webhook/webhook.php:200
+msgid "JSON"
+msgstr "JSON"
+
+#: includes/apps/webhook/webhook.php:91 includes/apps/webhook/webhook.php:198
+msgid "Data Type"
+msgstr "Gegevenstype"
+
+#: includes/apps/webhook/webhook.php:80 includes/apps/webhook/webhook.php:189
+msgid "Method"
+msgstr "Methode"
+
+#: includes/apps/webhook/webhook.php:71 includes/apps/webhook/webhook.php:179
+msgid "Webhook URL *"
+msgstr "Webhook URL *"
+
+#: includes/apps/webhook/webhook.php:58
+msgid "Enable Webhook App"
+msgstr "Webhook app inschakelen"
+
+#: includes/apps/acf-integration/acf-integration.php:35
+#: includes/apps/ai-form-generator/ai-form-generator.php:50
+#: includes/apps/webhook/webhook.php:37
+msgid "Integration"
+msgstr "Integratie"
+
+#: includes/apps/webhook/webhook.php:29 includes/apps/webhook/webhook.php:54
+#: includes/apps/webhook/webhook.php:167
+msgid "Webhook"
+msgstr "Webhook"
+
+#: includes/apps/cf7-redirection/cf7-redirection.php:393
+msgid "Redirection settings not found."
+msgstr "Instellingen voor doorsturen niet gevonden."
+
+#: includes/apps/cf7-redirection/cf7-redirection.php:378
+#: includes/apps/cf7-redirection/cf7-redirection.php:407
+#: includes/apps/cf7-redirection/cf7-redirection.php:426
+msgid "Redirection is not enabled for this form."
+msgstr "Omleiding is niet ingeschakeld voor dit formulier."
+
+#: includes/apps/cf7-redirection/cf7-redirection.php:175
+msgid "Enable Redirection"
+msgstr "Omleiding inschakelen"
+
+#: includes/apps/cf7-redirection/cf7-redirection.php:84
+#: includes/apps/cf7-redirection/cf7-redirection.php:185
+msgid "Internal URL"
+msgstr "Interne URL"
+
+#: includes/apps/cf7-redirection/cf7-redirection.php:77
+#: includes/apps/webhook/webhook.php:67
+msgid "Enable global settings, so they apply across all forms. These global settings will automatically sync with each individual form, where they can still be modified if needed."
+msgstr "Schakel globale instellingen in, zodat ze voor alle formulieren gelden. Deze globale instellingen worden automatisch gesynchroniseerd met elk afzonderlijk formulier, waar ze indien nodig nog kunnen worden aangepast."
+
+#: includes/apps/cf7-redirection/cf7-redirection.php:465
+msgid "Redirection app is not enabled."
+msgstr "De omleidingsapp is niet ingeschakeld."
+
+#: includes/apps/cf7-redirection/cf7-redirection.php:457
+msgid "Form ID is required."
+msgstr "Formulier ID is vereist."
+
+#: includes/apps/cf7-redirection/cf7-redirection.php:113
+#: includes/apps/cf7-redirection/cf7-redirection.php:215
+msgid "Open the redirection link in a new browser tab."
+msgstr "Open de omleidingslink in een nieuwe tab van je browser."
+
+#: includes/apps/cf7-redirection/cf7-redirection.php:110
+#: includes/apps/cf7-redirection/cf7-redirection.php:212
+msgid "Open in New Tab"
+msgstr "Openen in nieuwe tab"
+
+#: includes/apps/cf7-redirection/cf7-redirection.php:103
+#: includes/apps/cf7-redirection/cf7-redirection.php:204
+msgid "Enter the external URL to redirect users to after form submission. Make sure to include the full URL (e.g., https://example.com)."
+msgstr "Voer de externe URL in waar gebruikers naartoe worden geleid na het indienen van het formulier. Zorg ervoor dat je de volledige URL vermeldt (bijv. https://example.com)."
+
+#: includes/apps/cf7-redirection/cf7-redirection.php:95
+#: includes/apps/cf7-redirection/cf7-redirection.php:196
+msgid "Choose the post type to redirect users to after form submission."
+msgstr "Kies het berichttype waarnaar gebruikers moeten worden doorverwezen na het indienen van een formulier."
+
+#: includes/apps/cf7-redirection/cf7-redirection.php:91
+#: includes/apps/cf7-redirection/cf7-redirection.php:192
+msgid "Select Post Type"
+msgstr "Berichttype selecteren"
+
+#: includes/apps/cf7-redirection/cf7-redirection.php:85
+#: includes/apps/cf7-redirection/cf7-redirection.php:99
+#: includes/apps/cf7-redirection/cf7-redirection.php:186
+#: includes/apps/cf7-redirection/cf7-redirection.php:200
+msgid "External URL"
+msgstr "Externe URL"
+
+#: includes/apps/cf7-redirection/cf7-redirection.php:81
+#: includes/apps/cf7-redirection/cf7-redirection.php:182
+msgid "Redirection Type"
+msgstr "Type omleiding"
+
+#: includes/apps/cf7-redirection/cf7-redirection.php:74
+#: includes/apps/webhook/webhook.php:64
+msgid "Global Settings"
+msgstr "Globale instellingen"
+
+#: includes/apps/cf7-redirection/cf7-redirection.php:68
+msgid "Enable Redirection App"
+msgstr "App omleiden inschakelen"
+
+#: includes/apps/cf7-redirection/cf7-redirection.php:35
+msgid "Easily redirect users to a specific URL after form submission, enhancing user experience and engagement."
+msgstr "Stuur gebruikers eenvoudig door naar een specifieke URL na het indienen van een formulier, voor een betere gebruikerservaring en meer betrokkenheid."
+
+#: includes/apps/cf7-redirection/cf7-redirection.php:34
+#: includes/apps/cf7-redirection/cf7-redirection.php:63
+#: includes/apps/cf7-redirection/cf7-redirection.php:167
+msgid "Redirection"
+msgstr "Omleiding"
+
+#. translators: %s: Documentation URL
+#. translators: %s: documentation link HTML
+#: includes/apps/acf-integration/acf-integration.php:179
+#: includes/apps/ai-form-generator/ai-form-generator.php:68
+#: includes/apps/cf7-entries/cf7-entries.php:191
+#: includes/apps/cf7-redirection/cf7-redirection.php:62
+#: includes/apps/cf7-redirection/cf7-redirection.php:166
+#: includes/apps/webhook/webhook.php:54 includes/apps/webhook/webhook.php:167
+msgid "Stuck? Check our Documentation on %s"
+msgstr "Zit je vast? Bekijk onze documentatie op %s"
+
+#: includes/apps/ai-form-generator/ai-form-generator.php:197
+#: src/components/CF7AppsPopup.js:7
+msgid "Close"
+msgstr "Sluiten"
+
+#: includes/rest-api/wp-admin/v1/rest-api.php:414
+msgid "All Forms"
+msgstr "Alle formulieren"
+
+#: includes/apps/cf7-entries/cf7-entries.php:197
+msgid "Show Entries"
+msgstr "Invoeren weergeven"
+
+#: includes/apps/cf7-entries/cf7-entries.php:184
+msgid "Entries Settings"
+msgstr "Invoerinstellingen"
+
+#: includes/apps/cf7-entries/cf7-entries.php:27
+msgid "Access and manage all Contact Form 7 submissions in a centralized database with filtering and export options."
+msgstr "Toegang en beheer alle Contact Form 7 inzendingen in een gecentraliseerde database met filter en export opties."
+
+#: includes/apps/cf7-entries/cf7-entries.php:26
+#: includes/apps/cf7-entries/cf7-entries.php:36
+#: includes/apps/cf7-entries/cf7-entries.php:141
+#: includes/apps/cf7-entries/cf7-entries.php:192
+msgid "Entries"
+msgstr "Invoeren"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: honeypot.php
+msgid "CF7 Apps"
+msgstr "CF7 Apps"
+
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:511
+msgid "CF7 Apps' Honeypot App."
+msgstr "Honeypot app van CF7 Apps."
+
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:509
+msgid "We've moved your Honeypot settings to the Honeypot App in CF7 Apps. You can still use both, but we recommend using the"
+msgstr "We hebben je Honeypot instellingen verplaatst naar de Honeypot App in CF7 Apps. Je kunt beide nog steeds gebruiken, maar we raden aan om de"
+
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:505
+msgid "Welcome to CF7 Apps!"
+msgstr "Welkom bij CF7 Apps!"
+
+#: includes/rest-api/wp-admin/v1/rest-api.php:268
+msgid "No"
+msgstr "Nee"
+
+#: includes/rest-api/wp-admin/v1/rest-api.php:268
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/class-cf7apps.php:74
+msgid "Install Contact Form 7"
+msgstr "Contact Form 7 installeren"
+
+#: includes/class-cf7apps.php:72
+msgid "%s requires Contact Form 7 to be installed and activated. %s"
+msgstr "%s vereist dat Contact Form 7 is geïnstalleerd en geactiveerd. %s"
+
+#: includes/apps/honeypot/honeypot.php:92
+msgid "Time Check Value (Seconds)"
+msgstr "Tijdcontrole waarde (seconden)"
+
+#: includes/apps/honeypot/honeypot.php:83
+msgid "If checked, the accessibility label will not be generated. This is not recommended, but may improve."
+msgstr "Als deze optie is aangevinkt, wordt het toegankelijkheidslabel niet gegenereerd. Dit wordt niet aanbevolen, maar kan wel een verbetering zijn."
+
+#: includes/apps/honeypot/honeypot.php:76
+msgid "By default Honeypot uses inline CSS on the honeypot field to hide it. Checking this box moves."
+msgstr "Standaard gebruikt Honeypot inline CSS op het honeypot veld om het te verbergen. Als je dit vakje aanvinkt, wordt het verplaatst."
+
+#: includes/apps/honeypot/honeypot.php:69
+msgid "To assure the honeypot isn't auto-completed by a browser, we add an atypical \"autocomplete\" ."
+msgstr "Om er zeker van te zijn dat de Honeypot niet automatisch wordt afgerond door een browser, voegen we een atypische \"autocomplete\" toe."
+
+#: includes/apps/honeypot/honeypot.php:61
+msgid "You can customize the (hidden) accessibility message, or just leave it the default value: Please leave this field empty."
+msgstr "Je kunt het (verborgen) toegankelijkheidsbericht aanpassen, of gewoon de standaardwaarde laten: laat dit veld leeg."
+
+#: includes/apps/honeypot/honeypot.php:50
+msgid "(Recommended) By default the Honeypot field is not stored with other fields in form-saving plugins like Flamingo. However, saving the field can be useful to see what spam bots are leaving behind to help you improve your spam stopping superpowers. If you'd like to store the value of the field, simply check this box (and install Flamingo)."
+msgstr "(Aanbevolen) Standaard wordt het Honeypot veld niet opgeslagen met andere velden in formulier opslag plugins zoals Flamingo. Het opslaan van het veld kan echter nuttig zijn om te zien wat spam bots achterlaten om je te helpen je spam stoppende superkrachten te verbeteren. Als je de waarde van het veld wil opslaan, vink dan gewoon dit vakje aan (en installeer Flamingo)."
+
+#: includes/apps/honeypot/honeypot.php:42
+msgid "Enable Honeypot App"
+msgstr "Honeypot app inschakelen"
+
+#: includes/apps/honeypot/honeypot.php:14
+msgid "Add invisible honeypot fields to your forms to trap spambots, ensuring spam-free form submission."
+msgstr "Onzichtbare Honeypot velden toevoegen aan je formulieren om spambots te vangen, zodat het formulier zonder spam wordt verzonden."
+
+#: includes/apps/hcaptcha/hcaptcha.php:500
+msgid "Choose the theme for the hCaptcha widget."
+msgstr "Kies het thema voor de hCaptcha widget."
+
+#: includes/apps/hcaptcha/hcaptcha.php:497
+msgid "Dark"
+msgstr "Donker"
+
+#: includes/apps/hcaptcha/hcaptcha.php:496
+msgid "Light"
+msgstr "Licht"
+
+#: includes/apps/hcaptcha/hcaptcha.php:493
+msgid "Theme"
+msgstr "Thema"
+
+#: includes/apps/hcaptcha/hcaptcha.php:488
+msgid "Add custom CSS classes to the hCaptcha widget."
+msgstr "Aangepaste CSS klassen toevoegen aan de hCaptcha widget."
+
+#: includes/apps/hcaptcha/hcaptcha.php:484
+msgid "Custom CSS"
+msgstr "Aangepaste CSS"
+
+#: includes/apps/hcaptcha/hcaptcha.php:479
+msgid "Choose the size of the hCaptcha widget."
+msgstr "Kies de grootte van de hCaptcha widget."
+
+#: includes/apps/hcaptcha/hcaptcha.php:476
+msgid "Compact"
+msgstr "Compact"
+
+#: includes/apps/hcaptcha/hcaptcha.php:475
+msgid "Normal"
+msgstr "Normaal"
+
+#: includes/apps/hcaptcha/hcaptcha.php:472
+msgid "Size"
+msgstr "Grootte"
+
+#: includes/apps/hcaptcha/hcaptcha.php:452
+msgid "Language"
+msgstr "Taal"
+
+#: includes/apps/hcaptcha/hcaptcha.php:444
+msgid "Error message"
+msgstr "Foutmelding"
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:172
+#: includes/apps/hcaptcha/hcaptcha.php:422
+#: legacy-honeypot/includes/honeypot4cf7.php:419
+#: includes/apps/cf7-internal-settings/src/components/CF7AppsHeader.js:61
+#: src/components/CF7AppsHeader.js:63
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:170
+#: includes/apps/hcaptcha/hcaptcha.php:420
+#: legacy-honeypot/includes/honeypot4cf7.php:417
+msgid "Need help setting this up? Check out our"
+msgstr "Hulp nodig om dit op te zetten? Bekijk onze"
+
+#: includes/apps/acf-integration/acf-integration.php:194
+#: includes/apps/ai-form-generator/ai-form-generator.php:80
+#: includes/apps/cf7-entries/cf7-entries.php:204
+#: includes/apps/cf7-redirection/cf7-redirection.php:118
+#: includes/apps/cf7-redirection/cf7-redirection.php:221
+#: includes/apps/hcaptcha/hcaptcha.php:206
+#: includes/apps/honeypot/honeypot.php:101
+#: includes/apps/webhook/webhook.php:123 includes/apps/webhook/webhook.php:233
+msgid "Save Settings"
+msgstr "Instellingen opslaan"
+
+#: includes/apps/hcaptcha/hcaptcha.php:200
+#: includes/apps/hcaptcha/hcaptcha.php:467
+msgid "Choose a language for your CAPTCHA display."
+msgstr "Kies een taal voor je CAPTCHA toon."
+
+#: includes/apps/hcaptcha/hcaptcha.php:196
+msgid "Force hCaptcha to render in a specific language."
+msgstr "Forceer hCaptcha om in een specifieke taal weer te geven."
+
+#: includes/apps/hcaptcha/hcaptcha.php:192
+#: includes/apps/hcaptcha/hcaptcha.php:448
+msgid "Enter a custom message to display when CAPTCHA validation fails."
+msgstr "Voer een aangepast bericht in om weer te geven wanneer de CAPTCHA validatie mislukt."
+
+#: includes/apps/hcaptcha/hcaptcha.php:191
+#: includes/apps/hcaptcha/hcaptcha.php:333
+msgid "Invalid Captcha"
+msgstr "Ongeldige CAPTCHA"
+
+#: includes/apps/hcaptcha/hcaptcha.php:189
+msgid "Invalid Captcha error message"
+msgstr "Ongeldige foutmelding CAPTCHA"
+
+#: includes/apps/hcaptcha/hcaptcha.php:185
+msgid "Enter your secret key. Don't have one? <a href=\"https://dashboard.hcaptcha.com/settings/secrets\" target=\"_blank\">Click here</a> to generate a new key."
+msgstr "Voer je geheime sleutel in. Heb je er geen? <a href=\"https://dashboard.hcaptcha.com/settings/secrets\" target=\"_blank\">Klik hier</a> om een nieuwe sleutel te genereren."
+
+#: includes/apps/hcaptcha/hcaptcha.php:184
+msgid "Secret key is required."
+msgstr "Geheime sleutel is vereist."
+
+#: includes/apps/hcaptcha/hcaptcha.php:181
+msgid "Secret Key"
+msgstr "Geheime sleutel"
+
+#: includes/apps/hcaptcha/hcaptcha.php:177
+msgid "Enter your site key. Don't have one? <a href=\"https://dashboard.hcaptcha.com/sites\" target=\"_blank\">Click here</a> to generate a new key."
+msgstr "Voer je site sleutel in. Heb je er geen? <a href=\"https://dashboard.hcaptcha.com/sites\" target=\"_blank\">Klik hier</a> om een nieuwe sleutel te genereren."
+
+#: includes/apps/hcaptcha/hcaptcha.php:176
+msgid "Site key is required."
+msgstr "Site sleutel is vereist."
+
+#: includes/apps/hcaptcha/hcaptcha.php:173
+msgid "Site Key"
+msgstr "Site sleutel"
+
+#: includes/apps/hcaptcha/hcaptcha.php:168
+msgid "Enable hCaptcha App"
+msgstr "Inschakelen hCaptcha app"
+
+#: includes/apps/hcaptcha/hcaptcha.php:165
+#: includes/apps/hcaptcha/hcaptcha.php:411
+msgid "hCaptcha Settings"
+msgstr "hCaptcha instellingen"
+
+#: includes/apps/hcaptcha/hcaptcha.php:148
+#: includes/apps/honeypot/honeypot.php:20
+msgid "Spam Protection"
+msgstr "Spam beveiliging"
+
+#: includes/apps/hcaptcha/hcaptcha.php:142
+#: includes/apps/hcaptcha/hcaptcha.php:166
+msgid "Add hCaptcha to Contact Form 7 for secure, spam-free forms."
+msgstr "Voeg hCaptcha toe aan Contact Form 7 voor veilige, spamvrije formulieren."
+
+#: includes/apps/hcaptcha/hcaptcha.php:141
+#: includes/apps/hcaptcha/hcaptcha.php:381
+msgid "hCaptcha"
+msgstr "hCaptcha"
+
+#: includes/apps/hcaptcha/hcaptcha.php:136
+msgid "Zulu"
+msgstr "Zulu"
+
+#: includes/apps/hcaptcha/hcaptcha.php:135
+msgid "Yoruba"
+msgstr "Yoruba"
+
+#: includes/apps/hcaptcha/hcaptcha.php:134
+msgid "Yiddish"
+msgstr "Jiddisch"
+
+#: includes/apps/hcaptcha/hcaptcha.php:133
+msgid "Xhosa"
+msgstr "Xhosa"
+
+#: includes/apps/hcaptcha/hcaptcha.php:132
+msgid "Welsh"
+msgstr "Welsh"
+
+#: includes/apps/hcaptcha/hcaptcha.php:131
+msgid "Vietnamese"
+msgstr "Vietnamees"
+
+#: includes/apps/hcaptcha/hcaptcha.php:130
+msgid "Uzbek"
+msgstr "Oezbeeks"
+
+#: includes/apps/hcaptcha/hcaptcha.php:129
+msgid "Urdu"
+msgstr "Urdu"
+
+#: includes/apps/hcaptcha/hcaptcha.php:128
+msgid "Ukrainian"
+msgstr "Oekraïens"
+
+#: includes/apps/hcaptcha/hcaptcha.php:127
+msgid "Uyghur"
+msgstr "Oeigoers"
+
+#: includes/apps/hcaptcha/hcaptcha.php:126
+msgid "Turkmen"
+msgstr "Turkmeens"
+
+#: includes/apps/hcaptcha/hcaptcha.php:125
+msgid "Turkish"
+msgstr "Turks"
+
+#: includes/apps/hcaptcha/hcaptcha.php:124
+msgid "Thai"
+msgstr "Thais"
+
+#: includes/apps/hcaptcha/hcaptcha.php:123
+msgid "Teluga"
+msgstr "Teluga"
+
+#: includes/apps/hcaptcha/hcaptcha.php:122
+msgid "Tatar"
+msgstr "Tataars"
+
+#: includes/apps/hcaptcha/hcaptcha.php:121
+msgid "Tamil"
+msgstr "Tamil"
+
+#: includes/apps/hcaptcha/hcaptcha.php:120
+msgid "Tajik"
+msgstr "Tadzjieks"
+
+#: includes/apps/hcaptcha/hcaptcha.php:119
+msgid "Tagalog"
+msgstr "Tagalog"
+
+#: includes/apps/hcaptcha/hcaptcha.php:118
+msgid "Swedish"
+msgstr "Zweeds"
+
+#: includes/apps/hcaptcha/hcaptcha.php:117
+msgid "Swahili"
+msgstr "Swahili"
+
+#: includes/apps/hcaptcha/hcaptcha.php:116
+msgid "Sundanese"
+msgstr "Soendanees"
+
+#: includes/apps/hcaptcha/hcaptcha.php:115
+msgid "Spanish"
+msgstr "Spaans"
+
+#: includes/apps/hcaptcha/hcaptcha.php:114
+msgid "Southern Sotho"
+msgstr "Zuid Sotho"
+
+#: includes/apps/hcaptcha/hcaptcha.php:113
+msgid "Somali"
+msgstr "Somalisch"
+
+#: includes/apps/hcaptcha/hcaptcha.php:112
+msgid "Slovenian"
+msgstr "Sloveens"
+
+#: includes/apps/hcaptcha/hcaptcha.php:111
+msgid "Slovak"
+msgstr "Slowaaks"
+
+#: includes/apps/hcaptcha/hcaptcha.php:110
+msgid "Serbian"
+msgstr "Servisch"
+
+#: includes/apps/hcaptcha/hcaptcha.php:109
+msgid "Sinhalese"
+msgstr "Sinhalees"
+
+#: includes/apps/hcaptcha/hcaptcha.php:108
+msgid "Sindhi"
+msgstr "Sindhi"
+
+#: includes/apps/hcaptcha/hcaptcha.php:107
+msgid "Shona"
+msgstr "Shona"
+
+#: includes/apps/hcaptcha/hcaptcha.php:106
+msgid "Samoan"
+msgstr "Samoaans"
+
+#: includes/apps/hcaptcha/hcaptcha.php:105
+msgid "Russian"
+msgstr "Russisch"
+
+#: includes/apps/hcaptcha/hcaptcha.php:104
+msgid "Romanian"
+msgstr "Roemeens"
+
+#: includes/apps/hcaptcha/hcaptcha.php:103
+msgid "Punjabi"
+msgstr "Punjabi"
+
+#: includes/apps/hcaptcha/hcaptcha.php:102
+msgid "Pashto"
+msgstr "Pashto"
+
+#: includes/apps/hcaptcha/hcaptcha.php:101
+msgid "Portuguese"
+msgstr "Portugees"
+
+#: includes/apps/hcaptcha/hcaptcha.php:100
+msgid "Polish"
+msgstr "Pools"
+
+#: includes/apps/hcaptcha/hcaptcha.php:99
+msgid "Oriya"
+msgstr "Oriya"
+
+#: includes/apps/hcaptcha/hcaptcha.php:98
+msgid "Nyanja"
+msgstr "Nyanja"
+
+#: includes/apps/hcaptcha/hcaptcha.php:97
+msgid "Norwegian"
+msgstr "Noors"
+
+#: includes/apps/hcaptcha/hcaptcha.php:96
+msgid "Nepali"
+msgstr "Nepalees"
+
+#: includes/apps/hcaptcha/hcaptcha.php:95
+msgid "Montenegrin (as Bosnian)"
+msgstr "Montenegrijns (als bosniër)"
+
+#: includes/apps/hcaptcha/hcaptcha.php:94
+msgid "Mongolian"
+msgstr "Mongools"
+
+#: includes/apps/hcaptcha/hcaptcha.php:93
+msgid "Marathi"
+msgstr "Marathi"
+
+#: includes/apps/hcaptcha/hcaptcha.php:92
+msgid "Maori"
+msgstr "Maori"
+
+#: includes/apps/hcaptcha/hcaptcha.php:91
+msgid "Maltese"
+msgstr "Maltees"
+
+#: includes/apps/hcaptcha/hcaptcha.php:90
+msgid "Malayalam"
+msgstr "Malayalam"
+
+#: includes/apps/hcaptcha/hcaptcha.php:89
+msgid "Malay"
+msgstr "Maleis"
+
+#: includes/apps/hcaptcha/hcaptcha.php:88
+msgid "Malagasy"
+msgstr "Malagasi"
+
+#: includes/apps/hcaptcha/hcaptcha.php:87
+msgid "Macedonian"
+msgstr "Macedonisch"
+
+#: includes/apps/hcaptcha/hcaptcha.php:86
+msgid "Luxembourgish"
+msgstr "Luxemburgs"
+
+#: includes/apps/hcaptcha/hcaptcha.php:85
+msgid "Lithuanian"
+msgstr "Litouws"
+
+#: includes/apps/hcaptcha/hcaptcha.php:84
+msgid "Latvian"
+msgstr "Lets"
+
+#: includes/apps/hcaptcha/hcaptcha.php:83
+msgid "Latin"
+msgstr "Latijn"
+
+#: includes/apps/hcaptcha/hcaptcha.php:82
+msgid "Lao"
+msgstr "Laotiaans"
+
+#: includes/apps/hcaptcha/hcaptcha.php:81
+msgid "Kurdish"
+msgstr "Koerdisch"
+
+#: includes/apps/hcaptcha/hcaptcha.php:80
+msgid "Korean"
+msgstr "Koreaans"
+
+#: includes/apps/hcaptcha/hcaptcha.php:79
+msgid "Kirghiz"
+msgstr "Kirgizisch"
+
+#: includes/apps/hcaptcha/hcaptcha.php:78
+msgid "Kinyarwanda"
+msgstr "Kinyarwanda"
+
+#: includes/apps/hcaptcha/hcaptcha.php:77
+msgid "Khmer"
+msgstr "Khmer"
+
+#: includes/apps/hcaptcha/hcaptcha.php:76
+msgid "Kazakh"
+msgstr "Kazachs"
+
+#: includes/apps/hcaptcha/hcaptcha.php:75
+msgid "Kannada"
+msgstr "Kannada"
+
+#: includes/apps/hcaptcha/hcaptcha.php:74
+msgid "Javanese"
+msgstr "Javaans"
+
+#: includes/apps/hcaptcha/hcaptcha.php:73
+msgid "Japanese"
+msgstr "Japans"
+
+#: includes/apps/hcaptcha/hcaptcha.php:72
+msgid "Italian"
+msgstr "Italiaans"
+
+#: includes/apps/hcaptcha/hcaptcha.php:71
+msgid "Irish"
+msgstr "Iers"
+
+#: includes/apps/hcaptcha/hcaptcha.php:70
+msgid "Indonesian"
+msgstr "Indonesisch"
+
+#: includes/apps/hcaptcha/hcaptcha.php:69
+msgid "Igbo"
+msgstr "Igbo"
+
+#: includes/apps/hcaptcha/hcaptcha.php:68
+msgid "Icelandic"
+msgstr "IJslands"
+
+#: includes/apps/hcaptcha/hcaptcha.php:67
+msgid "Hungarian"
+msgstr "Hongaars"
+
+#: includes/apps/hcaptcha/hcaptcha.php:66
+msgid "Hmong"
+msgstr "Hmong"
+
+#: includes/apps/hcaptcha/hcaptcha.php:65
+msgid "Hindi"
+msgstr "Hindi"
+
+#: includes/apps/hcaptcha/hcaptcha.php:64
+msgid "Hebrew"
+msgstr "Hebreeuws"
+
+#: includes/apps/hcaptcha/hcaptcha.php:63
+msgid "Hawaiian"
+msgstr "Hawaiiaans"
+
+#: includes/apps/hcaptcha/hcaptcha.php:62
+msgid "Hausa"
+msgstr "Hausa"
+
+#: includes/apps/hcaptcha/hcaptcha.php:61
+msgid "Haitian"
+msgstr "Haïtiaans"
+
+#: includes/apps/hcaptcha/hcaptcha.php:60
+msgid "Gujurati"
+msgstr "Gujurati"
+
+#: includes/apps/hcaptcha/hcaptcha.php:59
+msgid "Greek"
+msgstr "Grieks"
+
+#: includes/apps/hcaptcha/hcaptcha.php:58
+msgid "German"
+msgstr "Duits"
+
+#: includes/apps/hcaptcha/hcaptcha.php:57
+msgid "Georgian"
+msgstr "Georgisch"
+
+#: includes/apps/hcaptcha/hcaptcha.php:56
+msgid "Galacian"
+msgstr "Galacisch"
+
+#: includes/apps/hcaptcha/hcaptcha.php:55
+msgid "Gaelic"
+msgstr "Gaelisch"
+
+#: includes/apps/hcaptcha/hcaptcha.php:54
+msgid "Frisian"
+msgstr "Fries"
+
+#: includes/apps/hcaptcha/hcaptcha.php:53
+msgid "French"
+msgstr "Frans"
+
+#: includes/apps/hcaptcha/hcaptcha.php:52
+msgid "Finnish"
+msgstr "Fins"
+
+#: includes/apps/hcaptcha/hcaptcha.php:51
+msgid "Farsi/ Persian"
+msgstr "Farsi/Perzisch"
+
+#: includes/apps/hcaptcha/hcaptcha.php:50
+msgid "Estonian"
+msgstr "Estlands"
+
+#: includes/apps/hcaptcha/hcaptcha.php:49
+msgid "Esperanto"
+msgstr "Esperanto"
+
+#: includes/apps/hcaptcha/hcaptcha.php:26
+msgid "English"
+msgstr "Engels"
+
+#: includes/apps/hcaptcha/hcaptcha.php:48
+msgid "Dutch"
+msgstr "Nederlands"
+
+#: includes/apps/hcaptcha/hcaptcha.php:47
+msgid "Danish"
+msgstr "Deens"
+
+#: includes/apps/hcaptcha/hcaptcha.php:46
+msgid "Czech"
+msgstr "Tsjechisch"
+
+#: includes/apps/hcaptcha/hcaptcha.php:45
+msgid "Croatian"
+msgstr "Kroatisch"
+
+#: includes/apps/hcaptcha/hcaptcha.php:44
+msgid "Corsican"
+msgstr "Corsicaans"
+
+#: includes/apps/hcaptcha/hcaptcha.php:43
+msgid "Chinese Traditional"
+msgstr "Chinees traditioneel"
+
+#: includes/apps/hcaptcha/hcaptcha.php:42
+msgid "Chinese Simplified"
+msgstr "Chinees (Versimpeld)"
+
+#: includes/apps/hcaptcha/hcaptcha.php:41
+msgid "Chinese"
+msgstr "Chinees"
+
+#: includes/apps/hcaptcha/hcaptcha.php:40
+msgid "Cebuano"
+msgstr "Cebuano"
+
+#: includes/apps/hcaptcha/hcaptcha.php:39
+msgid "Catalan"
+msgstr "Catalaans"
+
+#: includes/apps/hcaptcha/hcaptcha.php:38
+msgid "Burmese"
+msgstr "Birmees"
+
+#: includes/apps/hcaptcha/hcaptcha.php:37
+msgid "Bosnian"
+msgstr "Bosnisch"
+
+#: includes/apps/hcaptcha/hcaptcha.php:36
+msgid "Bulgarian"
+msgstr "Bulgaars"
+
+#: includes/apps/hcaptcha/hcaptcha.php:35
+msgid "Bengali"
+msgstr "Bengalees"
+
+#: includes/apps/hcaptcha/hcaptcha.php:34
+msgid "Belarusian"
+msgstr "Wit-Russisch"
+
+#: includes/apps/hcaptcha/hcaptcha.php:33
+msgid "Basque"
+msgstr "Baskisch"
+
+#: includes/apps/hcaptcha/hcaptcha.php:32
+msgid "Azerbaijani"
+msgstr "Azerbeidzjaans"
+
+#: includes/apps/hcaptcha/hcaptcha.php:31
+msgid "Armenian"
+msgstr "Armeens"
+
+#: includes/apps/hcaptcha/hcaptcha.php:30
+msgid "Arabic"
+msgstr "Arabisch"
+
+#: includes/apps/hcaptcha/hcaptcha.php:29
+msgid "Amharic"
+msgstr "Amharic"
+
+#: includes/apps/hcaptcha/hcaptcha.php:28
+msgid "Albanian"
+msgstr "Albanees"
+
+#: includes/apps/hcaptcha/hcaptcha.php:27
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+#. Description of the plugin
+#: honeypot.php
+msgid "Contact Form 7 Apps is a collection of useful modules and extensions for Contact Form 7."
+msgstr "Contact Form 7 Apps is een verzameling handige modules en uitbreidingen voor Contact Form 7."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: honeypot.php
+msgid "https://cf7apps.com/"
+msgstr "https://cf7apps.com/"
+
+#: legacy-honeypot/includes/honeypot4cf7.php:472
+msgid "disable Accessibility Label"
+msgstr "label toegankelijkheid uitschakelen"
+
+#: legacy-honeypot/includes/class-honeypot4cf7-data-table.php:81
+#: src/templates/honeypot/HoneypotForms.js:48
+msgid "Edit"
+msgstr "Bewerken"
+
+#: legacy-honeypot/includes/class-honeypot4cf7-data-table.php:69
+msgid "no"
+msgstr "nee"
+
+#: legacy-honeypot/includes/class-honeypot4cf7-data-table.php:66
+msgid "yes"
+msgstr "ja"
+
+#: legacy-honeypot/includes/class-honeypot4cf7-data-table.php:18
+#: src/templates/cf7Entries/cf7Entries.js:413
+#: src/templates/honeypot/HoneypotForms.js:35
+msgid "Action"
+msgstr "Actie"
+
+#: legacy-honeypot/includes/class-honeypot4cf7-data-table.php:17
+#: src/templates/honeypot/HoneypotForms.js:34
+msgid "Date"
+msgstr "Datum"
+
+#: legacy-honeypot/includes/class-honeypot4cf7-data-table.php:15
+#: src/templates/honeypot/HoneypotForms.js:32
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: legacy-honeypot/includes/class-honeypot4cf7-data-table.php:14
+#: src/templates/honeypot/HoneypotForms.js:31
+msgid "Title"
+msgstr "Titel"
+
+#: includes/apps/honeypot/honeypot.php:23
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:193
+msgid "Forms"
+msgstr "Formulieren"
+
+#: includes/apps/cf7-entries/cf7-entries.php:33
+#: includes/apps/cf7-entries/cf7-entries.php:35
+#: includes/apps/cf7-redirection/cf7-redirection.php:42
+#: includes/apps/honeypot/honeypot.php:22
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:189 src/screens/Apps.js:76
+msgid "General"
+msgstr "Algemeen"
+
+#: legacy-honeypot/includes/honeypot4cf7.php:350
+#: legacy-honeypot/includes/honeypot4cf7.php:465
+msgid "Move inline CSS"
+msgstr "Verplaats inline CSS"
+
+#: legacy-honeypot/includes/honeypot4cf7.php:332
+#: legacy-honeypot/includes/honeypot4cf7.php:451
+msgid "Placeholder"
+msgstr "Plaatshouder"
+
+#: legacy-honeypot/includes/honeypot4cf7.php:323
+#: legacy-honeypot/includes/honeypot4cf7.php:444
+msgid "Wrapper ID"
+msgstr "Wrapper ID"
+
+#: legacy-honeypot/includes/honeypot4cf7.php:314
+msgid "Class"
+msgstr "Klasse"
+
+#: legacy-honeypot/includes/honeypot4cf7.php:305
+msgid "ID"
+msgstr "ID"
+
+#: legacy-honeypot/includes/honeypot4cf7.php:299
+msgid "Optional Settings"
+msgstr "Optionele instellingen"
+
+#: legacy-honeypot/includes/honeypot4cf7.php:294
+msgid "For better security, change \"honeypot\" to something more appealing to a bot, such as text including \"email\" or \"website\"."
+msgstr "Voor betere beveiliging, verander 'honeypot' in iets dat aantrekkelijker is voor een bot, zoals tekst met 'email' of 'site'."
+
+#. translators: %s: Link to Honeypot settings page
+#: legacy-honeypot/includes/honeypot4cf7.php:278
+#: legacy-honeypot/includes/honeypot4cf7.php:402
+msgid "Generate a form-tag for a spam-stopping honeypot field. Check out %s for more settings/info."
+msgstr "Genereer een form-tag voor een spam-stoppend honeypot veld. Check out %s voor meer instellingen/info."
+
+#: legacy-honeypot/includes/honeypot4cf7.php:265
+msgid "Honeypot for CF7"
+msgstr "Honeypot voor CF7"
+
+#. translators: %s: honeypot field ID
+#: legacy-honeypot/includes/honeypot4cf7.php:214
+msgid "Something is stuck in the honey. Field ID = %s"
+msgstr "Er zit iets vast in de honing. Veld ID = %s"
+
+#. translators: 1: submission interval integer 2: honeypot field ID
+#: legacy-honeypot/includes/honeypot4cf7.php:178
+msgid "Honeypot detected form submitted too fast (%1$s seconds). Field ID = %2$s"
+msgstr "Honeypot gedetecteerd formulier te snel ingediend (%1$s seconden). Veld-ID = %2$s"
+
+#. translators: 1: spam count 2: install date
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:409
+msgid "Honeypot has stopped %1$s spam submissions since %2$s"
+msgstr "Honeypot heeft %1$s spam inzendingen gestopt sinds %2$s"
+
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:387
+msgid "Reset to Defaults"
+msgstr "Reset naar standaardwaarden"
+
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:386
+msgid "Save"
+msgstr "Opslaan"
+
+#: includes/apps/honeypot/honeypot.php:87
+#: includes/apps/honeypot/honeypot.php:93
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:381
+msgid "If enabled, this will perform an additional check for spam bots using the time it takes to submit the form under the idea that bots submit forms faster than people. The value is set to 4 seconds by default, but adjust based on your needs. If you're not sure, leave this unchecked."
+msgstr "Indien ingeschakeld, zal dit een extra controle uitvoeren op spam bots door de tijd te meten die nodig is om het formulier in te dienen, onder het idee dat bots formulieren sneller indienen dan mensen. De waarde is standaard ingesteld op 4 seconden, maar pas aan op basis van je behoeften. Als je het niet zeker weet, laat dit dan uitgevinkt."
+
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:377
+#: legacy-honeypot/includes/honeypot4cf7.php:372
+#: legacy-honeypot/includes/honeypot4cf7.php:482
+msgid "seconds"
+msgstr "seconden"
+
+#: includes/apps/honeypot/honeypot.php:86
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:375
+#: legacy-honeypot/includes/honeypot4cf7.php:368
+#: legacy-honeypot/includes/honeypot4cf7.php:479
+msgid "Enable Time Check"
+msgstr "Schakel tijdcontrole in"
+
+#: includes/apps/honeypot/honeypot.php:79
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:365
+#: legacy-honeypot/includes/honeypot4cf7.php:359
+msgid "Disable Accessibility Label"
+msgstr "Schakel toegankelijkheidslabel uit"
+
+#: includes/apps/honeypot/honeypot.php:73
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:361
+msgid "By default Honeypot uses inline CSS on the honeypot field to hide it. Checking this box moves that CSS to the footer of the page. It may help confuse bots."
+msgstr "Standaard gebruikt Honeypot inline CSS op het honeypot veld om het te verbergen. Als je dit vakje aanvinkt, wordt die CSS naar de footer van de pagina verplaatst. Het kan helpen om bots te verwarren."
+
+#: includes/apps/honeypot/honeypot.php:72
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:355
+msgid "Move Inline CSS"
+msgstr "Verplaats inline CSS"
+
+#: includes/apps/honeypot/honeypot.php:66
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:351
+msgid "To assure the honeypot isn't auto-completed by a browser, we add an atypical \"autocomplete\" attribute value. If you have any problems with this, you can switch it to the more standard (but less effective) \"off\" value. If you're unsure, leave this unchecked."
+msgstr "Om te verzekeren dat de honeypot niet automatisch wordt ingevuld door een browser, voegen we een atypische \"autocomplete\" attribuutwaarde toe. Als je hier problemen mee hebt, kun je deze wijzigen naar de meer standaard (maar minder effectieve) \"off\" waarde. Als je het niet zeker weet, laat dit dan ongecontroleerd."
+
+#: includes/apps/honeypot/honeypot.php:65
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:345
+#: legacy-honeypot/includes/honeypot4cf7.php:341
+#: legacy-honeypot/includes/honeypot4cf7.php:458
+msgid "Use Standard Autocomplete Value"
+msgstr "Gebruik standaard autocomplete waarde"
+
+#. translators: %s: default value
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:337
+msgid "You can customize the (hidden) accessibility message, or just leave it the default value: %s"
+msgstr "Je kunt het (verborgen) toegankelijkheidsbericht aanpassen, of het gewoon de standaardwaarde laten: %s"
+
+#: includes/apps/honeypot/honeypot.php:59
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:327
+msgid "Accessibility Message"
+msgstr "Toegankelijkheidsbericht"
+
+#: includes/apps/honeypot/honeypot.php:55
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:323
+msgid "If using placeholders on other fields, this can help honeypot mimic a \"real\" field. This can be overridden in the contact form. If you're unsure, leave blank."
+msgstr "Als je plaatshouders in andere velden gebruikt, kan dit helpen om honeypot een 'echt' veld te laten nabootsen. Dit kan worden overschreven in het contactformulier. Als je het niet zeker weet, laat het dan leeg."
+
+#: includes/apps/honeypot/honeypot.php:53
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:317
+msgid "Global Placeholder"
+msgstr "Globale plaatshouder"
+
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:310
+msgid "Flamingo"
+msgstr "Flamingo"
+
+#. translators: 1: Link to Flamingo plugin page
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:309
+msgid "(Recommended) By default the Honeypot field is not stored with other fields in form-saving plugins like %1$s. However, saving the field can be useful to see what spam bots are leaving behind to help you improve your spam stopping superpowers. If you'd like to store the value of the field, simply check this box (and install %1$s)."
+msgstr "(Aanbevolen) Standaard wordt het honeypot veld niet opgeslagen met andere velden in formulier opslag plugins zoals %1$s. Het opslaan van het veld kan echter nuttig zijn om te zien wat spam bots achterlaten om je te helpen je spam stoppende superkrachten te verbeteren. Als je de waarde van het veld wil opslaan, vink dan gewoon dit vakje aan (en installeer %1$s)."
+
+#: includes/apps/honeypot/honeypot.php:47
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:299
+msgid "Store Honeypot Value"
+msgstr "Opslaan Honeypot waarde"
+
+#: includes/apps/honeypot/honeypot.php:40
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:295
+msgid "Below are global settings for the Honeypot plugin. Many of these settings can be overridden when inserting the Honeypot field shortcode when creating your CF7 contact form."
+msgstr "Hieronder staan globale instellingen voor de Honeypot plugin. Veel van deze instellingen kunnen worden overschreven bij het invoegen van de Honeypot veld shortcode bij het maken van je CF7 contactformulier."
+
+#: includes/apps/honeypot/honeypot.php:39
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:294
+#: legacy-honeypot/includes/honeypot4cf7.php:275
+#: legacy-honeypot/includes/honeypot4cf7.php:399
+msgid "Honeypot Settings"
+msgstr "Honeypot instellingen"
+
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:292
+msgid "Get Support"
+msgstr "Krijg ondersteuning"
+
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:281
+msgid "The changes have been saved."
+msgstr "De wijzigingen zijn opgeslagen."
+
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:239
+msgid "The settings have been reset to their defaults."
+msgstr "Alle instellingen zijn teruggezet naar hun standaardwaarden."
+
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:100
+#: src/components/CF7AppsApp.js:72
+msgid "Settings"
+msgstr "﻿Instellingen"
+
+#. translators: %s: Link to Contact Form 7 plugin page.
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:64
+msgid "The version of %s that is installed will not work with this version of Honeypot for CF7."
+msgstr "De versie van %s die is geïnstalleerd, werkt niet met deze versie van Honeypot for CF7."
+
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:49
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:65
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:179
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:204
+msgid "Honeypot for Contact Form 7"
+msgstr "Honeypot for Contact Form 7"
+
+#: includes/apps/honeypot/honeypot.php:80
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:371
+msgid "If checked, the accessibility label will not be generated. This is not recommended, but may improve spam blocking. If you're unsure, leave this unchecked."
+msgstr "Indien aangevinkt, wordt het toegankelijkheidslabel niet gegenereerd. Dit wordt niet aanbevolen, maar kan spamblokkering verbeteren. Als je het niet zeker weet, laat dit dan uitgeschakeld."
+
+#: includes/apps/acf-integration/includes/class-cf7-acf-integration.php:230
+#: legacy-honeypot/includes/honeypot4cf7.php:384
+msgid "Insert Tag"
+msgstr "Tag invoegen"
+
+#: legacy-honeypot/includes/honeypot4cf7.php:287
+msgid "Name"
+msgstr "Naam"
+
+#: legacy-honeypot/includes/honeypot4cf7.php:264
+msgid "Generate a form-tag for a spam-stopping honeypot field. For more details, see %s."
+msgstr "Creëer een tag in het formulier om een anti-spam honeypot veld te maken. Voor meer details, ga naar %s."
+
+#: includes/apps/honeypot/honeypot.php:13
+#: legacy-honeypot/includes/class-honeypot4cf7-data-table.php:16
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:180
+#: legacy-honeypot/includes/honeypot4cf7.php:258
+#: legacy-honeypot/includes/honeypot4cf7.php:429
+#: src/templates/honeypot/HoneypotForms.js:33
+msgid "Honeypot"
+msgstr "Honeypot"
+
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:338
+#: legacy-honeypot/includes/honeypot4cf7.php:62
+msgid "Please leave this field empty."
+msgstr "Gelieve dit veld leeg te laten."
+
+#. translators: %s: Link to Contact Form 7 plugin page.
+#: legacy-honeypot/includes/honeypot4cf7-admin.php:48
+msgid "%s must be installed and activated for the CF7 Honeypot plugin to work"
+msgstr "%s moet geïnstalleerd en geactiveerd zijn voordat de CF7 Honeypot plugin werkt"

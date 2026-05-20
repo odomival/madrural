@@ -1,0 +1,270 @@
+# Translation of Plugins - WP Mail Logging - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - WP Mail Logging - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-04-11 15:08:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - WP Mail Logging - Stable (latest release)\n"
+
+#. translators: %d Mail Log ID that was not removed.
+#: src/WPML_PrivacyController.php:138
+msgid "A mail with the id %d was unable to be removed at this time."
+msgstr "Eine E-Mail mit der ID %d konnte diesmal nicht entfernt werden."
+
+#: src/WPML_PrivacyController.php:101
+msgid "Mails"
+msgstr "E-Mails"
+
+#: src/WPML_PrivacyController.php:43
+msgid "When you use this site several actions (e.g. commenting) trigger the dispatch of emails. They contain information about you associated with your email address. Which data are part of these emails depends on the action performed. These emails are stored and accessible to the site management as log."
+msgstr "Wenn du diese Website benutzt, lösen einige Aktionen (z.&nbsp;B. Kommentieren) das Senden von E-Mails aus. Diese beinhalten Informationen über dich in Verbindung mit deiner E-Mail-Adresse. Die mit diesen E-Mails verbundenen Daten hängen von der Art der Aktion ab. Diese E-Mails werden gespeichert und sind in der Website-Verwaltung als Protokoll verfügbar."
+
+#. Description of the plugin
+msgid "Logs each email sent by WordPress."
+msgstr "Jede von WordPress gesendete E-Mail wird protokolliert."
+
+#. Plugin Name of the plugin
+#: src/WPML_OptionsManager.php:360 src/WPML_OptionsManager.php:397
+#: src/WPML_OptionsManager.php:398 src/WPML_PrivacyController.php:54
+#: src/WPML_PrivacyController.php:62
+msgid "WP Mail Logging"
+msgstr "WP Mail Logging"
+
+#: wp-mail-logging.php:34
+msgid "Your server's PHP version: "
+msgstr "Die PHP-Version deines Servers:"
+
+#: wp-mail-logging.php:33
+msgid "Minimal version of PHP required: "
+msgstr "Minimal erforderliche PHP-Version:"
+
+#: wp-mail-logging.php:32
+msgid "Error: plugin \"WP Mail Logging\" requires a newer version of PHP to be running."
+msgstr "Fehler: Plugin „WP Mail Logging“ erfordert eine neuere Version von PHP zum Laufen."
+
+#: src/inc/Admin/SettingsTab.php:326
+msgid "Cleanup by Time"
+msgstr "Aufräumen nach Zeit"
+
+#: src/inc/Admin/SettingsTab.php:305
+msgid "Cleanup by Amount"
+msgstr "Aufräumen nach Anzahl"
+
+#: src/inc/Admin/SettingsTab.php:298
+msgid "Save space by deleting logs regularly."
+msgstr "Spare Platz indem du Protokolle regelmäßig löschst."
+
+#: src/inc/Admin/SettingsTab.php:297
+msgid "Log Rotation"
+msgstr "Protokoll-Rotation"
+
+#: src/inc/Admin/SettingsTab.php:256
+msgid "Display Host"
+msgstr "Host anzeigen"
+
+#: src/inc/Admin/SettingsTab.php:238
+msgid "Select your preferred display format."
+msgstr "Wähle dein bevorzugtes Anzeigeformat aus."
+
+#: src/inc/Admin/SettingsTab.php:240
+msgid "Default Format for Message"
+msgstr "Standardformat für Nachricht"
+
+#. translators: %s: Date time in WP format.
+#: src/inc/Admin/SettingsTab.php:220
+msgid "Use format from WordPress settings (%s)"
+msgstr "Format aus WordPress-Einstellungen benutzen (%s)"
+
+#: src/inc/Admin/SettingsTab.php:211
+msgid "Can See Submission data"
+msgstr "Kann Einreichungs-Daten sehen"
+
+#: src/inc/Admin/SettingsTab.php:289
+msgid "Cleanup"
+msgstr "Aufräumen"
+
+#: src/inc/Admin/SettingsTab.php:202
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: src/inc/class-wp-list-table.php:720
+msgid "Select All"
+msgstr "Alle auswählen"
+
+#: src/inc/class-wp-list-table.php:584
+msgid "Go to the last page"
+msgstr "Zur letzten Seite"
+
+#: src/inc/class-wp-list-table.php:577
+msgid "Go to the next page"
+msgstr "Zur nächsten Seite"
+
+#: src/inc/class-wp-list-table.php:573
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s von %2$s"
+
+#: src/inc/class-wp-list-table.php:567
+msgid "Current page"
+msgstr "Aktuelle Seite"
+
+#: src/inc/class-wp-list-table.php:558
+msgid "Go to the previous page"
+msgstr "Zur vorherigen Seite"
+
+#: src/inc/class-wp-list-table.php:551
+msgid "Go to the first page"
+msgstr "Zur ersten Seite"
+
+#: src/inc/class-wp-list-table.php:533 src/inc/class-wp-list-table.php:948
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] "1 Element"
+msgstr[1] "%s Elemente"
+
+#: src/inc/class-wp-list-table.php:465
+msgid "%s pending"
+msgstr "%s ausstehend"
+
+#: src/inc/class-wp-list-table.php:439
+msgid "Excerpt View"
+msgstr "Kurzfassung"
+
+#: src/inc/class-wp-list-table.php:438
+msgid "List View"
+msgstr "Listenansicht"
+
+#. translators: 1: month name, 2: 4-digit year
+#: src/inc/class-wp-list-table.php:422
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: src/inc/class-wp-list-table.php:409
+msgid "Show all dates"
+msgstr "Jedes Datum"
+
+#: src/inc/class-wp-list-table.php:325
+msgid "Apply"
+msgstr "Übernehmen"
+
+#: src/inc/class-wp-list-table.php:315
+msgid "Bulk Actions"
+msgstr "Mehrfachaktionen"
+
+#: src/inc/class-wp-list-table.php:191
+msgid "No items found."
+msgstr "Keine Elemente gefunden."
+
+#: src/WPML_OptionsManager.php:589
+msgid "Anyone"
+msgstr "Jeder"
+
+#: src/WPML_OptionsManager.php:587
+msgid "Subscriber"
+msgstr "Abonnent"
+
+#: src/WPML_OptionsManager.php:585
+msgid "Contributor"
+msgstr "Mitarbeiter"
+
+#: src/WPML_OptionsManager.php:583
+msgid "Author"
+msgstr "Autor"
+
+#: src/WPML_OptionsManager.php:581
+msgid "Editor"
+msgstr "Editor"
+
+#: src/WPML_OptionsManager.php:579
+msgid "Administrator"
+msgstr "Administrator"
+
+#: src/WPML_OptionsManager.php:576
+msgid "false"
+msgstr "falsch"
+
+#: src/WPML_OptionsManager.php:574
+msgid "true"
+msgstr "wahr"
+
+#: src/inc/Admin/EmailLogsTab.php:498 src/WPML_OptionsManager.php:549
+msgid "Search"
+msgstr "Suche"
+
+#: src/WPML_OptionsManager.php:374
+msgid "Entries per page"
+msgstr "Einträge pro Seite"
+
+#: src/WPML_OptionsManager.php:359
+msgid "WP Mail Log"
+msgstr "WP-Mail-Protokoll"
+
+#: src/WPML_LifeCycle.php:195 src/WPML_OptionsManager.php:413
+#: src/WPML_OptionsManager.php:414 src/WPML_Plugin.php:252
+msgid "Settings"
+msgstr "Einstellungen"
+
+#. translators: %s filename of the attachment that doesn't exist.
+#: src/Renderer/Column/AttachmentsColumn.php:50
+#: src/Renderer/Column/AttachmentsColumn.php:81
+msgid "Attachment %s is not present"
+msgstr "Anhang %s ist nicht verfügbar"
+
+#: src/Renderer/Format/BaseRenderer.php:51
+#: src/Renderer/WPML_ColumnManager.php:34
+msgid "Host"
+msgstr "Host"
+
+#: src/Renderer/Format/BaseRenderer.php:42
+#: src/Renderer/WPML_ColumnManager.php:38
+msgid "Error"
+msgstr "Fehler"
+
+#: src/Renderer/Format/BaseRenderer.php:45
+#: src/Renderer/WPML_ColumnManager.php:37
+msgid "Attachments"
+msgstr "Anhänge"
+
+#: src/Renderer/Format/BaseRenderer.php:43
+msgid "Headers"
+msgstr "Header"
+
+#: src/inc/Admin/EmailLogsTab.php:453 src/Renderer/Format/BaseRenderer.php:44
+msgid "Message"
+msgstr "Nachricht"
+
+#: src/Renderer/Format/BaseRenderer.php:41
+#: src/Renderer/WPML_ColumnManager.php:36
+msgid "Subject"
+msgstr "Betreff"
+
+#: src/Renderer/Format/BaseRenderer.php:40
+#: src/Renderer/WPML_ColumnManager.php:35
+msgid "Receiver"
+msgstr "Empfänger"
+
+#: src/Renderer/Format/BaseRenderer.php:39
+#: src/Renderer/WPML_ColumnManager.php:33
+msgid "Time"
+msgstr "Zeit"
+
+#: src/Renderer/WPML_ColumnManager.php:32
+msgid "ID"
+msgstr "ID"
+
+#: src/WPML_Email_Log_List.php:330
+msgid "No email found."
+msgstr "Keine E-Mail gefunden."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/wp-mail-logging/"
+msgstr "https://de.wordpress.org/plugins/wp-mail-logging/"
+
+#: src/WPML_OptionsManager.php:505 src/WPML_OptionsManager.php:534
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du hast nicht die erforderlichen Rechte, um auf diese Seite zuzugreifen."

@@ -1,0 +1,1594 @@
+Log created: 2026-05-14 10:55:49
+Type: staging
+[2026-05-14 10:55:49][notice]Start creating staging site.
+[2026-05-14 10:55:49][notice]server info fcgi:Off max execution time: 900 wp version:6.9.4 php version:8.3.23 db version:8.0.45 php ini:safe_mode: memory_limit:256M memory_get_usage:37,00 MB memory_get_peak_usage:37,27 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2026-05-14 10:55:49][notice]Start processing core.
+[2026-05-14 10:55:49][notice]Prepare to copy core files.
+[2026-05-14 10:55:49][notice]Retrieve the files required to copy.
+[2026-05-14 10:55:49][notice]Create a cache file.
+[2026-05-14 10:55:50][notice]Copying files starts from: 0
+[2026-05-14 10:55:50][notice]Copying files from /home/madrurp/www to /home/madrurp/www/mystaging01
+[2026-05-14 10:55:50][notice]The count of copied files: 500
+[2026-05-14 10:55:50][notice]The next copying files starts from:500
+[2026-05-14 10:55:51][notice]The count of copied files: 500
+[2026-05-14 10:55:51][notice]The next copying files starts from:1000
+[2026-05-14 10:55:51][notice]The count of copied files: 500
+[2026-05-14 10:55:51][notice]The next copying files starts from:1500
+[2026-05-14 10:55:52][notice]The count of copied files: 500
+[2026-05-14 10:55:52][notice]The next copying files starts from:2000
+[2026-05-14 10:55:53][notice]The count of copied files: 500
+[2026-05-14 10:55:53][notice]The next copying files starts from:2500
+[2026-05-14 10:55:53][notice]The count of copied files: 500
+[2026-05-14 10:55:53][notice]The next copying files starts from:3000
+[2026-05-14 10:55:54][notice]Copying core files is completed.
+[2026-05-14 10:55:54][notice]Replacing table_prefix in wp-config.php is completed.
+[2026-05-14 10:55:54][notice]Start processing wp-content.
+[2026-05-14 10:55:54][notice]Prepare to copy wp-content files.
+[2026-05-14 10:55:54][notice]Retrieve the files required to copy.
+[2026-05-14 10:55:54][notice]Create a cache file.
+[2026-05-14 10:55:55][notice]Copying files starts from: 0
+[2026-05-14 10:55:55][notice]Copying files from /home/madrurp/www/wp-content to /home/madrurp/www/mystaging01/wp-content
+[2026-05-14 10:55:56][notice]The count of copied files: 500
+[2026-05-14 10:55:56][notice]The next copying files starts from:500
+[2026-05-14 10:55:57][notice]The count of copied files: 500
+[2026-05-14 10:55:57][notice]The next copying files starts from:1000
+[2026-05-14 10:55:57][notice]The count of copied files: 500
+[2026-05-14 10:55:57][notice]The next copying files starts from:1500
+[2026-05-14 10:55:58][notice]The count of copied files: 500
+[2026-05-14 10:55:58][notice]The next copying files starts from:2000
+[2026-05-14 10:55:58][notice]The count of copied files: 500
+[2026-05-14 10:55:58][notice]The next copying files starts from:2500
+[2026-05-14 10:56:00][notice]The count of copied files: 500
+[2026-05-14 10:56:00][notice]The next copying files starts from:3000
+[2026-05-14 10:56:04][notice]Copying wp-content files is completed.
+[2026-05-14 10:56:07][notice]Start processing plugins.
+[2026-05-14 10:56:07][notice]Prepare to copy plugins files.
+[2026-05-14 10:56:07][notice]Retrieve the files required to copy.
+[2026-05-14 10:56:07][notice]Create a cache file.
+[2026-05-14 10:56:10][notice]Copying files starts from: 0
+[2026-05-14 10:56:10][notice]Copying files from /home/madrurp/www/wp-content/plugins to /home/madrurp/www/mystaging01/wp-content/plugins
+[2026-05-14 10:56:10][notice]The count of copied files: 500
+[2026-05-14 10:56:10][notice]The next copying files starts from:500
+[2026-05-14 10:56:11][notice]The count of copied files: 500
+[2026-05-14 10:56:11][notice]The next copying files starts from:1000
+[2026-05-14 10:56:11][notice]The count of copied files: 500
+[2026-05-14 10:56:11][notice]The next copying files starts from:1500
+[2026-05-14 10:56:12][notice]The count of copied files: 500
+[2026-05-14 10:56:12][notice]The next copying files starts from:2000
+[2026-05-14 10:56:12][notice]The count of copied files: 500
+[2026-05-14 10:56:12][notice]The next copying files starts from:2500
+[2026-05-14 10:56:13][notice]The count of copied files: 500
+[2026-05-14 10:56:13][notice]The next copying files starts from:3000
+[2026-05-14 10:56:14][notice]The count of copied files: 500
+[2026-05-14 10:56:14][notice]The next copying files starts from:3500
+[2026-05-14 10:56:14][notice]The count of copied files: 500
+[2026-05-14 10:56:14][notice]The next copying files starts from:4000
+[2026-05-14 10:56:15][notice]The count of copied files: 500
+[2026-05-14 10:56:15][notice]The next copying files starts from:4500
+[2026-05-14 10:56:15][notice]The count of copied files: 500
+[2026-05-14 10:56:15][notice]The next copying files starts from:5000
+[2026-05-14 10:56:16][notice]The count of copied files: 500
+[2026-05-14 10:56:16][notice]The next copying files starts from:5500
+[2026-05-14 10:56:17][notice]The count of copied files: 500
+[2026-05-14 10:56:17][notice]The next copying files starts from:6000
+[2026-05-14 10:56:17][notice]The count of copied files: 500
+[2026-05-14 10:56:17][notice]The next copying files starts from:6500
+[2026-05-14 10:56:18][notice]The count of copied files: 500
+[2026-05-14 10:56:18][notice]The next copying files starts from:7000
+[2026-05-14 10:56:18][notice]The count of copied files: 500
+[2026-05-14 10:56:18][notice]The next copying files starts from:7500
+[2026-05-14 10:56:19][notice]The count of copied files: 500
+[2026-05-14 10:56:19][notice]The next copying files starts from:8000
+[2026-05-14 10:56:19][notice]The count of copied files: 500
+[2026-05-14 10:56:19][notice]The next copying files starts from:8500
+[2026-05-14 10:56:20][notice]The count of copied files: 500
+[2026-05-14 10:56:20][notice]The next copying files starts from:9000
+[2026-05-14 10:56:20][notice]The count of copied files: 500
+[2026-05-14 10:56:20][notice]The next copying files starts from:9500
+[2026-05-14 10:56:21][notice]The count of copied files: 500
+[2026-05-14 10:56:21][notice]The next copying files starts from:10000
+[2026-05-14 10:56:21][notice]The count of copied files: 500
+[2026-05-14 10:56:21][notice]The next copying files starts from:10500
+[2026-05-14 10:56:22][notice]The count of copied files: 500
+[2026-05-14 10:56:22][notice]The next copying files starts from:11000
+[2026-05-14 10:56:23][notice]The count of copied files: 500
+[2026-05-14 10:56:23][notice]The next copying files starts from:11500
+[2026-05-14 10:56:23][notice]The count of copied files: 500
+[2026-05-14 10:56:23][notice]The next copying files starts from:12000
+[2026-05-14 10:56:24][notice]The count of copied files: 500
+[2026-05-14 10:56:24][notice]The next copying files starts from:12500
+[2026-05-14 10:56:24][notice]The count of copied files: 500
+[2026-05-14 10:56:24][notice]The next copying files starts from:13000
+[2026-05-14 10:56:25][notice]The count of copied files: 500
+[2026-05-14 10:56:25][notice]The next copying files starts from:13500
+[2026-05-14 10:56:26][notice]The count of copied files: 500
+[2026-05-14 10:56:26][notice]The next copying files starts from:14000
+[2026-05-14 10:56:26][notice]The count of copied files: 500
+[2026-05-14 10:56:26][notice]The next copying files starts from:14500
+[2026-05-14 10:56:27][notice]The count of copied files: 500
+[2026-05-14 10:56:27][notice]The next copying files starts from:15000
+[2026-05-14 10:56:27][notice]The count of copied files: 500
+[2026-05-14 10:56:27][notice]The next copying files starts from:15500
+[2026-05-14 10:56:28][notice]The count of copied files: 500
+[2026-05-14 10:56:28][notice]The next copying files starts from:16000
+[2026-05-14 10:56:29][notice]The count of copied files: 500
+[2026-05-14 10:56:29][notice]The next copying files starts from:16500
+[2026-05-14 10:56:30][notice]The count of copied files: 500
+[2026-05-14 10:56:30][notice]The next copying files starts from:17000
+[2026-05-14 10:56:30][notice]The count of copied files: 500
+[2026-05-14 10:56:30][notice]The next copying files starts from:17500
+[2026-05-14 10:56:31][notice]The count of copied files: 500
+[2026-05-14 10:56:31][notice]The next copying files starts from:18000
+[2026-05-14 10:56:32][notice]Copying plugins files is completed.
+[2026-05-14 10:56:34][notice]Start processing theme.
+[2026-05-14 10:56:34][notice]Prepare to copy theme files.
+[2026-05-14 10:56:34][notice]Retrieve the files required to copy.
+[2026-05-14 10:56:34][notice]Create a cache file.
+[2026-05-14 10:56:34][notice]Copying files starts from: 0
+[2026-05-14 10:56:34][notice]Copying files from /home/madrurp/www/wp-content/themes to /home/madrurp/www/mystaging01/wp-content/themes
+[2026-05-14 10:56:34][notice]Copying theme files is completed.
+[2026-05-14 10:56:36][notice]Start processing upload.
+[2026-05-14 10:56:36][notice]Prepare to copy upload files.
+[2026-05-14 10:56:36][notice]Retrieve the files required to copy.
+[2026-05-14 10:56:36][notice]Create a cache file.
+[2026-05-14 10:56:37][notice]Copying files starts from: 0
+[2026-05-14 10:56:37][notice]Copying files from /home/madrurp/www/wp-content/uploads to /home/madrurp/www/mystaging01/wp-content/uploads
+[2026-05-14 10:56:39][notice]The count of copied files: 500
+[2026-05-14 10:56:39][notice]The next copying files starts from:500
+[2026-05-14 10:56:41][notice]The count of copied files: 500
+[2026-05-14 10:56:41][notice]The next copying files starts from:1000
+[2026-05-14 10:56:44][notice]The count of copied files: 500
+[2026-05-14 10:56:44][notice]The next copying files starts from:1500
+[2026-05-14 10:56:51][notice]The count of copied files: 500
+[2026-05-14 10:56:51][notice]The next copying files starts from:2000
+[2026-05-14 10:56:54][notice]The count of copied files: 500
+[2026-05-14 10:56:54][notice]The next copying files starts from:2500
+[2026-05-14 10:56:54][notice]Copying upload files is completed.
+[2026-05-14 10:56:57][notice]Start processing db.
+[2026-05-14 10:56:57][notice]Prepare to copy database.
+[2026-05-14 10:56:57][notice]Retrieve the tables required to copy.
+[2026-05-14 10:56:57][notice]Copying mod145_actionscheduler_actions is completed.
+[2026-05-14 10:56:59][notice]Start processing db.
+[2026-05-14 10:56:59][notice]Prepare to copy database.
+[2026-05-14 10:56:59][notice]Copying mod145_actionscheduler_claims is completed.
+[2026-05-14 10:57:02][notice]Start processing db.
+[2026-05-14 10:57:02][notice]Prepare to copy database.
+[2026-05-14 10:57:02][notice]Copying mod145_actionscheduler_groups is completed.
+[2026-05-14 10:57:04][notice]Start processing db.
+[2026-05-14 10:57:04][notice]Prepare to copy database.
+[2026-05-14 10:57:04][notice]Copying mod145_actionscheduler_logs is completed.
+[2026-05-14 10:57:06][notice]Start processing db.
+[2026-05-14 10:57:06][notice]Prepare to copy database.
+[2026-05-14 10:57:07][notice]Copying mod145_aioseo_cache is completed.
+[2026-05-14 10:57:10][notice]Start processing db.
+[2026-05-14 10:57:10][notice]Prepare to copy database.
+[2026-05-14 10:57:10][notice]Copying mod145_aioseo_crawl_cleanup_blocked_args is completed.
+[2026-05-14 10:57:12][notice]Start processing db.
+[2026-05-14 10:57:12][notice]Prepare to copy database.
+[2026-05-14 10:57:12][notice]Copying mod145_aioseo_crawl_cleanup_logs is completed.
+[2026-05-14 10:57:15][notice]Start processing db.
+[2026-05-14 10:57:15][notice]Prepare to copy database.
+[2026-05-14 10:57:15][notice]Copying mod145_aioseo_notifications is completed.
+[2026-05-14 10:57:17][notice]Start processing db.
+[2026-05-14 10:57:17][notice]Prepare to copy database.
+[2026-05-14 10:57:17][notice]Copying mod145_aioseo_posts is completed.
+[2026-05-14 10:57:20][notice]Start processing db.
+[2026-05-14 10:57:20][notice]Prepare to copy database.
+[2026-05-14 10:57:20][notice]Copying mod145_commentmeta is completed.
+[2026-05-14 10:57:22][notice]Start processing db.
+[2026-05-14 10:57:22][notice]Prepare to copy database.
+[2026-05-14 10:57:22][notice]Copying mod145_comments is completed.
+[2026-05-14 10:57:25][notice]Start processing db.
+[2026-05-14 10:57:25][notice]Prepare to copy database.
+[2026-05-14 10:57:25][notice]Copying mod145_e_events is completed.
+[2026-05-14 10:57:27][notice]Start processing db.
+[2026-05-14 10:57:27][notice]Prepare to copy database.
+[2026-05-14 10:57:28][notice]Copying mod145_integrate_google_drive_files is completed.
+[2026-05-14 10:57:30][notice]Start processing db.
+[2026-05-14 10:57:30][notice]Prepare to copy database.
+[2026-05-14 10:57:30][notice]Copying mod145_integrate_google_drive_logs is completed.
+[2026-05-14 10:57:32][notice]Start processing db.
+[2026-05-14 10:57:32][notice]Prepare to copy database.
+[2026-05-14 10:57:32][notice]Copying mod145_integrate_google_drive_shortcodes is completed.
+[2026-05-14 10:57:35][notice]Start processing db.
+[2026-05-14 10:57:35][notice]Prepare to copy database.
+[2026-05-14 10:57:35][notice]Copying mod145_kb_optimizer is completed.
+[2026-05-14 10:57:37][notice]Start processing db.
+[2026-05-14 10:57:37][notice]Prepare to copy database.
+[2026-05-14 10:57:37][notice]Copying mod145_kb_optimizer_viewport_hashes is completed.
+[2026-05-14 10:57:40][notice]Start processing db.
+[2026-05-14 10:57:40][notice]Prepare to copy database.
+[2026-05-14 10:57:40][notice]Copying mod145_links is completed.
+[2026-05-14 10:57:42][notice]Start processing db.
+[2026-05-14 10:57:42][notice]Prepare to copy database.
+[2026-05-14 10:57:43][notice]Copying mod145_litespeed_avatar is completed.
+[2026-05-14 10:57:45][notice]Start processing db.
+[2026-05-14 10:57:45][notice]Prepare to copy database.
+[2026-05-14 10:57:45][notice]Copying mod145_litespeed_img_optming is completed.
+[2026-05-14 10:57:47][notice]Start processing db.
+[2026-05-14 10:57:47][notice]Prepare to copy database.
+[2026-05-14 10:57:47][notice]Copying mod145_litespeed_url is completed.
+[2026-05-14 10:57:50][notice]Start processing db.
+[2026-05-14 10:57:50][notice]Prepare to copy database.
+[2026-05-14 10:57:50][notice]Copying mod145_litespeed_url_file is completed.
+[2026-05-14 10:57:52][notice]Start processing db.
+[2026-05-14 10:57:52][notice]Prepare to copy database.
+[2026-05-14 10:57:52][notice]Copying mod145_nf3_action_meta is completed.
+[2026-05-14 10:57:54][notice]Start processing db.
+[2026-05-14 10:57:54][notice]Prepare to copy database.
+[2026-05-14 10:57:54][notice]Copying mod145_nf3_actions is completed.
+[2026-05-14 10:57:56][notice]Start processing db.
+[2026-05-14 10:57:56][notice]Prepare to copy database.
+[2026-05-14 10:57:56][notice]Copying mod145_nf3_chunks is completed.
+[2026-05-14 10:57:59][notice]Start processing db.
+[2026-05-14 10:57:59][notice]Prepare to copy database.
+[2026-05-14 10:57:59][notice]Copying mod145_nf3_field_meta is completed.
+[2026-05-14 10:58:02][notice]Start processing db.
+[2026-05-14 10:58:02][notice]Prepare to copy database.
+[2026-05-14 10:58:02][notice]Copying mod145_nf3_fields is completed.
+[2026-05-14 10:58:04][notice]Start processing db.
+[2026-05-14 10:58:04][notice]Prepare to copy database.
+[2026-05-14 10:58:04][notice]Copying mod145_nf3_form_meta is completed.
+[2026-05-14 10:58:06][notice]Start processing db.
+[2026-05-14 10:58:06][notice]Prepare to copy database.
+[2026-05-14 10:58:07][notice]Copying mod145_nf3_forms is completed.
+[2026-05-14 10:58:09][notice]Start processing db.
+[2026-05-14 10:58:09][notice]Prepare to copy database.
+[2026-05-14 10:58:09][notice]Copying mod145_nf3_object_meta is completed.
+[2026-05-14 10:58:12][notice]Start processing db.
+[2026-05-14 10:58:12][notice]Prepare to copy database.
+[2026-05-14 10:58:12][notice]Copying mod145_nf3_objects is completed.
+[2026-05-14 10:58:14][notice]Start processing db.
+[2026-05-14 10:58:14][notice]Prepare to copy database.
+[2026-05-14 10:58:14][notice]Copying mod145_nf3_relationships is completed.
+[2026-05-14 10:58:16][notice]Start processing db.
+[2026-05-14 10:58:16][notice]Prepare to copy database.
+[2026-05-14 10:58:16][notice]Copying mod145_nf3_upgrades is completed.
+[2026-05-14 10:58:19][notice]Start processing db.
+[2026-05-14 10:58:19][notice]Prepare to copy database.
+[2026-05-14 10:58:19][notice]Copying mod145_ninja_forms_uploads is completed.
+[2026-05-14 10:58:21][notice]Start processing db.
+[2026-05-14 10:58:21][notice]Prepare to copy database.
+[2026-05-14 10:58:21][notice]Copying mod145_options is completed.
+[2026-05-14 10:58:23][notice]Start processing db.
+[2026-05-14 10:58:23][notice]Prepare to copy database.
+[2026-05-14 10:58:24][notice]Copying 10000 queries is completed.
+[2026-05-14 10:58:24][notice]The next copying table info: {"name":"mod145_postmeta","create":1,"start":10000,"finished":0}
+[2026-05-14 10:58:24][notice]Copying mod145_postmeta is completed.
+[2026-05-14 10:58:26][notice]Start processing db.
+[2026-05-14 10:58:26][notice]Prepare to copy database.
+[2026-05-14 10:58:27][notice]Copying mod145_posts is completed.
+[2026-05-14 10:58:28][notice]Start processing db.
+[2026-05-14 10:58:28][notice]Prepare to copy database.
+[2026-05-14 10:58:28][notice]Copying mod145_rcb_asset_seo_redirect is completed.
+[2026-05-14 10:58:31][notice]Start processing db.
+[2026-05-14 10:58:31][notice]Prepare to copy database.
+[2026-05-14 10:58:31][notice]Copying mod145_rcb_blocker_thumbnails is completed.
+[2026-05-14 10:58:33][notice]Start processing db.
+[2026-05-14 10:58:33][notice]Prepare to copy database.
+[2026-05-14 10:58:33][notice]Copying mod145_rcb_consent is completed.
+[2026-05-14 10:58:36][notice]Start processing db.
+[2026-05-14 10:58:36][notice]Prepare to copy database.
+[2026-05-14 10:58:36][notice]Copying mod145_rcb_presets is completed.
+[2026-05-14 10:58:38][notice]Start processing db.
+[2026-05-14 10:58:38][notice]Prepare to copy database.
+[2026-05-14 10:58:38][notice]Copying mod145_rcb_revision is completed.
+[2026-05-14 10:58:40][notice]Start processing db.
+[2026-05-14 10:58:40][notice]Prepare to copy database.
+[2026-05-14 10:58:40][notice]Copying mod145_rcb_revision_independent is completed.
+[2026-05-14 10:58:43][notice]Start processing db.
+[2026-05-14 10:58:43][notice]Prepare to copy database.
+[2026-05-14 10:58:43][notice]Copying mod145_rcb_scan is completed.
+[2026-05-14 10:58:46][notice]Start processing db.
+[2026-05-14 10:58:46][notice]Prepare to copy database.
+[2026-05-14 10:58:46][notice]Copying mod145_rcb_scan_markup is completed.
+[2026-05-14 10:58:48][notice]Start processing db.
+[2026-05-14 10:58:48][notice]Prepare to copy database.
+[2026-05-14 10:58:48][notice]Copying mod145_rcb_stats is completed.
+[2026-05-14 10:58:50][notice]Start processing db.
+[2026-05-14 10:58:50][notice]Prepare to copy database.
+[2026-05-14 10:58:51][notice]Copying mod145_rcb_tcf_features is completed.
+[2026-05-14 10:58:53][notice]Start processing db.
+[2026-05-14 10:58:53][notice]Prepare to copy database.
+[2026-05-14 10:58:53][notice]Copying mod145_rcb_tcf_purposes is completed.
+[2026-05-14 10:58:55][notice]Start processing db.
+[2026-05-14 10:58:55][notice]Prepare to copy database.
+[2026-05-14 10:58:55][notice]Copying mod145_rcb_tcf_special_features is completed.
+[2026-05-14 10:58:58][notice]Start processing db.
+[2026-05-14 10:58:58][notice]Prepare to copy database.
+[2026-05-14 10:58:58][notice]Copying mod145_rcb_tcf_special_purposes is completed.
+[2026-05-14 10:59:01][notice]Start processing db.
+[2026-05-14 10:59:01][notice]Prepare to copy database.
+[2026-05-14 10:59:01][notice]Copying mod145_rcb_tcf_stacks is completed.
+[2026-05-14 10:59:03][notice]Start processing db.
+[2026-05-14 10:59:03][notice]Prepare to copy database.
+[2026-05-14 10:59:03][notice]Copying mod145_rcb_tcf_vendors is completed.
+[2026-05-14 10:59:05][notice]Start processing db.
+[2026-05-14 10:59:05][notice]Prepare to copy database.
+[2026-05-14 10:59:05][notice]Copying mod145_real_queue is completed.
+[2026-05-14 10:59:08][notice]Start processing db.
+[2026-05-14 10:59:08][notice]Prepare to copy database.
+[2026-05-14 10:59:08][notice]Copying mod145_term_relationships is completed.
+[2026-05-14 10:59:10][notice]Start processing db.
+[2026-05-14 10:59:10][notice]Prepare to copy database.
+[2026-05-14 10:59:10][notice]Copying mod145_term_taxonomy is completed.
+[2026-05-14 10:59:13][notice]Start processing db.
+[2026-05-14 10:59:13][notice]Prepare to copy database.
+[2026-05-14 10:59:13][notice]Copying mod145_termmeta is completed.
+[2026-05-14 10:59:15][notice]Start processing db.
+[2026-05-14 10:59:15][notice]Prepare to copy database.
+[2026-05-14 10:59:15][notice]Copying mod145_terms is completed.
+[2026-05-14 10:59:18][notice]Start processing db.
+[2026-05-14 10:59:18][notice]Prepare to copy database.
+[2026-05-14 10:59:18][notice]Copying mod145_usermeta is completed.
+[2026-05-14 10:59:20][notice]Start processing db.
+[2026-05-14 10:59:20][notice]Prepare to copy database.
+[2026-05-14 10:59:20][notice]Copying mod145_users is completed.
+[2026-05-14 10:59:22][notice]Start processing db.
+[2026-05-14 10:59:22][notice]Prepare to copy database.
+[2026-05-14 10:59:22][notice]Copying mod145_wetransfer is completed.
+[2026-05-14 10:59:24][notice]Start processing db.
+[2026-05-14 10:59:24][notice]Prepare to copy database.
+[2026-05-14 10:59:24][notice]Copying mod145_wfauditevents is completed.
+[2026-05-14 10:59:26][notice]Start processing db.
+[2026-05-14 10:59:26][notice]Prepare to copy database.
+[2026-05-14 10:59:26][notice]Copying mod145_wfblockediplog is completed.
+[2026-05-14 10:59:29][notice]Start processing db.
+[2026-05-14 10:59:29][notice]Prepare to copy database.
+[2026-05-14 10:59:29][notice]Copying mod145_wfblocks7 is completed.
+[2026-05-14 10:59:32][notice]Start processing db.
+[2026-05-14 10:59:32][notice]Prepare to copy database.
+[2026-05-14 10:59:32][notice]Copying mod145_wfconfig is completed.
+[2026-05-14 10:59:35][notice]Start processing db.
+[2026-05-14 10:59:35][notice]Prepare to copy database.
+[2026-05-14 10:59:35][notice]Copying mod145_wfcrawlers is completed.
+[2026-05-14 10:59:37][notice]Start processing db.
+[2026-05-14 10:59:37][notice]Prepare to copy database.
+[2026-05-14 10:59:37][notice]Copying mod145_wffilechanges is completed.
+[2026-05-14 10:59:40][notice]Start processing db.
+[2026-05-14 10:59:40][notice]Prepare to copy database.
+[2026-05-14 10:59:40][notice]Copying 10000 queries is completed.
+[2026-05-14 10:59:40][notice]The next copying table info: {"name":"mod145_wffilemods","create":1,"start":10000,"finished":0}
+[2026-05-14 10:59:40][notice]Copying 10000 queries is completed.
+[2026-05-14 10:59:40][notice]The next copying table info: {"name":"mod145_wffilemods","create":1,"start":20000,"finished":0}
+[2026-05-14 10:59:40][notice]Copying mod145_wffilemods is completed.
+[2026-05-14 10:59:42][notice]Start processing db.
+[2026-05-14 10:59:42][notice]Prepare to copy database.
+[2026-05-14 10:59:42][notice]Copying mod145_wfhits is completed.
+[2026-05-14 10:59:45][notice]Start processing db.
+[2026-05-14 10:59:45][notice]Prepare to copy database.
+[2026-05-14 10:59:45][notice]Copying mod145_wfhoover is completed.
+[2026-05-14 10:59:47][notice]Start processing db.
+[2026-05-14 10:59:47][notice]Prepare to copy database.
+[2026-05-14 10:59:47][notice]Copying mod145_wfissues is completed.
+[2026-05-14 10:59:50][notice]Start processing db.
+[2026-05-14 10:59:50][notice]Prepare to copy database.
+[2026-05-14 10:59:50][notice]Copying 10000 queries is completed.
+[2026-05-14 10:59:50][notice]The next copying table info: {"name":"mod145_wfknownfilelist","create":1,"start":10000,"finished":0}
+[2026-05-14 10:59:50][notice]Copying 10000 queries is completed.
+[2026-05-14 10:59:50][notice]The next copying table info: {"name":"mod145_wfknownfilelist","create":1,"start":20000,"finished":0}
+[2026-05-14 10:59:50][notice]Copying mod145_wfknownfilelist is completed.
+[2026-05-14 10:59:52][notice]Start processing db.
+[2026-05-14 10:59:52][notice]Prepare to copy database.
+[2026-05-14 10:59:52][notice]Copying mod145_wflivetraffichuman is completed.
+[2026-05-14 10:59:55][notice]Start processing db.
+[2026-05-14 10:59:55][notice]Prepare to copy database.
+[2026-05-14 10:59:55][notice]Copying mod145_wflocs is completed.
+[2026-05-14 10:59:57][notice]Start processing db.
+[2026-05-14 10:59:57][notice]Prepare to copy database.
+[2026-05-14 10:59:57][notice]Copying mod145_wflogins is completed.
+[2026-05-14 11:00:00][notice]Start processing db.
+[2026-05-14 11:00:00][notice]Prepare to copy database.
+[2026-05-14 11:00:00][notice]Copying mod145_wfls_2fa_secrets is completed.
+[2026-05-14 11:00:02][notice]Start processing db.
+[2026-05-14 11:00:02][notice]Prepare to copy database.
+[2026-05-14 11:00:02][notice]Copying mod145_wfls_role_counts is completed.
+[2026-05-14 11:00:04][notice]Start processing db.
+[2026-05-14 11:00:04][notice]Prepare to copy database.
+[2026-05-14 11:00:04][notice]Copying mod145_wfls_settings is completed.
+[2026-05-14 11:00:07][notice]Start processing db.
+[2026-05-14 11:00:07][notice]Prepare to copy database.
+[2026-05-14 11:00:07][notice]Copying mod145_wfnotifications is completed.
+[2026-05-14 11:00:09][notice]Start processing db.
+[2026-05-14 11:00:09][notice]Prepare to copy database.
+[2026-05-14 11:00:09][notice]Copying mod145_wfpendingissues is completed.
+[2026-05-14 11:00:11][notice]Start processing db.
+[2026-05-14 11:00:11][notice]Prepare to copy database.
+[2026-05-14 11:00:11][notice]Copying mod145_wfreversecache is completed.
+[2026-05-14 11:00:14][notice]Start processing db.
+[2026-05-14 11:00:14][notice]Prepare to copy database.
+[2026-05-14 11:00:14][notice]Copying mod145_wfsecurityevents is completed.
+[2026-05-14 11:00:16][notice]Start processing db.
+[2026-05-14 11:00:16][notice]Prepare to copy database.
+[2026-05-14 11:00:16][notice]Copying mod145_wfsnipcache is completed.
+[2026-05-14 11:00:19][notice]Start processing db.
+[2026-05-14 11:00:19][notice]Prepare to copy database.
+[2026-05-14 11:00:19][notice]Copying mod145_wfstatus is completed.
+[2026-05-14 11:00:21][notice]Start processing db.
+[2026-05-14 11:00:21][notice]Prepare to copy database.
+[2026-05-14 11:00:21][notice]Copying mod145_wftrafficrates is completed.
+[2026-05-14 11:00:24][notice]Start processing db.
+[2026-05-14 11:00:24][notice]Prepare to copy database.
+[2026-05-14 11:00:24][notice]Copying mod145_wfwaffailures is completed.
+[2026-05-14 11:00:26][notice]Start processing db.
+[2026-05-14 11:00:26][notice]Prepare to copy database.
+[2026-05-14 11:00:26][notice]Copying mod145_wpforms_tasks_meta is completed.
+[2026-05-14 11:00:28][notice]Start processing db.
+[2026-05-14 11:00:28][notice]Prepare to copy database.
+[2026-05-14 11:00:28][notice]Copying mod145_wpie_template is completed.
+[2026-05-14 11:00:30][notice]Start processing db.
+[2026-05-14 11:00:30][notice]Prepare to copy database.
+[2026-05-14 11:00:31][notice]Copying mod145_wpml_mails is completed.
+[2026-05-14 11:00:33][notice]Start processing db.
+[2026-05-14 11:00:33][notice]Prepare to copy database.
+[2026-05-14 11:00:33][notice]Copying mod145_yoast_indexable is completed.
+[2026-05-14 11:00:35][notice]Start processing db.
+[2026-05-14 11:00:35][notice]Prepare to copy database.
+[2026-05-14 11:00:35][notice]Copying mod145_yoast_indexable_hierarchy is completed.
+[2026-05-14 11:00:38][notice]Start processing db.
+[2026-05-14 11:00:38][notice]Prepare to copy database.
+[2026-05-14 11:00:38][notice]Copying mod145_yoast_migrations is completed.
+[2026-05-14 11:00:40][notice]Start processing db.
+[2026-05-14 11:00:40][notice]Prepare to copy database.
+[2026-05-14 11:00:40][notice]Copying mod145_yoast_primary_term is completed.
+[2026-05-14 11:00:43][notice]Start processing db.
+[2026-05-14 11:00:43][notice]Prepare to copy database.
+[2026-05-14 11:00:43][notice]Copying mod145_yoast_seo_links is completed.
+[2026-05-14 11:00:43][notice]Database copying is completed.
+[2026-05-14 11:00:46][notice]Start processing db_replace.
+[2026-05-14 11:00:46][notice]Prepare to replace database.
+[2026-05-14 11:00:46][notice]Retrieve the tables required to replace.
+[2026-05-14 11:00:46][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:00:46][notice]Replacing database tables is completed.
+[2026-05-14 11:00:46][notice]Replacing wpvividstg01_actionscheduler_actions is completed.
+[2026-05-14 11:00:49][notice]Start processing db_replace.
+[2026-05-14 11:00:49][notice]Prepare to replace database.
+[2026-05-14 11:00:49][notice]Replacing database tables is completed.
+[2026-05-14 11:00:49][notice]Replacing wpvividstg01_actionscheduler_claims is completed.
+[2026-05-14 11:00:53][notice]Start processing db_replace.
+[2026-05-14 11:00:53][notice]Prepare to replace database.
+[2026-05-14 11:00:53][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:00:53][notice]Replacing database tables is completed.
+[2026-05-14 11:00:53][notice]Replacing wpvividstg01_actionscheduler_groups is completed.
+[2026-05-14 11:00:57][notice]Start processing db_replace.
+[2026-05-14 11:00:57][notice]Prepare to replace database.
+[2026-05-14 11:00:57][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:00:57][notice]Replacing database tables is completed.
+[2026-05-14 11:00:57][notice]Replacing wpvividstg01_actionscheduler_logs is completed.
+[2026-05-14 11:01:00][notice]Start processing db_replace.
+[2026-05-14 11:01:00][notice]Prepare to replace database.
+[2026-05-14 11:01:00][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:01:00][notice]Replacing database tables is completed.
+[2026-05-14 11:01:00][notice]Replacing wpvividstg01_aioseo_cache is completed.
+[2026-05-14 11:01:03][notice]Start processing db_replace.
+[2026-05-14 11:01:03][notice]Prepare to replace database.
+[2026-05-14 11:01:03][notice]Replacing database tables is completed.
+[2026-05-14 11:01:03][notice]Replacing wpvividstg01_aioseo_crawl_cleanup_blocked_args is completed.
+[2026-05-14 11:01:05][notice]Start processing db_replace.
+[2026-05-14 11:01:05][notice]Prepare to replace database.
+[2026-05-14 11:01:05][notice]Replacing database tables is completed.
+[2026-05-14 11:01:05][notice]Replacing wpvividstg01_aioseo_crawl_cleanup_logs is completed.
+[2026-05-14 11:01:08][notice]Start processing db_replace.
+[2026-05-14 11:01:08][notice]Prepare to replace database.
+[2026-05-14 11:01:08][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:01:08][notice]Replacing database tables is completed.
+[2026-05-14 11:01:08][notice]Replacing wpvividstg01_aioseo_notifications is completed.
+[2026-05-14 11:01:11][notice]Start processing db_replace.
+[2026-05-14 11:01:11][notice]Prepare to replace database.
+[2026-05-14 11:01:11][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:01:11][notice]Replacing database tables is completed.
+[2026-05-14 11:01:11][notice]Replacing wpvividstg01_aioseo_posts is completed.
+[2026-05-14 11:01:13][notice]Start processing db_replace.
+[2026-05-14 11:01:13][notice]Prepare to replace database.
+[2026-05-14 11:01:13][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:01:13][notice]Replacing database tables is completed.
+[2026-05-14 11:01:13][notice]Replacing wpvividstg01_commentmeta is completed.
+[2026-05-14 11:01:15][notice]Start processing db_replace.
+[2026-05-14 11:01:15][notice]Prepare to replace database.
+[2026-05-14 11:01:15][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:01:15][notice]Replacing database tables is completed.
+[2026-05-14 11:01:15][notice]Replacing wpvividstg01_comments is completed.
+[2026-05-14 11:01:18][notice]Start processing db_replace.
+[2026-05-14 11:01:18][notice]Prepare to replace database.
+[2026-05-14 11:01:18][notice]Replacing database tables is completed.
+[2026-05-14 11:01:18][notice]Replacing wpvividstg01_e_events is completed.
+[2026-05-14 11:01:21][notice]Start processing db_replace.
+[2026-05-14 11:01:21][notice]Prepare to replace database.
+[2026-05-14 11:01:21][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:01:21][notice]Replacing database tables is completed.
+[2026-05-14 11:01:21][notice]Replacing wpvividstg01_integrate_google_drive_files is completed.
+[2026-05-14 11:01:23][notice]Start processing db_replace.
+[2026-05-14 11:01:23][notice]Prepare to replace database.
+[2026-05-14 11:01:23][notice]Replacing database tables is completed.
+[2026-05-14 11:01:23][notice]Replacing wpvividstg01_integrate_google_drive_logs is completed.
+[2026-05-14 11:01:26][notice]Start processing db_replace.
+[2026-05-14 11:01:26][notice]Prepare to replace database.
+[2026-05-14 11:01:26][notice]Replacing database tables is completed.
+[2026-05-14 11:01:26][notice]Replacing wpvividstg01_integrate_google_drive_shortcodes is completed.
+[2026-05-14 11:01:28][notice]Start processing db_replace.
+[2026-05-14 11:01:28][notice]Prepare to replace database.
+[2026-05-14 11:01:28][notice]Replacing database tables is completed.
+[2026-05-14 11:01:28][notice]Replacing wpvividstg01_kb_optimizer is completed.
+[2026-05-14 11:01:31][notice]Start processing db_replace.
+[2026-05-14 11:01:31][notice]Prepare to replace database.
+[2026-05-14 11:01:31][notice]Replacing database tables is completed.
+[2026-05-14 11:01:31][notice]Replacing wpvividstg01_kb_optimizer_viewport_hashes is completed.
+[2026-05-14 11:01:33][notice]Start processing db_replace.
+[2026-05-14 11:01:33][notice]Prepare to replace database.
+[2026-05-14 11:01:33][notice]Replacing database tables is completed.
+[2026-05-14 11:01:33][notice]Replacing wpvividstg01_links is completed.
+[2026-05-14 11:01:36][notice]Start processing db_replace.
+[2026-05-14 11:01:36][notice]Prepare to replace database.
+[2026-05-14 11:01:36][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:01:36][notice]Replacing database tables is completed.
+[2026-05-14 11:01:36][notice]Replacing wpvividstg01_litespeed_avatar is completed.
+[2026-05-14 11:01:39][notice]Start processing db_replace.
+[2026-05-14 11:01:39][notice]Prepare to replace database.
+[2026-05-14 11:01:39][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:01:39][notice]Replacing database tables is completed.
+[2026-05-14 11:01:39][notice]Replacing wpvividstg01_litespeed_img_optming is completed.
+[2026-05-14 11:01:41][notice]Start processing db_replace.
+[2026-05-14 11:01:41][notice]Prepare to replace database.
+[2026-05-14 11:01:41][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:01:41][notice]Replacing database tables is completed.
+[2026-05-14 11:01:41][notice]Replacing wpvividstg01_litespeed_url is completed.
+[2026-05-14 11:01:44][notice]Start processing db_replace.
+[2026-05-14 11:01:44][notice]Prepare to replace database.
+[2026-05-14 11:01:44][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:01:44][notice]Replacing database tables is completed.
+[2026-05-14 11:01:44][notice]Replacing wpvividstg01_litespeed_url_file is completed.
+[2026-05-14 11:01:46][notice]Start processing db_replace.
+[2026-05-14 11:01:46][notice]Prepare to replace database.
+[2026-05-14 11:01:46][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:01:46][notice]Replacing database tables is completed.
+[2026-05-14 11:01:46][notice]Replacing wpvividstg01_nf3_action_meta is completed.
+[2026-05-14 11:01:49][notice]Start processing db_replace.
+[2026-05-14 11:01:49][notice]Prepare to replace database.
+[2026-05-14 11:01:49][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:01:49][notice]Replacing database tables is completed.
+[2026-05-14 11:01:49][notice]Replacing wpvividstg01_nf3_actions is completed.
+[2026-05-14 11:01:52][notice]Start processing db_replace.
+[2026-05-14 11:01:52][notice]Prepare to replace database.
+[2026-05-14 11:01:52][notice]Replacing database tables is completed.
+[2026-05-14 11:01:52][notice]Replacing wpvividstg01_nf3_chunks is completed.
+[2026-05-14 11:01:55][notice]Start processing db_replace.
+[2026-05-14 11:01:55][notice]Prepare to replace database.
+[2026-05-14 11:01:55][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:01:55][notice]Replacing database tables is completed.
+[2026-05-14 11:01:55][notice]Replacing wpvividstg01_nf3_field_meta is completed.
+[2026-05-14 11:01:58][notice]Start processing db_replace.
+[2026-05-14 11:01:58][notice]Prepare to replace database.
+[2026-05-14 11:01:58][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:01:58][notice]Replacing database tables is completed.
+[2026-05-14 11:01:58][notice]Replacing wpvividstg01_nf3_fields is completed.
+[2026-05-14 11:02:00][notice]Start processing db_replace.
+[2026-05-14 11:02:00][notice]Prepare to replace database.
+[2026-05-14 11:02:00][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:02:00][notice]Replacing database tables is completed.
+[2026-05-14 11:02:00][notice]Replacing wpvividstg01_nf3_form_meta is completed.
+[2026-05-14 11:02:02][notice]Start processing db_replace.
+[2026-05-14 11:02:02][notice]Prepare to replace database.
+[2026-05-14 11:02:02][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:02:02][notice]Replacing database tables is completed.
+[2026-05-14 11:02:02][notice]Replacing wpvividstg01_nf3_forms is completed.
+[2026-05-14 11:02:05][notice]Start processing db_replace.
+[2026-05-14 11:02:05][notice]Prepare to replace database.
+[2026-05-14 11:02:05][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:02:05][notice]Replacing database tables is completed.
+[2026-05-14 11:02:05][notice]Replacing wpvividstg01_nf3_object_meta is completed.
+[2026-05-14 11:02:08][notice]Start processing db_replace.
+[2026-05-14 11:02:08][notice]Prepare to replace database.
+[2026-05-14 11:02:08][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:02:08][notice]Replacing database tables is completed.
+[2026-05-14 11:02:08][notice]Replacing wpvividstg01_nf3_objects is completed.
+[2026-05-14 11:02:10][notice]Start processing db_replace.
+[2026-05-14 11:02:10][notice]Prepare to replace database.
+[2026-05-14 11:02:10][notice]Replacing database tables is completed.
+[2026-05-14 11:02:10][notice]Replacing wpvividstg01_nf3_relationships is completed.
+[2026-05-14 11:02:13][notice]Start processing db_replace.
+[2026-05-14 11:02:13][notice]Prepare to replace database.
+[2026-05-14 11:02:13][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:02:13][notice]Replacing database tables is completed.
+[2026-05-14 11:02:13][notice]Replacing wpvividstg01_nf3_upgrades is completed.
+[2026-05-14 11:02:16][notice]Start processing db_replace.
+[2026-05-14 11:02:16][notice]Prepare to replace database.
+[2026-05-14 11:02:16][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:02:16][notice]Replacing database tables is completed.
+[2026-05-14 11:02:16][notice]Replacing wpvividstg01_ninja_forms_uploads is completed.
+[2026-05-14 11:02:18][notice]Start processing db_replace.
+[2026-05-14 11:02:18][notice]Prepare to replace database.
+[2026-05-14 11:02:18][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:02:18][notice]Replacing database tables is completed.
+[2026-05-14 11:02:18][notice]UPDATE wpvividstg01_options SET option_name="wpvividstg01_user_roles" WHERE option_name="mod145_user_roles";
+[2026-05-14 11:02:18][notice]The length of UPDATE statement: 108
+[2026-05-14 11:02:18][notice]Replacing wpvividstg01_options is completed.
+[2026-05-14 11:02:21][notice]Start processing db_replace.
+[2026-05-14 11:02:21][notice]Prepare to replace database.
+[2026-05-14 11:02:21][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:02:22][notice]Replacing database tables is completed.
+[2026-05-14 11:02:22][notice]5000 queries of wpvividstg01_postmeta is replaced.
+[2026-05-14 11:02:22][notice]The next replacing table info: {"name":"wpvividstg01_postmeta","create":1,"start":5000,"finished":0}
+[2026-05-14 11:02:22][notice]Start replacing the table prefix from 5000 row.
+[2026-05-14 11:02:23][notice]Replacing database tables is completed.
+[2026-05-14 11:02:23][notice]5000 queries of wpvividstg01_postmeta is replaced.
+[2026-05-14 11:02:23][notice]The next replacing table info: {"name":"wpvividstg01_postmeta","create":1,"start":10000,"finished":0}
+[2026-05-14 11:02:23][notice]Start replacing the table prefix from 10000 row.
+[2026-05-14 11:02:25][notice]Replacing database tables is completed.
+[2026-05-14 11:02:25][notice]5000 queries of wpvividstg01_postmeta is replaced.
+[2026-05-14 11:02:25][notice]The next replacing table info: {"name":"wpvividstg01_postmeta","create":1,"start":15000,"finished":0}
+[2026-05-14 11:02:25][notice]Start replacing the table prefix from 15000 row.
+[2026-05-14 11:02:26][notice]Replacing database tables is completed.
+[2026-05-14 11:02:26][notice]Replacing wpvividstg01_postmeta is completed.
+[2026-05-14 11:02:28][notice]Start processing db_replace.
+[2026-05-14 11:02:28][notice]Prepare to replace database.
+[2026-05-14 11:02:28][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:02:40][notice]Replacing database tables is completed.
+[2026-05-14 11:02:40][notice]Replacing wpvividstg01_posts is completed.
+[2026-05-14 11:02:42][notice]Start processing db_replace.
+[2026-05-14 11:02:42][notice]Prepare to replace database.
+[2026-05-14 11:02:42][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:02:42][notice]Replacing database tables is completed.
+[2026-05-14 11:02:42][notice]Replacing wpvividstg01_rcb_asset_seo_redirect is completed.
+[2026-05-14 11:02:44][notice]Start processing db_replace.
+[2026-05-14 11:02:44][notice]Prepare to replace database.
+[2026-05-14 11:02:44][notice]Replacing database tables is completed.
+[2026-05-14 11:02:44][notice]Replacing wpvividstg01_rcb_blocker_thumbnails is completed.
+[2026-05-14 11:02:47][notice]Start processing db_replace.
+[2026-05-14 11:02:47][notice]Prepare to replace database.
+[2026-05-14 11:02:47][notice]Replacing database tables is completed.
+[2026-05-14 11:02:47][notice]Replacing wpvividstg01_rcb_consent is completed.
+[2026-05-14 11:02:49][notice]Start processing db_replace.
+[2026-05-14 11:02:49][notice]Prepare to replace database.
+[2026-05-14 11:02:49][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:02:49][notice]Replacing database tables is completed.
+[2026-05-14 11:02:49][notice]Replacing wpvividstg01_rcb_presets is completed.
+[2026-05-14 11:02:52][notice]Start processing db_replace.
+[2026-05-14 11:02:52][notice]Prepare to replace database.
+[2026-05-14 11:02:52][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:02:52][notice]Replacing database tables is completed.
+[2026-05-14 11:02:52][notice]Replacing wpvividstg01_rcb_revision is completed.
+[2026-05-14 11:02:54][notice]Start processing db_replace.
+[2026-05-14 11:02:54][notice]Prepare to replace database.
+[2026-05-14 11:02:54][notice]Replacing database tables is completed.
+[2026-05-14 11:02:54][notice]Replacing wpvividstg01_rcb_revision_independent is completed.
+[2026-05-14 11:02:57][notice]Start processing db_replace.
+[2026-05-14 11:02:57][notice]Prepare to replace database.
+[2026-05-14 11:02:57][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:02:57][notice]Replacing database tables is completed.
+[2026-05-14 11:02:57][notice]Replacing wpvividstg01_rcb_scan is completed.
+[2026-05-14 11:03:00][notice]Start processing db_replace.
+[2026-05-14 11:03:00][notice]Prepare to replace database.
+[2026-05-14 11:03:00][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:03:00][notice]Replacing database tables is completed.
+[2026-05-14 11:03:00][notice]Replacing wpvividstg01_rcb_scan_markup is completed.
+[2026-05-14 11:03:02][notice]Start processing db_replace.
+[2026-05-14 11:03:02][notice]Prepare to replace database.
+[2026-05-14 11:03:02][notice]Replacing database tables is completed.
+[2026-05-14 11:03:02][notice]Replacing wpvividstg01_rcb_stats is completed.
+[2026-05-14 11:03:04][notice]Start processing db_replace.
+[2026-05-14 11:03:04][notice]Prepare to replace database.
+[2026-05-14 11:03:04][notice]Replacing database tables is completed.
+[2026-05-14 11:03:04][notice]Replacing wpvividstg01_rcb_tcf_features is completed.
+[2026-05-14 11:03:07][notice]Start processing db_replace.
+[2026-05-14 11:03:07][notice]Prepare to replace database.
+[2026-05-14 11:03:07][notice]Replacing database tables is completed.
+[2026-05-14 11:03:07][notice]Replacing wpvividstg01_rcb_tcf_purposes is completed.
+[2026-05-14 11:03:10][notice]Start processing db_replace.
+[2026-05-14 11:03:10][notice]Prepare to replace database.
+[2026-05-14 11:03:10][notice]Replacing database tables is completed.
+[2026-05-14 11:03:10][notice]Replacing wpvividstg01_rcb_tcf_special_features is completed.
+[2026-05-14 11:03:13][notice]Start processing db_replace.
+[2026-05-14 11:03:13][notice]Prepare to replace database.
+[2026-05-14 11:03:13][notice]Replacing database tables is completed.
+[2026-05-14 11:03:13][notice]Replacing wpvividstg01_rcb_tcf_special_purposes is completed.
+[2026-05-14 11:03:16][notice]Start processing db_replace.
+[2026-05-14 11:03:16][notice]Prepare to replace database.
+[2026-05-14 11:03:16][notice]Replacing database tables is completed.
+[2026-05-14 11:03:16][notice]Replacing wpvividstg01_rcb_tcf_stacks is completed.
+[2026-05-14 11:03:18][notice]Start processing db_replace.
+[2026-05-14 11:03:18][notice]Prepare to replace database.
+[2026-05-14 11:03:18][notice]Replacing database tables is completed.
+[2026-05-14 11:03:18][notice]Replacing wpvividstg01_rcb_tcf_vendors is completed.
+[2026-05-14 11:03:21][notice]Start processing db_replace.
+[2026-05-14 11:03:21][notice]Prepare to replace database.
+[2026-05-14 11:03:21][notice]Replacing database tables is completed.
+[2026-05-14 11:03:21][notice]Replacing wpvividstg01_real_queue is completed.
+[2026-05-14 11:03:23][notice]Start processing db_replace.
+[2026-05-14 11:03:23][notice]Prepare to replace database.
+[2026-05-14 11:03:23][Warning]Ignore table wpvividstg01_term_relationships
+[2026-05-14 11:03:23][notice]Replacing wpvividstg01_term_relationships is completed.
+[2026-05-14 11:03:26][notice]Start processing db_replace.
+[2026-05-14 11:03:26][notice]Prepare to replace database.
+[2026-05-14 11:03:26][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:03:26][notice]Replacing database tables is completed.
+[2026-05-14 11:03:26][notice]Replacing wpvividstg01_term_taxonomy is completed.
+[2026-05-14 11:03:29][notice]Start processing db_replace.
+[2026-05-14 11:03:29][notice]Prepare to replace database.
+[2026-05-14 11:03:29][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:03:29][notice]Replacing database tables is completed.
+[2026-05-14 11:03:29][notice]Replacing wpvividstg01_termmeta is completed.
+[2026-05-14 11:03:31][notice]Start processing db_replace.
+[2026-05-14 11:03:31][notice]Prepare to replace database.
+[2026-05-14 11:03:31][notice]Start replacing the table prefix from 0 row.
+[2026-05-14 11:03:31][notice]Replacing database tables is completed.
+[2026-05-14 11:03:31][notice]Replacing wpvividstg01_terms is completed.
+[2026-05-14 11:03:34][notice]Start processing db_replace.
+[2026-05-14 11:03:34][notice]Prepare to replace database.
+[2026-05-14 11:03:34][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:03:34][notice]The length of UPDATE statement: 118
+[2026-05-14 11:03:34][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:03:36][notice]Start processing db_replace.
+[2026-05-14 11:03:36][notice]Prepare to replace database.
+[2026-05-14 11:03:36][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:03:36][notice]The length of UPDATE statement: 118
+[2026-05-14 11:03:36][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:03:39][notice]Start processing db_replace.
+[2026-05-14 11:03:39][notice]Prepare to replace database.
+[2026-05-14 11:03:39][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:03:39][notice]The length of UPDATE statement: 118
+[2026-05-14 11:03:39][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:03:42][notice]Start processing db_replace.
+[2026-05-14 11:03:42][notice]Prepare to replace database.
+[2026-05-14 11:03:42][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:03:42][notice]The length of UPDATE statement: 118
+[2026-05-14 11:03:42][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:03:44][notice]Start processing db_replace.
+[2026-05-14 11:03:44][notice]Prepare to replace database.
+[2026-05-14 11:03:44][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:03:44][notice]The length of UPDATE statement: 118
+[2026-05-14 11:03:44][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:03:47][notice]Start processing db_replace.
+[2026-05-14 11:03:47][notice]Prepare to replace database.
+[2026-05-14 11:03:47][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:03:47][notice]The length of UPDATE statement: 118
+[2026-05-14 11:03:47][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:03:49][notice]Start processing db_replace.
+[2026-05-14 11:03:49][notice]Prepare to replace database.
+[2026-05-14 11:03:49][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:03:49][notice]The length of UPDATE statement: 118
+[2026-05-14 11:03:49][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:03:51][notice]Start processing db_replace.
+[2026-05-14 11:03:51][notice]Prepare to replace database.
+[2026-05-14 11:03:51][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:03:51][notice]The length of UPDATE statement: 118
+[2026-05-14 11:03:51][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:03:54][notice]Start processing db_replace.
+[2026-05-14 11:03:54][notice]Prepare to replace database.
+[2026-05-14 11:03:54][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:03:54][notice]The length of UPDATE statement: 118
+[2026-05-14 11:03:54][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:03:57][notice]Start processing db_replace.
+[2026-05-14 11:03:57][notice]Prepare to replace database.
+[2026-05-14 11:03:57][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:03:57][notice]The length of UPDATE statement: 118
+[2026-05-14 11:03:57][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:04:00][notice]Start processing db_replace.
+[2026-05-14 11:04:00][notice]Prepare to replace database.
+[2026-05-14 11:04:00][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:04:00][notice]The length of UPDATE statement: 118
+[2026-05-14 11:04:00][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:04:02][notice]Start processing db_replace.
+[2026-05-14 11:04:02][notice]Prepare to replace database.
+[2026-05-14 11:04:02][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:04:02][notice]The length of UPDATE statement: 118
+[2026-05-14 11:04:02][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:04:05][notice]Start processing db_replace.
+[2026-05-14 11:04:05][notice]Prepare to replace database.
+[2026-05-14 11:04:05][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:04:05][notice]The length of UPDATE statement: 118
+[2026-05-14 11:04:05][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:04:08][notice]Start processing db_replace.
+[2026-05-14 11:04:08][notice]Prepare to replace database.
+[2026-05-14 11:04:08][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:04:08][notice]The length of UPDATE statement: 118
+[2026-05-14 11:04:08][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:04:10][notice]Start processing db_replace.
+[2026-05-14 11:04:10][notice]Prepare to replace database.
+[2026-05-14 11:04:10][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:04:10][notice]The length of UPDATE statement: 118
+[2026-05-14 11:04:10][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:04:13][notice]Start processing db_replace.
+[2026-05-14 11:04:13][notice]Prepare to replace database.
+[2026-05-14 11:04:13][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:04:13][notice]The length of UPDATE statement: 118
+[2026-05-14 11:04:13][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:04:16][notice]Start processing db_replace.
+[2026-05-14 11:04:16][notice]Prepare to replace database.
+[2026-05-14 11:04:16][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:04:16][notice]The length of UPDATE statement: 118
+[2026-05-14 11:04:16][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:04:19][notice]Start processing db_replace.
+[2026-05-14 11:04:19][notice]Prepare to replace database.
+[2026-05-14 11:04:19][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:04:19][notice]The length of UPDATE statement: 118
+[2026-05-14 11:04:19][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:04:21][notice]Start processing db_replace.
+[2026-05-14 11:04:21][notice]Prepare to replace database.
+[2026-05-14 11:04:21][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:04:21][notice]The length of UPDATE statement: 118
+[2026-05-14 11:04:21][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:04:24][notice]Start processing db_replace.
+[2026-05-14 11:04:24][notice]Prepare to replace database.
+[2026-05-14 11:04:24][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:04:24][notice]The length of UPDATE statement: 118
+[2026-05-14 11:04:24][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:04:26][notice]Start processing db_replace.
+[2026-05-14 11:04:26][notice]Prepare to replace database.
+[2026-05-14 11:04:26][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:04:26][notice]The length of UPDATE statement: 118
+[2026-05-14 11:04:26][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:04:29][notice]Start processing db_replace.
+[2026-05-14 11:04:29][notice]Prepare to replace database.
+[2026-05-14 11:04:29][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:04:29][notice]The length of UPDATE statement: 118
+[2026-05-14 11:04:29][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:04:32][notice]Start processing db_replace.
+[2026-05-14 11:04:32][notice]Prepare to replace database.
+[2026-05-14 11:04:32][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:04:32][notice]The length of UPDATE statement: 118
+[2026-05-14 11:04:32][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:04:34][notice]Start processing db_replace.
+[2026-05-14 11:04:34][notice]Prepare to replace database.
+[2026-05-14 11:04:34][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:04:34][notice]The length of UPDATE statement: 118
+[2026-05-14 11:04:34][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:04:37][notice]Start processing db_replace.
+[2026-05-14 11:04:37][notice]Prepare to replace database.
+[2026-05-14 11:04:37][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:04:37][notice]The length of UPDATE statement: 118
+[2026-05-14 11:04:37][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:04:40][notice]Start processing db_replace.
+[2026-05-14 11:04:40][notice]Prepare to replace database.
+[2026-05-14 11:04:40][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:04:40][notice]The length of UPDATE statement: 118
+[2026-05-14 11:04:40][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:04:42][notice]Start processing db_replace.
+[2026-05-14 11:04:42][notice]Prepare to replace database.
+[2026-05-14 11:04:42][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:04:42][notice]The length of UPDATE statement: 118
+[2026-05-14 11:04:42][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:04:45][notice]Start processing db_replace.
+[2026-05-14 11:04:45][notice]Prepare to replace database.
+[2026-05-14 11:04:45][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:04:45][notice]The length of UPDATE statement: 118
+[2026-05-14 11:04:45][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:04:48][notice]Start processing db_replace.
+[2026-05-14 11:04:48][notice]Prepare to replace database.
+[2026-05-14 11:04:48][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:04:48][notice]The length of UPDATE statement: 118
+[2026-05-14 11:04:48][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:04:51][notice]Start processing db_replace.
+[2026-05-14 11:04:51][notice]Prepare to replace database.
+[2026-05-14 11:04:51][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:04:51][notice]The length of UPDATE statement: 118
+[2026-05-14 11:04:51][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:04:53][notice]Start processing db_replace.
+[2026-05-14 11:04:53][notice]Prepare to replace database.
+[2026-05-14 11:04:53][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:04:53][notice]The length of UPDATE statement: 118
+[2026-05-14 11:04:53][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:04:56][notice]Start processing db_replace.
+[2026-05-14 11:04:56][notice]Prepare to replace database.
+[2026-05-14 11:04:56][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:04:56][notice]The length of UPDATE statement: 118
+[2026-05-14 11:04:56][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:04:59][notice]Start processing db_replace.
+[2026-05-14 11:04:59][notice]Prepare to replace database.
+[2026-05-14 11:04:59][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:04:59][notice]The length of UPDATE statement: 118
+[2026-05-14 11:04:59][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:05:02][notice]Start processing db_replace.
+[2026-05-14 11:05:02][notice]Prepare to replace database.
+[2026-05-14 11:05:02][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:05:02][notice]The length of UPDATE statement: 118
+[2026-05-14 11:05:02][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:05:05][notice]Start processing db_replace.
+[2026-05-14 11:05:05][notice]Prepare to replace database.
+[2026-05-14 11:05:05][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:05:05][notice]The length of UPDATE statement: 118
+[2026-05-14 11:05:05][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:05:08][notice]Start processing db_replace.
+[2026-05-14 11:05:08][notice]Prepare to replace database.
+[2026-05-14 11:05:08][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:05:08][notice]The length of UPDATE statement: 118
+[2026-05-14 11:05:08][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:05:11][notice]Start processing db_replace.
+[2026-05-14 11:05:11][notice]Prepare to replace database.
+[2026-05-14 11:05:11][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:05:11][notice]The length of UPDATE statement: 118
+[2026-05-14 11:05:11][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:05:14][notice]Start processing db_replace.
+[2026-05-14 11:05:14][notice]Prepare to replace database.
+[2026-05-14 11:05:14][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:05:14][notice]The length of UPDATE statement: 118
+[2026-05-14 11:05:14][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:05:17][notice]Start processing db_replace.
+[2026-05-14 11:05:17][notice]Prepare to replace database.
+[2026-05-14 11:05:17][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:05:17][notice]The length of UPDATE statement: 118
+[2026-05-14 11:05:17][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:05:20][notice]Start processing db_replace.
+[2026-05-14 11:05:20][notice]Prepare to replace database.
+[2026-05-14 11:05:20][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:05:20][notice]The length of UPDATE statement: 118
+[2026-05-14 11:05:20][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:05:23][notice]Start processing db_replace.
+[2026-05-14 11:05:23][notice]Prepare to replace database.
+[2026-05-14 11:05:23][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:05:23][notice]The length of UPDATE statement: 118
+[2026-05-14 11:05:23][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:05:26][notice]Start processing db_replace.
+[2026-05-14 11:05:26][notice]Prepare to replace database.
+[2026-05-14 11:05:26][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:05:26][notice]The length of UPDATE statement: 118
+[2026-05-14 11:05:26][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:05:28][notice]Start processing db_replace.
+[2026-05-14 11:05:28][notice]Prepare to replace database.
+[2026-05-14 11:05:28][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:05:28][notice]The length of UPDATE statement: 118
+[2026-05-14 11:05:28][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:05:31][notice]Start processing db_replace.
+[2026-05-14 11:05:31][notice]Prepare to replace database.
+[2026-05-14 11:05:31][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:05:31][notice]The length of UPDATE statement: 118
+[2026-05-14 11:05:31][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:05:34][notice]Start processing db_replace.
+[2026-05-14 11:05:34][notice]Prepare to replace database.
+[2026-05-14 11:05:34][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:05:34][notice]The length of UPDATE statement: 118
+[2026-05-14 11:05:34][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:05:36][notice]Start processing db_replace.
+[2026-05-14 11:05:36][notice]Prepare to replace database.
+[2026-05-14 11:05:36][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:05:36][notice]The length of UPDATE statement: 118
+[2026-05-14 11:05:36][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:05:39][notice]Start processing db_replace.
+[2026-05-14 11:05:39][notice]Prepare to replace database.
+[2026-05-14 11:05:39][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:05:39][notice]The length of UPDATE statement: 118
+[2026-05-14 11:05:39][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:05:42][notice]Start processing db_replace.
+[2026-05-14 11:05:42][notice]Prepare to replace database.
+[2026-05-14 11:05:42][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:05:42][notice]The length of UPDATE statement: 118
+[2026-05-14 11:05:42][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:05:45][notice]Start processing db_replace.
+[2026-05-14 11:05:45][notice]Prepare to replace database.
+[2026-05-14 11:05:45][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:05:45][notice]The length of UPDATE statement: 118
+[2026-05-14 11:05:45][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:05:48][notice]Start processing db_replace.
+[2026-05-14 11:05:48][notice]Prepare to replace database.
+[2026-05-14 11:05:48][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:05:48][notice]The length of UPDATE statement: 118
+[2026-05-14 11:05:48][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:05:50][notice]Start processing db_replace.
+[2026-05-14 11:05:50][notice]Prepare to replace database.
+[2026-05-14 11:05:50][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:05:50][notice]The length of UPDATE statement: 118
+[2026-05-14 11:05:50][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:05:54][notice]Start processing db_replace.
+[2026-05-14 11:05:54][notice]Prepare to replace database.
+[2026-05-14 11:05:54][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:05:54][notice]The length of UPDATE statement: 118
+[2026-05-14 11:05:54][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:05:56][notice]Start processing db_replace.
+[2026-05-14 11:05:56][notice]Prepare to replace database.
+[2026-05-14 11:05:56][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:05:56][notice]The length of UPDATE statement: 118
+[2026-05-14 11:05:56][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:05:59][notice]Start processing db_replace.
+[2026-05-14 11:05:59][notice]Prepare to replace database.
+[2026-05-14 11:05:59][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:05:59][notice]The length of UPDATE statement: 118
+[2026-05-14 11:05:59][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:06:02][notice]Start processing db_replace.
+[2026-05-14 11:06:02][notice]Prepare to replace database.
+[2026-05-14 11:06:02][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:06:02][notice]The length of UPDATE statement: 118
+[2026-05-14 11:06:02][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:06:15][notice]Start processing db_replace.
+[2026-05-14 11:06:15][notice]Prepare to replace database.
+[2026-05-14 11:06:15][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:06:15][notice]The length of UPDATE statement: 118
+[2026-05-14 11:06:15][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:06:17][notice]Start processing db_replace.
+[2026-05-14 11:06:17][notice]Prepare to replace database.
+[2026-05-14 11:06:17][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:06:17][notice]The length of UPDATE statement: 118
+[2026-05-14 11:06:17][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:06:20][notice]Start processing db_replace.
+[2026-05-14 11:06:20][notice]Prepare to replace database.
+[2026-05-14 11:06:20][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:06:20][notice]The length of UPDATE statement: 118
+[2026-05-14 11:06:20][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:06:23][notice]Start processing db_replace.
+[2026-05-14 11:06:23][notice]Prepare to replace database.
+[2026-05-14 11:06:23][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:06:23][notice]The length of UPDATE statement: 118
+[2026-05-14 11:06:23][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:06:26][notice]Start processing db_replace.
+[2026-05-14 11:06:26][notice]Prepare to replace database.
+[2026-05-14 11:06:26][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:06:26][notice]The length of UPDATE statement: 118
+[2026-05-14 11:06:26][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:06:28][notice]Start processing db_replace.
+[2026-05-14 11:06:28][notice]Prepare to replace database.
+[2026-05-14 11:06:28][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:06:28][notice]The length of UPDATE statement: 118
+[2026-05-14 11:06:28][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:06:31][notice]Start processing db_replace.
+[2026-05-14 11:06:31][notice]Prepare to replace database.
+[2026-05-14 11:06:31][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:06:31][notice]The length of UPDATE statement: 118
+[2026-05-14 11:06:31][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:06:34][notice]Start processing db_replace.
+[2026-05-14 11:06:34][notice]Prepare to replace database.
+[2026-05-14 11:06:34][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:06:34][notice]The length of UPDATE statement: 118
+[2026-05-14 11:06:34][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:06:36][notice]Start processing db_replace.
+[2026-05-14 11:06:36][notice]Prepare to replace database.
+[2026-05-14 11:06:36][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:06:36][notice]The length of UPDATE statement: 118
+[2026-05-14 11:06:36][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:06:40][notice]Start processing db_replace.
+[2026-05-14 11:06:40][notice]Prepare to replace database.
+[2026-05-14 11:06:40][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:06:40][notice]The length of UPDATE statement: 118
+[2026-05-14 11:06:40][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:06:43][notice]Start processing db_replace.
+[2026-05-14 11:06:43][notice]Prepare to replace database.
+[2026-05-14 11:06:43][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:06:43][notice]The length of UPDATE statement: 118
+[2026-05-14 11:06:43][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:06:45][notice]Start processing db_replace.
+[2026-05-14 11:06:45][notice]Prepare to replace database.
+[2026-05-14 11:06:45][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:06:45][notice]The length of UPDATE statement: 118
+[2026-05-14 11:06:45][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:06:48][notice]Start processing db_replace.
+[2026-05-14 11:06:48][notice]Prepare to replace database.
+[2026-05-14 11:06:48][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:06:48][notice]The length of UPDATE statement: 118
+[2026-05-14 11:06:48][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:06:50][notice]Start processing db_replace.
+[2026-05-14 11:06:50][notice]Prepare to replace database.
+[2026-05-14 11:06:50][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:06:50][notice]The length of UPDATE statement: 118
+[2026-05-14 11:06:50][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:06:53][notice]Start processing db_replace.
+[2026-05-14 11:06:53][notice]Prepare to replace database.
+[2026-05-14 11:06:53][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:06:53][notice]The length of UPDATE statement: 118
+[2026-05-14 11:06:53][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:06:56][notice]Start processing db_replace.
+[2026-05-14 11:06:56][notice]Prepare to replace database.
+[2026-05-14 11:06:56][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:06:56][notice]The length of UPDATE statement: 118
+[2026-05-14 11:06:56][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:06:59][notice]Start processing db_replace.
+[2026-05-14 11:06:59][notice]Prepare to replace database.
+[2026-05-14 11:06:59][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:06:59][notice]The length of UPDATE statement: 118
+[2026-05-14 11:06:59][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:07:01][notice]Start processing db_replace.
+[2026-05-14 11:07:01][notice]Prepare to replace database.
+[2026-05-14 11:07:01][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:07:01][notice]The length of UPDATE statement: 118
+[2026-05-14 11:07:01][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:07:04][notice]Start processing db_replace.
+[2026-05-14 11:07:04][notice]Prepare to replace database.
+[2026-05-14 11:07:04][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:07:04][notice]The length of UPDATE statement: 118
+[2026-05-14 11:07:04][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:07:07][notice]Start processing db_replace.
+[2026-05-14 11:07:07][notice]Prepare to replace database.
+[2026-05-14 11:07:07][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:07:07][notice]The length of UPDATE statement: 118
+[2026-05-14 11:07:07][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:07:09][notice]Start processing db_replace.
+[2026-05-14 11:07:09][notice]Prepare to replace database.
+[2026-05-14 11:07:09][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:07:09][notice]The length of UPDATE statement: 118
+[2026-05-14 11:07:09][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:07:12][notice]Start processing db_replace.
+[2026-05-14 11:07:12][notice]Prepare to replace database.
+[2026-05-14 11:07:12][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:07:12][notice]The length of UPDATE statement: 118
+[2026-05-14 11:07:12][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:07:15][notice]Start processing db_replace.
+[2026-05-14 11:07:15][notice]Prepare to replace database.
+[2026-05-14 11:07:15][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:07:15][notice]The length of UPDATE statement: 118
+[2026-05-14 11:07:15][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:07:18][notice]Start processing db_replace.
+[2026-05-14 11:07:18][notice]Prepare to replace database.
+[2026-05-14 11:07:18][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:07:18][notice]The length of UPDATE statement: 118
+[2026-05-14 11:07:18][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:07:21][notice]Start processing db_replace.
+[2026-05-14 11:07:21][notice]Prepare to replace database.
+[2026-05-14 11:07:21][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:07:21][notice]The length of UPDATE statement: 118
+[2026-05-14 11:07:21][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:07:24][notice]Start processing db_replace.
+[2026-05-14 11:07:24][notice]Prepare to replace database.
+[2026-05-14 11:07:24][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:07:24][notice]The length of UPDATE statement: 118
+[2026-05-14 11:07:24][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:07:27][notice]Start processing db_replace.
+[2026-05-14 11:07:27][notice]Prepare to replace database.
+[2026-05-14 11:07:27][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:07:27][notice]The length of UPDATE statement: 118
+[2026-05-14 11:07:27][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:07:30][notice]Start processing db_replace.
+[2026-05-14 11:07:30][notice]Prepare to replace database.
+[2026-05-14 11:07:30][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:07:30][notice]The length of UPDATE statement: 118
+[2026-05-14 11:07:30][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:07:33][notice]Start processing db_replace.
+[2026-05-14 11:07:33][notice]Prepare to replace database.
+[2026-05-14 11:07:33][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:07:33][notice]The length of UPDATE statement: 118
+[2026-05-14 11:07:33][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:07:35][notice]Start processing db_replace.
+[2026-05-14 11:07:35][notice]Prepare to replace database.
+[2026-05-14 11:07:35][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:07:35][notice]The length of UPDATE statement: 118
+[2026-05-14 11:07:35][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:07:39][notice]Start processing db_replace.
+[2026-05-14 11:07:39][notice]Prepare to replace database.
+[2026-05-14 11:07:39][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:07:39][notice]The length of UPDATE statement: 118
+[2026-05-14 11:07:39][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:07:41][notice]Start processing db_replace.
+[2026-05-14 11:07:41][notice]Prepare to replace database.
+[2026-05-14 11:07:41][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:07:41][notice]The length of UPDATE statement: 118
+[2026-05-14 11:07:41][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:07:44][notice]Start processing db_replace.
+[2026-05-14 11:07:44][notice]Prepare to replace database.
+[2026-05-14 11:07:44][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:07:44][notice]The length of UPDATE statement: 118
+[2026-05-14 11:07:44][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:07:48][notice]Start processing db_replace.
+[2026-05-14 11:07:48][notice]Prepare to replace database.
+[2026-05-14 11:07:48][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:07:48][notice]The length of UPDATE statement: 118
+[2026-05-14 11:07:48][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:07:51][notice]Start processing db_replace.
+[2026-05-14 11:07:51][notice]Prepare to replace database.
+[2026-05-14 11:07:51][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:07:51][notice]The length of UPDATE statement: 118
+[2026-05-14 11:07:51][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:07:54][notice]Start processing db_replace.
+[2026-05-14 11:07:54][notice]Prepare to replace database.
+[2026-05-14 11:07:54][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:07:54][notice]The length of UPDATE statement: 118
+[2026-05-14 11:07:54][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:07:57][notice]Start processing db_replace.
+[2026-05-14 11:07:57][notice]Prepare to replace database.
+[2026-05-14 11:07:57][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:07:57][notice]The length of UPDATE statement: 118
+[2026-05-14 11:07:57][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:08:00][notice]Start processing db_replace.
+[2026-05-14 11:08:00][notice]Prepare to replace database.
+[2026-05-14 11:08:00][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:08:00][notice]The length of UPDATE statement: 118
+[2026-05-14 11:08:00][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:08:03][notice]Start processing db_replace.
+[2026-05-14 11:08:03][notice]Prepare to replace database.
+[2026-05-14 11:08:03][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:08:03][notice]The length of UPDATE statement: 118
+[2026-05-14 11:08:03][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:08:06][notice]Start processing db_replace.
+[2026-05-14 11:08:06][notice]Prepare to replace database.
+[2026-05-14 11:08:06][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:08:06][notice]The length of UPDATE statement: 118
+[2026-05-14 11:08:06][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:08:10][notice]Start processing db_replace.
+[2026-05-14 11:08:10][notice]Prepare to replace database.
+[2026-05-14 11:08:10][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:08:10][notice]The length of UPDATE statement: 118
+[2026-05-14 11:08:10][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:08:13][notice]Start processing db_replace.
+[2026-05-14 11:08:13][notice]Prepare to replace database.
+[2026-05-14 11:08:13][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:08:13][notice]The length of UPDATE statement: 118
+[2026-05-14 11:08:13][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:08:16][notice]Start processing db_replace.
+[2026-05-14 11:08:16][notice]Prepare to replace database.
+[2026-05-14 11:08:16][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:08:16][notice]The length of UPDATE statement: 118
+[2026-05-14 11:08:16][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:08:19][notice]Start processing db_replace.
+[2026-05-14 11:08:19][notice]Prepare to replace database.
+[2026-05-14 11:08:19][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:08:19][notice]The length of UPDATE statement: 118
+[2026-05-14 11:08:19][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:08:22][notice]Start processing db_replace.
+[2026-05-14 11:08:22][notice]Prepare to replace database.
+[2026-05-14 11:08:22][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:08:22][notice]The length of UPDATE statement: 118
+[2026-05-14 11:08:22][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:08:26][notice]Start processing db_replace.
+[2026-05-14 11:08:26][notice]Prepare to replace database.
+[2026-05-14 11:08:26][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:08:26][notice]The length of UPDATE statement: 118
+[2026-05-14 11:08:26][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:08:29][notice]Start processing db_replace.
+[2026-05-14 11:08:29][notice]Prepare to replace database.
+[2026-05-14 11:08:29][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:08:29][notice]The length of UPDATE statement: 118
+[2026-05-14 11:08:29][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:08:32][notice]Start processing db_replace.
+[2026-05-14 11:08:32][notice]Prepare to replace database.
+[2026-05-14 11:08:32][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:08:32][notice]The length of UPDATE statement: 118
+[2026-05-14 11:08:32][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:08:35][notice]Start processing db_replace.
+[2026-05-14 11:08:35][notice]Prepare to replace database.
+[2026-05-14 11:08:35][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:08:35][notice]The length of UPDATE statement: 118
+[2026-05-14 11:08:35][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:08:38][notice]Start processing db_replace.
+[2026-05-14 11:08:38][notice]Prepare to replace database.
+[2026-05-14 11:08:38][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:08:38][notice]The length of UPDATE statement: 118
+[2026-05-14 11:08:38][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:08:41][notice]Start processing db_replace.
+[2026-05-14 11:08:41][notice]Prepare to replace database.
+[2026-05-14 11:08:41][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:08:41][notice]The length of UPDATE statement: 118
+[2026-05-14 11:08:41][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:08:44][notice]Start processing db_replace.
+[2026-05-14 11:08:45][notice]Prepare to replace database.
+[2026-05-14 11:08:45][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:08:45][notice]The length of UPDATE statement: 118
+[2026-05-14 11:08:45][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:08:48][notice]Start processing db_replace.
+[2026-05-14 11:08:48][notice]Prepare to replace database.
+[2026-05-14 11:08:48][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:08:48][notice]The length of UPDATE statement: 118
+[2026-05-14 11:08:48][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:08:51][notice]Start processing db_replace.
+[2026-05-14 11:08:51][notice]Prepare to replace database.
+[2026-05-14 11:08:51][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:08:51][notice]The length of UPDATE statement: 118
+[2026-05-14 11:08:51][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:08:54][notice]Start processing db_replace.
+[2026-05-14 11:08:54][notice]Prepare to replace database.
+[2026-05-14 11:08:54][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:08:54][notice]The length of UPDATE statement: 118
+[2026-05-14 11:08:54][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:08:57][notice]Start processing db_replace.
+[2026-05-14 11:08:57][notice]Prepare to replace database.
+[2026-05-14 11:08:57][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:08:57][notice]The length of UPDATE statement: 118
+[2026-05-14 11:08:57][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:09:00][notice]Start processing db_replace.
+[2026-05-14 11:09:00][notice]Prepare to replace database.
+[2026-05-14 11:09:00][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:09:00][notice]The length of UPDATE statement: 118
+[2026-05-14 11:09:00][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:09:03][notice]Start processing db_replace.
+[2026-05-14 11:09:03][notice]Prepare to replace database.
+[2026-05-14 11:09:03][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:09:03][notice]The length of UPDATE statement: 118
+[2026-05-14 11:09:03][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:09:06][notice]Start processing db_replace.
+[2026-05-14 11:09:06][notice]Prepare to replace database.
+[2026-05-14 11:09:06][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:09:06][notice]The length of UPDATE statement: 118
+[2026-05-14 11:09:06][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:09:09][notice]Start processing db_replace.
+[2026-05-14 11:09:09][notice]Prepare to replace database.
+[2026-05-14 11:09:09][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:09:09][notice]The length of UPDATE statement: 118
+[2026-05-14 11:09:09][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:09:11][notice]Start processing db_replace.
+[2026-05-14 11:09:11][notice]Prepare to replace database.
+[2026-05-14 11:09:11][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:09:11][notice]The length of UPDATE statement: 118
+[2026-05-14 11:09:11][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:09:14][notice]Start processing db_replace.
+[2026-05-14 11:09:14][notice]Prepare to replace database.
+[2026-05-14 11:09:14][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:09:14][notice]The length of UPDATE statement: 118
+[2026-05-14 11:09:14][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:09:18][notice]Start processing db_replace.
+[2026-05-14 11:09:18][notice]Prepare to replace database.
+[2026-05-14 11:09:18][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:09:18][notice]The length of UPDATE statement: 118
+[2026-05-14 11:09:18][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:09:21][notice]Start processing db_replace.
+[2026-05-14 11:09:21][notice]Prepare to replace database.
+[2026-05-14 11:09:21][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:09:21][notice]The length of UPDATE statement: 118
+[2026-05-14 11:09:21][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:09:23][notice]Start processing db_replace.
+[2026-05-14 11:09:23][notice]Prepare to replace database.
+[2026-05-14 11:09:23][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:09:23][notice]The length of UPDATE statement: 118
+[2026-05-14 11:09:23][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:09:26][notice]Start processing db_replace.
+[2026-05-14 11:09:26][notice]Prepare to replace database.
+[2026-05-14 11:09:26][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:09:26][notice]The length of UPDATE statement: 118
+[2026-05-14 11:09:26][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:09:29][notice]Start processing db_replace.
+[2026-05-14 11:09:29][notice]Prepare to replace database.
+[2026-05-14 11:09:29][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:09:29][notice]The length of UPDATE statement: 118
+[2026-05-14 11:09:29][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:09:32][notice]Start processing db_replace.
+[2026-05-14 11:09:32][notice]Prepare to replace database.
+[2026-05-14 11:09:32][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:09:32][notice]The length of UPDATE statement: 118
+[2026-05-14 11:09:32][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:09:35][notice]Start processing db_replace.
+[2026-05-14 11:09:35][notice]Prepare to replace database.
+[2026-05-14 11:09:35][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:09:35][notice]The length of UPDATE statement: 118
+[2026-05-14 11:09:35][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:09:38][notice]Start processing db_replace.
+[2026-05-14 11:09:38][notice]Prepare to replace database.
+[2026-05-14 11:09:38][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:09:38][notice]The length of UPDATE statement: 118
+[2026-05-14 11:09:38][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:09:41][notice]Start processing db_replace.
+[2026-05-14 11:09:41][notice]Prepare to replace database.
+[2026-05-14 11:09:41][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:09:41][notice]The length of UPDATE statement: 118
+[2026-05-14 11:09:41][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:09:44][notice]Start processing db_replace.
+[2026-05-14 11:09:44][notice]Prepare to replace database.
+[2026-05-14 11:09:44][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:09:44][notice]The length of UPDATE statement: 118
+[2026-05-14 11:09:44][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:09:47][notice]Start processing db_replace.
+[2026-05-14 11:09:47][notice]Prepare to replace database.
+[2026-05-14 11:09:47][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:09:47][notice]The length of UPDATE statement: 118
+[2026-05-14 11:09:47][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:09:50][notice]Start processing db_replace.
+[2026-05-14 11:09:50][notice]Prepare to replace database.
+[2026-05-14 11:09:50][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:09:50][notice]The length of UPDATE statement: 118
+[2026-05-14 11:09:50][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:09:53][notice]Start processing db_replace.
+[2026-05-14 11:09:53][notice]Prepare to replace database.
+[2026-05-14 11:09:53][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:09:53][notice]The length of UPDATE statement: 118
+[2026-05-14 11:09:53][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:09:56][notice]Start processing db_replace.
+[2026-05-14 11:09:56][notice]Prepare to replace database.
+[2026-05-14 11:09:56][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:09:56][notice]The length of UPDATE statement: 118
+[2026-05-14 11:09:56][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:09:59][notice]Start processing db_replace.
+[2026-05-14 11:09:59][notice]Prepare to replace database.
+[2026-05-14 11:09:59][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:09:59][notice]The length of UPDATE statement: 118
+[2026-05-14 11:09:59][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:10:02][notice]Start processing db_replace.
+[2026-05-14 11:10:02][notice]Prepare to replace database.
+[2026-05-14 11:10:02][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:10:02][notice]The length of UPDATE statement: 118
+[2026-05-14 11:10:02][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:10:05][notice]Start processing db_replace.
+[2026-05-14 11:10:05][notice]Prepare to replace database.
+[2026-05-14 11:10:05][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:10:05][notice]The length of UPDATE statement: 118
+[2026-05-14 11:10:05][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:10:08][notice]Start processing db_replace.
+[2026-05-14 11:10:08][notice]Prepare to replace database.
+[2026-05-14 11:10:08][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:10:08][notice]The length of UPDATE statement: 118
+[2026-05-14 11:10:08][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:10:11][notice]Start processing db_replace.
+[2026-05-14 11:10:11][notice]Prepare to replace database.
+[2026-05-14 11:10:11][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:10:11][notice]The length of UPDATE statement: 118
+[2026-05-14 11:10:11][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:10:14][notice]Start processing db_replace.
+[2026-05-14 11:10:14][notice]Prepare to replace database.
+[2026-05-14 11:10:14][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:10:14][notice]The length of UPDATE statement: 118
+[2026-05-14 11:10:14][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:10:17][notice]Start processing db_replace.
+[2026-05-14 11:10:17][notice]Prepare to replace database.
+[2026-05-14 11:10:17][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:10:17][notice]The length of UPDATE statement: 118
+[2026-05-14 11:10:17][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:10:20][notice]Start processing db_replace.
+[2026-05-14 11:10:20][notice]Prepare to replace database.
+[2026-05-14 11:10:20][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:10:20][notice]The length of UPDATE statement: 118
+[2026-05-14 11:10:20][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:10:23][notice]Start processing db_replace.
+[2026-05-14 11:10:23][notice]Prepare to replace database.
+[2026-05-14 11:10:23][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:10:23][notice]The length of UPDATE statement: 118
+[2026-05-14 11:10:23][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:10:26][notice]Start processing db_replace.
+[2026-05-14 11:10:26][notice]Prepare to replace database.
+[2026-05-14 11:10:26][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:10:26][notice]The length of UPDATE statement: 118
+[2026-05-14 11:10:26][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:10:29][notice]Start processing db_replace.
+[2026-05-14 11:10:29][notice]Prepare to replace database.
+[2026-05-14 11:10:29][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:10:29][notice]The length of UPDATE statement: 118
+[2026-05-14 11:10:29][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:10:32][notice]Start processing db_replace.
+[2026-05-14 11:10:32][notice]Prepare to replace database.
+[2026-05-14 11:10:32][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:10:32][notice]The length of UPDATE statement: 118
+[2026-05-14 11:10:32][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:10:35][notice]Start processing db_replace.
+[2026-05-14 11:10:35][notice]Prepare to replace database.
+[2026-05-14 11:10:35][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:10:35][notice]The length of UPDATE statement: 118
+[2026-05-14 11:10:35][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:10:38][notice]Start processing db_replace.
+[2026-05-14 11:10:38][notice]Prepare to replace database.
+[2026-05-14 11:10:38][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:10:38][notice]The length of UPDATE statement: 118
+[2026-05-14 11:10:38][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:10:41][notice]Start processing db_replace.
+[2026-05-14 11:10:41][notice]Prepare to replace database.
+[2026-05-14 11:10:41][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:10:41][notice]The length of UPDATE statement: 118
+[2026-05-14 11:10:41][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:10:45][notice]Start processing db_replace.
+[2026-05-14 11:10:45][notice]Prepare to replace database.
+[2026-05-14 11:10:45][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:10:45][notice]The length of UPDATE statement: 118
+[2026-05-14 11:10:45][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:10:48][notice]Start processing db_replace.
+[2026-05-14 11:10:48][notice]Prepare to replace database.
+[2026-05-14 11:10:48][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:10:48][notice]The length of UPDATE statement: 118
+[2026-05-14 11:10:48][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:10:51][notice]Start processing db_replace.
+[2026-05-14 11:10:51][notice]Prepare to replace database.
+[2026-05-14 11:10:51][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:10:51][notice]The length of UPDATE statement: 118
+[2026-05-14 11:10:51][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:10:54][notice]Start processing db_replace.
+[2026-05-14 11:10:54][notice]Prepare to replace database.
+[2026-05-14 11:10:54][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:10:54][notice]The length of UPDATE statement: 118
+[2026-05-14 11:10:54][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:10:56][notice]Start processing db_replace.
+[2026-05-14 11:10:56][notice]Prepare to replace database.
+[2026-05-14 11:10:56][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:10:56][notice]The length of UPDATE statement: 118
+[2026-05-14 11:10:56][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:11:00][notice]Start processing db_replace.
+[2026-05-14 11:11:00][notice]Prepare to replace database.
+[2026-05-14 11:11:00][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:11:00][notice]The length of UPDATE statement: 118
+[2026-05-14 11:11:00][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:11:03][notice]Start processing db_replace.
+[2026-05-14 11:11:03][notice]Prepare to replace database.
+[2026-05-14 11:11:03][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:11:03][notice]The length of UPDATE statement: 118
+[2026-05-14 11:11:03][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:11:06][notice]Start processing db_replace.
+[2026-05-14 11:11:06][notice]Prepare to replace database.
+[2026-05-14 11:11:06][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:11:06][notice]The length of UPDATE statement: 118
+[2026-05-14 11:11:06][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:11:09][notice]Start processing db_replace.
+[2026-05-14 11:11:09][notice]Prepare to replace database.
+[2026-05-14 11:11:09][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:11:09][notice]The length of UPDATE statement: 118
+[2026-05-14 11:11:09][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:11:13][notice]Start processing db_replace.
+[2026-05-14 11:11:13][notice]Prepare to replace database.
+[2026-05-14 11:11:13][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:11:13][notice]The length of UPDATE statement: 118
+[2026-05-14 11:11:13][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:11:16][notice]Start processing db_replace.
+[2026-05-14 11:11:16][notice]Prepare to replace database.
+[2026-05-14 11:11:16][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:11:16][notice]The length of UPDATE statement: 118
+[2026-05-14 11:11:16][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:11:19][notice]Start processing db_replace.
+[2026-05-14 11:11:19][notice]Prepare to replace database.
+[2026-05-14 11:11:19][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:11:19][notice]The length of UPDATE statement: 118
+[2026-05-14 11:11:19][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:11:22][notice]Start processing db_replace.
+[2026-05-14 11:11:22][notice]Prepare to replace database.
+[2026-05-14 11:11:22][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:11:22][notice]The length of UPDATE statement: 118
+[2026-05-14 11:11:22][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:11:25][notice]Start processing db_replace.
+[2026-05-14 11:11:25][notice]Prepare to replace database.
+[2026-05-14 11:11:25][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:11:25][notice]The length of UPDATE statement: 118
+[2026-05-14 11:11:25][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:11:28][notice]Start processing db_replace.
+[2026-05-14 11:11:28][notice]Prepare to replace database.
+[2026-05-14 11:11:28][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:11:28][notice]The length of UPDATE statement: 118
+[2026-05-14 11:11:28][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:11:32][notice]Start processing db_replace.
+[2026-05-14 11:11:32][notice]Prepare to replace database.
+[2026-05-14 11:11:32][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:11:32][notice]The length of UPDATE statement: 118
+[2026-05-14 11:11:32][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:11:35][notice]Start processing db_replace.
+[2026-05-14 11:11:35][notice]Prepare to replace database.
+[2026-05-14 11:11:35][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:11:35][notice]The length of UPDATE statement: 118
+[2026-05-14 11:11:35][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:11:37][notice]Start processing db_replace.
+[2026-05-14 11:11:37][notice]Prepare to replace database.
+[2026-05-14 11:11:37][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:11:37][notice]The length of UPDATE statement: 118
+[2026-05-14 11:11:37][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:11:40][notice]Start processing db_replace.
+[2026-05-14 11:11:40][notice]Prepare to replace database.
+[2026-05-14 11:11:40][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:11:40][notice]The length of UPDATE statement: 118
+[2026-05-14 11:11:40][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:11:43][notice]Start processing db_replace.
+[2026-05-14 11:11:43][notice]Prepare to replace database.
+[2026-05-14 11:11:43][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:11:43][notice]The length of UPDATE statement: 118
+[2026-05-14 11:11:43][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:11:47][notice]Start processing db_replace.
+[2026-05-14 11:11:47][notice]Prepare to replace database.
+[2026-05-14 11:11:47][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:11:47][notice]The length of UPDATE statement: 118
+[2026-05-14 11:11:47][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:11:50][notice]Start processing db_replace.
+[2026-05-14 11:11:50][notice]Prepare to replace database.
+[2026-05-14 11:11:50][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:11:50][notice]The length of UPDATE statement: 118
+[2026-05-14 11:11:50][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:11:53][notice]Start processing db_replace.
+[2026-05-14 11:11:53][notice]Prepare to replace database.
+[2026-05-14 11:11:53][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:11:53][notice]The length of UPDATE statement: 118
+[2026-05-14 11:11:53][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:11:56][notice]Start processing db_replace.
+[2026-05-14 11:11:56][notice]Prepare to replace database.
+[2026-05-14 11:11:56][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:11:56][notice]The length of UPDATE statement: 118
+[2026-05-14 11:11:56][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:11:59][notice]Start processing db_replace.
+[2026-05-14 11:11:59][notice]Prepare to replace database.
+[2026-05-14 11:11:59][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:11:59][notice]The length of UPDATE statement: 118
+[2026-05-14 11:11:59][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:12:02][notice]Start processing db_replace.
+[2026-05-14 11:12:02][notice]Prepare to replace database.
+[2026-05-14 11:12:02][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:12:02][notice]The length of UPDATE statement: 118
+[2026-05-14 11:12:02][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:12:05][notice]Start processing db_replace.
+[2026-05-14 11:12:05][notice]Prepare to replace database.
+[2026-05-14 11:12:05][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:12:05][notice]The length of UPDATE statement: 118
+[2026-05-14 11:12:05][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:12:08][notice]Start processing db_replace.
+[2026-05-14 11:12:08][notice]Prepare to replace database.
+[2026-05-14 11:12:08][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:12:08][notice]The length of UPDATE statement: 118
+[2026-05-14 11:12:08][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:12:11][notice]Start processing db_replace.
+[2026-05-14 11:12:11][notice]Prepare to replace database.
+[2026-05-14 11:12:11][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:12:11][notice]The length of UPDATE statement: 118
+[2026-05-14 11:12:11][notice]Replacing wpvividstg01_usermeta is completed.
+[2026-05-14 11:12:14][notice]Start processing db_replace.
+[2026-05-14 11:12:14][notice]Prepare to replace database.
+[2026-05-14 11:12:14][notice]UPDATE wpvividstg01_usermeta SET meta_key=REPLACE(meta_key,"mod145_","wpvividstg01_") WHERE meta_key LIKE "mod145\_%";
+[2026-05-14 11:12:14][notice]The length of UPDATE statement: 118
+[2026-05-14 11:12:14][notice]Replacing wpvividstg01_usermeta is completed.

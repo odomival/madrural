@@ -1,0 +1,2966 @@
+# Translation of Plugins - Kadence Blocks — Page Builder Toolkit for Gutenberg Editor - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Kadence Blocks — Page Builder Toolkit for Gutenberg Editor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-05-13 21:33:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Kadence Blocks — Page Builder Toolkit for Gutenberg Editor - Stable (latest release)\n"
+
+#: includes/resources/Home/Home_Content_View_Model.php:96
+msgid "Start building with Kadence AI."
+msgstr "Begin met bouwen met Kadence AI."
+
+#: includes/resources/Home/Home_Content_View_Model.php:140
+msgid "Start from scratch"
+msgstr "Begin helemaal opnieuw"
+
+#: includes/resources/Home/Home_Content_View_Model.php:75
+msgid "Activate License Key"
+msgstr "Licentiesleutel activeren"
+
+#: includes/resources/Harbor/Harbor_Provider.php:74
+#: includes/resources/Home/Home_Content_View_Model.php:53
+msgid "We're building something new. Kadence AI as you know it is no longer available for new activations — but great things are on the way. Stay tuned for what's next."
+msgstr "We bouwen iets nieuws. Kadence AI zoals je dat kent, is niet langer beschikbaar voor nieuwe acties - Maar er komen geweldige dingen aan. Blijf op de hoogte voor wat er daarna gebeurt."
+
+#. translators: 1: product name, 2: URL to the Liquid Web Software Manager
+#. page.
+#: includes/resources/Harbor/Actions/Render_Harbor_License_Notice.php:42
+msgid "%1$s is now part of Liquid Web's software offerings. This field is still available for managing legacy licenses from your previous %1$s account. If you purchased a new plan through Liquid Web, your products are managed through the <a href=\"%2$s\">Liquid Web Software Manager</a>."
+msgstr "%1$s maakt nu deel uit van Liquid Web's softwareaanbod. Dit veld is nog steeds beschikbaar voor het beheer van verouderde licenties van je vorige %1$s-account. Als je een nieuw abonnement hebt gekocht via Liquid Web, worden je producten beheerd via de <a href=\"%2$s\">Liquid Web Software Manager</a>."
+
+#: includes/resources/Harbor/Actions/Render_Harbor_License_Notice.php:38
+msgid "Liquid Web Software Manager"
+msgstr "Liquid Web Software Manager"
+
+#: includes/resources/Home/Home_Content_View_Model.php:134
+msgid "Kickstart your site with a variety of pre-designed page layouts, customized with your site's style."
+msgstr "Start je site op met een verscheidenheid aan vooraf ontworpen pagina lay-outs, aangepast met de stijl van je site."
+
+#: includes/resources/Home/Home_Content_View_Model.php:52
+#: includes/resources/Home/Home_Content_View_Model.php:73
+msgid "Kadence AI is evolving."
+msgstr "Kadence AI evolueert."
+
+#: includes/resources/Home/Home_Content_View_Model.php:127
+msgid "Elevate your site's design with hundreds of beautiful patterns, customized with your site's style."
+msgstr "Tilt het ontwerp van je site naar een hoger niveau met honderden prachtige patronen, aangepast met de stijl van je site."
+
+#: includes/resources/Home/Home_Content_View_Model.php:141
+msgid "Build your website from scratch, using Kadence's blocks for layout, content and interactions."
+msgstr "Bouw je site vanaf nul, met behulp van Kadence's blokken voor lay-out, inhoud en interacties."
+
+#: includes/resources/Home/Home_Content_View_Model.php:126
+msgid "Build a page using pre-designed patterns"
+msgstr "Bouw een pagina met vooraf ontworpen patronen"
+
+#: includes/resources/Home/Home_Content_View_Model.php:74
+msgid "If you're using a legacy Kadence plan, activate your license to access your included features. If you're on a new plan, Kadence AI is currently being reimagined to deliver a more powerful experience. During this transition, it's only available on previous Kadence plans."
+msgstr "Als je een verouderd Kadence abonnement gebruikt, activeer dan je licentie om toegang te krijgen tot je opgenomen functies. Als je op een nieuw abonnement zit, wordt Kadence AI momenteel opnieuw vormgegeven om een krachtigere ervaring te leveren. Tijdens deze overgang is het alleen beschikbaar op eerdere Kadence abonnementen."
+
+#: includes/resources/Home/Home_Content_View_Model.php:66
+msgid "Manage AI Credits"
+msgstr "Beheer AI credits"
+
+#: includes/blocks/class-kadence-blocks-advancedgallery-block.php:1238
+msgid "Display lightbox image:"
+msgstr "Toon afbeeldingen in lightbox:"
+
+#: includes/blocks/class-kadence-blocks-show-more-block.php:266
+msgid "Content continues."
+msgstr "De inhoud gaat verder."
+
+#: includes/blocks/class-kadence-blocks-show-more-block.php:267
+msgid "Activate the"
+msgstr "Activeer de"
+
+#: includes/blocks/class-kadence-blocks-show-more-block.php:265
+msgid "Content is collapsed."
+msgstr "Inhoud is samengevouwen."
+
+#: includes/blocks/class-kadence-blocks-show-more-block.php:268
+msgid "button to reveal the full content."
+msgstr "knop om de volledige inhoud te onthullen."
+
+#: includes/class-kadence-blocks-image-picker-rest.php:81
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:843
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:1228
+#: includes/class-kadence-blocks-prebuilt-library.php:796
+msgid "You do not have permission to upload files."
+msgstr "Je hebt geen toestemming om bestanden te uploaden."
+
+#. Plugin Name of the plugin
+#: kadence-blocks.php
+msgid "Kadence Blocks — Page Builder Toolkit for Gutenberg Editor"
+msgstr "Kadence Blocks — Page Builder Toolkit for Gutenberg Editor"
+
+#: includes/advanced-form/getresponse-rest-api.php:69
+msgid "You do not have permission to access GetResponse API data."
+msgstr "Je hebt geen toestemming om toegang te krijgen tot GetResponse API gegevens."
+
+#: includes/advanced-form/getresponse-rest-api.php:92
+msgid "Invalid or disallowed endpoint."
+msgstr "Ongeldig of niet toegestaan endpoint."
+
+#: includes/resources/Optimizer/Rest/Optimize_Rest_Controller.php:278
+msgid "Post not found."
+msgstr "Bericht niet gevonden."
+
+#: includes/resources/Optimizer/Post_List_Table/Filter.php:40
+msgid "Outdated"
+msgstr "Verouderd"
+
+#: includes/resources/Optimizer/Post_List_Table/Filter.php:50
+#: includes/resources/Optimizer/Translation/Provider.php:22
+msgid "Optimized"
+msgstr "Geoptimaliseerd"
+
+#: includes/resources/Optimizer/Post_List_Table/Bulk_Action_Manager.php:26
+msgid "Optimize"
+msgstr "Optimaliseren"
+
+#: includes/resources/Optimizer/Post_List_Table/Filter.php:55
+#: includes/resources/Optimizer/Translation/Provider.php:24
+msgid "Not Optimized"
+msgstr "Niet geoptimaliseerd"
+
+#: includes/resources/Optimizer/Translation/Provider.php:23
+msgid "Optimizing"
+msgstr "Optimaliseren"
+
+#: includes/resources/Optimizer/Post_List_Table/Filter.php:45
+#: includes/resources/Optimizer/Translation/Provider.php:26
+msgid "Excluded"
+msgstr "Uitgesloten"
+
+#: includes/resources/Optimizer/Rest/Schema.php:188
+msgid "Whether this data is stale or expired."
+msgstr "Of deze gegevens verouderd of verlopen zijn."
+
+#: includes/resources/Optimizer/Rest/Schema.php:46
+msgid "Whether the section contains any image elements."
+msgstr "Of de sectie afbeelding elementen bevat."
+
+#: includes/resources/Optimizer/Rest/Schema.php:63
+msgid "The source URL of the image."
+msgstr "De bron URL van de afbeelding."
+
+#: includes/resources/Optimizer/Rest/Optimize_Rest_Controller.php:566
+msgid "The relative post path"
+msgstr "De relatieve bericht pad"
+
+#: includes/resources/Optimizer/Rest/Schema.php:127
+msgid "The loading attribute of the image (e.g., 'lazy', 'eager', 'auto')."
+msgstr "Het laden attribuut van de afbeelding (bijv. 'lazy', 'eager', 'auto')."
+
+#: includes/resources/Optimizer/Rest/Schema.php:111
+msgid "The intrinsic height of the image file in pixels."
+msgstr "De intrinsieke hoogte van het afbeeldingbestand in pixels."
+
+#: includes/resources/Optimizer/Rest/Schema.php:97
+msgid "The img element width attribute value."
+msgstr "De img element breedte attribuut waarde."
+
+#: includes/resources/Optimizer/Rest/Schema.php:102
+msgid "The img element height attribute value."
+msgstr "De img element hoogte attribuut waarde."
+
+#: includes/resources/Optimizer/Rest/Schema.php:42
+msgid "Whether the section is located above the fold."
+msgstr "Of de sectie zich boven de vouw bevindt."
+
+#: includes/resources/Optimizer/Rest/Schema.php:50
+msgid "Whether the section has a background image."
+msgstr "Of de sectie een achtergrondafbeelding heeft."
+
+#: includes/resources/Optimizer/Post_List_Table/Row_Action.php:73
+#: dist/plugin-kadence-control.js:8
+#: includes/resources/Optimizer/assets/js/optimized-view-link/index.js:23
+msgid "View Optimized"
+msgstr "Weergave geoptimaliseerd"
+
+#: includes/resources/Optimizer/Rest/Optimize_Rest_Controller.php:677
+msgid "Unable to find post to update"
+msgstr "Niet in staat om bericht te updaten"
+
+#: includes/resources/Optimizer/Rest/Optimize_Rest_Controller.php:130
+msgid "This post is excluded from optimization."
+msgstr "Dit bericht is uitgesloten van optimalisatie."
+
+#: includes/resources/Optimizer/Rest/Schema.php:135
+msgid "The sizes attribute of the image."
+msgstr "Het attribuut van de afbeelding."
+
+#: includes/resources/Optimizer/Rest/Schema.php:87
+msgid "The rendered width of the image in pixels."
+msgstr "De gerenderde breedte van de afbeelding in pixels."
+
+#: includes/resources/Optimizer/Rest/Schema.php:92
+msgid "The rendered height of the image in pixels."
+msgstr "De gerenderde hoogte van de afbeelding in pixels."
+
+#: includes/resources/Optimizer/Rest/Optimize_Rest_Controller.php:142
+msgid "The post must be published to be optimized."
+msgstr "Het bericht moet worden gepubliceerd om geoptimaliseerd te worden."
+
+#: includes/resources/Optimizer/Rest/Optimize_Rest_Controller.php:572
+msgid "The post ID associated with the optimization data."
+msgstr "Het bericht ID dat geassocieerd wordt met de optimalisatie gegevens."
+
+#: includes/resources/Optimizer/Rest/Schema.php:107
+msgid "The intrinsic width of the image file in pixels."
+msgstr "De intrinsieke breedte van het afbeeldingbestand in pixels."
+
+#: includes/resources/Optimizer/Post_List_Table/Bulk_Action_Manager.php:27
+#: includes/resources/Optimizer/Translation/Provider.php:21
+msgid "Remove Optimization"
+msgstr "Verwijderen optimalisatie"
+
+#: includes/resources/Optimizer/Rest/Optimize_Rest_Controller.php:290
+msgid "Post has no rewrite rules or is not public."
+msgstr "Bericht heeft geen herschrijfregels of is niet publiek."
+
+#: includes/resources/Optimizer/Rest/Schema.php:228
+msgid "Page Analysis Data"
+msgstr "Pagina analyse gegevens"
+
+#: includes/resources/Optimizer/Translation/Provider.php:28
+msgid "Optimization Outdated. Run again?"
+msgstr "Optimalisatie verouderd. Uitvoeren opnieuw?"
+
+#: includes/resources/Optimizer/Translation/Provider.php:27
+msgid "Optimization Outdated"
+msgstr "Optimalisatie verouderd"
+
+#: includes/resources/Optimizer/Post_List_Table/Bulk_Action_Manager.php:25
+msgid "KB Optimizer"
+msgstr "KB optimizer"
+
+#: includes/resources/Optimizer/Post_List_Table/Provider.php:36
+msgid "Kadence Optimizer"
+msgstr "Kadence optimizer"
+
+#: includes/resources/Optimizer/Post_List_Table/Filter.php:32
+msgid "Filter by Optimizer Status"
+msgstr "Filteren optimizer status"
+
+#: includes/resources/Optimizer/Rest/Optimize_Rest_Controller.php:175
+msgid "Failed to store optimizer data."
+msgstr "Fout bij het opslaan van optimizer gegevens."
+
+#: includes/resources/Optimizer/Post_List_Table/Filter.php:35
+msgid "All Optimizer Statuses"
+msgstr "Alle optimizer statuses"
+
+#: includes/resources/Optimizer/Rest/Schema.php:157
+msgid "A list of above the fold image URLs."
+msgstr "Een lijst van boven de vouw afbeelding URL's."
+
+#: includes/resources/Optimizer/Rest/Schema.php:69
+msgid "An array of sources for different resolutions."
+msgstr "Een array van bronnen voor verschillende resoluties."
+
+#: includes/resources/Optimizer/Rest/Schema.php:175
+msgid "An array of layout sections."
+msgstr "Een array van lay-out secties."
+
+#: includes/resources/Optimizer/Rest/Schema.php:206
+msgid "An array of all image objects found on the page."
+msgstr "Een array van alle afbeelding objecten gevonden op de pagina."
+
+#: includes/resources/Optimizer/Rest/Schema.php:149
+msgid "A calculated optimal sizes string."
+msgstr "Een berekende optimale afmetingen string."
+
+#: includes/resources/Optimizer/Rest/Schema.php:139
+msgid "The computed CSS styles of the image element."
+msgstr "De berekende CSS stijlen van de afbeelding element."
+
+#: includes/resources/Optimizer/Rest/Schema.php:123
+msgid "The class attribute of the image element."
+msgstr "Het klasse attribuut of de afbeelding element."
+
+#: includes/resources/Optimizer/Rest/Schema.php:119
+msgid "The alt text of the image."
+msgstr "De alt-tekst van de afbeelding."
+
+#: includes/resources/Optimizer/Rest/Optimize_Rest_Controller.php:402
+msgid "Sorry, you are not allowed to store optimizer data."
+msgstr "Je hebt geen toestemming om optimizer gegevens op te slaan."
+
+#: includes/resources/Optimizer/Rest/Optimize_Rest_Controller.php:537
+msgid "Sorry, you are not allowed to delete optimizer data for all selected posts."
+msgstr "Je hebt geen toestemming om optimizer gegevens van alle geselecteerde berichten te verwijderen."
+
+#: includes/resources/Optimizer/Rest/Optimize_Rest_Controller.php:439
+msgid "Sorry, you are not allowed to access optimizer data."
+msgstr "Je hebt geen toestemming om optimizer gegevens te raadplegen."
+
+#: includes/resources/Optimizer/Rest/Optimize_Rest_Controller.php:505
+msgid "Sorry, you are not allowed to access optimizer data for all selected posts."
+msgstr "Je hebt geen toestemming om optimizer gegevens van alle geselecteerde berichten te raadplegen."
+
+#: includes/resources/Optimizer/Rest/Schema.php:30
+msgid "The HTML tag name of the section element."
+msgstr "De HTML tagnaam van het sectie element."
+
+#: includes/resources/Optimizer/Rest/Schema.php:26
+msgid "The height of the section in pixels."
+msgstr "De hoogte van de sectie in pixels."
+
+#: includes/resources/Optimizer/Rest/Schema.php:131
+msgid "The decoding hint for the image (e.g., 'async', 'sync', 'auto')."
+msgstr "De decodering hint voor de afbeelding (bijv. 'async', 'sync', 'auto')."
+
+#: includes/resources/Optimizer/Rest/Schema.php:34
+msgid "The CSS classes assigned to this section."
+msgstr "De CSS klassen die aan dit sectie zijn toegewezen."
+
+#: includes/resources/Optimizer/Rest/Schema.php:115
+msgid "The aspect ratio of the image."
+msgstr "De aspectratio van de afbeelding."
+
+#. translators: %s: The column label
+#: includes/resources/Optimizer/Post_List_Table/Column_Registrar.php:70
+msgid "Table ordered by %s"
+msgstr "Tabel gesorteerd op %s"
+
+#: includes/resources/Optimizer/Rest/Optimize_Rest_Controller.php:477
+msgid "Sorry, you do not have permission to delete data for this post."
+msgstr "Je hebt geen toestemming om verwijderen gegevens voor dit bericht."
+
+#: includes/resources/Optimizer/Rest/Optimize_Rest_Controller.php:202
+msgid "Sorry, we couldn't find optimizer data."
+msgstr "We konden geen optimizer gegevens vinden."
+
+#: includes/resources/Optimizer/Rest/Optimize_Rest_Controller.php:618
+msgid "Array of post IDs to get metadata for."
+msgstr "Array van bericht ID's om metagegevens te verkrijgen."
+
+#: includes/resources/Optimizer/Rest/Optimize_Rest_Controller.php:250
+#: includes/resources/Optimizer/Rest/Optimize_Rest_Controller.php:359
+msgid "Failed to delete optimizer data."
+msgstr "Fout bij verwijderen optimizer gegevens."
+
+#: includes/resources/Optimizer/Rest/Optimize_Rest_Controller.php:654
+msgid "Array of post paths corresponding to the post IDs."
+msgstr "Array van berichtpaden die overeenkomen met de bericht ID's."
+
+#: includes/resources/Optimizer/Rest/Schema.php:200
+msgid "Performance and layout data for the mobile viewport."
+msgstr "Prestatie en lay-out gegevens voor de mobiele viewport."
+
+#: includes/resources/Optimizer/Rest/Schema.php:194
+msgid "Performance and layout data for the desktop viewport."
+msgstr "Prestatie en lay-out gegevens voor de desktop viewport."
+
+#: includes/resources/Optimizer/Translation/Provider.php:25
+msgid "Not Optimizable"
+msgstr "Niet optimaliseerbaar"
+
+#: includes/resources/Optimizer/Rest/Optimize_Rest_Controller.php:333
+msgid "Missing post path."
+msgstr "Bericht pad ontbreekt."
+
+#: includes/resources/Optimizer/Status/Meta.php:60
+msgid "Exclude this post from optimization."
+msgstr "Dit bericht uitsluiten van optimalisatie."
+
+#: includes/resources/Optimizer/Rest/Optimize_Rest_Controller.php:644
+msgid "Array of post IDs to delete optimization data for."
+msgstr "Array van bericht ID's om verwijderen optimalisatie gegevens voor."
+
+#: includes/resources/Optimizer/Translation/Provider.php:20
+msgid "Run Optimizer"
+msgstr "Uitvoeren Optimizer"
+
+#: includes/resources/Optimizer/Rest/Optimize_Rest_Controller.php:392
+#: includes/resources/Optimizer/Rest/Optimize_Rest_Controller.php:429
+#: includes/resources/Optimizer/Rest/Optimize_Rest_Controller.php:467
+msgid "Sorry, we could not find that post_id."
+msgstr "We konden dat post_id niet vinden."
+
+#: includes/resources/Optimizer/Rest/Schema.php:58
+msgid "The CSS selector path to the image element."
+msgstr "Het CSS selector pad naar het afbeelding element."
+
+#: includes/resources/Optimizer/Rest/Schema.php:38
+msgid "The CSS selector path to the element."
+msgstr "Het CSS selector pad naar het element."
+
+#: includes/resources/Optimizer/Rest/Schema.php:22
+msgid "The ID attribute of the section element."
+msgstr "Het ID attribuut of het sectie element."
+
+#: includes/resources/Optimizer/Rest/Schema.php:166
+msgid "A list of URLs for background images."
+msgstr "Een lijst van URL's voor achtergrond afbeeldingen."
+
+#: includes/settings/class-kadence-blocks-settings.php:1399
+msgid "Admin Bar"
+msgstr "Toolbar"
+
+#: includes/settings/class-kadence-blocks-settings.php:1145
+msgid "Show Block Headers in Admin Bar"
+msgstr "Blok headers weergeven in de toolbar"
+
+#: includes/header/class-kadence-header-cpt.php:992
+msgid "%s (Theme)"
+msgstr "%s (Thema)"
+
+#: includes/advanced-form/advanced-form-ajax.php:321
+msgid "Trying to include too many files."
+msgstr "Proberen te veel bestanden op te nemen."
+
+#: includes/advanced-form/advanced-form-ajax.php:356
+msgid "File could not be uploaded"
+msgstr "Bestand kon niet worden geüpload"
+
+#. translators: %1$d is the rating number, %2$d is the total number of stars.
+#: includes/blocks/class-kadence-blocks-testimonial-block.php:366
+msgid "%1$d out of %2$d stars"
+msgstr "%1$d van %2$d sterren"
+
+#: includes/blocks/class-kadence-blocks-advancedgallery-block.php:764
+#: includes/blocks/class-kadence-blocks-advancedgallery-block.php:785
+#: includes/blocks/class-kadence-blocks-advancedgallery-block.php:806
+#: includes/blocks/class-kadence-blocks-advancedgallery-block.php:839
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1542
+#: includes/blocks/class-kadence-blocks-testimonials-block.php:858
+#: dist/blocks-rowlayout.js:30 dist/blocks-testimonials.js:1
+msgid "Toggle autoplay"
+msgstr "Toggle autoplay"
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:1473
+msgid "Invalid Response Content: Missing Data"
+msgstr "Ongeldige inhoud reactie: ontbrekende gegevens"
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:1466
+msgid "Invalid Response Content"
+msgstr "Ongeldige inhoud reactie"
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:1420
+msgid "Invalid Content, Empty Content"
+msgstr "Ongeldige inhoud, lege inhoud"
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:1470
+msgid "Invalid Response Content: Error"
+msgstr "Ongeldige inhoud reactie: fout"
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:1459
+msgid "Invalid Response"
+msgstr "Ongeldige reactie"
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:1417
+msgid "Invalid Content, content body error"
+msgstr "Ongeldige inhoud, inhoud body fout"
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:1411
+msgid "Invalid Request, Connection Error"
+msgstr "Ongeldige aanvraag, verbindingsfout"
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:2777
+msgid "The meta to return"
+msgstr "De meta om terug te geven"
+
+#: includes/blocks/class-kadence-blocks-advancedgallery-block.php:752
+msgid "Photo Gallery Carousel"
+msgstr "Fotogalerij carrousel"
+
+#: includes/header/class-kadence-header-cpt.php:1021 dist/blocks-vector.js:1
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: includes/init.php:591
+msgid "Vector SVGs imported in Kadence"
+msgstr "Vector SVG's geïmporteerd in Kadence"
+
+#: includes/init.php:590
+msgctxt "post type for kadence vector svg block"
+msgid "Vector SVGs"
+msgstr "Vector SVG's"
+
+#: dist/blocks/vector/block.json
+msgctxt "block title"
+msgid "Vector SVG"
+msgstr "Vector SVG"
+
+#: includes/settings/class-kadence-blocks-settings.php:1503
+msgid "Vector Graphics"
+msgstr "Vectorafbeeldingen"
+
+#: includes/class-vector-post-rest-api.php:64
+msgid "Vector contains invalid SVG"
+msgstr "Vector bevat ongeldige SVG"
+
+#: includes/class-vector-post-rest-api.php:70
+msgid "Please enter a vector title"
+msgstr "Voer een vectortitel in"
+
+#: includes/settings/class-kadence-blocks-settings.php:1506
+msgid "Manage Vector Graphics"
+msgstr "Vectorafbeeldingen beheren"
+
+#: includes/settings/class-kadence-blocks-settings.php:1504
+msgid "Add custom vector icons and SVGs to enhance your site design."
+msgstr "Aangepaste vector iconen en SVG's toevoegen om het ontwerp van je site te verbeteren."
+
+#: includes/header/class-kadence-header-cpt.php:955
+msgid "Theme Header"
+msgstr "Thema header"
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:1409
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:1439
+msgid "Invalid Request, Incorrect Access Key"
+msgstr "Ongeldige aanvraag, onjuiste sleutel"
+
+#: dist/blocks/videopopup/block.json
+msgctxt "block title"
+msgid "Video Popup"
+msgstr "Video pop-up"
+
+#: includes/settings/class-kadence-blocks-settings.php:1584
+msgid "Beautifully display a thumbnail with overlay and hover effect that links to a video popup on click. Works with local or external videos!"
+msgstr "Geef een thumbnail mooi weer met overlay en hoveren effect dat links naar een video pop-up bij klikken. Werkt met lokale of externe video's!"
+
+#: includes/blocks/class-kadence-blocks-advancedgallery-block.php:1255
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1876
+#: includes/blocks/class-kadence-blocks-testimonials-block.php:942
+msgid "slide"
+msgstr "slide"
+
+#: includes/blocks/class-kadence-blocks-advancedgallery-block.php:1246
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1867
+#: includes/blocks/class-kadence-blocks-testimonials-block.php:933
+msgid "Previous slide"
+msgstr "Vorige slide"
+
+#: includes/blocks/class-kadence-blocks-advancedgallery-block.php:1247
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1868
+#: includes/blocks/class-kadence-blocks-testimonials-block.php:934
+msgid "Next slide"
+msgstr "Volgende slide"
+
+#: includes/blocks/class-kadence-blocks-advancedgallery-block.php:1257
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1878
+#: includes/blocks/class-kadence-blocks-testimonials-block.php:944
+msgid "%s of %s"
+msgstr "%s van %s"
+
+#: includes/blocks/class-kadence-blocks-advancedgallery-block.php:1250
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1871
+#: includes/blocks/class-kadence-blocks-testimonials-block.php:937
+msgid "Go to slide %s"
+msgstr "Ga naar slide %s"
+
+#: includes/blocks/class-kadence-blocks-advancedgallery-block.php:1251
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1872
+#: includes/blocks/class-kadence-blocks-testimonials-block.php:938
+msgid "Go to page %s"
+msgstr "Ga naar pagina %s"
+
+#: includes/blocks/class-kadence-blocks-advancedgallery-block.php:1252
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1873
+#: includes/blocks/class-kadence-blocks-testimonials-block.php:939
+msgid "Start autoplay"
+msgstr "Automatisch afspelen starten"
+
+#: includes/blocks/class-kadence-blocks-advancedgallery-block.php:1256
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1877
+#: includes/blocks/class-kadence-blocks-testimonials-block.php:943
+msgid "Select a slide to show"
+msgstr "Selecteer een slide om te laten zien"
+
+#: includes/blocks/class-kadence-blocks-advancedgallery-block.php:1253
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1874
+#: includes/blocks/class-kadence-blocks-testimonials-block.php:940
+msgid "Pause autoplay"
+msgstr "Automatisch afspelen pauzeren"
+
+#: includes/blocks/class-kadence-blocks-advancedgallery-block.php:1249
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1870
+#: includes/blocks/class-kadence-blocks-testimonials-block.php:936
+msgid "Go to last slide"
+msgstr "Ga naar de laatste slide"
+
+#: includes/blocks/class-kadence-blocks-advancedgallery-block.php:1248
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1869
+#: includes/blocks/class-kadence-blocks-testimonials-block.php:935
+msgid "Go to first slide"
+msgstr "Ga naar de eerste slide"
+
+#: dist/blocks-table.js:1 dist/blocks/table/children/data/block.json
+msgctxt "block title"
+msgid "Table Data"
+msgstr "Tabelgegevens"
+
+#: dist/blocks-table.js:1 dist/blocks/table/block.json
+#: dist/blocks/table/children/row/block.json
+msgctxt "block title"
+msgid "Table (Adv)"
+msgstr "Tabel (Adv)"
+
+#: includes/class-kadence-blocks-cpt-import-export.php:118
+msgid "Export"
+msgstr "Export"
+
+#: includes/class-kadence-blocks-cpt-import-export.php:186
+msgid "Import completed successfully!"
+msgstr "Import succesvol afgerond!"
+
+#: includes/class-kadence-blocks-cpt-import-export.php:232
+msgid "Upload & Import"
+msgstr "Upload & importeren"
+
+#: includes/class-kadence-blocks-cpt-import-export.php:350
+msgid "Please upload a file to import."
+msgstr "Upload een bestand om te importeren."
+
+#: includes/class-kadence-blocks-cpt-import-export.php:357
+msgid "File upload failed."
+msgstr "Bestand uploaden mislukt."
+
+#: includes/class-kadence-blocks-cpt-import-export.php:219
+msgid "Export All"
+msgstr "Alles exporteren"
+
+#: includes/class-kadence-blocks-cpt-import-export.php:379
+msgid "Invalid import file structure. Missing export.json"
+msgstr "Ongeldige import bestandsstructuur. Ontbrekende export.json"
+
+#: includes/class-kadence-blocks-cpt-import-export.php:343
+msgid "You do not have sufficient permissions to import content."
+msgstr "Je hebt niet voldoende rechten om inhoud te importeren."
+
+#: includes/class-kadence-blocks-cpt-import-export.php:80
+#: includes/class-kadence-blocks-cpt-import-export.php:244
+msgid "You do not have sufficient permissions to export content."
+msgstr "Je hebt niet voldoende rechten om inhoud te exporteren."
+
+#: includes/class-kadence-blocks-cpt-import-export.php:387
+msgid "Invalid JSON data in import file."
+msgstr "Ongeldige JSON gegevens in import bestand."
+
+#: includes/class-kadence-blocks-cpt-import-export.php:362
+msgid "Invalid file type. Please upload a ZIP file."
+msgstr "Ongeldig bestandstype. Upload een ZIP bestand."
+
+#: includes/class-kadence-blocks-cpt-import-export.php:371
+msgid "Invalid data in import file."
+msgstr "Ongeldige gegevens in import bestand."
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:2337
+msgid "Response Code Error: %s"
+msgstr "Reactie fout code: %s"
+
+#: dist/blocks/header/block.json dist/blocks/navigation/block.json
+msgctxt "block keyword"
+msgid "navigation"
+msgstr "navigatie"
+
+#: dist/blocks/navigation/block.json
+msgctxt "block keyword"
+msgid "menu"
+msgstr "menu"
+
+#: dist/blocks/navigation/block.json
+msgctxt "block keyword"
+msgid "links"
+msgstr "links"
+
+#: includes/header/class-kadence-header-cpt.php:207
+#: includes/header/class-kadence-header-cpt.php:978 dist/blocks-table.js:1
+msgid "Headers"
+msgstr "Headers"
+
+#: includes/header/class-kadence-header-cpt.php:209
+msgctxt "admin menu"
+msgid "Headers"
+msgstr "Headers"
+
+#: dist/blocks-header.js:1 dist/blocks/header/children/section/block.json
+msgctxt "block title"
+msgid "Header Section"
+msgstr "Header sectie"
+
+#: dist/blocks/header/block.json
+msgctxt "block keyword"
+msgid "header"
+msgstr "header"
+
+#: includes/settings/class-kadence-blocks-settings.php:1354
+msgid "Activating…"
+msgstr "Aan het activeren..."
+
+#: includes/blocks/class-kadence-blocks-search-block.php:263
+msgid "Close search"
+msgstr "Zoeken sluiten"
+
+#: includes/blocks/class-kadence-blocks-header-block.php:357
+#: includes/blocks/class-kadence-blocks-header-block.php:359
+#: includes/blocks/class-kadence-blocks-navigation-block.php:578
+#: includes/blocks/class-kadence-blocks-navigation-block.php:580
+msgid "Child menu of"
+msgstr "Submenu van"
+
+#: includes/blocks/class-kadence-blocks-header-block.php:356
+#: includes/blocks/class-kadence-blocks-header-block.php:358
+#: includes/blocks/class-kadence-blocks-navigation-block.php:577
+#: includes/blocks/class-kadence-blocks-navigation-block.php:579
+msgid "Child menu"
+msgstr "Submenu"
+
+#: includes/blocks/header/class-kadence-blocks-off-canvas-block.php:266
+#: dist/blocks-header.js:1
+msgid "Close Menu"
+msgstr "Menu sluiten"
+
+#: includes/blocks/header/class-kadence-blocks-off-canvas-trigger-block.php:199
+msgid "Toggle Menu"
+msgstr "Toggle menu"
+
+#: includes/navigation/class-kadence-navigation-cpt.php:177
+msgid "Navigations"
+msgstr "Navigaties"
+
+#: dist/blocks-header.js:1 dist/blocks/header/children/column/block.json
+msgctxt "block title"
+msgid "Header Column"
+msgstr "Header kolom"
+
+#: dist/blocks/header/block.json
+msgctxt "block keyword"
+msgid "footer"
+msgstr "footer"
+
+#: includes/settings/class-kadence-blocks-settings.php:1517
+#: dist/blocks-navigation.js:1
+msgid "Advanced Navigation"
+msgstr "Geavanceerde navigatie"
+
+#: dist/blocks/navigation-link/block.json
+msgctxt "block description"
+msgid "Add a page, link, or another item to your navigation."
+msgstr "Voeg een pagina, link, of ander element toe aan je navigatie."
+
+#: dist/blocks/header/block.json
+msgctxt "block description"
+msgid "A collection of blocks that allow visitors to get around your site."
+msgstr "Een verzameling blokken waarmee bezoekers op je site kunnen navigeren."
+
+#: includes/header/class-kadence-header-cpt.php:210
+msgid "Parent Kadence Header:"
+msgstr "Hoofd Kadence header:"
+
+#: includes/navigation/class-kadence-navigation-cpt.php:181
+msgid "No Kadence Navigation found in Trash."
+msgstr "Geen Kadence navigatie gevonden in prullenbak."
+
+#: includes/navigation/class-kadence-navigation-cpt.php:176
+msgid "View Kadence Navigation"
+msgstr "Bekijk Kadence navigatie"
+
+#: includes/header/class-kadence-header-cpt.php:206
+msgid "View Kadence Header"
+msgstr "Bekijk de header van Kadence"
+
+#: includes/navigation/class-kadence-navigation-cpt.php:184
+msgid "Uploaded to this Kadence Navigation"
+msgstr "Geüpload naar deze Kadence navigatie"
+
+#: includes/header/class-kadence-header-cpt.php:215
+msgid "Uploaded to this Kadence Header"
+msgstr "Geüpload naar deze Kadence header"
+
+#: includes/blocks/class-kadence-blocks-navigation-link-block.php:674
+msgid "Toggle child menu of"
+msgstr "Toggle sub menu van"
+
+#: dist/blocks/header/children/container-tablet/block.json
+msgctxt "block title"
+msgid "Tablet Header"
+msgstr "Tablet header"
+
+#: dist/blocks/identity/block.json
+msgctxt "block title"
+msgid "Site identity"
+msgstr "Site-identiteit"
+
+#: includes/header/class-kadence-header-cpt.php:208
+msgid "Search Kadence Headers"
+msgstr "Zoekopdracht Kadence headers"
+
+#: dist/blocks-search.js:1 dist/blocks/search/block.json
+msgctxt "block title"
+msgid "Search (Adv)"
+msgstr "Zoekopdracht (Adv)"
+
+#: dist/blocks/header/children/off-canvas-trigger/block.json
+msgctxt "block description"
+msgid "Off Canvas trigger"
+msgstr "Off canvas trigger"
+
+#: dist/blocks/header/children/off-canvas/block.json
+msgctxt "block description"
+msgid "Off Canvas block"
+msgstr "Blok buiten canvas"
+
+#: includes/navigation/class-kadence-navigation-cpt.php:180
+msgid "No Kadence Navigation found."
+msgstr "Geen Kadence navigatie gevonden."
+
+#: includes/header/class-kadence-header-cpt.php:211
+msgid "No Kadence Header found."
+msgstr "Geen Kadence header gevonden."
+
+#: includes/header/class-kadence-header-cpt.php:212
+msgid "No Kadence Header found in Trash."
+msgstr "Geen Kadence header gevonden in prullenbak."
+
+#: includes/navigation/class-kadence-navigation-cpt.php:174
+msgid "New Kadence Navigation"
+msgstr "Nieuwe Kadence navigatie"
+
+#: includes/header/class-kadence-header-cpt.php:204
+msgid "New Kadence Header"
+msgstr "Nieuwe header Kadence"
+
+#: dist/blocks-navigation.js:1 dist/blocks/navigation/block.json
+msgctxt "block title"
+msgid "Navigation (Adv)"
+msgstr "Navigatie (Adv)"
+
+#: includes/settings/class-kadence-blocks-settings.php:1354
+msgid "Deactivating…"
+msgstr "Aan het deactiveren…"
+
+#: includes/settings/class-kadence-blocks-settings.php:1511
+msgid "Build custom headers in the block editor and full site editing."
+msgstr "Bouw aangepaste headers in de blok-editor en Full site editing."
+
+#: includes/settings/class-kadence-blocks-settings.php:1518
+msgid "Build custom navigation menus"
+msgstr "Aangepaste navigatiemenu's bouwen"
+
+#: dist/blocks/navigation/block.json
+msgctxt "block description"
+msgid "An advanced navigation block."
+msgstr "Een geavanceerd blok voor navigatie."
+
+#: includes/navigation/class-kadence-navigation-cpt.php:172
+#: includes/navigation/class-kadence-navigation-cpt.php:173
+msgid "Add New Kadence Navigation"
+msgstr "Nieuwe Kadence navigatie toevoegen"
+
+#: includes/header/class-kadence-header-cpt.php:202
+#: includes/header/class-kadence-header-cpt.php:203
+msgid "Add New Kadence Header"
+msgstr "Nieuwe Kadence header toevoegen"
+
+#: includes/navigation/class-kadence-navigation-cpt.php:179
+msgid "Parent Kadence Navigation:"
+msgstr "Hoofd Kadence navigatie:"
+
+#: dist/blocks/header/children/section/block.json
+msgctxt "block description"
+msgid "Kadence header section"
+msgstr "Kadence header sectie"
+
+#: dist/blocks-header.js:1 dist/blocks/header/children/row/block.json
+msgctxt "block title"
+msgid "Header Row"
+msgstr "Header rij"
+
+#: dist/blocks/header/children/container-tablet/block.json
+msgctxt "block description"
+msgid "Kadence tablet container"
+msgstr "Kadence tablet container"
+
+#: includes/navigation/class-kadence-navigation-cpt.php:186
+msgid "Kadence Navigation list navigation"
+msgstr "Kadence Navigation lijst navigatie"
+
+#: includes/settings/class-kadence-blocks-settings.php:1114
+msgid "Mark the Header popover tutorial Complete"
+msgstr "Markeer de header popover handleiding afgerond"
+
+#: includes/settings/class-kadence-blocks-settings.php:1520
+msgid "Manage Navigation Menus"
+msgstr "Navigatiemenu's beheren"
+
+#: includes/settings/class-kadence-blocks-settings.php:1513
+msgid "Manage Headers"
+msgstr "Headers beheren"
+
+#: includes/navigation/class-kadence-navigation-cpt.php:189
+msgid "Kadence Navigations that can be inserted into your site."
+msgstr "Kadence navigaties die kunnen worden ingevoegd in je site."
+
+#: includes/navigation/class-kadence-navigation-cpt.php:187
+msgid "Kadence Navigation list"
+msgstr "Kadence navigatie lijst"
+
+#: dist/blocks/navigation-link/block.json
+msgctxt "block title"
+msgid "Kadence Navigation Link"
+msgstr "Kadence navigatie link"
+
+#: includes/navigation/class-kadence-navigation-cpt.php:182
+msgid "Kadence Navigation archives"
+msgstr "Kadence navigatie archieven"
+
+#: includes/navigation/class-kadence-navigation-cpt.php:170
+msgctxt "post type general name"
+msgid "Kadence Navigation"
+msgstr "Kadence navigatie"
+
+#: includes/navigation/class-kadence-navigation-cpt.php:171
+msgctxt "post type singular name"
+msgid "Kadence Navigation"
+msgstr "Kadence navigatie"
+
+#: includes/header/class-kadence-header-cpt.php:220
+msgid "Kadence Headers that can be inserted into your site."
+msgstr "Kadence headers die kunnen worden ingevoegd in je site."
+
+#: includes/header/class-kadence-header-cpt.php:217
+msgid "Kadence Headers list navigation"
+msgstr "Kadence headers lijst navigatie"
+
+#: includes/header/class-kadence-header-cpt.php:218
+msgid "Kadence Headers list"
+msgstr "Lijst Kadence headers"
+
+#: dist/blocks/header/children/row/block.json
+msgctxt "block description"
+msgid "Kadence header row"
+msgstr "Kadence header rij"
+
+#: dist/blocks/header/children/container-desktop/block.json
+msgctxt "block description"
+msgid "Kadence header desktop"
+msgstr "Kadence header desktop"
+
+#: dist/blocks/header/children/column/block.json
+msgctxt "block description"
+msgid "Kadence header column"
+msgstr "Kadence header kolom"
+
+#: includes/header/class-kadence-header-cpt.php:213
+msgid "Kadence Header archives"
+msgstr "Kadence header archieven"
+
+#: includes/header/class-kadence-header-cpt.php:200
+msgctxt "post type general name"
+msgid "Kadence Header"
+msgstr "Kadence header"
+
+#: includes/header/class-kadence-header-cpt.php:201
+msgctxt "post type singular name"
+msgid "Kadence Header"
+msgstr "Kadence header"
+
+#: includes/settings/class-kadence-blocks-settings.php:1059
+msgid "Is Kadence header notice dismissed"
+msgstr "Is Kadence header bericht genegeerd"
+
+#: includes/navigation/class-kadence-navigation-cpt.php:183
+msgid "Insert into Kadence Navigation"
+msgstr "Invoegen in Kadence navigatie"
+
+#: includes/header/class-kadence-header-cpt.php:214
+msgid "Insert into Kadence Header"
+msgstr "Invoegen in Kadence header"
+
+#: dist/blocks-header.js:1 dist/blocks/header/block.json
+msgctxt "block title"
+msgid "Header (Adv)"
+msgstr "Header (Adv)"
+
+#: includes/navigation/class-kadence-navigation-cpt.php:185
+msgid "Filter Kadence Navigation list"
+msgstr "Filter Kadence navigatie lijst"
+
+#: includes/header/class-kadence-header-cpt.php:216
+msgid "Filter Kadence Header list"
+msgstr "Filter Kadence lijst met headers"
+
+#: includes/navigation/class-kadence-navigation-cpt.php:175
+msgid "Edit Kadence Navigation"
+msgstr "Kadence navigatie bewerken"
+
+#: includes/header/class-kadence-header-cpt.php:205
+msgid "Edit Kadence Header"
+msgstr "Kadence header bewerken"
+
+#: dist/blocks/header/children/container-desktop/block.json
+msgctxt "block title"
+msgid "Desktop Header"
+msgstr "Desktop header"
+
+#: includes/navigation/class-kadence-navigation-cpt.php:178
+msgid "Search Kadence Navigations"
+msgstr "Zoekopdracht Kadence navigaties"
+
+#. translators: %1$s is the current progress amount, %2$s is the max progress
+#. amount.
+#: includes/blocks/class-kadence-blocks-progress-bar-block.php:273
+msgid "%1$s out of %2$s Stars"
+msgstr "%1$s van %2$s sterren"
+
+#: includes/class-kadence-blocks-prebuilt-library.php:519
+#: includes/class-kadence-blocks-prebuilt-library.php:536
+msgid "No Connection data available"
+msgstr "Geen verbindingsgegevens beschikbaar"
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:2711
+msgid "The requested library URL."
+msgstr "De gevraagde bibliotheek URL."
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:2737
+msgid "Kadence License Product ID."
+msgstr "Kadence licentie product ID."
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:2752
+msgid "Pattern ID"
+msgstr "Patroon ID"
+
+#: includes/resources/Health/Required_Function_Verifier.php:51
+msgid "required"
+msgstr "vereist"
+
+#: includes/resources/Image_Downloader/Image_Editor.php:226
+msgid "Cannot resize the image. Both width and height are not set."
+msgstr "Kan formaat van afbeelding niet wijzigen. Zowel breedte als hoogte zijn niet ingesteld."
+
+#: includes/resources/Image_Downloader/Image_Editor.php:259
+#: includes/resources/Image_Downloader/Image_Editor.php:288
+msgid "Cannot resize the image."
+msgstr "Kan het formaat van de afbeelding niet aanpassen."
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:2701
+msgid "The requested ai context."
+msgstr "De gevraagde ai context."
+
+#: includes/class-kadence-blocks-ai-events.php:67
+msgid "The Event Label"
+msgstr "Het evenement label"
+
+#: includes/class-kadence-blocks-ai-events.php:72
+msgid "The Event Data"
+msgstr "De evenement gegevens"
+
+#: includes/advanced-form/getresponse-rest-api.php:112
+msgid "Error fetching data from GetResponse"
+msgstr "Fout bij het ophalen van gegevens van GetResponse"
+
+#: includes/advanced-form/getresponse-rest-api.php:118
+msgid "Empty data from GetResponse"
+msgstr "Lege gegevens van GetResponse"
+
+#: includes/blocks/class-kadence-blocks-progress-bar-block.php:379
+msgid "Progressbar Label"
+msgstr "Voortgangsbalk label"
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:2706
+msgid "The requested library."
+msgstr "De gevraagde bibliotheek."
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:2717
+msgid "Force a refresh of the context."
+msgstr "Forceer een vernieuwing van de context."
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:2722
+msgid "Library Key."
+msgstr "Bibliotheek sleutel."
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:2727
+msgid "Kadence License Key."
+msgstr "Kadence licentiesleutel."
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:2732
+msgid "Kadence License Email."
+msgstr "Kadence licentie e-mail."
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:2742
+msgid "Pattern Type"
+msgstr "Patroon type"
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:2747
+msgid "Pattern Style"
+msgstr "Patroonstijl"
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:2757
+msgid "The selected Industry"
+msgstr "De geselecteerde industrie"
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:2767
+msgid "The industries to return"
+msgstr "De sectoren om terug te keren"
+
+#: includes/resources/Health/Required_Function_Verifier.php:51
+msgid "suggested"
+msgstr "voorgesteld"
+
+#: includes/resources/Image_Downloader/Image_Editor.php:78
+msgid "File cannot be null."
+msgstr "Bestand kan niet leeg zijn."
+
+#: includes/resources/Image_Downloader/Image_Editor.php:111
+msgid "Cannot find downloaded file."
+msgstr "Kan het gedownloade bestand niet vinden."
+
+#. Translators: %s is the photographer's name.
+#: includes/resources/Image_Downloader/WordPress_Importer.php:88
+msgid "Photo by %s"
+msgstr "Foto van %s"
+
+#: includes/settings/class-kadence-blocks-settings.php:916
+msgid "Config Kadence Block Prophecy AI"
+msgstr "Configuratie Kadence Block Prophecy AI"
+
+#: includes/resources/Home/Home_Content_View_Model.php:196
+#: includes/resources/Home/Home_Content_View_Model.php:234
+msgid "Advanced Text Block"
+msgstr "Geavanceerd tekstblok"
+
+#: includes/resources/Home/Home_Content_View_Model.php:203
+#: includes/resources/Home/Home_Content_View_Model.php:248
+msgid "Need more help?"
+msgstr "Meer hulp nodig?"
+
+#: includes/resources/Health/Required_Function_Verifier.php:49
+msgid "The \"%1$s\" function is disabled via PHP and is %2$s by Kadence Blocks. Ask your administrator to enable it."
+msgstr "De \"%1$s\" functie is uitgeschakeld via PHP en wordt %2$s door Kadence Blocks. Vraag je beheerder om het in te schakelen."
+
+#: includes/resources/Home/Home_Content_View_Model.php:100
+msgid "Build a page with AI-powered patterns"
+msgstr "Bouw een pagina met AI aangedreven patronen"
+
+#: includes/resources/Home/Home_Content_View_Model.php:113
+msgid "Write your own prompts to generate AI content from scratch or fine-tune existing copy."
+msgstr "Schrijf je eigen prompts om AI inhoud vanaf nul te genereren of bestaande tekst te verfijnen."
+
+#: includes/resources/Home/Home_Content_View_Model.php:175
+msgid "Update AI Settings"
+msgstr "Updaten AI instellingen"
+
+#: includes/resources/Home/Home_Content_View_Model.php:176
+msgid "Update Kadence AI settings. Regenerate contexts for patterns and pages to reflect your updated needs."
+msgstr "Updaten Kadence AI instellingen. Regenereer contexten voor patronen en pagina's om je geüpdatete behoeften te weerspiegelen."
+
+#: includes/resources/Home/Home_Content_View_Model.php:197
+#: includes/resources/Home/Home_Content_View_Model.php:235
+msgid "Use the Advanced Text block to add text to your page/post with advanced customization - now with AI."
+msgstr "Gebruik het geavanceerd tekstblok om tekst toe te voegen aan je pagina/bericht met geavanceerde aanpassingen - nu met AI."
+
+#: includes/resources/Home/Home_Content_View_Model.php:101
+msgid "Take your site further with hundreds of beautiful patterns filled with custom content developed just for your site."
+msgstr "Breng je site verder met honderden prachtige patronen gevuld met aangepaste inhoud die speciaal voor je site is ontwikkeld."
+
+#: includes/resources/Home/Home_Content_View_Model.php:106
+#: includes/resources/Home/Home_Content_View_Model.php:133
+msgid "Get started with full pages"
+msgstr "Begin met volledige pagina's"
+
+#: includes/resources/Home/Home_Content_View_Model.php:107
+msgid "Choose from a variety of pages featuring exclusively tailored content for your site."
+msgstr "Kies uit een verscheidenheid aan pagina's met exclusief op maat gemaakte inhoud voor je site."
+
+#: includes/resources/Home/Home_Content_View_Model.php:112
+msgid "Fine-tune your content"
+msgstr "Verfijn je inhoud"
+
+#: includes/resources/Home/Home_Content_View_Model.php:161
+msgid "Need Help Getting Started?"
+msgstr " Hulp nodig om te beginnen?"
+
+#: includes/resources/Home/Home_Content_View_Model.php:174
+#: includes/resources/Home/Home_Content_View_Model.php:181
+#: dist/blocks-advancedheading.js:1
+msgid "Kadence AI"
+msgstr "Kadence AI"
+
+#: includes/resources/Home/Home_Content_View_Model.php:182
+msgid "Customize Image Collections"
+msgstr "Afbeelding collecties aanpassen"
+
+#: includes/resources/Home/Home_Content_View_Model.php:183
+msgid "Update your Design Library imagery using premade collections or create and customize your own."
+msgstr "Update je ontwerp bibliotheek afbeeldingen met vooraf gemaakte collecties of maak en pas je eigen aan."
+
+#: includes/resources/Home/Home_Content_View_Model.php:189
+#: includes/resources/Home/Home_Content_View_Model.php:227
+msgid "Row Layout Block"
+msgstr "Rij lay-out blok"
+
+#: includes/resources/Home/Home_Content_View_Model.php:190
+#: includes/resources/Home/Home_Content_View_Model.php:228
+msgid "Use the Row Layout block to improve the column functionality and create responsive post/page layouts."
+msgstr "Gebruik het rijlay-out blok om de kolomfunctionaliteit te verbeteren en responsive bericht/pagina lay-outs te maken."
+
+#: includes/resources/Home/Home_Content_View_Model.php:204
+#: includes/resources/Home/Home_Content_View_Model.php:249
+msgid "Didn't find what you were looking for? Find more articles in our knowledge base."
+msgstr "Niet gevonden wat je zocht? Vind meer artikelen in onze kennisbank."
+
+#: includes/resources/Home/Home_Content_View_Model.php:62
+msgid "Kadence is better with AI."
+msgstr "Kadence is beter met AI."
+
+#: includes/resources/Home/Home_Content_View_Model.php:64
+msgid "Get Started with Kadence AI"
+msgstr "Begin met Kadence AI"
+
+#: includes/resources/Home/Home_Content_View_Model.php:220
+msgid "Using the Design Library"
+msgstr "De Design Library gebruiken"
+
+#: includes/resources/Home/Home_Content_View_Model.php:221
+msgid "Use fully designed patterns and pages on your site with your own customizer settings - now with AI."
+msgstr "Gebruik volledig ontworpen patronen en pagina's op je site met je eigen customizer instellingen - nu met AI."
+
+#: includes/resources/Home/Home_Content_View_Model.php:241
+msgid "Kadence Blocks Pro Plugin"
+msgstr "Kadence Blocks Pro plugin"
+
+#: includes/resources/Home/Home_Content_View_Model.php:242
+msgid "Install and activate the Kadence Blocks Pro plugin, and get an overview of the Pro features available."
+msgstr "Installeer en activeer de Kadence Blocks Pro plugin, en krijg een overzicht van de Pro functies die beschikbaar zijn."
+
+#: includes/helper-functions.php:328 dist/blocks-rowlayout.js:5
+#: dist/blocks-rowlayout.js:10
+msgid "Kadence AI is disabled by site admin."
+msgstr "Kadence AI is uitgeschakeld door de site beheerder."
+
+#: includes/resources/Home/Home_Content_View_Model.php:63
+msgid "Elevate your web development game with Kadence AI. Supercharge your pattern and page library's potential with tailored content — get building pages in no time. You have AI credits remaining on your account."
+msgstr "Verhoog je webontwikkeling skills met Kadence AI. Geef het volledige potentieel van je patroon- en pagina bibliotheek een boost met aangepaste inhoud — begin in een mum van tijd met pagina's bouwen. Je hebt nog AI-tegoeden op je account."
+
+#: includes/resources/Home/Home_Content_View_Model.php:122
+msgid "Start building with Kadence"
+msgstr "Begin met bouwen met Kadence"
+
+#: includes/templates/form-email.php:132
+msgid "View File"
+msgstr "Bestand bekijken"
+
+#: includes/class-kadence-blocks-duplicate-post.php:56
+msgid "Duplicate"
+msgstr "Dupliceren"
+
+#: includes/class-kadence-blocks-duplicate-post.php:66
+msgid "No post to duplicate has been supplied!"
+msgstr "Geen bericht om te kopiëren aangeleverd!"
+
+#: includes/class-kadence-blocks-image-picker-rest.php:100
+#: includes/class-kadence-blocks-image-picker-rest.php:105
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:2762
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:2772
+msgid "The Image type to return"
+msgstr "Het afbeeldingen type om terug te sturen"
+
+#: includes/settings/class-kadence-blocks-settings.php:894
+msgid "Config Kadence Block visibility settings"
+msgstr "Configuratie Kadence instellingen voor blok zichtbaarheid"
+
+#. translators: %s: product id
+#: includes/class-kadence-blocks-duplicate-post.php:76
+msgid "Post creation failed, could not find original post: %s"
+msgstr "Bericht niet gemaakt, kon origineel bericht niet vinden: %s"
+
+#: includes/class-kadence-blocks-image-picker.php:123
+msgid "Photo by:"
+msgstr "Foto door:"
+
+#: includes/class-kadence-blocks-duplicate-post.php:55
+msgid "Make a duplicate from this."
+msgstr "Maak hiervan een duplicaat."
+
+#. translators: %s: post title.
+#: includes/class-kadence-blocks-duplicate-post.php:98
+msgid "%s (Copy)"
+msgstr "%s (Kopie)"
+
+#: includes/class-kadence-blocks-image-picker.php:126
+msgid "View on Pexels"
+msgstr "Bekijk op Pexels"
+
+#: includes/class-kadence-blocks-prebuilt-library-rest-api.php:1284
+#: includes/class-kadence-blocks-prebuilt-library.php:856
+msgid "Photo by"
+msgstr "Foto door"
+
+#: includes/settings/class-kadence-blocks-settings.php:1141
+msgid "Load Google Fonts Locally"
+msgstr "Google Fonts lokaal laden"
+
+#: includes/advanced-form/advanced-form-cpt.php:73
+#: dist/blocks-advanced-form.js:14 dist/blocks-advanced-form.js:16
+#: dist/blocks-advanced-form.js:18 dist/blocks-navigation-link.js:13
+msgid "Description"
+msgstr "Beschrijving"
+
+#: dist/blocks/advanced-form/fields/submit/block.json
+msgctxt "block title"
+msgid "Submit Button"
+msgstr "Verzendknop"
+
+#: includes/class-kadence-blocks-posts-rest-api.php:546
+msgid "Taxonomy Type."
+msgstr "Type taxonomie."
+
+#: includes/class-kadence-blocks-prebuilt-library.php:1276
+msgid "Once Monthly"
+msgstr "Eens per maand"
+
+#: includes/settings/class-kadence-blocks-settings.php:693
+#: includes/settings/class-kadence-blocks-settings.php:702
+#: dist/blocks-rowlayout.js:30
+msgid "Kadence"
+msgstr "Kadence"
+
+#: includes/settings/class-kadence-blocks-settings.php:1015
+#: dist/blocks-advanced-form.js:14
+msgid "hCaptcha Secret Key"
+msgstr "hCAPTCHA geheime sleutel"
+
+#: dist/blocks/advanced-form/fields/captcha/block.json
+msgctxt "block title"
+msgid "Captcha"
+msgstr "CAPTCHA"
+
+#. translators: Visible only in the front end, this warning takes the place of
+#. a faulty block.
+#: includes/blocks/class-kadence-blocks-advanced-form-block.php:342
+#: includes/blocks/class-kadence-blocks-header-block.php:218
+#: includes/blocks/class-kadence-blocks-navigation-block.php:334
+#: includes/blocks/class-kadence-blocks-navigation-link-block.php:578
+msgid "[block rendering halted]"
+msgstr "[blok weergave gestopt]"
+
+#: includes/blocks/form/class-kadence-blocks-captcha-block.php:146
+#: includes/blocks/form/class-kadence-blocks-captcha-block.php:154
+#: dist/blocks-advanced-form.js:14
+msgid "This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply"
+msgstr "Deze site wordt beschermd door reCAPTCHA en het privacybeleid en de dienstvoorwaarden van Google zijn van toepassing"
+
+#: dist/blocks-progress-bar.js:1 dist/blocks/progress-bar/block.json
+msgctxt "block title"
+msgid "Progress Bar"
+msgstr "Voortgangsbalk"
+
+#: dist/blocks/progress-bar/block.json
+msgctxt "block keyword"
+msgid "progress bar"
+msgstr "voortgangsbalk"
+
+#: includes/advanced-form/advanced-form-cpt.php:76
+msgid "Entries"
+msgstr "Inzendingen"
+
+#: dist/blocks-advanced-form.js:18 dist/blocks/advanced-form/block.json
+msgctxt "block description"
+msgid "Create an advanced contact or marketing form for your website."
+msgstr "Maak een geavanceerd contact of marketing formulier voor je site."
+
+#: includes/advanced-form/advanced-form-cpt.php:153
+msgid "Contact forms, subscribe forms and others for your site."
+msgstr "Contact formulieren, inschrijf formulieren en andere voor je site."
+
+#: includes/advanced-form/advanced-form-ajax.php:178
+msgid "Did not accept"
+msgstr "Niet geaccepteerd"
+
+#: includes/settings/class-kadence-blocks-settings.php:982
+msgid "Cloudflare Turnstile Site Key"
+msgstr "Cloudflare draaischijf site sleutel"
+
+#: includes/settings/class-kadence-blocks-settings.php:993
+msgid "Cloudflare Turnstile Secret Key"
+msgstr "Cloudflare tourniquet geheime sleutel"
+
+#: includes/advanced-form/advanced-form-ajax.php:95
+msgid "CAPTCHA Failed"
+msgstr "CAPTCHA mislukt"
+
+#: includes/advanced-form/advanced-form-cpt.php:78
+msgid "Entries (Pro Only)"
+msgstr "Inzendingen (alleen Pro)"
+
+#: includes/settings/class-kadence-blocks-settings.php:1004
+msgid "hCaptcha Turnstile Site Key"
+msgstr "hCAPTCHA Turnstile site sleutel"
+
+#: includes/class-kadence-blocks-posts-rest-api.php:579
+msgid "Page of results to return."
+msgstr "Pagina met resultaten om terug te geven."
+
+#: includes/advanced-form/advanced-form-ajax.php:376
+msgid "Not enough disk quota on this website."
+msgstr "Niet genoeg schijfruimte op deze site."
+
+#: dist/blocks-progress-bar.js:1 dist/blocks/progress-bar/block.json
+msgctxt "block description"
+msgid "Kadence progress bar"
+msgstr "Kadence voortgangsbalk"
+
+#: includes/class-kadence-blocks-posts-rest-api.php:550
+#: includes/class-kadence-blocks-posts-rest-api.php:566
+msgid "The source of the content."
+msgstr "De gegevensbron van de inhoud."
+
+#. translators: %s is the location.
+#: includes/blocks/class-kadence-blocks-googlemaps-block.php:208
+msgid "Google map of %s"
+msgstr "Google map van %s"
+
+#: includes/blocks/class-kadence-blocks-advancedgallery-block.php:1237
+msgid "See more"
+msgstr "Bekijk meer"
+
+#: dist/blocks-iconlist.js:1 dist/blocks/iconlist/block.json
+msgctxt "block title"
+msgid "Icon List"
+msgstr "Pictogram lijst"
+
+#: dist/blocks-icon.js:1 dist/blocks/icon/block.json
+msgctxt "block title"
+msgid "Icon"
+msgstr "Pictogram"
+
+#: dist/blocks/advancedbtn/block.json
+msgctxt "block title"
+msgid "Advanced Button"
+msgstr "Geavanceerde knop"
+
+#: dist/blocks/singlebtn/block.json
+msgctxt "block title"
+msgid "Single Button"
+msgstr "Enkele knop"
+
+#: dist/blocks-spacer.js:1 dist/blocks/spacer/block.json
+msgctxt "block title"
+msgid "Spacer / Divider"
+msgstr "Tussenlaag/scheidingslijn"
+
+#: dist/blocks/advanced-form/block.json dist/blocks/image/block.json
+#: dist/blocks/infobox/block.json dist/blocks/progress-bar/block.json
+msgctxt "block keyword"
+msgid "kb"
+msgstr "kb"
+
+#: dist/blocks/advanced-form/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "formulier"
+
+#: dist/blocks/advanced-form/block.json dist/blocks/form/block.json
+#: includes/blocks/form/block.json
+msgctxt "block keyword"
+msgid "contact"
+msgstr "contact"
+
+#: dist/blocks/advancedgallery/block.json
+msgctxt "block title"
+msgid "Advanced Gallery"
+msgstr "Geavanceerde galerij"
+
+#: dist/blocks/advancedheading/block.json
+msgctxt "block title"
+msgid "Advanced Text"
+msgstr "Geavanceerde tekst"
+
+#: dist/blocks-countdown.js:1 dist/blocks/countdown/block.json
+msgctxt "block title"
+msgid "Countdown"
+msgstr "Aftellen"
+
+#: dist/blocks/countdown/countdown-timer/block.json
+msgctxt "block title"
+msgid "Countdown Timer"
+msgstr "Aftellen timer"
+
+#: dist/blocks/countdown/countdown-inner/block.json
+msgctxt "block title"
+msgid "Countdown Content"
+msgstr "Aftellen inhoud"
+
+#: dist/blocks-countup.js:1 dist/blocks/countup/block.json
+msgctxt "block title"
+msgid "Count Up"
+msgstr "Optellen"
+
+#: dist/blocks-form.js:1 dist/blocks/form/block.json
+#: includes/blocks/form/block.json
+msgctxt "block title"
+msgid "Form"
+msgstr "Formulier"
+
+#: dist/blocks/form/block.json includes/blocks/form/block.json
+msgctxt "block keyword"
+msgid "marketing"
+msgstr "marketing"
+
+#: dist/blocks/form/block.json includes/blocks/form/block.json
+msgctxt "block keyword"
+msgid "KB"
+msgstr "KB"
+
+#: dist/blocks/image/block.json
+msgctxt "block keyword"
+msgid "img"
+msgstr "img"
+
+#: dist/blocks/image/block.json
+msgctxt "block keyword"
+msgid "image"
+msgstr "afbeelding"
+
+#: dist/blocks/image/block.json
+msgctxt "block keyword"
+msgid "photo"
+msgstr "foto"
+
+#: dist/blocks-infobox.js:1 dist/blocks/infobox/block.json
+msgctxt "block title"
+msgid "Info Box"
+msgstr "Info box"
+
+#: dist/blocks-infobox.js:1 dist/blocks/infobox/block.json
+msgctxt "block description"
+msgid "Create beautiful information boxes using icons or images."
+msgstr "Maak prachtige informatie boxen met pictogrammen of afbeeldingen."
+
+#: dist/blocks/infobox/block.json
+msgctxt "block keyword"
+msgid "info"
+msgstr "info"
+
+#: dist/blocks/single-icon/block.json
+msgctxt "block title"
+msgid "Single Icon"
+msgstr "Enkel pictogram"
+
+#: dist/blocks/infobox/block.json
+msgctxt "block keyword"
+msgid "icon"
+msgstr "pictogram"
+
+#: dist/blocks/listitem/block.json
+msgctxt "block title"
+msgid "List item"
+msgstr "Lijstitem"
+
+#: dist/blocks-posts.js:9 dist/blocks/posts/block.json
+msgctxt "block title"
+msgid "Posts"
+msgstr "Berichten"
+
+#: dist/blocks-rowlayout.js:30 dist/blocks/rowlayout/block.json
+msgctxt "block title"
+msgid "Row Layout"
+msgstr "Rij lay-out"
+
+#: dist/blocks-tableofcontents.js:1 dist/blocks/tableofcontents/block.json
+msgctxt "block title"
+msgid "Table of Contents"
+msgstr "Inhoudsopgave"
+
+#: dist/blocks-tabs.js:26 dist/blocks/tabs/block.json
+msgctxt "block title"
+msgid "Tabs"
+msgstr "Tabs"
+
+#: dist/blocks/tabs/tab/block.json
+msgctxt "block title"
+msgid "Tab"
+msgstr "Tab"
+
+#: dist/blocks-testimonial.js:1 dist/blocks-testimonials.js:1
+#: dist/blocks/testimonial/block.json
+msgctxt "block title"
+msgid "Testimonial"
+msgstr "Aanbeveling"
+
+#: dist/blocks-testimonials.js:1 dist/blocks/testimonials/block.json
+msgctxt "block title"
+msgid "Testimonials"
+msgstr "Aanbevelingen"
+
+#: dist/blocks/advanced-form/block.json
+msgctxt "block title"
+msgid "Advanced Form"
+msgstr "Geavanceerd formulier"
+
+#: dist/blocks-accordion.js:1 dist/blocks/accordion/block.json
+msgctxt "block title"
+msgid "Accordion"
+msgstr "Accordeon"
+
+#: includes/class-kadence-blocks-cpt-import-export.php:223
+#: dist/blocks-navigation.js:1 dist/plugin-kadence-control.js:8
+msgid "Import"
+msgstr "Import"
+
+#: includes/advanced-form/advanced-form-cpt.php:130
+msgctxt "Post Type General Name"
+msgid "Forms"
+msgstr "Formulieren"
+
+#: includes/advanced-form/advanced-form-cpt.php:132
+#: includes/advanced-form/advanced-form-cpt.php:137
+msgid "Forms"
+msgstr "Formulieren"
+
+#: includes/advanced-form/advanced-form-cpt.php:133
+msgctxt "Admin Menu text"
+msgid "Forms"
+msgstr "Formulieren"
+
+#: includes/settings/class-kadence-blocks-site-health.php:195
+msgid "Version"
+msgstr "Versie"
+
+#: includes/settings/class-kadence-blocks-site-health.php:200
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: includes/settings/class-kadence-blocks-site-health.php:309
+#: includes/settings/class-kadence-blocks-site-health.php:311
+#: includes/settings/class-kadence-blocks-site-health.php:313
+#: includes/settings/class-kadence-blocks-site-health.php:336
+#: dist/blocks-header.js:1
+msgid "No"
+msgstr "Nee"
+
+#: includes/settings/class-kadence-blocks-site-health.php:325
+msgid "On"
+msgstr "Aan"
+
+#: dist/blocks/accordion/pane/block.json
+msgctxt "block title"
+msgid "Pane"
+msgstr "Panel"
+
+#. translators: placeholder: username.
+#: includes/settings/class-kadence-blocks-settings.php:213
+msgid "Hi, %1$s! At KadenceWP, we're always looking for more ways to make our products better for you. If you opt into sharing some data on your usage of Kadence Blocks, it helps us identify key areas where we can improve. In return, we'll also email helpful articles and guides to get more out of Kadence, WordPress, and more. If you skip this, that's okay. Kadence Blocks will work just fine. We hope you love building with Kadence."
+msgstr "Hallo, %1$s! Bij KadenceWP zijn we altijd op zoek naar meer manieren om onze producten beter voor je te maken. Als je ervoor kiest om wat gegevens te delen over je gebruik van Kadence Blocks, helpt het ons om belangrijke gebieden te identificeren waar we kunnen verbeteren. In ruil daarvoor sturen we ook behulpzame artikelen en handleidingen per e-mail om meer uit Kadence, WordPress en meer te halen. Als je dit overslaat, is dat prima. Kadence Blocks werkt nog steeds prima. We hopen dat je graag bouwt met Kadence."
+
+#: includes/settings/class-kadence-blocks-site-health.php:315
+#: includes/settings/class-kadence-blocks-site-health.php:336
+#: dist/blocks-header.js:1
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/advanced-form/advanced-form-cpt.php:143
+msgid "View Form"
+msgstr "Bekijk formulier"
+
+#: includes/advanced-form/advanced-form-cpt.php:144
+msgid "View Forms"
+msgstr "Bekijk formulieren"
+
+#: includes/advanced-form/advanced-form-rest-api.php:45
+#: includes/advanced-form/advanced-form-rest-api.php:53
+#: includes/header/class-kadence-header-rest.php:46
+#: includes/header/class-kadence-header-rest.php:54
+#: includes/navigation/class-kadence-navigation-rest.php:53
+#: includes/navigation/class-kadence-navigation-rest.php:61
+msgid "You do not have permission to view these posts."
+msgstr "Je hebt geen toestemming om de berichten te bekijken."
+
+#: includes/advanced-form/advanced-form-cpt.php:142
+msgid "Update Form"
+msgstr "Update formulier"
+
+#: includes/advanced-form/advanced-form-cpt.php:138
+#: includes/advanced-form/advanced-form-cpt.php:139
+msgid "Add New Form"
+msgstr "Nieuw formulier toevoegen"
+
+#: includes/settings/class-kadence-blocks-settings.php:1081
+#: includes/settings/class-kadence-blocks-settings.php:1092
+#: includes/settings/class-kadence-blocks-settings.php:1103
+msgid "ConvertKit API Key"
+msgstr "ConvertKit API-sleutel"
+
+#: includes/advanced-form/advanced-form-cpt.php:141
+#: dist/blocks-advanced-form.js:18
+msgid "Edit Form"
+msgstr "Formulier bewerken"
+
+#: includes/advanced-form/advanced-form-cpt.php:148
+msgid "Filter items list"
+msgstr "Filter itemlijst"
+
+#: includes/advanced-form/advanced-form-ajax.php:347
+msgid "File too large"
+msgstr "Bestand te groot"
+
+#: includes/advanced-form/advanced-form-cpt.php:135
+msgid "Form Attributes"
+msgstr "Formulier attributen"
+
+#: includes/advanced-form/advanced-form-cpt.php:134
+msgid "Form Archives"
+msgstr "Formulier archieven"
+
+#: includes/advanced-form/advanced-form-cpt.php:131
+msgctxt "Post Type Singular Name"
+msgid "Form"
+msgstr "Formulier"
+
+#: includes/settings/class-kadence-blocks-settings.php:171
+msgid "I found a better plugin."
+msgstr "Ik heb een betere plugin gevonden."
+
+#: includes/settings/class-kadence-blocks-settings.php:166
+msgid "I couldn't understand how to make it work."
+msgstr "Ik snap niet hoe het werkt."
+
+#: includes/settings/class-kadence-blocks-site-health.php:199
+msgid "Last updated"
+msgstr "Laatst geüpdatet"
+
+#: includes/advanced-form/advanced-form-ajax.php:268
+#: includes/advanced-form/advanced-form-ajax.php:284
+#: includes/advanced-form/advanced-form-ajax.php:294
+#: includes/advanced-form/advanced-form-ajax.php:330
+msgid "Missing a required field"
+msgstr "Er ontbreekt een vereist veld"
+
+#: includes/advanced-form/advanced-form-cpt.php:140
+msgid "New Form"
+msgstr "Nieuw formulier"
+
+#: includes/advanced-form/advanced-form-cpt.php:147
+msgid "Not found in Trash"
+msgstr "Niet gevonden in prullenbak"
+
+#: includes/advanced-form/advanced-form-cpt.php:146
+msgid "Not found"
+msgstr "Niet gevonden"
+
+#: includes/settings/class-kadence-blocks-settings.php:186
+msgid "Other"
+msgstr "Andere"
+
+#: includes/advanced-form/advanced-form-cpt.php:136
+msgid "Parent Form:"
+msgstr "Hoofd formulier:"
+
+#: includes/settings/class-kadence-blocks-site-health.php:204
+msgid "Previous version"
+msgstr "Vorige versie"
+
+#: includes/advanced-form/advanced-form-cpt.php:145
+msgid "Search Forms"
+msgstr "Zoekformulieren"
+
+#: includes/settings/class-kadence-blocks-settings.php:181
+msgid "Something is broken."
+msgstr "Iets werkt niet."
+
+#: includes/blocks/class-kadence-blocks-form-block.php:771
+msgid "Please enable JavaScript in your browser to submit the form"
+msgstr "Schakel JavaScript in je browser in om dit formulier in te dienen"
+
+#: includes/settings/class-kadence-blocks-settings.php:176
+msgid "I need a specific feature kadence blocks doesn't provide."
+msgstr "Ik heb een specifieke functie nodig die Kadence Blocks niet biedt."
+
+#: includes/advanced-form/advanced-form-ajax.php:408
+msgid "Failed to upload file"
+msgstr "Mislukt om bestand te uploaden"
+
+#: includes/settings/class-kadence-blocks-site-health.php:224
+msgid "Has Custom Colors"
+msgstr "Heeft aangepaste kleuren"
+
+#: includes/settings/class-kadence-blocks-site-health.php:220
+msgid "Using Setting Visibility"
+msgstr "Zichtbaarheid instellen gebruiken"
+
+#: includes/settings/class-kadence-blocks-site-health.php:212
+msgid "Deactivated Blocks"
+msgstr "Gedeactiveerde blokken"
+
+#: includes/settings/class-kadence-blocks-settings.php:210
+msgid "Help us make Kadence Blocks even better."
+msgstr "Help ons om Kadence Blocks nog beter te maken."
+
+#: includes/settings/class-kadence-blocks-site-health.php:228
+msgid "Has reCAPTCHA key"
+msgstr "Heeft reCAPTCHA sleutel"
+
+#: includes/settings/class-kadence-blocks-site-health.php:208
+msgid "Has Pro"
+msgstr "Heeft Pro"
+
+#: includes/settings/class-kadence-blocks-site-health.php:236
+msgid "Has MailerLite key"
+msgstr "Heeft MailerLite sleutel"
+
+#: includes/settings/class-kadence-blocks-site-health.php:240
+msgid "Has Cloud Library"
+msgstr "Heeft cloud bibliotheek"
+
+#: includes/settings/class-kadence-blocks-site-health.php:216
+msgid "Has Block Defaults"
+msgstr "Heeft blok standaardinstellingen"
+
+#: includes/settings/class-kadence-blocks-site-health.php:232
+msgid "Has a maps API key"
+msgstr "Heeft een API-sleutel voor kaarten"
+
+#: includes/settings/class-kadence-blocks-settings.php:971
+msgid "Google reCaptcha Language"
+msgstr "Google reCAPTCHA taal"
+
+#: dist/blocks/image/block.json
+msgctxt "block title"
+msgid "Advanced Image"
+msgstr "Geavanceerde afbeelding"
+
+#: dist/blocks-image.js:2 dist/blocks/image/block.json
+msgctxt "block description"
+msgid "Image block with greater controls and advanced features"
+msgstr "Afbeeldingsblok met meer controle en geavanceerde functies"
+
+#: dist/blocks-googlemaps.js:1 dist/blocks/googlemaps/block.json
+msgctxt "block title"
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: dist/blocks-column.js:1 dist/blocks/column/block.json
+msgctxt "block title"
+msgid "Section"
+msgstr "Sectie"
+
+#: dist/blocks-show-more.js:1 dist/blocks/show-more/block.json
+msgctxt "block title"
+msgid "Show More"
+msgstr "Toon meer"
+
+#: dist/blocks-lottie.js:1 dist/blocks/lottie/block.json
+msgctxt "block title"
+msgid "Lottie Animations"
+msgstr "Lottie animaties"
+
+#: includes/settings/class-kadence-blocks-settings.php:1459
+msgid "Custom Icons"
+msgstr "Aangepaste pictogrammen"
+
+#: includes/blocks/class-kadence-blocks-show-more-block.php:269
+#: dist/blocks-show-more.js:1 dist/plugin-kadence-control.js:8
+msgid "Show More"
+msgstr "Toon meer"
+
+#: includes/settings/class-kadence-blocks-settings.php:1463
+msgid "Upgrade Kadence Blocks"
+msgstr "Upgrade Kadence Blocks"
+
+#: includes/resources/Home/Home_Content_View_Model.php:240
+#: includes/settings/class-kadence-blocks-settings.php:1454
+msgid "Kadence Blocks Pro"
+msgstr "Kadence Blocks Pro"
+
+#: includes/settings/class-kadence-blocks-settings.php:1456
+msgid "10 Pro Blocks"
+msgstr "10 Pro blok"
+
+#: includes/settings/class-kadence-blocks-settings.php:1461
+msgid "Premium Design Library"
+msgstr "Premium ontwerp bibliotheek"
+
+#: includes/settings/class-kadence-blocks-settings.php:1457
+msgid "Pro Block Addons"
+msgstr "Pro Block add-ons"
+
+#: includes/settings/class-kadence-blocks-settings.php:1037
+msgid "Google Maps API Key"
+msgstr "Google Maps API-sleutel"
+
+#: includes/settings/class-kadence-blocks-settings.php:1534
+#: dist/plugin-kadence-control.js:8
+msgid "Advanced Text"
+msgstr "Geavanceerde tekst"
+
+#. translators: %s is the access level name.
+#: includes/class-kadence-blocks-editor-assets.php:244
+msgid "%s and higher"
+msgstr "%s en hoger"
+
+#: includes/class-kadence-blocks-posts-rest-api.php:513
+msgid "The Current Post ID."
+msgstr "De huidige bericht ID."
+
+#: includes/class-lottieanimation-post-rest-api.php:67
+msgid "Please enter an animation title"
+msgstr "Voer een animatie titel in"
+
+#: includes/settings/class-kadence-blocks-settings.php:1499
+msgid "Manage Lottie Animations"
+msgstr "Beheer Lottie animatie"
+
+#: includes/init.php:555
+msgctxt "Lottie animation"
+msgid "Lottie Animations"
+msgstr "Lottie animaties"
+
+#: includes/settings/class-kadence-blocks-settings.php:1496
+msgid "Lottie Animations"
+msgstr "Lottie animaties"
+
+#: includes/class-lottieanimation-get-rest-api.php:59
+msgid "Lottie animation not found"
+msgstr "Lottie animatie niet gevonden"
+
+#: includes/class-lottieanimation-get-rest-api.php:63
+msgid "Lottie animation file contains invalid json"
+msgstr "Lottie animatiebestand bevat ongeldige JSON"
+
+#: includes/class-lottieanimation-post-rest-api.php:61
+msgid "Lottie animation contains invalid JSON"
+msgstr "Lottie animatie bevat ongeldige JSON"
+
+#: includes/settings/class-kadence-blocks-settings.php:1570
+msgid "Increase your conversions by adding a sense of urgency to your offering. Pro includes evergreen campaigns as well."
+msgstr "Verhoog je conversies door een gevoel van urgentie toe te voegen aan je aanbod. Pro omvat ook evergreen campagnes."
+
+#: includes/settings/class-kadence-blocks-settings.php:1560
+msgid "Allow your readers to navigate your content easily with a table of contents block. Includes smooth scroll to anchor."
+msgstr "Laat je lezers gemakkelijk door je inhoud navigeren met een inhoudsopgave blok. Inclusief vloeiend scrollen naar het anker."
+
+#: includes/settings/class-kadence-blocks-settings.php:1497
+msgid "Add an extra \"wow\" factor to your site with engaging Lottie animations."
+msgstr "Voeg een extra \"wauw\" factor toe aan je site met aantrekkelijke Lottie animaties."
+
+#: includes/settings/class-kadence-blocks-settings.php:1070
+msgid "Subscribe to Wireframe library"
+msgstr "Abonneren op Wireframe bibliotheek"
+
+#: includes/init.php:556
+msgid "Lottie Animations imported in Kadence"
+msgstr "Lottie animaties geïmporteerd in Kadence"
+
+#: includes/settings/class-kadence-blocks-settings.php:1545
+msgid "Create a box containing an icon or image and, optionally, a title, description, and learn more text. Style static and hover separately."
+msgstr "Maak een box met een pictogram of afbeelding en optioneel een titel, beschrijving en tekst voor meer informatie. Stijl statisch en hoveren apart."
+
+#: includes/settings/class-kadence-blocks-settings.php:1565
+msgid "Display a clean grid of posts anywhere on your site, great for your home page where you want to tease your blog."
+msgstr "Geef overal op je site een schone raster van berichten weer, geweldig voor je homepage waar je je blog wil plagen."
+
+#. translators: separator between taxonomy terms
+#: includes/templates/entry-loop-taxonomies.php:27
+msgctxt "list item separator"
+msgid " - "
+msgstr " - "
+
+#. translators: separator between taxonomy terms
+#: includes/templates/entry-loop-taxonomies.php:23
+msgctxt "list item separator"
+msgid " / "
+msgstr " / "
+
+#. translators: separator between taxonomy terms
+#: includes/templates/entry-loop-taxonomies.php:31
+msgctxt "list item separator"
+msgid " | "
+msgstr " | "
+
+#. translators: separator between taxonomy terms
+#: includes/templates/entry-loop-meta.php:138
+msgctxt "list item separator"
+msgid ", "
+msgstr ", "
+
+#: includes/class-fluentcrm-form-rest-api.php:108
+#: dist/blocks-advanced-form.js:1
+msgid "Address Line 2"
+msgstr "Adresregel 2"
+
+#: includes/class-kadence-blocks-editor-assets.php:514
+#: includes/class-kadence-blocks-editor-assets.php:620
+#: includes/class-kadence-blocks-editor-assets.php:667
+#: includes/class-kadence-blocks-editor-assets.php:752 dist/components.js:41
+#: dist/components.js:42
+msgid "Thin 100"
+msgstr "Dun 100"
+
+#: includes/class-fluentcrm-form-rest-api.php:100
+msgid "Timezone"
+msgstr "Tijdzone"
+
+#: includes/class-fluentcrm-form-rest-api.php:112
+msgid "City"
+msgstr "Plaats"
+
+#: includes/class-fluentcrm-form-rest-api.php:96
+msgid "Full Name"
+msgstr "Volledige naam"
+
+#: includes/blocks/class-kadence-blocks-countdown-block.php:629
+#: dist/blocks-countdown.js:1
+msgid "Hrs"
+msgstr "Uren"
+
+#: includes/class-kadence-blocks-table-of-contents.php:354
+#: includes/class-kadence-blocks-table-of-contents.php:938
+#: includes/class-kadence-blocks-table-of-contents.php:947
+msgid "Collapse Table of Contents"
+msgstr "Inhoudsopgave samenvouwen"
+
+#: includes/init.php:468 dist/blocks-googlemaps.js:1
+msgid "Continue"
+msgstr "Verder gaan"
+
+#: includes/settings/class-kadence-blocks-settings.php:1386
+#: dist/components.js:41
+msgid "Google Fonts"
+msgstr "Google Fonts"
+
+#: includes/class-kadence-blocks-editor-assets.php:542
+#: includes/class-kadence-blocks-editor-assets.php:648
+#: includes/class-kadence-blocks-editor-assets.php:688
+#: includes/class-kadence-blocks-editor-assets.php:691
+#: includes/class-kadence-blocks-editor-assets.php:780 dist/components.js:41
+#: dist/components.js:42
+msgid "Extra-Bold 800"
+msgstr "Extra vet 800"
+
+#: includes/settings/class-kadence-blocks-settings.php:1564
+#: dist/blocks-posts.js:9 dist/components.js:42
+#: dist/plugin-kadence-control.js:8
+msgid "Posts"
+msgstr "Berichten"
+
+#: includes/settings/class-kadence-blocks-settings.php:1425
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: includes/class-fluentcrm-form-rest-api.php:132
+msgid "Source"
+msgstr "Bron"
+
+#: includes/templates/entry-loop-meta.php:157 dist/blocks-posts.js:9
+msgid "Comments"
+msgstr "Reacties"
+
+#: includes/class-kadence-blocks-editor-assets.php:518
+#: includes/class-kadence-blocks-editor-assets.php:624
+#: includes/class-kadence-blocks-editor-assets.php:670
+#: includes/class-kadence-blocks-editor-assets.php:756 dist/components.js:41
+#: dist/components.js:42
+msgid "Extra-Light 200"
+msgstr "Extra licht 200"
+
+#: includes/class-kadence-blocks-editor-assets.php:522
+#: includes/class-kadence-blocks-editor-assets.php:628
+#: includes/class-kadence-blocks-editor-assets.php:673
+#: includes/class-kadence-blocks-editor-assets.php:760 dist/components.js:41
+#: dist/components.js:42
+msgid "Light 300"
+msgstr "Licht 300"
+
+#: includes/class-kadence-blocks-editor-assets.php:530
+#: includes/class-kadence-blocks-editor-assets.php:636
+#: includes/class-kadence-blocks-editor-assets.php:682
+#: includes/class-kadence-blocks-editor-assets.php:768 dist/components.js:41
+#: dist/components.js:42
+msgid "Medium 500"
+msgstr "Medium 500"
+
+#: includes/class-kadence-blocks-editor-assets.php:534
+#: includes/class-kadence-blocks-editor-assets.php:640
+#: includes/class-kadence-blocks-editor-assets.php:685
+#: includes/class-kadence-blocks-editor-assets.php:772 dist/components.js:41
+#: dist/components.js:42
+msgid "Semi-Bold 600"
+msgstr "Semi vet 600"
+
+#: includes/class-kadence-blocks-editor-assets.php:538
+#: includes/class-kadence-blocks-editor-assets.php:644
+#: includes/class-kadence-blocks-editor-assets.php:776 dist/components.js:41
+#: dist/components.js:42
+msgid "Bold 700"
+msgstr "Vet 700"
+
+#: includes/templates/entry-loop-meta.php:155 dist/blocks-posts.js:9
+msgid "Comment"
+msgstr "Reactie"
+
+#: includes/class-kadence-blocks-editor-assets.php:546
+#: includes/class-kadence-blocks-editor-assets.php:652
+#: includes/class-kadence-blocks-editor-assets.php:694
+#: includes/class-kadence-blocks-editor-assets.php:784 dist/components.js:41
+#: dist/components.js:42
+msgid "Ultra-Bold 900"
+msgstr "Ultra vet 900"
+
+#: includes/class-kadence-blocks-editor-assets.php:526
+#: includes/class-kadence-blocks-editor-assets.php:632
+#: includes/class-kadence-blocks-editor-assets.php:676
+#: includes/class-kadence-blocks-editor-assets.php:679
+#: includes/class-kadence-blocks-editor-assets.php:764 dist/components.js:41
+#: dist/components.js:42
+msgid "Regular"
+msgstr "Normaal"
+
+#: includes/settings/class-kadence-blocks-settings.php:1460
+#: dist/components.js:41 dist/components.js:42
+msgid "Custom Fonts"
+msgstr "Aangepaste lettertypen"
+
+#: includes/class-fluentcrm-form-rest-api.php:124
+msgid "Country"
+msgstr "Land"
+
+#: includes/templates/entry-loop-meta.php:25
+msgid "Updated on"
+msgstr "Geüpdatet op"
+
+#: includes/templates/entry-loop-meta.php:19 dist/blocks-posts.js:9
+msgid "By"
+msgstr "Door"
+
+#: includes/templates/entry-loop-footer.php:16 dist/blocks-posts.js:9
+msgid "Read More"
+msgstr "Lees meer"
+
+#: includes/class-fluentcrm-form-rest-api.php:128
+#: dist/blocks-advanced-form.js:2
+msgid "Phone"
+msgstr "Telefoon"
+
+#: includes/blocks/class-kadence-blocks-countdown-block.php:628
+#: dist/blocks-countdown.js:1
+msgid "Days"
+msgstr "Dagen"
+
+#: includes/settings/class-kadence-blocks-settings.php:1418
+msgid "Web Creators Community"
+msgstr "Web Creators Community"
+
+#: includes/settings/class-kadence-blocks-settings.php:1569
+#: dist/plugin-kadence-control.js:8
+msgid "Countdown"
+msgstr "Aftellen"
+
+#: includes/settings/class-kadence-blocks-settings.php:1458
+#: dist/components.js:19 dist/components.js:41
+msgid "Dynamic Content"
+msgstr "Dynamische inhoud"
+
+#: includes/class-kadence-blocks-posts-rest-api.php:503
+msgid "Exclude Category."
+msgstr "Categorie uitsluiten."
+
+#: includes/settings/class-kadence-blocks-settings.php:1433
+msgid "Have a question, we are happy to help! Get in touch with our support team."
+msgstr "Heb je een vraag, we helpen je graag! Neem contact op met ons ondersteuningsteam."
+
+#: includes/blocks/class-kadence-blocks-countdown-block.php:630
+#: dist/blocks-countdown.js:1
+msgid "Mins"
+msgstr "Mins"
+
+#: includes/class-kadence-blocks-prebuilt-library.php:784
+#: includes/class-kadence-blocks-prebuilt-library.php:804
+#: includes/class-kadence-blocks-prebuilt-library.php:891
+msgid "No data"
+msgstr "Geen gegevens"
+
+#: includes/settings/class-kadence-blocks-settings.php:1426
+msgid "Need help? We have a knowledge base full of articles to get you started."
+msgstr "Hulp nodig? We hebben een kennisbank vol met artikelen voor je om te beginnen."
+
+#: includes/class-fluentcrm-form-rest-api.php:84
+msgid "Name Prefix"
+msgstr "Naam voorvoegsel"
+
+#: includes/blocks/class-kadence-blocks-posts-block.php:331
+msgid "No posts"
+msgstr "Geen berichten"
+
+#: includes/templates/entry-loop-meta.php:22
+msgid "Posted on"
+msgstr "Geplaatst op"
+
+#: includes/templates/entry-loop-meta.php:28
+msgid "Posted in"
+msgstr "Geplaatst in"
+
+#: includes/blocks/class-kadence-blocks-countdown-block.php:631
+#: dist/blocks-countdown.js:1
+msgid "Secs"
+msgstr "Secs"
+
+#: includes/settings/class-kadence-blocks-settings.php:1434
+msgid "Submit a Ticket"
+msgstr "Verstuur een ticket"
+
+#: includes/class-fluentcrm-form-rest-api.php:116
+msgid "State"
+msgstr "Status"
+
+#: includes/class-kadence-blocks-table-of-contents.php:933
+#: includes/class-kadence-blocks-table-of-contents.php:941
+#: includes/settings/class-kadence-blocks-settings.php:1559
+#: dist/plugin-kadence-control.js:8
+msgid "Table of Contents"
+msgstr "Inhoudsopgave"
+
+#: includes/class-kadence-blocks-posts-rest-api.php:480
+#: includes/class-kadence-blocks-posts-rest-api.php:573
+msgid "Number of results to return."
+msgstr "Aantal terug te zenden resultaten."
+
+#: includes/class-kadence-blocks-prebuilt-library.php:517
+msgid "No Connection data"
+msgstr "Geen connectie gegevens"
+
+#: includes/advanced-form/advanced-form-submit-actions.php:230
+#: includes/form-ajax.php:382
+msgid "MailerLite Misconfiguration"
+msgstr "MailerLite verkeerde configuratie"
+
+#: includes/advanced-form/advanced-form-submit-actions.php:230
+#: includes/form-ajax.php:382
+msgid "MailerLite Failed"
+msgstr "MailerLite mislukt"
+
+#: includes/settings/class-kadence-blocks-settings.php:1419
+msgid "Join our community of fellow kadence users creating effective websites! Share your site, ask a question and help others."
+msgstr "Word lid van onze community van mede kadence gebruikers die effectieve sites maken! Deel je site, stel een vraag en help anderen."
+
+#: includes/class-kadence-blocks-posts-rest-api.php:474
+msgid "Include posts by ID."
+msgstr "Berichten opnemen op ID."
+
+#: includes/class-kadence-blocks-posts-rest-api.php:531
+msgid "Include posts tags."
+msgstr "Vermeld berichten met tags."
+
+#: includes/class-kadence-blocks-posts-rest-api.php:526
+msgid "Include posts category."
+msgstr "Categorie berichten opnemen."
+
+#: includes/settings/class-kadence-blocks-settings.php:1026
+msgid "MailerLite API Key"
+msgstr "MailerLite API-sleutel"
+
+#: includes/advanced-form/advanced-form-ajax.php:60 includes/form-ajax.php:459
+msgid "Submission rejected, invalid security token. Reload the page and try again."
+msgstr "Indiening geweigerd, ongeldig beveiliging token. Laad de pagina opnieuw en probeer het opnieuw."
+
+#: includes/advanced-form/advanced-form-ajax.php:745 includes/form-ajax.php:76
+msgid "Submission Failed, reCaptcha spam prevention. Please reload your page and try again."
+msgstr "Indiening mislukt, reCAPTCHA spam preventie. Laad je pagina opnieuw en probeer het opnieuw."
+
+#: includes/class-kadence-blocks-posts-rest-api.php:507
+msgid "Number of items to offset in query."
+msgstr "Aantal items om te compenseren in query."
+
+#: includes/class-kadence-blocks-posts-rest-api.php:455
+msgid "Limit results to items of a specific post type."
+msgstr "Resultaat beperken tot items met een specifiek berichttype."
+
+#: includes/class-kadence-blocks-posts-rest-api.php:486
+msgid "Define Type of Query."
+msgstr "Type zoekopdracht definiëren."
+
+#: includes/class-kadence-blocks-posts-rest-api.php:490
+msgid "Define Query Order."
+msgstr "Query volgorde definiëren."
+
+#: includes/class-kadence-blocks-posts-rest-api.php:494
+#: includes/class-kadence-blocks-posts-rest-api.php:522
+msgid "Define Query Order By."
+msgstr "Query bestelling definiëren bij."
+
+#: includes/settings/class-kadence-blocks-settings.php:1048
+msgid "Config Kadence Blocks Cloud"
+msgstr "Configuratie Kadence Blocks Cloud"
+
+#: includes/class-kadence-blocks-posts-rest-api.php:517
+msgid "Check if using a custom Taxonomy"
+msgstr "Controleer of je een aangepaste taxonomie gebruikt"
+
+#: includes/class-kadence-blocks-posts-rest-api.php:498
+msgid "Allow Sticky in Query."
+msgstr "Sticky in query toestaan."
+
+#: includes/class-mailerlite-form-rest-api.php:159
+msgid "The API Key for Mailerlite account."
+msgstr "De API-sleutel voor het Mailerlite account."
+
+#: includes/class-mailerlite-form-rest-api.php:169
+msgid "Query Args for url."
+msgstr "Query args voor URL."
+
+#: includes/advanced-form/activecampaign-rest-api.php:113
+#: includes/advanced-form/getresponse-rest-api.php:133
+#: includes/class-fluentcrm-form-rest-api.php:158
+#: includes/class-mailerlite-form-rest-api.php:164
+msgid "Actionable endpoint for api call."
+msgstr "Bruikbaar endpoint voor API oproep."
+
+#: includes/advanced-form/advanced-form-submit-actions.php:225
+#: includes/form-ajax.php:378
+msgid "No Response from MailerLite"
+msgstr "Geen reactie van MailerLite"
+
+#: includes/class-kadence-blocks-prebuilt-library.php:598
+#: includes/class-kadence-blocks-prebuilt-library.php:622
+#: includes/class-kadence-blocks-prebuilt-library.php:646
+#: includes/class-kadence-blocks-prebuilt-library.php:681
+#: includes/class-kadence-blocks-prebuilt-library.php:716
+#: includes/class-kadence-blocks-prebuilt-library.php:1220
+msgid "No library data"
+msgstr "Geen bibliotheekgegevens"
+
+#: includes/class-kadence-blocks-table-of-contents.php:353
+#: includes/class-kadence-blocks-table-of-contents.php:938
+#: includes/class-kadence-blocks-table-of-contents.php:947
+msgid "Expand Table of Contents"
+msgstr "Inhoudsopgave uitvouwen"
+
+#: includes/settings/class-kadence-blocks-settings.php:1420
+msgid "Join our Facebook Group"
+msgstr "Word lid van onze Facebookgroep"
+
+#: includes/settings/class-kadence-blocks-settings.php:1535
+#: dist/blocks-advancedheading.js:1
+msgid "Create a heading or paragraph and define sizes for desktop, tablet and mobile along with font family, colors, etc."
+msgstr "Maak een koptekst of alinea en definieer groottes voor desktop, tablet en mobiel, samen met lettertype familie, kleuren, enz."
+
+#: includes/settings/class-kadence-blocks-site-health.php:325
+#: dist/blocks-advanced-form.js:1 dist/blocks-form.js:1
+msgid "Off"
+msgstr "Uit"
+
+#. translators: 'Home' as in a website's home page.
+#: includes/settings/class-kadence-blocks-settings.php:694
+#: includes/settings/class-kadence-blocks-settings.php:703
+#: dist/blocks-navigation.js:1 dist/blocks-navigation.js:3
+#: dist/blocks-rowlayout.js:1
+msgid "Home"
+msgstr "Home"
+
+#: includes/settings/class-kadence-blocks-settings.php:1481
+#: dist/blocks-advanced-form.js:2 dist/blocks-advanced-form.js:18
+#: dist/blocks-rowlayout.js:1
+msgid "Form"
+msgstr "Formulier"
+
+#: includes/settings/class-kadence-blocks-settings.php:960
+msgid "Google reCaptcha Secret Key"
+msgstr "Google reCAPTCHA geheime sleutel"
+
+#: includes/settings/class-kadence-blocks-settings.php:949
+msgid "Google reCaptcha Site Key"
+msgstr "Google reCAPTCHA site sleutel"
+
+#: includes/advanced-form/advanced-form-ajax.php:689 includes/form-ajax.php:715
+msgid "Data not found"
+msgstr "Gegevens niet gevonden"
+
+#: includes/advanced-form/advanced-form-ajax.php:178 includes/form-ajax.php:497
+#: dist/blocks-advanced-form.js:14 dist/blocks-form.js:1
+msgid "Accept"
+msgstr "Accepteren"
+
+#: includes/advanced-form/advanced-form-ajax.php:142 includes/form-ajax.php:462
+msgid "No Data"
+msgstr "Geen gegevens"
+
+#: includes/advanced-form/advanced-form-ajax.php:142 includes/form-ajax.php:462
+msgid "Submission failed"
+msgstr "Inzenden mislukt"
+
+#: includes/form-ajax.php:101
+msgid "Spam Detected"
+msgstr "Spam gevonden"
+
+#: includes/form-ajax.php:101
+msgid "Submission Rejected"
+msgstr "Inzending afgewezen"
+
+#: includes/blocks/class-kadence-blocks-advanced-form-block.php:507
+#: includes/blocks/class-kadence-blocks-form-block.php:821
+msgid "does not match"
+msgstr "komt niet overeen"
+
+#: includes/blocks/class-kadence-blocks-advanced-form-block.php:504
+#: includes/blocks/class-kadence-blocks-form-block.php:818
+#: dist/blocks-advanced-form.js:2 dist/blocks-form.js:2
+msgid "Please fix the errors to proceed"
+msgstr "Herstel de fouten om verder te gaan"
+
+#. translators: %s - link to a site.
+#: includes/templates/form-email.php:170
+msgid "Sent from %s"
+msgstr "Verzonden vanaf %s"
+
+#: includes/form-ajax.php:108 includes/form-ajax.php:111
+#: includes/form-ajax.php:115
+msgid "reCAPTCHA Failed"
+msgstr "reCAPTCHA mislukt"
+
+#: includes/class-fluentcrm-form-rest-api.php:92 dist/blocks-advanced-form.js:1
+#: dist/blocks-advanced-form.js:2 dist/blocks-form.js:1
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: includes/class-fluentcrm-form-rest-api.php:88 dist/blocks-advanced-form.js:1
+#: dist/blocks-advanced-form.js:2 dist/blocks-form.js:1
+msgid "First Name"
+msgstr "Voornaam"
+
+#: includes/settings/class-kadence-blocks-settings.php:1482
+msgid "Create a contact form or marketing form and style it within the block editor."
+msgstr "Een contact of marketing formulier maken en vormgeven in de blok-editor."
+
+#: includes/blocks/class-kadence-blocks-advanced-form-block.php:506
+#: includes/blocks/class-kadence-blocks-form-block.php:820
+#: dist/blocks-advanced-form.js:14 dist/blocks-advanced-form.js:16
+#: dist/blocks-advanced-form.js:18 dist/blocks-form.js:1
+msgid "is required"
+msgstr "is vereist"
+
+#: includes/advanced-form/advanced-form-ajax.php:743 includes/form-ajax.php:74
+#: dist/blocks-advanced-form.js:2 dist/blocks-form.js:2
+msgid "Submission Success, Thanks for getting in touch!"
+msgstr "Inzending geslaagd, bedankt dat je contact met ons hebt opgenomen!"
+
+#: includes/class-fluentcrm-form-rest-api.php:104
+#: dist/blocks-advanced-form.js:1 dist/blocks-form.js:1
+msgid "Address Line 1"
+msgstr "Adresregel 1"
+
+#: includes/advanced-form/advanced-form-ajax.php:60 includes/form-ajax.php:459
+msgid "Token invalid"
+msgstr "Token ongeldig"
+
+#: includes/advanced-form/advanced-form-ajax.php:136 includes/form-ajax.php:453
+msgid "Third Party Failed"
+msgstr "Derde partij mislukt"
+
+#: includes/form-ajax.php:55
+msgid "Data not Found"
+msgstr "Gegevens niet gevonden"
+
+#: includes/class-fluentcrm-form-rest-api.php:120
+#: dist/blocks-advanced-form.js:1 dist/blocks-form.js:1
+msgid "Postal Code"
+msgstr "Postcode"
+
+#: includes/advanced-form/advanced-form-submit-actions.php:122
+#: includes/form-ajax.php:65 includes/form-ajax.php:207
+msgid "Submission"
+msgstr "Inzending"
+
+#: includes/form-ajax.php:182
+msgid "Required Field Empty"
+msgstr "Vereist veld is leeg"
+
+#: includes/advanced-form/advanced-form-ajax.php:434
+#: includes/advanced-form/advanced-form-ajax.php:689
+#: includes/advanced-form/advanced-form-ajax.php:744 includes/form-ajax.php:55
+#: includes/form-ajax.php:75 includes/form-ajax.php:715
+#: dist/blocks-advanced-form.js:2 dist/blocks-form.js:2
+msgid "Submission Failed"
+msgstr "Aanmelding mislukt"
+
+#: includes/blocks/class-kadence-blocks-advanced-form-block.php:509
+#: includes/blocks/class-kadence-blocks-form-block.php:823
+msgid "requires a unique entry and this value has already been used"
+msgstr "vereist een unieke invoer en deze waarde is al gebruikt"
+
+#: includes/blocks/class-kadence-blocks-advanced-form-block.php:508
+#: includes/blocks/class-kadence-blocks-form-block.php:822
+#: dist/blocks-form.js:1
+msgid "is not valid"
+msgstr "is niet geldig"
+
+#: includes/settings/class-kadence-blocks-settings.php:938
+msgid "Config Kadence Blocks Global Settings"
+msgstr "Instellingen voor globale configuratie van Kadence Blocks"
+
+#: includes/advanced-form/advanced-form-ajax.php:110
+msgid "Submission rejected."
+msgstr "Indiening afgewezen."
+
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1664
+#: dist/blocks-rowlayout.js:30
+msgid "Mute"
+msgstr "Dempen"
+
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1663
+#: dist/blocks-rowlayout.js:30
+msgid "Unmute"
+msgstr "Dempen opheffen"
+
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1658
+#: dist/blocks-rowlayout.js:30
+msgid "Pause"
+msgstr "Pauzeren"
+
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1657
+#: dist/blocks-rowlayout.js:30 dist/blocks-videopopup.js:1
+msgid "Play"
+msgstr "Afspelen"
+
+#. Author URI of the plugin
+#: kadence-blocks.php
+msgid "https://www.kadencewp.com"
+msgstr "https://www.kadencewp.com"
+
+#. Author of the plugin
+#: kadence-blocks.php
+msgid "Kadence WP"
+msgstr "Kadence WP"
+
+#: includes/blocks/class-kadence-blocks-advanced-form-block.php:510
+#: includes/blocks/class-kadence-blocks-form-block.php:824
+msgid "Item"
+msgstr "Item"
+
+#: includes/class-kadence-blocks-editor-assets.php:490
+#: includes/class-kadence-blocks-editor-assets.php:510
+#: includes/class-kadence-blocks-editor-assets.php:596
+#: includes/class-kadence-blocks-editor-assets.php:616
+#: includes/class-kadence-blocks-editor-assets.php:728
+#: includes/class-kadence-blocks-editor-assets.php:748
+#: dist/blocks-advanced-form.js:16 dist/blocks-advancedbtn.js:1
+#: dist/blocks-advancedgallery.js:1 dist/blocks-column.js:1
+#: dist/blocks-iconlist.js:1 dist/blocks-infobox.js:1
+#: dist/blocks-navigation.js:1 dist/blocks-posts.js:9
+#: dist/blocks-singlebtn.js:1 dist/components.js:40 dist/components.js:41
+#: dist/components.js:42
+msgid "Inherit"
+msgstr "Erven"
+
+#: includes/settings/class-kadence-blocks-site-health.php:213
+#: dist/blocks-advancedbtn.js:1 dist/blocks-advancedgallery.js:1
+#: dist/blocks-advancedheading.js:1 dist/blocks-column.js:1
+#: dist/blocks-countup.js:1 dist/blocks-googlemaps.js:1
+#: dist/blocks-iconlist.js:1 dist/blocks-image.js:1 dist/blocks-infobox.js:1
+#: dist/blocks-navigation.js:1 dist/blocks-rowlayout.js:30
+#: dist/blocks-singlebtn.js:1 dist/blocks-tableofcontents.js:1
+#: dist/blocks-testimonials.js:1 dist/components.js:19 dist/components.js:40
+#: dist/components.js:42 dist/helpers.js:1
+msgid "None"
+msgstr "Geen"
+
+#: includes/blocks/class-kadence-blocks-advancedgallery-block.php:1254
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1875
+#: includes/blocks/class-kadence-blocks-testimonials-block.php:941
+#: dist/blocks-testimonials.js:1
+msgid "carousel"
+msgstr "carrousel"
+
+#: includes/blocks/class-kadence-blocks-search-block.php:282
+#: includes/blocks/class-kadence-blocks-search-block.php:305
+#: dist/blocks-advanced-form.js:2 dist/blocks-search.js:1 dist/components.js:42
+#: dist/extension-image-picker.js:1
+msgid "Search"
+msgstr "Zoeken"
+
+#: includes/settings/class-kadence-blocks-settings.php:394
+#: includes/settings/class-kadence-blocks-settings.php:550
+msgid "Cyan bluish gray"
+msgstr "Cyaan blauwachtig grijs"
+
+#: includes/settings/class-kadence-blocks-settings.php:389
+#: includes/settings/class-kadence-blocks-settings.php:545
+msgid "Very light gray"
+msgstr "Heel licht grijs"
+
+#: includes/settings/class-kadence-blocks-settings.php:384
+#: includes/settings/class-kadence-blocks-settings.php:540
+msgid "Vivid cyan blue"
+msgstr "Levendig cyaan blauw"
+
+#: includes/settings/class-kadence-blocks-settings.php:379
+#: includes/settings/class-kadence-blocks-settings.php:535
+msgid "Pale cyan blue"
+msgstr "Bleek cyaan blauw"
+
+#: includes/settings/class-kadence-blocks-settings.php:374
+#: includes/settings/class-kadence-blocks-settings.php:530
+msgid "Vivid green cyan"
+msgstr "Levendig groen cyaan"
+
+#: includes/settings/class-kadence-blocks-settings.php:364
+#: includes/settings/class-kadence-blocks-settings.php:520
+msgid "Luminous vivid amber"
+msgstr "Lichtgevend levendig amber"
+
+#: includes/settings/class-kadence-blocks-settings.php:359
+#: includes/settings/class-kadence-blocks-settings.php:515
+msgid "Luminous vivid orange"
+msgstr "Lichtgevend levendig oranje"
+
+#: includes/settings/class-kadence-blocks-settings.php:354
+#: includes/settings/class-kadence-blocks-settings.php:510
+msgid "Vivid red"
+msgstr "Levendig rood"
+
+#: includes/settings/class-kadence-blocks-settings.php:1583
+#: dist/blocks-videopopup.js:1 dist/components.js:41
+msgid "Video Popup"
+msgstr "Video pop-up"
+
+#: includes/settings/class-kadence-blocks-settings.php:349
+#: includes/settings/class-kadence-blocks-settings.php:505
+msgid "Pale pink"
+msgstr "Lichtroze"
+
+#: includes/settings/class-kadence-blocks-settings.php:369
+#: includes/settings/class-kadence-blocks-settings.php:525
+msgid "Light green cyan"
+msgstr "Lichtgroen cyaan"
+
+#: includes/settings/class-kadence-blocks-settings.php:399
+#: includes/settings/class-kadence-blocks-settings.php:555
+msgid "Very dark gray"
+msgstr "Heel donkergrijs"
+
+#: includes/settings/class-kadence-blocks-settings.php:1486
+#: dist/plugin-kadence-control.js:8
+msgid "Advanced Gallery"
+msgstr "Geavanceerde galerij"
+
+#: includes/settings/class-kadence-blocks-settings.php:927
+msgid "Config Kadence Blocks Color Palette"
+msgstr "Configuratie Kadence Blokken kleurenpalet"
+
+#: includes/settings/class-kadence-blocks-settings.php:1487
+msgid "Photo galleries, carousels, and sliders! Enable custom links, captions, and more. Plus, you can select image sizes."
+msgstr "Fotogalerijen, carrousels en sliders! Schakel aangepaste links, bijschriften en meer in. Bovendien kun je afbeeldingformaten selecteren."
+
+#: includes/header/class-kadence-header-cpt.php:1043 dist/blocks-header.js:1
+msgid "Header"
+msgstr "Header"
+
+#: includes/resources/Home/Home_Content_View_Model.php:54
+#: includes/resources/Home/Home_Content_View_Model.php:77
+#: dist/blocks-infobox.js:1 dist/blocks-navigation-link.js:3
+msgid "Learn More"
+msgstr "Lees verder"
+
+#: includes/settings/class-kadence-blocks-settings.php:1599
+msgid "Missing Content"
+msgstr "Ontbrekende inhoud"
+
+#: includes/settings/class-kadence-blocks-settings.php:1596
+msgid "Invalid nonce"
+msgstr "Ongeldige nonce"
+
+#: includes/settings/class-kadence-blocks-settings.php:1574
+#: dist/blocks-rowlayout.js:1 dist/blocks-rowlayout.js:28
+#: dist/plugin-kadence-control.js:8
+msgid "Testimonials"
+msgstr "Aanbevelingen"
+
+#: includes/settings/class-kadence-blocks-settings.php:1549
+#: dist/blocks-rowlayout.js:1 dist/blocks-tabs.js:1
+#: dist/plugin-kadence-control.js:8
+msgid "Accordion"
+msgstr "Accordeon"
+
+#: includes/settings/class-kadence-blocks-settings.php:713
+#: dist/blocks-header.js:1 dist/blocks-navigation.js:1
+#: dist/plugin-kadence-control.js:8
+msgid "Close"
+msgstr "Sluiten"
+
+#: includes/settings/class-kadence-blocks-settings.php:714
+#: dist/admin-kadence-home.js:1 dist/admin-kadence-home.js:14
+#: dist/blocks-advanced-form.js:2 dist/blocks-advanced-form.js:14
+#: dist/blocks-form.js:1 dist/blocks-form.js:2 dist/blocks-googlemaps.js:1
+#: dist/blocks-rowlayout.js:12 dist/blocks-rowlayout.js:25
+#: dist/blocks-vector.js:1 dist/components.js:42
+#: dist/plugin-kadence-control.js:8
+msgid "Save"
+msgstr "Opslaan"
+
+#: includes/settings/class-kadence-blocks-settings.php:716
+msgid "Updated"
+msgstr "Geüpdatet"
+
+#: includes/settings/class-kadence-blocks-settings.php:715
+msgid "Updating"
+msgstr "Aan het updaten"
+
+#: includes/settings/class-kadence-blocks-settings.php:717
+msgid "Config"
+msgstr "Configuratie"
+
+#: includes/settings/class-kadence-blocks-settings.php:718
+msgid "Default Settings"
+msgstr "Standaard instellingen"
+
+#: includes/settings/class-kadence-blocks-settings.php:1554
+#: dist/plugin-kadence-control.js:8
+msgid "Icon List"
+msgstr "Pictogram lijst"
+
+#: includes/settings/class-kadence-blocks-settings.php:1544
+#: dist/plugin-kadence-control.js:8
+msgid "Info Box"
+msgstr "Info box"
+
+#: includes/settings/class-kadence-blocks-settings.php:1605
+msgid "Nothing to Save"
+msgstr "Niets om op te slaan"
+
+#: includes/settings/class-kadence-blocks-settings.php:1370
+msgid "Match the editor width to your sites width."
+msgstr "Stem de breedte van de editor af op de breedte van je site."
+
+#: includes/settings/class-kadence-blocks-settings.php:1575
+msgid "Create confidence in your brand or product by showing off beautiful unique testimonials, add as a carousel or a grid."
+msgstr "Creëer vertrouwen in je merk of product door prachtige unieke aanbevelingen te laten zien, in de vorm van een carrousel of een raster."
+
+#: includes/settings/class-kadence-blocks-settings.php:1550
+#: dist/blocks-accordion.js:1
+msgid "Create beautiful accordions! Each pane can contain any other block, customize title styles, content background, and borders."
+msgstr "Maak prachtige accordeons! Elk paneel kan elk ander blok bevatten, titelstijlen, inhoud achtergrond en randen aanpassen."
+
+#: includes/settings/class-kadence-blocks-settings.php:883
+msgid "Config Kadence Block Defaults"
+msgstr "Configuratie standaardinstellingen blok"
+
+#: includes/settings/class-kadence-blocks-settings.php:1555
+msgid "Add beautiful icons to your lists and make them more engaging. Over 1500 icons to choose from and unlimited styles."
+msgstr "Voeg prachtige pictogrammen toe aan je lijsten en maak ze aantrekkelijker. Meer dan 1500 pictogrammen om uit te kiezen en onbeperkte stijlen."
+
+#: includes/settings/class-kadence-blocks-settings.php:724
+#: includes/settings/class-kadence-blocks-settings.php:730
+#: includes/settings/class-kadence-blocks-settings.php:736
+#: includes/settings/class-kadence-blocks-settings.php:742
+#: includes/settings/class-kadence-blocks-settings.php:748
+#: includes/settings/class-kadence-blocks-settings.php:754
+#: includes/settings/class-kadence-blocks-settings.php:760
+#: includes/settings/class-kadence-blocks-settings.php:766
+#: includes/settings/class-kadence-blocks-settings.php:772
+#: includes/settings/class-kadence-blocks-settings.php:778
+msgid "Setting defaults has moved into Gutenberg, click on the top right corner settings and go to Kadence Blocks Controls"
+msgstr "Het instellen van standaardwaarden is verplaatst naar Gutenberg, klik op de instellingen in de rechterbovenhoek en ga naar Kadence Blocks controle"
+
+#: includes/settings/class-kadence-blocks-settings.php:1370
+msgid "Editor Max Widths"
+msgstr "Editor max. breedtes"
+
+#: includes/settings/class-kadence-blocks-settings.php:905
+msgid "Config Kadence Block Settings"
+msgstr "Configuratie Kadence blok instellingen"
+
+#: includes/settings/class-kadence-blocks-settings.php:1529
+#: dist/plugin-kadence-control.js:8
+msgid "Spacer/Divider"
+msgstr "Tussenlaag/Scheidingslijn"
+
+#: includes/settings/class-kadence-blocks-settings.php:1491
+#: dist/plugin-kadence-control.js:8
+msgid "Advanced Button"
+msgstr "Geavanceerde Knop"
+
+#: includes/settings/class-kadence-blocks-settings.php:1525
+msgid "Choose from over 1500+ SVG Icons to add into your page and style the size, colors, background, border, etc."
+msgstr "Kies uit meer dan 1500+ SVG-pictogrammen om aan uw pagina toe te voegen en de grootte, kleuren, achtergrond, rand, etc. te stijlen."
+
+#: includes/resources/Home/Home_Content_View_Model.php:202
+#: includes/resources/Home/Home_Content_View_Model.php:247
+#: includes/settings/class-kadence-blocks-settings.php:1432
+#: dist/blocks-rowlayout.js:1
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: includes/settings/class-kadence-blocks-settings.php:1354
+msgid "Deactivated"
+msgstr "Gedeactiveerd"
+
+#: includes/settings/class-kadence-blocks-settings.php:1354
+msgid "Activated"
+msgstr "Geactiveerd"
+
+#: includes/settings/class-kadence-blocks-settings.php:1354
+#: includes/settings/class-kadence-blocks-settings.php:1356
+msgid "Deactivate"
+msgstr "Deactiveren"
+
+#: includes/settings/class-kadence-blocks-settings.php:704
+#: includes/settings/class-kadence-blocks-settings.php:1723
+#: dist/blocks-form.js:1 dist/blocks-rowlayout.js:30
+msgid "Settings"
+msgstr "Instellingen"
+
+#: includes/settings/class-kadence-blocks-settings.php:1202
+#: includes/settings/class-kadence-blocks-settings.php:1215
+msgid "Fullwidth"
+msgstr "Volledige breedte"
+
+#: includes/settings/class-kadence-blocks-settings.php:1201
+#: includes/settings/class-kadence-blocks-settings.php:1214
+#: dist/blocks-column.js:1 dist/blocks-posts.js:9 dist/blocks-rowlayout.js:30
+#: dist/components.js:40 dist/components.js:42 dist/helpers.js:1
+#: dist/plugin-kadence-control.js:1
+msgid "Large"
+msgstr "Groot"
+
+#: includes/settings/class-kadence-blocks-settings.php:1200
+#: includes/settings/class-kadence-blocks-settings.php:1213
+#: dist/blocks-column.js:1 dist/blocks-rowlayout.js:30 dist/components.js:40
+#: dist/components.js:42 dist/helpers.js:1 dist/plugin-kadence-control.js:1
+msgid "Small"
+msgstr "Klein"
+
+#: includes/settings/class-kadence-blocks-settings.php:1180
+#: includes/settings/class-kadence-blocks-settings.php:1190
+#: dist/components.js:42
+msgid "px"
+msgstr "px"
+
+#: includes/settings/class-kadence-blocks-settings.php:1156
+#: includes/settings/class-kadence-blocks-settings.php:1169
+#: includes/settings/class-kadence-blocks-settings.php:1227
+#: includes/settings/class-kadence-blocks-settings.php:1239
+msgid "True"
+msgstr "Ja"
+
+#: includes/settings/class-kadence-blocks-settings.php:1155
+#: includes/settings/class-kadence-blocks-settings.php:1168
+#: includes/settings/class-kadence-blocks-settings.php:1226
+#: includes/settings/class-kadence-blocks-settings.php:1238
+msgid "False"
+msgstr "Nee"
+
+#: includes/settings/class-kadence-blocks-settings.php:1476
+#: dist/plugin-kadence-control.js:8
+msgid "Row Layout"
+msgstr "Rij lay-out"
+
+#: includes/settings/class-kadence-blocks-settings.php:1427
+msgid "Browse Docs"
+msgstr "Bladeren door documenten"
+
+#: includes/settings/class-kadence-blocks-settings.php:1379
+#: includes/settings/class-kadence-blocks-settings.php:1392
+#: includes/settings/class-kadence-blocks-settings.php:1405
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: includes/settings/class-kadence-blocks-settings.php:1372
+msgid "Note: The current active themes \"content_width\" is set to:"
+msgstr "Opmerking: De \"content_width\" van het huidige thema is ingesteld op:"
+
+#: includes/settings/class-kadence-blocks-settings.php:1353
+#: includes/settings/class-kadence-blocks-settings.php:1354
+msgid "Activate"
+msgstr "Activeer"
+
+#: includes/init.php:298 includes/init.php:325
+#: includes/resources/Home/Home_Content_View_Model.php:188
+#: includes/resources/Home/Home_Content_View_Model.php:195
+#: includes/resources/Home/Home_Content_View_Model.php:219
+#: includes/resources/Home/Home_Content_View_Model.php:226
+#: includes/resources/Home/Home_Content_View_Model.php:233
+#: includes/settings/class-kadence-blocks-settings.php:694
+#: includes/settings/class-kadence-blocks-settings.php:703
+#: includes/settings/class-kadence-blocks-site-health.php:150
+msgid "Kadence Blocks"
+msgstr "Kadence blokken"
+
+#: includes/settings/class-kadence-blocks-settings.php:1133
+msgid "Post default"
+msgstr "Bericht standaard"
+
+#: includes/settings/class-kadence-blocks-settings.php:1130
+msgid "Small Template"
+msgstr "Klein template"
+
+#: includes/settings/class-kadence-blocks-settings.php:1134
+msgid "Page Default"
+msgstr "Pagina standaard"
+
+#: includes/settings/class-kadence-blocks-settings.php:704
+msgid "Kadence Blocks -  Gutenberg Page Builder Blocks"
+msgstr "Kadence blokken -  Gutenberg pagina bouwer blokken"
+
+#: includes/settings/class-kadence-blocks-settings.php:1153
+msgid "Allows for changes to the editor width on per page/post basis with preset defaults."
+msgstr "Maakt het mogelijk om de editor breedte per pagina/bericht te wijzigen met voorinstellingen."
+
+#: includes/settings/class-kadence-blocks-settings.php:1131
+msgid "Large Template"
+msgstr "Groot template"
+
+#: includes/settings/class-kadence-blocks-settings.php:1539
+#: dist/blocks-rowlayout.js:1 dist/blocks-tabs.js:1
+#: dist/plugin-kadence-control.js:8
+msgid "Tabs"
+msgstr "Tabs"
+
+#. Plugin URI of the plugin
+#: kadence-blocks.php
+msgid "https://www.kadencewp.com/product/kadence-gutenberg-blocks/"
+msgstr "https://www.kadencewp.com/product/kadence-gutenberg-blocks/"
+
+#: includes/settings/class-kadence-blocks-settings.php:1166
+msgid "Experimental editor CSS for less excess margins in Gutenberg in an attempt to get a closer WYSIWYG editing experience."
+msgstr "Experimentele CSS editor gebruiken? (voor minder overtollige marges in Gutenberg in een poging om een betere WYSIWYG bewerkingservaring te krijgen)."
+
+#: includes/settings/class-kadence-blocks-settings.php:1136
+msgid "Enable Editor Width"
+msgstr "Editor breedte inschakelen"
+
+#: includes/settings/class-kadence-blocks-settings.php:1530
+msgid "Easily create a divider and determine the space around it or just create some space in your content."
+msgstr "Maak eenvoudig een scheidingslijn en bepaal de ruimte eromheen of maak gewoon wat ruimte in je inhoud."
+
+#: includes/settings/class-kadence-blocks-settings.php:1477
+msgid "Create rows with nested blocks either in columns or as a container. Give style to your rows with background, overlay, padding, etc."
+msgstr "Maak rijen met geneste blokken, hetzij in kolommen of als een container. Geef stijl aan je rijen met achtergrond, bedekking, padding, enz."
+
+#: includes/settings/class-kadence-blocks-settings.php:1492
+msgid "Create an advanced button or a row of buttons. Style each one including hover controls plus you can use an icon and display them side by side"
+msgstr "Maak een geavanceerde knop of een rij knoppen. Geef elke knop een stijl inclusief hoveren controles plus je kunt een pictogram gebruiken en ze naast elkaar weergeven"
+
+#. Description of the plugin
+#: kadence-blocks.php
+msgid "Advanced Page Building Blocks for Gutenberg. Create custom column layouts, backgrounds, dual buttons, icons etc."
+msgstr "Geavanceerde pagina bouw blokken voor Gutenberg. Maak aangepaste kolom lay-outs, achtergronden, dubbele knoppen, pictogrammen enz."
+
+#: includes/settings/class-kadence-blocks-settings.php:1540
+msgid "Create custom vertical or horizontal tabs with advanced styling controls. Each tab content is an empty canvas able to contain any other blocks."
+msgstr "Maak aangepaste verticale of horizontale tabs met geavanceerde stijl besturingselementen. Elke tab bevat een leeg canvas dat andere blokken kan bevatten."
+
+#: includes/settings/class-kadence-blocks-settings.php:1524
+#: dist/blocks-icon.js:1 dist/blocks-infobox.js:1
+#: dist/blocks-navigation-link.js:3 dist/blocks-single-icon.js:1
+#: dist/blocks-tabs.js:5 dist/blocks-testimonial.js:1
+#: dist/blocks-testimonials.js:1 dist/plugin-kadence-control.js:8
+msgid "Icon"
+msgstr "Icoon"
+
+#: includes/settings/class-kadence-blocks-settings.php:693
+#: includes/settings/class-kadence-blocks-settings.php:702
+msgid "Kadence Blocks - Gutenberg Page Builder Blocks"
+msgstr "Kadence blokken -  Gutenberg pagina bouwer blokken"
+
+#: includes/settings/class-kadence-blocks-settings.php:1510
+#: dist/blocks-header.js:1
+msgid "Advanced Header"
+msgstr "Geavanceerde header"

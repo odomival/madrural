@@ -1,0 +1,93 @@
+# Translation of Plugins - Contact Form 7 Multi-Step Addon - Development (trunk) in Dutch
+# This file is distributed under the same license as the Plugins - Contact Form 7 Multi-Step Addon - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-07 22:24:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Contact Form 7 Multi-Step Addon - Development (trunk)\n"
+
+#: includes/multistep-form-class.php:267
+msgid "Security error"
+msgstr "Beveiligingsfout"
+
+#: includes/multistep-form-class.php:227
+msgid "Previous"
+msgstr "Vorige"
+
+#: includes/multistep-form-class.php:151
+msgid "Step 1"
+msgstr "Stap 1"
+
+#: includes/multistep-form-class.php:149 includes/multistep-form-class.php:189
+#: includes/multistep-form-class.php:225
+msgid "Label"
+msgstr "Label"
+
+#: includes/multistep-form-class.php:107
+msgid "Just Line"
+msgstr "Gewoon regel"
+
+#: includes/multistep-form-class.php:106
+msgid "Bullets"
+msgstr "Bullets"
+
+#: includes/multistep-form-class.php:105
+msgid "Numbers"
+msgstr "Nummers"
+
+#: includes/multistep-form-class.php:101
+msgid "Progressbar type"
+msgstr "Progressiebalk type"
+
+#: includes/multistep-form-class.php:59
+msgid "Prev"
+msgstr "Vorige"
+
+#: includes/multistep-form-class.php:57 includes/multistep-form-class.php:191
+msgid "Next"
+msgstr "Volgende"
+
+#: includes/multistep-form-class.php:55
+msgid "Step finish"
+msgstr "Stap voltooien"
+
+#: includes/multistep-form-class.php:54
+msgid "Step start"
+msgstr "Stap starten"
+
+#: includes/multistep-form-class.php:52
+msgid "Progressbar"
+msgstr "Progressiebalk"
+
+#: templates/admin/shortcode-generator.php:76
+msgid "Insert Tag"
+msgstr "Tag Invoegen"
+
+#: templates/admin/shortcode-generator.php:65
+msgid "Class attribute"
+msgstr "Klasse attribuut"
+
+#: templates/admin/shortcode-generator.php:61
+msgid "Id attribute"
+msgstr "Id attribuut"
+
+#. Author URI of the plugin
+msgid "https://themerex.net/"
+msgstr "https://themerex.net/"
+
+#. Author of the plugin
+msgid "ThemeREX"
+msgstr "ThemeREX"
+
+#. Description of the plugin
+msgid "ThemeRex Multi Step Form extends Contact Form 7."
+msgstr "ThemeRex Multi Step Form extends Contact Form 7."
+
+#. Plugin Name of the plugin
+msgid "Contact Form 7 Multi-Step Addon"
+msgstr "Contact Form 7 Multi-Step Addon"

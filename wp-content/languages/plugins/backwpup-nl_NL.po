@@ -1,0 +1,4324 @@
+# Translation of Plugins - BackWPup &#8211; WordPress Backup Plugin - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - BackWPup &#8211; WordPress Backup Plugin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-02-22 15:28:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - BackWPup &#8211; WordPress Backup Plugin - Stable (latest release)\n"
+
+#: inc/class-jobtype-file.php:12
+msgid "https://wp-media.me"
+msgstr "https://wp-media.me"
+
+#. Author URI of the plugin
+#: backwpup.php
+msgid "https://wp-media.me/"
+msgstr "https://wp-media.me/"
+
+#. Author of the plugin
+#: backwpup.php
+msgid "WP MEDIA SAS"
+msgstr "WP MEDIA SAS"
+
+#: src/Infrastructure/Xml/WxrValidator.php:49
+msgid "The XML file could not be read"
+msgstr "Het XML bestand kon niet gelezen worden"
+
+#: src/Infrastructure/Http/Message/Exception/CouldNotDecodeJsonData.php:11
+msgid "Data is not valid JSON. Error: %s"
+msgstr "Gegevens zijn geen geldige JSON. Fout: %s"
+
+#: src/Infrastructure/Http/Authentication/Exception/CouldNotDecodeBasicAuthenticationToken.php:13
+msgid "Could not decode basic authentication token %s"
+msgstr "Kon het basis authenticatie token niet decoderen %s"
+
+#: src/Infrastructure/Http/Authentication/BasicAuthCredentials.php:29
+msgid "Password cannot be empty"
+msgstr "Wachtwoord mag niet leeg zijn"
+
+#: src/Infrastructure/Http/Authentication/BasicAuthCredentials.php:28
+msgid "Username cannot be empty"
+msgstr "Gebruikersnaam mag niet leeg zijn"
+
+#: inc/class-s3-destination.php:210
+msgid "Scaleway: PAR"
+msgstr "Scaleway: PAR"
+
+#: inc/class-s3-destination.php:201
+msgid "DigitalOcean: FRA1"
+msgstr "DigitalOcean: FRA1"
+
+#: inc/class-s3-destination.php:197
+msgid "DigitalOcean: SGP1"
+msgstr "DigitalOcean: SGP1"
+
+#: inc/class-s3-destination.php:189
+msgid "DigitalOcean: NYC3"
+msgstr "DigitalOcean: NYC3"
+
+#: inc/class-s3-destination.php:185
+msgid "DigitalOcean: SFO2"
+msgstr "DigitalOcean: SFO2"
+
+#: inc/class-s3-destination.php:161
+msgid "Amazon S3: AWS GovCloud (US-West)"
+msgstr "Amazon S3: AWS GovCloud (US-West)"
+
+#: inc/class-s3-destination.php:156
+msgid "Amazon S3: AWS GovCloud (US-East)"
+msgstr "Amazon S3: AWS GovCloud (US-Oost)"
+
+#: inc/class-s3-destination.php:146
+msgid "Amazon S3: Middle East (Bahrain)"
+msgstr "Amazon S3: Midden Oosten (Bahrain)"
+
+#: inc/class-s3-destination.php:136
+msgid "Amazon S3: Europe (Paris)"
+msgstr "Amazon S3: Europa (Parijs)"
+
+#: inc/class-s3-destination.php:131
+msgid "Amazon S3: Europe (Milan)"
+msgstr "Amazon S3: Europa (Milaan)"
+
+#: inc/class-s3-destination.php:126
+msgid "Amazon S3: Europe (London)"
+msgstr "Amazon S3: Europa (Londen)"
+
+#: inc/class-s3-destination.php:116
+msgid "Amazon S3: Europe (Frankfurt)"
+msgstr "Amazon S3: Europa (Frankfurt)"
+
+#: inc/class-s3-destination.php:86
+msgid "Amazon S3: Asia Pacific (Osaka)"
+msgstr "Amazon S3: Azië Pacific (Osaka)"
+
+#: inc/class-s3-destination.php:76
+msgid "Amazon S3: Asia Pacific (Jakarta)"
+msgstr "Amazon S3: Azië Pacific (Jakarta)"
+
+#: inc/class-s3-destination.php:66
+msgid "Amazon S3: Africa (Cape Town)"
+msgstr "Amazon S3: Afrika (Cape Town)"
+
+#: inc/class-job.php:1974
+msgid "Could not initialize encryptor."
+msgstr "Kon encryptor niet initialiseren."
+
+#: inc/class-destination-sugarsync.php:414
+msgid "Auth Token not set correctly!"
+msgstr "Auth token niet juist ingesteld!"
+
+#: inc/class-destination-s3.php:420
+msgid "Glacier Instant Retrieval"
+msgstr "Glacier instant retrieval"
+
+#: inc/class-destination-s3.php:416
+msgid "Intelligent-Tiering"
+msgstr "Intelligent-Tiering"
+
+#: inc/class-destination-s3.php:408
+msgid "One Zone-Infrequent Access"
+msgstr "Eén zone met frequente toegang"
+
+#: views/notice/dropbox.php:4
+msgid "Please visit each job below and reauthenticate your Dropbox connection."
+msgstr "Ga naar elke taak hieronder en autoriseer je Dropbox verbinding opnieuw."
+
+#: views/notice/dropbox.php:3
+msgid "The Dropbox API is discontinuing long-lived access tokens. To conform to these new changes, we must implement the use of refresh tokens, which can only be fetched when you reauthenticate."
+msgstr "De Dropbox API stopt met langlevende toegangstokens. Om aan deze nieuwe wijzigingen te voldoen, moeten we het gebruik van vernieuwings tokens implementeren, die alleen kunnen worden opgehaald wanneer je opnieuw kunt verifiëren."
+
+#: views/notice/dropbox.php:2
+msgid "You have one or more BackWPup jobs that need to reauthenticate with Dropbox."
+msgstr "Je hebt een of meer BackWPup taken die opnieuw moeten worden geverifieerd met Dropbox."
+
+#: src/Infrastructure/Xml/WxrValidator.php:59
+msgid "The provided XML is invalid"
+msgstr "De opgegeven XML is ongeldig"
+
+#: src/Infrastructure/Http/Message/StreamFactory.php:38
+msgid "Invalid mode provided for fopen: %s"
+msgstr "Ongeldige modus voor fopen: %s"
+
+#: src/Infrastructure/Http/Message/Exception/CouldNotCreateStream.php:11
+msgid "The stream is not readable"
+msgstr "De stream is niet leesbaar"
+
+#: src/Infrastructure/Http/Message/StreamFactory.php:52
+msgid "Stream must be a resource"
+msgstr "Stream moet een gegevensbron zijn"
+
+#: src/Infrastructure/Http/Message/Exception/CouldNotEncodeJsonData.php:11
+msgid "Cannot encode data into JSON. Got error: %s"
+msgstr "Kan gegevens niet coderen in JSON. Fout: %s"
+
+#: src/Infrastructure/Http/Client/WpHttpClient.php:287
+msgid "The given URI is invalid."
+msgstr "De opgegeven URI is ongeldig."
+
+#: src/Infrastructure/Http/Client/WpHttpClient.php:283
+msgid "URI must not be empty."
+msgstr "URI mag niet leeg zijn."
+
+#: inc/class-mysqldump.php:340
+msgid "Database error: %1$s. Query: %2$s"
+msgstr "Databasefout: %1$s. Query: %2$s"
+
+#: inc/class-mysqldump.php:241
+msgid "Cannot set DB charset to %s"
+msgstr "Kan DB-tekenset niet instellen op %s"
+
+#: inc/class-destination-email.php:71
+msgid "The recommended value is 20 MB."
+msgstr "De aanbevolen waarde is 20 MB."
+
+#: inc/class-destination-email.php:67
+msgid "Every email provider has different allowed attachment file sizes. If the backup archive exceeds this limit, the email will not be sent."
+msgstr "Elke e-mailprovider heeft verschillende toegestane bestandsgroottes voor bijlagen. Als het back-uparchief deze limiet overschrijdt, wordt de e-mail niet verzonden."
+
+#: inc/class-destination-email.php:67
+msgid "Note"
+msgstr "Notitie"
+
+#: inc/class-destination-dropbox-api.php:1118
+msgid "(429) Requests are being rate limited. Please try again later."
+msgstr "(429) Aanvragen worden beperkt. Probeer het later opnieuw."
+
+#: inc/class-destination-dropbox-api.php:1093
+msgid "(409) Endpoint-specific error. Response from server: %s"
+msgstr "(409) Eindpunt specifieke fout. Antwoord van server: %s"
+
+#: inc/class-destination-dropbox-api.php:1071
+msgid "(403) You do not have permission to access this resource. Response from server: %s"
+msgstr "(403) Je hebt geen toestemming om toegang te krijgen tot deze bron. Antwoord van server: %s"
+
+#: inc/class-destination-dropbox-api.php:1060
+msgid "(403) You do not have permission to access this feature."
+msgstr "(403) Je hebt geen toestemming om toegang te krijgen tot deze functie."
+
+#: inc/class-destination-dropbox-api.php:1052
+msgid "(403) You do not have permission to access this endpoint."
+msgstr "(403) Je hebt geen toestemming om toegang te krijgen tot dit endpoint."
+
+#: inc/class-destination-dropbox-api.php:1027
+msgid "(401) Bad or expired token. Response from server: %s"
+msgstr "(401) Slecht of verlopen token. Antwoord van server: %s"
+
+#: inc/class-destination-dropbox-api.php:1003
+msgid "(400) Bad input parameter. Response from server: %s"
+msgstr "(400) Slechte invoerparameter. Antwoord van server: %s"
+
+#: inc/class-destination-dropbox-api.php:982
+msgid "(%1$d) An unexpected server error was encountered. Response from server: %2$s"
+msgstr "(%1$d) Er is een onverwachte serverfout opgetreden. Antwoord van server: %2$s"
+
+#: inc/class-destination-dropbox-api.php:958
+msgid "(%1$s) An unknown error has occurred. Response from server: %2$s"
+msgstr "(%1$s) Er is een onbekende fout opgetreden. Antwoord van server: %2$s"
+
+#: inc/class-destination-dropbox-api.php:347
+msgid "OAuth tokens have not been set."
+msgstr "OAuth tokens zijn niet ingesteld."
+
+#: inc/class-destination-dropbox-api.php:316
+msgid "No refresh token provided. You may need to reauthenticate with Dropbox"
+msgstr "Geen vernieuwingstoken opgegeven. Mogelijk moet je opnieuw verifiëren met Dropbox"
+
+#: inc/class-destination-dropbox-api.php:310
+msgid "No access token provided"
+msgstr "Geen toegangs token verstrekt"
+
+#: inc/class-page-about.php:649
+msgid "Restore from Microsoft Azure"
+msgstr "Terugzetten vanuit Microsoft Azure"
+
+#: inc/class-page-about.php:629
+msgid "Differential backup of changed directories to local folder"
+msgstr "Differentiële back-up van gewijzigde mappen naar lokale map"
+
+#: inc/class-page-about.php:624
+msgid "Differential backup of changed directories to Google Drive"
+msgstr "Differentiële back-up van gewijzigde mappen naar Google Drive"
+
+#: inc/class-page-about.php:539
+msgid "Backup to HiDrive"
+msgstr "Back-up maken naar HiDrive"
+
+#: inc/class-page-about.php:534
+msgid "Backup to OneDrive"
+msgstr "Back-up maken naar OneDrive"
+
+#: inc/class-page-editjob.php:459
+msgid "%H = Two-digit hour in 24-hour format, with leading zeros"
+msgstr "%H = Tweecijferig uur in 24-uur format, met voorloopnullen"
+
+#: inc/class-page-editjob.php:458
+msgid "%h = Two-digit hour in 12-hour format, with leading zeros"
+msgstr "%h = Tweecijferig uur in 12-uur format, met voorloopnullen"
+
+#: inc/class-page-editjob.php:449
+msgid "%m = Two-digit representation of the month, with leading zeros"
+msgstr "%m = Tweecijferige weergave van de maand, met voorloopnullen"
+
+#: inc/class-page-settings.php:617
+msgid "Keep plugin data"
+msgstr "Plugin gegevens behouden"
+
+#: views/notice/php.php:3
+msgid "For further information <a href=\"https://backwpup.com/docs/php-7-2-update/\" target=\"_blank\">see here</a>, and if any questions remain contact our support team."
+msgstr "Voor meer informatie <a href=\"https://backwpup.com/docs/php-7-2-update/\" target=\"_blank\">zie hier</a>, en als er nog vragen zijn, neem dan contact op met ons ondersteuningsteam."
+
+#: views/notice/php.php:1
+msgid "BackWPup is dropping support for PHP versions less than 7.2. As such, using outdated and unsupported versions of PHP may expose your site to security vulnerabilities. Please update PHP to the latest version. Ask your hoster if you don't know how."
+msgstr "BackWPup laat de ondersteuning voor PHP versies minder dan 7.2 vallen. Als zodanig kan het gebruik van verouderde en niet-ondersteunde versies van PHP je site blootstellen aan beveiligingsproblemen. Update PHP naar de nieuwste versie. Vraag je hoster als je niet weet hoe."
+
+#: inc/Notice/NoticeView.php:88
+msgid "Call to undefined method %1$s::%2$s()"
+msgstr "Aanroep naar ongedefinieerde methode %1$s::%2$s()"
+
+#: views/notice/wordpress.php:3
+msgid "<a href=\"https://backwpup.com/support/\" target=\"_blank\">Contact our support team here</a> if any questions remain."
+msgstr "<a href=\"https://backwpup.com/support/\" target=\"_blank\">Neem hier contact op met ons ondersteuningsteam</a> als er nog vragen zijn."
+
+#: views/notice/wordpress.php:1
+msgid "BackWPup is dropping support for WordPress versions less than 5.0. Please update WordPress to the latest version. Without an update, you will not receive any new features."
+msgstr "BackWPup laat de ondersteuning voor WordPress versies minder dan 5.0 vallen. Update WordPress naar de nieuwste versie. Zonder een update ontvang je geen nieuwe functies."
+
+#: inc/Notice/Notice.php:85
+msgid "Invalid notice type specified"
+msgstr "Ongeldig bericht type opgegeven"
+
+#: inc/class-page-settings.php:627
+msgid "Keep BackWPup data stored in the database after uninstall"
+msgstr "Houd BackWPup gegevens opgeslagen in de database na verwijdering"
+
+#: inc/class-page-settings.php:612
+msgid "Plugin data"
+msgstr "Plugin gegevens"
+
+#: inc/class-destination-s3.php:217
+msgid "The signature for the API like \"v4\""
+msgstr "De handtekening voor de API, zoals \"v4"
+
+#: inc/class-destination-s3.php:201
+msgid "Signature"
+msgstr "Handtekening"
+
+#: inc/class-destination-s3.php:192
+msgid "The S3 version for the API like \"2006-03-01\", default \"latest\""
+msgstr "De S3-versie voor de API zoals \"2006-03-01\", standaard \"latest\""
+
+#: inc/class-destination-s3.php:169
+msgid "Example: http://s3.example.com/bucket-name"
+msgstr "Voorbeeld:http://s3.example.com/bucket-name"
+
+#: inc/class-destination-s3.php:165
+msgid "Destination provides only Pathstyle buckets"
+msgstr "Bestemming biedt alleen Pathstyle buckets"
+
+#: inc/class-destination-s3.php:143 inc/class-destination-s3.php:150
+msgid "Pathstyle-Only Bucket"
+msgstr "Bucket met alleen Pathstyle"
+
+#: inc/class-destination-s3.php:135
+msgid "Destination supports multipart"
+msgstr "Bestemming ondersteunt multipart"
+
+#: inc/class-destination-s3.php:117 inc/class-destination-s3.php:121
+msgid "Multipart"
+msgstr "Meerdelig"
+
+#: inc/class-destination-s3.php:107
+msgid "Specify S3 region like \"us-west-1\""
+msgstr "Specificeer een S3 regio zoals \"us-west-1"
+
+#: inc/class-destination-s3.php:98
+msgid "Region"
+msgstr "Regio"
+
+#: inc/class-destination-s3.php:89
+msgid "Leave it empty to use a destination from S3 service list"
+msgstr "Laat het leeg om een ​​bestemming uit de S3 dienst lijst te gebruiken"
+
+#: inc/class-destination-s3.php:75
+msgid "Endpoint"
+msgstr "Endpoint"
+
+#: inc/class-page-settings.php:512
+msgid "License"
+msgstr "Licentie"
+
+#: inc/class-destination-msazure.php:646
+msgid "Could not extract job id from destination %s."
+msgstr "Kon taak ID niet extraheren uit bestemming %s."
+
+#: inc/class-destination-msazure.php:120
+msgid "Microsoft Azure Configuration: "
+msgstr "Microsoft Azure configuratie: "
+
+#: inc/class-destination-msazure-downloader.php:56
+msgid "Could not write data to file %s."
+msgstr "Kan geen gegevens schrijven naar bestand %s."
+
+#: inc/class-install.php:114
+msgid "BackWPup jobs functions"
+msgstr "Functies van BackWPup taken"
+
+#: inc/class-s3-destination.php:205
+msgid "Scaleway: AMS"
+msgstr "Scaleway: AMS"
+
+#: inc/class-s3-destination.php:193
+msgid "DigitalOcean: AMS3"
+msgstr "DigitalOcean: AMS3"
+
+#: inc/class-s3-destination.php:176
+msgid "Google Storage: Asia (Multi-Regional)"
+msgstr "Google Storage: Azië (multiregionaal)"
+
+#: inc/class-s3-destination.php:171
+msgid "Google Storage: USA (Multi-Regional)"
+msgstr "Google Storage: USA (multiregionaal)"
+
+#: inc/class-s3-destination.php:166
+msgid "Google Storage: EU (Multi-Regional)"
+msgstr "Google Storage: EJe (Multi-Regional)"
+
+#: inc/class-s3-destination.php:71
+msgid "Amazon S3: Asia Pacific (Hong Kong)"
+msgstr "Amazon S3: Asia Pacific (Hongkong)"
+
+#: inc/class-s3-destination.php:141
+msgid "Amazon S3: Europe (Stockholm)"
+msgstr "Amazon S3: Europa (Stockholm)"
+
+#: inc/class-s3-destination.php:111
+msgid "Amazon S3: Canada (Central)"
+msgstr "Amazon S3: Canada (Centraal)"
+
+#: inc/class-s3-destination.php:46
+msgid "Amazon S3: US East (Ohio)"
+msgstr "Amazon S3: US Oost (Ohio)"
+
+#: inc/class-s3-destination.php:51
+msgid "Amazon S3: US East (N. Virginia)"
+msgstr "Amazon S3: US Oost (N. Virginia)"
+
+#: inc/class-destination-s3.php:485 inc/class-s3-destination.php:23
+#: inc/class-s3-destination.php:248
+msgid "Custom S3 destination"
+msgstr "Aangepaste S3 bestemming"
+
+#: inc/class-destination-s3.php:52
+msgid "S3 Region"
+msgstr "S3 Regio"
+
+#: inc/class-page-settings.php:1105
+msgid "<strong>Note</strong>: Would you like faster, more streamlined support? Pro users can contact BackWPup from right within the plugin."
+msgstr "<strong>Opmerking</strong>: wil je snellere, meer gestroomlijnde ondersteuning? Pro gebruikers kunnen rechtstreeks vanuit de plugin contact opnemen met BackWPup."
+
+#: inc/class-page-settings.php:354
+msgid "Please download the key before continuing. If you do not save it locally, you cannot decrypt your backups later."
+msgstr "Download de sleutel voordat je verdergaat. Als je het niet lokaal opslaat, kan je je back-ups later niet decoderen."
+
+#: inc/class-page-backwpup.php:73 inc/class-page-backwpup.php:82
+msgid "With a single backup archive you are able to restore an installation. Use our restore feature, which is integrated in BackWPup Pro to restore your website directly from your WordPress backend. We also provide a restore standalone app with the Pro version to restore your site in case it is destroyed completely."
+msgstr "Met een enkel back-up archief ben je in staat om een installatie te herstellen. Gebruik onze herstelfunctie, die is geïntegreerd in BackWPup Pro om je site rechtstreeks vanuit je WordPress backend te herstellen. We bieden ook een standalone app voor het herstellen met de Pro versie om je site te herstellen voor het geval deze volledig kapot gaat."
+
+#: inc/class-page-about.php:559
+msgid "Restore Encrypted Backups"
+msgstr "Versleutelde back-ups terugzetten"
+
+#: inc/class-page-about.php:554
+msgid "Encrypt Backup Archives"
+msgstr "Back-up archieven versleutelen"
+
+#: inc/class-page-about.php:549
+msgid "Standalone Restore App"
+msgstr "Standalone herstel app"
+
+#: inc/class-page-about.php:544
+msgid "Restore manually uploaded Backup Archives"
+msgstr "Handmatig geüploade back-up archieven terugzetten"
+
+#: inc/class-page-about.php:359 inc/class-page-about.php:369
+msgid "Use your backup archives to save your entire WordPress installation including <code>/wp-content/</code>. Push them to an external storage service if you don’t want to save the backups on the same server. With a single backup archive you are able to restore an installation. Use the integrated restore feature to restore your site directly from your WordPress backend or the Restore Standalone App in case your site is destroyed completely."
+msgstr "Gebruik je back-up archieven om je volledige WordPress installatie op te slaan, inclusief <code>/wp inhoud/</code>. Push ze naar een externe opslagdienst als je de back-ups niet op dezelfde server wilt opslaan. Met één back-up archief kun je een installatie herstellen. Gebruik de geïntegreerde terugzet functie om je site rechtstreeks vanuit je WordPress-backend of de Restore Standalone App terug te zetten voor het geval je site volledig wordt vernietigd."
+
+#: inc/class-page-about.php:356 inc/class-page-about.php:366
+#: inc/class-page-backwpup.php:253
+msgid "BackWPup banner"
+msgstr "BackWPup banner"
+
+#: inc/class-page-editjob.php:444
+msgid "Preview: "
+msgstr "Voorbeeld: "
+
+#: inc/class-destination-msazure-downloader.php:47
+#: inc/class-destination-s3-downloader.php:64
+msgid "Could not write data to file. Empty source file."
+msgstr "Kan gegevens niet naar bestand schrijven. Leeg bronbestand."
+
+#. translators: $1 is the path of the local file where the backup will be
+#. stored
+#: inc/class-destination-folder-downloader.php:134
+msgid "%s is a directory not a file."
+msgstr "%s is een folder en geen bestand."
+
+#: inc/class-destination-folder-downloader.php:66
+msgid "Could not write data into target file."
+msgstr "Kan gegevens niet naar doelbestand schrijven."
+
+#: inc/class-destination-folder-downloader.php:61
+msgid "Could not read data from source file."
+msgstr "Kan gegevens uit bronbestand niet lezen."
+
+#: inc/class-page-settings.php:505
+msgid "Encryption"
+msgstr "Versleuteling"
+
+#: inc/class-page-settings.php:350
+msgid "Please download the private key before continuing. If you do not save it locally, you cannot decrypt your backups later."
+msgstr "Download de privé sleutel voordat je doorgaat. Als je het niet lokaal opslaat, dan kan je later je back-ups niet decoderen."
+
+#: inc/class-page-settings.php:344
+msgid "Public key is invalid."
+msgstr "Openbare sleutel is ongeldig."
+
+#: inc/class-page-settings.php:343
+msgid "Public key is valid."
+msgstr "Openbare sleutel is geldig."
+
+#: inc/class-page-settings.php:345
+msgid "Please enter your private key."
+msgstr "Voer je private sleutel in."
+
+#: inc/class-page-settings.php:346
+msgid "Please enter a public key first, or generate a key pair."
+msgstr "Voer eerst een openbare sleutel in of genereer een sleutelpaar."
+
+#: inc/class-page-editjob.php:512
+msgid "You must generate your encryption key in BackWPup Settings before you can enable this option."
+msgstr "Je moet je versleuteling sleutel genereren in BackWPup instellingen voordat je deze optie kunt inschakelen."
+
+#: inc/class-page-editjob.php:492 inc/class-page-editjob.php:497
+#: inc/class-page-editjob.php:508
+msgid "Encrypt Archive"
+msgstr "Archief versleutelen"
+
+#: inc/class-page-backups.php:578 inc/class-page-jobs.php:743
+msgid "Your download has been generated. It should begin downloading momentarily."
+msgstr "Je download is gegenereerd. Het zou even moeten beginnen met downloaden."
+
+#: inc/class-destination-downloader.php:160
+#: inc/class-destination-sugarsync.php:193
+msgid "Your download is being generated &hellip;"
+msgstr "Je download wordt gegenereert &hellip;\""
+
+#: inc/class-page-backups.php:575 inc/class-page-jobs.php:740
+msgid "Please wait &hellip;"
+msgstr "Please wait &hellip;\""
+
+#: inc/class-page-about.php:659
+msgid "Restore from FTP"
+msgstr "Herstellen vanaf FTP"
+
+#: inc/class-page-about.php:654
+msgid "Restore from Dropbox"
+msgstr "Herstellen vanuit Dropbox"
+
+#: inc/class-page-about.php:644
+msgid "Restore from Amazon S3"
+msgstr "Herstellen van Amazon S3"
+
+#: inc/class-page-about.php:639
+msgid "Restore from Google Drive"
+msgstr "Herstellen vanuit Google Drive"
+
+#: inc/class-page-about.php:634
+msgid "Restore from Folder"
+msgstr "Herstellen vanuit map"
+
+#: inc/class-job.php:2025
+msgid "Archive has been successfully encrypted."
+msgstr "Archief is succesvol versleuteld."
+
+#: inc/class-job.php:2019
+msgid "Unable to rename encrypted archive."
+msgstr "Kan versleuteld archief niet hernoemen."
+
+#: inc/class-job.php:2011
+msgid "Unable to delete unencrypted archive."
+msgstr "Kan niet-versleuteld archief niet verwijderen."
+
+#: inc/class-job.php:2005
+msgid "Encrypted %s of data."
+msgstr "%s van gegevens versleuteld."
+
+#: inc/class-job.php:1956
+msgid "Cannot write the encrypted archive. Aborting encryption."
+msgstr "Kan het versleutelde archief niet schrijven. Versleuteling afbreken."
+
+#: inc/class-job.php:1948
+msgid "Cannot open the archive for reading. Aborting encryption."
+msgstr "Kan het archief niet openen om te lezen. Versleuteling afbreken."
+
+#: inc/class-job.php:1938
+msgid "%d. Trying to encrypt archive &hellip;"
+msgstr "%d. Proberen om het archief te versleutelen &hellip;\""
+
+#: inc/class-job.php:1926
+msgid "No encryption key was provided. Aborting encryption."
+msgstr "Er is geen versleuteling sleutel opgegeven. Versleuteling afbreken."
+
+#: inc/class-job.php:345
+msgid "Encrypts the archive"
+msgstr "Versleutelt het archief"
+
+#: inc/class-destination-folder-downloader.php:91
+msgid "File could not be opened for reading."
+msgstr "Bestand kan niet worden geopend om te lezen."
+
+#: inc/class-system-tests-runner.php:252
+msgid "There are some warnings. BackWPup will work, but with limitations."
+msgstr "Er zijn wat waarschuwingen. BackWPUp werkt, maar met beperkingen."
+
+#: inc/class-system-tests-runner.php:232
+msgid "There are errors. Please correct them, or BackWPup cannot work."
+msgstr "Er zijn fouten. Verbeter ze , anders werkt BackWPup niet."
+
+#: inc/class-system-tests-runner.php:213
+msgid "WP-Cron seems to be broken. But it is needed to run scheduled jobs."
+msgstr "WP-Cron lijkt niet te werken. Maar dat is nodig om geplande taken uit te voeren."
+
+#: inc/class-system-tests-runner.php:192
+msgid "All tests passed without errors."
+msgstr "Alle testen uitgevoerd zonder fouten."
+
+#: inc/class-system-tests-runner.php:191
+msgid "Yeah!"
+msgstr "Yeah!"
+
+#: inc/class-system-tests-runner.php:172
+msgid "The HTTP response test result is a wrong HTTP status: %s. It should be status 200."
+msgstr "De HTTP reactie test geeft een verkeerde HTTP status: %s. Het moet status 200 zijn."
+
+#: inc/class-system-tests-runner.php:160
+msgid "The HTTP response test result is an error: \"%s\"."
+msgstr "De HTTP reactie test geeft een fout bericht: \"%s\"."
+
+#: inc/class-system-tests-runner.php:141
+msgid "We recommend to install the PHP FTP extension to use the FTP backup destination."
+msgstr "We raden je aan om de PHP FTP extensie te installeren om de FTP back-up bestemming te kunnen gebruiken."
+
+#: inc/class-system-tests-runner.php:131
+msgctxt "Link to PHP manual"
+msgid "Please disable the deprecated <a href=\"%s\">PHP safe mode</a>."
+msgstr "Zet de verouderde <a href=\"%s\">PHP safe mode</a> uit."
+
+#: inc/class-system-tests-runner.php:112
+msgid "PHP cURL extension must be installed to use the full plugin functionality."
+msgstr "De PHP cURL extensie moet worden geïnstalleerd om de volledige functionaliteit van de plugin te kunnen gebruiken."
+
+#: inc/class-system-tests-runner.php:100
+msgid "You must have the MySQLi extension installed and a MySQL server version of %1$s or higher to use this plugin. You are using version %2$s now."
+msgstr "Je moet de MySQLi extensie hebben geïnstalleerd en een MySQL server versie %1$s of hoger om deze plugin te kunnen gebruiken. Je gebruikt nu versie %2$s."
+
+#: inc/class-system-tests-runner.php:87
+msgid "We recommend to run a PHP version above %1$s to get the full plugin functionality. You are using version %2$s now."
+msgstr "We raden aan om een ​​PHP versie boven %1$s uit te voeren om de volledige plugin functionaliteit te krijgen. Je gebruikt nu versie %2$s."
+
+#: inc/class-system-tests-runner.php:75
+msgid "You must run WordPress version %1$s or higher to use this plugin. You are using version %2$s now."
+msgstr "Je moet WordPress versie %1$s of hoger gebruiken om deze plugin te gebruiken. Je gebruikt nu versie %2$s."
+
+#: inc/class-system-tests-runner.php:65
+msgctxt "%1 = extension name, %2 = file suffix"
+msgid "We recommend to install the %1$s extension to generate %2$s archives."
+msgstr "We raden aan om de extensie %1$s te installeren om %2$s archieven te genereren."
+
+#: inc/class-page-settings.php:216
+msgid "BackWPup maximum script execution time"
+msgstr "BackWPup maximale script uitvoeringstijd"
+
+#: inc/class-page-backups.php:447
+msgid "&laquo; Go back"
+msgstr "&laquo; Ga terug"
+
+#: inc/class-page-backups.php:445
+msgid "404 - File Not Found."
+msgstr "404 - Bestand niet gevonden."
+
+#: inc/class-page-backups.php:444
+msgid "Ops! Unfortunately the file doesn't exists. May be was deleted?"
+msgstr "Oeps! Helaas, dat bestand bestaat niet. Misschien is het verwijderd?"
+
+#: inc/class-page-backups.php:325
+msgid "Restore"
+msgstr "Herstellen"
+
+#: inc/class-destination-ftp.php:696
+msgid "FTP Folder \"%s\" cannot be created! Parent directory may be not writable."
+msgstr "FTP map \"%s\" kan niet worden gemaakt! Hoofdmap is misschien niet schrijfbaar."
+
+#: inc/class-destination-ftp.php:298
+msgid "Could not log in to FTP server."
+msgstr "Kon niet inloggen op de FTP server."
+
+#: inc/class-destination-ftp-downloader.php:107
+msgid "Cannot open FTP file for download."
+msgstr "Kan het FTP bestand niet openen om te downloaden."
+
+#: inc/class-destination-dropbox-downloader.php:69
+#: inc/class-destination-ftp-downloader.php:70
+#: inc/class-destination-s3-downloader.php:71
+msgid "Could not write data to file."
+msgstr "Kon de gegevens niet wegschrijven naar het bestand."
+
+#: inc/class-destination-dropbox-downloader.php:101
+#: inc/class-destination-folder-downloader.php:130
+#: inc/class-destination-ftp-downloader.php:125
+#: inc/class-destination-msazure-downloader.php:98
+#: inc/class-destination-s3-downloader.php:97
+msgid "File could not be opened for writing."
+msgstr "Het bestand kon niet worden geopend voor schrijven."
+
+#. translators: $1 is the filename to add into the archive.
+#: inc/class-create-archive.php:932
+msgid "Cannot open source file %s."
+msgstr "Kan het bronbestand %s niet openen."
+
+#: inc/class-create-archive.php:677
+msgid "Cannot open source file %s for archiving. Writing an empty file."
+msgstr "Kan het bronbestand %s niet openen voor archivering. Een leeg bestand schrijven."
+
+#: inc/class-page-editjob.php:476
+msgid "ZipArchive PHP class is missing, so BackWPUp will use PclZip instead."
+msgstr "ZipArchive PHP klasse ontbreekt, dus BackWPUp zal in plaats daarvan PclZip gebruiken."
+
+#: inc/class-page-editjob.php:439
+msgid "<em>Note</em>: In order for backup file tracking to work, %hash% must be included anywhere in the archive name."
+msgstr "<em>Opmerking</em>: om het traceren van back-up bestanden goed te laten werken, moet %hash% ergens in de archiefnaam worden opgenomen."
+
+#: inc/class-page-settings.php:211 inc/class-page-settings.php:221
+msgid "%d seconds"
+msgstr "%d seconden"
+
+#: inc/class-page-settings.php:176
+msgid "Log folder %s does not exist."
+msgstr "Log map %s bestaat niet."
+
+#: inc/class-page-settings.php:138
+msgid "Content: %s"
+msgstr "Inhoud: %s"
+
+#: inc/class-page-settings.php:122
+msgid "Status-Code: %d"
+msgstr "Status code: %d"
+
+#: inc/class-page-settings.php:114
+msgid "WP Http Error: %s"
+msgstr "WP Http fout: %s"
+
+#: inc/class-page-settings.php:107
+msgid "Not expected HTTP response:"
+msgstr "Onverwachte HTTP reactie:"
+
+#: inc/class-page-settings.php:1137
+msgid "Could not copy debug info. You can simply press ctrl+C to copy it."
+msgstr "Kan fout opsporingsinformatie niet kopiëren. Je kunt eenvoudig op ctrl + C drukken om het te kopiëren."
+
+#: inc/class-page-settings.php:1129
+msgid "Debug info copied to clipboard."
+msgstr "Fout opsporingsinformatie gekopieerd naar klembord."
+
+#: inc/class-page-settings.php:1124
+msgid "Copy Debug Info"
+msgstr "Kopieer debug informatie"
+
+#: inc/class-page-settings.php:1113
+msgid "Get Pro"
+msgstr "Verkrijg Pro"
+
+#: inc/class-page-settings.php:1112
+msgid "https://backwpup.com"
+msgstr "https://backwpup.com"
+
+#: inc/class-page-settings.php:1097
+msgid "You will find debug information below. Click the button to copy the debug info to send to support."
+msgstr "Je vind de debug informatie hieronder. Klik op de knop om de debug informatie te kopiëren en naar ondersteuning te sturen."
+
+#: inc/class-page-settings.php:1090
+msgid "Get Debug Info"
+msgstr "Verkrijg debug informatie"
+
+#: inc/class-page-settings.php:1086 inc/class-page-settings.php:1187
+msgid "Debug Info"
+msgstr "Debug informatie"
+
+#: inc/class-page-settings.php:1079
+msgid "Experiencing an issue and need to contact BackWPup support? Click the link below to get debug information you can send to us."
+msgstr "Kom je iets tegen dat niet goed werkt en wil je contact opnemen met BackWPup ondersteuning? Klik op de link hieronder om debug informatie op te vragen die je naar ons kunt sturen."
+
+#: inc/class-page-settings.php:898
+msgid "There is a PHP bug (<a href=\"https://bugs.php.net/43817\">bug #43817</a>), which is triggered on some versions of Windows and IIS. Checking this box will enable a workaround for that bug. Only enable if you are getting errors about &ldquo;Permission denied&rdquo; in your logs."
+msgstr "Er is een PHP bug (<a href=\"https://bugs.php.net/43817\">bug #43817</a>) die problemen veroorzaakt in sommige versies van Windows en IIS. Als je dit selectievakje aanvinkt wordt een workaround voor deze bug gebruikt. Gebruik dit alleen als je foutmeldingen in je logs krijgt over &ldquo;Permission denied&rdquo;."
+
+#: inc/class-page-settings.php:883 inc/class-page-settings.php:894
+msgid "Enable compatibility with IIS on Windows."
+msgstr "Zet compatibiliteit aan met IIS op Windows."
+
+#: inc/class-page-settings.php:878
+msgid "Windows IIS compatibility"
+msgstr "Windows IIS compatibiliteit"
+
+#: inc/class-page-backwpup.php:366
+msgid "Could not open log folder: %s"
+msgstr "Kon de log map niet openen: %s"
+
+#: inc/class-destination-email.php:35
+msgid "To email address (separate with commas for multiple addresses)"
+msgstr "Naar e-mailadres (gescheiden door komma's voor meerdere adressen)"
+
+#: inc/class-destination-dropbox-api.php:275
+msgid "Finishing upload session with a total of %s uploaded"
+msgstr "De upload sessie aan het afmaken met een totaal van %s geüpload"
+
+#: inc/class-destination-dropbox-api.php:230
+msgid "Uploading %s of data"
+msgstr "%s aan gegevens aan het uploaden"
+
+#: inc/class-destination-dropbox-api.php:208
+msgid "Beginning new file upload session"
+msgstr "Een nieuwe bestand upload sessie aan het starten"
+
+#: inc/class-destination-dropbox.php:172 inc/class-destination-folder.php:56
+#: inc/class-destination-ftp.php:93 inc/class-destination-msazure.php:98
+#: inc/class-destination-rsc.php:109 inc/class-destination-s3.php:364
+#: inc/class-destination-sugarsync.php:95
+msgid "<strong>Warning</strong>: Files belonging to this job are now tracked. Old backup archives which are untracked will not be automatically deleted."
+msgstr "<strong>Waarschuwing</strong>: bestanden die bij deze taak horen, worden nu bijgehouden. Oude back-up archieven die niet worden bijgehouden, worden niet automatisch verwijderd."
+
+#: inc/class-cron.php:108 inc/class-destination-folder.php:230
+#: inc/class-job.php:1111 inc/class-job.php:1314 inc/class-job.php:2148
+#: inc/class-jobtype-file.php:475
+msgid "Could not open path: %s"
+msgstr "Kon het pad: %s niet openen"
+
+#: inc/class-admin.php:248 inc/class-help.php:18
+msgid "https://backwpup.com/docs/"
+msgstr "https://backwpup.com/docs/"
+
+#: views/notice/notice.php:28
+msgid "Don't show again"
+msgstr "Niet opnieuw tonen"
+
+#: inc/class-s3-destination.php:81
+msgid "Amazon S3: Asia Pacific (Mumbai)"
+msgstr "Amazon S3: Asia Pacific (Mumbai)"
+
+#: inc/class-page-backwpup.php:124
+msgctxt "BackWPup News RSS Feed URL"
+msgid "https://backwpup.com/feed/"
+msgstr "https://backwpup.com/feed/"
+
+#: inc/class-page-about.php:669
+msgid "<strong>Automatic updates</strong>"
+msgstr "<strong>Automatische updates</strong>"
+
+#: inc/class-page-about.php:494
+msgid "Backup to S3 services (Amazon, Google Storage, Hosteurope and more)"
+msgstr "Back-up naar S3 diensten (Amazon, Google Storage, Hosteurope en meer)"
+
+#: inc/class-message-box.php:88
+msgid "Dismiss"
+msgstr "Negeren"
+
+#: inc/class-page-jobs.php:497
+msgid "Job \"%1$s\" has started, but not responded for 10 seconds. Please check <a href=\"%2$s\">information</a>."
+msgstr "Taak \"%1$s\" is begonnen, maar heeft 10 seconden niet gereageerd. Controleer de <a href=\"%2$s\">informatie</a>."
+
+#: inc/class-job.php:2626
+msgid "Signal \"%1$s\" (%2$s) is sent to script!"
+msgstr "Signaal \"%1$s\" (%2$s) is verzonden naar script!"
+
+#: inc/class-job.php:2613
+msgctxt "SIGSYS: Please see http://man7.org/linux/man-pages/man7/signal.7.html for details"
+msgid "Bad argument to routine"
+msgstr "Slecht argument voor routine"
+
+#: inc/class-job.php:2605
+msgctxt "SIGPWR: Please see http://man7.org/linux/man-pages/man7/signal.7.html for details"
+msgid "Power failure"
+msgstr "Stroomstoring"
+
+#: inc/class-job.php:2597
+msgctxt "SIGXFSZ: Please see http://man7.org/linux/man-pages/man7/signal.7.html for details"
+msgid "File size limit exceeded"
+msgstr "Maximale bestandsgrootte overschreden"
+
+#: inc/class-job.php:2589
+msgctxt "SIGXCPU: Please see http://man7.org/linux/man-pages/man7/signal.7.html for details"
+msgid "CPU time limit exceeded"
+msgstr "Maximale CPU tijd overschreden"
+
+#: inc/class-job.php:2581
+msgctxt "SIGURG: Please see http://man7.org/linux/man-pages/man7/signal.7.html for details"
+msgid "Urgent condition on socket"
+msgstr "Dringende toestand op socket"
+
+#: inc/class-job.php:2573
+msgctxt "SIGUSR2: Please see http://man7.org/linux/man-pages/man7/signal.7.html for details"
+msgid "User-defined signal 2"
+msgstr "Door gebruiker gedefinieerd signaal 2"
+
+#: inc/class-job.php:2565
+msgctxt "SIGUSR1: Please see http://man7.org/linux/man-pages/man7/signal.7.html for details"
+msgid "User-defined signal 1"
+msgstr "Door gebruiker gedefinieerd signaal 1"
+
+#: inc/class-job.php:2557
+msgctxt "SIGSTKFLT: Please see http://man7.org/linux/man-pages/man7/signal.7.html for details"
+msgid "Stack fault on coprocessor"
+msgstr "Stapelfout op coprocessor"
+
+#: inc/class-job.php:2549
+msgctxt "SIGTERM: Please see http://man7.org/linux/man-pages/man7/signal.7.html for details"
+msgid "Termination signal"
+msgstr "Beëindiging signaal"
+
+#: inc/class-job.php:2541
+msgctxt "SIGSEGV: Please see http://man7.org/linux/man-pages/man7/signal.7.html for details"
+msgid "Invalid memory reference"
+msgstr "Ongeldige geheugenreferentie"
+
+#: inc/class-job.php:2533
+msgctxt "SIGFPE: Please see http://man7.org/linux/man-pages/man7/signal.7.html for details"
+msgid "Floating point exception"
+msgstr "Drijvende komma uitzondering"
+
+#: inc/class-job.php:2525
+msgctxt "SIGBUS: Please see http://man7.org/linux/man-pages/man7/signal.7.html for details"
+msgid "Bus error (bad memory access)"
+msgstr "Busfout (slechte geheugentoegang)"
+
+#: inc/class-job.php:2517
+msgctxt "SIGABRT: Please see http://man7.org/linux/man-pages/man7/signal.7.html for details"
+msgid "Abort signal from abort(3)"
+msgstr "Signaal afbreken van afbreken (3)"
+
+#: inc/class-job.php:2509
+msgctxt "SIGILL: Please see http://man7.org/linux/man-pages/man7/signal.7.html for details"
+msgid "Illegal Instruction"
+msgstr "Illegale instructie"
+
+#: inc/class-job.php:2501
+msgctxt "SIGQUIT: Please see http://man7.org/linux/man-pages/man7/signal.7.html for details"
+msgid "Quit from keyboard"
+msgstr "Stoppen met toetsenbord"
+
+#: inc/class-job.php:2493
+msgctxt "SIGINT: Please see http://man7.org/linux/man-pages/man7/signal.7.html for details"
+msgid "Interrupt from keyboard"
+msgstr "Onderbreken vanaf toetsenbord"
+
+#: inc/class-job.php:2485
+msgctxt "SIGHUP: Please see http://man7.org/linux/man-pages/man7/signal.7.html for details"
+msgid "Hangup detected on controlling terminal or death of controlling process"
+msgstr "Hangup gedetecteerd op controlerende terminal of dood van controleproces"
+
+#: inc/class-job.php:1363
+msgid "Restart after getting signal."
+msgstr "Herstart na het ontvangst van het signaal."
+
+#. Plugin URI of the plugin
+#: backwpup.php inc/class-admin.php:605 inc/class-admin.php:627
+#: inc/class-help.php:11 inc/class-help.php:16 inc/class-job.php:442
+#: inc/class-jobtype-dbcheck.php:9 inc/class-jobtype-dbdump.php:9
+#: inc/class-jobtype-file.php:10 inc/class-jobtype-wpexp.php:13
+#: inc/class-jobtype-wpplugin.php:9 inc/class-page-about.php:356
+#: inc/class-page-about.php:366 inc/class-page-about.php:676
+#: inc/class-page-backwpup.php:253 inc/class-page-backwpup.php:259
+#: inc/class-page-backwpup.php:261 inc/class-page-settings.php:63
+msgid "http://backwpup.com"
+msgstr "http://backwpup.com"
+
+#: inc/class-page-settings.php:205
+msgid "Function Disabled"
+msgstr "Functie uitgeschakeld"
+
+#: inc/class-page-settings.php:840
+msgid "This adds short pauses to the process. Can be used to reduce the CPU load."
+msgstr "Hiermee wordt een korte pauze aan het proces toegevoegd. Kan gebruikt worden om de CPU-belasting te verminderen."
+
+#: inc/class-page-settings.php:803
+msgid "Will be used to protect job starts from unauthorized person."
+msgstr "Wordt gebruikt om te voorkomen dat een onbevoegd persoon een taak begint."
+
+#: inc/class-page-settings.php:781
+msgid "Job will restart before hitting maximum execution time. Restarts will be disabled on CLI usage. If <code>ALTERNATE_WP_CRON</code> has been defined, WordPress Cron will be used for restarts, so it can take a while. 0 means no maximum."
+msgstr "Taak wordt opnieuw gestart voor de maximale uitvoertijd is bereikt. Herstart is uitgeschakeld bij gebruik van CLI. Als <code>ALTERNATE_WP_CRON</code> is gedefinieerd, wordt WordPress Cron gebruikt voor herstarts dus dat kan even duren. 0 betekent geen maximum."
+
+#: inc/class-page-settings.php:778
+msgid "seconds."
+msgstr "seconden."
+
+#: inc/class-page-settings.php:684
+msgid "Maximum log files in folder."
+msgstr "Maximum aantal logbestanden in map."
+
+#: inc/class-page-settings.php:676
+msgid "Maximum log files"
+msgstr "Maximum aantal logbestanden"
+
+#: inc/class-page-settings.php:496
+msgid "%s &rsaquo; Settings"
+msgstr "%s &rsaquo; Instellingen"
+
+#: inc/class-page-logs.php:427
+msgid "%s &rsaquo; Logs"
+msgstr "%s &rsaquo; Logbestanden"
+
+#: inc/class-page-jobs.php:688
+msgid "%s &rsaquo; Jobs"
+msgstr "%s &rsaquo; Taken"
+
+#: inc/class-page-settings.php:140
+msgid "Content: <code>%s</code>"
+msgstr "Inhoud: <code>%s</code>"
+
+#: inc/class-page-settings.php:124
+msgid "Status-Code: <code>%d</code>"
+msgstr "Status-Code: <code>%d</code>"
+
+#: inc/class-page-settings.php:118
+msgid "WP Http Error: <code>%s</code>"
+msgstr "WP http fout: <code>%s</code>"
+
+#: inc/class-page-settings.php:109
+msgid "<strong>Not expected HTTP response:</strong><br>"
+msgstr "<strong>Onverwacht HTTP-reactie:</strong><br>"
+
+#: inc/class-page-editjob.php:606
+msgid "First setup <a href=\"%s\">API Key</a>."
+msgstr "Eerste instelling <a href=\"%s\">API-sleutel</a>."
+
+#: inc/class-page-editjob.php:559
+msgid "Your Name &lt;mail@domain.tld&gt;"
+msgstr "Je naam &lt;mail@domain.tld&gt;"
+
+#: inc/class-page-editjob.php:321
+msgid "%1$s &rsaquo; Job: %2$s"
+msgstr "%1$s &rsaquo; Taak: %2$s"
+
+#: inc/class-page-backwpup.php:63
+msgid "%s &rsaquo; Dashboard"
+msgstr "%s &rsaquo; Dashboard"
+
+#: inc/class-page-backups.php:561
+msgid "%s &rsaquo; Manage Backup Archives"
+msgstr "%s &rsaquo; beheer back-up archieven"
+
+#: inc/class-jobtype-file.php:169
+msgid "Backup wp-config.php, robots.txt, nginx.conf, .htaccess, .htpasswd, favicon.ico, and Web.config from root if it is not included in backup."
+msgstr "Maak een back-up van de volgende bestanden in de hoofdmap, ook als deze geen deel uitmaken van de te maken backup: wp-config.php, robots.txt, Nginx.conf, .htaccess, .htpasswd, favicon.ico en Web.config."
+
+#: inc/class-job.php:457
+msgid "[INFO] Log Level: %1$s %2$s"
+msgstr "[INFO] log niveau %1$s %2$s"
+
+#: inc/class-job.php:455
+msgid "(translated)"
+msgstr "(vertaald)"
+
+#: inc/class-job.php:452
+msgid "Debug"
+msgstr "Verhelpen"
+
+#: inc/class-job.php:449
+msgid "Normal"
+msgstr "Normaal"
+
+#: inc/class-destination-email.php:99
+msgid "Use WordPress settings"
+msgstr "Gebruik de WordPress instellingen"
+
+#: inc/class-destination-email.php:85
+msgid "From name"
+msgstr "Van naam"
+
+#: inc/class-destination-email.php:77
+msgid "From email address"
+msgstr "Afzender (e-mail)"
+
+#: inc/class-page-jobs.php:294
+msgid "External link"
+msgstr "externe link"
+
+#: inc/class-s3-destination.php:91
+msgid "Amazon S3: Asia Pacific (Seoul)"
+msgstr "Amazon S3: Asia Pacific (Seoul)"
+
+#: inc/class-page-logs.php:458
+msgid "Logfile not found!"
+msgstr "Logbestand niet gevonden!"
+
+#: inc/class-jobtype-wpexp.php:430
+msgid "WP Export file can not be checked, because no XML extension is loaded, to ensure the file verification."
+msgstr "Het WP Export bestand kan niet worden gecontroleerd omdat er geen XML extensie is geladen om de bestand verificatie te garanderen."
+
+#: inc/class-page-backwpup.php:237
+msgid "Video: Restoring Backups"
+msgstr "Video: Back-ups worden teruggezet"
+
+#: inc/class-page-backwpup.php:232
+msgid "Video: Creating Full Backups"
+msgstr "Video: Volledige Back-ups maken"
+
+#: inc/class-page-backwpup.php:227
+msgid "Video: Daily Backups"
+msgstr "Video: Dagelijkse Back-ups"
+
+#: inc/class-page-backwpup.php:222
+msgid "Video: Settings"
+msgstr "Video: Instellingen"
+
+#: inc/class-page-backwpup.php:217
+msgid "Video: Introduction"
+msgstr "Video: Introductie"
+
+#: inc/class-destination-s3.php:404
+msgid "Standard-Infrequent Access"
+msgstr "Standard-Infrequent Access"
+
+#: inc/class-destination-s3.php:400
+msgid "Standard"
+msgstr "Standaard"
+
+#: inc/class-page-settings.php:1052
+msgid "Query arg key=value:"
+msgstr "Query arg key=value:"
+
+#: inc/class-page-settings.php:1016 inc/class-page-settings.php:1019
+msgid "Select WordPress User"
+msgstr "WordPress gebruiker selecteren"
+
+#: inc/class-page-settings.php:1001
+msgid "Basic Auth Password:"
+msgstr "Basis Auth wachtwoord:"
+
+#: inc/class-page-settings.php:983
+msgid "Basic Auth Username:"
+msgstr "Basis Auth gebruikersnaam:"
+
+#: inc/class-page-settings.php:972
+msgid "Query argument"
+msgstr "Query argument"
+
+#: inc/class-page-settings.php:968
+msgid "WordPress User"
+msgstr "WordPress gebruiker"
+
+#: inc/class-page-settings.php:964
+msgid "Basic auth"
+msgstr "Basis verificatie"
+
+#: inc/class-page-settings.php:947 inc/class-page-settings.php:952
+msgid "Authentication method"
+msgstr "Authenticatie methode"
+
+#: inc/class-page-settings.php:929
+msgid "If you protected your blog with HTTP basic authentication (.htaccess), or you use a Plugin to secure wp-cron.php, then use the authentication methods below."
+msgstr "Is je blog beveiligd met HTTP basis authenticatie ( .htaccess)? Of gebruik je een plugin om wp-cron.php te beveiligen? Gebruik dan de authenticatie methodes hier onder."
+
+#: inc/class-page-settings.php:922
+msgid "Authentication for <code>%s</code>"
+msgstr "Geverifieerd voor <code>%s</code>"
+
+#: inc/class-page-settings.php:869
+msgid "This do an empty output on job working. This can help in some situations or can break the working. You must test it."
+msgstr "Dit zorgt voor een lege output op de werkende taak. Dit kan in sommige gevallen handig zijn maar kan een werkende taak ook stuk maken. Je moet dit testen."
+
+#: inc/class-page-settings.php:854 inc/class-page-settings.php:866
+msgid "Enable an empty Output on backup working."
+msgstr "Lege Output aanzetten op werkende back-up."
+
+#: inc/class-page-settings.php:849
+msgid "Empty output on working"
+msgstr "Lege output op huidige"
+
+#: inc/class-page-settings.php:733
+msgid "Debug (not translated)"
+msgstr "Debug (niet vertaald)"
+
+#: inc/class-page-settings.php:729
+msgid "Debug (translated)"
+msgstr "Debug (vertaald)"
+
+#: inc/class-page-settings.php:725
+msgid "Normal (not translated)"
+msgstr "Normaal (niet vertaald)"
+
+#: inc/class-page-settings.php:721
+msgid "Normal (translated)"
+msgstr "Normaal (vertaald)"
+
+#: inc/class-page-settings.php:737
+msgid "Debug log has much more information than normal logs. It is for support and should be handled carefully. For support is the best to use a not translated log file. Usage of not translated logs can reduce the PHP memory usage too."
+msgstr "De debug log bevat veel meer informatie dan normale logbestanden. Dit log is voor ondersteuning en moet voorzichtig behandeld worden. Voor ondersteuning kan het best een niet vertaald logbestand gebruikt worden. Gebruik van niet vertaalde logs kan het gebruik van PHP memory verminderen."
+
+#: inc/class-page-settings.php:708 inc/class-page-settings.php:713
+msgid "Logging Level"
+msgstr "Loggingniveau"
+
+#: inc/class-page-settings.php:660
+msgid "You can use absolute or relative path! Relative path is relative to %s."
+msgstr "Je kunt zowel absolute als relatieve paden gebruiken. Het relatieve pad is relatief ten opzichte van %s."
+
+#: inc/class-page-jobs.php:478
+msgid "The job \"%s\" needs properly configured destinations to run!"
+msgstr "De bestemmingen van de taak \"%s\" moeten correct ingesteld worden om uitgevoerd te kunnen worden!"
+
+#: inc/class-page-jobs.php:473
+msgid "The job \"%1$s\" destination \"%2$s\" is not configured properly"
+msgstr "De bestemming \"%1$s\" van de taak \"%2$s\" is niet goed ingesteld"
+
+#: inc/class-page-jobs.php:289
+msgid "%1$s at %2$s by EasyCron"
+msgstr "%1$s op %2$s door EasyCron"
+
+#: inc/class-page-editjob.php:626
+msgid "Use <a href=\"http://wp-cli.org/\">WP-CLI</a> to run jobs from commandline."
+msgstr "Gebruik <a href=\"http://wp-cli.org/\">WP-CLI</a> om taken uit te voeren via de commandline."
+
+#: inc/class-page-editjob.php:604
+msgid "with <a href=\"https://www.easycron.com?ref=36673\" title=\"Affiliate Link!\">EasyCron.com</a>"
+msgstr "met <a href=\"https://www.easycron.com?ref=36673\" title=\"Affiliate Link!\">EasyCron.com</a>"
+
+#: inc/class-page-editjob.php:553
+msgid "Leave empty to not have log sent. Or separate with , for more than one receiver."
+msgstr "Leeg laten om de log niet te verzenden. Of scheid met , voor meer dan één ontvanger."
+
+#: inc/class-jobtype-wpplugin.php:134
+msgid "Can not open target file for writing."
+msgstr "Kan doelbestand niet openen om te schrijven."
+
+#: inc/class-jobtype-file.php:176
+msgid "Use one folder above as WordPress install folder! That can be helpful, if you would backup files and folder that are not in the WordPress installation folder. Or if you made a \"<a href=\"https://codex.wordpress.org/Giving_WordPress_Its_Own_Directory\">Giving WordPress Its Own Directory</a>\" installation. Excludes must be configured again."
+msgstr "Gebruik een map er boven als WordPress installatie map! Dat zou handig kunnen zijn als je bestanden en mappen wilt back-uppen die niet in de WordPress installatie map aanwezig zijn. Of als je een \"<a href=\"https://codex.wordpress.org/Giving_WordPress_Its_Own_Directory\">Geef WordPress zijn eigen map</a>\" installatie hebt gemaakt. Uitgesloten bestanden en mappen moeten opnieuw ingesteld worden."
+
+#: inc/class-jobtype-file.php:173
+msgid "Use one folder above as WP install folder"
+msgstr "Gebruik een map er boven als WP-installatiemap"
+
+#: inc/class-jobtype-file.php:102
+msgid "Backup WordPress install folder"
+msgstr "Back-up WordPress installatie map"
+
+#: inc/class-job.php:1867
+msgid "The Backup archive will be too large for file operations with this PHP Version. You might want to consider splitting the backup job in multiple jobs with less files each."
+msgstr "Het back-up archief wordt te groot voor bestand bewerkingen met deze PHP versie. Je zou kunnen overwegen om de back-up taak op te delen in meerdere taken met elk minder bestanden."
+
+#: inc/class-job.php:1791
+msgid "Archiving Folder: %s"
+msgstr "Archiefmap: %s"
+
+#: inc/class-job.php:1757
+msgid "Adding Extra files to Archive"
+msgstr "Extra bestanden aan archief toevoegen"
+
+#: inc/class-job.php:2663 inc/class-job.php:2676
+msgid "System: %s"
+msgstr "Systeem: %s"
+
+#: inc/class-job.php:599
+msgid "Could not write log file"
+msgstr "Kon niet naar het logbestand schrijven"
+
+#: inc/class-job.php:500
+msgid "[INFO] BackWPup job start with EasyCron.com"
+msgstr "[INFO] BackWPup taak gestart met EasyCron.com"
+
+#: inc/class-job.php:492 inc/class-job.php:506
+msgid "[INFO] Cron: %s; Next: %s "
+msgstr "[INFO] Cron: %s; Volgende: %s "
+
+#: inc/class-job.php:466
+msgid "[INFO] Runs with user: %1$s (%2$d) "
+msgstr "[INFO] Loopt met gebruiker: %1$s (%2$d) "
+
+#: inc/class-job.php:462
+msgid "[INFO] BackWPup job: %1$s"
+msgstr "[INFO] BackWPup taak: %1$s"
+
+#: inc/class-job.php:445
+msgctxt "WordPress Version; Blog url"
+msgid "[INFO] WordPress %1$s on %2$s"
+msgstr "[INFO] WordPress %1$s op %2$s"
+
+#: inc/class-job.php:435
+msgctxt "Plugin name; Plugin Version; plugin url"
+msgid "[INFO] %1$s %2$s; A project of WP Media"
+msgstr "[INFO] %1$s %2$s; Een project van WP Media"
+
+#: inc/class-file.php:147
+msgid "Folder %1$s is not in open basedir, please use another folder."
+msgstr "Map %1$s is niet in open basedir, gebruik een andere map."
+
+#: inc/class-easycron.php:196
+msgid "If you check this box, a cron job will be created on EasyCron that all 5 Minutes calls the WordPress cron."
+msgstr "Als je dit vakje aanvinkt zal er een cronjob op EasyCron worden aangemaakt die elke 5 minuten de WordPress-cron aanroept."
+
+#: inc/class-easycron.php:192
+msgid "Trigger WordPress Cron:"
+msgstr "Trigger WordPress cron:"
+
+#: inc/class-easycron.php:184
+msgid "Api key:"
+msgstr "Api-key:"
+
+#: inc/class-easycron.php:181
+msgid "Here you can setup your <a href=\"https://www.easycron.com/user/token?ref=36673\" title=\"Affiliate Link!\">EasyCron.com API key</a> to use this service."
+msgstr "Hier kun je je <a href=\"https://www.easycron.com/user/token?ref=36673\"  title=\"Affiliate Link!\">EasyCron.com API key</a> instellen om deze dienst te gebruiken."
+
+#: inc/class-easycron.php:180
+msgid "EasyCron"
+msgstr "EasyCron"
+
+#: inc/class-easycron.php:171
+msgid "EasyCron.com API returns (%s): %s"
+msgstr "EasyCron.com API meldt (%s): %s"
+
+#: inc/class-destination-ftp.php:649 inc/class-destination-msazure.php:297
+#: inc/class-destination-rsc.php:282 inc/class-destination-s3.php:902
+#: inc/class-destination-s3.php:947
+msgid "Can not open source file for transfer."
+msgstr "Kan bronbestand niet openen voor overzetting."
+
+#: inc/class-create-archive.php:390
+msgid "ZIP archive cannot be closed correctly"
+msgstr "ZIP bestand kan niet op de goede manier worden afgesloten"
+
+#: inc/class-admin.php:685
+msgid "&mdash; No additional role for BackWPup &mdash;"
+msgstr "&mdash; Geen aanvullende rol voor BackWPup &mdash;"
+
+#: inc/class-admin.php:680
+msgid "Add BackWPup Role"
+msgstr "BackWPup rol toevoegen"
+
+#. Description of the plugin
+#: backwpup.php
+msgid "WordPress Backup Plugin"
+msgstr "WordPress Backup Plugin"
+
+#. Plugin Name of the plugin
+#: backwpup.php
+msgid "BackWPup"
+msgstr "BackWPup"
+
+#: inc/class-wp-cli.php:104
+msgid "No job running"
+msgstr "Er loopt geen taak"
+
+#: inc/class-wp-cli.php:55
+msgid "Nothing to abort!"
+msgstr "Niets om af te breken!"
+
+#: inc/class-wp-cli.php:43
+msgid "Job ID does not exist!"
+msgstr "Taak ID bestaat niet!"
+
+#: inc/class-wp-cli.php:38
+msgid "No job ID specified!"
+msgstr "Geen taak ID opgegeven!"
+
+#: inc/class-wp-cli.php:26
+msgid "A job is already running."
+msgstr "Er loopt al een taak."
+
+#: inc/class-page-settings.php:1225
+msgid "Reset all settings to default"
+msgstr "Zet alles terug naar de basisinstellingen"
+
+#: inc/class-page-settings.php:1219
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: inc/class-page-settings.php:301
+msgid "Loaded PHP Extensions:"
+msgstr "Geladen PHP-extensies"
+
+#: inc/class-page-settings.php:296
+msgid "Disabled PHP Functions:"
+msgstr "Uitgeschakelde PHP functies:"
+
+#: inc/class-page-settings.php:290
+msgid "Memory in use"
+msgstr "Geheugen in gebruik"
+
+#: inc/class-page-settings.php:286
+msgid "WP maximum memory limit"
+msgstr "WP maximale geheugen limiet"
+
+#: inc/class-page-settings.php:282
+msgid "WP memory limit"
+msgstr "WP geheugen limiet"
+
+#: inc/class-page-settings.php:278
+msgid "PHP Memory limit"
+msgstr "PHP geheugen limiet"
+
+#: inc/class-page-settings.php:274
+msgid "MySQL Client encoding"
+msgstr "MySQL client encoding"
+
+#: inc/class-page-settings.php:270
+msgid "Blog language"
+msgstr "Blogtaal"
+
+#: inc/class-page-settings.php:265
+msgid "%s hours"
+msgstr "%s uur"
+
+#: inc/class-page-settings.php:263
+msgid "Blog Time offset"
+msgstr "Basis blogtijd"
+
+#: inc/class-page-settings.php:259
+msgid "Blog Timezone"
+msgstr "Tijdzone van het blog"
+
+#: inc/class-page-settings.php:255
+msgid "Blog Time"
+msgstr "Tijdstip van het blog"
+
+#: inc/class-page-settings.php:250
+msgid "Server Time"
+msgstr "Servertijd"
+
+#: inc/class-page-settings.php:242
+msgid "CHMOD Dir"
+msgstr "CHMOD Dir"
+
+#: inc/class-page-settings.php:234
+msgid "Disabled WP Cron"
+msgstr "WP Cron uitgeschakeld"
+
+#: inc/class-page-settings.php:226
+msgid "Alternative WP Cron"
+msgstr "Alternatieve WP Cron"
+
+#: inc/class-page-settings.php:209
+msgid "Maximum execution time"
+msgstr "Maximale uitvoertijd"
+
+#: inc/class-page-settings.php:230 inc/class-page-settings.php:238
+msgid "Off"
+msgstr "Uit"
+
+#: inc/class-page-settings.php:228 inc/class-page-settings.php:236
+msgid "On"
+msgstr "Aan"
+
+#: inc/class-page-settings.php:201
+msgid "Current PHP user"
+msgstr "Huidige PHP-gebruiker"
+
+#: inc/class-page-settings.php:197
+msgid "PHP SAPI"
+msgstr "PHP SAPI"
+
+#: inc/class-page-settings.php:193
+msgid "Operating System"
+msgstr "Besturingssysteem"
+
+#: inc/class-page-settings.php:189
+msgid "Server"
+msgstr "Server"
+
+#: inc/class-page-settings.php:181
+msgid "Log folder %s is not writable."
+msgstr "Log map %s niet beschrijfbaar."
+
+#: inc/class-page-settings.php:170
+msgid "Log folder"
+msgstr "Log map"
+
+#: inc/class-page-settings.php:162
+msgid "Temporary folder %s is not writable."
+msgstr "Tijdelijke map %s is niet beschrijfbaar."
+
+#: inc/class-page-settings.php:157
+msgid "Temp folder %s doesn't exist."
+msgstr "Tempmap %s bestaat niet."
+
+#: inc/class-page-settings.php:154
+msgid "Temp folder"
+msgstr "Tijdelijke map"
+
+#: inc/class-page-settings.php:145
+msgid "Response Test O.K."
+msgstr "Reactie test oké."
+
+#: inc/class-page-settings.php:101
+msgid "Server self connect"
+msgstr "Server zelfverbinding"
+
+#: inc/class-page-settings.php:96
+msgid "WP-Cron url"
+msgstr "WP-Cron URL"
+
+#: inc/class-page-settings.php:92
+msgid "unavailable"
+msgstr "niet beschikbaar"
+
+#: inc/class-page-settings.php:89
+msgid "cURL SSL version"
+msgstr "cURL SSL versie"
+
+#: inc/class-page-settings.php:85
+msgid "cURL version"
+msgstr "cURL versie"
+
+#: inc/class-page-settings.php:81
+msgid "MySQL version"
+msgstr "MySQL versie"
+
+#: inc/class-page-settings.php:71
+msgid "PHP version"
+msgstr "PHP versie"
+
+#: inc/class-page-settings.php:66
+msgid "BackWPup Pro version"
+msgstr "BackWPup Pro versie"
+
+#: inc/class-page-settings.php:64
+msgid "Get pro."
+msgstr "Koop pro."
+
+#: inc/class-page-settings.php:60
+msgid "BackWPup version"
+msgstr "BackWPup versie"
+
+#: inc/class-page-settings.php:55
+msgid "WordPress version"
+msgstr "WordPress versie"
+
+#: inc/class-page-settings.php:1196 inc/class-page-settings.php:1200
+msgid "Value"
+msgstr "Waarde"
+
+#: inc/class-page-settings.php:1196 inc/class-page-settings.php:1200
+msgid "Setting"
+msgstr "Instelling"
+
+#: inc/class-page-settings.php:836
+msgid "maximum"
+msgstr "maximum"
+
+#: inc/class-page-settings.php:832
+msgid "medium"
+msgstr "medium"
+
+#: inc/class-page-settings.php:828
+msgid "minimum"
+msgstr "minimum"
+
+#: inc/class-page-settings.php:824
+msgid "disabled"
+msgstr "uitgeschakeld"
+
+#: inc/class-page-settings.php:811 inc/class-page-settings.php:816
+msgid "Reduce server load"
+msgstr "Verminder serverload"
+
+#: inc/class-page-settings.php:795
+msgid "Key to start jobs externally with an URL"
+msgstr "Sleutel om taken extern met een URL te starten"
+
+#: inc/class-page-settings.php:772
+msgid "Maximum PHP Script execution time"
+msgstr "Maximum tijd om PHP-script uit te voeren"
+
+#: inc/class-page-settings.php:767
+msgid "Maximum script execution time"
+msgstr "Maximale tijd waarin het script moet worden uitgevoerd"
+
+#: inc/class-page-settings.php:758
+msgid "Maximum number of retries for job steps"
+msgstr "Maximum aantal pogingen voor stappen van de taak"
+
+#: inc/class-page-settings.php:750
+msgid "There are a couple of general options for backup jobs. Set them here."
+msgstr "Er is een aantal algemene opties voor back-up-taken. Stel ze hier in."
+
+#: inc/class-page-settings.php:702
+msgid "Compress log files with GZip."
+msgstr "Comprimeer log bestanden met GZip."
+
+#: inc/class-page-settings.php:688 inc/class-page-settings.php:691
+msgid "Compression"
+msgstr "Compressie"
+
+#: inc/class-page-settings.php:650
+msgid "Log file folder"
+msgstr "Logbestanden map"
+
+#: inc/class-page-settings.php:641
+msgid "Every time BackWPup runs a backup job, a log file is being generated. Choose where to store your log files and how many of them."
+msgstr "Elke keer dat BackWPup een back-up taak uitvoert, wordt er een logbestand gegenereerd. Bepaal waar je de logbestanden wilt opslaan en hoeveel."
+
+#: inc/class-page-settings.php:598
+msgid "Protect BackWPup folders ( Temp, Log and Backups ) with <code>.htaccess</code> and <code>index.php</code>"
+msgstr "Bescherm BackWPup mappen ( Temp, Log en Backups ) met <code> .htaccess</code> en <code>index.php</code>"
+
+#: inc/class-page-settings.php:583 inc/class-page-settings.php:588
+msgid "Protect folders"
+msgstr "Bescherm mappen"
+
+#: inc/class-page-settings.php:580
+msgid "Security option for BackWPup"
+msgstr "Veiligheids optie voor BackWPup"
+
+#: inc/class-page-settings.php:579
+msgid "Security"
+msgstr "Beveiliging"
+
+#: inc/class-page-settings.php:570
+msgid "Display folder sizes in the files tab when editing a job. (Might increase loading time of files tab.)"
+msgstr "Toon map grootte in bestanden tab als een taak wordt bewerkt. (Hierdoor zou het laden van bestanden tab langer kunnen duren.)"
+
+#: inc/class-page-settings.php:556 inc/class-page-settings.php:561
+msgid "Folder sizes"
+msgstr "Map groottes"
+
+#: inc/class-page-settings.php:550
+msgid "Show BackWPup links in admin bar."
+msgstr "Toon BackWPup links in toolbar."
+
+#: inc/class-page-settings.php:541
+msgid "Admin Bar"
+msgstr "Toolbar"
+
+#: inc/class-page-settings.php:536
+msgid "Admin bar"
+msgstr "Toolbar"
+
+#: inc/class-page-settings.php:533
+msgid "Do you want to see BackWPup in the WordPress admin bar?"
+msgstr "Wil je BackWPup in de WordPress toolbar zien?"
+
+#: inc/class-page-settings.php:532
+msgid "Display Settings"
+msgstr "Toon instellingen"
+
+#: inc/class-page-settings.php:510
+msgid "Information"
+msgstr "Informatie"
+
+#: inc/class-page-settings.php:509
+msgid "API Keys"
+msgstr "API-sleutels"
+
+#: inc/class-page-settings.php:508
+msgid "Network"
+msgstr "Netwerk"
+
+#: inc/class-page-settings.php:487
+msgid "Settings saved"
+msgstr "Instellingen opgeslagen"
+
+#: inc/class-page-settings.php:405
+msgid "Settings reset to default"
+msgstr "Instellingen teruggezet naar de standaardwaarden"
+
+#: inc/class-page-logs.php:270
+msgid "Log only"
+msgstr "Alleen log"
+
+#: inc/class-page-logs.php:251
+msgid "O.K."
+msgstr "O.K."
+
+#: inc/class-page-logs.php:248
+msgid "1 WARNING"
+msgid_plural "%d WARNINGS"
+msgstr[0] "1 WAARSCHUWING"
+msgstr[1] "%d WAARSCHUWINGEN"
+
+#: inc/class-page-logs.php:245
+msgid "1 ERROR"
+msgid_plural "%d ERRORS"
+msgstr[0] "1 FOUT"
+msgstr[1] "%d FOUTEN"
+
+#: inc/class-page-logs.php:224
+msgid "View"
+msgstr "Toon"
+
+#: inc/class-page-logs.php:164
+msgid "Runtime"
+msgstr "Looptijd"
+
+#: inc/class-page-logs.php:161
+msgid "Status"
+msgstr "Status"
+
+#: inc/class-page-logs.php:134
+msgid "No Logs."
+msgstr "Geen logs."
+
+#: inc/class-page-jobs.php:917
+msgid "Job has done with warnings in %s seconds. Please resolve them for correct execution."
+msgstr "Taak afgerond met waarschuwingen in %s seconden. Los deze op voor een juiste uitvoering van de taak."
+
+#: inc/class-page-jobs.php:913
+msgid "Job completed"
+msgstr "Taak afgerond"
+
+#: inc/class-page-jobs.php:712
+msgid "Close"
+msgstr "Sluiten"
+
+#: inc/class-page-jobs.php:712
+msgid "Close working screen"
+msgstr "Werkscherm sluiten"
+
+#: inc/class-page-jobs.php:710
+msgid "Display working log"
+msgstr "Toon werkende log"
+
+#: inc/class-page-jobs.php:710
+msgid "Log of running job"
+msgstr "Log van huidige taak"
+
+#: inc/class-page-jobs.php:709
+msgid "Errors:"
+msgstr "Fouten:"
+
+#: inc/class-page-jobs.php:708
+msgid "Warnings:"
+msgstr "Waarschuwingen:"
+
+#: inc/class-page-jobs.php:707
+msgid "Job currently running: %s"
+msgstr "Taak die op dit moment loop: %s"
+
+#: inc/class-page-jobs.php:517 inc/class-wp-cli.php:60
+msgid "Job will be terminated."
+msgstr "Taak wordt beëindigd."
+
+#: inc/class-page-jobs.php:502
+msgid "Job \"%s\" started."
+msgstr "Taak \"%s\" is gestart."
+
+#: inc/class-page-jobs.php:418
+msgid "Copy of"
+msgstr "Kopie van"
+
+#: inc/class-page-jobs.php:343
+msgid "Log"
+msgstr "Log"
+
+#: inc/class-page-jobs.php:331
+msgid "Download last backup"
+msgstr "Download de laatste back-up"
+
+#: inc/class-page-jobs.php:323
+msgid "not yet"
+msgstr "nog niet"
+
+#: inc/class-page-jobs.php:320
+msgid "Runtime: %d seconds"
+msgstr "Looptijd: %d seconden"
+
+#: inc/class-page-jobs.php:296
+msgid "Inactive"
+msgstr "Niet actief"
+
+#: inc/class-page-jobs.php:281
+msgid "%1$s at %2$s by WP-Cron"
+msgstr "%1$s bij %2$s door WP-Cron"
+
+#: inc/class-page-jobs.php:281 inc/class-page-jobs.php:289
+msgid "Cron: %s"
+msgstr "Cron: %s"
+
+#: inc/class-page-jobs.php:274
+msgid "Running for: %s seconds"
+msgstr "%s seconden bezig"
+
+#: inc/class-page-jobs.php:251
+msgid "Not needed or set"
+msgstr "Niet nodig of ingesteld"
+
+#: inc/class-page-jobs.php:188
+msgid "Last log"
+msgstr "Laatste log"
+
+#: inc/class-page-jobs.php:175
+msgid "Copy"
+msgstr "Kopieer"
+
+#: inc/class-page-jobs.php:174
+msgid "Edit"
+msgstr "Bewerken"
+
+#: inc/class-page-jobs.php:171 inc/class-page-logs.php:222
+msgid "Job ID: %d"
+msgstr "Taak ID: %d"
+
+#: inc/class-page-jobs.php:126
+msgid "Last Run"
+msgstr "Laatste run"
+
+#: inc/class-page-jobs.php:125
+msgid "Next Run"
+msgstr "Volgende run"
+
+#: inc/class-page-jobs.php:124
+msgid "Destinations"
+msgstr "Bestemmingen"
+
+#: inc/class-page-jobs.php:97
+msgid "No Jobs."
+msgstr "Geen taken."
+
+#: inc/class-page-editjob.php:854
+msgid "Save changes"
+msgstr "Wijzigingen opslaan"
+
+#: inc/class-page-editjob.php:817
+msgid "Day of Week:"
+msgstr "Dag van de week:"
+
+#: inc/class-page-editjob.php:812
+msgid "December"
+msgstr "december"
+
+#: inc/class-page-editjob.php:811
+msgid "November"
+msgstr "november"
+
+#: inc/class-page-editjob.php:810
+msgid "October"
+msgstr "oktober"
+
+#: inc/class-page-editjob.php:809
+msgid "September"
+msgstr "september"
+
+#: inc/class-page-editjob.php:808
+msgid "August"
+msgstr "Augustus"
+
+#: inc/class-page-editjob.php:807
+msgid "July"
+msgstr "juli"
+
+#: inc/class-page-editjob.php:806
+msgid "June"
+msgstr "juni"
+
+#: inc/class-page-editjob.php:805
+msgid "May"
+msgstr "mei"
+
+#: inc/class-page-editjob.php:804
+msgid "April"
+msgstr "april"
+
+#: inc/class-page-editjob.php:803
+msgid "March"
+msgstr "maart"
+
+#: inc/class-page-editjob.php:802
+msgid "February"
+msgstr "februari"
+
+#: inc/class-page-editjob.php:801
+msgid "January"
+msgstr "januari"
+
+#: inc/class-page-editjob.php:795
+msgid "Month:"
+msgstr "Maand:"
+
+#: inc/class-page-editjob.php:781
+msgid "Day of Month:"
+msgstr "Dag van de maand:"
+
+#: inc/class-page-editjob.php:768
+msgid "Hours:"
+msgstr "Uren:"
+
+#: inc/class-page-editjob.php:758 inc/class-page-editjob.php:771
+#: inc/class-page-editjob.php:783 inc/class-page-editjob.php:797
+#: inc/class-page-editjob.php:819
+msgid "Any (*)"
+msgstr "Elke (*)"
+
+#: inc/class-page-editjob.php:756
+msgid "Minutes:"
+msgstr "Minuten:"
+
+#: inc/class-page-editjob.php:740
+msgid "hourly"
+msgstr "ieder uur"
+
+#: inc/class-page-editjob.php:730
+msgid "daily"
+msgstr "dagelijks"
+
+#: inc/class-page-editjob.php:720 inc/class-page-editjob.php:829
+msgid "Saturday"
+msgstr "Zaterdag"
+
+#: inc/class-page-editjob.php:719 inc/class-page-editjob.php:828
+msgid "Friday"
+msgstr "Vrijdag"
+
+#: inc/class-page-editjob.php:718 inc/class-page-editjob.php:827
+msgid "Thursday"
+msgstr "Donderdag"
+
+#: inc/class-page-editjob.php:717 inc/class-page-editjob.php:826
+msgid "Wednesday"
+msgstr "Woensdag"
+
+#: inc/class-page-editjob.php:716 inc/class-page-editjob.php:825
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+#: inc/class-page-editjob.php:715 inc/class-page-editjob.php:824
+msgid "Monday"
+msgstr "Maandag"
+
+#: inc/class-page-editjob.php:714 inc/class-page-editjob.php:823
+msgid "Sunday"
+msgstr "Zondag"
+
+#: inc/class-page-editjob.php:712
+msgid "weekly"
+msgstr "wekelijks"
+
+#: inc/class-page-editjob.php:702
+msgid "on"
+msgstr "aan"
+
+#: inc/class-page-editjob.php:700
+msgid "monthly"
+msgstr "maandelijks"
+
+#: inc/class-page-editjob.php:696
+msgid "Minute"
+msgstr "Minuut"
+
+#: inc/class-page-editjob.php:693
+msgid "Hour"
+msgstr "Uur"
+
+#: inc/class-page-editjob.php:688 inc/class-page-jobs.php:123
+#: inc/class-page-logs.php:162
+msgid "Type"
+msgstr "Soort"
+
+#: inc/class-page-editjob.php:683 inc/class-page-editjob.php:753
+msgid "Scheduler"
+msgstr "Planner"
+
+#: inc/class-page-editjob.php:646
+msgid "advanced"
+msgstr "uitgebreid"
+
+#: inc/class-page-editjob.php:642
+msgid "basic"
+msgstr "eenvoudig"
+
+#: inc/class-page-editjob.php:635 inc/class-page-editjob.php:638
+msgid "Scheduler type"
+msgstr "Soort planner"
+
+#: inc/class-page-editjob.php:631
+msgid "Schedule execution time"
+msgstr "Uitvoertijd van het schema"
+
+#: inc/class-page-editjob.php:623
+msgid "Start job with CLI"
+msgstr "Taak starten met CLI"
+
+#: inc/class-page-editjob.php:615
+msgid "with a link"
+msgstr "met een link"
+
+#: inc/class-page-editjob.php:616
+msgid "Copy the link for an external start. This option has to be activated to make the link work."
+msgstr "Kopieer de link voor een externe start. Deze optie moet geactiveerd om de link te laten werken."
+
+#: inc/class-page-editjob.php:595
+msgid "with WordPress cron"
+msgstr "met WordPress cron"
+
+#: inc/class-page-editjob.php:591
+msgid "manually only"
+msgstr "alleen handmatig"
+
+#: inc/class-page-editjob.php:584 inc/class-page-editjob.php:587
+msgid "Start job"
+msgstr "Begin taak"
+
+#: inc/class-page-editjob.php:580
+msgid "Job Schedule"
+msgstr "Takenschema"
+
+#: inc/class-page-editjob.php:568
+msgid "Send email with log only when errors occur during job execution."
+msgstr "Stuur e-mail met log alleen als de fouten optreden tijdens het uitvoeren van de taak."
+
+#: inc/class-page-editjob.php:563
+msgid "Errors only"
+msgstr "Alleen fouten"
+
+#: inc/class-page-editjob.php:557
+msgid "Email FROM field"
+msgstr "E-mail Van veld"
+
+#: inc/class-page-editjob.php:550
+msgid "Send log to email address"
+msgstr "Verstuur logbestand naar e-mailadres"
+
+#: inc/class-page-editjob.php:546
+msgid "Log Files"
+msgstr "Logbestanden"
+
+#: inc/class-page-editjob.php:525 inc/class-page-editjob.php:528
+msgid "Where should your backup file be stored?"
+msgstr "Waar moeten je back-up bestanden opgeslagen worden?"
+
+#: inc/class-page-editjob.php:521
+msgid "Job Destination"
+msgstr "Bestemming van de taak"
+
+#: inc/class-page-editjob.php:480 inc/class-page-editjob.php:482
+msgid "Tar GZip"
+msgstr "Tar GZip"
+
+#: inc/class-page-editjob.php:478
+msgid "Tar"
+msgstr "Tar"
+
+#: inc/class-page-editjob.php:483
+msgid "Disabled due to missing %s PHP function."
+msgstr "Uitgeschakeld vanwege ontbrekende PHP functie %s."
+
+#: inc/class-page-editjob.php:473 inc/class-page-editjob.php:475
+msgid "Zip"
+msgstr "Zip"
+
+#: inc/class-page-editjob.php:467 inc/class-page-editjob.php:470
+msgid "Archive Format"
+msgstr "Archief format"
+
+#: inc/class-page-editjob.php:461
+msgid "%s = Two digit representation of the second"
+msgstr "%s = twee-cijferige weergave van de seconde"
+
+#: inc/class-page-editjob.php:460
+msgid "%i = Two digit representation of the minute"
+msgstr "%i = Tweecijferige weergave van de minuut"
+
+#: inc/class-page-editjob.php:457
+msgid "%G = Hour in 24-hour format, without leading zeros"
+msgstr "%G = uur in 24-uurs format zonder voorloop nul"
+
+#: inc/class-page-editjob.php:456
+msgid "%g = Hour in 12-hour format, without leading zeros"
+msgstr "%g = uur in 12-uur format, zonder voorloop nul"
+
+#: inc/class-page-editjob.php:455
+msgid "%B = Swatch Internet Time"
+msgstr "%B = Swatch Internet Time"
+
+#: inc/class-page-editjob.php:454
+msgid "%A = Uppercase ante meridiem (AM) and post meridiem (PM)"
+msgstr "%A = Hoofdletter ante meridiem (AM) en bericht meridiem (PM)"
+
+#: inc/class-page-editjob.php:453
+msgid "%a = Lowercase ante meridiem (am) and post meridiem (pm)"
+msgstr "%a = Kleine letter ante meridiem (am) en bericht meridiem (pm)"
+
+#: inc/class-page-editjob.php:452
+msgid "%y = Two digit representation of the year"
+msgstr "%y = tweecijferige weergave voor het jaar"
+
+#: inc/class-page-editjob.php:451
+msgid "%Y = Four digit representation of the year"
+msgstr "%Y = viercijferige weergave voor het jaar"
+
+#: inc/class-page-editjob.php:450
+msgid "%n = Representation of the month (without leading zeros)"
+msgstr "%n = weergave van de maand (zonder voorloop-nul)"
+
+#: inc/class-page-editjob.php:448
+msgid "%j = Day of the month, without leading zeros"
+msgstr "%j = dag van de maand zonder voorloopnul"
+
+#: inc/class-page-editjob.php:447
+msgid "%d = Two digit day of the month, with leading zeros"
+msgstr "%d = tweecijferige dag van de maand met voorloop nul"
+
+#: inc/class-page-editjob.php:446
+msgid "Replacement patterns:"
+msgstr "Vervangingspatronen:"
+
+#: inc/class-page-editjob.php:436
+msgid "Archive name"
+msgstr "Archiefnaam"
+
+#: inc/class-page-editjob.php:428
+msgid "Create a backup archive"
+msgstr "Back-up archief aanmaken"
+
+#: inc/class-page-editjob.php:423
+msgid "Synchronize file by file to destination"
+msgstr "Synchroniseer bestand per bestand naar bestemming"
+
+#: inc/class-page-editjob.php:417 inc/class-page-editjob.php:420
+msgid "Backup type"
+msgstr "Type back-up"
+
+#: inc/class-page-editjob.php:412
+msgid "Backup File Creation"
+msgstr "Back-up bestand aanmaak"
+
+#: inc/class-page-editjob.php:394
+msgid "Job tasks"
+msgstr "Taakonderdeel"
+
+#: inc/class-page-editjob.php:391
+msgid "This job is a&#160;&hellip;"
+msgstr "Deze taak is een&#160;&hellip;"
+
+#: inc/class-page-editjob.php:388
+msgid "Job Tasks"
+msgstr "Taakonderdelen"
+
+#: inc/class-page-editjob.php:381
+msgid "Please name this job."
+msgstr "Geef de taak een naam."
+
+#: inc/class-page-editjob.php:378 inc/class-page-editjob.php:383
+#: inc/class-page-jobs.php:122
+msgid "Job Name"
+msgstr "Taaknaam"
+
+#: inc/class-page-editjob.php:341
+msgid "To: %s"
+msgstr "Aan: %s"
+
+#: inc/class-page-editjob.php:324
+msgid "Schedule"
+msgstr "Schema"
+
+#: inc/class-page-editjob.php:324 inc/class-page-settings.php:502
+msgid "General"
+msgstr "Algemeen"
+
+#: inc/class-page-editjob.php:962
+msgid "Next runtime:"
+msgstr "Volgende uitvoeringsmoment:"
+
+#: inc/class-page-editjob.php:960
+msgid "ATTENTION: Can't calculate cron!"
+msgstr "LET OP: cron kan niet berekend worden!"
+
+#: inc/class-page-editjob.php:956
+msgid "ATTENTION: Job runs every %d minutes!"
+msgstr "ATTENTIE: taak loopt elke %d minuten!"
+
+#: inc/class-page-editjob.php:945
+msgid "Working as <a href=\"http://wikipedia.org/wiki/Cron\">Cron</a> schedule:"
+msgstr "Uitgevoerd als <a href=\"http://wikipedia.org/wiki/Cron\">Cron</a> schema:"
+
+#: inc/class-page-editjob.php:223 inc/class-page-jobs.php:180
+msgid "Run now"
+msgstr "Nu uitvoeren"
+
+#: inc/class-page-editjob.php:223
+msgid "Jobs overview"
+msgstr "Takenoverzicht"
+
+#: inc/class-page-editjob.php:223
+msgid "Changes for job <i>%s</i> saved."
+msgstr "Wijzigingen voor taak <i>%s</i> opgeslagen."
+
+#: inc/class-page-editjob.php:96
+msgid "Job with ID %d"
+msgstr "Taak met ID %d"
+
+#: inc/class-page-backwpup.php:326
+msgid "Edit Job"
+msgstr "Taak bewerken"
+
+#: inc/class-page-backwpup.php:310 inc/class-page-jobs.php:711
+msgid "Abort"
+msgstr "Afbreken"
+
+#: inc/class-page-backwpup.php:308
+msgid "working since %d seconds"
+msgstr "bezig sinds %d seconden"
+
+#: inc/class-page-backwpup.php:279
+msgid "Next scheduled jobs"
+msgstr "Volgende ingeplande taken"
+
+#: inc/class-page-backwpup.php:395
+msgid "OK"
+msgstr "OK"
+
+#: inc/class-page-backwpup.php:392
+msgid "%d WARNING"
+msgid_plural "%d WARNINGS"
+msgstr[0] "%d WAARSCHUWING"
+msgstr[1] "%d WAARSCHUWINGEN"
+
+#: inc/class-page-backwpup.php:389
+msgid "%d ERROR"
+msgid_plural "%d ERRORS"
+msgstr[0] "%d FOUT"
+msgstr[1] "%d FOUTEN"
+
+#: inc/class-page-backwpup.php:347
+msgid "Result"
+msgstr "Resultaat"
+
+#: inc/class-page-backwpup.php:283 inc/class-page-backwpup.php:347
+#: inc/class-page-logs.php:160
+msgid "Job"
+msgstr "Taak"
+
+#: inc/class-page-backwpup.php:345
+msgid "Last logs"
+msgstr "Laatste logs"
+
+#: inc/class-page-backwpup.php:261
+msgctxt "Pro teaser box, link text"
+msgid "Get BackWPup Pro now"
+msgstr "Koop BackWPup Pro nu"
+
+#: inc/class-page-backwpup.php:261
+msgctxt "Pro teaser box, link title"
+msgid "Get BackWPup Pro now"
+msgstr "BackWPup Pro nu aanschaffen"
+
+#: inc/class-page-backwpup.php:259
+msgctxt "Pro teaser box, link text"
+msgid "And more…"
+msgstr "En verder..."
+
+#: inc/class-page-backwpup.php:258
+msgctxt "Pro teaser box"
+msgid "Easy-peasy wizards to create and schedule backup jobs."
+msgstr "Supermakkelijke wizards om back-up-taken aan te maken en in te plannen."
+
+#: inc/class-page-backwpup.php:257
+msgctxt "Pro teaser box"
+msgid "Differential backups to Google Drive and other cloud storage service."
+msgstr "Differentiële back-ups naar Google Drive en andere cloud opslag diensten."
+
+#: inc/class-page-backwpup.php:256
+msgctxt "Pro teaser box"
+msgid "First-class <strong>dedicated support</strong> at backwpup.com."
+msgstr "Eerste klas <strong>toegewijde hulp</strong> op backwpup.com."
+
+#: inc/class-page-backwpup.php:254
+msgctxt "Pro teaser box"
+msgid "Get access to:"
+msgstr "Krijg toegang tot:"
+
+#: inc/class-page-backwpup.php:251
+msgctxt "Pro teaser box"
+msgid "Thank you for using BackWPup!"
+msgstr "Bedankt voor het gebruiken van BackWPup!"
+
+#: inc/class-page-backwpup.php:211
+msgid "Start wizard"
+msgstr "Begin met de wizard"
+
+#: inc/class-page-backwpup.php:145
+msgid "Untitled"
+msgstr "Zonder titel"
+
+#: inc/class-page-backwpup.php:129
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "Er is een fout opgetreden, wat waarschijnlijk betekent dat de feed niet werkt. Probeer het later opnieuw."
+
+#: inc/class-page-backwpup.php:127
+msgid "<strong>RSS Error</strong>: %s"
+msgstr "<strong>RSS fout</strong>: %s"
+
+#: inc/class-page-backwpup.php:120
+msgid "BackWPup News"
+msgstr "BackWPup nieuws"
+
+#: inc/class-page-backwpup.php:114
+msgid "Download database backup"
+msgstr "Download database back-up"
+
+#: inc/class-page-backwpup.php:114
+msgid "Generate a database backup of WordPress tables and download it right away!"
+msgstr "Genereer een database back-up van de WordPress tabellen en download hem meteen!"
+
+#: inc/class-page-backwpup.php:112
+msgid "One click backup"
+msgstr "Back-up in één klik"
+
+#: inc/class-page-backwpup.php:103
+msgid "Check the job log"
+msgstr "Controleer de log van de taak"
+
+#: inc/class-page-backwpup.php:102
+msgid "Run the created job"
+msgstr "Voer de aangemaakte taak uit"
+
+#: inc/class-page-backwpup.php:99
+msgid "Check the installation"
+msgstr "Controleer de installatie"
+
+#: inc/class-page-backwpup.php:97 inc/class-page-backwpup.php:100
+msgid "Create a Job"
+msgstr "Maak een taak aan"
+
+#: inc/class-page-backwpup.php:96
+msgid "Test the installation"
+msgstr "Test de installatie"
+
+#: inc/class-page-backwpup.php:92
+msgid "First Steps"
+msgstr "Eerste stappen"
+
+#: inc/class-page-backwpup.php:84
+msgid "<a href=\"%s\">Add a new backup job</a> and plan what you want to save."
+msgstr "<a href=\"%s\">Nieuwe back-up-taak aanmaken</a> en plan wat je wilt bewaren."
+
+#: inc/class-page-backwpup.php:80
+msgid "Use the short links in the <strong>First steps</strong> box to plan and schedule backup jobs."
+msgstr "Gebruik de korte links in het <strong>Eerste stappen</strong>-gedeelte om back-up-taken te plannen en in te stellen."
+
+#: inc/class-page-backwpup.php:75 inc/class-page-backwpup.php:85
+msgid "<strong>Please note: You are solely responsible for the security of your data; the authors of this plugin are not.</strong>"
+msgstr "<strong>Let op: Jij bent uitsluitend zelf verantwoordelijk voor de veiligheid van je data; de makers van deze plugin zijn dat niet.</strong>"
+
+#: inc/class-page-backwpup.php:75
+msgid "Use one of the wizards to plan a backup, or use <a href=\"%s\">expert mode</a> for full control over all options."
+msgstr "Gebruik één van de wizards om een back-up te plannen of gebruik <a href=\"%s\">expert modus</a> om volledige controle te krijgen over alle opties."
+
+#: inc/class-page-backwpup.php:74 inc/class-page-backwpup.php:83
+msgctxt "Dashboard heading"
+msgid "Ready to set up a backup job?"
+msgstr "Klaar om een back-uptaak aan te maken?"
+
+#: inc/class-page-backwpup.php:72 inc/class-page-backwpup.php:81
+msgctxt "Dashboard heading"
+msgid "Restoring backups"
+msgstr "Back-ups terugzetten"
+
+#: inc/class-page-backwpup.php:71 inc/class-page-backwpup.php:80
+msgid "Use your backup archives to save your entire WordPress installation including <code>/wp-content/</code>. Push them to an external storage service if you don’t want to save the backups on the same server."
+msgstr "Gebruik je back-up archieven om je hele WordPress installatie te bewaren, inclusief <code>/wp-content/</code>. Verstuur ze naar een externe opslagdienst als je de back-ups niet op dezelfde server wilt opslaan."
+
+#: inc/class-page-backwpup.php:70 inc/class-page-backwpup.php:79
+msgctxt "Dashboard heading"
+msgid "Planning backups"
+msgstr "Back-ups inplannen"
+
+#: inc/class-page-backups.php:476
+msgid "Backup Files"
+msgstr "Back-up bestanden"
+
+#: inc/class-page-backups.php:368 inc/class-page-backups.php:408
+#: inc/class-page-editjob.php:30 inc/class-page-jobs.php:437
+msgid "Sorry, you don't have permissions to do that."
+msgstr "Je hebt geen toestemming om dat te doen."
+
+#: inc/class-page-backups.php:351 inc/class-page-backwpup.php:321
+#: inc/class-page-backwpup.php:384 inc/class-page-jobs.php:318
+#: inc/class-page-logs.php:186
+msgid "%1$s at %2$s"
+msgstr "%1$s om %2$s"
+
+#: inc/class-page-backups.php:345
+msgid "?"
+msgstr "?"
+
+#: inc/class-page-backups.php:308 inc/class-page-backups.php:664
+#: inc/class-page-jobs.php:331 inc/class-page-jobs.php:377
+#: inc/class-page-logs.php:228
+msgid "Download"
+msgstr "Download"
+
+#: inc/class-page-backups.php:629
+msgid "You are about to delete this backup archive. 'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Je staat op het punt om dit back-up archief te verwijderen\n"
+"'Annuleren' om te stoppen, 'OK' om te verwijderen."
+
+#: inc/class-page-backups.php:224 inc/class-page-logs.php:163
+msgid "Size"
+msgstr "Grootte"
+
+#: inc/class-page-backups.php:222
+msgid "File"
+msgstr "Bestand"
+
+#: inc/class-page-backups.php:221 inc/class-page-backwpup.php:282
+#: inc/class-page-backwpup.php:347 inc/class-page-logs.php:159
+msgid "Time"
+msgstr "Tijd"
+
+#: inc/class-page-backups.php:207
+msgid "Change destination"
+msgstr "Verander de bestemming"
+
+#: inc/class-page-backups.php:170 inc/class-page-backups.php:640
+#: inc/class-page-jobs.php:110 inc/class-page-jobs.php:176
+#: inc/class-page-logs.php:147 inc/class-page-logs.php:226
+msgid "Delete"
+msgstr "Verwijder"
+
+#: inc/class-page-backups.php:160
+msgid "No files could be found. (List will be generated during next backup.)"
+msgstr "Er zijn geen bestanden gevonden. (Bij de volgende back-up wordt er een lijst gegenereerd.)"
+
+#: inc/class-page-about.php:676
+msgid "GET PRO"
+msgstr "KOOP PRO"
+
+#: inc/class-page-about.php:664
+msgid "<strong>Premium support</strong>"
+msgstr "<strong>Premium ondersteuning</strong>"
+
+#: inc/class-page-about.php:619
+msgid "Differential backup of changed directories to MS Azure"
+msgstr "Differentiële back-up van gewijzigde mappen naar MS Azure"
+
+#: inc/class-page-about.php:614
+msgid "Differential backup of changed directories to S3"
+msgstr "Differentiële back-up van gewijzigde mappen naar S3"
+
+#: inc/class-page-about.php:609
+msgid "Differential backup of changed directories to Rackspace Cloud Files"
+msgstr "Differentiële back-up van gewijzigde mappen naar Backspace Cloud Files"
+
+#: inc/class-page-about.php:604
+msgid "Differential backup of changed directories to Dropbox"
+msgstr "Differentiële back-up van gewijzigde mappen naar Dropbox"
+
+#: inc/class-page-about.php:599
+msgid "Wizard to import settings and backup jobs"
+msgstr "Wizard om instellingen en back-up-taken te importeren"
+
+#: inc/class-page-about.php:594
+msgid "Wizard for scheduled backup jobs"
+msgstr "Wizard voor geplande back-up-taken"
+
+#: inc/class-page-about.php:589
+msgid "Wizard for system tests"
+msgstr "Wizard voor systeemtests"
+
+#: inc/class-page-about.php:584
+msgid "Import and export job settings as XML"
+msgstr "Import- en export-taak instellingen als XML"
+
+#: inc/class-page-about.php:579
+msgid "Database backup for additional MySQL databases"
+msgstr "Database back-up voor extra MySQL databases"
+
+#: inc/class-page-about.php:574
+msgid "Database backup as mysqldump per command line"
+msgstr "Database back-up als mysqldump via de command prompt"
+
+#: inc/class-page-about.php:569
+msgid "XML database backup as PHPMyAdmin schema"
+msgstr "XML van de database back-up als PHPMyAdmin schema"
+
+#: inc/class-page-about.php:564
+msgid "Custom API keys for DropBox and SugarSync"
+msgstr "Aangepaste API-sleutels voor DropBox en SugarSync"
+
+#: inc/class-page-about.php:529
+msgid "Backup to Amazon Glacier"
+msgstr "Back-up naar Amazon Glacier"
+
+#: inc/class-page-about.php:524
+msgid "Backup to Google Drive"
+msgstr "Back-up naar Google Drive"
+
+#: inc/class-page-about.php:514
+msgid "Backup to your web space"
+msgstr "Back-up naar je webruimte"
+
+#: inc/class-page-about.php:509
+msgid "Backup to FTP server"
+msgstr "Back-up naar FTP server"
+
+#: inc/class-page-about.php:489
+msgid "Backup as email"
+msgstr "Back-up als e-mail"
+
+#: inc/class-page-about.php:484
+msgid "Backup to Microsoft Azure"
+msgstr "Back-up naar Microsoft Azure"
+
+#: inc/class-page-about.php:479
+msgid "Log report via email"
+msgstr "Log rapport via e-mail"
+
+#: inc/class-page-about.php:474
+msgid "Start jobs per WP-Cron, URL, system, backend or WP-CLI"
+msgstr "Start taken via WP-Cron, URL, system, backend of WP-CLI"
+
+#: inc/class-page-about.php:469
+msgid "Log file management"
+msgstr "Logbestand beheer"
+
+#: inc/class-page-about.php:464
+msgid "Backup archives management"
+msgstr "Back-up archieven beheer"
+
+#: inc/class-page-about.php:459
+msgid "List of installed plugins"
+msgstr "Lijst van geïnstalleerde plugins"
+
+#: inc/class-page-about.php:449
+msgid "Data compression"
+msgstr "Datacompressie"
+
+#: inc/class-page-about.php:444
+msgid "Database check"
+msgstr "Database controle"
+
+#: inc/class-page-about.php:439
+msgid "Complete file backup"
+msgstr "Totale bestand back-up"
+
+#: inc/class-page-about.php:434
+msgid "Complete database backup"
+msgstr "Complete database back-up"
+
+#: inc/class-page-about.php:431
+msgid "PRO"
+msgstr "PRO"
+
+#: inc/class-page-about.php:430
+msgid "FREE"
+msgstr "GRATIS"
+
+#: inc/class-page-about.php:429
+msgid "Features"
+msgstr "Functies"
+
+#: inc/class-page-about.php:426
+msgid "Features / differences between Free and Pro"
+msgstr "Functies / verschillen tussen Free en Pro"
+
+#: inc/class-page-about.php:420
+msgid "BackWPup supports multiple cloud services in parallel. This ensures backups are redundant."
+msgstr "BackWPup ondersteunt meerdere clouddiensten naast elkaar. Dit zorgt ervoor dat back-ups redundant zijn."
+
+#: inc/class-page-about.php:416 inc/class-page-about.php:419
+msgid "Cloud Support"
+msgstr "Cloud Support"
+
+#: inc/class-page-about.php:408
+msgid "By default everything is encrypted: connections to external services, local files and access to directories."
+msgstr "Standaard is alles versleuteld: verbindingen naar externe diensten, lokale bestanden en toegang tot mappen."
+
+#: inc/class-page-about.php:407 inc/class-page-about.php:411
+msgid "Security!"
+msgstr "Veilgheid!"
+
+#: inc/class-page-about.php:402
+msgid "You can backup all your attachments, also all system files, plugins and themes in a single file. You can <a href=\"%s\">create a job</a> to update a backup copy of your file system only when files are changed."
+msgstr "Je kunt al je bijlages back-uppen in één bestand, dus ook alle systeembestanden, plugins en thema's. Je kunt <a href=\"%s\">een taak aanmaken</a> om een back-up kopie van je bestanden alleen te updaten als er bestanden gewijzigd zijn."
+
+#: inc/class-page-about.php:401
+msgid "Save all files"
+msgstr "Bewaar alle bestanden"
+
+#: inc/class-page-about.php:398
+msgid "Save all data from the webserver"
+msgstr "Alle gegevens van de webserver opslaan"
+
+#: inc/class-page-about.php:390
+msgid "You can choose the built-in WordPress export format in addition or exclusive to save your data. This works in automated backups too of course. The advantage is: you can import these files into a blog with the regular WordPress importer."
+msgstr "Je kunt ook de door WordPress ingebouwde export formaten kiezen om je gegevens op te slaan. Dit werkt natuurlijk ook voor geautomatiseerde back-ups. Het voordeel is dat je deze bestanden kunt importeren in een blog met de standaard WordPress importeerfunctie."
+
+#: inc/class-page-about.php:389 inc/class-page-about.php:393
+msgid "WordPress XML Export"
+msgstr "WordPress XML-export"
+
+#: inc/class-page-about.php:384
+msgid "With BackWPup you can schedule the database backup to run automatically. With a single backup file you can restore your database. You should <a href=\"%s\">set up a backup job</a>, so you will never forget it. There is also an option to repair and optimize the database after each backup."
+msgstr "Met BackWPup kun je instellen dat de database-back-up automatisch wordt uitgevoerd. Je kunt je database herstellen met een enkel back-up-bestand. Je zou eigenlijk <a href=\"%s\">een back-up-taak moeten instellen</a> zodat je het nooit kan vergeten. Er is ook een optie om de database te repareren en te optimaliseren na elke back-up. "
+
+#: inc/class-page-about.php:383
+msgid "Save your database regularly"
+msgstr "Bewaar je database regelmatig"
+
+#: inc/class-page-about.php:380
+msgid "Save your database"
+msgstr "Bewaar je database"
+
+#: inc/class-page-about.php:370
+msgid "Ready to set up a backup job? Use one of the wizards to plan what you want to save."
+msgstr "Klaar om een back-up-taak in te stellen? Gebruik ééen van onze wizards om te plannen wat je wilt bewaren."
+
+#: inc/class-page-about.php:367
+msgid "Welcome to BackWPup"
+msgstr "Welkom bij BackWPup"
+
+#: inc/class-page-about.php:360
+msgid "Ready to <a href=\"%1$s\">set up a backup job</a>? You can <a href=\"%2$s\">use the wizards</a> or plan your backup in expert mode."
+msgstr "Klaar om <a href=\"%1$s\">een back-up-taak in te stellen</a>? Je kunt <a href=\"%2$s\">de wizards gebruiken</a> of je back-ups in expertmodus plannen."
+
+#: inc/class-page-about.php:358 inc/class-page-backwpup.php:71
+msgid "BackWPup’s job wizards make planning and scheduling your backup jobs a breeze."
+msgstr "BackWPup's taak wizards maken het instellen en inplannen van je back-up taken een eitje."
+
+#: inc/class-page-about.php:357
+msgid "Welcome to BackWPup Pro"
+msgstr "Welkom bij BackWPup Pro"
+
+#: inc/class-option.php:198 inc/class-page-editjob.php:95
+#: inc/class-page-editjob.php:383
+msgid "New Job"
+msgstr "Nieuwe taak"
+
+#: inc/class-mysqldump.php:895
+msgid "Error while writing file!"
+msgstr "Er ging iets mis bij wegschrijven bestand!"
+
+#: inc/class-mysqldump.php:604
+msgid "Length for table backup is not correctly set: %1$s"
+msgstr "De lengte van de tabel back-up is niet correct ingesteld: %1$s"
+
+#: inc/class-mysqldump.php:600
+msgid "Start for table backup is not correctly set: %1$s"
+msgstr "De start van de tabel back-up is niet juist ingesteld: %1$s"
+
+#: inc/class-mysqldump.php:124 inc/class-mysqldump.php:136
+#: inc/class-mysqldump.php:487 inc/class-mysqldump.php:521
+#: inc/class-mysqldump.php:557 inc/class-mysqldump.php:617
+msgid "Database error %1$s for query %2$s"
+msgstr "Databasefout %1$s voor query %2$s"
+
+#: inc/class-mysqldump.php:117
+msgid "Cannot open SQL backup file"
+msgstr "Kan SQL back-up bestand niet openen"
+
+#: inc/class-mysqldump.php:305
+msgid "Cannot connect to MySQL database (%1$d: %2$s)"
+msgstr "Kan niet verbinden met MySQL database (%1$d: %2$s)"
+
+#: inc/class-mysqldump.php:288
+msgid "Setting of MySQLi connection timeout failed"
+msgstr "Instellen van de MySQLi verbinding time-out is mislukt"
+
+#: inc/class-mysqldump.php:77
+msgid "No MySQLi extension found. Please install it."
+msgstr "Geen MySQLi extensie gevonden. Installeer deze ."
+
+#: inc/class-jobtype-wpplugin.php:142
+msgid "Added plugin list file \"%1$s\" with %2$s to backup file list."
+msgstr "Plugin bestanden lijst \"%1$s\" met %2$s toegevoegd aan back-up bestanden lijst."
+
+#: inc/class-jobtype-wpplugin.php:125
+msgid "Inactive plugins:"
+msgstr "Niet-geactiveerde plugins:"
+
+#: inc/class-jobtype-wpplugin.php:118
+msgid "Active plugins:"
+msgstr "Geactiveerde plugins:"
+
+#: inc/class-jobtype-wpplugin.php:116
+msgid "from %s"
+msgstr "van %s"
+
+#: inc/class-jobtype-wpplugin.php:113
+msgid "All plugin information:"
+msgstr "Alle plugin informatie:"
+
+#: inc/class-jobtype-wpplugin.php:84
+msgid "%d. Trying to generate a file with installed plugin names&#160;&hellip;"
+msgstr "%d. Bezig met het genereren van een bestand met de namen van geïnstalleerde plugins&#160;&hellip;"
+
+#: inc/class-jobtype-wpplugin.php:39
+msgid "Plugin list file name"
+msgstr "Bestandsnaam van de pluginslijst"
+
+#: inc/class-jobtype-wpplugin.php:8
+msgid "Installed plugins list"
+msgstr "Lijst van geïnstalleerde plugins"
+
+#: inc/class-jobtype-wpplugin.php:7
+msgid "Plugins"
+msgstr "Plugins"
+
+#: inc/class-jobtype-wpexp.php:469
+msgid "Added XML export \"%1$s\" with %2$s to backup file list."
+msgstr "De XML export \"%1$s\" met %2$s is aan de back-up bestanden lijst toegevoegd."
+
+#: inc/class-jobtype-wpexp.php:450
+msgid "Compressing done."
+msgstr "Compressie klaar."
+
+#: inc/class-jobtype-wpexp.php:442
+msgid "Compressing file&#160;&hellip;"
+msgstr "Bestand comprimeren&#160;&hellip;"
+
+#: inc/class-jobtype-wpexp.php:407
+msgid "WP Export file is a valid WXR file."
+msgstr "WP exportbestand is een geldig WXR bestand."
+
+#: src/Infrastructure/Xml/WxrValidator.php:69
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "Het lijkt of dit geen WXR bestand is, het WXR versie nummer ontbreekt of is ongeldig"
+
+#: inc/class-jobtype-wpexp.php:422
+msgid "XML ERROR (%s): %s"
+msgstr "XML FOUT (%s): %s"
+
+#: inc/class-jobtype-wpexp.php:418
+msgid "XML RECOVERABLE (%s): %s"
+msgstr "XML RECOVERABLE (%s): %s"
+
+#: inc/class-jobtype-wpexp.php:414
+msgid "XML WARNING (%s): %s"
+msgstr "XML WAARSCHUWING (%s): %s"
+
+#: inc/class-jobtype-wpexp.php:400
+msgid "Check WP Export file&#160;&hellip;"
+msgstr "Controleer WP-exportbestand&#160;&hellip;"
+
+#: inc/class-jobtype-wpexp.php:168 inc/class-jobtype-wpexp.php:182
+#: inc/class-jobtype-wpexp.php:212 inc/class-jobtype-wpexp.php:234
+#: inc/class-jobtype-wpexp.php:268 inc/class-jobtype-wpexp.php:288
+#: inc/class-jobtype-wpexp.php:377 inc/class-jobtype-wpexp.php:386
+msgid "WP Export file could not written."
+msgstr "WP-exportbestand kon niet worden geschreven."
+
+#: inc/class-jobtype-wpexp.php:122
+msgid "WP Export: Post type “%s” does not allow export."
+msgstr "WP export: berichttype “%s” staat geen export toe."
+
+#: inc/class-jobtype-wpexp.php:108
+msgid "%d. Trying to create a WordPress export to XML file&#160;&hellip;"
+msgstr "%d. Poging tot het aanmaken van een WordPress export naar een XML bestand&#160;&hellip;"
+
+#: inc/class-jobtype-wpexp.php:69 inc/class-jobtype-wpplugin.php:47
+msgid "File compression"
+msgstr "Bestandscompressie"
+
+#: inc/class-jobtype-wpexp.php:61
+msgid "XML Export file name"
+msgstr "XML-export bestandsnaam"
+
+#: inc/class-jobtype-wpexp.php:50
+msgid "Pages"
+msgstr "Pagina's"
+
+#: inc/class-jobtype-wpexp.php:49
+msgid "Posts"
+msgstr "Berichten"
+
+#: inc/class-jobtype-wpexp.php:48
+msgid "All content"
+msgstr "Alle inhoud"
+
+#: inc/class-jobtype-wpexp.php:45
+msgid "Items to export"
+msgstr "Onderdelen die geëxporteerd moeten worden"
+
+#: inc/class-jobtype-wpexp.php:12 inc/class-page-about.php:454
+msgid "WordPress XML export"
+msgstr "WordPress XML-export"
+
+#: inc/class-jobtype-wpexp.php:11
+msgid "XML export"
+msgstr "XML-export"
+
+#: inc/class-jobtype-file.php:464
+msgid "Folder \"%s\" is not readable!"
+msgstr "Map \"%s\" is niet leesbaar!"
+
+#: inc/class-jobtype-file.php:417
+msgid "%1$d folders to backup."
+msgstr "%1$d mappen om te back-uppen."
+
+#: inc/class-jobtype-file.php:415
+msgid "No files/folder for the backup."
+msgstr "Geen bestanden/mappen voor de back-up."
+
+#: inc/class-jobtype-file.php:388 inc/class-jobtype-file.php:392
+#: inc/class-jobtype-file.php:409
+msgid "Added \"%s\" to backup file list"
+msgstr "Toegevoegd \"%s\" aan de back-up bestanden lijst"
+
+#: inc/class-jobtype-file.php:264
+msgid "%d. Trying to make a list of folders to back up&#160;&hellip;"
+msgstr "%d. Poging tot het maken van een lijst van mappen die gebackupped moet worden&#160;&hellip;"
+
+#: inc/class-jobtype-file.php:167
+msgid "Include special files"
+msgstr "Speciale bestanden meenemen"
+
+#: inc/class-jobtype-file.php:163
+msgid "Special options"
+msgstr "Speciale opties"
+
+#: inc/class-jobtype-file.php:158
+msgid "Separate file / folder name parts with a line-break or a comma. For example /logs/,.log,.tmp"
+msgstr "Scheidt de delen van bestand- / map-namen met een nieuwe regel of een komma. Bijvoorbeeld /logs/,.log,.tmp"
+
+#: inc/class-jobtype-file.php:155
+msgid "Exclude files/folders from backup"
+msgstr "Bestanden/mappen uitsluiten van de back-up"
+
+#: inc/class-jobtype-file.php:151
+msgid "Don't backup thumbnails from the site's uploads folder."
+msgstr "Maak geen back-up van thumbnails in de uploads map van de site."
+
+#: inc/class-jobtype-file.php:149
+msgid "Thumbnails in uploads"
+msgstr "Thumbnails in uploads"
+
+#: inc/class-jobtype-file.php:145
+msgid "Exclude from backup"
+msgstr "Uitsluiten van back-up"
+
+#: inc/class-jobtype-file.php:140
+msgid "Separate folder names with a line-break or a comma. Folders must be set with their absolute path!"
+msgstr "Scheidt mapnamen met een regeleinde of komma. Geef het absolute pad van de mappen!"
+
+#: inc/class-jobtype-file.php:137
+msgid "Extra folders to backup"
+msgstr "Extra mappen om te back-uppen"
+
+#: inc/class-jobtype-file.php:130
+msgid "Backup uploads folder"
+msgstr "Back-up upload map"
+
+#: inc/class-jobtype-file.php:123
+msgid "Backup themes"
+msgstr "Back-up thema's"
+
+#: inc/class-jobtype-file.php:116
+msgid "Backup plugins"
+msgstr "Back-up plugins"
+
+#: inc/class-jobtype-file.php:109
+msgid "Backup content folder"
+msgstr "Back-up inhoud map"
+
+#: inc/class-jobtype-file.php:538
+msgid "Excluded by .donotbackup file!"
+msgstr "Uitgesloten door .donotbackup bestand"
+
+#: inc/class-jobtype-file.php:525
+msgid "Exclude:"
+msgstr "Uitsluiten:"
+
+#: inc/class-jobtype-file.php:522
+msgid "Path as set by user (symlink?): %s"
+msgstr "Pad zoals ingesteld door gebruiker (symlink?): %s"
+
+#: inc/class-jobtype-file.php:98
+msgid "Folders to backup"
+msgstr "Folders die geback-upt moeten worden"
+
+#: inc/class-jobtype-file.php:9
+msgid "File backup"
+msgstr "Bestand back-up"
+
+#: inc/class-jobtype-file.php:8
+msgid "Files"
+msgstr "Bestanden"
+
+#: inc/class-jobtype-dbdump.php:260
+msgid "Database backup done!"
+msgstr "Database back-up klaar!"
+
+#: inc/class-jobtype-dbdump.php:255
+msgid "Added database dump \"%1$s\" with %2$s to backup file list"
+msgstr "Database dump \"%1$s\" met %2$s aan back-up bestand lijst toegevoegd"
+
+#: inc/class-jobtype-dbdump.php:250
+msgid "MySQL backup file not created"
+msgstr "MySQL back-up bestand niet aangemaakt"
+
+#: inc/class-jobtype-dbdump.php:206
+msgid "Backup database table \"%s\" with \"%s\" records"
+msgstr "Back-up databasetabel \"%s\" met \"%s\" records"
+
+#: inc/class-jobtype-dbdump.php:181
+msgid "No tables to backup."
+msgstr "Geen tabellen om te back-uppen."
+
+#: inc/class-jobtype-dbdump.php:167
+msgid "Connected to database %1$s on %2$s"
+msgstr "Verbonden met database %1$s op %2$s"
+
+#: inc/class-jobtype-dbdump.php:152
+msgid "%d. Try to backup database&#160;&hellip;"
+msgstr "%d. Probeer de database te back-uppen#160;&hellip;"
+
+#: inc/class-jobtype-dbdump.php:99 inc/class-jobtype-dbdump.php:101
+#: inc/class-jobtype-wpexp.php:75 inc/class-jobtype-wpexp.php:77
+#: inc/class-jobtype-wpplugin.php:53 inc/class-jobtype-wpplugin.php:55
+msgid "GZip"
+msgstr "GZip"
+
+#: inc/class-jobtype-dbdump.php:93
+msgid "Backup file compression"
+msgstr "Back-up bestand compressie"
+
+#: inc/class-jobtype-dbdump.php:85
+msgid "Backup file name"
+msgstr "Bestandsnaam back-up"
+
+#: inc/class-jobtype-dbdump.php:60
+msgid "all"
+msgstr "alle"
+
+#: inc/class-jobtype-dbdump.php:58
+msgid "Tables to backup"
+msgstr "Tabellen naar back-up"
+
+#: inc/class-jobtype-dbdump.php:54
+msgid "Settings for database backup"
+msgstr "Instellingen voor de database back-up"
+
+#: inc/class-jobtype-dbdump.php:8
+msgid "Database backup"
+msgstr "Database back-up"
+
+#: inc/class-jobtype-dbdump.php:7
+msgid "DB Backup"
+msgstr "DB back-up"
+
+#: inc/class-jobtype-dbcheck.php:150
+msgid "No tables to check."
+msgstr "Geen tabellen om te controleren."
+
+#: inc/class-jobtype-dbcheck.php:148
+msgid "Database check done!"
+msgstr "Database controle uitgevoerd!"
+
+#: inc/class-jobtype-dbcheck.php:138 inc/class-jobtype-dbcheck.php:140
+#: inc/class-jobtype-dbcheck.php:142
+msgid "Result of table repair for %1$s is: %2$s"
+msgstr "Resultaat van het repareren van de tabel van %1$s is: %2$s"
+
+#: inc/class-jobtype-dbcheck.php:127 inc/class-jobtype-dbcheck.php:130
+#: inc/class-jobtype-dbcheck.php:132
+msgid "Result of table check for %1$s is: %2$s"
+msgstr "Resultaat van tabel controle voor %1$s is: %2$s"
+
+#: inc/class-jobtype-dbcheck.php:118
+msgid "Table %1$s is not a MyISAM/InnoDB table. Not checked."
+msgstr "Tabel %1$s is geen MyISAM/InnoDB tabel. Niet gecontroleerd."
+
+#: inc/class-jobtype-dbcheck.php:112
+msgid "Table %1$s is a view. Not checked."
+msgstr "Tabel %1$s is een view. Niet gecontroleerd."
+
+#: inc/class-jobtype-dbcheck.php:75
+msgid "%d. Trying to check database&#160;&hellip;"
+msgstr "%d. Bezig om de database te controleren&#160;&hellip;"
+
+#: inc/class-jobtype-dbcheck.php:48
+msgid "Try to repair defect table"
+msgstr "Probeer de defecte tabel te repareren"
+
+#: inc/class-jobtype-dbcheck.php:43
+msgid "Repair"
+msgstr "Repareren"
+
+#: inc/class-jobtype-dbcheck.php:38
+msgid "Check WordPress database tables only"
+msgstr "Alleen WordPress database tabellen controleren"
+
+#: inc/class-jobtype-dbcheck.php:33
+msgid "WordPress tables only"
+msgstr "Alleen WordPress-tabellen"
+
+#: inc/class-jobtype-dbcheck.php:29
+msgid "Settings for database check"
+msgstr "Instellingen voor de database controle"
+
+#: inc/class-jobtype-dbcheck.php:8
+msgid "Check database tables"
+msgstr "Controleer de database-tabellen"
+
+#: inc/class-jobtype-dbcheck.php:7
+msgid "DB Check"
+msgstr "DB-controle"
+
+#: inc/class-job.php:1883
+msgid "%1$d Files with %2$s in Archive."
+msgstr "%1$d bestanden met %2$s in archief."
+
+#: inc/class-job.php:1876
+msgid "Archive size is %s."
+msgstr "Archiefgrootte is %s."
+
+#: inc/class-job.php:1853
+msgid "Backup archive created."
+msgstr "Back-up archief aangemaakt."
+
+#: inc/class-job.php:1773 inc/class-job.php:1841
+msgid "Cannot create backup archive correctly. Aborting creation."
+msgstr "Kan back-up-archief niet correct aanmaken. De handeling wordt afgebroken."
+
+#: inc/class-job.php:1744
+msgctxt "Archive compression method"
+msgid "Compressing files as %s. Please be patient, this may take a moment."
+msgstr "Bestand comprimeren als %s. Even geduld , dit kan even duren."
+
+#: inc/class-job.php:1731
+msgid "%d. Trying to create backup archive &hellip;"
+msgstr "%d. Bezig met het aanmaken van een back-up archief&hellip;"
+
+#: inc/class-job.php:2313
+msgid "Added manifest.json file with %1$s to backup file list."
+msgstr "Er is een manifest.json bestand toegevoegd met %1$s om bestanden lijst te back-uppen."
+
+#: inc/class-job.php:2299
+msgid "Please leave manifest.json untouched and in place. Otherwise it is safe to be ignored."
+msgstr "Laat manifest.json waar het staat en bewerk het niet. Zo is het veilig om genegeerd te worden."
+
+#: inc/class-job.php:2295
+msgid "manifest.json might be needed for later restoring a backup from this archive."
+msgstr "manifest.json zou nodig kunnen zijn om later een back-up te kunnen herstellen uit dit archief."
+
+#: inc/class-job.php:2294
+msgid "You may have noticed the manifest.json file in this archive."
+msgstr "Wellicht heb je het manifest.json bestand in dit archief opgemerkt."
+
+#: inc/class-job.php:2224
+msgid "%d. Trying to generate a manifest file&#160;&hellip;"
+msgstr "%d. Bezig met het genereren van een manifest bestand&#160;&hellip;"
+
+#: inc/class-job.php:2132
+msgid "File size of “%s” cannot be retrieved. File might be too large and will not be added to queue."
+msgstr "Grootte van bestand \"%s\" kan niet bepaald worden. Bestand is wellicht te groot en zal niet aan de wachtrij worden toegevoegd."
+
+#: inc/class-job.php:2124
+msgid "File \"%s\" is not readable!"
+msgstr "Bestand \"%s\" is niet leesbaar!"
+
+#: inc/class-job.php:2119
+msgid "Link \"%s\" not following."
+msgstr "Link \"%s\" niet gevolgd."
+
+#: inc/class-job.php:2083
+msgctxt "Folder name"
+msgid "Folder %s is not readable"
+msgstr "Map %s is niet leesbaar"
+
+#: inc/class-job.php:2074
+msgctxt "Folder name"
+msgid "Folder %s does not exist"
+msgstr "Map %s bestaat niet"
+
+#: inc/class-job.php:1232
+msgid "[%3$s] BackWPup log %1$s: %2$s"
+msgstr "[%3$s] BackWPup log %1$s: %2$s"
+
+#: inc/class-job.php:1228
+msgid "ERROR"
+msgstr "FOUT"
+
+#: inc/class-job.php:1225
+msgid "WARNING"
+msgstr "WAARSCHUWING"
+
+#: inc/class-job.php:1223
+msgid "SUCCESSFUL"
+msgstr "SUCCESVOL"
+
+#: inc/class-job.php:1166 inc/class-page-jobs.php:919
+msgid "Job done in %s seconds."
+msgstr "Taak uitgevoerd in %s seconden."
+
+#: inc/class-job.php:1156
+msgid "Job finished with warnings in %s seconds. Please resolve them for correct execution."
+msgstr "Taak is afgerond met waarschuwingen in %s seconden. Los deze op zodat de taak correct kan worden uitgevoerd."
+
+#: inc/class-job.php:1145 inc/class-page-jobs.php:915
+msgid "Job has ended with errors in %s seconds. You must resolve the errors for correct execution."
+msgstr "Taak is afgerond met fouten in %s seconden. Je moet deze fouten oplossen voor een correcte uitvoering."
+
+#: inc/class-job.php:1129
+msgid "One old log deleted"
+msgid_plural "%d old logs deleted"
+msgstr[0] "Een oude log verwijderd"
+msgstr[1] "%d oude logs verwijderd"
+
+#: inc/class-job.php:1091
+msgid "Aborted by user!"
+msgstr "Afgebroken door gebruiker!"
+
+#: inc/class-job.php:713
+msgid "Cannot write progress to working file. Job will be aborted."
+msgstr "Kan de voortgang niet wegschrijven naar het werkbestand. Taak wordt afgebroken."
+
+#: inc/class-job.php:815
+msgid "RECOVERABLE ERROR:"
+msgstr "HERSTELBARE FOUT:"
+
+#: inc/class-job.php:809
+msgid "STRICT NOTICE:"
+msgstr "STRIKT BERICHT:"
+
+#: inc/class-job.php:805
+msgid "DEPRECATED:"
+msgstr "VEROUDERD:"
+
+#: inc/class-job.php:800 inc/class-page-jobs.php:915
+msgid "ERROR:"
+msgstr "FOUT:"
+
+#: inc/class-job.php:790 inc/class-page-jobs.php:917
+msgid "WARNING:"
+msgstr "WAARSCHUWING:"
+
+#: inc/class-job.php:2692
+msgid "Exception caught in %1$s: %2$s"
+msgstr "Uitzondering gevangen in %1$s: %2$s"
+
+#: inc/class-file.php:197
+msgid "BackWPup will not backup folders and its sub folders when this file is inside."
+msgstr "BackWPup zal de mappen en de submappen niet back-uppen waar dit bestand in staat."
+
+#: inc/class-file.php:159
+msgid "Folder \"%1$s\" is not writable"
+msgstr "Map \"%1$s\" is niet schrijfbaar"
+
+#: inc/class-file.php:153
+msgid "Cannot create folder: %1$s"
+msgstr "Kan map niet aanmaken: %1$s"
+
+#: inc/class-file.php:142
+msgid "Folder %1$s not allowed, please use another folder."
+msgstr "Map %1$s is niet toegestaan, kies een andere map."
+
+#: inc/class-job.php:1361
+msgid "Restart after %1$d seconds."
+msgstr "Herstart na %1$d seconden."
+
+#: inc/class-job.php:1652
+msgid "Step aborted: too many attempts!"
+msgstr "Stap afgebroken: te veel pogingen!"
+
+#: inc/class-job.php:1549
+msgid "Job restarts due to inactivity for more than 5 minutes."
+msgstr "Taak is opnieuw gestart omdat er meer dan 5 minuten niets gebeurde."
+
+#: inc/class-job.php:2367
+msgid "A BackWPup job is already running"
+msgstr "Er loopt al een BackWPup taak"
+
+#: inc/class-job.php:2354
+msgid "Wrong BackWPup JobID"
+msgstr "Verkeerde BackWPup taak ID"
+
+#: inc/class-job.php:613
+msgid "No destination correctly defined for backup! Please correct job settings."
+msgstr "Er is geen correcte bestemming ingesteld voor de back-up! Corrigeer dit ."
+
+#: inc/class-job.php:586
+msgid "[INFO] Backup file is: %s"
+msgstr "[INFO] Back-up bestand is: %s"
+
+#: inc/class-job.php:589
+msgid "[INFO] Backup type is: %s"
+msgstr "[INFO] Back-up-soort is: %s"
+
+#: inc/class-job.php:579
+msgid "[INFO] Logfile is: %s"
+msgstr "[INFO] Logbestand is: %s"
+
+#: inc/class-job.php:570
+msgid "[INFO] Temp folder is: %s"
+msgstr "[INFO] Temp-map is: %s"
+
+#: inc/class-job.php:564
+msgid "[INFO] curl ver.: %1$s; %2$s"
+msgstr "[INFO] curl versie: %1$s; %2$s"
+
+#: inc/class-job.php:557
+msgid "[INFO] Web Server: %s"
+msgstr "[INFO] Webserver: %s"
+
+#: inc/class-job.php:552
+msgid "[INFO] MySQL ver.: %s"
+msgstr "[INFO] MySQL versie: %s"
+
+#: inc/class-job.php:546
+msgid "[INFO] Script restart time is configured to %1$d seconds"
+msgstr "[INFO] aantal seconden waarna het script opnieuw start is ingesteld op %1$d"
+
+#: inc/class-job.php:539
+msgid "[INFO] Maximum PHP script execution time is %1$d seconds"
+msgstr "[INFO] Maximum tijd om het PHP-script uit te voeren is %1$d seconden"
+
+#: inc/class-job.php:534
+msgid "[INFO] PHP ver.:"
+msgstr "[INFO] PHP-ver.:"
+
+#: inc/class-job.php:522
+msgid "[INFO] BackWPup job started form commandline interface"
+msgstr "[INFO] BackWPup-taak gestart vanaf de commandline omgeving"
+
+#: inc/class-job.php:520
+msgid "[INFO] BackWPup job started from external url"
+msgstr "[INFO] BackWPup-taak werd gestart vanaf een externe url"
+
+#: inc/class-job.php:518
+msgid "[INFO] BackWPup job started manually"
+msgstr "[INFO] BackWPup-taak is handmatig gestart"
+
+#: inc/class-job.php:516
+msgid "[INFO] BackWPup job started from wp-cron"
+msgstr "[INFO] BackWPup-taak opgestart door wp-cron"
+
+#: inc/class-job.php:512
+msgid "[INFO] BackWPup no automatic job start configured"
+msgstr "[INFO] BackWPup automatische start van taken niet ingesteld"
+
+#: inc/class-job.php:498
+msgid "[INFO] BackWPup job start with link is active"
+msgstr "[INFO] BackWPup-taak start met link is actief"
+
+#: inc/class-job.php:483 inc/class-page-backwpup.php:323
+#: inc/class-page-jobs.php:283 inc/class-page-jobs.php:291
+msgid "Not scheduled!"
+msgstr "Niet ingepland!"
+
+#: inc/class-job.php:413
+msgid "BackWPup log for %1$s from %2$s at %3$s"
+msgstr "BackWPup log voor %1$s van %2$s bij %3$s"
+
+#: inc/class-job.php:386
+msgid "End of Job"
+msgstr "Einde van de taak"
+
+#: inc/class-job.php:339
+msgid "Creates archive"
+msgstr "Maakt een archief aan"
+
+#: inc/class-job.php:317
+msgid "Creates manifest file"
+msgstr "Inhoudsopgave bestand wordt aangemaakt"
+
+#: inc/class-job.php:297
+msgid "Job Start"
+msgstr "Start van de taak"
+
+#: inc/class-job.php:279
+msgid "Starting job"
+msgstr "Taak wordt gestart"
+
+#: inc/class-install.php:99
+msgid "BackWPup jobs checker"
+msgstr "BackWPup taken-controle"
+
+#: inc/class-install.php:84
+msgid "BackWPup Admin"
+msgstr "BackWPup-beheerder"
+
+#: inc/class-help.php:18
+msgid "Manual"
+msgstr "Handmatige"
+
+#: inc/class-help.php:17
+msgid "Plugin on wordpress.org"
+msgstr "Plugin op wordpress.org"
+
+#: inc/class-help.php:15
+msgid "For more information:"
+msgstr "Voor meer informatie:"
+
+#: inc/class-help.php:12
+msgid "BackWPup comes with ABSOLUTELY NO WARRANTY. This is a free software, and you are welcome to redistribute it under certain conditions."
+msgstr "Er zit ABSOLUUT GEEN GARANTIE op BackWPup. Dit is gratis software en je mag het verder distribueren onder bepaalde voorwaarden."
+
+#: inc/class-help.php:11
+msgctxt "Plugin name and link; Plugin Version"
+msgid "%1$s version %2$s. A project by <a href=\"https://wp-media.me\">WP Media</a>."
+msgstr "%1$s versie %2$s. Een project van <a href=\"https://wp-media.me\">WP Media</a>."
+
+#: inc/class-help.php:10
+msgid "Plugin Info"
+msgstr "Plugin info"
+
+#: inc/class-destination-sugarsync.php:319
+msgid "SugarSync API: %s"
+msgstr "SugarSync API: %s"
+
+#: inc/class-destination-sugarsync.php:313
+msgid "One file deleted on SugarSync folder"
+msgid_plural "%d files deleted on SugarSync folder"
+msgstr[0] "Een bestand verwijderd van de SugarSync map"
+msgstr[1] "%d bestanden verwijderd van de SugarSync map"
+
+#: inc/class-destination-sugarsync.php:263
+msgid "Cannot transfer backup to SugarSync!"
+msgstr "Kan de back-up niet naar SugarSync verplaatsen!"
+
+#: inc/class-destination-sugarsync.php:243
+msgid "Starting upload to SugarSync&#160;&hellip;"
+msgstr "Upload naar SugarSync wordt gestart&#160;&hellip;"
+
+#: inc/class-destination-sugarsync.php:236
+msgid "%s available at SugarSync"
+msgstr "%s beschikbaar op SugarSync"
+
+#: inc/class-destination-sugarsync.php:230
+msgctxt "Available space on SugarSync"
+msgid "Not enough disk space available on SugarSync. Available: %s."
+msgstr "Niet genoeg schijfruimte beschikbaar op SugarSync. Nog vrij: %s."
+
+#: inc/class-destination-sugarsync.php:226
+msgid "Authenticated to SugarSync with nickname %s"
+msgstr "Aangemeld bij SugarSync met nickname %s"
+
+#: inc/class-destination-sugarsync.php:219
+msgid "%d. Try to send backup to SugarSync&#160;&hellip;"
+msgstr "%d. Probeer de back-up naar SugarSync te sturen&#160;&hellip;"
+
+#: inc/class-destination-sugarsync.php:80
+msgid "Folder in root"
+msgstr "Map in de root"
+
+#: inc/class-destination-sugarsync.php:59
+msgid "No Syncfolders found!"
+msgstr "Geen sync mappen gevonden!"
+
+#: inc/class-destination-sugarsync.php:51
+msgid "Sync folder selection"
+msgstr "Sync map selectie"
+
+#: inc/class-destination-sugarsync.php:47
+msgid "SugarSync Root"
+msgstr "SugarSync Root"
+
+#: inc/class-destination-sugarsync.php:41
+#: inc/class-destination-sugarsync.php:123
+msgid "Delete Sugarsync authentication!"
+msgstr "Verwijder Sugarsync verificatie!"
+
+#: inc/class-destination-sugarsync.php:33
+#: inc/class-destination-sugarsync.php:127
+msgid "Create Sugarsync account"
+msgstr "SugarSync account aanmaken"
+
+#: inc/class-destination-sugarsync.php:32
+#: inc/class-destination-sugarsync.php:111
+msgid "Authenticate with Sugarsync!"
+msgstr "Aanmelden met SugarSync!"
+
+#: inc/class-destination-sugarsync.php:28
+msgid "Password:"
+msgstr "Wachtwoord:"
+
+#: inc/class-destination-sugarsync.php:25
+msgid "Email address:"
+msgstr "E-mailadres:"
+
+#: inc/class-destination-sugarsync.php:17
+msgid "Sugarsync Login"
+msgstr "Sugarsync login"
+
+#: inc/class-destination-s3.php:769
+msgid "Storage Class: %s"
+msgstr "Opslag klasse: %s"
+
+#: inc/class-destination-s3.php:890
+msgid "Upload for %s aborted."
+msgstr "Upload van %s afgebroken."
+
+#: inc/class-destination-s3.php:877
+msgid "Checking for not aborted multipart Uploads&#160;&hellip;"
+msgstr "Bezig met controleren van niet-afgebroken meervoudige uploads&#160;&hellip;"
+
+#: inc/class-destination-s3.php:526
+msgid "No bucket found!"
+msgstr "Geen bucket gevonden!"
+
+#: inc/class-destination-s3.php:520
+msgid "Missing secret access key!"
+msgstr "Geheime toegangssleutel ontbreekt!"
+
+#: inc/class-destination-s3.php:817
+msgid "One file deleted on S3 Bucket."
+msgid_plural "%d files deleted on S3 Bucket"
+msgstr[0] "Eén bestand verwijderd van S3 Bucket."
+msgstr[1] "%d bestanden verwijderd van S3 Bucket"
+
+#: inc/class-destination-s3.php:807
+msgid "Cannot delete backup from %s."
+msgstr "Kan de back-up niet verwijderen van %s."
+
+#: inc/class-destination-s3.php:1077
+msgid "Cannot transfer backup to S3! (%1$d) %2$s"
+msgstr "Kan de back-up niet overzetten naar S3! (%1$d) %2$s"
+
+#: inc/class-destination-s3.php:1062
+msgid "Backup transferred to %s."
+msgstr "Back-up verplaatst naar %s."
+
+#: inc/class-destination-s3.php:896
+msgid "Starting upload to S3 Service&#160;&hellip;"
+msgstr "De upload naar S3 dienst wordt gestart&#160;&hellip;"
+
+#: inc/class-destination-s3.php:868
+msgid "S3 Bucket \"%s\" does not exist!"
+msgstr "S3 Bucket \"%s\" bestaat niet!"
+
+#: inc/class-destination-s3.php:861
+msgid "Connected to S3 Bucket \"%1$s\" in %2$s"
+msgstr "Verbonden met S3 bucket \"%1$s\" in %2$s"
+
+#: inc/class-destination-s3.php:838
+msgid "%d. Trying to send backup file to S3 Service&#160;&hellip;"
+msgstr "%d. Bezig om het back-up bestand naar S3 dienst te sturen&#160;&hellip;"
+
+#: inc/class-destination-s3.php:700 inc/class-destination-s3.php:933
+#: inc/class-destination-s3.php:1030 inc/class-destination-s3.php:1091
+#: inc/class-destination-s3.php:1108
+msgid "S3 Service API: %s"
+msgstr "S3 dienst API: %s"
+
+#: inc/class-destination-s3.php:650
+msgid "Bucket %1$s created."
+msgstr "Bucket %1$s aangemaakt."
+
+#: inc/class-destination-s3.php:439
+msgid "Save files encrypted (AES256) on server."
+msgstr "Bestanden versleuteld (AES256) opslaan op server."
+
+#: inc/class-destination-s3.php:428
+msgid "Server side encryption"
+msgstr "Versleuteling aan de serverkant"
+
+#: inc/class-destination-s3.php:412
+msgid "Reduced Redundancy"
+msgstr "Veminderde redundancy"
+
+#: inc/class-destination-s3.php:390 inc/class-destination-s3.php:397
+msgid "Amazon: Storage Class"
+msgstr "Amazon: Storage Class"
+
+#: inc/class-destination-s3.php:385
+msgid "Amazon specific settings"
+msgstr "Specifieke instellingen van Amazon"
+
+#: inc/class-destination-s3.php:328
+msgid "S3 Backup settings"
+msgstr "S3 back-up instellingen"
+
+#: inc/class-destination-s3.php:311
+msgid "Create a new bucket"
+msgstr "Een nieuwe bucket aanmaken"
+
+#: inc/class-destination-s3.php:269
+msgid "Bucket selection"
+msgstr "Bucket selectie"
+
+#: inc/class-destination-s3.php:263
+msgid "S3 Bucket"
+msgstr "S3 Bucket"
+
+#: inc/class-destination-s3.php:251
+msgid "Secret Key"
+msgstr "Geheime sleutel"
+
+#: inc/class-destination-s3.php:237
+msgid "Access Key"
+msgstr "Toegangssleutel"
+
+#: inc/class-destination-s3.php:231
+msgid "S3 Access Keys"
+msgstr "S3 Toegangssleutel"
+
+#: inc/class-destination-s3.php:66
+msgid "Or a S3 Server URL"
+msgstr "Of een S3 server URL"
+
+#: inc/class-s3-destination.php:181
+msgid "Dream Host Cloud Storage"
+msgstr "Dream Host Cloud Storage"
+
+#: inc/class-s3-destination.php:151
+msgid "Amazon S3: South America (São Paulo)"
+msgstr "Amazon S3: Zuid-Amerika (São Paulo)"
+
+#: inc/class-s3-destination.php:101
+msgid "Amazon S3: Asia Pacific (Sydney)"
+msgstr "Amazon S3: Asia Pacific (Sydney)"
+
+#: inc/class-s3-destination.php:96
+msgid "Amazon S3: Asia Pacific (Singapore)"
+msgstr "Amazon S3: Asia Pacific (Singapore)"
+
+#: inc/class-s3-destination.php:106
+msgid "Amazon S3: Asia Pacific (Tokyo)"
+msgstr "Amazon S3: Asia Pacific (Tokyo)"
+
+#: inc/class-s3-destination.php:121
+msgid "Amazon S3: Europe (Ireland)"
+msgstr "Amazon S3: Europa (Ierland)"
+
+#: inc/class-s3-destination.php:61
+msgid "Amazon S3: US West (Oregon)"
+msgstr "Amazon S3: US West (Oregon)"
+
+#: inc/class-s3-destination.php:56
+msgid "Amazon S3: US West (N. California)"
+msgstr "Amazon S3: US West (N. California)"
+
+#: inc/class-destination-s3.php:46
+msgid "Select a S3 service"
+msgstr "Selecteer een S3 dienst"
+
+#: inc/class-destination-rsc.php:467
+msgid "A container could not be found!"
+msgstr "Een container kon niet worden gevonden!"
+
+#: inc/class-destination-rsc.php:463
+msgid "Missing API Key!"
+msgstr "API-sleutel ontbreekt!"
+
+#: inc/class-destination-rsc.php:461
+msgid "Missing username!"
+msgstr "Gebruikersnaam ontbreekt!"
+
+#: inc/class-destination-rsc.php:352
+msgid "One file deleted on Rackspace cloud container."
+msgid_plural "%d files deleted on Rackspace cloud container."
+msgstr[0] "Eén bestand verwijderd van de Rackspace cloudcontainer."
+msgstr[1] "%d bestanden verwijderd van de Rackspace cloudcontainer."
+
+#: inc/class-destination-rsc.php:302
+msgid "Cannot transfer backup to Rackspace cloud."
+msgstr "Kan de back-up niet verplaatsen naar Rackspace-cloud."
+
+#: inc/class-destination-rsc.php:296
+msgid "Backup File transferred to RSC://"
+msgstr "Back-up bestand verplaatst naar RSC://"
+
+#: inc/class-destination-rsc.php:276
+msgid "Upload to Rackspace cloud started &hellip;"
+msgstr "Upload naar Rackspacecloud is gestart&hellip;"
+
+#: inc/class-destination-rsc.php:266
+msgid "Connected to Rackspace cloud files container %s"
+msgstr "Verbonden met de Rackspace cloud bestanden container %s"
+
+#: inc/class-destination-rsc.php:249
+msgid "%d. Trying to send backup file to Rackspace cloud &hellip;"
+msgstr "%d. Bezig om het back-up bestand naar Backspace cloud te sturen&hellip;"
+
+#: inc/class-destination-rsc.php:159 inc/class-destination-rsc.php:268
+#: inc/class-destination-rsc.php:307 inc/class-destination-rsc.php:358
+msgid "Rackspace Cloud API: %s"
+msgstr "Rackspace Cloud API: %s"
+
+#: inc/class-destination-rsc.php:157
+msgid "Rackspace Cloud container \"%s\" created."
+msgstr "Rackspace Cloud container \"%s\" aangemaakt."
+
+#: inc/class-destination-rsc.php:94 inc/class-destination-s3.php:334
+msgid "Folder in bucket"
+msgstr "Map in bucket"
+
+#: inc/class-destination-rsc.php:64
+msgid "Hong Kong (HKG)"
+msgstr "Hong Kong (HKG)"
+
+#: inc/class-destination-rsc.php:63
+msgid "Northern Virginia (IAD)"
+msgstr "Northern Virginia (IAD)"
+
+#: inc/class-destination-rsc.php:62
+msgid "London (LON)"
+msgstr "Londen (LON)"
+
+#: inc/class-destination-rsc.php:61
+msgid "Sydney (SYD)"
+msgstr "Sydney (SYD)"
+
+#: inc/class-destination-rsc.php:60
+msgid "Chicago (ORD)"
+msgstr "Chicago (ORD)"
+
+#: inc/class-destination-rsc.php:59
+msgid "Dallas (DFW)"
+msgstr "Dallas (DFW)"
+
+#: inc/class-destination-rsc.php:56 inc/class-destination-rsc.php:58
+msgid "Rackspace Cloud Files Region"
+msgstr "Rackspace Cloud Files Regio"
+
+#: inc/class-destination-rsc.php:52
+msgid "Select region"
+msgstr "Regio selecteren"
+
+#: inc/class-destination-rsc.php:45
+msgid "API Key"
+msgstr "API-key"
+
+#: inc/class-destination-rsc.php:35
+msgid "Rack Space Cloud Keys"
+msgstr "Rack Space Cloud Keys"
+
+#: inc/class-destination-msazure.php:489
+msgid "No container found!"
+msgstr "Geen container gevonden!"
+
+#: inc/class-destination-msazure.php:485 inc/class-destination-s3.php:518
+msgid "Missing access key!"
+msgstr "Accesskey ontbreekt!"
+
+#: inc/class-destination-msazure.php:483
+msgid "Missing account name!"
+msgstr "Accountnaam ontbreekt!"
+
+#: inc/class-destination-msazure.php:377
+msgid "One file deleted on Microsoft Azure container."
+msgid_plural "%d files deleted on Microsoft Azure container."
+msgstr[0] "Eén bestand verwijderd van Microsoft Azure container."
+msgstr[1] "%d bestanden verwijderd van Microsoft Azure container."
+
+#: inc/class-destination-msazure.php:318 inc/class-destination-msazure.php:383
+msgid "Microsoft Azure API: %s"
+msgstr "Microsoft Azure API: %s"
+
+#: inc/class-destination-msazure.php:258
+msgid "Starting upload to MS Azure&#160;&hellip;"
+msgstr "Uploaden naar MS Azure begint&#160;&hellip;"
+
+#: inc/class-destination-msazure.php:256
+msgid "Connected to MS Azure container \"%s\"."
+msgstr "Verbonden met MS Azure container \"%s\"."
+
+#: inc/class-destination-msazure.php:252
+msgid "MS Azure container \"%s\" does not exist!"
+msgstr "MS Azure container \"%s\" bestaat niet!"
+
+#: inc/class-destination-msazure.php:229
+msgid "%d. Try sending backup to a Microsoft Azure (Blob)&#160;&hellip;"
+msgstr "%d. Probeer de back-up te verzenden naar een Microsoft Azure (Blob)&#160;&hellip;"
+
+#: inc/class-destination-msazure.php:136
+msgid "MS Azure container create: %s"
+msgstr "MS Azure container aanmaken: %s"
+
+#: inc/class-destination-msazure.php:131
+msgid "MS Azure container \"%s\" created."
+msgstr "MS Azure container \"%s\" aangemaakt."
+
+#: inc/class-destination-msazure.php:86 inc/class-destination-rsc.php:100
+#: inc/class-destination-s3.php:347
+msgid "File deletion"
+msgstr "Bestandsverwijdering"
+
+#: inc/class-destination-msazure.php:77
+msgid "Folder in container"
+msgstr "Map in container"
+
+#: inc/class-destination-msazure.php:66 inc/class-destination-rsc.php:83
+msgid "Create a new container"
+msgstr "Nieuwe container aanmaken"
+
+#: inc/class-destination-msazure.php:53 inc/class-destination-rsc.php:69
+msgid "Container selection"
+msgstr "Container selectie"
+
+#: inc/class-destination-msazure.php:49
+msgid "Blob container"
+msgstr "Blobcontainer"
+
+#: inc/class-destination-msazure.php:41
+msgid "Access key"
+msgstr "Toegangssleutel"
+
+#: inc/class-destination-msazure.php:34
+msgid "Account name"
+msgstr "Accountnaam"
+
+#: inc/class-destination-msazure.php:30
+msgid "MS Azure access keys"
+msgstr "MS Azure toegangssleutels"
+
+#: inc/class-destination-ftp.php:383
+msgid "One file deleted on FTP server"
+msgid_plural "%d files deleted on FTP server"
+msgstr[0] "Eén bestand verwijderd van de FTP server"
+msgstr[1] "%d bestanden verwijderd van de FTP server"
+
+#: inc/class-destination-ftp.php:373
+msgid "Cannot delete \"%s\" on FTP server!"
+msgstr "Kan \"%s\" niet verwijderen van de FTP server!"
+
+#: inc/class-destination-ftp.php:630
+msgid "Backup transferred to FTP server: %s"
+msgstr "Back-up overgezet naar FTP server: %s"
+
+#: inc/class-destination-ftp.php:623
+msgid "Cannot transfer backup to FTP server!"
+msgstr "Kan de back-up niet naar de FTP server overzetten!"
+
+#: inc/class-destination-ftp.php:604
+msgid "Starting upload to FTP &#160;&hellip;"
+msgstr "Start upload naar FTP &#160;&hellip;"
+
+#: inc/class-destination-ftp.php:597
+msgid "Cannot enter normal mode"
+msgstr "Kan normale mode niet gebruiken"
+
+#: inc/class-destination-ftp.php:592
+msgid "Entering normal mode"
+msgstr "Normale mode gebruiken"
+
+#: inc/class-destination-ftp.php:585
+msgid "Cannot enter passive mode"
+msgstr "Kan passive mode niet gebruiken"
+
+#: inc/class-destination-ftp.php:580
+msgid "Entering passive mode"
+msgstr "Passive mode gebruiken"
+
+#: inc/class-destination-ftp.php:562
+msgid "FTP current folder is: %s"
+msgstr "Huidge FTP map is: %s"
+
+#: inc/class-destination-ftp.php:714
+msgid "FTP Folder \"%s\" cannot be created!"
+msgstr "FTP map \"%s\" kan niet worden aangemaakt!"
+
+#: inc/class-destination-ftp.php:726
+msgid "FTP Folder \"%s\" created!"
+msgstr "FTP map \"%s\" aangemaakt!"
+
+#: inc/class-destination-ftp.php:524
+msgid "Error getting SYSTYPE"
+msgstr "Fout bij het ophalen van SYSTYPE"
+
+#: inc/class-destination-ftp.php:492 inc/class-destination-ftp.php:503
+#: inc/class-destination-ftp.php:506 inc/class-destination-ftp.php:521
+#: inc/class-destination-ftp.php:524 inc/class-destination-ftp.php:580
+#: inc/class-destination-ftp.php:585 inc/class-destination-ftp.php:592
+#: inc/class-destination-ftp.php:597
+msgid "FTP server reply: %s"
+msgstr "FTP server antwoord: %s"
+
+#: inc/class-destination-ftp.php:485
+msgid "FTP server response: %s"
+msgstr "FTP server reactie: %s"
+
+#: inc/class-destination-ftp.php:475 inc/class-destination-ftp.php:495
+#: inc/class-destination-ftp.php:518 inc/class-destination-ftp.php:575
+msgid "FTP client command: %s"
+msgstr "FTP programma commando: %s"
+
+#: inc/class-destination-ftp.php:463
+msgid "Cannot connect to FTP server: %s"
+msgstr "Kan geen verbinding maken met FTP server: %s"
+
+#: inc/class-destination-ftp.php:455
+msgid "Connected to FTP server: %s"
+msgstr "Verbonden met FTP server: %s"
+
+#: inc/class-destination-ftp.php:440
+msgid "PHP function to connect with explicit SSL-FTP to server does not exist!"
+msgstr "PHP functie om te verbinden met de server met explicit SSL-FTP bestaat niet!"
+
+#: inc/class-destination-ftp.php:430
+msgid "Cannot connect via explicit SSL-FTP to server: %s"
+msgstr "Verbinding via explicit SSL-FTP met server: %s"
+
+#: inc/class-destination-ftp.php:422
+msgid "Connected via explicit SSL-FTP to server: %s"
+msgstr "Verbonden via explicit SSL-FTP met server: %s"
+
+#: inc/class-destination-ftp.php:405
+msgid "%d. Try to send backup file to an FTP server&#160;&hellip;"
+msgstr "%d. Probeer het back-up bestand verzenden naar een FTP server&#160;&hellip;"
+
+#: inc/class-destination-ftp.php:146
+msgid "Use FTP Passive Mode."
+msgstr "Gebruik FTP passieve modus."
+
+#: inc/class-destination-ftp.php:141
+msgid "FTP Passive Mode"
+msgstr "FTP Passive Mode"
+
+#: inc/class-destination-ftp.php:136
+msgid "Use explicit SSL-FTP connection."
+msgstr "Gebruik expliciet een SSL-FTP verbinding."
+
+#: inc/class-destination-ftp.php:129
+msgid "SSL-FTP connection"
+msgstr "SSL-FTP verbinding"
+
+#: inc/class-destination-ftp.php:125 inc/class-page-logs.php:282
+msgid "seconds"
+msgstr "seconden"
+
+#: inc/class-destination-ftp.php:121
+msgid "Timeout for FTP connection"
+msgstr "Time-out voor FTP-verbinding"
+
+#: inc/class-destination-ftp.php:116
+msgid "FTP specific settings"
+msgstr "specifieke FTP instellingen"
+
+#: inc/class-destination-ftp.php:74
+msgid "Folder to store files in"
+msgstr "Map om bestanden in op te slaan"
+
+#: inc/class-destination-ftp.php:58
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: inc/class-destination-ftp.php:50 inc/class-destination-rsc.php:39
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: inc/class-destination-ftp.php:37
+msgid "FTP server"
+msgstr "FTP server"
+
+#: inc/class-destination-ftp.php:33
+msgid "FTP server and login"
+msgstr "FTP server en login"
+
+#: inc/class-destination-folder.php:260
+msgid "One backup file deleted"
+msgid_plural "%d backup files deleted"
+msgstr[0] "Eén back-upbestand verwijderd"
+msgstr[1] "%d back-up bestanden verwijderd"
+
+#: inc/class-destination-folder.php:25
+msgid "Folder to store backups in"
+msgstr "Map om back-ups in op te slaan"
+
+#: inc/class-destination-email.php:447
+msgid "If this message reaches your inbox, sending backup archives via email should work for you."
+msgstr "Als dit bericht in je inbox is beland betekent het dat het verzenden van back-up archieven via e-mail zou moeten werken."
+
+#: inc/class-destination-email.php:444
+msgid "BackWPup archive sending TEST Message"
+msgstr "BackWPup archief verzenden TEST Bericht"
+
+#: inc/class-destination-email.php:348 inc/class-destination-email.php:461
+msgid "Email sent."
+msgstr "E-mail verzonden."
+
+#: inc/class-destination-email.php:343 inc/class-destination-email.php:459
+msgid "Error while sending email!"
+msgstr "Fout bij het verzenden van de e-mail!"
+
+#: inc/class-destination-email.php:330
+msgid "Backup archive: %s"
+msgstr "Back-up archief: %s"
+
+#: inc/class-destination-email.php:327
+msgid "BackWPup archive from %1$s: %2$s"
+msgstr "BackWPup archief van %1$s: %2$s"
+
+#: inc/class-destination-email.php:247
+msgid "Sending email to %s&hellip;"
+msgstr "E-mail verzenden naar %s&hellip;"
+
+#: inc/class-destination-email.php:240
+msgid "Backup archive too big to be sent by email!"
+msgstr "Back-up archief is te groot om per e-mail te verzenden!"
+
+#: inc/class-destination-email.php:235
+msgid "%d. Try to send backup with email&#160;&hellip;"
+msgstr "%d. Probeer de back-up te verzenden via e-mail&#160;&hellip;"
+
+#: inc/class-destination-email.php:163
+msgid "SMTP password"
+msgstr "SMTP wachtwoord"
+
+#: inc/class-destination-email.php:153
+msgid "SMTP username"
+msgstr "SMTP gebruikersnaam"
+
+#: inc/class-destination-email.php:146
+msgid "TLS"
+msgstr "TLS"
+
+#: inc/class-destination-email.php:144
+msgid "SSL"
+msgstr "SSL"
+
+#: inc/class-destination-email.php:142 inc/class-jobtype-dbdump.php:61
+#: inc/class-jobtype-dbdump.php:97 inc/class-jobtype-wpexp.php:73
+#: inc/class-jobtype-wpplugin.php:51 inc/class-page-backwpup.php:330
+#: inc/class-page-backwpup.php:404 inc/class-page-settings.php:960
+msgid "none"
+msgstr "geen"
+
+#: inc/class-destination-email.php:137
+msgid "SMTP secure connection"
+msgstr "SMTP beveiligde verbinding"
+
+#: inc/class-destination-email.php:125 inc/class-destination-ftp.php:43
+msgid "Port:"
+msgstr "Poort:"
+
+#: inc/class-destination-email.php:120
+msgid "SMTP host name"
+msgstr "SMTP hostnaam"
+
+#: inc/class-destination-email.php:109
+msgid "Sendmail path"
+msgstr "Sendmail pad"
+
+#: inc/class-destination-email.php:102
+msgid "SMTP"
+msgstr "SMTP"
+
+#: inc/class-destination-email.php:101
+msgid "Sendmail"
+msgstr "Sendmail"
+
+#: inc/class-destination-email.php:100
+msgid "PHP: mail()"
+msgstr "PHP: mail()"
+
+#: inc/class-destination-email.php:94
+msgid "Sending method"
+msgstr "Verzendmethode"
+
+#: inc/class-destination-email.php:61
+msgid "MB"
+msgstr "MB"
+
+#: inc/class-destination-email.php:63
+msgid "Maximum file size to be included in an email. 0 = unlimited"
+msgstr "Maximale grootte van het bestand dat bij een e-mail kan worden gevoegd. 0 = onbeperkt"
+
+#: inc/class-destination-email.php:57
+msgid "Maximum file size"
+msgstr "Maximum bestandsgrootte"
+
+#: inc/class-destination-email.php:53
+msgid "Send email settings"
+msgstr "Instellingen voor het verzenden van e-mail"
+
+#: inc/class-destination-email.php:44 inc/class-destination-email.php:48
+msgid "Send test email"
+msgstr "Verstuur test e-mail"
+
+#: inc/class-destination-email.php:31
+msgid "Email address"
+msgstr "E-mailadres"
+
+#: inc/class-destination-dropbox.php:345
+msgid "One file deleted from Dropbox"
+msgid_plural "%d files deleted on Dropbox"
+msgstr[0] "Een bestand van Dropbox verwijderd"
+msgstr[1] "%d bestanden van Dropbox verwijderd"
+
+#: inc/class-destination-dropbox.php:439
+msgid "Error transfering backup to %s."
+msgstr "Fout bij het verzenden van de back-up naar %s."
+
+#: inc/class-destination-dropbox.php:433
+msgid "Uploaded file size and local file size don't match."
+msgstr "De grootte van het geüploade bestand en het lokale bestand zijn niet hetzelfde."
+
+#: inc/class-destination-dropbox.php:427 inc/class-destination-msazure.php:313
+#: inc/class-destination-sugarsync.php:261
+msgid "Backup transferred to %s"
+msgstr "Back-up verzonden naar %s"
+
+#: inc/class-destination-dropbox.php:403
+msgid "Uploading to Dropbox&#160;&hellip;"
+msgstr "Bezig met uploaden naar Dropbox&#160;&hellip;"
+
+#: inc/class-destination-dropbox.php:399
+msgid "Not Authenticated with Dropbox!"
+msgstr "Niet aangemeld bij Dropbox!"
+
+#: inc/class-destination-dropbox.php:393
+msgid "%s available on your Dropbox"
+msgstr "%s beschikbaar op je Dropbox"
+
+#: inc/class-destination-dropbox.php:385
+msgid "Authenticated with Dropbox of user: %s"
+msgstr "Geverifieerd met Dropbox van gebruiker: %s"
+
+#: inc/class-destination-dropbox.php:367
+msgid "%d. Try to send backup file to Dropbox&#160;&hellip;"
+msgstr "%d. Probeer back-up bestand naar Dropbox te verzenden&#160;&hellip;"
+
+#: inc/class-destination-dropbox.php:183 inc/class-destination-folder.php:73
+#: inc/class-destination-ftp.php:106 inc/class-destination-msazure.php:106
+#: inc/class-destination-rsc.php:114 inc/class-destination-s3.php:378
+#: inc/class-destination-sugarsync.php:100
+msgid "Do not delete files while syncing to destination!"
+msgstr "Verwijder geen bestanden gedurende de synchronisatie naar de bestemming!"
+
+#: inc/class-destination-dropbox.php:170 inc/class-destination-folder.php:52
+#: inc/class-destination-ftp.php:91 inc/class-destination-msazure.php:96
+#: inc/class-destination-rsc.php:107 inc/class-destination-s3.php:361
+#: inc/class-destination-sugarsync.php:93
+msgid "Number of files to keep in folder."
+msgstr "Aantal bestanden die bewaard moeten blijven in de map."
+
+#: inc/class-destination-dropbox.php:161 inc/class-destination-folder.php:37
+#: inc/class-destination-ftp.php:82 inc/class-destination-sugarsync.php:86
+msgid "File Deletion"
+msgstr "Bestandsverwijdering"
+
+#: inc/class-destination-dropbox.php:153
+msgid "Specify a subfolder where your backup archives will be stored. If you use the App option from above, this folder will be created inside of Apps/BackWPup. Otherwise it will be created at the root of your Dropbox. Already exisiting folders with the same name will not be overriden."
+msgstr "Specificeer een submap waarin je back-up archieven worden opgeslagen. Als je de app optie hierboven gebruikt, wordt deze map aangemaakt binnen Apps/BackWPup. Anders wordt deze aangemaakt in de hoofdmap van je Dropbox. Bestaande mappen met dezelfde naam worden niet overschreven."
+
+#: inc/class-destination-dropbox.php:144
+msgid "Destination Folder"
+msgstr "Doelmap"
+
+#: inc/class-destination-dropbox.php:140 inc/class-destination-folder.php:21
+#: inc/class-destination-ftp.php:69 inc/class-destination-msazure.php:73
+#: inc/class-destination-rsc.php:90 inc/class-destination-sugarsync.php:76
+msgid "Backup settings"
+msgstr "Back-up instellingen"
+
+#: inc/class-destination-dropbox.php:129
+msgid "Get full Dropbox auth code "
+msgstr "Volledige Dropbox authenticatie-code ophalen"
+
+#: inc/class-destination-dropbox.php:130
+msgid "BackWPup will have full read and write access to your entire Dropbox. You can specify your backup destination wherever you want, just be aware that ANY files or folders inside of your Dropbox can be overridden or deleted by BackWPup."
+msgstr "BackWPup heeft volledige lees- en schrijfrechten op je hele Dropbox. Je kunt zelf de bestemming van je back-ups aangeven maar let er op dat ALLE bestanden en mappen in je Dropbox overschreven of verwijderd kunnen worden door BackWPup."
+
+#: inc/class-destination-dropbox.php:121
+msgid "Full Access to Dropbox"
+msgstr "Volledige toegang tot Dropbox"
+
+#: inc/class-destination-dropbox.php:118
+msgid "— OR —"
+msgstr "— OF —"
+
+#: inc/class-destination-dropbox.php:109
+msgid "Get Dropbox App auth code"
+msgstr "Dropbox app auth code verkrijgen"
+
+#: inc/class-destination-dropbox.php:110
+msgid "A dedicated folder named BackWPup will be created inside of the Apps folder in your Dropbox. BackWPup will get read and write access to that folder only. You can specify a subfolder as your backup destination for this job in the destination field below."
+msgstr "Er zal een map 'BackWPup' worden aangemaakt in de Apps map in je Dropbox. BackWPup krijgt lees- en schrijfrechten naar alleen die map. Je kunt in het veld hieronder een submap aangeven waar de back-ups voor deze taak worden opgeslagen."
+
+#: inc/class-destination-dropbox.php:101
+msgid "App Access to Dropbox"
+msgstr "App toegang tot Dropbox"
+
+#: inc/class-destination-dropbox.php:91 inc/class-destination-dropbox.php:94
+msgid "Delete Dropbox Authentication"
+msgstr "Verwijder Dropbox authenticatie"
+
+#: inc/class-destination-dropbox.php:82 inc/class-destination-sugarsync.php:40
+msgid "Authenticated!"
+msgstr "Geverifieerd!"
+
+#: inc/class-destination-dropbox.php:80
+msgid "Create Account"
+msgstr "Nieuwe account aanmaken"
+
+#: inc/class-destination-dropbox.php:77
+msgid "Not authenticated!"
+msgstr "Niet geverifieerd!"
+
+#: inc/class-destination-dropbox.php:75 inc/class-destination-sugarsync.php:23
+#: inc/class-destination-sugarsync.php:38
+msgid "Authentication"
+msgstr "Authenticatie"
+
+#: inc/class-destination-dropbox.php:71
+msgid "Login"
+msgstr "Inloggen"
+
+#. translators: the $1 is the error message
+#: inc/class-destination-dropbox.php:55 inc/class-destination-dropbox.php:453
+msgid "Dropbox API: %s"
+msgstr "Dropbox API: %s"
+
+#: inc/class-cron.php:71
+msgid "Aborted, because no progress for one hour!"
+msgstr "Afgebroken omdat er geen voortgang was gedurende een uur!"
+
+#: inc/class-create-archive.php:822
+msgid "If %s will be added to your backup archive, the archive will be too large for operations with this PHP Version. You might want to consider splitting the backup job in multiple jobs with less files each."
+msgstr "Als %s aan je back-up archief wordt toegevoegd zal het archief te groot worden om te verwerken met deze versie van PHP. Je kunt overwegen om de back-up op te delen in verschillende taken met elk minder bestanden."
+
+#. translators: $1 is the name of the folder. $2 is the archive name.
+#: inc/class-create-archive.php:754
+msgid "Folder path \"%1$s\" is too long to be saved correctly in %2$s archive!"
+msgstr "Pad naar \"%1$s\" map is te lang om correct op te slaan in %2$s archief!"
+
+#. translators: $1 is the name of the folder. $2 is the archive name.
+#: inc/class-create-archive.php:739
+msgid "Folder name \"%1$s\" is too long to be saved correctly in %2$s archive!"
+msgstr "Mapnaam \"%1$s\" is te lang om om goed te worden opgeslagen in %2$s archief!"
+
+#: inc/class-create-archive.php:900 inc/class-create-archive.php:901
+msgid "Unknown"
+msgstr "Onbekend"
+
+#. translators: $1 is the file name to use in the archive.
+#: inc/class-create-archive.php:635
+msgid "File path \"%1$s\" is too long to be saved correctly in %2$s archive!"
+msgstr "Pad naar bestand \"%1$s\" is te lang om correct opgeslagen te worden in het %2$s-archief!"
+
+#. translators: $1 is the file name.
+#: inc/class-create-archive.php:623
+msgid "File name \"%1$s\" is too long to be saved correctly in %2$s archive!"
+msgstr "Bestandsnaam \"%1$s\" is te lang om correct op te slaan in %2$s archief!"
+
+#. translators. $1 is the status returned by a call to a ZipArchive method.
+#: inc/class-create-archive.php:575
+msgctxt "Text of ZipArchive status Message"
+msgid "ZipArchive returns status: %s"
+msgstr "ZipArchive geeft status %s terug"
+
+#. translators: $1 is the folder name
+#: inc/class-create-archive.php:501
+msgctxt "Folder path to add to archive"
+msgid "Folder %s does not exist or is not readable"
+msgstr "Map %s bestaat niet of is niet leesbaar"
+
+#: inc/class-create-archive.php:490
+msgid "Folder name cannot be empty"
+msgstr "Mapnaam mag niet leeg zijn"
+
+#. translators: the $1 is the name of the archive.
+#. translators: $1 is the name of the archive.
+#: inc/class-create-archive.php:421 inc/class-create-archive.php:437
+#: inc/class-create-archive.php:543
+msgid "Cannot add \"%s\" to zip archive!"
+msgstr "Kan \"%s\" niet toevoegen aan zip archief!"
+
+#: inc/class-create-archive.php:323 inc/class-create-archive.php:524
+msgid "This archive method can only add one file"
+msgstr "Deze manier van archiveren kan maar één bestand per keer toevoegen"
+
+#. translators: The $1 is the name of the file to add to the archive.
+#: inc/class-create-archive.php:302
+msgctxt "File to add to archive"
+msgid "File %s does not exist or is not readable"
+msgstr "Bestand %s bestaat niet of is niet leesbaar"
+
+#: inc/class-create-archive.php:289
+msgid "File name cannot be empty."
+msgstr "Bestandsnaam mag niet leeg zijn."
+
+#. translators: The $1 is the tecnical error string from pclzip.
+#: inc/class-create-archive.php:213 inc/class-create-archive.php:460
+msgid "PclZip archive add error: %s"
+msgstr "PclZip archief toevoegen fout: %s"
+
+#: inc/class-create-archive.php:195
+msgid "Cannot open archive file"
+msgstr "Kan archiefbestand niet openen"
+
+#. translators: the $1 is the type of the archive file
+#: inc/class-create-archive.php:188
+msgctxt "%s = file name"
+msgid "Method to archive file %s not detected"
+msgstr "Methode om bestand %s te archiveren niet gedetecteerd"
+
+#. translators: $1 is a directory name
+#: inc/class-create-archive.php:145
+msgctxt "ZipArchive open() result"
+msgid "Cannot create zip archive: %d"
+msgstr "Kan zip archief %d niet aanmaken"
+
+#: inc/class-create-archive.php:104 inc/class-create-archive.php:131
+#: inc/class-create-archive.php:175 inc/class-mysqldump.php:104
+msgid "Functions for gz compression not available"
+msgstr "Functionaliteit voor gz compressie niet beschikbaar"
+
+#. translators: $1 is the file path
+#: inc/class-create-archive.php:89
+msgctxt "%s = Folder name"
+msgid "Folder %s for archive not found"
+msgstr "Map %s voor archief niet gevonden"
+
+#: inc/class-create-archive.php:80
+msgid "The file name of an archive cannot be empty."
+msgstr "De naam van een archief mag niet leeg blijven."
+
+#: inc/class-adminbar.php:122
+msgid "Run Now"
+msgstr "Nu uitvoeren"
+
+#: inc/class-adminbar.php:81 inc/class-page-jobs.php:688
+msgid "Add new"
+msgstr "Nieuwe toevoegen"
+
+#: inc/class-adminbar.php:63
+msgid "Abort!"
+msgstr "Afbreken!"
+
+#: inc/class-adminbar.php:57
+msgid "Now Running"
+msgstr "Nu bezig"
+
+#: inc/class-adminbar.php:40
+msgid "running"
+msgstr "bezig"
+
+#: inc/class-admin.php:631
+msgid "version %s"
+msgstr "versie %s"
+
+#: inc/class-admin.php:601
+msgid "<a class=\"backwpup-get-pro\" href=\"%s\">Get BackWPup Pro now.</a>"
+msgstr "<a class=\"backwpup-get-pro\" href=\"%s\">BackWPup Pro nu aanschaffen.</a>"
+
+#: inc/class-admin.php:523 inc/class-admin.php:530
+msgid "Cheating, huh?"
+msgstr "Valsspelen?"
+
+#: inc/class-admin.php:483 inc/class-admin.php:484
+msgid "About"
+msgstr "Over"
+
+#: inc/class-admin.php:459 inc/class-admin.php:460
+msgid "Settings"
+msgstr "Instellingen"
+
+#: inc/class-admin.php:421 inc/class-admin.php:422 inc/class-adminbar.php:99
+msgid "Backups"
+msgstr "Back-ups"
+
+#: inc/class-admin.php:383 inc/class-admin.php:384 inc/class-adminbar.php:90
+#: inc/class-page-logs.php:368 inc/class-page-settings.php:507
+msgid "Logs"
+msgstr "Logs"
+
+#: inc/class-admin.php:345 inc/class-admin.php:346
+msgid "Add new job"
+msgstr "Nieuwe taak aanmaken"
+
+#: inc/class-admin.php:307 inc/class-admin.php:308 inc/class-adminbar.php:72
+#: inc/class-page-settings.php:503
+msgid "Jobs"
+msgstr "Taken"
+
+#: inc/class-admin.php:276
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: inc/class-admin.php:275
+msgid "BackWPup Dashboard"
+msgstr "BackWPup Dashboard"
+
+#: inc/class-admin.php:248
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: backwpup.php:515
+msgid "Missing class \"%s\"."
+msgstr "Klasse \"%s\" ontbreekt."
+
+#: backwpup.php:500
+msgid "Missing function \"%s\"."
+msgstr "Functie ontbreekt \"%s\"."
+
+#: backwpup.php:486
+msgid "PHP Version %1$s is to low, you need Version %2$s or above."
+msgstr "PHP versie %1$s is te laag, je hebt versie %2$s of hoger nodig."
+
+#: backwpup.php:459 inc/class-page-about.php:519
+msgid "Backup to SugarSync"
+msgstr "Back-up naar SugarSync"
+
+#: backwpup.php:458
+msgid "SugarSync"
+msgstr "SugarSync"
+
+#: backwpup.php:444 inc/class-page-about.php:504
+msgid "Backup to Rackspace Cloud Files"
+msgstr "Back-up naar Rackspace Cloud Files"
+
+#: backwpup.php:443
+msgid "RSC"
+msgstr "RSC"
+
+#: backwpup.php:429
+msgid "Backup to Microsoft Azure (Blob)"
+msgstr "Back-up naar Microsoft Azure (Blob)"
+
+#: backwpup.php:428
+msgid "MS Azure"
+msgstr "MS Azure"
+
+#: backwpup.php:414
+msgid "Backup to an S3 Service"
+msgstr "Back-up naar een S3 Service"
+
+#: backwpup.php:413 inc/class-destination-s3.php:40
+msgid "S3 Service"
+msgstr "S3 dienst"
+
+#: backwpup.php:399 inc/class-page-about.php:499
+msgid "Backup to Dropbox"
+msgstr "Back-up naar Dropbox"
+
+#: backwpup.php:398 inc/class-destination-dropbox.php:440
+msgid "Dropbox"
+msgstr "Dropbox"
+
+#: backwpup.php:384
+msgid "Backup to FTP"
+msgstr "Back-up naar FTP"
+
+#: backwpup.php:383
+msgid "FTP"
+msgstr "FTP"
+
+#: backwpup.php:369
+msgid "Backup sent via email"
+msgstr "Back-up verzonden via e-mail"
+
+#: backwpup.php:368
+msgid "Email"
+msgstr "E-mail"
+
+#: backwpup.php:354
+msgid "Backup to Folder"
+msgstr "Back-up naar map"
+
+#: backwpup.php:353 inc/class-page-backups.php:223
+msgid "Folder"
+msgstr "Map"
+
+#: backwpup.php:596
+msgid "BackWPup requires PHP version %1$s with spl extension or greater and WordPress %2$s or greater."
+msgstr "BackWPup vereist PHP versie %1$s met spl extensie of hoger en WordPress %2$s of hoger."

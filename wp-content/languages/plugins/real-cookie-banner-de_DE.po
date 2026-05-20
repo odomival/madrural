@@ -1,0 +1,2233 @@
+# Translation of Plugins - Real Cookie Banner: GDPR (DSGVO) &amp; ePrivacy Cookie Consent - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Real Cookie Banner: GDPR (DSGVO) &amp; ePrivacy Cookie Consent - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-10-09 21:00:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Real Cookie Banner: GDPR (DSGVO) &amp; ePrivacy Cookie Consent - Stable (latest release)\n"
+
+#: inc/presets/pro/blocker/HappyFormsPreset.php:27
+msgid "HappyForms"
+msgstr "HappyForms"
+
+#: inc/view/customize/banner/Mobile.php:57
+msgid "Mobile experience"
+msgstr "Mobile Nutzererfahrung"
+
+#: inc/view/customize/banner/Mobile.php:77
+msgid "Maximum height"
+msgstr "Maximale Höhe (px)"
+
+#: inc/view/customize/banner/Mobile.php:85
+msgid "Hide header"
+msgstr "Kopfbereich (Header) ausblenden"
+
+#: inc/view/customize/banner/Mobile.php:102
+msgid "Alignment"
+msgstr "Ausrichtung"
+
+#: inc/view/customize/banner/Mobile.php:113
+msgid "Scaling factor"
+msgstr "Skalierungsfaktor"
+
+#: inc/view/customize/banner/Mobile.php:114
+msgid "Elements in the cookie banner can be scaled smaller or larger relative to the desktop view. Make sure that all elements are still clearly legible so that you obtain valid consents."
+msgstr "Die Elemente im Cookie Banner können im Verhältnis zur Desktop-Ansicht kleiner oder größer skaliert werden. Achte darauf, dass alle Elemente weiterhin gut lesbar sind, damit du wirksame Einwilligungen einholst."
+
+#: inc/view/customize/banner/Mobile.php:125
+msgid "Vertical spacing scaling factor"
+msgstr "Skalierungsfaktor für vertikale Abstände"
+
+#: inc/view/customize/banner/Mobile.php:126
+msgid "The vertical distance between elements can be decreased or increased relative to the desktop view."
+msgstr "Der vertikale Abstand zwischen Elementen kann im Verhältnis zur Desktop-Ansicht verkleinert oder vergrößert werden."
+
+#: inc/presets/pro/blocker/ElementorFormsPreset.php:26
+msgid "Elementor Forms"
+msgstr "Elementor Forms"
+
+#: inc/view/ConfigPage.php:149
+msgid "<strong>Adblocker detected</strong>: You may use an adblocker in your browser. This can block parts of the settings of the Real Cookie Banner and thus lead to errors. <strong>Please deactivate your adblocker for your own website!</strong>"
+msgstr "<strong>Adblocker erkannt</strong>: Du verwendest möglicherweise einen Adblocker in deinem Browser. Dieser kann Teile der Einstellungen des Real Cookie Banners blockieren und somit zu Fehlern führen. <strong>Bitte deaktiviere deinen Adblocker für deine eigene Website!</strong>"
+
+#: inc/presets/free/RealCookieBannerPreset.php:37
+msgid "Real Cookie Banner asks website visitors for consent to set cookies and process personal data. For this purpose, a UUID (pseudonymous identification of the user) is assigned to each website visitor, which is valid until the cookie expires to store the consent. Cookies are used to test whether cookies can be set, to store reference to documented consent, to store which services from which service groups the visitor has consented to, and, if consent is obtained under the Transparency & Consent Framework (TCF), to store consent in TCF partners, purposes, special purposes, features and special features. As part of the obligation to disclose according to GDPR, the collected consent is fully documented. This includes, in addition to the services and service groups to which the visitor has consented, and if consent is obtained according to the TCF standard, to which TCF partners, purposes and features the visitor has consented, all cookie banner settings at the time of consent as well as the technical circumstances (e.g. size of the displayed area at the time of consent) and the user interactions (e.g. clicking on buttons) that led to consent. Consent is collected once per language."
+msgstr "Real Cookie Banner bittet Website-Besucher um die Einwilligung zum Setzen von Cookies und zur Verarbeitung personenbezogener Daten. Dazu wird jedem Website-Besucher eine UUID (pseudonyme Identifikation des Nutzers) zugewiesen, die bis zum Ablauf des Cookies zur Speicherung der Einwilligung gültig ist. Cookies werden dazu verwendet, um zu testen, ob Cookies gesetzt werden können, um Referenz auf die dokumentierte Einwilligung zu speichern, um zu speichern, in welche Services aus welchen Service-Gruppen der Besucher eingewilligt hat, und, falls Einwilligung nach dem Transparency & Consent Framework (TCF) eingeholt werden, um die Einwilligungen in TCF Partner, Zwecke, besondere Zwecke, Funktionen und besondere Funktionen zu speichern. Im Rahmen der Darlegungspflicht nach DSGVO wird die erhobene Einwilligung vollumfänglich dokumentiert. Dazu zählt neben den Services und Service-Gruppen, in welche der Besucher eingewilligt hat, und falls Einwilligung nach dem TCF Standard eingeholt werden, in welche TCF Partner, Zwecke und Funktionen der Besucher eingewilligt hat, alle Einstellungen des Cookie Banners zum Zeitpunkt der Einwilligung als auch die technischen Umstände (z.B. Größe des Sichtbereichs bei der Einwilligung) und die Nutzerinteraktionen (z.B. Klick auf Buttons), die zur Einwilligung geführt haben. Die Einwilligung wird pro Sprache einmal erhoben."
+
+#: inc/settings/Revision.php:419
+msgid "Without context"
+msgstr "Ohne Kontext"
+
+#. translators:
+#: inc/view/Scanner.php:157
+msgid "You have embedded the following services on your website: %s You may need to obtain consent for these services via your cookie banner to be able to use them in accordance with data protection regulations."
+msgstr "Du hast die folgenden Services auf deiner Webseite eingebunden: %s Es kann sein, dass du die Einwilligung für diese Services über dein Cookie Banner einholen musst, um sie datenschutzkonform nutzen zu können."
+
+#: inc/view/customize/banner/Legal.php:90
+#: inc/view/customize/banner/Legal.php:144
+msgid "External URL"
+msgstr "Externe URL"
+
+#: inc/view/customize/banner/Decision.php:241
+msgid "Text of \"Accept all\" changes when user changes selection"
+msgstr "Text von “Alle akzeptieren” ändert sich, wenn der Benutzer die Auswahl ändert"
+
+#: inc/view/customize/banner/FooterDesign.php:79
+#: inc/view/customize/banner/HeaderDesign.php:69
+#: inc/view/customize/banner/individual/Group.php:152
+msgid "Adopt background color"
+msgstr "Hintergrundfarbe übernehmen"
+
+#: inc/view/customize/banner/FooterDesign.php:149
+#: inc/view/customize/banner/HeaderDesign.php:176
+msgid "Adopt font family"
+msgstr "Schriftart übernehmen"
+
+#: inc/view/customize/banner/individual/Layout.php:41
+#: inc/view/customize/banner/individual/Layout.php:61
+msgid "Adopt maximum width"
+msgstr "Maximale Breite übernehmen"
+
+#: inc/view/customize/banner/Legal.php:99
+#: inc/view/customize/banner/Legal.php:153
+msgid "Use external URL instead of page"
+msgstr "Externe URL anstelle einer Seite verwenden"
+
+#: inc/view/customize/banner/BodyDesign.php:198
+msgid "Adopt font size for service groups"
+msgstr "Schriftgröße für Service-Gruppen übernehmen"
+
+#: inc/view/customize/banner/BodyDesign.php:210
+msgid "Service groups font size"
+msgstr "Schriftgröße für Service-Gruppen"
+
+#: inc/view/customize/banner/BodyDesign.php:233
+#: inc/view/customize/banner/FooterDesign.php:97
+#: inc/view/customize/banner/HeaderDesign.php:87
+msgid "Adopt text align"
+msgstr "Textausrichtung übernehmen"
+
+#: inc/view/customize/banner/BodyDesign.php:311
+msgid "Adopt font size"
+msgstr "Schriftgröße übernehmen"
+
+#: inc/view/customize/banner/BodyDesign.php:331
+msgid "Adopt font color"
+msgstr "Schriftfarbe übernehmen"
+
+#: inc/view/customize/banner/Decision.php:87
+msgid "Please note that from a legal point of view you have to give your visitor this option. With the currently selected setting, you are taking a risk."
+msgstr "Bitte beachte, dass du aus rechtlicher Sicht deinem Besucher diese Möglichkeit geben musst. Mit der aktuell gewählten Einstellung gehst du ein Risiko ein."
+
+#: inc/view/checklist/CustomizeBanner.php:29
+msgid "You can customize the design of the cookie banner. Match it perfectly to your website!"
+msgstr "Du kannst das Design des Cookie Banners individuell gestalten. Passe es perfekt an deine Website an!"
+
+#: inc/view/checklist/PrivacyPolicy.php:27
+msgid "Legally required pages must be accessible even if the cookie banner covers your website. Therefore, the privacy policy should be linked directly in the cookie banner."
+msgstr "Gesetzlich vorgeschriebene Seiten müssen zugänglich sein, auch wenn das Cookie Banner deine Website verdeckt. Deshalb sollte die Datenschutzerklärung direkt im Cookie Banner verlinkt werden."
+
+#: inc/presets/BannerPresets.php:716 inc/presets/BannerPresets.php:820
+#: inc/presets/BannerPresets.php:1344
+msgid "Professional request to agree to the cookies."
+msgstr "Professionelle Aufforderung, den Cookies zuzustimmen."
+
+#: inc/view/customize/banner/Texts.php:507
+msgid "Cookie Consent Banner by Real Cookie Banner"
+msgstr "Cookie Consent Banner von Real Cookie Banner"
+
+#: inc/view/customize/banner/Texts.php:490
+msgid "WordPress Cookie Plugin by Real Cookie Banner"
+msgstr "WordPress Cookie Plugin von Real Cookie Banner"
+
+#: inc/presets/free/WordPressPluginEmbed.php:29
+msgid "WordPress.org allows to display further and latest information about plugins published on wordpress.org. No cookies in the technical sense are set on the client of the user, but technical and personal data such as the IP address will be transmitted from the client to the server of the service provider to make the use of the service possible."
+msgstr "WordPress.org ermöglicht es, weitere und aktuelle Informationen über die auf wordpress.org veröffentlichten Plugins anzuzeigen. Es werden keine Cookies im technischen Sinne auf dem Client des Nutzers gesetzt, jedoch werden technische und personenbezogene Daten wie die IP-Adresse vom Client an den Server des Dienstanbieters übermittelt, um die Nutzung des Services zu ermöglichen."
+
+#: inc/view/customize/banner/Texts.php:494
+msgid "WordPress Cookie Notice by Real Cookie Banner"
+msgstr "WordPress Cookie Hinweis von Real Cookie Banner"
+
+#: inc/view/customize/banner/Texts.php:503
+msgid "Consent Management Platform by Real Cookie Banner"
+msgstr "Consent Management Platform von Real Cookie Banner"
+
+#: inc/presets/free/blocker/WordPressPluginEmbed.php:28
+msgid "WordPress.org would give more information about a WordPress plugin here if you would give your consent."
+msgstr "WordPress.org würde hier mehr Informationen über ein WordPress-Plugin anzeigen, wenn du deine Zustimmung geben würdest."
+
+#: inc/scanner/Scanner.php:427 public/dist/chunk-config-tab-scanner.lite.js:1
+#: public/dist/chunk-config-tab-scanner.lite.js:719
+msgid "Cancel scan"
+msgstr "Scan abbrechen"
+
+#: inc/view/Scanner.php:134
+msgid "Ignore hint"
+msgstr "Hinweis ignorieren"
+
+#. translators:
+#: inc/view/Scanner.php:68
+msgid "%d recommendation found"
+msgid_plural "%d recommendations found"
+msgstr[0] "%d Empfehlung gefunden"
+msgstr[1] "%d Empfehlungen gefunden"
+
+#: inc/view/checklist/Scanner.php:37
+msgid "Open scanner"
+msgstr "Scanner öffnen"
+
+#. translators:
+#: inc/scanner/Scanner.php:446
+msgid "%1$d pages failed to be scanned."
+msgstr "%1$d Seiten konnten nicht gescannt werden."
+
+#: inc/scanner/Scanner.php:425
+msgid "Contact support"
+msgstr "Support kontaktieren"
+
+#: inc/scanner/Scanner.php:408
+msgid "Real Cookie Banner: Automatic scan of complete website"
+msgstr "Real Cookie Banner: Automatischer Scan der kompletten Website"
+
+#: inc/presets/pro/blocker/GoogleAdsPreset.php:24
+#: inc/presets/pro/GoogleAds.php:25
+msgid "Conversion Tracking and Remarketing"
+msgstr "Conversion Tracking und Remarketing"
+
+#: inc/presets/middleware/BlockerExistsMiddleware.php:38
+msgid "You have already created a Service (Cookie) with this template."
+msgstr "Du hast bereits einen Service (Cookie) mit dieser Vorlage erstellt."
+
+#: inc/scanner/Scanner.php:406
+msgid "Real Cookie Banner: Scan of your pages"
+msgstr "Real Cookie Banner: Scan deiner Seiten"
+
+#: inc/presets/middleware/CookieBlockerPresetIdsMiddleware.php:62
+msgid "A suitable content blocker for this service can be created automatically."
+msgstr "Ein passender Content Blocker für diesen Service kann automatisch erstellt werden."
+
+#. translators:
+#: inc/presets/Presets.php:146
+msgid "This template is currently disabled because the respective WordPress plugin is not installed or the desired function is not active. <a href=\"%s\" target=\"_blank\">Learn more</a>"
+msgstr "Diese Vorlage ist derzeit deaktiviert, da das entsprechende WordPress-Plugin nicht installiert ist oder die gewünschte Funktion nicht aktiv ist. <a href=\"%s\" target=\"_blank\">Mehr erfahren</a>"
+
+#: inc/presets/pro/blocker/FacebookPostPreset.php:26
+#: inc/presets/pro/FacebookPostPreset.php:25
+msgid "includes videos"
+msgstr "beinhaltet Videos"
+
+#: inc/scanner/Scanner.php:450
+msgid "Real Cookie Banner tried to automatically scan your entire website for services and external URLs."
+msgstr "Real Cookie Banner hat versucht, deine gesamte Website automatisch nach Services und externen URLs zu scannen."
+
+#: inc/view/checklist/Scanner.php:22
+msgid "Scan your website for services"
+msgstr "Scanne deine Website nach Services"
+
+#: inc/view/Scanner.php:133
+msgid "Take action now"
+msgstr "Jetzt handeln"
+
+#: inc/presets/pro/blocker/MyCruiseExcursionPreset.php:20
+#: inc/presets/pro/MyCruiseExcursionPreset.php:20
+msgid "My Cruise Excursion"
+msgstr "Meine Kreuzfahrtausflüge"
+
+#: inc/view/customize/banner/Decision.php:80
+msgid "The options \"Accept all\" and \"Continue without consent\" should be of the same type. Therefore, both should be a button or a link."
+msgstr "Die Optionen \"Alles akzeptieren\" und \"Weiter ohne Zustimmung\" sollten von gleicher Art sein. Daher sollten beide ein Button oder ein Link sein."
+
+#: inc/presets/free/blocker/WordPressUserLoginPreset.php:27
+msgid "In order to log in, you must allow us to load additional services for security and convenience reasons."
+msgstr "Um dich einzuloggen, musst du uns aus Sicherheits- und Komfort-Gründen erlauben, zusätzliche Services zu laden."
+
+#: inc/presets/free/WordPressUserLoginPreset.php:79
+msgid "Note: In this case, you must classify this service as non-essential (e.g. functional). Also, you should create a content blocker that not only waits for consent for this service, but also for consent for all third-party services (like Google reCAPTCHA in the example)."
+msgstr "Hinweis: In diesem Fall musst du diesen Service als nicht-essenziell (z.B. funktional) einstufen. Außerdem solltest du einen Content Blocker erstellen, bei dem du nicht nur auf die Zustimmung für diesen Service wartest, sondern auch auf die Zustimmung für alle Services von Drittanbietern (wie Google reCAPTCHA im Beispiel)."
+
+#: inc/presets/free/WordPressUserLoginPreset.php:75
+msgid "You can block the login form to your WordPress (backend) login until consent. This is useful if you want external services like Google reCAPTCHA to load additionally at the login."
+msgstr "Du kannst das Login-Formular zu deinem WordPress (Backend) Login bis zur Einwilligung blockieren. Dies ist sinnvoll, wenn du möchtest, dass externe Services wie Google reCAPTCHA beim Login zusätzlich geladen werden."
+
+#: inc/presets/pro/blocker/MatomoIntegrationPluginPreset.php:25
+#: inc/presets/pro/MatomoIntegrationPluginPreset.php:28
+msgid "former WP-Piwik"
+msgstr "früher WP-Piwik"
+
+#: inc/presets/pro/blocker/SendinbluePreset.php:23
+#: inc/presets/pro/SendinbluePreset.php:24
+msgid "former Newsletter2Go"
+msgstr "ehemaliger Newsletter2Go"
+
+#: inc/settings/CookieGroup.php:52
+msgid "Service group"
+msgstr "Service-Gruppe"
+
+#: inc/overrides/lite/settings/CountryBypass.php:27
+#: inc/overrides/lite/settings/TCF.php:27
+msgid "This functionality is only available in the PRO version."
+msgstr "Diese Funktionalität ist nur in der PRO-Version verfügbar."
+
+#: inc/view/checklist/AddCookie.php:26
+msgid "Add all services (cookies) from your website"
+msgstr "Alle Services (Cookies) von deiner Website hinzufügen"
+
+#: inc/view/checklist/AddCookie.php:41 public/dist/479.lite.js:1
+#: public/dist/479.lite.js:24 public/dist/479.lite.js:1296
+#: public/dist/chunk-config-tab-cookies.lite.js:481
+msgid "Add service"
+msgstr "Service hinzufügen"
+
+#: inc/view/customize/banner/Texts.php:498
+msgid "Cookie Consent with Real Cookie Banner"
+msgstr "Cookie Consent mit Real Cookie Banner"
+
+#: inc/view/customize/banner/Texts.php:499
+msgid "GDPR Cookie Consent with Real Cookie Banner"
+msgstr "GDPR Cookie Consent mit Real Cookie Banner"
+
+#: inc/view/customize/banner/Decision.php:110
+#: public/dist/chunk-config-tab-consent.lite.js:1
+#: public/dist/chunk-config-tab-settings.lite.js:1
+#: public/dist/chunk-config-tab-consent.lite.js:432
+#: public/dist/chunk-config-tab-settings.lite.js:679
+msgid "Accept all"
+msgstr "Alle akzeptieren"
+
+#: inc/view/customize/banner/Decision.php:135
+msgid "Continue without consent"
+msgstr "Weiter ohne Einwilligung"
+
+#: inc/view/customize/banner/Texts.php:218
+msgid "Consent forwarding to other websites"
+msgstr "Weiterleitung der Einwilligung zu anderen Websites"
+
+#: inc/view/customize/banner/Texts.php:220
+msgid "Use <code>{{websites}}</code> as a placeholder for the external website URLs."
+msgstr "Verwende <code>{{websites}}</code> als Platzhalter für die externen Website-URLs."
+
+#. translators:
+#: inc/view/customize/banner/Texts.php:367
+msgid "Consent Forwarding is currently disabled. Please navigate to %1$sSettings > Multisite / Consent Forwarding%2$s to activate it."
+msgstr "Die Weiterleitung von Einwilligungen ist derzeit deaktiviert. Bitte navigiere zu %1$sEinstellungen > Multisite / Weiterleitung der Einwilligung%2$s, um sie zu aktivieren."
+
+#: inc/view/customize/banner/Texts.php:107
+msgid "\"Accept all\" button/link"
+msgstr "\"Alle akzeptieren”-Button/Link"
+
+#: inc/view/customize/banner/Texts.php:112
+msgid "\"Continue without consent\" button/link"
+msgstr "\"Weiter ohne Einwilligung”-Button/Link"
+
+#: inc/view/customize/banner/Texts.php:122
+msgid "\"Powered by\" link text"
+msgstr "“Powered by”-Linktext"
+
+#: inc/settings/CookieGroup.php:52
+#: inc/view/customize/banner/individual/Group.php:78
+#: public/dist/chunk-config-tab-import.lite.js:1
+#: public/dist/chunk-config-tab-import.lite.js:466
+msgid "Service groups"
+msgstr "Service-Gruppen"
+
+#: inc/import/ImportSettings.php:112
+msgid "enabling TCF-compatibility"
+msgstr "TCF-Kompatibilität aktivieren"
+
+#: inc/presets/BannerPresets.php:946
+msgid "Red Contrast"
+msgstr "Red Contrast"
+
+#: inc/presets/BannerPresets.php:947
+msgid "Emotionally colorful play of red-black-white."
+msgstr "Emotionales Farbspiel von Rot-Schwarz-Weiß."
+
+#: inc/presets/BannerPresets.php:1062
+msgid "Gold in the Dark"
+msgstr "Gold in the Dark"
+
+#: inc/presets/BannerPresets.php:1211
+msgid "Gold Zen"
+msgstr "Gold Zen"
+
+#: inc/presets/BannerPresets.php:1212
+msgid "Bright appearance with gold-green accent."
+msgstr "Helle Optik mit gold-grünem Akzent."
+
+#: inc/presets/BannerPresets.php:1343
+msgid "Business Green"
+msgstr "Business Green"
+
+#: inc/presets/BannerPresets.php:1483
+msgid "Business as usual"
+msgstr "Business as usual"
+
+#: inc/presets/BannerPresets.php:1484
+msgid "Unobtrusive, clear and directly visible to everyone."
+msgstr "Unauffällig, klar und direkt sichtbar für alle."
+
+#: inc/presets/BannerPresets.php:1597
+msgid "Creative Minimal"
+msgstr "Creative Minimal"
+
+#: inc/presets/BannerPresets.php:1598
+msgid "Design as clear and minimalist as possible."
+msgstr "Gestalte so klar und minimalistisch wie möglich."
+
+#: inc/presets/BannerPresets.php:1747
+msgid "Simple Black-White"
+msgstr "Simple Black-White"
+
+#: inc/presets/BannerPresets.php:1748
+msgid "Make it easy with just two colors."
+msgstr "Mach es dir einfach mit nur zwei Farben."
+
+#: inc/presets/Presets.php:150
+msgid "https://devowl.io/knowledge-base/real-cookie-banner-disabled-cookie-templates/"
+msgstr "https://devowl.io/de/wissensdatenbank/real-cookie-banner-deaktivierte-cookie-vorlagen/"
+
+#: inc/presets/pro/EzoicEssentialPreset.php:20
+msgid "Ezoic (Essential)"
+msgstr "Ezoic (Essenziell)"
+
+#: inc/presets/pro/EzoicMarketingPreset.php:20
+msgid "Ezoic (Marketing)"
+msgstr "Ezoic (Marketing)"
+
+#: inc/presets/pro/EzoicPreferencesPreset.php:20
+msgid "Ezoic (Preferences)"
+msgstr "Ezoic (Präferenzen)"
+
+#: inc/view/customize/banner/BodyDesign.php:502
+msgid "Button: Continue without consent"
+msgstr "Button: Weiter ohne Einwilligung"
+
+#: inc/view/customize/banner/Design.php:225
+msgid "Color opacity"
+msgstr "Farbdeckkraft"
+
+#. translators:
+#: inc/import/ImportSettings.php:107 inc/import/ImportSettings.php:126
+msgid "Setting/Option <code>%1$s</code> (%2$s) cannot be imported because it needs explicit opt-in. Skipped."
+msgstr "Einstellung/Option <code>%1$s</code> (%2$s) kann nicht importiert werden, da sie ein explizites Opt-In benötigt. Übersprungen."
+
+#: inc/presets/pro/EzoicStatisticPreset.php:20
+msgid "Ezoic (Statistics)"
+msgstr "Ezoic (Statistik)"
+
+#. translators:
+#: inc/import/ImportMessages.php:174
+msgid "The TCF vendor configuration for vendor with ID <code>%s</code> already exists. Skipped."
+msgstr "Die TCF Vendor-Konfiguration für den Verdorr mit der ID <code>%s</code> existiert bereits. Übersprungen."
+
+#: inc/import/ImportSettings.php:131
+msgid "enabling geo-restriction"
+msgstr "Geo-Restriktion aktivieren"
+
+#: inc/import/ImportTcfVendorConfigurations.php:78
+msgid "TCF Vendor"
+msgstr "TCF Verdorr"
+
+#: inc/import/ImportTcfVendorConfigurations.php:98
+msgid "TCF Vendor configuration"
+msgstr "TCF Vendor-Konfiguration"
+
+#: inc/presets/BannerPresets.php:715
+msgid "Clean Green"
+msgstr "Sauberes Green"
+
+#: inc/presets/BannerPresets.php:819
+msgid "Clean Red"
+msgstr "Sauberes Red"
+
+#: inc/presets/BannerPresets.php:1063
+msgid "Dark mode design with a clear accent."
+msgstr "Dunkler Modus-Design mit einem klaren Akzent."
+
+#: inc/view/customize/banner/BodyDesign.php:655
+msgid "Button: Individual privacy preferences"
+msgstr "Button: Individuelle Einstellungen"
+
+#: inc/view/customize/banner/Texts.php:236
+msgid "At the moment we do not provide a live preview for content blocker texts."
+msgstr "Derzeit bieten wir keine Live-Vorschau für Content Blocker-Texte an."
+
+#: inc/view/customize/banner/Texts.php:244
+msgid "Use <code>{{name}}</code> as a placeholder for the content blocker name."
+msgstr "Verwende <code>{{name}}</code> als Platzhalter für den Content Blocker-Namen."
+
+#: inc/view/customize/banner/Texts.php:252
+msgid "Link text, to show all required services"
+msgstr "Linktext, um alle benötigten Services anzuzeigen"
+
+#: inc/view/customize/banner/Texts.php:257
+msgid "\"Load content\" button/link"
+msgstr "\"Inhalt laden”-Button/Link"
+
+#: inc/view/customize/banner/Texts.php:262
+msgid "Additional info below the \"Load content\" button"
+msgstr "Zusatzinfo unterhalb dem \"Inhalt laden”-Button"
+
+#: inc/view/customize/banner/BodyDesign.php:361
+msgid "Align buttons side by side"
+msgstr "Buttons nebeneinander ausrichten"
+
+#: inc/view/customize/banner/BodyDesign.php:155
+msgid "Please also shorten the texts, e.g. \"Reject\" and \"Accept all\", to avoid legal risks with truncated text, or reduce the font size."
+msgstr "Bitte kürze die Texte auch z.B. “Ablehnen” und “Alle akzeptieren”, um rechtliche Risiken mit abgeschnittenem Text zu vermeiden. Oder reduziere die Schriftgröße."
+
+#: inc/view/customize/banner/BodyDesign.php:159
+msgid "Note that for visitors with an older browser (e.g. Internet Explorer) this option will not work."
+msgstr "Beachte, dass diese Option für Besucher mit einem älteren Browser (z. B. Internet Explorer) nicht funktioniert."
+
+#: inc/view/ConfigPage.php:124
+msgid "A cookie banner for your website is installed. With it, you can integrate e.g. <strong>Google Analytics, Google Maps or YouTube videos</strong> legally compliant. You just have to configure it!"
+msgstr "Ein Cookie Banner für deine Website ist installiert. Damit kannst du z.B. <strong>Google Analytics, Google Maps oder YouTube Videos</strong> rechtskonform einbinden. Du musst es nur noch einrichten!"
+
+#: inc/view/ConfigPage.php:129
+msgid "Start now!"
+msgstr "Jetzt starten!"
+
+#: inc/presets/free/FontAwesomePreset.php:37
+msgid "There is no need for an opt-in script, because Font Awesome is loaded by some plugin or theme without JavaScript. In addition to this cookie, please create a content blocker that automatically blocks Font Awesome."
+msgstr "Ein Opt-in-Script ist nicht erforderlich, da Font Awesome von einem Theme oder Plugin ohne JavaScript geladen wird. Erstelle bitte zusätzlich zu diesem Cookie einen Content Blocker, der Font Awesome automatisch blockiert, bevor du die Einwilligung deines Nutzers hast."
+
+#: inc/presets/pro/blocker/CleverReachRecaptchaPreset.php:24
+msgid "CleverReach"
+msgstr "CleverReach"
+
+#: inc/presets/BannerPresets.php:656
+msgid "Clean Dialog"
+msgstr "Sauberer Dialog"
+
+#: inc/presets/BannerPresets.php:657
+msgid "Clean design which suits perfect to themes without many colors."
+msgstr "Sauberes Design, das perfekt zu Themes ohne viele Farben passt."
+
+#: inc/presets/free/FontAwesomePreset.php:30
+msgid "Font Awesome is a service that downloads a custom icon font that are not installed on the client device of the user and embeds them into the website. No cookies in the technical sense are set on the client of the user, but technical and personal data such as the IP address will be transmitted from the client to the server of the service provider to make the use of the service possible."
+msgstr "Font Awesome ist ein Service, der benutzerdefinierte Icon-Schriften, die nicht auf dem Client-Gerät des Nutzers installiert sind, herunterlädt und in die Website einbettet. Auf dem Client-Gerät des Nutzers werden keine Cookies im technischen Sinne gesetzt, aber es werden technische und persönliche Daten (wie z.B. die IP-Adresse) vom Client an den Server des Dienstanbieters übertragen, um die Nutzung des Services zu ermöglichen."
+
+#. translators:
+#: inc/presets/middleware/DisableTechnicalHandlingThroughPluginMiddleware.php:43
+msgid "You don't have to define a technical handling here, because this is done by the plugin <strong>%s</strong>."
+msgstr "Du musst hier nicht zwingend eine technische Handhabung definieren, da dies vom Plugin <strong>%s</strong> übernommen wird."
+
+#: inc/presets/pro/blocker/ActiveCampaignFormPreset.php:23
+msgid "ActiveCampaign Form"
+msgstr "ActiveCampaign Form"
+
+#: inc/presets/free/ElementorPreset.php:38
+msgid "Elementor is a software used to create the layout of this website. Cookies are used to store the number of page views and active sessions of the user. The collected data is not used for analysis purposes, but only to ensure that, for example, hidden elements are not displayed again during multiple active sessions."
+msgstr "Elementor ist eine Software, mit der das Layout dieser Website erstellt wurde. Cookies werden dafür eingesetzt, um die Anzahl der Seitenaufrufe und aktive Sitzungen des Nutzers zu speichern. Die erhobenen Daten werden nicht für Analysezwecke verwendet, sondern nur um sicherzustellen, dass z.B. bei mehreren aktiven Sitzungen ausgeblendete Elemente nicht wieder angezeigt werden."
+
+#: inc/presets/Presets.php:143 inc/presets/Presets.php:144
+#: inc/view/ConfigPage.php:268 public/dist/chunk-config-tab-blocker.lite.js:1
+#: public/dist/chunk-config-tab-consent.lite.js:1
+#: public/dist/chunk-config-tab-cookies.lite.js:1
+#: public/dist/chunk-config-tab-import.lite.js:1
+#: public/dist/chunk-config-tab-scanner.lite.js:1
+#: public/dist/chunk-config-tab-settings.lite.js:1
+#: public/dist/chunk-config-tab-tcf.lite.js:1 public/dist/479.lite.js:248
+#: public/dist/479.lite.js:863 public/dist/946.lite.js:632
+#: public/dist/chunk-config-tab-blocker.lite.js:112
+#: public/dist/chunk-config-tab-blocker.lite.js:114
+#: public/dist/chunk-config-tab-blocker.lite.js:116
+#: public/dist/chunk-config-tab-blocker.lite.js:583
+#: public/dist/chunk-config-tab-consent.lite.js:304
+#: public/dist/chunk-config-tab-consent.lite.js:309
+#: public/dist/chunk-config-tab-consent.lite.js:314
+#: public/dist/chunk-config-tab-consent.lite.js:324
+#: public/dist/chunk-config-tab-consent.lite.js:329
+#: public/dist/chunk-config-tab-consent.lite.js:334
+#: public/dist/chunk-config-tab-consent.lite.js:339
+#: public/dist/chunk-config-tab-consent.lite.js:344
+#: public/dist/chunk-config-tab-consent.lite.js:403
+#: public/dist/chunk-config-tab-cookies.lite.js:410
+#: public/dist/chunk-config-tab-cookies.lite.js:1297
+#: public/dist/chunk-config-tab-import.lite.js:301
+#: public/dist/chunk-config-tab-import.lite.js:327
+#: public/dist/chunk-config-tab-import.lite.js:349
+#: public/dist/chunk-config-tab-scanner.lite.js:198
+#: public/dist/chunk-config-tab-settings.lite.js:342
+#: public/dist/chunk-config-tab-settings.lite.js:359
+#: public/dist/chunk-config-tab-settings.lite.js:411
+#: public/dist/chunk-config-tab-settings.lite.js:458
+#: public/dist/chunk-config-tab-settings.lite.js:479
+#: public/dist/chunk-config-tab-settings.lite.js:494
+#: public/dist/chunk-config-tab-settings.lite.js:559
+#: public/dist/chunk-config-tab-settings.lite.js:761
+#: public/dist/chunk-config-tab-settings.lite.js:1050
+#: public/dist/chunk-config-tab-tcf.lite.js:132
+#: public/dist/chunk-config-tab-tcf.lite.js:387
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: inc/presets/free/WordPressEmojisPreset.php:29
+msgid "WordPress Emoji is an emoji set that is loaded from wordpress.org. No cookies in the technical sense are set on the client of the user, but technical and personal data such as the IP address will be transmitted from the client to the server of the service provider to make the use of the service possible."
+msgstr "WordPress Emoji ist ein Emoji-Set, das von wordpress.org geladen wird. Es werden keine Cookies im technischen Sinne auf dem Client des Nutzers gesetzt, jedoch werden technische und personenbezogene Daten wie die IP-Adresse vom Client an den Server des Dienstanbieters übertragen, um die Nutzung des Dienstes zu ermöglichen."
+
+#: inc/presets/free/WordPressEmojisPreset.php:35
+msgid "https://wordpress.org/about/privacy/"
+msgstr "https://de.wordpress.org/about/privacy/"
+
+#: inc/view/customize/banner/Texts.php:212
+#: public/dist/chunk-config-tab-consent.lite.js:1
+#: public/dist/chunk-config-tab-settings.lite.js:1
+#: public/dist/chunk-config-tab-consent.lite.js:343
+#: public/dist/chunk-config-tab-settings.lite.js:1040
+msgid "Consent Forwarding"
+msgstr "Weiterleitung der Einwilligung"
+
+#: inc/view/ConfigPage.php:265 public/dist/chunk-config-tab-consent.lite.js:1
+#: public/dist/chunk-config-tab-import.lite.js:1
+#: public/dist/chunk-config-tab-settings.lite.js:1
+#: public/dist/chunk-config-tab-tcf.lite.js:1 public/dist/479.lite.js:246
+#: public/dist/946.lite.js:630 public/dist/chunk-config-tab-consent.lite.js:309
+#: public/dist/chunk-config-tab-consent.lite.js:314
+#: public/dist/chunk-config-tab-consent.lite.js:324
+#: public/dist/chunk-config-tab-consent.lite.js:329
+#: public/dist/chunk-config-tab-consent.lite.js:334
+#: public/dist/chunk-config-tab-consent.lite.js:339
+#: public/dist/chunk-config-tab-consent.lite.js:344
+#: public/dist/chunk-config-tab-consent.lite.js:403
+#: public/dist/chunk-config-tab-import.lite.js:299
+#: public/dist/chunk-config-tab-import.lite.js:325
+#: public/dist/chunk-config-tab-import.lite.js:347
+#: public/dist/chunk-config-tab-settings.lite.js:340
+#: public/dist/chunk-config-tab-settings.lite.js:357
+#: public/dist/chunk-config-tab-settings.lite.js:408
+#: public/dist/chunk-config-tab-settings.lite.js:456
+#: public/dist/chunk-config-tab-settings.lite.js:477
+#: public/dist/chunk-config-tab-settings.lite.js:492
+#: public/dist/chunk-config-tab-settings.lite.js:556
+#: public/dist/chunk-config-tab-settings.lite.js:758
+#: public/dist/chunk-config-tab-settings.lite.js:1047
+#: public/dist/chunk-config-tab-tcf.lite.js:385
+#: public/dist/chunk-config-tab-tcf.lite.js:755
+#: public/dist/chunk-config-tab-tcf.lite.js:840
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: inc/view/navmenu/NavMenuLinks.php:169
+#: public/dist/chunk-config-tab-consent.lite.js:1
+#: public/dist/chunk-config-tab-consent.lite.js:1616
+msgid "Success message"
+msgstr "Erfolgsmeldung"
+
+#: inc/scanner/Scanner.php:424 public/dist/admin.lite.js:1
+#: public/dist/chunk-config-tab-blocker.lite.js:1
+#: public/dist/chunk-config-tab-cookies.lite.js:1
+#: public/dist/chunk-config-tab-scanner.lite.js:1 public/dist/admin.lite.js:890
+#: public/dist/chunk-config-tab-blocker.lite.js:734
+#: public/dist/chunk-config-tab-cookies.lite.js:1448
+#: public/dist/chunk-config-tab-scanner.lite.js:349
+#: public/dist/chunk-config-tab-scanner.lite.js:526
+#: public/dist/queue.lite.js:224
+msgid "https://devowl.io/support/"
+msgstr "https://devowl.io/de/support/"
+
+#: inc/view/customize/banner/Legal.php:195
+msgid "Please fill in a valid URL!"
+msgstr "Bitte trage eine gültige URL ein!"
+
+#. translators:
+#: inc/import/ImportMessages.php:196
+msgid "The content blocker <code>%s</code> already exists. A new content blocker has been created anyway."
+msgstr "Der Content Blocker <code>%s</code> ist bereits vorhanden. Es wurde trotzdem ein neuer Content Blocker erstellt."
+
+#. translators:
+#: inc/import/ImportMessages.php:333
+msgid "Setting/Option <code>%s</code> can only be imported in the PRO version. Skipped."
+msgstr "Einstellung/Option <code>%s</code> kann nur in der PRO-Version importiert werden. Übersprungen."
+
+#. translators:
+#: inc/import/ImportMessages.php:380
+msgid "Setting/Option <strong>%1$s</strong> (key <code>%2$s</code>) cannot be imported because it refers to a page (ID). Skipped."
+msgstr "Einstellung/Option <strong>%1$s</strong> (Schlüssel <code>%2$s</code>) kann nicht importiert werden, da sie sich auf eine Seite (ID) bezieht. Übersprungen."
+
+#. translators:
+#: inc/import/ImportMessages.php:402
+msgid "Setting/Option <strong>%1$s</strong> (key <code>%2$s</code>) cannot be imported because it refers to a media URL/ID. Skipped."
+msgstr "Einstellung/Option <strong>%1$s</strong> (Schlüssel <code>%2$s</code>) kann nicht importiert werden, da sie sich auf eine Medien ID oder URL bezieht. Übersprungen."
+
+#. translators:
+#: inc/import/ImportMessages.php:429
+msgid "Setting/Option <strong>%1$s</strong> (key <code>%2$s</code>) cannot be imported. Skipped."
+msgstr "Einstellung/Option <strong>%1$s</strong> (Schlüssel <code>%2$s</code>) kann nicht importiert werden. Übersprungen."
+
+#: inc/import/ImportSettings.php:68
+#: public/dist/chunk-config-tab-consent.lite.js:1
+#: public/dist/chunk-config-tab-settings.lite.js:1
+#: public/dist/chunk-config-tab-consent.lite.js:384
+#: public/dist/chunk-config-tab-settings.lite.js:203
+msgid "Hide on additional pages"
+msgstr "Auf zusätzlichen Seiten ausblenden"
+
+#: inc/import/ImportSettings.php:92
+#: public/dist/chunk-config-tab-settings.lite.js:1
+#: public/dist/chunk-config-tab-settings.lite.js:1101
+msgid "Forward to"
+msgstr "Weiterleiten an"
+
+#: inc/presets/pro/blocker/ContactForm7RecaptchaPreset.php:26
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: inc/presets/pro/blocker/ActiveCampaignFormPreset.php:24
+#: inc/presets/pro/blocker/CalderaFormsPreset.php:27
+#: inc/presets/pro/blocker/CleverReachRecaptchaPreset.php:25
+#: inc/presets/pro/blocker/ContactForm7RecaptchaPreset.php:27
+#: inc/presets/pro/blocker/DiviContactFormPreset.php:27
+#: inc/presets/pro/blocker/ElementorFormsPreset.php:27
+#: inc/presets/pro/blocker/FiveStarRestaurantReservationsPreset.php:28
+#: inc/presets/pro/blocker/FormidablePreset.php:28
+#: inc/presets/pro/blocker/FormMakerRecaptchaPreset.php:27
+#: inc/presets/pro/blocker/HappyFormsPreset.php:28
+#: inc/presets/pro/blocker/NinjaFormsPreset.php:27
+#: inc/presets/pro/blocker/QuformRecaptchaPreset.php:27
+#: inc/presets/pro/blocker/WPFormsPreset.php:28
+msgid "with Google reCAPTCHA"
+msgstr "mit Google reCAPTCHA"
+
+#: inc/presets/pro/blocker/FormMakerRecaptchaPreset.php:26
+msgid "Form Maker"
+msgstr "Form Maker"
+
+#: inc/presets/pro/blocker/CalderaFormsPreset.php:26
+msgid "Caldera Forms"
+msgstr "Caldera Forms"
+
+#: inc/presets/pro/blocker/NinjaFormsPreset.php:26
+msgid "Ninja Forms"
+msgstr "Ninja Forms"
+
+#: inc/presets/pro/blocker/WPFormsPreset.php:27
+msgid "WPForms"
+msgstr "WPForms"
+
+#: inc/presets/pro/blocker/FormidablePreset.php:27
+msgid "Formidable"
+msgstr "Formidable"
+
+#: inc/presets/BannerPresets.php:331
+msgid "Optimized design for the standard Astra theme as a consent dialog."
+msgstr "Optimiertes Design für das Astra Theme als Cookie Dialog."
+
+#: inc/presets/BannerPresets.php:399
+msgid "Optimized design for the standard Astra theme as a consent banner."
+msgstr "Optimiertes Design für das Astra Theme als Cookie Banner."
+
+#: inc/presets/BannerPresets.php:472
+msgid "Optimized design for the standard Avada theme as a consent dialog."
+msgstr "Optimiertes Design für das Avada Theme als Cookie Dialog."
+
+#: inc/presets/BannerPresets.php:563
+msgid "Optimized design for the standard Avada theme as a consent banner."
+msgstr "Optimiertes Design für das Avada Theme als Cookie Banner."
+
+#: inc/presets/middleware/BlockerExistsMiddleware.php:28
+msgid "You have already created a Content Blocker with this template."
+msgstr "Du hast bereits einen Content Blocker mit dieser Vorlage erstellt."
+
+#: inc/presets/free/GravatarPreset.php:37
+msgid "There is no need for an opt-in script, because Gravatar images are loaded by WordPress or some plugin without JavaScript. In addition to this cookie, please create a content blocker that automatically blocks images from Gravatar e. g. in the comment section."
+msgstr "Ein Opt-in-Script ist nicht erforderlich, da Gravatar Avatar von WordPress oder einem Plugin ohne JavaScript geladen werden. Erstelle bitte zusätzlich zu diesem Cookie einen Content Blocker, der Avatars von Gravatar automatisch blockiert, bevor du die Einwilligung deines Nutzers hast."
+
+#: inc/presets/free/JetPackCommentsPreset.php:409
+msgid "There is no need for an opt-in script because the comment feature is loaded by the Jetpack WordPress plugin. In addition to the cookie, you must create a content blocker that will block Jetpack Comments until the user gives consent to load it."
+msgstr "Ein Opt-in-Script ist nicht erforderlich, da die Kommentarfunktion durch das Jetpack WordPress-Plugin geladen wird. Du musst einen Content Blocker erstellen, der Instagram blockiert, bis der Nutzer seine Einwilligung zum Laden gibt."
+
+#: inc/presets/free/blocker/WordPressCommentsPreset.php:19
+#: inc/presets/free/WordPressCommentsPreset.php:22
+msgid "WordPress Comments"
+msgstr "WordPress Kommentare"
+
+#: inc/presets/free/JetpackSiteStatsPreset.php:35
+msgid "Jetpack Site Stats is a service to create detailed statistics about the user behavior on the website. No cookies in the technical sense are set on the client of the user, but technical and personal data such as the IP address will be transmitted from the client to the server of the service provider to make the use of the service possible. This information can be used to track the user on this website and to connect collected data of several page views on this website. the client of the user in the technical sense, but technical data is transferred from the client to the server of the service provider in order to track the user on this website and to connect collected data of several page views on this website."
+msgstr "Jetpack Site Stats ist ein Dienst zur Erstellung detaillierter Statistiken über das Nutzerverhalten auf der Website. Es werden keine Cookies im technischen Sinne auf dem Client des Nutzers gesetzt, aber es werden technische und persönliche Daten wie z.B. die IP-Adresse vom Client an den Server des Service-Providers übermittelt, um die Nutzung des Dienstes zu ermöglichen. Diese Informationen können verwendet werden, um den Nutzer auf dieser Website zu verfolgen und um gesammelte Daten mehrerer Seitenaufrufe auf dieser Website miteinander zu verknüpfen."
+
+#: inc/presets/free/WordPressCommentsPreset.php:30
+msgid "Comments"
+msgstr "Kommentare"
+
+#: inc/presets/free/WordPressUserLoginPreset.php:31
+msgid "WordPress is the content management system for this website and allows registered users to log in to the system. The cookies store the credentials of a logged-in user as hash, login status and user ID as well as user-related settings for the WordPress backend."
+msgstr "WordPress ist das Content-Management-System für diese Website und ermöglicht es registrierten Nutzern sich in dem System anzumelden. Die Cookies speichern die Anmeldedaten eines angemeldeten Benutzers als Hash, Anmeldestatus und Benutzer-ID sowie benutzerbezogene Einstellungen für das WordPress Backend."
+
+#: inc/presets/free/YoutubePreset.php:30
+msgid "YouTube allows embedding content posted on youtube.com directly into websites. The cookies are used to collect visited websites and detailed statistics about the user behaviour. This data can be linked to the data of users registered on youtube.com and google.com or localized versions of these services."
+msgstr "YouTube ermöglicht die direkte Einbettung von auf youtube.com veröffentlichten Inhalten in Websites. Die Cookies werden verwendet, um besuchte Websites und detaillierte Statistiken über das Nutzerverhalten zu sammeln. Diese Daten können mit den Daten der auf youtube.com und google.com angemeldeten Nutzer verknüpft werden."
+
+#: inc/presets/free/YoutubePreset.php:287
+msgid "There is no need for an opt-in script because the YouTube content is usually loaded in an iframe. You must create a content blocker that will block YouTube until the user gives consent to load it."
+msgstr "Du musst einen Content Blocker erstellen, der YouTube blockiert, bis der Nutzer seine Einwilligung zum Laden gibt."
+
+#: inc/presets/UpdateNotice.php:89
+msgid "Dismiss this notice"
+msgstr "Hinweis ausblenden"
+
+#: inc/settings/Blocker.php:119
+msgid "Content Blockers"
+msgstr "Content Blocker"
+
+#: inc/settings/Cookie.php:154 inc/view/ConfigPage.php:175
+#: inc/view/ConfigPage.php:252
+msgid "Cookies"
+msgstr "Cookies"
+
+#: inc/view/BannerCustomize.php:224 inc/view/ConfigPage.php:276
+msgid "Cookie Banner"
+msgstr "Cookie Banner"
+
+#: inc/view/checklist/ActivateBanner.php:28
+msgid "Activate Cookie Banner and Content Blocker"
+msgstr "Cookie Banner und Content Blocker aktivieren"
+
+#: inc/view/checklist/ActivateBanner.php:40
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: inc/view/checklist/AddBlocker.php:24
+msgid "Create a content blocker"
+msgstr "Content Blocker erstellen"
+
+#: inc/view/checklist/AddBlocker.php:39
+#: public/dist/chunk-config-tab-blocker.lite.js:167
+msgid "Add content blocker"
+msgstr "Content Blocker hinzufügen"
+
+#: inc/view/checklist/CustomizeBanner.php:43
+msgid "Start customizing"
+msgstr "Anpassen beginnen"
+
+#: inc/view/checklist/GetPro.php:24
+msgid "Buy a license of Real Cookie Banner PRO"
+msgstr "Kaufe eine Lizenz von Real Cookie Banner PRO"
+
+#: inc/view/checklist/GetPro.php:28
+msgid "Get a PRO license at devowl.io to get more out of Real Cookie Banner!"
+msgstr "Hol dir eine PRO-Lizenz auf devowl.io, um mehr aus Real Cookie Banner herauszuholen!"
+
+#: inc/view/checklist/Install.php:20
+msgid "Install Real Cookie Banner"
+msgstr "Real Cookie Banner installieren"
+
+#: inc/view/checklist/Install.php:24
+msgid "You have to install and activate the plugin in your WordPress to start with the setup."
+msgstr "Du musst das Plugin in deinem WordPress installieren und aktivieren, um mit der Einrichtung zu beginnen."
+
+#: inc/view/checklist/License.php:28
+msgid "Activate your license"
+msgstr "Lizenz aktivieren"
+
+#: inc/view/checklist/License.php:32
+msgid "Only users with an activated license get updates and are always up-to-date on legal changes."
+msgstr "Nur Nutzer mit einer aktivierten Lizenz erhalten Updates und sind immer auf dem neuesten Stand hinsichtlich gesetzlicher Änderungen."
+
+#: inc/view/checklist/License.php:43 public/dist/479.lite.js:780
+msgid "Activate now"
+msgstr "Jetzt aktivieren"
+
+#: inc/view/checklist/SaveSettings.php:28
+msgid "Adjust the settings of the cookie banner"
+msgstr "Einstellungen des Cookie Banners anpassen"
+
+#: inc/view/checklist/SaveSettings.php:40
+msgid "Manage settings"
+msgstr "Einstellungen anpassen"
+
+#: inc/view/checklist/ViewStats.php:24
+msgid "Check out statistics about consents"
+msgstr "Statistiken über Einwilligungen ansehen"
+
+#: inc/view/ConfigPage.php:194 inc/view/ConfigPage.php:262
+#: public/dist/admin.lite.js:1 public/dist/chunk-config-tab-import.lite.js:1
+#: public/dist/admin.lite.js:856
+#: public/dist/chunk-config-tab-import.lite.js:462
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: inc/view/customize/banner/BasicLayout.php:78
+msgid "Basic Layout"
+msgstr "Grundlegendes Layout"
+
+#: inc/view/customize/banner/BasicLayout.php:82
+#: inc/view/customize/banner/individual/Layout.php:37
+msgid "Layout"
+msgstr "Layout"
+
+#: inc/view/customize/banner/BasicLayout.php:84
+msgid "Dialog"
+msgstr "Dialog"
+
+#: inc/view/customize/banner/BasicLayout.php:84
+msgid "Banner"
+msgstr "Banner"
+
+#: inc/view/customize/banner/BasicLayout.php:97
+#: inc/view/customize/banner/BasicLayout.php:121
+msgid "Position"
+msgstr "Position"
+
+#: inc/view/customize/banner/BasicLayout.php:100
+msgid "Top left"
+msgstr "Oben links"
+
+#: inc/view/customize/banner/BasicLayout.php:101
+msgid "Top center"
+msgstr "Oben Mitte"
+
+#: inc/view/customize/banner/BasicLayout.php:102
+msgid "Top right"
+msgstr "Oben rechts"
+
+#: inc/view/customize/banner/BasicLayout.php:103
+msgid "Middle left"
+msgstr "Mitte links"
+
+#: inc/view/customize/banner/BasicLayout.php:104
+#: inc/view/customize/banner/BodyDesign.php:250
+#: inc/view/customize/banner/BodyDesign.php:794
+#: inc/view/customize/banner/Mobile.php:106
+msgid "Center"
+msgstr "Zentriert"
+
+#: inc/view/customize/banner/BasicLayout.php:105
+msgid "Middle right"
+msgstr "Mitte rechts"
+
+#: inc/view/customize/banner/BasicLayout.php:106
+msgid "Bottom left"
+msgstr "Unten links"
+
+#: inc/view/customize/banner/BasicLayout.php:107
+msgid "Bottom center"
+msgstr "Unten Mitte"
+
+#: inc/view/customize/banner/BasicLayout.php:108
+msgid "Bottom right"
+msgstr "Unten rechts"
+
+#: inc/view/customize/banner/BasicLayout.php:115
+#: inc/view/customize/banner/HeaderDesign.php:152
+msgid "Margin"
+msgstr "Außenabstand"
+
+#: inc/view/customize/banner/BasicLayout.php:123
+#: inc/view/customize/banner/Mobile.php:105
+msgid "Top"
+msgstr "Oben"
+
+#: inc/view/customize/banner/BasicLayout.php:123
+#: inc/view/customize/banner/Mobile.php:107
+msgid "Bottom"
+msgstr "Unten"
+
+#: inc/view/customize/banner/BasicLayout.php:152
+msgid "Animation on display"
+msgstr "Animation beim Einblenden"
+
+#: inc/view/customize/banner/BasicLayout.php:188
+msgid "Animation on hide"
+msgstr "Animation beim Ausblenden"
+
+#: inc/view/customize/banner/BasicLayout.php:227
+msgid "Block content until consent"
+msgstr "Inhalte bis zur Einwilligung blockieren"
+
+#: inc/view/customize/banner/BasicLayout.php:252
+msgid "Blur effect"
+msgstr "Unschärfe-Effekt"
+
+#: inc/view/customize/banner/BodyDesign.php:166
+msgid "Body"
+msgstr "Hauptbereich (Body)"
+
+#: inc/view/customize/banner/BodyDesign.php:171
+#: inc/view/customize/banner/BodyDesign.php:379
+#: inc/view/customize/banner/BodyDesign.php:532
+#: inc/view/customize/banner/BodyDesign.php:664
+#: inc/view/customize/banner/FooterDesign.php:124
+#: inc/view/customize/banner/HeaderDesign.php:107
+#: inc/view/customize/banner/individual/Group.php:171
+#: inc/view/customize/banner/individual/SaveButton.php:92
+msgid "Padding"
+msgstr "Innenabstand"
+
+#: inc/view/customize/banner/BodyDesign.php:190
+msgid "Description font size"
+msgstr "Schriftgröße der Beschreibung"
+
+#: inc/view/customize/banner/BodyDesign.php:228
+msgid "Additional teachings"
+msgstr "Zusätzliche Belehrungen"
+
+#: inc/view/customize/banner/BodyDesign.php:229
+msgid "Texts for US data processing and age notice."
+msgstr "Texte für die Datenverarbeitung in den USA und Altershinweis."
+
+#: inc/view/customize/banner/BodyDesign.php:245
+#: inc/view/customize/banner/BodyDesign.php:395
+#: inc/view/customize/banner/BodyDesign.php:548
+#: inc/view/customize/banner/BodyDesign.php:680
+#: inc/view/customize/banner/Design.php:75
+#: inc/view/customize/banner/FooterDesign.php:109
+#: inc/view/customize/banner/HeaderDesign.php:99
+#: inc/view/customize/banner/individual/SaveButton.php:105
+msgid "Text align"
+msgstr "Textausrichtung"
+
+#: inc/view/customize/banner/BodyDesign.php:248
+#: inc/view/customize/banner/BodyDesign.php:792
+#: inc/view/customize/banner/HeaderDesign.php:143
+msgid "Left"
+msgstr "Links"
+
+#: inc/view/customize/banner/BodyDesign.php:249
+#: inc/view/customize/banner/BodyDesign.php:793
+#: inc/view/customize/banner/HeaderDesign.php:144
+msgid "Right"
+msgstr "Rechts"
+
+#: inc/view/customize/banner/BodyDesign.php:251
+#: inc/view/customize/banner/BodyDesign.php:795
+msgid "Justify"
+msgstr "Blocksatz"
+
+#: inc/view/customize/banner/BodyDesign.php:296
+#: inc/view/customize/banner/BodyDesign.php:344
+#: inc/view/customize/banner/BodyDesign.php:421
+#: inc/view/customize/banner/BodyDesign.php:455
+#: inc/view/customize/banner/BodyDesign.php:574
+#: inc/view/customize/banner/BodyDesign.php:608
+#: inc/view/customize/banner/BodyDesign.php:706
+#: inc/view/customize/banner/BodyDesign.php:740
+#: inc/view/customize/banner/Design.php:102
+#: inc/view/customize/banner/Design.php:124
+#: inc/view/customize/banner/Design.php:217
+#: inc/view/customize/banner/FooterDesign.php:144
+#: inc/view/customize/banner/FooterDesign.php:189
+#: inc/view/customize/banner/FooterDesign.php:214
+#: inc/view/customize/banner/HeaderDesign.php:171
+#: inc/view/customize/banner/HeaderDesign.php:222
+#: inc/view/customize/banner/individual/Group.php:209
+#: inc/view/customize/banner/individual/Group.php:239
+#: inc/view/customize/banner/individual/Group.php:262
+#: inc/view/customize/banner/individual/SaveButton.php:126
+#: inc/view/customize/banner/individual/SaveButton.php:152
+msgid "Color"
+msgstr "Farbe"
+
+#: inc/view/customize/banner/BodyDesign.php:323
+#: inc/view/customize/banner/BodyDesign.php:409
+#: inc/view/customize/banner/BodyDesign.php:562
+#: inc/view/customize/banner/BodyDesign.php:694
+#: inc/view/customize/banner/Design.php:111
+#: inc/view/customize/banner/FooterDesign.php:135
+#: inc/view/customize/banner/HeaderDesign.php:132
+#: inc/view/customize/banner/HeaderDesign.php:162
+#: inc/view/customize/banner/individual/Group.php:223
+#: inc/view/customize/banner/individual/Group.php:253
+#: inc/view/customize/banner/individual/SaveButton.php:117
+msgid "Size"
+msgstr "Größe"
+
+#: inc/view/customize/banner/BodyDesign.php:437
+#: inc/view/customize/banner/BodyDesign.php:590
+#: inc/view/customize/banner/BodyDesign.php:722
+#: inc/view/customize/banner/Design.php:89
+#: inc/view/customize/banner/individual/Group.php:92
+#: inc/view/customize/banner/individual/Group.php:194
+#: inc/view/customize/banner/individual/SaveButton.php:139
+msgid "Border"
+msgstr "Rahmen"
+
+#: inc/view/customize/banner/BodyDesign.php:464
+#: inc/view/customize/banner/BodyDesign.php:617
+#: inc/view/customize/banner/BodyDesign.php:749
+#: inc/view/customize/banner/FooterDesign.php:178
+#: inc/view/customize/banner/individual/SaveButton.php:158
+msgid "Transition on hover"
+msgstr "Hover-Effekt"
+
+#: inc/view/customize/banner/BodyDesign.php:484
+#: inc/view/customize/banner/BodyDesign.php:637
+#: inc/view/customize/banner/BodyDesign.php:769
+#: inc/view/customize/banner/individual/Group.php:277
+#: inc/view/customize/banner/individual/SaveButton.php:173
+msgid "Font color"
+msgstr "Schriftfarbe"
+
+#: inc/view/customize/banner/BodyDesign.php:493
+#: inc/view/customize/banner/BodyDesign.php:646
+#: inc/view/customize/banner/BodyDesign.php:778
+#: inc/view/customize/banner/individual/Group.php:107
+#: inc/view/customize/banner/individual/Group.php:140
+#: inc/view/customize/banner/individual/SaveButton.php:182
+msgid "Border color"
+msgstr "Rahmenfarbe"
+
+#: inc/view/customize/banner/BodyDesign.php:804
+msgid "Normal"
+msgstr "Normal"
+
+#: inc/view/customize/banner/BodyDesign.php:387
+#: inc/view/customize/banner/BodyDesign.php:475
+#: inc/view/customize/banner/BodyDesign.php:540
+#: inc/view/customize/banner/BodyDesign.php:628
+#: inc/view/customize/banner/BodyDesign.php:672
+#: inc/view/customize/banner/BodyDesign.php:760
+#: inc/view/customize/banner/Design.php:70
+#: inc/view/customize/banner/FooterDesign.php:92
+#: inc/view/customize/banner/HeaderDesign.php:82
+#: inc/view/customize/banner/individual/Group.php:87
+#: inc/view/customize/banner/individual/Group.php:131
+#: inc/view/customize/banner/individual/Group.php:165
+#: inc/view/customize/banner/individual/SaveButton.php:100
+#: inc/view/customize/banner/individual/SaveButton.php:167
+msgid "Background color"
+msgstr "Hintergrundfarbe"
+
+#: inc/view/customize/banner/BodyDesign.php:805
+msgid "Bolder"
+msgstr "Fetter"
+
+#: inc/view/customize/banner/BodyDesign.php:806
+msgid "Bold"
+msgstr "Fett"
+
+#: inc/view/customize/banner/CustomCss.php:29
+#: inc/view/customize/banner/CustomCss.php:45
+msgid "Custom CSS"
+msgstr "Benutzerdefiniertes CSS"
+
+#: inc/view/customize/banner/CustomCss.php:33
+msgid "Anti-Adblocker optimization"
+msgstr "Anti-Adblocker-Optimierung"
+
+#: inc/view/customize/banner/CustomCss.php:39
+#: public/dist/customize.lite.js:4693
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: inc/view/customize/banner/CustomCss.php:39
+msgid "Disable"
+msgstr "Deaktivieren"
+
+#: inc/view/customize/banner/CustomCss.php:46
+msgid "The style will only be applied if you have disabled the anti-blocker optimization."
+msgstr "Der CSS Code wird nur angewendet, wenn du die Anti-Blocker-Optimierung deaktiviert hast."
+
+#: inc/view/customize/banner/Decision.php:101
+msgid "Consent options"
+msgstr "Einwilligungs-Optionen"
+
+#: inc/view/customize/banner/Decision.php:122
+#: inc/view/customize/banner/Decision.php:142
+#: inc/view/customize/banner/Decision.php:179
+#: inc/view/customize/banner/individual/SaveButton.php:86
+#: public/dist/chunk-config-tab-consent.lite.js:1
+#: public/dist/chunk-config-tab-consent.lite.js:1599
+#: public/dist/customize.lite.js:4643
+msgid "Button"
+msgstr "Button"
+
+#: inc/view/customize/banner/Decision.php:123
+#: inc/view/customize/banner/Decision.php:143
+#: inc/view/customize/banner/Decision.php:180
+#: inc/view/customize/banner/individual/Group.php:270
+#: inc/view/customize/banner/individual/SaveButton.php:86
+#: public/dist/chunk-config-tab-consent.lite.js:1
+#: public/dist/chunk-config-tab-consent.lite.js:1597
+#: public/dist/customize.lite.js:4644
+msgid "Link"
+msgstr "Link"
+
+#: inc/view/customize/banner/Decision.php:224
+msgid "Custom choice in first view"
+msgstr "Benutzerdefinierte Auswahl in der ersten Ansicht"
+
+#: inc/view/customize/banner/Decision.php:239
+msgid "Show save button always"
+msgstr "Speichern-Button immer anzeigen"
+
+#: inc/view/customize/banner/Decision.php:240
+msgid "Show save button only after a change by the user"
+msgstr "Speichern-Button nur nach einer Änderung durch den Benutzer anzeigen"
+
+#: inc/view/customize/banner/Design.php:65
+#: inc/view/customize/banner/individual/Texts.php:41
+#: inc/view/customize/banner/Texts.php:82
+#: public/dist/chunk-config-tab-dashboard.lite.js:1
+#: public/dist/chunk-config-tab-settings.lite.js:1
+#: public/dist/chunk-config-tab-dashboard.lite.js:445
+#: public/dist/chunk-config-tab-settings.lite.js:1319
+msgid "General"
+msgstr "Allgemein"
+
+#: inc/view/customize/banner/Design.php:84
+msgid "Underline"
+msgstr "Unterstrichen"
+
+#: inc/view/customize/banner/Design.php:112
+msgid "The font size will be applied to the entire dialog. You can overwrite this setting e.g for headings in the respective section."
+msgstr "Die Schriftgröße wird auf den gesamten Dialog angewendet. Du kannst diese Einstellung z.B. für Überschriften im jeweiligen Abschnitt überschreiben."
+
+#: inc/view/customize/banner/Design.php:141
+#: inc/view/customize/banner/FooterDesign.php:161
+#: inc/view/customize/banner/HeaderDesign.php:188
+msgid "Family"
+msgstr "Familie"
+
+#: inc/view/customize/banner/Design.php:158
+msgid "Box shadow settings"
+msgstr "Box-Schatten Einstellungen"
+
+#: inc/view/customize/banner/Design.php:162
+msgid "Enable box shadow"
+msgstr "Box-Schatten aktivieren"
+
+#: inc/view/customize/banner/Design.php:174
+msgid "Horizontal offset"
+msgstr "Horizontaler Versatz"
+
+#: inc/view/customize/banner/Design.php:187
+msgid "Vertical offset"
+msgstr "Vertikaler Versatz"
+
+#: inc/view/customize/banner/Design.php:200
+msgid "Blur radius"
+msgstr "Unschärferadius"
+
+#: inc/view/customize/banner/Design.php:208
+msgid "Spread radius"
+msgstr "Ausbreitungsradius"
+
+#: inc/view/customize/banner/FooterDesign.php:116
+msgid "Link opens in"
+msgstr "Link öffnet in"
+
+#: inc/view/customize/banner/FooterDesign.php:118
+msgid "Same tab"
+msgstr "Gleicher Tab"
+
+#: inc/view/customize/banner/FooterDesign.php:118
+msgid "New tab"
+msgstr "Neuer Tab"
+
+#: inc/view/customize/banner/FooterDesign.php:197
+msgid "Top border"
+msgstr "Oberer Rahmen"
+
+#: inc/view/customize/banner/FooterDesign.php:198
+msgid "You can define an additional top border to separate the footer from the body."
+msgstr "Du kannst einen zusätzlichen oberen Rand definieren, um die Fußzeile (Footer) vom Hauptbereich (Body) abzutrennen."
+
+#: inc/view/customize/banner/HeaderDesign.php:119
+msgid "Image"
+msgstr "Bild"
+
+#: inc/view/customize/banner/HeaderDesign.php:120
+msgid "The recommended minimum height of your logo is <strong>128px</strong>. The width of your logo will be adjusted automatically."
+msgstr "Die empfohlene Mindesthöhe deines Logos beträgt <strong>128px</strong>. Die Breite deines Logos wird automatisch angepasst."
+
+#: inc/view/customize/banner/HeaderDesign.php:128
+msgid "Image (x2 for Retina)"
+msgstr "Bild (x2 für Retina)"
+
+#: inc/view/customize/banner/HeaderDesign.php:140
+msgid "Alignment relative to headline"
+msgstr "Ausrichtung relativ zur Überschrift"
+
+#: inc/view/customize/banner/HeaderDesign.php:145
+msgid "Above"
+msgstr "Oberhalb"
+
+#: inc/view/customize/banner/HeaderDesign.php:205
+msgid "Bottom border"
+msgstr "Unterer Rahmen"
+
+#: inc/view/customize/banner/HeaderDesign.php:206
+msgid "You can define an additional bottom border to separate the header from the body."
+msgstr "Du kannst einen zusätzlichen unteren Rahmen definieren, um den Kopfbereich (Header) vom Hauptbereich (Body) zu abzutrennen."
+
+#: inc/view/customize/banner/individual/Group.php:82
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: inc/view/customize/banner/individual/Group.php:115
+msgid "Checked state"
+msgstr "Aktivierter Zustand"
+
+#: inc/view/customize/banner/individual/Group.php:148
+msgid "Group box"
+msgstr "Gruppen-Box"
+
+#: inc/view/customize/banner/individual/Group.php:217
+#: inc/view/customize/banner/individual/Texts.php:47
+#: inc/view/customize/banner/Texts.php:86
+#: inc/view/customize/banner/Texts.php:243
+msgid "Headline"
+msgstr "Überschrift"
+
+#: inc/view/customize/banner/individual/Group.php:247
+#: inc/view/customize/banner/individual/Texts.php:52
+#: inc/view/customize/banner/Texts.php:91
+#: public/dist/chunk-config-tab-tcf.lite.js:1 public/dist/479.lite.js:265
+#: public/dist/chunk-config-tab-cookies.lite.js:81
+#: public/dist/chunk-config-tab-tcf.lite.js:755
+#: public/dist/chunk-config-tab-tcf.lite.js:840
+msgid "Description"
+msgstr "Beschreibung"
+
+#: inc/view/customize/banner/individual/Group.php:283
+msgid "Font color on hover"
+msgstr "Schriftfarbe bei Hover"
+
+#: inc/view/customize/banner/individual/Layout.php:81
+msgid "Description text align"
+msgstr "Ausrichtung des Beschreibungstexts"
+
+#: inc/view/customize/banner/individual/Texts.php:36
+#: inc/view/customize/banner/Texts.php:77
+msgid "Texts"
+msgstr "Texte"
+
+#: inc/view/customize/banner/Legal.php:75
+#: inc/view/customize/banner/Legal.php:206
+#: public/dist/chunk-config-tab-tcf.lite.js:1
+#: public/dist/chunk-config-tab-tcf.lite.js:137
+#: public/dist/chunk-config-tab-tcf.lite.js:250
+msgid "Privacy policy"
+msgstr "Datenschutzerklärung"
+
+#: inc/view/customize/banner/Legal.php:79
+#: inc/view/customize/banner/Legal.php:137
+msgid "Page"
+msgstr "Seite"
+
+#: inc/view/customize/banner/Legal.php:116
+msgid "Show privacy policy without cookie banner"
+msgstr "Datenschutzerklärung ohne Cookie Banner anzeigen"
+
+#: inc/view/customize/banner/Legal.php:132
+#: inc/view/customize/banner/Legal.php:205
+msgid "Imprint"
+msgstr "Impressum"
+
+#: inc/view/customize/banner/Legal.php:170
+msgid "Show imprint without cookie banner"
+msgstr "Impressum ohne Cookie Banner anzeigen"
+
+#: inc/view/customize/banner/Texts.php:136
+msgid "Data processing in the USA"
+msgstr "Datenverarbeitung in den USA"
+
+#: inc/view/customize/banner/Texts.php:150
+msgid "Age notice"
+msgstr "Altershinweis"
+
+#: inc/view/customize/banner/Texts.php:157
+msgid "Age notice in cookie banner"
+msgstr "Altershinweis im Cookie Banner"
+
+#. translators:
+#: inc/view/shortcode/LinkShortcode.php:53
+msgid "Please provide a `type` attribute in your shortcode. Allowed: %s!"
+msgstr "Bitte gib in deinem Shortcode das Attribut `type` an. Erlaubt: %s!"
+
+#. translators:
+#: inc/import/ImportMessages.php:222
+msgid "The service <code>%s</code> already exists. A new service has been created anyway."
+msgstr "Der Service <code>%s</code> ist bereits vorhanden. Es wurde trotzdem ein neuer Service angelegt."
+
+#. translators:
+#: inc/import/ImportMessages.php:274
+msgid "The service <strong>%1$s</strong> could not be assigned to the given group due to the following error: <code>%2$s</code>. Skipped."
+msgstr "Der Service <strong>%1$s</strong> konnte aufgrund des folgenden Fehlers nicht der angegebenen Gruppe zugeordnet werden: <code>%2$s</code>. Übersprungen."
+
+#. translators:
+#: inc/import/ImportMessages.php:294
+msgid "The service group <strong>%1$s</strong> could not be updated due to the following error: <code>%2$s</code>. Skipped."
+msgstr "Die Service-Gruppe <strong>%1$s</strong> konnte aufgrund des folgenden Fehlers nicht aktualisiert werden: <code>%2$s</code>. Übersprungen."
+
+#. translators:
+#: inc/import/ImportMessages.php:313
+msgid "The service group <strong>%s</strong> was not created. Instead, the existing one has been updated."
+msgstr "Die Service-Gruppe <strong>%s</strong> wurde nicht erstellt. Stattdessen wurde die bestehende Gruppe aktualisiert."
+
+#: inc/view/checklist/ViewStats.php:43
+msgid "View stats"
+msgstr "Statistiken ansehen"
+
+#: inc/view/customize/banner/BasicLayout.php:220
+msgid "The overlay prevents clicks outside the consent dialog until consent is given."
+msgstr "Das Overlay verhindert Klicks außerhalb des Einwilligungsdialogs, bis die Einwilligung erteilt wird."
+
+#: inc/view/customize/banner/Legal.php:68
+msgid "In order to comply with the ePrivacy Directive, it is important that the consent dialog contains a direct link to the privacy policy and the imprint (if required in your country)."
+msgstr "Um der ePrivacy-Richtlinie zu entsprechen, ist es wichtig, dass der Einwilligungsdialog einen direkten Link auf die Datenschutzerklärung und das Impressum (falls in deinem Land erforderlich) enthält."
+
+#: inc/view/customize/banner/Legal.php:117
+msgid "According to some data protectors, it must be ensured that the privacy policy can be viewed before accepting services."
+msgstr "Nach Ansicht einiger Datenschützer muss sichergestellt werden, dass die Datenschutzerklärung vor der Einwilligung in Services eingesehen werden kann."
+
+#: inc/view/customize/banner/Legal.php:171
+msgid "According to some data protectors, it must be ensured that the imprint can be viewed before accepting services."
+msgstr "Nach Ansicht einiger Datenschützer muss sichergestellt werden, dass das Impressum vor der Einwilligung in Services eingesehen werden kann."
+
+#. translators:
+#: inc/view/customize/banner/Texts.php:298
+msgid "Consent for data processing in the USA is currently disabled. Please navigate to %1$sSettings > Consent%2$s to activate it."
+msgstr "Die Einwilligung zur Datenverarbeitung in den USA ist derzeit deaktiviert. Bitte navigiere zu %1$sEinstellungen > Einwilligung%2$s, um sie zu aktivieren."
+
+#: inc/view/customize/banner/BodyDesign.php:178
+msgid "Adopt font size for description block"
+msgstr "Schriftgröße für Beschreibungsblock übernehmen"
+
+#. translators:
+#: inc/import/ImportMessages.php:364
+msgid "Settings/Options <code>%s</code> not found or obsolete. Skipped."
+msgstr "Einstellungen/Optionen <code>%s</code> nicht gefunden oder veraltet. Übersprungen."
+
+#: inc/presets/BannerPresets.php:49
+msgid "Standard design for the cookie consent as a banner."
+msgstr "Standard-Design für die Cookie-Einwilligung als Banner."
+
+#: inc/presets/BannerPresets.php:44
+msgid "Standard design for the cookie consent as a dialog."
+msgstr "Standard-Design für die Cookie-Einwilligung als Dialog."
+
+#. translators:
+#: inc/import/ImportMessages.php:252
+msgid "The newly created service <code>%s</code> has been added to the fallback service group because the original service group could not be found."
+msgstr "Der neu erstellte Service <code>%s</code> wurde zur Rückgriff Service-Gruppe hinzugefügt, da die ursprüngliche Service-Gruppe nicht gefunden werden konnte."
+
+#. translators:
+#: inc/import/ImportMessages.php:349
+msgid "Setting/Option <code>%s</code> could not be updated. Skipped."
+msgstr "Einstellung/Option <code>%s</code> konnte nicht aktualisiert werden. Übersprungen."
+
+#: inc/import/ImportSettings.php:93
+#: public/dist/chunk-config-tab-settings.lite.js:1
+#: public/dist/chunk-config-tab-settings.lite.js:1112
+msgid "External 'Forward To' endpoints"
+msgstr "Externe 'Weiterleiten an'-Endpunkte"
+
+#: inc/overrides/lite/Stats.php:15 inc/overrides/lite/Stats.php:25
+#: inc/overrides/lite/Stats.php:35
+msgid "You are not allowed to do this in the free version of Real Cookie Banner. Please upgrade to Real Cookie Banner PRO!"
+msgstr "In der kostenlosen Version von Real Cookie Banner kann diese Aktion nicht ausgeführt werden. Bitte steige auf Real Cookie Banner PRO um!"
+
+#: inc/view/customize/banner/Decision.php:124
+#: inc/view/customize/banner/Decision.php:144
+#: inc/view/customize/banner/Decision.php:181
+#: public/dist/customize.lite.js:4645
+msgid "Hide"
+msgstr "Verstecken"
+
+#: inc/presets/BannerPresets.php:43
+msgid "Light Dialog"
+msgstr "Heller Dialog"
+
+#: inc/presets/BannerPresets.php:48
+msgid "Light Banner"
+msgstr "Helles Banner"
+
+#: inc/presets/BannerPresets.php:61
+msgid "Dark Dialog"
+msgstr "Dunkler Dialog"
+
+#: inc/presets/BannerPresets.php:62
+msgid "Standard design for the cookie consent as a dialog in dark mode."
+msgstr "Standard-Design für die Cookie-Einwilligung als Dialog im dunklen Modus."
+
+#: inc/presets/BannerPresets.php:136
+msgid "Dark Banner"
+msgstr "Dunkles Banner"
+
+#: inc/presets/BannerPresets.php:137
+msgid "Standard design for the cookie consent as a banner in dark mode."
+msgstr "Standard-Design für die Cookie-Einwilligung als Banner im dunklen Modus."
+
+#: inc/presets/BannerPresets.php:217
+msgid "Divi Dialog"
+msgstr "Divi-Dialog"
+
+#: inc/presets/BannerPresets.php:218
+msgid "Optimized design for the standard Divi theme as a consent dialog."
+msgstr "Optimiertes Design für das Divi-Theme als Cookie Dialog."
+
+#: inc/presets/BannerPresets.php:269
+msgid "Divi Banner"
+msgstr "Divi-Banner"
+
+#: inc/presets/BannerPresets.php:270
+msgid "Optimized design for the standard Divi theme as a consent banner."
+msgstr "Optimiertes Design für das Divi-Theme als Cookie Banner."
+
+#: inc/presets/BannerPresets.php:330
+msgid "Astra Dialog"
+msgstr "Astra-Dialog"
+
+#: inc/presets/BannerPresets.php:398
+msgid "Astra Banner"
+msgstr "Astra-Banner"
+
+#: inc/presets/BannerPresets.php:471
+msgid "Avada Dialog"
+msgstr "Avada-Dialog"
+
+#: inc/presets/BannerPresets.php:562
+msgid "Avada Banner"
+msgstr "Avada-Banner"
+
+#: inc/presets/free/blocker/JetPackCommentsPreset.php:31
+msgid "We use the Jetpack Comments service to give you the opportunity to leave a comment. In order to be able to write your own comment, you must allow this service to load."
+msgstr "Wir nutzen Jetpack Comments, um dir die Möglichkeit zu geben, einen Kommentar zu hinterlassen. Um einen Kommentar schreiben zu können, musst du das Laden dieses Dienstes erlauben."
+
+#: inc/presets/free/blocker/WordPressUserLoginPreset.php:23
+#: inc/presets/free/blocker/WordPressUserLoginPreset.php:26
+#: inc/presets/free/WordPressUserLoginPreset.php:26
+#: inc/presets/free/WordPressUserLoginPreset.php:29
+msgid "WordPress User Login"
+msgstr "WordPress Nutzer-Login"
+
+#: inc/presets/free/JetPackCommentsPreset.php:22
+#: inc/presets/free/JetPackCommentsPreset.php:31
+msgid "Jetpack Comments"
+msgstr "Jetpack Kommentare"
+
+#: inc/presets/free/JetpackSiteStatsPreset.php:363
+msgid "There is no need for an opt-in script because the site stats feature is loaded by the Jetpack WordPress plugin. In addition to the cookie, you must create a content blocker that will block Jetpack Site Stats until the user gives consent to load it."
+msgstr "Ein Opt-in-Script ist nicht erforderlich, da die Site Statistiken durch das Jetpack WordPress-Plugin geladen wird. Zusätzlich zum Cookie musst du einen Content Blocker erstellen, der die Jetpack Site Statistiken blockiert, bis der Nutzer seine Einwilligung zum Laden der Cookies gibt."
+
+#: inc/presets/free/WordPressCommentsPreset.php:32
+msgid "WordPress as a content management system offers the possibility to write comments under blog posts and similar content. The cookie stores the name, e-mail address and website of a commentator to display it again if the commentator wants to write another comment on this website."
+msgstr "WordPress als Content Management System bietet die Möglichkeit, Kommentare unter Blog-Beiträgen und ähnlichen Inhalten zu schreiben. Das Cookie speichert den Namen, die E-Mail-Adresse und die Website eines Kommentators, um sie wieder anzuzeigen, wenn der Kommentator einen weiteren Kommentar auf dieser Website schreiben möchte."
+
+#: inc/presets/free/GoogleFontsPreset.php:80
+msgid "Google Fonts is a service that downloads fonts that are not installed on the client device of the user and embeds them into the website. No cookies in the technical sense are set on the client of the user, but technical and personal data such as the IP address will be transmitted from the client to the server of the service provider to make the use of the service possible."
+msgstr "Google Fonts ist ein Dienst, der Schriften, die nicht auf dem Client-Gerät des Nutzers installiert sind, herunterlädt und in die Website einbettet. Auf dem Client-Gerät des Nutzers werden keine Cookies im technischen Sinne gesetzt, aber es werden technische und persönliche Daten wie z.B. die IP-Adresse vom Client an den Server des Dienstanbieters übertragen, um die Nutzung des Dienstes zu ermöglichen."
+
+#: inc/presets/free/GravatarPreset.php:30
+msgid "Gravatar is a service where people can associate their email address with an avatar image that is for example loaded in the comment area. No cookies in the technical sense are set on the client of the user, but technical and personal data such as the IP address will be transmitted from the client to the server of the service provider to make the use of the service possible."
+msgstr "Gravatar ist ein Dienst, bei dem Personen ihre E-Mail-Adresse mit einem Avatar-Bild verknüpfen können, dass beispielsweise im Kommentarbereich geladen wird. Auf dem Client des Nutzers werden keine Cookies im technischen Sinne gesetzt, aber es werden technische und persönliche Daten wie z.B. die IP-Adresse vom Client zum Server des Diensteanbieters übertragen, um die Nutzung des Dienstes zu ermöglichen."
+
+#: inc/presets/free/JetPackCommentsPreset.php:33
+msgid "Jetpack Comments is a comment system for WordPress sites that allows you to post comments using your email, wordpress.com, google.com, twitter.com or facebook.com account. The cookies are used to display the comment form and add integrations from wordpress.com, google.com, twitter.com or facebook.com. The data of the visited website may be shared with the above mentioned third party providers."
+msgstr "Jetpack Kommentare ist ein Kommentarsystem für WordPress Websites, dass es dir ermöglicht Kommentare mit deiner E-Mail-Adressen oder einem wordpress.com-, google.com-, twitter.com- oder facebook.com-Account zu schreiben. Die Cookies werden verwendet, um das Kommentarformular anzuzeigen und Integrationen von wordpress.com, google.com, twitter.com oder facebook.com hinzuzufügen. Die Daten der besuchten Website können mit den oben genannten Drittanbietern geteilt werden."
+
+#: inc/presets/free/WordPressCommentsPreset.php:67
+msgid "Please note that if this service is enabled, the \"Save my name, email, and website in this browser for the next time I comment.\" checkbox in the comment form will disappear. Real Cookie Banner handles the consent to set the cookies as part of the overall cookie consent. The commentary system uses the Gravatar service to display avatars of commentators. You must also create a service for Gravatar as well."
+msgstr "Bitte beachte, dass die Checkbox “Meinen Namen, meine E-Mail-Adresse und meine Website in diesem Browser für den nächsten Kommentar speichern” im Kommentarfeld verschwindet, wenn dieser Service aktiviert ist. Real Cookie Banner kümmert sich um die Einwilligung zum Setzen dieser Cookies als Teil der allgemeinen Cookie-Einwilligung. Das Kommentarsystem nutzt den Dienst Gravatar, um Avatare von Kommentatoren anzuzeigen. Auch für diesen Dienst muss ein Service angelegt werden."
+
+#: inc/presets/middleware/CookieExistsMiddleware.php:27
+msgid "You have already created a cookie with this template."
+msgstr "Du hast bereits einen Cookie mit dieser Vorlage angelegt."
+
+#. translators:
+#: inc/presets/middleware/CookieManagerMiddleware.php:38
+#: inc/presets/middleware/CookieManagerMiddleware.php:49
+msgid "This cookie template is optimized to work with %s."
+msgstr "Diese Cookie-Vorlage ist für die Nutzung mit %s optimiert."
+
+#: inc/view/Banner.php:98
+msgid "Show cookie banner again"
+msgstr "Cookie Banner erneut anzeigen"
+
+#: inc/view/BannerCustomize.php:224
+msgid "Design your cookie banner."
+msgstr "Gestalte dein Cookie Banner."
+
+#: inc/view/checklist/ActivateBanner.php:32
+msgid "Once everything is set up, you can display the cookie banner to your visitors."
+msgstr "Sobald alles eingerichtet ist, kannst du deinen Besuchern das Cookie Banner anzeigen."
+
+#: inc/view/checklist/AddBlocker.php:28
+msgid "Visitors who do not agree to the cookies and data processing of e.g. YouTube will not be able to load YouTube videos on your website. Content blockers will automatically replace this content and ask the visitor for consent again."
+msgstr "Besucher, die den Cookies und der Datenverarbeitung von z. B. YouTube nicht zustimmen, können keine YouTube-Videos auf deiner Website laden. Content Blocker ersetzen diese Inhalte automatisch und fragen den Besucher erneut nach einer Einwilligung."
+
+#: inc/view/checklist/AddCookie.php:30
+msgid "You can manually add all services from your website. Use the cookie templates of known services to save time!"
+msgstr "Du kannst alle Services von deiner Website manuell hinzufügen. Nutze die Service Vorlagen von bekannten Diensten, um Zeit zu sparen!"
+
+#: inc/view/checklist/CustomizeBanner.php:25
+msgid "Customize the design of the cookie banner"
+msgstr "Passe das Design des Cookie Banners an"
+
+#: inc/view/checklist/PrivacyPolicy.php:23
+#: inc/view/checklist/PrivacyPolicy.php:38
+msgid "Set privacy policy page"
+msgstr "Datenschutzerklärung Seite einstellen"
+
+#: inc/view/customize/banner/BasicLayout.php:116
+msgid "Define outer distance of the dialog."
+msgstr "Definiere den äußeren Abstand des Dialogs."
+
+#: inc/view/customize/banner/BasicLayout.php:136
+msgid "Dialog border radius"
+msgstr "Dialog-Rahmen: Abgerundete Ecken"
+
+#: inc/view/checklist/ViewStats.php:28
+msgid "All consents are documented, so that you can prove in doubt who, when and how a consent was given. Statistics about this will help you to e. g. extrapolate Google Analytics data. You can use them to estimate how many visitors have visited your website, even if not all of them have consented to use statistics services."
+msgstr "Alle Einwilligungen werden dokumentiert, sodass du im Zweifel nachweisen kannst, wer, wann und wie eine Einwilligung erteilt hat. Statistiken darüber helfen dir z. B. bei der Hochrechnung von Google Analytics-Daten. Mit ihnen kannst du abschätzen, wie viele Besucher deine Website besucht haben, auch wenn nicht alle von ihnen der Nutzung statistischer Services zugestimmt haben."
+
+#: inc/view/customize/banner/BasicLayout.php:144
+msgid "Button border radius"
+msgstr "Button-Rahmen: Abgerundete Ecken"
+
+#: inc/view/customize/banner/BasicLayout.php:219
+msgid "Overlay"
+msgstr "Überlagerung (Overlay)"
+
+#: inc/view/customize/banner/BasicLayout.php:240
+msgid "Overlay background color"
+msgstr "Overlay Hintergrundfarbe"
+
+#: inc/view/customize/banner/BasicLayout.php:245
+msgid "Overlay opacity"
+msgstr "Overlay Deckkraft"
+
+#: inc/view/customize/banner/BodyDesign.php:172
+msgid "Define inner distance of the body."
+msgstr "Definiere den Innenabstand des Hauptbereichs (Body)."
+
+#: inc/view/customize/banner/BodyDesign.php:219
+msgid "Bullet color"
+msgstr "Kreis-Farbe"
+
+#: inc/view/customize/banner/BodyDesign.php:257
+msgid "Enable visual separator"
+msgstr "Visuellen Trenner aktivieren"
+
+#: inc/view/customize/banner/BodyDesign.php:270
+msgid "Separator"
+msgstr "Trenner"
+
+#: inc/view/customize/banner/BodyDesign.php:353
+msgid "Button: Accept all"
+msgstr "Button: Alle Cookies akzeptieren"
+
+#: inc/view/customize/banner/BodyDesign.php:380
+#: inc/view/customize/banner/BodyDesign.php:533
+#: inc/view/customize/banner/BodyDesign.php:665
+msgid "Define inner distance of the button/link."
+msgstr "Definiere den Innenabstand des Buttons/Links."
+
+#: inc/view/customize/banner/BodyDesign.php:467
+#: inc/view/customize/banner/BodyDesign.php:620
+#: inc/view/customize/banner/BodyDesign.php:752
+#: inc/view/customize/banner/individual/SaveButton.php:159
+msgid "When the user moves the mouse over the button/link, it changes its color."
+msgstr "Wenn der Nutzer die Maus über den Button bzw. Link bewegt, ändert sie die Farbe."
+
+#: inc/view/customize/banner/BodyDesign.php:803
+msgid "Lighter"
+msgstr "Dünner"
+
+#: inc/view/customize/banner/Decision.php:136
+msgid "The GDPR (EU 2016/679) and ePrivacy Directive (EU 2009/136/EC) defines that visitors must be able to easily reject cookies, whereby essential cookies can be set in any case. Therefore, the visitor should be given this option in a similar manner to the \"Accept all\" button/link."
+msgstr "Die DSGVO (EU 2016/679) und die ePrivacy-Richtlinie (EU 2009/136/EG) legen fest, dass Besucher in der Lage sein müssen, Cookies einfach abzulehnen, wobei essenzielle Cookies immer gesetzt werden können. Daher sollte dem Besucher diese Option – ähnlich wie der Button/Link “Alle akzeptieren” – angeboten werden."
+
+#: inc/view/customize/banner/CustomCss.php:34
+msgid "Some adblockers are able to block cookie banners. This means that these website visitors will never see the cookie banner and you cannot get consent from them to use more than the essential services. We have implemented several mechanisms that try to remove any technical indicators that adblockers can use to block the cookie banner. This includes CSS selections for styles. As a result, it is not possible to add custom CSS code for the cookie banner. If you disable the Adblocker optimizations, you can add custom CSS code."
+msgstr "Einige Adblocker sind in der Lage, Cookie Banner zu blockieren. Das bedeutet, dass diese Website-Besucher das Cookie Banner nie sehen und du von ihnen keine Zustimmung zur Nutzung von mehr als den wesentlichen Services erhalten kannst. Wir haben mehrere Mechanismen implementiert, die versuchen, alle technischen Indikatoren zu entfernen, mit denen Adblocker das Cookie Banner blockieren können. Dazu gehören CSS-Auswahlen für Stile. Daher ist es nicht möglich, benutzerdefinierten CSS-Code für das Cookie Banner hinzuzufügen. Wenn du die Adblocker-Optimierungen deaktivierst, kannst du benutzerdefinierten CSS-Code hinzufügen."
+
+#: inc/view/customize/banner/Decision.php:172
+msgid "Individual privacy preferences"
+msgstr "Individuelle Privatsphäre-Einstellungen"
+
+#: inc/view/customize/banner/Decision.php:236
+msgid "Save button"
+msgstr "Speichern"
+
+#: inc/view/customize/banner/Design.php:82
+msgid "Link text decoration"
+msgstr "Verzierung des Linktextes"
+
+#: inc/view/customize/banner/Design.php:129
+msgid "Adopt font family from theme"
+msgstr "Schriftart von Theme übernehmen"
+
+#: inc/view/customize/banner/FooterDesign.php:62
+msgid "Footer"
+msgstr "Fußbereich (Footer)"
+
+#: inc/view/customize/banner/FooterDesign.php:66
+msgid "Show \"powered by\" link"
+msgstr "Link “Consent Management mit Real Cookie Banner” anzeigen"
+
+#: inc/view/customize/banner/FooterDesign.php:125
+#: inc/view/customize/banner/HeaderDesign.php:108
+msgid "Define inner distance of the header."
+msgstr "Definiere den Innenabstand des Kopfbereichs (Header)."
+
+#: inc/view/customize/banner/FooterDesign.php:181
+msgid "When the user moves the mouse over the footer links, it changes its color."
+msgstr "Wenn der Benutzer die Maus über die Links in der Fußzeile (Footer) bewegt, ändert sich deren Farbe."
+
+#: inc/view/customize/banner/HeaderDesign.php:153
+msgid "Define the outer distance around the logo."
+msgstr "Definiere den Außenabstand um das Logo herum."
+
+#: inc/view/customize/banner/individual/Group.php:122
+msgid "Check icon color"
+msgstr "Haken-Icon Farbe"
+
+#: inc/view/customize/banner/individual/Group.php:172
+msgid "Define the inner distance of the group box."
+msgstr "Definiere den Innenabstand der Gruppen-Box."
+
+#: inc/view/customize/banner/individual/Group.php:186
+msgid "Border radius"
+msgstr "Radius des Rahmens"
+
+#: inc/view/customize/banner/individual/SaveButton.php:60
+msgid "\"Save\" button"
+msgstr "\"Speichern”-Button"
+
+#: inc/view/customize/banner/individual/SaveButton.php:93
+msgid "Define the inner distance of the button."
+msgstr "Definiere den Innenabstand des Buttons."
+
+#: inc/view/customize/banner/individual/Texts.php:67
+msgid "\"Save\" button/link"
+msgstr "\"Speichern”-Button/Link"
+
+#: inc/view/customize/banner/individual/Texts.php:72
+msgid "\"Show service information\" link"
+msgstr "\"Service-Informationen anzeigen”-Link"
+
+#: inc/view/customize/banner/individual/Texts.php:77
+msgid "\"Hide service information\" link"
+msgstr "\"Service-Informationen ausblenden”-Link"
+
+#. translators:
+#: inc/view/customize/banner/Legal.php:56
+msgid "This option can not be changed here. Please navigate to <a href=\"%s\" target=\"_blank\">Settings</a>."
+msgstr "Diese Option kann hier nicht geändert werden. Bitte gehe zu <a href=\"%s\" target=\"_blank\">Einstellungen</a>."
+
+#: inc/view/customize/banner/Legal.php:67
+msgid "Legal (Privacy Policy & more)"
+msgstr "Rechtliches (Datenschutzerklärung & Impressum)"
+
+#: inc/view/customize/banner/Legal.php:111
+#: inc/view/customize/banner/Legal.php:165
+msgid "Label"
+msgstr "Label"
+
+#: inc/view/customize/banner/Texts.php:117
+msgid "\"Individual privacy preferences\" button/link"
+msgstr "\"Individuelle Privatsphäre-Einstellungen”-Button/Link"
+
+#: inc/view/customize/banner/Texts.php:171
+msgid "Age notice in content blocker"
+msgstr "Altershinweis im Content Blocker"
+
+#. translators:
+#: inc/view/customize/banner/Texts.php:321
+msgid "Age notice is currently disabled. Please navigate to %1$sSettings > Consent%2$s to activate it."
+msgstr "Der Altershinweis ist derzeit deaktiviert. Bitte navigiere zu %1$sEinstellungen > Einwilligung%2$s, um diesen zu aktivieren."
+
+#: inc/view/shortcode/LinkShortcode.php:48
+msgid "Please provide a `text` attribute in your shortcode!"
+msgstr "Bitte gib ein `text`-Attribut in deinem Shortcode an!"
+
+#: inc/view/customize/banner/HeaderDesign.php:65
+msgid "Header"
+msgstr "Header"
+
+#: inc/view/customize/banner/BodyDesign.php:429
+#: inc/view/customize/banner/BodyDesign.php:582
+#: inc/view/customize/banner/BodyDesign.php:714
+#: inc/view/customize/banner/Design.php:151
+#: inc/view/customize/banner/FooterDesign.php:171
+#: inc/view/customize/banner/HeaderDesign.php:198
+#: inc/view/customize/banner/individual/Group.php:231
+#: inc/view/customize/banner/individual/SaveButton.php:131
+msgid "Font weight"
+msgstr "Schriftstärke"
+
+#: inc/view/customize/banner/BodyDesign.php:305
+#: inc/view/customize/banner/BodyDesign.php:403
+#: inc/view/customize/banner/BodyDesign.php:556
+#: inc/view/customize/banner/BodyDesign.php:688
+#: inc/view/customize/banner/Design.php:107
+#: inc/view/customize/banner/FooterDesign.php:131
+#: inc/view/customize/banner/HeaderDesign.php:158
+#: inc/view/customize/banner/individual/SaveButton.php:113
+msgid "Font"
+msgstr "Schrift"
+
+#: inc/comp/language/Hooks.php:85
+msgid "Incomplete translation"
+msgstr "Unvollständige Übersetzung"
+
+#. translators:
+#: inc/comp/language/Hooks.php:88
+msgid "Real Cookie Banner is not yet fully available in your configured language (<strong>%s</strong>). However, you can translate all the untranslated texts displayed to your visitors in the cookie banner by yourself in the Real Cookie Banner settings."
+msgstr "Real Cookie Banner ist noch nicht vollständig in der von dir konfigurierten Sprache (<strong>%s</strong>) verfügbar. Du kannst jedoch alle nicht übersetzten Texte, die deinen Besuchern im Cookie-Banner angezeigt werden, in den Real Cookie Banner-Einstellungen selbst übersetzen."
+
+#. translators:
+#: inc/import/ImportMessages.php:80
+msgid "<strong>%s</strong>: You are trying to import a template from Real Cookie Banner PRO, but here you are using the free version of the plugin. Please remove this service before exporting the services or use the PRO version on this website! Skipped."
+msgstr "<strong>%s</strong>: Du versuchst, eine Vorlage aus Real Cookie Banner PRO zu importieren, aber du verwendest die kostenlose Version des Plugins. Bitte entferne diesen Service, bevor du die Services exportierst, oder verwende die PRO-Version auf dieser Website! Übersprungen."
+
+#: inc/Assets.php:457
+msgid "Close without saving"
+msgstr "Schließen ohne Speichern"
+
+#: inc/AdInitiator.php:111
+msgid "Real Cookie Banner is a cookie plugin specially designed for WordPress. It is fully installed in your WordPress as a native plugin. All consents are processed and stored on your server. Nothing is downloaded from a cloud in your visitor's browser, which avoids further legal issues."
+msgstr "Real Cookie Banner ist ein speziell für WordPress entwickeltes Cookie-Plugin. Es wird vollständig in deinem WordPress als natives Plugin installiert. Alle Einwilligungen werden auf deinem Server verarbeitet und gespeichert. Nichts wird aus einer Cloud im Browser deines Besuchers heruntergeladen, wodurch weitere rechtliche Probleme vermieden werden."
+
+#: inc/AdInitiator.php:103
+msgid "According to the GDPR, you have to prove that a visitor has consented to cookies and processing of personal data if he or she doubts this. We document consent completely and make it possible to trace the origin of the consent afterwards. You are on the safe side even in the worst case!"
+msgstr "Gemäß der DSGVO musst du nachweisen, dass ein Besucher in Cookies und die Verarbeitung personenbezogener Daten eingewilligt hat, wenn er dies anzweifelt. Wir dokumentieren die Einwilligung vollständig und ermöglichen es, die Entstehung der Einwilligung im Nachhinein nachzuvollziehen. So bist du auch im Fall der Fälle auf der sicheren Seite!"
+
+#: inc/AdInitiator.php:110
+msgid "Native in WordPress"
+msgstr "Nativ in WordPress"
+
+#: inc/AdInitiator.php:95
+msgid "After installation, the checklist will guide you through all steps to be able to set up Real Cookie Banner in a legally compliant manner. We also explain the legal basis of features and the legal consequences if you change settings. So, you can quickly and safely set up your cookie banner!"
+msgstr "Die Checkliste führt dich nach der Installation durch alle Schritte, um Real Cookie Banner rechtssicher einrichten zu können. Außerdem erklären wir dir die Rechtsgrundlagen von Features und rechtliche Auswirkungen, wenn du Einstellungen veränderst. So kannst du schnell und sicher dein Cookie Banner einrichten!"
+
+#: inc/AdInitiator.php:87
+msgid "You can design the cookie banner according to your wishes. 20+ design templates and 200+ options give you the flexibility to customize the cookie banner perfectly to your needs. From colors and effects to texts, you can unleash your creativity! All changes are displayed in a live preview."
+msgstr "Du kannst das Cookie Banner nach deinen Wünschen gestalten. 20+ Design-Vorlagen und 200+ Optionen geben dir die Flexibilität, das Cookie Banner perfekt an deine Bedürfnisse anzupassen. Von Farben über Effekte bis hin zu Texten kannst du dich kreativ austoben. Alle Änderungen werden in einer Live-Vorschau angezeigt."
+
+#: inc/AdInitiator.php:79
+msgid "Themes, plugins and co. usually load scripts, styles and content that transfer personal data and set cookies before you have the consent of your visitors. You usually cannot control this by yourself. Content blockers make sure that these features are only executed after you have obtained consent."
+msgstr "Themes, Plugins und Co. laden Scripte, Styles und Inhalte, die personenbezogene Daten übertragen und Cookies setzen, bevor du die Einwilligung von deinen Besuchern hast. Das kannst du meist nicht selbst steuern. Content Blocker stellen sicher, dass diese Funktionen erst nach der Einwilligung ausgeführt werden."
+
+#: inc/AdInitiator.php:71
+msgid "You can use Real Cookie Banner to store all technical and legal information about services and cookies to obtain informed consent. You can use 100+ service templates and 60+ content blocker templates to quickly and securely provide all the information you need."
+msgstr "Du kannst mit Real Cookie Banner alle technischen und rechtlichen Informationen zu Services und Cookies hinterlegen, um eine informierte Einwilligung einzuholen. Dabei helfen dir 100+ Service Vorlagen und 60+ Content Blocker Vorlagen, um schnell und sicher alle Angaben zu hinterlegen."
+
+#: inc/AdInitiator.php:70
+msgid "Consent Management"
+msgstr "Consent Management"
+
+#: inc/Assets.php:473 public/dist/chunk-config-tab-tcf.lite.js:1
+#: public/dist/chunk-config-tab-tcf.lite.js:412
+#: public/dist/chunk-config-tab-tcf.lite.js:499
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:235
+msgid "https://devowl.io/2021/real-cookie-banner-2-0-cookie-consent/"
+msgstr "https://devowl.io/de/2021/real-cookie-banner-2-0-cookie-consent/"
+
+#: inc/import/ImportGroups.php:82 inc/import/ImportGroups.php:101
+msgid "Service Group"
+msgstr "Service-Gruppe"
+
+#. translators:
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:229
+msgid "We have released a major update with Real Cookie Banner 2.0. Find out what's new in our %1$sblog article%2$s. <strong>You should definitely take a look at the following points, as we have adjusted the behavior of the cookie banner.</strong> All changes can be optionally activated or ignored. We will not change your cookie banner fundamentally without your consent."
+msgstr "Wir haben mit Real Cookie Banner 2.0 ein großes Update veröffentlicht. Finde heraus, was neu ist in unserem %sBlogartikel%s. <strong>Die folgenden Punkte solltest du dir unbedingt ansehen, da wir das Verhalten des Cookie Banners angepasst haben.</strong> Alle Änderungen können wahlweise aktiviert oder ignoriert werden. Wir werden dein Cookie Banner ohne deine Zustimmung nicht grundlegend verändern."
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:99
+msgid "Cookie banners must be displayed only for users from certain countries. Real Cookie Banner can now detect which country your visitor comes from and depending on that decide whether to display a cookie banner. This way you don't annoy e.g. visitors from non EU countries."
+msgstr "Cookie Banner müssen nur für Nutzer aus bestimmten Ländern angezeigt werden. Real Cookie Banner kann nun erkennen, aus welchem Land dein Besucher kommt und abhängig davon entscheiden, ob ein Cookie Banner angezeigt werden soll. Auf diese Weise verärgerst du z.B. Besucher aus Nicht-EU-Ländern nicht."
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:109
+#: public/dist/chunk-config-tab-settings.lite.js:1
+#: public/dist/chunk-config-tab-settings.lite.js:574
+msgid "pro-modal/geo-restriction.png"
+msgstr "pro-modal/de/geo-restriction.png"
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:120
+msgid "View new design"
+msgstr "Neues Design ansehen"
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:223
+msgid "Updates in v2.0: Make your cookie banner more safe!"
+msgstr "Updates in v2.0: Mache dein Cookie Banner sicherer!"
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:138
+msgid "NEW!"
+msgstr "NEU!"
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:106
+msgid "Enable Geo-restriction"
+msgstr "Geo-Restriktion aktivieren"
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:114
+msgid "Standard banner design"
+msgstr "Standard Banner-Design"
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:115
+msgid "We have added a new standard design for the cookie banner, which makes a more friendly and clean impression. If you are using the standard design so far, it's worth a look if the new one fits better to your website!"
+msgstr "Wir haben ein neues Standarddesign für das Cookie Banner hinzugefügt, welches freundlicher und geordneter wirkt. Wenn du aktuell das Standarddesign verwendest, lohnt es sich zu schauen, ob das neue besser zu deiner Website passt!"
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:90
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:105
+msgid "Already enabled"
+msgstr "Bereits aktiviert"
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:90
+msgid "Enable TCF compatibility"
+msgstr "TCF-Kompatibilität aktivieren"
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:93
+#: public/dist/chunk-config-tab-settings.lite.js:1
+#: public/dist/chunk-config-tab-settings.lite.js:778
+msgid "pro-modal/tcf-compatibility.png"
+msgstr "pro-modal/de/tcf-compatibility.png"
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:98
+#: public/dist/chunk-config-tab-consent.lite.js:1
+#: public/dist/chunk-config-tab-settings.lite.js:1
+#: public/dist/chunk-config-tab-consent.lite.js:402
+#: public/dist/chunk-config-tab-settings.lite.js:546
+#: public/dist/chunk-config-tab-settings.lite.js:1329
+msgid "Geo-restriction"
+msgstr "Geo-Restriktion"
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:85
+msgid "You can now obtain consent according to the TCF standard from IAB Europe. You need this type of consent mostly when you work with big marketers, e.g. Google Adsense, so they can be sure that you have obtained consent from your visitors. If you turn on TCF compatibility, some features of Real Cookie Banner will change so that your cookie banner is compliant with the rules of the standard."
+msgstr "Du kannst jetzt eine Einwilligung nach dem TCF-Standard von der IAB Europe einholen. Du brauchst diese Art der Einwilligung vor allem dann, wenn du mit großen Vermarktern wie Google Adsense zusammenarbeitest, damit sie sicherstellen können, dass du die Einwilligung deiner Besucher eingeholt hast. Wenn du die TCF-Kompatibilität einschaltest, ändern sich einige Funktionen von Real Cookie Banner, so dass dein Cookie Banner mit den Vorschriften des Standards konform ist."
+
+#. translators:
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:65
+msgid "Before you apply the new texts, you can %1$screate an export%2$s to backup the old texts."
+msgstr "Bevor du die neuen Texte anwendest, kannst du einen %1$sExport erstellen%2$s, um die alten Texte zu sichern."
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:74
+msgid "Apply new texts"
+msgstr "Neue Texte anwenden"
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:84
+#: public/dist/chunk-config-tab-settings.lite.js:1
+#: public/dist/chunk-config-tab-settings.lite.js:1334
+msgid "TCF Compatibility"
+msgstr "TCF-Kompatibilität"
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:59
+msgid "We have adjusted the texts in the cookie banner and service groups (not in cookie/content blocker templates). The adjustments improve the legal security of your cookie banner, as the general purpose of the consent is now more clearly described, and we have added legal teachings. If you want to use the TCF compatibility, the previous texts are no longer permitted. You can let previous texts be overwritten by the new texts. All texts can be customized in the WordPress Customizer or in Services (Cookies). After applying the texts, be sure to verify if the new texts apply to your website!"
+msgstr "Wir haben die Texte in dem Cookie Banner und den Service-Gruppen (nicht in Cookie-/Content Blocker Vorlagen) angepasst. Die Anpassungen verbessern die Rechtssicherheit deines Cookie Banners, da der allgemeine Zweck der Einwilligung nun klarer beschrieben ist und wir Rechtsbelehrungen hinzugefügt haben. Wenn du die TCF-Kompatibilität nutzen möchtest, ist die Verwendung bisheriger Texte nicht mehr möglich. Du kannst die bisherigen Texte von den neuen Texten überschreiben lassen. Alle Texte können im WordPress Customizer oder in Services (Cookies) angepasst werden. Überprüfe nach dem Übernehmen der Texte unbedingt, ob die neuen Texte auf deine Website zutreffen!"
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:75
+msgid "Are you sure? All your current texts will be overwritten (this does not include service and content blocker texts!)."
+msgstr "Bist du dir sicher? Alle deine aktuellen Texte werden überschrieben (das gilt nicht für Service- und Content Blocker-Texte!)."
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:57
+msgid "Updated texts (German, English)"
+msgstr "Aktualisierte Texte (Deutsch, Englisch)"
+
+#: inc/Assets.php:475
+msgid "No license activated - not for production use!"
+msgstr "Keine Lizenz aktiviert - kein Produktionseinsatz!"
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:196
+#: inc/presets/free/JetpackSiteStatsPreset.php:34
+#: inc/presets/middleware/CookieGroupNamesBackwardsCompatibleMiddleware.php:52
+#: inc/settings/CookieGroup.php:120 inc/settings/CookieGroup.php:228
+#: public/dist/chunk-config-tab-consent.lite.js:1
+#: public/dist/chunk-config-tab-dashboard.lite.js:1
+#: public/dist/chunk-config-tab-consent.lite.js:1744
+#: public/dist/chunk-config-tab-dashboard.lite.js:504
+msgid "Statistics"
+msgstr "Statistik"
+
+#. Plugin URI of the plugin
+#: inc/view/Banner.php:356
+msgid "https://devowl.io/wordpress-real-cookie-banner/"
+msgstr "https://devowl.io/de/wordpress-real-cookie-banner/"
+
+#. Author of the plugin
+msgid "devowl.io"
+msgstr "devowl.io"
+
+#: inc/AdInitiator.php:31
+msgid "Start configuration"
+msgstr "Einrichtung beginnen"
+
+#: inc/AdInitiator.php:69
+msgid "key-features/presets.gif"
+msgstr "key-features/de/presets.gif"
+
+#: inc/AdInitiator.php:77
+msgid "key-features/content-blocker.gif"
+msgstr "key-features/de/content-blocker.gif"
+
+#: inc/AdInitiator.php:78 inc/import/ImportBlocker.php:131
+#: inc/import/ImportBlocker.php:188 inc/presets/UpdateNotice.php:65
+#: inc/settings/Blocker.php:119 inc/view/ConfigPage.php:285
+#: inc/view/customize/banner/Texts.php:235 public/dist/admin.lite.js:1
+#: public/dist/chunk-config-tab-consent.lite.js:1
+#: public/dist/chunk-config-tab-import.lite.js:1
+#: public/dist/chunk-config-tab-settings.lite.js:1
+#: public/dist/admin.lite.js:877
+#: public/dist/chunk-config-tab-consent.lite.js:280
+#: public/dist/chunk-config-tab-consent.lite.js:899
+#: public/dist/chunk-config-tab-import.lite.js:474
+#: public/dist/chunk-config-tab-settings.lite.js:121
+msgid "Content Blocker"
+msgstr "Content Blocker"
+
+#: inc/AdInitiator.php:85
+msgid "key-features/customize-presets.gif"
+msgstr "key-features/de/customize-presets.gif"
+
+#: inc/AdInitiator.php:86
+msgid "Customize design"
+msgstr "Design anpassen"
+
+#: inc/AdInitiator.php:93
+msgid "key-features/guided-configuration.gif"
+msgstr "key-features/de/guided-configuration.gif"
+
+#: inc/AdInitiator.php:94
+msgid "Guided configuration"
+msgstr "Geführte Konfiguration"
+
+#: inc/AdInitiator.php:101
+msgid "key-features/list-of-consents.gif"
+msgstr "key-features/de/list-of-consents.gif"
+
+#: inc/AdInitiator.php:102
+msgid "Documentation of consents"
+msgstr "Dokumentation von Einwilligungen"
+
+#: inc/AdInitiator.php:109
+msgid "key-features/native-menu.gif"
+msgstr "key-features/de/native-menu.gif"
+
+#: inc/view/customize/banner/BasicLayout.php:168
+#: inc/view/customize/banner/BasicLayout.php:199
+#: public/dist/chunk-config-tab-tcf.lite.js:1
+#: public/dist/chunk-config-tab-tcf.lite.js:477
+msgid "Duration"
+msgstr "Dauer"
+
+#: inc/Assets.php:443 public/dist/chunk-config-tab-tcf.lite.js:1
+#: public/dist/946.lite.js:1291 public/dist/chunk-config-tab-tcf.lite.js:488
+msgid "second(s)"
+msgstr "Sekunde(n)"
+
+#: inc/Assets.php:444 public/dist/946.lite.js:1292
+msgid "minute(s)"
+msgstr "Minute(n)"
+
+#: inc/Assets.php:445 public/dist/946.lite.js:1293
+msgid "hour(s)"
+msgstr "Stunde(n)"
+
+#: inc/Assets.php:446 public/dist/946.lite.js:1294
+msgid "day(s)"
+msgstr "Tag(e)"
+
+#: inc/Assets.php:447 public/dist/946.lite.js:1295
+msgid "month(s)"
+msgstr "Monat(e)"
+
+#: inc/Assets.php:448 public/dist/946.lite.js:1296
+msgid "year(s)"
+msgstr "Jahr(e)"
+
+#: inc/view/customize/banner/BasicLayout.php:156
+#: inc/view/customize/banner/BasicLayout.php:192
+#: inc/view/customize/banner/BodyDesign.php:356
+#: inc/view/customize/banner/BodyDesign.php:525
+#: inc/view/customize/banner/BodyDesign.php:658
+#: inc/view/customize/banner/individual/SaveButton.php:84
+msgid "Type"
+msgstr "Typ"
+
+#: inc/Assets.php:456 public/dist/946.lite.js:1 public/dist/admin.lite.js:1
+#: public/dist/chunk-config-tab-consent.lite.js:1
+#: public/dist/chunk-config-tab-scanner.lite.js:1 public/dist/946.lite.js:2796
+#: public/dist/admin.lite.js:700
+#: public/dist/chunk-config-tab-consent.lite.js:2098
+#: public/dist/chunk-config-tab-scanner.lite.js:871
+#: public/dist/chunk-config-tab-scanner.lite.js:1082
+#: public/dist/chunk-config-tab-scanner.lite.js:1326
+#: public/dist/chunk-config-tab-scanner.lite.js:1403
+#: public/dist/chunk-config-tab-scanner.lite.js:1679
+msgid "Close"
+msgstr "Schließen"
+
+#: inc/view/customize/banner/Texts.php:129
+#: public/dist/chunk-config-tab-tcf.lite.js:1
+#: public/dist/chunk-config-tab-cookies.lite.js:410
+#: public/dist/chunk-config-tab-tcf.lite.js:132
+#: public/dist/chunk-config-tab-tcf.lite.js:403
+msgid "US data processing"
+msgstr "US-Datenverarbeitung"
+
+#: inc/Assets.php:471 public/dist/chunk-config-tab-scanner.lite.js:1
+#: public/dist/chunk-config-tab-tcf.lite.js:1
+#: public/dist/chunk-config-tab-scanner.lite.js:1310
+#: public/dist/chunk-config-tab-tcf.lite.js:414
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/Assets.php:472 public/dist/chunk-config-tab-scanner.lite.js:1
+#: public/dist/chunk-config-tab-tcf.lite.js:1
+#: public/dist/chunk-config-tab-blocker.lite.js:133
+#: public/dist/chunk-config-tab-scanner.lite.js:1307
+#: public/dist/chunk-config-tab-tcf.lite.js:416
+msgid "No"
+msgstr "Nein"
+
+#: inc/Assets.php:476
+msgid "Product license not for production use!"
+msgstr "Produktlizenz nicht für den Produktionseinsatz!"
+
+#: inc/comp/language/Hooks.php:80
+msgid "The export contains only data from the current language."
+msgstr "Der Export enthält nur Daten aus der aktuellen Sprache."
+
+#: inc/comp/language/Hooks.php:190
+msgid "Language"
+msgstr "Sprache"
+
+#: inc/Core.php:437
+msgid "https://devowl.io/go/real-cookie-banner?source=rcb-lite"
+msgstr "https://devowl.io/de/go/real-cookie-banner?source=rcb-lite"
+
+#: inc/import/ExportConsent.php:64
+msgid "No consents found. Please navigate back and check your input."
+msgstr "Keine Einwilligungen gefunden. Bitte navigiere zurück und überprüfe deine Eingabe."
+
+#: inc/import/ImportCookies.php:115 inc/import/ImportCookies.php:159
+#: inc/settings/Cookie.php:154
+msgid "Cookie"
+msgstr "Cookie"
+
+#: inc/import/ImportCustomizeBanner.php:79 inc/import/ImportSettings.php:65
+#: public/dist/chunk-config-tab-consent.lite.js:1
+#: public/dist/chunk-config-tab-settings.lite.js:1
+#: public/dist/chunk-config-tab-consent.lite.js:294
+#: public/dist/chunk-config-tab-settings.lite.js:175
+msgid "Privacy policy page"
+msgstr "Datenschutzerklärung"
+
+#: inc/import/ImportCustomizeBanner.php:80 inc/import/ImportSettings.php:67
+#: public/dist/chunk-config-tab-consent.lite.js:1
+#: public/dist/chunk-config-tab-consent.lite.js:285
+msgid "Imprint page"
+msgstr "Impressum"
+
+#: inc/import/ImportCustomizeBanner.php:91
+#: inc/view/customize/banner/HeaderDesign.php:114
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/import/ImportCustomizeBanner.php:92
+msgid "Logo (Retina)"
+msgstr "Logo (Retina)"
+
+#. translators:
+#: inc/import/ImportMessages.php:25
+msgid "Please provide a valid <code>%s</code> key."
+msgstr "Bitte gib einen gültigen <code>%s</code> Schlüssel an."
+
+#. translators:
+#: inc/import/ImportMessages.php:38
+msgid "The %1$s with index <code>%2$d</code> is missing. Required properties: <code>%3$s</code>. Skipped."
+msgstr "Der %1$s mit dem Index <code>%2$d</code> fehlt. Benötigte Angabe: <code>%3$s</code>. Übersprungen."
+
+#. translators:
+#: inc/import/ImportMessages.php:60
+msgid "%1$s <strong>%2$s</strong> could not be created due to the following error: <code>%3$s</code>. Skipped."
+msgstr "%1$s <strong>%2$s</strong> konnten aufgrund des folgenden Fehlers nicht erstellt werden: <code>%3$s</code>. Übersprungen."
+
+#. translators:
+#: inc/import/ImportMessages.php:159
+msgid "The content blocker <code>%s</code> already exists. Skipped."
+msgstr "Der Content Blocker <code>%s</code> ist bereits vorhanden. Übersprungen."
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:195
+#: inc/presets/free/FontAwesomePreset.php:29
+#: inc/presets/free/GoogleFontsPreset.php:79
+#: inc/presets/free/GravatarPreset.php:29
+#: inc/presets/free/JetPackCommentsPreset.php:32
+#: inc/presets/free/WordPressCommentsPreset.php:31
+#: inc/presets/free/WordPressEmojisPreset.php:28
+#: inc/presets/free/WordPressPluginEmbed.php:28
+#: inc/presets/free/YoutubePreset.php:29 inc/settings/CookieGroup.php:114
+#: inc/settings/CookieGroup.php:225
+msgid "Functional"
+msgstr "Funktional"
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:198
+#: inc/settings/CookieGroup.php:126 inc/settings/CookieGroup.php:231
+msgid "Marketing"
+msgstr "Marketing"
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:194
+#: inc/presets/free/ElementorPreset.php:37
+#: inc/presets/free/RealCookieBannerPreset.php:36
+#: inc/presets/free/WordPressUserLoginPreset.php:30
+#: inc/settings/CookieGroup.php:97 inc/settings/CookieGroup.php:222
+msgid "Essential"
+msgstr "Essenziell"
+
+#: inc/comp/migration/DashboardTileMigrationMajor2.php:197
+#: inc/presets/middleware/CookieGroupNamesBackwardsCompatibleMiddleware.php:52
+#: inc/settings/CookieGroup.php:257
+msgid "Statistic"
+msgstr "Statistik"
+
+#: inc/Assets.php:501 inc/view/checklist/GetPro.php:44
+#: public/dist/946.lite.js:31 public/dist/chunk-config-tab-consent.lite.js:20
+#: public/dist/chunk-config-tab-licensing.lite.js:20
+#: public/dist/chunk-config-tab-scanner.lite.js:20
+#: public/dist/chunk-config-tab-settings.lite.js:31
+msgid "Learn more"
+msgstr "Mehr erfahren"
+
+#. Plugin Name of the plugin
+msgid "Real Cookie Banner (Free)"
+msgstr "Real Cookie Banner (Free)"
+
+#. translators:
+#: inc/import/ImportMessages.php:102
+msgid "The newly created content blocker <code>%s</code> could not correctly resolve some associated relationships."
+msgstr "Der neu erstellte Content Blocker <code>%s</code> konnte einige zugehörige Beziehungen nicht korrekt auflösen."
+
+#. translators:
+#: inc/import/ImportMessages.php:144
+msgid "The service <code>%s</code> already exists. Skipped."
+msgstr "Der Service <code>%s</code> ist bereits vorhanden. Übersprungen."
+
+#: inc/import/ExportConsent.php:54
+msgid "Please provide a UUID or a date range."
+msgstr "Bitte gib eine UUID oder einen Datumsbereich an."
+
+#. Description of the plugin
+msgid "Obtain GDPR (DSGVO) and ePrivacy (EU cookie law) compliant opt-in consent. Find cookies and fill all legal information in your cookie banner. More than just a cookie notice!"
+msgstr "Hole DSGVO (GDPR) und ePrivacy (EU Cookie Law) konforme Opt-in Cookie Einwilligung ein. Finde Cookies und trage alle rechtlichen Informationen in deinen Cookie Banner ein. Mehr als nur ein Cookie-Hinweis!"
+
+#. Author URI of the plugin
+msgid "https://devowl.io"
+msgstr "https://devowl.io/de/"
+
+#: inc/Assets.php:474 inc/view/customize/banner/BasicLayout.php:275
+#: inc/view/customize/banner/BasicLayout.php:293
+#: inc/view/customize/banner/Design.php:84
+#: public/dist/chunk-config-tab-tcf.lite.js:1
+#: public/dist/chunk-config-tab-cookies.lite.js:405
+#: public/dist/chunk-config-tab-cookies.lite.js:433
+#: public/dist/chunk-config-tab-tcf.lite.js:499
+msgid "None"
+msgstr "Nichts"
+
+#: inc/comp/language/Hooks.php:71
+msgid "If you delete a service group, it will not be deleted in other languages."
+msgstr "Wenn du eine Service-Gruppe löschst, wird diese in anderen Sprachen nicht gelöscht."
+
+#: inc/comp/language/Hooks.php:75
+msgid "If you delete a service, it will not be deleted in other languages."
+msgstr "Wenn du einen Service löschst, wird dieser in anderen Sprachen nicht gelöscht."

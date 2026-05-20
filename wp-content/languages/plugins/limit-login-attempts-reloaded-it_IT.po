@@ -1,0 +1,887 @@
+# Translation of Plugins - Limit Login Attempts Reloaded - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - Limit Login Attempts Reloaded - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-10-13 21:20:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - Limit Login Attempts Reloaded - Stable (latest release)\n"
+
+#: views/app-widgets/active-lockouts.php:10
+msgid "Reload"
+msgstr "Ricarica"
+
+#: views/tab-settings.php:189
+msgid "Edit"
+msgstr "Modifica"
+
+#: core/LimitLoginAttempts.php:1193
+msgid ""
+"<p><i>This alert was sent by your website where Limit Login Attempts Reloaded free version \n"
+"is installed and you are listed as the admin. If you are a GoDaddy customer, the plugin is installed \n"
+"into a must-use (MU) folder.</i></p>"
+msgstr "<p><i>Questo avviso è stato inviato dal tuo sito in cui è installata la versione gratuita di Limit Login Attempts Reloaded e tu sei tra chi lo amministra. Se sei cliente di GoDaddy, il plugin è installato in una cartella must-use (MU).</i></p>"
+
+#: views/app-widgets/acl-rules.php:8 views/app-widgets/acl-rules.php:32
+msgid "Documentation"
+msgstr "Documentazione"
+
+#: views/tab-settings.php:114
+msgid "Show Warning Badge"
+msgstr "Mostra avvisi tramite badge"
+
+#: views/admin-dashboard-widgets.php:113 views/tab-dashboard.php:131
+msgid "Consider <a href=\"%s\" target=\"_blank\">upgrading to premium</a> for advanced protection."
+msgstr "Per una protezione più efficace considera di <a href=\"%s\" target=\"_blank\">passare alla versione premium</a>."
+
+#: views/admin-dashboard-widgets.php:111 views/tab-dashboard.php:129
+msgid "Ensure your passwords are secure."
+msgstr "Assicurati che le password siano sicure."
+
+#: views/admin-dashboard-widgets.php:36 views/tab-dashboard.php:38
+msgid "Warning: Your site is experiencing over 100 failed login attempts today"
+msgstr "Attenzione: oltre 100 tentativi falliti di login solo oggi"
+
+#. Description of the plugin
+msgid "Block excessive login attempts and protect your site against brute force attacks. Simple, yet powerful tools to improve site performance."
+msgstr "Blocca i tentativi ripetuti di login e proteggi il sito contro gli attacchi brute force. Uno strumento tanto semplice quanto efficace per migliorare le performance del tuo sito."
+
+#: views/tab-settings.php:107
+msgid "Hide Dashboard Widget"
+msgstr "Nascondi il widget della dashboard"
+
+#: views/tab-dashboard.php:372
+msgid "Block by country feature available with <a href=\"https://www.limitloginattempts.com/info.php?from=plugin-dashboard-country\" target=\"_blank\">premium plus plan</a>."
+msgstr "Sottoscrivi un <a href=\"https://www.limitloginattempts.com/info.php?from=plugin-dashboard-country\" target=\"_blank\">abbonamento a pagamento</a> per bloccare i tentativi di login per singolo paese."
+
+#: views/app-widgets/event-log.php:11
+msgid "All attempts blocked by access rules are hidden by default. You can see the full log at this link."
+msgstr "Tutti i tentativi bloccati dalle regole di accesso sono nascosti per opzione predefinita. Puoi vedere il log completo a questo link."
+
+#: views/app-widgets/event-log.php:10
+msgid "Full Logs"
+msgstr "Log completi"
+
+#: views/tab-settings.php:79
+msgid "You can use a shortcode here to insert links, for example, a link to your Privacy Policy page. <br>The shortcode is: [llar-link url=\"https://example.com\" text=\"Privacy Policy\"]"
+msgstr "Puoi usare qui uno shortcode per inserire link, per esempio, un link alla tua pagina della Privacy Policy. <br>Lo shortcode è: [llar-link url=\"https://example.com\" text=\"Privacy Policy\"]"
+
+#: views/tab-settings.php:71
+msgid "this makes the plugin <a href=\"https://gdpr-info.eu/\" target=\"_blank\">GDPR</a> compliant by showing a message on the login page. <a href=\"https://www.limitloginattempts.com/gdpr-qa/?from=plugin-settings-gdpr\" target=\"_blank\">Read more</a>"
+msgstr "ciò rende il plugin conforme al <a href=\"https://gdpr-info.eu/\" target=\"_blank\">GDPR</a> mostrando un messaggio nella pagina di login. <a href=\"https://www.limitloginattempts.com/gdpr-qa/?from=plugin-settings-gdpr\" target=\"_blank\">Per saperne di più</a>"
+
+#: core/LimitLoginAttempts.php:1139
+msgid "[%s] Failed WordPress login attempt by IP %s on %s"
+msgstr "[%s] tentativo di accesso a WordPress fallito dall'IP %s di %s"
+
+#: core/LimitLoginAttempts.php:1199
+msgid "<hr><a href=\"%s\">Unsubscribe</a> from these notifications."
+msgstr "<hr><a href=\"%s\">Disiscriviti</a> da queste notifiche."
+
+#: views/app-widgets/country-access-rules.php:14
+msgid "these countries:"
+msgstr "questi Paesi:"
+
+#: views/app-widgets/country-access-rules.php:6
+msgid "Country Access Rules"
+msgstr "Regole di accesso per Paese"
+
+#: core/LimitLoginAttempts.php:97
+msgid "By proceeding you understand and give your consent that your IP address and browser information might be processed by the security plugins installed on this site."
+msgstr "Procedendo, dichiari aver compreso e dai il tuo consenso affinché il tuo indirizzo IP e le informazioni del browser potrebbero essere processati dai plugin di sicurezza installati in questo sito."
+
+#: views/tab-settings.php:76
+msgid "GDPR message"
+msgstr "Messaggio GDPR"
+
+#: views/tab-settings.php:102 views/tab-settings.php:116
+msgid "(Reload the page to see the changes)"
+msgstr "(Ricarica la pagina per vedere i cambiamenti)"
+
+#: views/tab-settings.php:100
+msgid "Show top-level menu item"
+msgstr "Mostra la voce nel menu principale"
+
+#: views/admin-dashboard-widgets.php:134 views/admin-dashboard-widgets.php:186
+#: views/tab-dashboard.php:66 views/tab-dashboard.php:152
+#: views/tab-dashboard.php:203
+msgid "Failed Login Attempts"
+msgstr "Tentativi di accesso falliti"
+
+#: views/admin-dashboard-widgets.php:51 views/tab-dashboard.php:53
+msgid "Failed Login Attempts Today"
+msgstr "Tentativi di accesso falliti oggi"
+
+#: views/admin-dashboard-widgets.php:31 views/tab-dashboard.php:33
+#: views/tab-dashboard.php:371
+msgid "today"
+msgstr "oggi"
+
+#: views/admin-dashboard-widgets.php:26 views/tab-dashboard.php:27
+msgid "Hooray! Zero failed login attempts today"
+msgstr "Ottimo! Nessun tentativo di accesso fallito oggi"
+
+#: views/tab-dashboard.php:394
+msgid "Total Attempts"
+msgstr "Tentativi totali"
+
+#: views/tab-dashboard.php:378
+msgid "Total Failed Login Attempts"
+msgstr "Tentativi totali di accesso falliti"
+
+#: views/tab-dashboard.php:353
+msgid "Country"
+msgstr "Paese"
+
+#: views/tab-dashboard.php:348 views/tab-dashboard.php:379
+msgid "Global Network (Premium Users)"
+msgstr "Rete globale (utenti premium)"
+
+#: views/tab-dashboard.php:347
+msgid "Failed Login Attempts By Country"
+msgstr "Tentativi di accesso falliti per Paese"
+
+#: views/tab-dashboard.php:327
+msgid "Many options such as notifications, alerts, premium status, and more."
+msgstr "Tante opzioni come notifiche, avvisi, status premium e altro."
+
+#: views/tab-dashboard.php:326
+msgid "Global Options"
+msgstr "Opzioni globali"
+
+#: views/tab-dashboard.php:318
+msgid "Find the documentation and help you need."
+msgstr "Accedi alla documentazione e trova l'aiuto che cerchi"
+
+#: views/tab-dashboard.php:317
+msgid "Help"
+msgstr "Aiuto"
+
+#: views/tab-dashboard.php:309
+msgid "View lockouts logs, block or whitelist usernames or IPs, and more."
+msgstr "Guarda i log dei blocchi, i nomi utente o gli IP bloccati o in whitelist e molto altro."
+
+#: views/tab-dashboard.php:308
+msgid "Tools"
+msgstr "Strumenti"
+
+#: views/tab-dashboard.php:297
+msgid "Connect This Site"
+msgstr "Collega questo sito"
+
+#: views/tab-dashboard.php:296
+msgid "Learn More"
+msgstr "Approfondisci"
+
+#: views/tab-dashboard.php:294
+msgid "When you upgrade to premium, you can synchronize your IP safelist and blacklist between multiple sites. This is a great way to improve your network performance and slow down future attacks."
+msgstr "Quando fai l'aggiornamento a premium, puoi sincronizzare le tue safelist e blacklist tra più siti. Un ottimo modo per migliorare le performance della tua rete e ridurre gli attacchi futuri."
+
+#: views/tab-dashboard.php:293
+msgid "Multiply Your Protection By Adding More Domains"
+msgstr "Aumenta la tua protezione aggiungendo più domini"
+
+#: views/tab-dashboard.php:282
+msgid "Notifications"
+msgstr "Notifiche"
+
+#: core/LimitLoginAttempts.php:348 views/tab-dashboard.php:274
+msgid "Upgrade to Premium"
+msgstr "Aggiorna a premium"
+
+#: views/tab-dashboard.php:272
+msgid "As a free user, your local server is absorbing the traffic brought on by brute force attacks, potentially slowing down your website. Upgrade to Premium today to outsource these attacks through our cloud app, and slow down future attacks with advanced throttling."
+msgstr "Come utente gratuito, il tuo server locale sta assorbendo il traffico causato dagli attacchi a forza bruta, che possono rallentare il tuo sito. Aggiorna a premium oggi stesso per far gestire esternamente questi attacchi tramite la nostra cloud app e ridurre gli attacchi futuri con un throttling avanzato."
+
+#: views/tab-dashboard.php:271
+msgid "Premium Protection Disabled"
+msgstr "Protezione premium disabilitata"
+
+#: views/admin-dashboard-widgets.php:112 views/tab-dashboard.php:130
+msgid "Make sure WordPress and all your plugins are updated."
+msgstr "Assicurati che WordPress e tutti i tuoi plugin siano aggiornati."
+
+#: views/tab-dashboard.php:62
+msgid "Limit Login Attempts Reloaded Dashboard"
+msgstr "Bacheca di Limit Login Attempts Reloaded"
+
+#: views/admin-dashboard-widgets.php:52 views/tab-dashboard.php:54
+msgid "All failed login attempts have been neutralized in the cloud"
+msgstr "Tutti i tentativi di accesso falliti sono stati neutralizzati nel cloud"
+
+#: views/admin-dashboard-widgets.php:37 views/tab-dashboard.php:39
+msgid "Your site may be under a brute-force attack"
+msgstr "Sembra che il tuo sito sia sotto un attacco a forza bruta"
+
+#: views/admin-dashboard-widgets.php:32 views/tab-dashboard.php:34
+msgid "Your site might have been discovered by hackers"
+msgstr "Il tuo sito potrebbe essere stato preso di mira da malintenzionati"
+
+#: views/tab-logs-local.php:63
+msgid "Safelist"
+msgstr "Safelist"
+
+#: views/welcome-page.php:139
+msgid "Questions? Email us at <a href=\"mailto:sales@limitloginattempts.com\">sales@limitloginattempts.com</a>"
+msgstr "Domande? Scrivici un'email a <a href=\"mailto:sales@limitloginattempts.com\">sales@limitloginattempts.com</a>"
+
+#: views/welcome-page.php:137
+msgid "Upgrade Now"
+msgstr "Aggiorna ora"
+
+#: views/welcome-page.php:133
+msgid "A website that is constantly being attacked"
+msgstr "Un sito web che è costantemente sotto attacco"
+
+#: views/welcome-page.php:132
+msgid "A website with hundreds or thousands of registered users"
+msgstr "Un sito web con centinaia o migliaia di utenti registrati"
+
+#: views/welcome-page.php:131
+msgid "A website that holds sensitive data"
+msgstr "Un sito web che contiene dati sensibili"
+
+#: views/welcome-page.php:130
+msgid "A website with a lot of traffic"
+msgstr "Un sito web con un mucchio di traffico"
+
+#: views/welcome-page.php:129
+msgid "A forum"
+msgstr "Un forum"
+
+#: views/welcome-page.php:128
+msgid "E-commerce website"
+msgstr "Un sito web di e-commerce"
+
+#: views/welcome-page.php:127
+msgid "Site admin w/ multiple domains"
+msgstr "Amministratore di sito con molti domini"
+
+#: views/welcome-page.php:126
+msgid "Digital Agency"
+msgstr "Agenzia digitale"
+
+#: views/welcome-page.php:123
+msgid "We highly recommend upgrading if you are a…"
+msgstr "Raccomandiamo fortemente l'aggiornamento se tu sei un..."
+
+#: views/welcome-page.php:118
+msgid "Regular cloud backups of all data"
+msgstr "Backup costanti di tutti i dati nel cloud"
+
+#: views/welcome-page.php:117
+msgid "Auto Backup Of All Data"
+msgstr "Backup automatici di tutti i dati"
+
+#: views/welcome-page.php:109
+msgid "Safelist/Blacklists can be shared between multiple domains"
+msgstr "Le safelist e le blacklist possono essere condivise tra più domini"
+
+#: views/welcome-page.php:108
+msgid "Synchronized Safelist/Blacklist"
+msgstr "Safelist e blacklist sincronizzate"
+
+#: views/welcome-page.php:100
+msgid "Lockouts can be shared between multiple domains"
+msgstr "I blocchi possono essere condivisi tra più domini"
+
+#: views/welcome-page.php:99
+msgid "Synchronized Lockouts"
+msgstr "Blocchi sincronizzati"
+
+#: views/welcome-page.php:91
+msgid "CSV Download of all IP data"
+msgstr "Download di tutti i dati degli IP in formato CSV"
+
+#: views/welcome-page.php:90
+msgid "CSV Download of IP Data"
+msgstr "Download dei dati degli IP in formato CSV"
+
+#: views/welcome-page.php:82
+msgid "We make sure the legitimate IP’s are allowed automatically"
+msgstr "Ci assicuriamo che i legittimi IP siano consentiti automaticamente"
+
+#: views/welcome-page.php:81
+msgid "Intelligent IP Blocking/Unblocking"
+msgstr "Blocco e sblocco intelligente degli IP"
+
+#: views/welcome-page.php:73
+msgid "Get your technical questions answered by our experts"
+msgstr "Le tue domande tecniche ricevono risposte dai nostri esperti"
+
+#: views/welcome-page.php:72
+msgid "Premium Support Forum"
+msgstr "Forum di supporto premium"
+
+#: views/welcome-page.php:64
+msgid "Longer lockout intervals each time a hacker/bot tries to login unsuccessfully"
+msgstr "Blocchi che durano più a lungo ogni volta che un malintenzionato o un bot tenta di accedere senza successo"
+
+#: views/welcome-page.php:63
+msgid "Lockout/IP Throttling"
+msgstr "Blocco e throttling degli IP"
+
+#: views/welcome-page.php:55
+msgid "We absorb up to 100k login attempts (per month) to keep your site at optimal performance"
+msgstr "Assorbiamo fino a 100k tentativi di accessi (al mese) per far avere al tuo sito un'ottima performance"
+
+#: views/welcome-page.php:54
+msgid "Performance Optimizer"
+msgstr "Ottimizzatore della performance"
+
+#: views/welcome-page.php:44
+msgid "Looking for advanced protection? <a href=\"%s\" target=\"_blank\">Try our premium service</a> for only $4.99/month!"
+msgstr "Cerchi protezione avanzata? <a href=\"%s\" target=\"_blank\">Prova il nostro servizio premium</a> per soli $ 4,99 al mese!"
+
+#: views/welcome-page.php:42
+msgid "2,000,000+ active installations on <br>WordPress worldwide!"
+msgstr "Più di 2.000.000 di installazioni attive su <br>WordPress nel mondo!"
+
+#: views/welcome-page.php:37
+msgid "If you have more questions, please check out the <a href=\"%s\" target=\"_blank\">help section</a> on our website."
+msgstr "Se hai ulteriori domande, dai un'occhiata alla <a href=\"%s\" target=\"_blank\">sezione di aiuto</a> nel nostro sito."
+
+#: views/welcome-page.php:31
+msgid "Although we recommend using the default settings, you can get a quick video tutorial if you wanted to learn more about the plugin and what it does."
+msgstr "Sebbene raccomandiamo di usare le impostazioni predefinite, puoi guardare un veloce video tutorial se vuoi saperne di più sul plugin e su cosa faccia."
+
+#: views/welcome-page.php:25
+msgid "And Much More!"
+msgstr "E molto altro!"
+
+#: views/welcome-page.php:23
+msgid "Synchronize lockout data across a network of sites"
+msgstr "Sincronizza i dati di blocco attraverso una rete di siti"
+
+#: views/welcome-page.php:22
+msgid "Receive email alerts when your site is under attack"
+msgstr "Ricevi avvisi via email quando il tuo sito è sotto attacco"
+
+#: views/welcome-page.php:21
+msgid "Optimize site performance by redirecting malicious logins"
+msgstr "Ottimizza la performance del sito reindirizzando gli accessi dannosi"
+
+#: views/welcome-page.php:20
+msgid "Protect from future attacks by allowing or denying IPs"
+msgstr "Proteggi da futuri attacchi permettendo o negando IP"
+
+#: views/welcome-page.php:19
+msgid "View who’s trying to access your site"
+msgstr "Guarda chi sta tentando di accedere al tuo sito"
+
+#: views/welcome-page.php:17
+msgid "With This Plugin, You Can…"
+msgstr "Con questo plugin puoi..."
+
+#: views/welcome-page.php:15
+msgid "Thank you for choosing Limit Login Attempts Reloaded - A simple, yet powerful bot-blocking plugin that keeps your login page safe. "
+msgstr "Grazie per aver scelto Limit Login Attempts Reloaded. Un plugin semplice ma potente per il blocco dei bot e per tenere al sicuro la tua pagina di accesso."
+
+#: views/welcome-page.php:14
+msgid "Welcome to Limit Login Attempts Reloaded"
+msgstr "Benvenuto in Limit Login Attempts Reloaded"
+
+#: views/options-page.php:22
+msgid "Thank you for using the free version of <b>Limit Login Attempts Reloaded</b>. <a href=\"%s\" target=\"_blank\">Upgrade to our cloud app</a> for enhanced protection, visual metrics & premium support."
+msgstr "Stai usando la versione gratuita di <b>Limit Login Attempts Reloaded</b>, grazie! <a href=\"%s\" target=\"_blank\">Aggiorna alla nostra Cloud App</a> per protezione migliorata, metriche visive e supporto premium."
+
+#: views/app-widgets/active-lockouts.php:6
+msgid "Active Lockouts"
+msgstr "Blocchi attivi"
+
+#: views/admin-dashboard-widgets.php:148 views/tab-dashboard.php:166
+msgid "Requests"
+msgstr "Richieste"
+
+#: views/tab-logs-local.php:111
+msgid "Receive enhanced logs and visual metrics when you <a href=\"%s\" target=\"_blank\">upgrade to our cloud app</a>"
+msgstr "Ottieni log migliorati e metriche visive quando <a href=\"%s\" target=\"_blank\">aggiorni alla nostra Cloud App</a>"
+
+#: views/tab-settings.php:186
+msgid "Setup Code"
+msgstr "Codice di setup"
+
+#: views/admin-dashboard-widgets.php:30 views/tab-dashboard.php:32
+msgid "%d failed login attempt "
+msgid_plural "%d failed login attempts "
+msgstr[0] "%d tentativo di accesso fallito"
+msgstr[1] "%d tentativi di accesso falliti"
+
+#: core/LimitLoginAttempts.php:2061
+msgid "Don't show this message again"
+msgstr "Non mostrare più questo messaggio"
+
+#: core/LimitLoginAttempts.php:2060
+msgid "Remind me a month from now"
+msgstr "Ricordamelo fra un mese"
+
+#: core/LimitLoginAttempts.php:2059
+msgid "Yes, turn on email notifications"
+msgstr "Sì, abilita le notifiche via email"
+
+#: core/LimitLoginAttempts.php:2054
+msgid "You have been upgraded to the latest version of <strong>Limit Login Attempts Reloaded</strong>.<br> Due to increased security threats around the holidays, we recommend turning on email notifications when you receive a failed login attempt."
+msgstr "Hai aggiornato all'ultima versione di <strong>Limit Login Attempts Reloaded</strong>.<br>A motivo delle crescenti minacce alla sicurezza intorno alle festività, ti raccomandiamo di abilitare le notifiche via email quando c'è un tentativo di accesso fallito."
+
+#: views/options-page.php:42
+msgid "Failover"
+msgstr "Failover"
+
+#: views/options-page.php:35 views/options-page.php:37
+msgid "Logs"
+msgstr "Log"
+
+#: views/tab-settings.php:221
+msgid "Configuration"
+msgstr "Configurazione"
+
+#: views/tab-settings.php:212
+msgid "Only pay $7.99/m per domain - cancel any time"
+msgstr "Paga soltanto $7.99/m per dominio - Annulla quando vuoi"
+
+#: views/tab-settings.php:211
+msgid "Run auto backups of access control lists, lockouts and logs"
+msgstr "Avvia backup automatici di access control list, blocchi e log"
+
+#: views/tab-settings.php:210
+msgid "Get premium support"
+msgstr "Ottieni il supporto premium"
+
+#: views/tab-settings.php:209
+msgid "Sync the allow/deny/pass lists between multiple domains"
+msgstr "Sincronizza le liste di permetti/nega/passa tra domini multipli"
+
+#: views/tab-settings.php:208
+msgid "Use intelligent IP blocking/unblocking technology"
+msgstr "Usa tecnologia intelligente di blocco/sblocco IP"
+
+#: views/tab-settings.php:207
+msgid "Absorb site load caused by attacks"
+msgstr "Riduci il carico del sito causato dagli attacchi"
+
+#: views/tab-settings.php:205
+msgid "Why Use Our Premium Cloud App?"
+msgstr "Perché usare la nostra Premium Cloud App?"
+
+#: views/tab-settings.php:200
+msgid "Use the <a href=\"%s\" target=\"_blank\">premium app</a> that we offer or follow the instructions on <a href=\"%s\" target=\"_blank\">how to</a> create your own one."
+msgstr "Usa la <a href=\"%s\" target=\"_blank\">app premium</a> che offriamo oppure segui le istruzioni su <a href=\"%s\" target=\"_blank\">come</a> creare quella tua."
+
+#: views/tab-settings.php:193
+msgid "Submit"
+msgstr "Invia"
+
+#: views/tab-settings.php:179
+msgid "Custom App"
+msgstr "App personalizzata"
+
+#: views/tab-settings.php:140
+msgid "Local App"
+msgstr "App locale"
+
+#: views/tab-settings.php:136
+msgid "App Settings"
+msgstr "Impostazioni dell'app"
+
+#: views/tab-settings.php:130
+msgid "Get advanced protection by <a href=\"#\" class=\"llar-upgrade-to-cloud\">upgrading to our Cloud App.</a>"
+msgstr "Ottieni la protezione avanzata <a href=\"#\" class=\"llar-upgrade-to-cloud\">aggiornando alla nostra Cloud App.</a>"
+
+#: views/tab-settings.php:124
+msgid "Local"
+msgstr "Locale"
+
+#: views/tab-settings.php:121
+msgid "Active App"
+msgstr "App attiva"
+
+#: views/app-widgets/acl-rules.php:31
+msgid "IP Access Rules"
+msgstr "Regole di accesso IP"
+
+#: views/app-widgets/acl-rules.php:7
+msgid "Login Access Rules"
+msgstr "Regole di accesso"
+
+#: views/app-widgets/event-log.php:8
+msgid "Event Log"
+msgstr "Log degli eventi"
+
+#: core/App.php:117
+msgid "The endpoint is not responding. Please contact your app provider to settle that."
+msgstr "L'endpoint non risponde. Contatta il provider della tua app per risolvere."
+
+#: core/LimitLoginAttempts.php:2553
+msgid "No rules yet."
+msgstr "Ancora nessuna regola."
+
+#: views/app-widgets/acl-rules.php:25 views/app-widgets/acl-rules.php:49
+#: views/app-widgets/country-access-rules.php:17
+msgid "Add"
+msgstr "Aggiungi"
+
+#: views/app-widgets/acl-rules.php:22 views/app-widgets/acl-rules.php:46
+msgid "Pass"
+msgstr "Passa"
+
+#: views/app-widgets/acl-rules.php:21 views/app-widgets/acl-rules.php:45
+msgid "Allow"
+msgstr "Permetti"
+
+#: views/app-widgets/acl-rules.php:20 views/app-widgets/acl-rules.php:44
+msgid "Deny"
+msgstr "Nega"
+
+#: views/app-widgets/acl-rules.php:14 views/app-widgets/acl-rules.php:38
+msgid "Action"
+msgstr "Azione"
+
+#: core/LimitLoginAttempts.php:2510
+msgid "Meanwhile, the app falls over to the <a href=\"%s\">default functionality</a>."
+msgstr "Nel frattempo, l'app torna alla <a href=\"%s\">funzionalità predefinita</a>."
+
+#: core/LimitLoginAttempts.php:2494
+msgid "No lockouts yet."
+msgstr "Ancora nessun blocco."
+
+#: views/app-widgets/active-lockouts.php:20
+msgid "Expires in (minutes)"
+msgstr "Scade in (minuti)"
+
+#: views/app-widgets/active-lockouts.php:19 views/tab-dashboard.php:354
+msgid "Count"
+msgstr "Conteggio"
+
+#: core/LimitLoginAttempts.php:2445
+msgid "No events yet."
+msgstr "Ancora nessun evento."
+
+#: views/app-widgets/event-log.php:30
+msgid "Actions"
+msgstr "Azioni"
+
+#: views/app-widgets/event-log.php:29
+msgid "Lockout Duration"
+msgstr "Durata del blocco"
+
+#: views/app-widgets/event-log.php:28
+msgid "Attempts Left"
+msgstr "Tentativi rimasti"
+
+#: views/app-widgets/acl-rules.php:12 views/app-widgets/acl-rules.php:17
+#: views/app-widgets/acl-rules.php:36 views/app-widgets/acl-rules.php:41
+#: views/app-widgets/event-log.php:27
+msgid "Pattern"
+msgstr "Modello"
+
+#: views/app-widgets/event-log.php:26
+msgid "Reason"
+msgstr "Motivo"
+
+#: views/app-widgets/acl-rules.php:13 views/app-widgets/acl-rules.php:37
+#: views/app-widgets/event-log.php:25
+msgid "Rule"
+msgstr "Regola"
+
+#: views/app-widgets/active-lockouts.php:18 views/app-widgets/event-log.php:24
+msgid "Login"
+msgstr "Accesso"
+
+#: views/app-widgets/active-lockouts.php:17 views/app-widgets/event-log.php:22
+msgid "IP"
+msgstr "IP"
+
+#: views/app-widgets/event-log.php:21
+msgid "Time"
+msgstr "Ora"
+
+#: core/LimitLoginAttempts.php:2235
+msgid "Please specify the Setup Code"
+msgstr "Specifica il codice di setup"
+
+#: core/LimitLoginAttempts.php:2221
+msgid "The app has been successfully imported."
+msgstr "L'app è stata importata con successo."
+
+#. Author URI of the plugin
+msgid "https://www.limitloginattempts.com/"
+msgstr "https://www.limitloginattempts.com/"
+
+#: core/LimitLoginAttempts.php:341 views/options-page.php:32
+msgid "Dashboard"
+msgstr "Bacheca"
+
+#: views/tab-logs-local.php:91 views/tab-settings.php:344
+msgid "Save Settings"
+msgstr "Salva le impostazioni"
+
+#: views/tab-settings.php:137
+msgid "The app absorbs the main load caused by brute-force attacks, analyzes login attempts, and blocks unwanted visitors. It provides other service functions as well."
+msgstr "Le app assorbono i principali carichi causati dagli attacchi di forza bruta, analizzano i tentativi di accesso e bloccano i visitatori indesiderati. Potrebbero fornire anche altre funzioni di servizio."
+
+#: views/tab-settings.php:37
+msgid "These settings are independent of the apps (see below)."
+msgstr "Queste impostazioni sono indipendenti dalle app (vedi sotto)."
+
+#: views/tab-settings.php:36
+msgid "General Settings"
+msgstr "Impostazioni generali"
+
+#: core/LimitLoginAttempts.php:1795 core/LimitLoginAttempts.php:1868
+msgid "Settings saved."
+msgstr "Impostazioni salvate."
+
+#: core/LimitLoginAttempts.php:1973
+msgid "Leave a review"
+msgstr "Lascia una recensione"
+
+#: core/LimitLoginAttempts.php:1972
+msgid "Maybe later"
+msgstr "Forse più tardi"
+
+#: core/LimitLoginAttempts.php:1971
+msgid "Don't show again"
+msgstr "Non mostrare più"
+
+#: core/LimitLoginAttempts.php:1968
+msgid "We would really like to hear your feedback about the plugin! Please take a couple minutes to write a few words <a href=\"https://wordpress.org/support/plugin/limit-login-attempts-reloaded/reviews/#new-post\" target=\"_blank\">here</a>. Thank you!"
+msgstr "Ci farebbe veramente piacere sentire il tuo feedback sul nostro plugin! Prenditi un paio di minuti per scrivere qualcosa <a href=\"https://wordpress.org/support/plugin/limit-login-attempts-reloaded/reviews/#new-post\" target=\"_blank\">here</a>. Grazie!"
+
+#: core/LimitLoginAttempts.php:1967
+msgid "A <strong>crazy idea</strong> we wanted to share! What if we put an image from YOU on the <a href=\"https://wordpress.org/plugins/limit-login-attempts-reloaded/\" target=\"_blank\">LLAR page</a>?! (<a href=\"https://wordpress.org/plugins/hello-dolly/\" target=\"_blank\">example</a>) A drawing made by you or your child would cheer people up! Send us your drawing by <a href=\"mailto:wpchef.me@gmail.com\" target=\"_blank\">email</a> and we like it, we'll add it in the next release. Let's have some fun!"
+msgstr "Una <strong>idea pazza</strong> che volevamo condividere! Che ne diresti se mettessimo una TUA immagine sulla <a href=\"https://wordpress.org/plugins/limit-login-attempts-reloaded/\" target=\"_blank\">pagina LLAR</a>?! (<a href=\"https://wordpress.org/plugins/hello-dolly/\" target=\"_blank\">esempio</a>) Un disegno fatto da te o dal tuo bambino potrebbe far esultare le persone! Inviaci il tuo disegno tramite <a href=\"mailto:wpchef.me@gmail.com\" target=\"_blank\">email</a> e se ci piacerà lo aggiungeremo nel prossimo aggiornamento. Divertiamoci!"
+
+#: core/LimitLoginAttempts.php:1966
+msgid "Hey <strong>Limit Login Attempts Reloaded</strong> user!"
+msgstr "Ciao utente di <strong>Limit Login Attempts Reloaded</strong>!"
+
+#: views/tab-debug.php:48
+msgid "Copy the contents of the window and provide to support."
+msgstr "Copia il contenuto della finestra e giralo al team di supporto."
+
+#: views/options-page.php:39
+msgid "Debug"
+msgstr "Debug"
+
+#: core/LimitLoginAttempts.php:342 views/options-page.php:33
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: views/tab-debug.php:45
+msgid "Debug info"
+msgstr "Informazioni di debug"
+
+#: views/tab-settings.php:172
+msgid "Specify the origins you trust in order of priority, separated by commas. We strongly recommend that you <b>do not</b> use anything other than REMOTE_ADDR since other origins can be easily faked. Examples: HTTP_X_FORWARDED_FOR, HTTP_CF_CONNECTING_IP, HTTP_X_SUCURI_CLIENTIP"
+msgstr "Specifica le origini di cui ti fidi in ordine di priorità, separate da virgole. Ti consigliamo vivamente di <b>non</b> utilizzare altro fuorché REMOTE_ADDR poiché altre origini possono essere facilmente simulate. Esempi: HTTP_X_FORWARDED_FOR, HTTP_CF_CONNECTING_IP, HTTP_X_SUCURI_CLIENTIP"
+
+#: views/tab-settings.php:168
+msgid "Trusted IP Origins"
+msgstr "Origini IP affidabili"
+
+#: views/tab-settings.php:91
+msgid "after"
+msgstr "dopo"
+
+#: views/tab-settings.php:88
+msgid "Email to"
+msgstr "Email a"
+
+#: core/LimitLoginAttempts.php:1773
+msgid "The \""
+msgstr "Il \""
+
+#: core/LimitLoginAttempts.php:1481
+msgid "<strong>ERROR</strong>: Incorrect email address or password."
+msgstr "<strong>ERRORE</strong>: indirizzo email o password errati."
+
+#: views/tab-settings.php:68
+msgid "GDPR compliance"
+msgstr "Conformità al GDPR"
+
+#: views/tab-logs-local.php:66 views/tab-logs-local.php:80
+msgid "One IP or IP range (1.2.3.4-5.6.7.8) per line"
+msgstr "Un IP o un intervallo di IP (1.2.3.4-5.6.7.8) per riga"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: core/LimitLoginAttempts.php:180 views/options-page.php:29
+#: views/welcome-page.php:11
+msgid "Limit Login Attempts Reloaded"
+msgstr "Limit Login Attempts Reloaded"
+
+#: views/app-widgets/event-log.php:23 views/tab-logs-local.php:123
+msgid "Gateway"
+msgstr "Gateway"
+
+#: views/tab-logs-local.php:122
+msgid "Tried to log in as"
+msgstr "Ha cercato di accedere come"
+
+#: views/tab-logs-local.php:121
+msgctxt "Internet address"
+msgid "IP"
+msgstr "IP"
+
+#: views/tab-logs-local.php:120
+msgid "Date"
+msgstr "Data"
+
+#: views/tab-logs-local.php:108
+msgid "Clear Log"
+msgstr "Pulisci il log"
+
+#: views/tab-logs-local.php:77
+msgid "Blocklist"
+msgstr "Blacklist"
+
+#: views/tab-logs-local.php:70 views/tab-logs-local.php:84
+msgid "One Username per line"
+msgstr "Un nome utente per riga"
+
+#: views/tab-settings.php:94
+msgid "lockouts"
+msgstr "blocchi"
+
+#: views/tab-logs-local.php:103
+msgid "Lockout log"
+msgstr "Log dei blocchi"
+
+#: views/tab-settings.php:85
+msgid "Notify on lockout"
+msgstr "Notifica al blocco"
+
+#: views/tab-settings.php:163
+msgid "hours until retries are reset"
+msgstr "ore prima della reimpostazione dei tentativi"
+
+#: views/tab-settings.php:160
+msgid "hours"
+msgstr "ore"
+
+#: views/tab-settings.php:157
+msgid "lockouts increase lockout time to"
+msgstr "blocchi aumentano il tempo di blocco a"
+
+#: views/tab-settings.php:153
+msgid "minutes lockout"
+msgstr "minuti di blocco"
+
+#: views/tab-settings.php:149
+msgid "allowed retries"
+msgstr "tentativi consentiti"
+
+#: views/tab-settings.php:144
+msgid "Lockout"
+msgstr "Blocco"
+
+#: views/tab-settings.php:46
+msgid "Use global settings"
+msgstr "Usa le impostazioni globali"
+
+#: views/tab-settings.php:44
+msgid "If disabled, the global settings will be forcibly applied to the entire network."
+msgstr "Se disabilitato, le impostazioni globali saranno applicate forzatamente all'intero network."
+
+#: views/tab-settings.php:43
+msgid "Let network sites use their own settings"
+msgstr "Consenti ai siti del network di usare le proprie impostazioni"
+
+#: views/tab-logs-local.php:51
+msgid "%d IP is currently blocked from trying to log in"
+msgstr "%d IP è attualmente bloccato dal tentativo di accesso"
+
+#: views/tab-logs-local.php:49
+msgid "Restore Lockouts"
+msgstr "Ripristina i blocchi"
+
+#: views/tab-logs-local.php:46
+msgid "Active lockouts"
+msgstr "Blocchi attivi"
+
+#: views/tab-logs-local.php:39
+msgid "No lockouts yet"
+msgstr "Ancora nessun blocco"
+
+#: views/tab-logs-local.php:37
+msgid "%d lockout since last reset"
+msgid_plural "%d lockouts since last reset"
+msgstr[0] "%d blocco dall'ultima reimpostazione"
+msgstr[1] "%d blocchi dall'ultima reimpostazione"
+
+#: views/tab-logs-local.php:35
+msgid "Reset Counter"
+msgstr "Reimposta il contatore"
+
+#: views/tab-logs-local.php:31
+msgid "Total lockouts"
+msgstr "Blocchi totali"
+
+#: views/tab-logs-local.php:26
+msgid "Statistics"
+msgstr "Statistiche"
+
+#: core/LimitLoginAttempts.php:1739
+msgid "Cleared current lockouts"
+msgstr "Blocchi attuali rimossi"
+
+#: core/LimitLoginAttempts.php:1732
+msgid "Reset lockout count"
+msgstr "Conteggio dei blocchi reimpostato"
+
+#: core/LimitLoginAttempts.php:1725
+msgid "Cleared IP log"
+msgstr "Registro IP reimpostato"
+
+#: core/LimitLoginAttempts.php:1498
+msgid "WC Error"
+msgstr "Errore WC"
+
+#: core/LimitLoginAttempts.php:1483
+msgid "<strong>ERROR</strong>: Incorrect username or password."
+msgstr "<strong>ERRORE</strong>: nome utente o password errati."
+
+#: core/LimitLoginAttempts.php:527 core/LimitLoginAttempts.php:925
+#: core/LimitLoginAttempts.php:1429
+msgid "Please try again in %d minute."
+msgid_plural "Please try again in %d minutes."
+msgstr[0] "Riprova tra %d minuto."
+msgstr[1] "Riprova tra %d minuti."
+
+#: core/LimitLoginAttempts.php:525 core/LimitLoginAttempts.php:923
+#: core/LimitLoginAttempts.php:1427
+msgid "Please try again in %d hour."
+msgid_plural "Please try again in %d hours."
+msgstr[0] "Riprova tra %d ora."
+msgstr[1] "Riprova tra %d ore."
+
+#: core/LimitLoginAttempts.php:1419
+msgid "Please try again later."
+msgstr "Riprova più tardi."
+
+#: core/LimitLoginAttempts.php:518 core/LimitLoginAttempts.php:918
+#: core/LimitLoginAttempts.php:1411
+msgid "<strong>ERROR</strong>: Too many failed login attempts."
+msgstr "<strong>ERRORE</strong>: troppi tentativi di login non riusciti."
+
+#: core/LimitLoginAttempts.php:1102
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minuto"
+msgstr[1] "%d minuti"
+
+#: core/LimitLoginAttempts.php:1096
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d ora"
+msgstr[1] "%d ore"
+
+#: core/LimitLoginAttempts.php:2679
+msgid "<strong>%d</strong> attempt remaining."
+msgid_plural "<strong>%d</strong> attempts remaining."
+msgstr[0] "<strong>%d</strong> tentativo rimasto."
+msgstr[1] "<strong>%d</strong> tentativi rimasti."

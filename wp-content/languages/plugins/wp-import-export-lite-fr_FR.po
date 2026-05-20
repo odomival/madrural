@@ -1,0 +1,3671 @@
+# Translation of Plugins - WP Import Export Lite - Development (trunk) in French (France)
+# This file is distributed under the same license as the Plugins - WP Import Export Lite - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-04-12 11:17:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - WP Import Export Lite - Development (trunk)\n"
+
+#: includes/classes/class-wpie-security.php:18
+msgid "Session Expired. Please refresh page."
+msgstr "La session a expiré. Veuillez rafraîchir la page."
+
+#: includes/classes/class-wpie-security.php:27
+msgid "Permission denied!"
+msgstr "Accès refusé !"
+
+#: includes/classes/import/fields/wpie-post.php:880
+msgid "Update all Attributes and Remove Attributes if not found in file"
+msgstr "Mettre à jour tous les attributs et supprimer les attributs s’ils ne se trouvent pas dans le fichier"
+
+#: includes/classes/import/fields/wpie-post.php:884
+msgid "Update all Attributes and keep Attributes if not found in file"
+msgstr "Mettre à jour tous les attributs et conserver les attributs s’ils ne se trouvent pas dans le fichier"
+
+#: includes/classes/import/fields/wpie-post.php:433
+#: includes/classes/import/fields/wpie-post.php:745
+msgid "Post Password"
+msgstr "Mot de passe de l’article"
+
+#: includes/classes/class-wpie-general.php:892
+msgid "Choose Excel Sheet"
+msgstr "Choisissez une feuille Excel"
+
+#: includes/classes/class-wpie-general.php:909
+msgid "No Records Found. Please Try another File or Data Format or Excel Sheet"
+msgstr "Aucun enregistrement trouvé. Veuillez essayer un autre fichier, un autre format de données ou une autre feuille Excel"
+
+#: includes/classes/import/class-wpie-upload-validate.php:83
+msgid "File is Empty. Please Choose another file"
+msgstr "Le fichier est vide. Veuillez choisir un autre fichier"
+
+#: includes/classes/import/class-wpie-upload-validate.php:99
+msgid "Fail to copy file"
+msgstr "Échec de la copie du fichier"
+
+#: includes/classes/import/extensions/local-upload/wpie-local-upload-view.php:33
+msgid "Data Format"
+msgstr "Format des données"
+
+#: includes/classes/class-wpie-extensions.php:76
+#: includes/classes/class-wpie-extensions.php:167
+#: includes/classes/export/extensions/yoast-seo/class-wpie-yoast-seo.php:24
+#: includes/classes/export/extensions/yoast-seo/class-wpie-yoast-seo_taxonomy.php:24
+#: includes/classes/import/extensions/yoast-seo/views/post.php:27
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:15
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:35
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:23
+msgid "Focus Keywords"
+msgstr "Mots-clés principaux"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:41
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:29
+msgid "SEO Title"
+msgstr "Titre SEO"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:47
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:35
+msgid "Meta Description"
+msgstr "Description Meta"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:53
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:41
+msgid "Keyphrase Synonyms"
+msgstr "Synonymes de phrases clés"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:53
+#: includes/classes/import/extensions/yoast-seo/views/post.php:59
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:41
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:47
+msgid "Multiple values separated by || Example value1||value2||value3"
+msgstr "Plusieurs valeurs séparées par || Exemple valeur1||valeur2||valeur3"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:59
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:47
+msgid "Related keyphrase"
+msgstr "Phrase clé associée"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:65
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:53
+msgid "Facebook Options"
+msgstr "Options Facebook"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:68
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:56
+msgid "If you don't want to use the post title for sharing the post on Facebook but instead want another title there, import it here."
+msgstr "Si vous ne souhaitez pas utiliser le titre de la publication pour la partager sur Facebook, mais plutôt un autre titre, importez-le ici."
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:74
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:62
+msgid "If you don't want to use the meta description for sharing the post on Facebook but want another description there, write it here."
+msgstr "Si vous ne voulez pas utiliser la méta-description pour partager la publication sur Facebook mais que vous souhaitez une autre description, écrivez-la ici."
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:108
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:96
+msgid "Twitter Options"
+msgstr "Options Twitter"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:117
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:105
+msgid "If you don't want to use the meta description for sharing the post on Twitter but want another description there, write it here."
+msgstr "Si vous ne souhaitez pas utiliser la méta-description pour partager le message sur Twitter mais que vous voulez une autre description, écrivez-la ici."
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:158
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:146
+msgid "Index"
+msgstr "Index"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:175
+msgid "Meta Robots Nofollow"
+msgstr "Meta Robots Nofollow"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:179
+#: includes/classes/import/extensions/yoast-seo/views/post.php:200
+#: includes/classes/import/extensions/yoast-seo/views/post.php:273
+#: includes/classes/import/extensions/yoast-seo/views/post.php:308
+msgid "Default"
+msgstr "Par défaut"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:196
+msgid "Meta Robots Advanced"
+msgstr "Meta Robots avancé"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:204
+msgid "None"
+msgstr "Aucun"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:208
+msgid "No Image Index"
+msgstr "Aucun index pour l’image"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:212
+msgid "No Archive"
+msgstr "Aucune Archive"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:229
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:163
+msgid "This article is cornerstone content"
+msgstr "Cet article est la pierre angulaire du contenu"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:256
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:190
+msgid "Canonical URL"
+msgstr "URL Canonique"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:265
+msgid "Schema"
+msgstr "Schéma"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:268
+msgid "Page type"
+msgstr "Type de page"
+
+#: includes/classes/import/fields/wpie-post.php:644
+msgid "Price"
+msgstr "Prix"
+
+#: includes/classes/import/fields/wpie-post.php:652
+msgid "Sale Price"
+msgstr "Prix de vente"
+
+#: includes/classes/import/fields/wpie-post.php:659
+msgid "Stock"
+msgstr "Stock"
+
+#: includes/classes/import/fields/wpie-post.php:663
+#: includes/classes/import/fields/wpie-post.php:822
+msgid "Stock Qty"
+msgstr "Qté stock"
+
+#: includes/classes/import/fields/wpie-post.php:671
+#: includes/classes/import/fields/wpie-post.php:830
+msgid "Stock status"
+msgstr "État du Stock"
+
+#: includes/classes/import/fields/wpie-post.php:675
+#: includes/classes/import/fields/wpie-post.php:826
+msgid "Low stock threshold"
+msgstr "Seuil de stock faible"
+
+#: includes/classes/import/fields/wpie-post.php:1028
+#: includes/classes/import/fields/wpie-taxonomy.php:450
+msgid "Yoast SEO Data"
+msgstr "Données Yoast SEO"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:80
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:68
+msgid "If you want to override the image used on Facebook for this post, import one here. The recommended image size for Facebook is 1200 x 628px."
+msgstr "Si vous souhaitez remplacer l’image utilisée sur Facebook pour cette publication, importez-en une ici. La taille d’image recommandée pour Facebook est de 1200 x 628px."
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:111
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:99
+msgid "If you don't want to use the post title for sharing the post on Twitter but instead want another title there, import it here."
+msgstr "Si vous ne souhaitez pas utiliser le titre de l’article pour le partager sur Twitter, mais plutôt un autre titre, importez-le ici."
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:250
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:184
+msgid "Breadcrumbs Title"
+msgstr "Titre pour le fil d’ariane"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:256
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:190
+msgid "The canonical URL that this page should point to, leave empty to default to permalink. Cross domain canonical supported too."
+msgstr "L’URL canonique vers laquelle cette page doit pointer, laissez vide pour que le permalien soit utilisé par défaut. Les URL canoniques inter-domaines sont également prises en charge."
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:303
+msgid "Article type"
+msgstr "Type d’article"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:169
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:157
+msgid "The value should be one of the following: ('noindex', 'index')."
+msgstr "La valeur doit être l’une des suivantes : (\"noindex\", \"index\")."
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:190
+msgid "The value should be one of the following: ('', 'nofollow'). Leave blank for 'Default'"
+msgstr "La valeur doit être l’une des suivantes : (’’, \"nofollow\"). Laissez vide pour \"Par défaut\""
+
+#: includes/classes/import/fields/wpie-post.php:667
+msgid "Manage stock?"
+msgstr "Gérer le stock ?"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:154
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:142
+msgid "Meta Robots Index"
+msgstr "Index des méta robots"
+
+#: includes/classes/class-wpie-extensions.php:78
+msgid "Export Yoast SEO Settings from WordPress Site"
+msgstr "Exporter les réglages de Yoast SEO depuis le site WordPress"
+
+#: includes/classes/class-wpie-extensions.php:169
+msgid "Import Yoast SEO Settings to WordPress Site"
+msgstr "Importation des réglages de Yoast SEO sur le site WordPress"
+
+#: includes/classes/import/fields/wpie-post.php:640
+msgid "Update Price / Stock Only"
+msgstr "Mise à jour du prix/stock uniquement"
+
+#: includes/classes/import/fields/wpie-post.php:709
+msgid "Excerpt / Short Description"
+msgstr "Extrait/brève description"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:223
+msgid "The value should be one of the following: ('', 'none','noimageindex','noarchive','nosnippet'). Leave blank for 'Default'"
+msgstr "La valeur doit être l’une des suivantes : (’’, \"none\", \"noimageindex\", \"noarchive\", \"nosnippet\"). Laissez vide pour \"par défaut\""
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:244
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:178
+msgid "The value should be one of the following: ('', '1'). Leave blank for 'Default'"
+msgstr "La valeur doit être l’une des suivantes : (’’, \"1\"). Laissez vide pour \"par défaut\""
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:123
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:111
+msgid "If you want to override the image used on Twitter for this post, import one here. The recommended image size for Twitter is 1024 x 512px."
+msgstr "Si vous souhaitez remplacer l’image utilisée sur Twitter pour cet article, importez-en une ici. La taille d’image recommandée pour Twitter est de 1024 x 512px."
+
+#: includes/classes/import/fields/wpie-post.php:648
+#: includes/classes/import/fields/wpie-post.php:763
+msgid "Regular Price"
+msgstr "Prix normal"
+
+#: includes/classes/import/fields/wpie-post.php:705
+msgid "Content / Description"
+msgstr "Contenu/Description"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:162
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:150
+msgid "No Index"
+msgstr "Aucun index"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:183
+msgid "Nofollow"
+msgstr "Nofollow"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:216
+msgid "No Snippet"
+msgstr "Aucun extrait"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:233
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:167
+msgid "No"
+msgstr "Aucun"
+
+#: includes/classes/class-wpie-general.php:861
+#: includes/views/wpie-new-export.php:354
+#: includes/views/wpie-new-export.php:367
+#: includes/views/wpie-new-import.php:457
+#: includes/views/wpie-new-import.php:470
+msgid "Select Setting"
+msgstr "Sélectionner le réglage"
+
+#: includes/classes/class-wpie-general.php:951
+msgid "Title is required field for new data"
+msgstr "Le titre est un champ obligatoire pour les nouvelles données"
+
+#: includes/views/wpie-new-export.php:128
+msgid "Apply Filters & Options"
+msgstr "Appliquer des filtres et des options"
+
+#: includes/views/wpie-new-export.php:364
+msgid "From Exports"
+msgstr "Depuis les exportations"
+
+#: includes/views/wpie-new-import.php:220
+msgid "Premium Import Types"
+msgstr "Types d’importation Premium"
+
+#: includes/views/wpie-new-import.php:467
+msgid "From Imports"
+msgstr "Depuis les importations"
+
+#: includes/views/wpie-new-import.php:553
+msgid "Search Existing Item"
+msgstr "Rechercher un élément existant"
+
+#: includes/views/wpie-new-export.php:87
+msgid "Premium Export Types"
+msgstr "Types d’exportations Premium"
+
+#: includes/views/wpie-new-import.php:562
+msgid "Update Existing items Fields"
+msgstr "Mise à jour des champs d’éléments existants"
+
+#: includes/classes/import/fields/wpie-post.php:31
+msgid "Post Title"
+msgstr "Titre de la publication"
+
+#: includes/classes/import/fields/wpie-post.php:38
+msgid "Post Content"
+msgstr "Contenu de la publication"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:60
+msgid "Note : Login / Username is required field for new items. Optional for update items"
+msgstr "Note : Le userlogin/identifiant est un champ obligatoire pour les nouveaux éléments. Facultatif pour les éléments mis à jour"
+
+#: includes/views/wpie-new-import.php:560
+msgid "Note : Please choose only field that you have filled in previous step and you want to update otherwise you can lose your some of data. Not apply on creating new items"
+msgstr "Note : veuillez choisir uniquement le champ que vous avez rempli à l’étape précédente et que vous souhaitez mettre à jour, sinon vous risquez de perdre certaines de vos données. Ne s’applique pas à la création de nouveaux articles."
+
+#: includes/classes/class-wpie-general.php:862
+msgid "Setting Loaded Successfully"
+msgstr "Les réglages ont bien été chargés"
+
+#: includes/classes/class-wpie-general.php:899
+msgid "Get Setting List"
+msgstr "Obtenir la liste des réglages"
+
+#: includes/classes/class-wpie-general.php:900
+msgid "Get Settings List"
+msgstr "Obtenir la liste des réglages"
+
+#: includes/classes/class-wpie-general.php:905
+msgid "Settings Updating"
+msgstr "Mise à jour des réglages"
+
+#: includes/classes/export/class-wpie-export.php:432
+msgid "Setting updated successfully"
+msgstr "Réglages mis à jour avec succès"
+
+#: includes/classes/import/class-wpie-import.php:847
+msgid "Setting Updated Successfully"
+msgstr "Réglages mis à jour avec succès"
+
+#: includes/views/wpie-new-export.php:346
+#: includes/views/wpie-new-import.php:451
+msgid "Load Settings"
+msgstr "Charger les réglages"
+
+#: includes/views/wpie-new-export.php:351
+#: includes/views/wpie-new-import.php:454
+msgid "From Saved Settings"
+msgstr "À partir des réglages enregistrés"
+
+#: includes/views/wpie-new-export.php:375
+msgid "Save Setting"
+msgstr "Enregistrer les réglages"
+
+#: includes/views/wpie-new-export.php:379
+#: includes/views/wpie-new-import.php:480
+msgid "Setting Name"
+msgstr "Nom des réglages"
+
+#: includes/views/wpie-new-import.php:443
+msgid "Note : Filling some data is required. You can fill in the data through the load settings or manually"
+msgstr "Note : il est nécessaire de charger des données. Vous pouvez le faire en chargeant les réglages ou manuellement."
+
+#: includes/views/wpie-new-import.php:446
+msgid "Load & Save Settings"
+msgstr "Charger/enregistrer les réglages"
+
+#: includes/views/wpie-new-export.php:72
+msgid "Free Export Types"
+msgstr "Types d’exportation de base"
+
+#: includes/views/wpie-new-import.php:204
+msgid "Free Import Types"
+msgstr "Types d’importations de base"
+
+#: includes/classes/export/class-wpie-export.php:498
+#: includes/classes/import/class-wpie-import.php:893
+msgid "Setting Saved Successfully"
+msgstr "Les réglages ont bien été sauvegardés"
+
+#: includes/classes/export/class-wpie-export.php:509
+#: includes/classes/import/class-wpie-import.php:897
+msgid "Setting Name Already Exists"
+msgstr "Le nom du réglage existe déjà"
+
+#: includes/classes/import/fields/wpie-post.php:50
+msgid "Post Excerpt"
+msgstr "Extrait de l’article"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:84
+msgid "Note : Email is required field for new items. Optional for update items"
+msgstr "Note : l’e-mail est un champ obligatoire pour les nouveaux éléments. Facultatif pour les éléments mis à jour."
+
+#: includes/classes/import/fields/wpie-post.php:34
+msgid "Note : Title is required field for new items. Optional for update items"
+msgstr "Note : Le titre est un champ obligatoire pour les nouveaux éléments. Facultatif pour les éléments mis à jour."
+
+#: includes/classes/import/fields/wpie-taxonomy.php:28
+msgid "Note : Name is required field for new items. Optional for update items"
+msgstr "Note : Le nom est un champ obligatoire pour les nouveaux éléments. Facultatif pour les éléments mis à jour."
+
+#: includes/classes/class-wpie-general.php:876
+msgid "Please enter Setting Name"
+msgstr "Veuillez saisir le nom des réglages"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:329
+msgid "Billing Details"
+msgstr "Détails de facturation"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:333
+msgid "Shipping Details"
+msgstr "Détails de la livraison"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:18
+msgid "A string with role slug used to set the user's role. Default role is customer."
+msgstr "Une chaîne avec le slug du rôle utilisé pour définir le rôle de l’utilisateur. Le rôle par défaut est client."
+
+#: includes/classes/class-wpie-general.php:949
+msgid "[Show more]"
+msgstr "[Afficher plus]"
+
+#: includes/classes/class-wpie-general.php:950
+msgid "[Show less]"
+msgstr "[Afficher moins]"
+
+#: includes/views/wpie-new-import.php:771
+msgid "Imported"
+msgstr "Importé"
+
+#: includes/views/wpie-new-export.php:48
+msgid "Export With Settings For Import"
+msgstr "Exporter avec des réglages d’importation"
+
+#: includes/views/wpie-new-export.php:278
+msgid "Include BOM"
+msgstr "Inclure BOM"
+
+#: includes/classes/import/fields/wpie-comments.php:88
+msgid "Post can be matched by Slug, ID, or Title"
+msgstr "Les articles peuvent être assortis d’un slug, d’un ID ou d’un titre"
+
+#: includes/classes/class-wpie-extensions.php:66
+msgid "Polylang Export"
+msgstr "Polylang Export"
+
+#: includes/classes/class-wpie-extensions.php:157
+msgid "Polylang Import"
+msgstr "Polylang Import"
+
+#: includes/classes/class-wpie-general.php:941
+msgid "Purchase Code is empty"
+msgstr "Le code d’achat est vide"
+
+#: includes/classes/class-wpie-general.php:942
+msgid "Purchase Code is Invalid"
+msgstr "Le code d’achat n’est pas valide"
+
+#: includes/classes/class-wpie-general.php:920
+msgid "File is downloading from FTP/SFTP"
+msgstr "Le fichier est en cours de téléchargement depuis FTP/SFTP"
+
+#: includes/classes/class-wpie-general.php:919
+msgid "File is downloading from URL"
+msgstr "Le fichier est en cours de téléchargement depuis l’URL"
+
+#: includes/classes/class-wpie-general.php:953
+msgid "Upload Directory YOUR_SITE/wp-content/uploads/wp-import-export-lite is not Writable. Please change permission to make writable"
+msgstr "Le répertoire de téléversement VOTRE_SITE/wp-content/uploads/wp-import-export-lite n’est pas inscriptible. Veuillez changer la permission pour qu’il le soit"
+
+#: includes/views/wpie-new-export.php:522
+#: includes/views/wpie-new-import.php:824
+msgid "Permission Required"
+msgstr "Permission requise"
+
+#: includes/views/wpie-settings.php:222
+msgid "Click Here"
+msgstr "Cliquez ici"
+
+#: includes/views/wpie-settings.php:222
+msgid "For More Details"
+msgstr "Pour plus de détails"
+
+#: includes/views/wpie-settings.php:225
+msgid "Use WordPress Default Cron & processing"
+msgstr "Utiliser le Cron et le traitement par défaut de WordPress"
+
+#: includes/views/wpie-settings.php:232
+msgid "Use this single link for ALL schedule and background processing."
+msgstr "Utilisez ce lien unique pour TOUT le traitement des horaires et des antécédents."
+
+#: includes/views/wpie-new-import.php:289
+msgid "Add Filter"
+msgstr "Ajouter un filtre"
+
+#: includes/views/wpie-new-import.php:346
+msgid "File Options"
+msgstr "Options de fichiers"
+
+#: includes/views/wpie-new-import.php:351
+msgid "CSV Delimiter"
+msgstr "Séparateur CSV"
+
+#: includes/views/wpie-new-import.php:361
+msgid "Click Here For Details"
+msgstr "Cliquez ici pour plus de détails"
+
+#: includes/views/wpie-new-import.php:366
+msgid "Apply Options"
+msgstr "Appliquer les options"
+
+#: includes/views/wpie-settings.php:229
+msgid "Use Web Host / External Cron & Processing"
+msgstr "Utiliser un hôte Web/Cron et traitement externe"
+
+#: includes/views/wpie-settings.php:217
+msgid "Background & Cron Processing"
+msgstr "Traitement en tâche de fond et Cron"
+
+#: includes/views/wpie-new-import.php:357
+msgid "File Row Title"
+msgstr "Libellés dans la 1ère ligne du fichier"
+
+#: includes/views/wpie-new-import.php:360
+msgid "File First Row is Row Title."
+msgstr "La première ligne du fichier contient le libellé des colonnes."
+
+#: includes/views/wpie-new-import.php:373
+msgid "File Data Preview"
+msgstr "Aperçu des données du fichier"
+
+#: includes/classes/import/extensions/user/class-wpie-user.php:139
+msgid "Can't update current Login user"
+msgstr "Impossible de mettre à jour l’identifiant du compte actuel"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:114
+msgid "Email Notifications"
+msgstr "Notification par e-mail"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:119
+msgid "If disable, WP Import Export will prevent WordPress from sending notification emails to imported users while the import is processing."
+msgstr "Si désactivé, WP Import Export empêchera WordPress d’envoyer des e-mails de notification aux comptes importés pendant que l’importation est en cours."
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:119
+msgid "Send Email Notifications For Imported Users"
+msgstr "Envoyer une notification par e-mail aux comptes importés"
+
+#: includes/classes/import/class-wpie-upload.php:82
+msgid "Uploaded file must be XML, CSV, ZIP, XLS, XLSX, ODS, TXT, JSON, GZ, TAR"
+msgstr "Le fichier téléversé doit être au format XML, CSV, ZIP, XLS, XLSX, ODS, TXT, JSON, GZ ou TAR"
+
+#: includes/classes/import/downloader/file-header.php:193
+msgid "File Download Error : Invalid File Format"
+msgstr "Erreur de téléchargement de fichier : format de fichier non valide"
+
+#: includes/classes/import/downloader/manager.php:85
+msgid "File Download Error : Empty File"
+msgstr "Erreur de téléchargement de fichier : fichier vide"
+
+#: includes/classes/import/downloader/manager.php:87
+msgid "File Download Error : Something Wrong, File rename not work."
+msgstr "Erreur de téléchargement de fichier : quelque chose ne va pas, le renommage du fichier ne fonctionne pas."
+
+#: includes/classes/import/file-format/manager.php:39
+msgid "Class PharData Not Found"
+msgstr "Classe PharData introuvable"
+
+#: includes/classes/import/file-format/manager.php:75
+msgid "Can't Create file"
+msgstr "Impossible de créer le fichier"
+
+#: includes/views/wpie-new-export.php:292
+msgid "Do not add Empty nodes in xml file"
+msgstr "Ne pas ajouter de nœuds vides dans le fichier xml"
+
+#: includes/classes/import/downloader/file-header.php:66
+msgid "File Download Error : %s invalid http response status code"
+msgstr "Erreur de téléchargement de fichier : %s code d’état de réponse http non valide"
+
+#: includes/classes/import/downloader/download.php:26
+#: includes/classes/import/downloader/manager.php:26
+msgid "File Download Error : File URL is empty"
+msgstr "Erreur de téléchargement de fichier : l’URL du fichier est vide"
+
+#: includes/classes/import/downloader/manager.php:83
+msgid "File Download Error : File is not readable"
+msgstr "Erreur de téléchargement de fichier : le fichier n’est pas lisible"
+
+#: includes/classes/import/downloader/download.php:109
+#: includes/classes/import/downloader/file-header.php:111
+msgid "File Download Error : Invalid Status Code"
+msgstr "Erreur de téléchargement de fichier : code d’état non valide"
+
+#: includes/classes/import/file-format/manager.php:20
+msgid "Uploaded file is not readable"
+msgstr "Le fichier téléchargé n’est pas lisible"
+
+#: includes/classes/import/file-format/manager.php:61
+msgid "Function GZOPEN Not Exist"
+msgstr "La fonction GZOPEN n’existe pas"
+
+#: includes/classes/import/file-format/manager.php:81
+msgid "can't open GZ file"
+msgstr "impossible d’ouvrir le fichier GZ"
+
+#: includes/views/wpie-new-export.php:293
+msgid "Plugin will not add empty value nodes"
+msgstr "L’extension n’ajoute pas les nœuds de valeurs vides"
+
+#: includes/classes/import/downloader/manager.php:30
+msgid "File Download Error : URL `%s` is not valid."
+msgstr "Erreur de téléchargement de fichier : l’URL \"%s\" n’est pas valide."
+
+#: includes/classes/import/extensions/local-upload/class-wpie-local-upload.php:35
+msgid "Uploaded file must be CSV, ZIP, XLS, XLSX, XML, TXT, JSON, ODS, TAR, GZ"
+msgstr "Le fichier téléversé doit être de type CSV, ZIP, XLS, XLSX, XML, TXT, JSON, ODS, TAR ou GZ"
+
+#: includes/classes/import/file-format/manager.php:33
+msgid "can't parse uploaded file"
+msgstr "ne peut pas analyser le fichier téléversé"
+
+#: includes/classes/import/class-wpie-csv-chunk.php:32
+#: includes/classes/import/class-wpie-csv-chunk.php:207
+#: includes/classes/import/class-wpie-csv-chunk.php:247
+msgid "File is not Readable"
+msgstr "Le fichier n’est pas lisible"
+
+#: includes/classes/import/fields/wpie-post.php:44
+msgid "Search image through content and import images wrapped in <img> tags "
+msgstr "Rechercher les images dans le contenu et importer celles encadrées par des balises <img>."
+
+#: includes/classes/import/fields/wpie-comments.php:88
+msgid "Parent Post"
+msgstr "Publication parente"
+
+#: includes/classes/import/fields/wpie-post.php:605
+#: includes/classes/import/fields/wpie-post.php:759
+msgid "SKU"
+msgstr "SKU"
+
+#. Description of the plugin
+msgid "The Advanced and powerful solution for importing and exporting data to WordPress. Import and Export to Posts, Pages, and Custom Post Types. Ability to update existing data, and much more."
+msgstr "La solution avancée et puissante pour importer et exporter des données vers WordPress. Importez et exportez vers des publications, des pages et des types de publications personnalisés. Possibilité de mettre à jour les données existantes, et bien plus encore."
+
+#: includes/classes/export/class-wpie-export.php:207
+#: includes/classes/import/class-wpie-import.php:34
+#: includes/classes/import/fields/wpie-comments.php:20
+#: includes/views/wpie-new-export.php:89 includes/views/wpie-new-import.php:222
+msgid "Product Reviews"
+msgstr "Évaluations du produit"
+
+#: includes/classes/import/fields/wpie-comments.php:22
+msgid "Product"
+msgstr "Produit"
+
+#: includes/classes/export/class-wpie-export.php:197
+#: includes/classes/import/class-wpie-import.php:24
+#: includes/classes/import/fields/wpie-comments.php:25
+msgid "Post"
+msgstr "Article"
+
+#: includes/classes/import/fields/wpie-comments.php:26
+msgid "Comment"
+msgstr "Commentaire"
+
+#: includes/classes/import/fields/wpie-comments.php:69
+msgid "Search Parent"
+msgstr "Rechercher un parent"
+
+#: includes/classes/import/fields/wpie-comments.php:101
+msgid "Data"
+msgstr "Données"
+
+#: includes/classes/export/class-wpie-export.php:198
+#: includes/classes/import/class-wpie-import.php:25
+msgid "Page"
+msgstr "Page"
+
+#: includes/classes/export/class-wpie-export.php:282
+#: includes/classes/import/class-wpie-import.php:115
+msgid "Post Categories"
+msgstr "Catégories de l’article"
+
+#: includes/classes/export/class-wpie-export.php:283
+#: includes/classes/import/class-wpie-import.php:116
+msgid "Product Categories"
+msgstr "Catégories de produits"
+
+#: includes/classes/export/class-wpie-export.php:284
+#: includes/classes/import/class-wpie-import.php:117
+msgid "Post Tags"
+msgstr "Étiquettes d’article"
+
+#: includes/classes/export/class-wpie-export.php:285
+#: includes/classes/import/class-wpie-import.php:118
+msgid "Product Tags"
+msgstr "Étiquettes produits"
+
+#: includes/views/wpie-new-export.php:112
+msgid "All Attributes"
+msgstr "Tous les attributs"
+
+#: includes/classes/class-wpie-general.php:948
+msgid "Please Activate WooCommerce Plugin"
+msgstr "Veuillez activer l’extension WooCommerce"
+
+#: includes/views/wpie-new-export.php:123
+msgid "Default : All Attributes."
+msgstr "Par défaut : tous les attributs."
+
+#: includes/classes/import/class-wpie-images.php:345
+#: includes/classes/import/extensions/yoast-seo/class-images.php:82
+msgid "File is not valid Image"
+msgstr "Le fichier n’est pas une image valide"
+
+#: includes/classes/import/fields/wpie-comments.php:188
+msgid "Meta"
+msgstr "Méta"
+
+#: includes/classes/export/class-wpie-export.php:199
+#: includes/classes/import/class-wpie-import.php:26
+msgid "Taxonomies | Categories | Tags"
+msgstr "Taxonomies | Catégories | Étiquettes"
+
+#: includes/classes/import/class-wpie-images.php:341
+#: includes/classes/import/extensions/yoast-seo/class-images.php:79
+msgid "Image Not Exist"
+msgstr "Image inexistante"
+
+#: includes/classes/import/class-wpie-record.php:179
+msgid "File is Empty"
+msgstr "Le fichier est vide"
+
+#: includes/classes/class-wpie-extensions.php:71
+#: includes/classes/class-wpie-extensions.php:162
+#: includes/classes/export/class-wpie-export.php:208
+#: includes/classes/import/class-wpie-import.php:35
+#: includes/classes/import/fields/wpie-post.php:876
+#: includes/views/wpie-new-export.php:90 includes/views/wpie-new-import.php:223
+msgid "Product Attributes"
+msgstr "Attributs du produit"
+
+#: includes/classes/class-wpie-extensions.php:73
+msgid "Export Product Attributes from WordPress Site"
+msgstr "Exporter les attributs de produit à partir du site WordPress"
+
+#: includes/classes/class-wpie-extensions.php:164
+msgid "Import Product Attributes to WordPress Site"
+msgstr "Importation des attributs de produits sur un site WordPress"
+
+#: includes/classes/class-wpie-general.php:889
+msgid "Please Activate Product Attributes Export Extension"
+msgstr "Veuillez activer l’extension d’exportation d’attributs de produits"
+
+#: includes/classes/class-wpie-general.php:936
+msgid "Please Activate Product Attributes Import Extension"
+msgstr "Veuillez activer l’extension d’importation d’attributs de produits"
+
+#: includes/classes/export/class-wpie-export-actions.php:106
+msgid "Please enable PHP ZIP extension"
+msgstr "Veuillez activer l’extension PHP ZIP"
+
+#: includes/classes/class-wpie-general.php:954
+msgid "Please Activate Plugin Purchase Code from WP Imp Exp => Settings"
+msgstr "Veuillez activer le code d’achat de l’extension à partir de WP Imp Exp => Réglages"
+
+#: includes/views/wpie-new-import.php:509
+#: includes/views/wpie-new-import.php:516
+msgid "click here"
+msgstr "cliquez ici"
+
+#: includes/classes/class-wpie-general.php:668
+msgid "User Add Shortcode in import field"
+msgstr "L’utilisateur ou l’utilisatrice ajoute un code court dans le champ d’importation"
+
+#: includes/views/wpie-new-import.php:516
+msgid "Please contact admin for allow shortcode in field. for more"
+msgstr "Veuillez contacter l’administrateur pour autoriser le code court dans le champ. Pour en savoir plus"
+
+#: includes/views/wpie-settings.php:179
+msgid "Add Shortcode"
+msgstr "Ajout d’un code court"
+
+#: includes/views/wpie-new-import.php:509
+msgid "Shortcode allowed in field. for more"
+msgstr "Les codes courts sont autorisés dans les champs. Pour en savoir plus"
+
+#: includes/classes/class-wpie-schedule.php:28
+msgid "Every 30 Minutes"
+msgstr "Toutes les 30 minutes"
+
+#: includes/classes/class-wpie-schedule.php:32
+msgid "Once Hourly"
+msgstr "Une fois par heure"
+
+#: includes/classes/class-wpie-schedule.php:36
+msgid "Twice Daily"
+msgstr "Deux fois par jour"
+
+#: includes/classes/class-wpie-schedule.php:40
+msgid "Once Daily"
+msgstr "Une fois par jour"
+
+#: includes/classes/class-wpie-schedule.php:44
+msgid "Once Weekly"
+msgstr "Une fois par semaine"
+
+#: includes/classes/class-wpie-schedule.php:48
+msgid "Once Monthly"
+msgstr "Une fois par mois"
+
+#: includes/views/wpie-extensions.php:32
+#: includes/views/wpie-manage-export.php:33
+#: includes/views/wpie-manage-import.php:44
+#: includes/views/wpie-new-export.php:37 includes/views/wpie-new-import.php:81
+#: includes/views/wpie-settings.php:58
+msgid "Upgrade Pro"
+msgstr "Mise à niveau Pro"
+
+#: includes/classes/import/class-wpie-import.php:1226
+msgid "Reimport for given link is completed. please generate new links for reimport from manage import"
+msgstr "La réimportation pour un lien donné est terminée. Veuillez générer de nouveaux liens pour la réimportation à partir de la gestion des importations"
+
+#: includes/classes/class-wpie-general.php:947
+msgid "Processing Reimport"
+msgstr "Traitement Réimportation"
+
+#: includes/views/wpie-new-export.php:159
+msgid "Dynamic date allowed"
+msgstr "Date dynamique autorisée"
+
+#: includes/views/wpie-new-export.php:165
+msgid "For more click"
+msgstr "Pour plus cliquez"
+
+#: includes/views/wpie-new-export.php:165
+msgid "here"
+msgstr "ici"
+
+#: includes/views/wpie-new-export.php:269
+msgid "File path for extra copy in WordPress upload directory"
+msgstr "Chemin de fichier pour une copie supplémentaire dans le répertoire de téléchargement WordPress"
+
+#: includes/views/wpie-new-export.php:269
+msgid "Enter relative path to"
+msgstr "Entrez le chemin relatif vers"
+
+#: includes/views/wpie-manage-import.php:183
+msgid "Reimport"
+msgstr "Réimporter"
+
+#: includes/views/wpie-new-import.php:65
+msgid "Empty Nonce"
+msgstr "Nonce vide"
+
+#: includes/views/wpie-new-import.php:68
+msgid "Empty Reference ID"
+msgstr "ID de référence vide"
+
+#: includes/classes/import/class-wpie-import.php:1229
+#: includes/views/wpie-new-import.php:62
+msgid "Invalid Nonce. Go to Manage Import for new valid Reimport links"
+msgstr "Nonce invalide. Allez dans Gérer l’importation pour obtenir de nouveaux liens de réimportation valides"
+
+#: includes/views/wpie-new-export.php:269
+msgid "Enter only path that not include file name. it's useful when you sync any export data with import. Path folders must be exist"
+msgstr "Entrez uniquement le chemin qui n’inclut pas le nom du fichier. c’est utile lorsque vous synchronisez des données d’exportation avec l’importation. Les dossiers de chemin doivent exister"
+
+#: includes/views/wpie-new-export.php:162
+msgid "Example :"
+msgstr "Exemple :"
+
+#: includes/views/wpie-new-export.php:272
+msgid "Default : empty"
+msgstr "Par Défaut : vide"
+
+#: includes/views/wpie-manage-import.php:196
+msgid "No Records Found"
+msgstr "Aucun enregistrement trouvé"
+
+#: includes/classes/import/fields/wpie-taxonomy.php:213
+msgid "Do not add empty value fields in database"
+msgstr "Ne pas ajouter de champs de valeur vides dans la base de données"
+
+#: includes/classes/class-wpie-general.php:946
+msgid "Please Select any Layout"
+msgstr "Veuillez sélectionner une mise en page"
+
+#: includes/classes/import/fields/wpie-taxonomy.php:213
+msgid "If custom field value is empty then it skip perticular field and not add to database"
+msgstr "Si la valeur du champ personnalisé est vide, il ignore le champ en question et ne l’ajoute pas à la base de données"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:138
+#: includes/classes/import/fields/wpie-comments.php:193
+#: includes/classes/import/fields/wpie-post.php:233
+msgid "it's highly recommended. If custom field value is empty then it skip perticular field and not add to database. it's save memory and increase import speed"
+msgstr "Fortement recommandé ! Si la valeur du champ personnalisé est vide, il ignore le champ en question et ne l’ajoute pas à la base de données. Cela permet d’économiser de la mémoire et d’augmenter la vitesse d’importation"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:138
+#: includes/classes/import/fields/wpie-comments.php:193
+#: includes/classes/import/fields/wpie-post.php:233
+msgid "Don't add Empty value fields in database."
+msgstr "Ne pas ajouter de champs vide dans la base de données."
+
+#: includes/classes/class-wpie-general.php:945
+msgid "Please Select any template"
+msgstr "Veuillez choisir un modèle"
+
+#: includes/views/wpie-new-export.php:359
+#: includes/views/wpie-new-import.php:462
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: includes/views/wpie-new-export.php:474
+msgid "Add Fields"
+msgstr "Ajouter des champs"
+
+#: includes/views/wpie-new-export.php:480
+msgid "Select Fields"
+msgstr "Sélectionner les champs"
+
+#: includes/views/wpie-new-export.php:481
+msgid "Use Ctrl + Click to Select Multiple Fields"
+msgstr "Utilisez la combinaison Ctrl + Clic pour sélectionner plusieurs champs"
+
+#: includes/views/wpie-new-export.php:197
+msgid "Add Bulk"
+msgstr "Ajout en masse"
+
+#: includes/classes/export/class-wpie-export.php:345
+msgid "newer than"
+msgstr "plus récents que"
+
+#: includes/classes/export/class-wpie-export.php:346
+msgid "equal to or newer than"
+msgstr "égal ou plus récents que"
+
+#: includes/classes/export/class-wpie-export.php:347
+msgid "older than"
+msgstr "plus vieux que"
+
+#: includes/classes/export/class-wpie-export.php:343
+#: includes/classes/export/class-wpie-export.php:359
+#: includes/classes/export/class-wpie-export.php:367
+#: includes/classes/export/class-wpie-export.php:377
+#: includes/views/wpie-new-import.php:308
+msgid "equals"
+msgstr "égal à"
+
+#: includes/classes/export/class-wpie-export.php:344
+#: includes/classes/export/class-wpie-export.php:360
+#: includes/classes/export/class-wpie-export.php:368
+#: includes/classes/export/class-wpie-export.php:378
+msgid "doesn't equal"
+msgstr "pas égal"
+
+#: includes/classes/export/class-wpie-export.php:348
+msgid "equal to or older than"
+msgstr "égal ou plus vieux que"
+
+#: includes/classes/export/class-wpie-export.php:349
+#: includes/classes/export/class-wpie-export.php:355
+#: includes/classes/export/class-wpie-export.php:361
+#: includes/classes/export/class-wpie-export.php:383
+#: includes/views/wpie-new-import.php:314
+msgid "contains"
+msgstr "contient"
+
+#: includes/classes/export/class-wpie-export.php:350
+#: includes/classes/export/class-wpie-export.php:356
+#: includes/classes/export/class-wpie-export.php:362
+#: includes/classes/export/class-wpie-export.php:384
+msgid "doesn't contain"
+msgstr "ne contient pas"
+
+#: includes/classes/export/class-wpie-export.php:351
+#: includes/classes/export/class-wpie-export.php:363
+#: includes/classes/export/class-wpie-export.php:373
+#: includes/classes/export/class-wpie-export.php:385
+#: includes/views/wpie-new-import.php:316
+msgid "is empty"
+msgstr "est vide"
+
+#: includes/classes/export/class-wpie-export.php:352
+#: includes/classes/export/class-wpie-export.php:364
+#: includes/classes/export/class-wpie-export.php:374
+#: includes/classes/export/class-wpie-export.php:386
+#: includes/views/wpie-new-import.php:317
+msgid "is not empty"
+msgstr "n’est pas vide"
+
+#: includes/classes/export/class-wpie-export.php:369
+#: includes/classes/export/class-wpie-export.php:379
+#: includes/views/wpie-new-import.php:310
+msgid "greater than"
+msgstr "supérieur à"
+
+#: includes/classes/export/class-wpie-export.php:370
+#: includes/classes/export/class-wpie-export.php:380
+msgid "equal to or greater than"
+msgstr "supérieur ou égal à"
+
+#: includes/classes/export/class-wpie-export.php:371
+#: includes/classes/export/class-wpie-export.php:381
+#: includes/views/wpie-new-import.php:312
+msgid "less than"
+msgstr "inférieur à"
+
+#: includes/classes/export/class-wpie-export.php:372
+#: includes/classes/export/class-wpie-export.php:382
+msgid "equal to or less than"
+msgstr "inférieur ou égal à"
+
+#: includes/classes/import/class-wpie-import.php:919
+msgid "Template Successfully Saved"
+msgstr "Modèle sauvegardé"
+
+#: includes/classes/export/class-wpie-export.php:503
+msgid "Fail to save Setting in database"
+msgstr "Échec de l’enregistrement des réglages dans la base de données"
+
+#: includes/classes/export/class-wpie-export.php:211
+#: includes/classes/import/class-wpie-import.php:38
+#: includes/views/wpie-new-export.php:93 includes/views/wpie-new-import.php:226
+msgid "WooCommerce Customers"
+msgstr "Clients WooCommerce"
+
+#: includes/classes/export/class-wpie-export.php:539
+#: includes/classes/export/class-wpie-export.php:546
+#: includes/classes/import/class-wpie-import.php:365
+#: includes/classes/import/class-wpie-import.php:456
+#: includes/classes/import/class-wpie-import.php:643
+#: includes/classes/import/class-wpie-import.php:959
+#: includes/classes/import/class-wpie-import.php:1009
+#: includes/classes/import/class-wpie-import.php:1055
+#: includes/classes/import/class-wpie-import.php:1223
+msgid "Template Not Found"
+msgstr "Modèle introuvable"
+
+#: includes/classes/export/class-wpie-export.php:824
+#: includes/classes/export/class-wpie-export.php:828
+#: includes/classes/export/class-wpie-export.php:943
+#: includes/classes/export/class-wpie-export.php:947
+#: includes/classes/import/class-wpie-import.php:1232
+msgid "Template not found"
+msgstr "Modèle introuvable"
+
+#: includes/classes/export/class-wpie-post.php:71
+#: includes/classes/import/fields/wpie-post.php:65
+#: includes/classes/import/fields/wpie-post.php:951
+#: includes/classes/import/fields/wpie-taxonomy.php:46
+#: includes/classes/import/fields/wpie-taxonomy.php:407
+msgid "Images"
+msgstr "Images"
+
+#: includes/classes/export/class-wpie-comment.php:25
+msgid "standard"
+msgstr "standard"
+
+#: includes/classes/export/class-wpie-export.php:992
+#: includes/classes/export/class-wpie-export.php:1022
+#: includes/classes/export/class-wpie-export.php:1064
+#: includes/classes/import/class-wpie-upload-validate.php:78
+#: includes/classes/import/class-wpie-upload-validate.php:148
+msgid "File not found"
+msgstr "Fichier introuvable"
+
+#: includes/classes/export/class-wpie-comment.php:169
+#: includes/classes/export/class-wpie-post.php:334
+#: includes/classes/export/class-wpie-taxonomy.php:153
+#: includes/classes/import/fields/wpie-post.php:228
+#: includes/classes/import/fields/wpie-post.php:965
+msgid "Custom Fields"
+msgstr "Champs personnalisés"
+
+#: includes/classes/export/class-wpie-post.php:29
+msgid "Standerd"
+msgstr "Standard"
+
+#: includes/classes/export/class-wpie-post.php:110
+#: includes/classes/import/fields/wpie-post.php:937
+msgid "Attachments"
+msgstr "Fichiers joints"
+
+#: includes/classes/export/class-wpie-post.php:149
+#: includes/classes/import/fields/wpie-post.php:697
+msgid "Author"
+msgstr "Auteur/autrice"
+
+#: includes/classes/export/class-wpie-post.php:202
+#: includes/classes/export/extensions/user/class-wpie-user.php:96
+#: includes/classes/import/fields/wpie-post.php:352
+msgid "Other"
+msgstr "Autre"
+
+#: includes/classes/export/class-wpie-post.php:277
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: includes/classes/export/class-wpie-export-base.php:301
+#: includes/classes/import/fields/wpie-post.php:751
+msgid "Product Type"
+msgstr "Type de produit"
+
+#: includes/classes/export/class-wpie-export-base.php:303
+msgid "Product Visibility"
+msgstr "Visibilité du produit"
+
+#: includes/classes/export/extensions/bg/wpie_bg_btn.php:8
+msgid "Export In Background"
+msgstr "Export en tâche de fond"
+
+#: includes/classes/export/class-wpie-taxonomy.php:25
+#: includes/classes/export/extensions/user/class-wpie-user.php:29
+#: includes/classes/import/fields/wpie-post.php:463
+msgid "Standard"
+msgstr "Standard"
+
+#: includes/classes/import/class-wpie-comment.php:26
+msgid "Post not found"
+msgstr "Publication non trouvée"
+
+#: includes/classes/import/class-wpie-import-engine.php:232
+msgid "Record"
+msgstr "Enregistrement"
+
+#: includes/classes/import/class-wpie-comment.php:26
+#: includes/classes/import/class-wpie-comment.php:127
+#: includes/classes/import/class-wpie-comment.php:147
+#: includes/classes/import/class-wpie-post.php:225
+#: includes/classes/import/class-wpie-post.php:232
+#: includes/classes/import/class-wpie-post.php:685
+#: includes/classes/import/class-wpie-taxonomy.php:73
+#: includes/classes/import/class-wpie-taxonomy.php:80
+#: includes/classes/import/extensions/user/class-wpie-user.php:156
+#: includes/classes/import/extensions/user/class-wpie-user.php:163
+#: includes/views/wpie-extension-info.php:72
+#: includes/views/wpie-extensions.php:178
+#: includes/views/wpie-manage-export.php:203
+#: includes/views/wpie-manage-import.php:222
+#: includes/views/wpie-new-export.php:504
+#: includes/views/wpie-new-import.php:806 includes/views/wpie-settings.php:264
+msgid "ERROR"
+msgstr "ERREUR"
+
+#: includes/classes/import/class-wpie-import-engine.php:292
+#: includes/classes/import/class-wpie-import-engine.php:303
+msgid "SKIPPED"
+msgstr "IGNORÉ"
+
+#: includes/classes/import/class-wpie-attachments.php:229
+#: includes/classes/import/class-wpie-attachments.php:246
+#: includes/classes/import/class-wpie-attachments.php:259
+#: includes/classes/import/class-wpie-images.php:341
+#: includes/classes/import/class-wpie-images.php:345
+#: includes/classes/import/class-wpie-images.php:392
+#: includes/classes/import/class-wpie-images.php:468
+#: includes/classes/import/class-wpie-images.php:501
+#: includes/classes/import/class-wpie-images.php:514
+#: includes/classes/import/class-wpie-import-engine.php:319
+#: includes/classes/import/class-wpie-import-engine.php:597
+#: includes/classes/import/class-wpie-import-engine.php:619
+#: includes/classes/import/extensions/user/class-wpie-user.php:139
+#: includes/classes/import/extensions/yoast-seo/class-images.php:79
+#: includes/classes/import/extensions/yoast-seo/class-images.php:82
+#: includes/classes/import/extensions/yoast-seo/class-images.php:119
+#: includes/classes/import/extensions/yoast-seo/class-images.php:160
+#: includes/classes/import/extensions/yoast-seo/class-images.php:184
+#: includes/classes/import/extensions/yoast-seo/class-images.php:196
+msgid "Warning"
+msgstr "Avertissement"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:143
+#: includes/classes/import/extensions/user/wpie-user-fields.php:232
+#: includes/classes/import/fields/wpie-comments.php:198
+#: includes/classes/import/fields/wpie-comments.php:287
+#: includes/classes/import/fields/wpie-post.php:238
+#: includes/classes/import/fields/wpie-post.php:589
+#: includes/classes/import/fields/wpie-taxonomy.php:25
+#: includes/classes/import/fields/wpie-taxonomy.php:27
+#: includes/classes/import/fields/wpie-taxonomy.php:218
+#: includes/classes/import/fields/wpie-taxonomy.php:330
+#: includes/classes/import/fields/wpie-taxonomy.php:343
+#: includes/classes/import/fields/wpie-taxonomy.php:391
+msgid "Name"
+msgstr "Nom"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:51
+#: includes/classes/import/extensions/user/wpie-user-fields.php:296
+#: includes/classes/import/extensions/yoast-seo/views/post.php:74
+#: includes/classes/import/extensions/yoast-seo/views/post.php:117
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:62
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:105
+#: includes/classes/import/fields/wpie-taxonomy.php:32
+#: includes/classes/import/fields/wpie-taxonomy.php:34
+#: includes/classes/import/fields/wpie-taxonomy.php:395
+msgid "Description"
+msgstr "Description"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:84
+#: includes/classes/import/extensions/yoast-seo/views/post.php:127
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:72
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:115
+#: includes/classes/import/fields/wpie-post.php:71
+#: includes/classes/import/fields/wpie-taxonomy.php:52
+msgid "Download images hosted elsewhere"
+msgstr "Télécharger l’image hébergée ailleurs"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:84
+#: includes/classes/import/extensions/yoast-seo/views/post.php:127
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:72
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:115
+#: includes/classes/import/fields/wpie-post.php:71
+#: includes/classes/import/fields/wpie-taxonomy.php:52
+msgid "Image URL with http:// or https://"
+msgstr "URL de l’Image avec http:// ou https://"
+
+#: includes/classes/import/fields/wpie-post.php:77
+#: includes/classes/import/fields/wpie-taxonomy.php:58
+msgid "URL"
+msgstr "URL"
+
+#: includes/classes/import/fields/wpie-post.php:88
+#: includes/classes/import/fields/wpie-post.php:99
+#: includes/classes/import/fields/wpie-taxonomy.php:69
+#: includes/classes/import/fields/wpie-taxonomy.php:80
+msgid "Images.jpg"
+msgstr "Images.jpg"
+
+#: includes/classes/import/fields/wpie-post.php:103
+#: includes/classes/import/fields/wpie-taxonomy.php:84
+msgid "Image Options"
+msgstr "Options d’image"
+
+#: includes/classes/import/fields/wpie-post.php:186
+#: includes/classes/import/fields/wpie-taxonomy.php:167
+msgid "Files"
+msgstr "Fichiers"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:145
+#: includes/classes/import/fields/wpie-comments.php:200
+#: includes/classes/import/fields/wpie-post.php:240
+#: includes/classes/import/fields/wpie-post.php:352
+#: includes/classes/import/fields/wpie-taxonomy.php:220
+msgid "Options"
+msgstr "Options"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:178
+#: includes/classes/import/fields/wpie-comments.php:233
+#: includes/classes/import/fields/wpie-post.php:273
+#: includes/classes/import/fields/wpie-taxonomy.php:253
+msgid "Add New"
+msgstr "Ajouter"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:165
+#: includes/classes/import/fields/wpie-comments.php:220
+#: includes/classes/import/fields/wpie-post.php:260
+#: includes/classes/import/fields/wpie-taxonomy.php:240
+msgid "Normal Data"
+msgstr "Données normales"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:166
+#: includes/classes/import/fields/wpie-comments.php:221
+#: includes/classes/import/fields/wpie-post.php:261
+#: includes/classes/import/fields/wpie-taxonomy.php:241
+msgid "Serialized Data"
+msgstr "Données sérialisées"
+
+#: includes/classes/import/fields/wpie-post.php:579
+#: includes/classes/import/fields/wpie-post.php:701
+#: includes/classes/import/fields/wpie-taxonomy.php:334
+#: includes/classes/import/fields/wpie-taxonomy.php:399
+msgid "Slug"
+msgstr "Slug"
+
+#: includes/classes/import/fields/wpie-taxonomy.php:358
+msgid "Term ID"
+msgstr "ID du terme"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:166
+#: includes/classes/import/extensions/yoast-seo/views/post.php:187
+#: includes/classes/import/extensions/yoast-seo/views/post.php:220
+#: includes/classes/import/extensions/yoast-seo/views/post.php:241
+#: includes/classes/import/extensions/yoast-seo/views/post.php:294
+#: includes/classes/import/extensions/yoast-seo/views/post.php:329
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:154
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:175
+#: includes/classes/import/fields/wpie-post.php:366
+#: includes/classes/import/fields/wpie-post.php:381
+#: includes/classes/import/fields/wpie-post.php:400
+#: includes/classes/import/fields/wpie-post.php:419
+#: includes/classes/import/fields/wpie-post.php:495
+#: includes/classes/import/fields/wpie-post.php:506
+#: includes/classes/import/fields/wpie-post.php:525
+#: includes/classes/import/fields/wpie-taxonomy.php:290
+msgid "As specified"
+msgstr "Comme spécifié"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:271
+#: includes/classes/import/fields/wpie-comments.php:324
+#: includes/classes/import/fields/wpie-post.php:635
+#: includes/classes/import/fields/wpie-taxonomy.php:382
+msgid "Update all data"
+msgstr "Mettre à jour toutes les données"
+
+#: includes/classes/class-wpie-general.php:952
+#: includes/classes/import/extensions/user/wpie-user-fields.php:275
+#: includes/classes/import/fields/wpie-comments.php:328
+#: includes/classes/import/fields/wpie-post.php:684
+#: includes/classes/import/fields/wpie-taxonomy.php:386
+msgid "Choose which data to update"
+msgstr "Choisir quelles données mettre à jour"
+
+#: includes/classes/import/fields/wpie-taxonomy.php:403
+msgid "Parent term"
+msgstr "Terme parent"
+
+#: includes/classes/import/fields/wpie-post.php:955
+#: includes/classes/import/fields/wpie-taxonomy.php:411
+msgid "Update all images"
+msgstr "Mettre à jour toutes les images"
+
+#: includes/classes/import/fields/wpie-post.php:959
+#: includes/classes/import/fields/wpie-taxonomy.php:415
+msgid "Don't touch existing images, append new images"
+msgstr "Ne pas toucher les images existantes, ajouter de nouvelles images"
+
+#: includes/classes/import/fields/wpie-comments.php:104
+#: includes/classes/import/fields/wpie-comments.php:337
+msgid "Comment Author"
+msgstr "Auteur du commentaire"
+
+#: includes/classes/import/fields/wpie-comments.php:110
+#: includes/classes/import/fields/wpie-comments.php:341
+msgid "Comment Author Email"
+msgstr "E-mail de l’auteur du commentaire"
+
+#: includes/classes/import/fields/wpie-comments.php:116
+#: includes/classes/import/fields/wpie-comments.php:345
+msgid "Comment Author URL"
+msgstr "URL de l’auteur du commentaire"
+
+#: includes/classes/import/fields/wpie-comments.php:122
+#: includes/classes/import/fields/wpie-comments.php:350
+msgid "Comment Author IP"
+msgstr "IP de l’auteur du commentaire"
+
+#: includes/classes/import/fields/wpie-comments.php:128
+#: includes/classes/import/fields/wpie-comments.php:354
+msgid "Comment Date"
+msgstr "Date du commentaire"
+
+#: includes/classes/import/fields/wpie-comments.php:140
+#: includes/classes/import/fields/wpie-comments.php:362
+msgid "Comment Content"
+msgstr "Contenu du commentaire"
+
+#: includes/classes/import/fields/wpie-comments.php:146
+#: includes/classes/import/fields/wpie-comments.php:366
+msgid "Comment Karma"
+msgstr "Karma du commentaire"
+
+#: includes/classes/import/fields/wpie-comments.php:152
+#: includes/classes/import/fields/wpie-comments.php:370
+msgid "Comment Approved"
+msgstr "Commentaire approuvé"
+
+#: includes/classes/import/fields/wpie-comments.php:158
+#: includes/classes/import/fields/wpie-comments.php:374
+msgid "Comment Agent"
+msgstr "Agent du commentaire"
+
+#: includes/classes/import/fields/wpie-comments.php:167
+#: includes/classes/import/fields/wpie-comments.php:378
+msgid "Comment Type"
+msgstr "Type de commentaire"
+
+#: includes/classes/import/fields/wpie-comments.php:174
+#: includes/classes/import/fields/wpie-comments.php:382
+msgid "Comment Parent"
+msgstr "Parent du commentaire"
+
+#: includes/classes/import/fields/wpie-comments.php:274
+#: includes/classes/import/fields/wpie-post.php:40
+#: includes/classes/import/fields/wpie-post.php:575
+msgid "Content"
+msgstr "Contenu"
+
+#: includes/classes/import/fields/wpie-comments.php:302
+msgid "Comment ID"
+msgstr "ID du commentaire"
+
+#: includes/classes/import/fields/wpie-comments.php:282
+#: includes/classes/import/fields/wpie-comments.php:386
+msgid "Comment Meta"
+msgstr "Métadonnées du commentaire"
+
+#: includes/classes/import/fields/wpie-post.php:28
+msgid "Title & Content"
+msgstr "Titre & Contenu"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:68
+#: includes/classes/import/extensions/yoast-seo/views/post.php:111
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:56
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:99
+#: includes/classes/import/fields/wpie-post.php:33
+#: includes/classes/import/fields/wpie-post.php:571
+#: includes/classes/import/fields/wpie-post.php:693
+msgid "Title"
+msgstr "Titre"
+
+#: includes/classes/import/fields/wpie-post.php:52
+msgid "Excerpt"
+msgstr "Extrait"
+
+#: includes/classes/import/fields/wpie-post.php:294
+msgid "Taxonomies, Categories, Tags"
+msgstr "Taxonomies, catégories et étiquettes"
+
+#: includes/classes/import/fields/wpie-post.php:377
+msgid "Now"
+msgstr "Maintenant"
+
+#: includes/classes/import/fields/wpie-post.php:362
+msgid "Draft"
+msgstr "Brouillon"
+
+#: includes/classes/import/fields/wpie-post.php:358
+msgid "Published"
+msgstr "Publié"
+
+#: includes/classes/import/fields/wpie-post.php:355
+msgid "Post Status"
+msgstr "État de la publication"
+
+#: includes/classes/import/fields/wpie-post.php:317
+msgid "Separate by"
+msgstr "Séparé par"
+
+#: includes/classes/import/fields/wpie-post.php:374
+msgid "Post Dates"
+msgstr "Dates de publication"
+
+#: includes/classes/import/fields/wpie-post.php:392
+#: includes/classes/import/fields/wpie-post.php:411
+msgid "Open"
+msgstr "Ouvert"
+
+#: includes/classes/import/fields/wpie-post.php:396
+#: includes/classes/import/fields/wpie-post.php:415
+msgid "Closed"
+msgstr "Fermé"
+
+#: includes/classes/import/fields/wpie-post.php:403
+#: includes/classes/import/fields/wpie-post.php:422
+msgid "The value should be one of the following: ('open', 'closed')."
+msgstr "La valeur doit être l’une des suivantes : (\"ouvert\", \"fermé\")."
+
+#: includes/classes/import/fields/wpie-post.php:408
+msgid "Trackbacks and Pingbacks"
+msgstr "Rétroliens et Pings"
+
+#: includes/classes/import/fields/wpie-post.php:427
+msgid "Post Slug"
+msgstr "Slug de la publication"
+
+#: includes/classes/import/fields/wpie-post.php:439
+msgid "Post Author"
+msgstr "Auteur/autrice de la publication"
+
+#: includes/classes/import/fields/wpie-post.php:460
+msgid "Format"
+msgstr "Format"
+
+#: includes/classes/import/fields/wpie-post.php:467
+msgid "Aside"
+msgstr "En passant"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:80
+#: includes/classes/import/extensions/yoast-seo/views/post.php:123
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:68
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:111
+#: includes/classes/import/fields/wpie-post.php:471
+msgid "Image"
+msgstr "Image"
+
+#: includes/classes/import/fields/wpie-post.php:475
+msgid "Video"
+msgstr "Vidéo"
+
+#: includes/classes/import/fields/wpie-post.php:479
+msgid "Quote"
+msgstr "Citation"
+
+#: includes/classes/import/fields/wpie-post.php:483
+msgid "Link"
+msgstr "Lien"
+
+#: includes/classes/import/fields/wpie-post.php:487
+msgid "Gallery"
+msgstr "Galerie"
+
+#: includes/classes/import/fields/wpie-post.php:450
+msgid "Separated by"
+msgstr "Séparé par"
+
+#: includes/classes/import/fields/wpie-post.php:446
+msgid "Download & Import Attachments"
+msgstr "Télécharger et importer les fichiers joints"
+
+#: includes/classes/import/fields/wpie-post.php:491
+msgid "Audio"
+msgstr "Audio"
+
+#: includes/classes/import/fields/wpie-post.php:503
+msgid "Template"
+msgstr "Modèle"
+
+#: includes/classes/import/fields/wpie-post.php:513
+msgid "Parent"
+msgstr "Parent"
+
+#: includes/classes/import/fields/wpie-post.php:517
+msgid "Select page parent"
+msgstr "Sélectionnez la page parent"
+
+#: includes/classes/import/fields/wpie-post.php:519
+msgid "(no parent)"
+msgstr "(aucun parent)"
+
+#: includes/classes/import/fields/wpie-post.php:531
+msgid "Menu Order"
+msgstr "Commande de menu"
+
+#: includes/classes/import/fields/wpie-post.php:611
+msgid "Post ID"
+msgstr "ID de publication"
+
+#: includes/classes/import/fields/wpie-post.php:689
+msgid "Post status"
+msgstr "État de la publication"
+
+#: includes/classes/import/fields/wpie-post.php:713
+msgid "Dates"
+msgstr "Dates"
+
+#: includes/classes/import/fields/wpie-post.php:717
+msgid "Menu order"
+msgstr "Commande de menu"
+
+#: includes/classes/import/fields/wpie-post.php:721
+msgid "Parent post"
+msgstr "Publication parente"
+
+#: includes/classes/import/fields/wpie-post.php:725
+msgid "Post type"
+msgstr "Type de publication"
+
+#: includes/classes/import/fields/wpie-post.php:729
+msgid "Enable review setting"
+msgstr "Activer le réglage des avis"
+
+#: includes/classes/import/fields/wpie-post.php:731
+msgid "Comment status"
+msgstr "État du commentaire"
+
+#: includes/classes/import/fields/wpie-post.php:741
+msgid "Ping Status"
+msgstr "État du ping"
+
+#: includes/classes/import/class-wpie-import-xml-parser.php:272
+msgid "more"
+msgstr "plus"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:24
+msgid "User's Data"
+msgstr "Données du compte"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:27
+#: includes/classes/import/extensions/user/wpie-user-fields.php:280
+msgid "First Name"
+msgstr "Prénom"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:33
+#: includes/classes/import/extensions/user/wpie-user-fields.php:284
+msgid "Last Name"
+msgstr "Nom"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:39
+#: includes/classes/import/extensions/user/wpie-user-fields.php:288
+msgid "Role"
+msgstr "Rôle"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:45
+msgid "The user's nickname, defaults to the user's username."
+msgstr "Le pseudonyme de l’utilisatrice/utilisateur, par défaut l’identifiant du compte."
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:71
+msgid "If the value being imported is a hashed password from another WordPress site, enable this option."
+msgstr "Si la valeur importée est un mot de passe haché provenant d’un autre site WordPress, activez cette option."
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:81
+#: includes/classes/import/extensions/user/wpie-user-fields.php:312
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:88
+#: includes/classes/import/extensions/user/wpie-user-fields.php:316
+msgid "Registered Date"
+msgstr "Date d’inscription"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:88
+msgid "The date the user registered. Format is Y-m-d H:i:s"
+msgstr "Date d’inscription de l’utilisateur/utilisatrice. Le format est Y-m-d H:i:s"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:247
+msgid "User ID"
+msgstr "ID du compte"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:100
+#: includes/classes/import/extensions/user/wpie-user-fields.php:324
+msgid "Website URL"
+msgstr "URL du site web"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:300
+msgid "Login"
+msgstr "Identifiant"
+
+#: includes/classes/import/extensions/local-upload/wpie-local-upload-view.php:37
+#: includes/views/wpie-new-export.php:225
+msgid "CSV"
+msgstr "CSV"
+
+#: includes/views/wpie-new-export.php:226
+msgid "XLS"
+msgstr "XLS"
+
+#: includes/views/wpie-new-export.php:227
+msgid "XLSX"
+msgstr "XLSX"
+
+#: includes/classes/import/extensions/local-upload/wpie-local-upload-view.php:45
+#: includes/views/wpie-new-export.php:228
+msgid "XML"
+msgstr "XML"
+
+#: includes/views/wpie-new-export.php:229
+msgid "ODS"
+msgstr "ODS"
+
+#: includes/classes/import/extensions/local-upload/wpie-local-upload-view.php:41
+#: includes/views/wpie-new-export.php:230
+msgid "JSON"
+msgstr "JSON"
+
+#: includes/views/wpie-new-export.php:232
+msgid "Default : CSV"
+msgstr "Par défaut : CSV"
+
+#: includes/views/wpie-new-export.php:238
+msgid "Field Separator"
+msgstr "Séparateur de champ"
+
+#: includes/views/wpie-new-export.php:261
+msgid "Default : 50"
+msgstr "Par défaut : 50"
+
+#: includes/classes/class-wpie-general.php:129
+#: includes/views/wpie-extension-info.php:61
+#: includes/views/wpie-extensions.php:167
+#: includes/views/wpie-manage-export.php:196
+#: includes/views/wpie-manage-import.php:240
+#: includes/views/wpie-new-export.php:402
+#: includes/views/wpie-new-import.php:795 includes/views/wpie-settings.php:282
+msgid "Documentation"
+msgstr "Documentation"
+
+#: includes/views/wpie-new-export.php:420
+msgid "Field Name"
+msgstr "Nom du champ"
+
+#: includes/views/wpie-new-export.php:424
+msgid "Field value"
+msgstr "Valeur du champ"
+
+#: includes/views/wpie-new-export.php:431
+msgid "Date Format"
+msgstr "Format de Date"
+
+#: includes/views/wpie-new-export.php:434
+msgid "UNIX timestamp - PHP time()"
+msgstr "Horodatage UNIX - PHP time()"
+
+#: includes/views/wpie-new-export.php:435
+msgid "Natural Language PHP date()"
+msgstr "Langage naturel PHP date()"
+
+#: includes/views/wpie-new-export.php:438
+msgid "Y-m-d"
+msgstr "A-m-j"
+
+#: includes/views/wpie-new-export.php:461
+#: includes/views/wpie-new-export.php:491
+msgid "Cancel"
+msgstr "Annuler"
+
+#: includes/views/wpie-new-export.php:549
+msgid "Export In Process"
+msgstr "Export en cours"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:64
+#: includes/classes/import/extensions/user/wpie-user-fields.php:304
+msgid "Password"
+msgstr "Mot de passe"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:144
+#: includes/classes/import/extensions/user/wpie-user-fields.php:233
+#: includes/classes/import/fields/wpie-comments.php:199
+#: includes/classes/import/fields/wpie-comments.php:288
+#: includes/classes/import/fields/wpie-post.php:239
+#: includes/classes/import/fields/wpie-post.php:590
+#: includes/classes/import/fields/wpie-taxonomy.php:219
+#: includes/classes/import/fields/wpie-taxonomy.php:344
+#: includes/views/wpie-new-export.php:141
+#: includes/views/wpie-new-import.php:296
+msgid "Value"
+msgstr "Valeur"
+
+#: includes/classes/import/class-wpie-import.php:369
+#: includes/classes/import/class-wpie-import.php:964
+msgid "Data Not Found"
+msgstr "Donnée introuvable"
+
+#: includes/classes/import/class-wpie-import-engine.php:195
+#: includes/classes/import/class-wpie-record.php:176
+#: includes/classes/import/extensions/existing-file/class-existing-file.php:36
+msgid "File not exist"
+msgstr "Le fichier n’existe pas"
+
+#: includes/views/wpie-new-export.php:241
+msgid "Default : , (Comma)"
+msgstr "Par défaut : « , » (virgule)"
+
+#: includes/classes/import/fields/wpie-post.php:74
+#: includes/classes/import/fields/wpie-post.php:85
+#: includes/classes/import/fields/wpie-post.php:96
+#: includes/classes/import/fields/wpie-taxonomy.php:55
+#: includes/classes/import/fields/wpie-taxonomy.php:66
+#: includes/classes/import/fields/wpie-taxonomy.php:77
+msgid "Enter image filenames one per line, or separate them with a"
+msgstr "Saisir les noms des fichiers image un par ligne, ou séparez-les avec un"
+
+#: includes/views/wpie-new-export.php:45 includes/views/wpie-new-export.php:534
+#: includes/views/wpie-new-import.php:836
+msgid "Preview"
+msgstr "Aperçu"
+
+#: includes/views/wpie-new-import.php:311
+msgid "equals or greater than"
+msgstr "supérieur ou égal à"
+
+#: includes/views/wpie-new-import.php:313
+msgid "equals or less than"
+msgstr "inférieur ou égal à"
+
+#: includes/views/wpie-new-import.php:309
+msgid "not equals"
+msgstr "non égal à"
+
+#: includes/views/wpie-new-import.php:315
+msgid "not contains"
+msgstr "ne contient pas"
+
+#: includes/views/wpie-new-import.php:541
+#: includes/views/wpie-new-import.php:630
+msgid "Continue"
+msgstr "Continuer"
+
+#: includes/views/wpie-new-import.php:639
+#: includes/views/wpie-new-import.php:677
+msgid "Back"
+msgstr "Retour"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:70
+msgid "This is a hashed password from another WordPress site"
+msgstr "Il s’agit d’un mot de passe haché provenant d’un autre site WordPress"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:219
+msgid "match by Login"
+msgstr "associer par identifiant"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:223
+msgid "match by Email"
+msgstr "associer par e-mail"
+
+#: includes/classes/export/class-wpie-export.php:339
+#: includes/classes/export/class-wpie-export.php:387
+msgid "In"
+msgstr "Dans"
+
+#: includes/classes/export/class-wpie-export.php:340
+#: includes/classes/export/class-wpie-export.php:388
+msgid "Not In"
+msgstr "Pas dans"
+
+#: includes/classes/import/class-wpie-import-backup.php:124
+msgid "Fail To Generate Log"
+msgstr "Échec de la génération du journal"
+
+#: includes/classes/import/class-wpie-import-engine.php:246
+msgid "Complete Pending Last Records"
+msgstr "Terminer les derniers enregistrements en attente"
+
+#: includes/classes/import/class-wpie-import-engine.php:285
+msgid "Existing item found"
+msgstr "Élément existant trouvé"
+
+#: includes/classes/import/class-wpie-import-engine.php:292
+msgid "Skip Existing Items"
+msgstr "Sauter les éléments existants"
+
+#: includes/classes/import/class-wpie-import-engine.php:303
+msgid "Skip New Items"
+msgstr "Sauter les nouveaux éléments"
+
+#: includes/classes/import/class-wpie-import-engine.php:377
+msgid "Successfully Imported"
+msgstr "Importé avec succès"
+
+#: includes/classes/import/fields/wpie-taxonomy.php:22
+msgid "Name & Description"
+msgstr "Nom et description"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:91
+#: includes/classes/import/extensions/yoast-seo/views/post.php:134
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:79
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:122
+#: includes/classes/import/fields/wpie-post.php:82
+#: includes/classes/import/fields/wpie-taxonomy.php:63
+msgid "Use images currently in Media Library"
+msgstr "Utiliser les images enregistrées actuellement dans la bibliothèque multimédia"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:98
+#: includes/classes/import/extensions/yoast-seo/views/post.php:141
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:86
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:129
+#: includes/classes/import/fields/wpie-post.php:93
+#: includes/classes/import/fields/wpie-taxonomy.php:74
+msgid "Use images currently uploaded in"
+msgstr "Utilisez les images actuellement téléchargées dans"
+
+#: includes/classes/import/fields/wpie-post.php:111
+#: includes/classes/import/fields/wpie-taxonomy.php:92
+msgid "If disabled, images attached to imported posts will be deleted and then all images will be imported."
+msgstr "Si désactivé, images accompagnant les messages importés seront supprimés et puis toutes les images seront importés."
+
+#: includes/classes/import/fields/wpie-post.php:115
+#: includes/classes/import/fields/wpie-taxonomy.php:96
+msgid "Set the first image to the Featured Image (_thumbnail_id)"
+msgstr "Réglez la première image sur Image en vedette (_thumbnail_id)"
+
+#: includes/classes/import/fields/wpie-post.php:123
+#: includes/classes/import/fields/wpie-taxonomy.php:104
+msgid "Media SEO & Advanced Options"
+msgstr "Référencement des médias et options avancées"
+
+#: includes/classes/import/fields/wpie-post.php:125
+#: includes/classes/import/fields/wpie-taxonomy.php:106
+msgid "Meta Data"
+msgstr "Métadonnées"
+
+#: includes/classes/import/fields/wpie-post.php:135
+#: includes/classes/import/fields/wpie-taxonomy.php:116
+msgid "The first title will be linked to the first image, the second title will be linked to the second image, ..."
+msgstr "Le premier titre sera lié à la première image, le second titre sera lié à la seconde image..."
+
+#: includes/classes/import/fields/wpie-taxonomy.php:208
+#: includes/classes/import/fields/wpie-taxonomy.php:338
+#: includes/classes/import/fields/wpie-taxonomy.php:421
+msgid "Term Meta"
+msgstr "Méta de terme"
+
+#: includes/classes/import/fields/wpie-taxonomy.php:272
+msgid "Other Category Options"
+msgstr "Autres options de catégorie"
+
+#: includes/classes/import/fields/wpie-taxonomy.php:276
+msgid "Parent Term"
+msgstr "Terme parent"
+
+#: includes/classes/import/fields/wpie-taxonomy.php:279
+msgid "If your taxonomies have parent/child relationships, use this field to set the parent for the imported taxonomy term. Terms can be matched by slug, name, or ID."
+msgstr "Si vos taxonomies ont des relations parent/enfant, utilisez ce champ pour définir le parent du terme de taxonomie importé. Les termes peuvent être appariés par slug, nom ou ID."
+
+#: includes/classes/import/fields/wpie-taxonomy.php:283
+msgid "Category Slug"
+msgstr "Chemin pour la catégorie"
+
+#: includes/classes/import/fields/wpie-taxonomy.php:293
+msgid "The term slug must be unique."
+msgstr "Le slug du terme doit être unique."
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:216
+#: includes/classes/import/fields/wpie-comments.php:271
+#: includes/classes/import/fields/wpie-post.php:568
+#: includes/classes/import/fields/wpie-taxonomy.php:327
+msgid "Search Existing Item on your site based on..."
+msgstr "Recherchez les éléments existants sur votre site en fonction de..."
+
+#: includes/classes/import/fields/wpie-comments.php:75
+msgid "Includes only these post types"
+msgstr "Inclut uniquement les types de messages suivants"
+
+#: includes/classes/import/fields/wpie-comments.php:333
+msgid "Comment Post Id"
+msgstr "Identifiant de la publication du commentaire"
+
+#: includes/classes/import/fields/wpie-comments.php:405
+msgid "Leave these fields alone, update all other Comment Meta"
+msgstr "Ne touchez pas à ces champs, mettez à jour tous les autres champs de commentaires"
+
+#: includes/classes/import/fields/wpie-post.php:328
+msgid "Only assign %s to the bottom level term in the hierarchy"
+msgstr "Uniquement assigner %s pour le terme de bas niveau dans la hiérarchie"
+
+#: includes/classes/import/fields/wpie-post.php:454
+msgid "Search for existing attachments to prevent duplicates in media library"
+msgstr "Rechercher les pièces jointes existantes pour éviter les doublons dans la médiathèque"
+
+#: includes/classes/import/fields/wpie-post.php:984
+msgid "Leave these fields alone, update all other Custom Fields"
+msgstr "Laissez ces champs vides, mettez à jour tous les autres champs personnalisés"
+
+#: includes/classes/import/fields/wpie-post.php:999
+msgid "Taxonomies (incl. Categories and Tags)"
+msgstr "Taxonomies (y compris catégories et étiquettes)"
+
+#: includes/classes/import/fields/wpie-post.php:1017
+msgid "Remove existing taxonomies, add new taxonomies"
+msgstr "Supprimer les taxonomies existantes, ajouter de nouvelles taxonomies"
+
+#: includes/classes/import/fields/wpie-post.php:1021
+msgid "Only add new"
+msgstr "Ajouter nouveau"
+
+#: includes/classes/import/class-wpie-import.php:361
+#: includes/classes/import/class-wpie-import.php:955
+msgid "File is Valid"
+msgstr "Le fichier est valide"
+
+#: includes/classes/import/class-wpie-upload-validate.php:140
+msgid "Invalid File to parse. Please Choose other FIle"
+msgstr "Fichier invalide à analyser. Veuillez choisir un autre fichier"
+
+#: includes/classes/import/class-wpie-import-xml-parser.php:62
+msgid "XML File Not Found"
+msgstr "Fichier XML non trouvé"
+
+#: includes/classes/import/extensions/existing-file/class-existing-file.php:27
+msgid "File Name is empty"
+msgstr "Le nom du fichier est vide"
+
+#: includes/classes/import/extensions/existing-file/wpie-existing-file-view.php:34
+msgid "and they will appear in this list "
+msgstr "et ils apparaîtront dans cette liste "
+
+#: includes/classes/import/extensions/local-upload/wpie-local-upload-view.php:11
+msgid "Drop file here"
+msgstr "Déposez le fichier ici"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:342
+msgid "Update all User Meta and keep meta if not found in file"
+msgstr "Mettre à jour toutes les méta utilisateurs et garder les méta si elles ne sont pas trouvées dans le fichier"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:346
+msgid "Update all User Meta and Remove meta if not found in file"
+msgstr "Mettre à jour toutes les méta utilisateurs et supprimer les méta si elles ne sont pas trouvées dans le fichier"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:357
+msgid "Leave these User Meta alone, update all other User Meta"
+msgstr "Laissez ces méta utilisateurs tranquilles, mettez à jour toutes les autres méta utilisateurs"
+
+#: includes/classes/import/extensions/url-upload/wpie-url-upload-view.php:12
+#: includes/classes/import/extensions/user/wpie-user.php:11
+msgid "File URL"
+msgstr "URL du fichier"
+
+#: includes/classes/import/extensions/url-upload/wpie-url-upload-view.php:19
+#: includes/classes/import/extensions/user/wpie-user.php:18
+#: includes/views/wpie-manage-export.php:156
+#: includes/views/wpie-manage-import.php:178
+#: includes/views/wpie-new-export.php:638
+msgid "Download"
+msgstr "Télécharger"
+
+#: includes/views/wpie-new-export.php:65
+msgid "Choose what to export"
+msgstr "Choisissez ce qu’il faut exporter"
+
+#: includes/views/wpie-new-export.php:133
+msgid "Add filtering options"
+msgstr "Ajouter des options de filtrage"
+
+#: includes/views/wpie-new-export.php:139
+#: includes/views/wpie-new-import.php:294
+msgid "Element"
+msgstr "Elément"
+
+#: includes/views/wpie-new-export.php:140
+#: includes/views/wpie-new-import.php:295
+msgid "Rule"
+msgstr "Règle"
+
+#: includes/views/wpie-new-export.php:185
+msgid "Choose Fields"
+msgstr "Choisissez des champs"
+
+#: includes/views/wpie-new-export.php:194
+#: includes/views/wpie-new-export.php:494
+msgid "Add"
+msgstr "Ajouter"
+
+#: includes/views/wpie-new-export.php:200
+msgid "Add All"
+msgstr "Tout ajouter"
+
+#: includes/views/wpie-new-export.php:203
+msgid "Remove All"
+msgstr "Tout supprimer"
+
+#: includes/classes/import/extensions/yoast-seo/views/post.php:151
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:139
+#: includes/views/wpie-new-export.php:212
+#: includes/views/wpie-new-import.php:573
+msgid "Advanced Options"
+msgstr "Options avancées"
+
+#: includes/views/wpie-new-export.php:249
+msgid "Export File Name"
+msgstr "Nom du fichier d’exportation"
+
+#: includes/views/wpie-new-export.php:252
+msgid "Default : Auto Generated"
+msgstr "Par défaut : généré automatiquement"
+
+#: includes/views/wpie-new-export.php:258
+msgid "Records Per iteration"
+msgstr "Enregistrements par itération"
+
+#: includes/classes/class-wpie-general.php:130
+#: includes/views/wpie-extension-info.php:59
+#: includes/views/wpie-extensions.php:165
+#: includes/views/wpie-manage-export.php:194
+#: includes/views/wpie-manage-import.php:238
+#: includes/views/wpie-new-export.php:400
+#: includes/views/wpie-new-import.php:793 includes/views/wpie-settings.php:280
+msgid "Support"
+msgstr "Support"
+
+#: includes/views/wpie-new-export.php:448
+msgid "Export the value returned by a PHP function"
+msgstr "Exporter la valeur renvoyée par une fonction PHP"
+
+#: includes/views/wpie-new-export.php:557
+#: includes/views/wpie-new-import.php:752
+msgid "Time Elapsed"
+msgstr "Temps écoulé"
+
+#: includes/views/wpie-new-export.php:560
+msgid "Exported"
+msgstr "Exporté"
+
+#: includes/views/wpie-new-export.php:562
+#: includes/views/wpie-new-import.php:389
+#: includes/views/wpie-new-import.php:422
+#: includes/views/wpie-new-import.php:773
+msgid "of"
+msgstr "de"
+
+#: includes/views/wpie-new-export.php:570
+msgid "Send Exported Data To"
+msgstr "Envoyer les données exportées à"
+
+#: includes/views/wpie-new-export.php:602
+msgid "Send"
+msgstr "Envoyer"
+
+#: includes/views/wpie-manage-export.php:157
+#: includes/views/wpie-manage-import.php:180
+#: includes/views/wpie-new-export.php:611
+#: includes/views/wpie-new-import.php:709
+msgid "Pause"
+msgstr "Pause"
+
+#: includes/views/wpie-manage-export.php:158
+#: includes/views/wpie-manage-import.php:181
+#: includes/views/wpie-new-export.php:614
+#: includes/views/wpie-new-import.php:715
+msgid "Stop"
+msgstr "Arrêter"
+
+#: includes/views/wpie-new-export.php:649
+msgid "Please Wait"
+msgstr "Veuillez patienter"
+
+#: includes/views/wpie-new-export.php:661
+#: includes/views/wpie-new-import.php:851
+msgid "Please Wait until process is complete"
+msgstr "Veuillez attendre que le processus soit terminé"
+
+#: includes/views/wpie-settings.php:65
+msgid "Manage Templates"
+msgstr "Gérer les modèles"
+
+#: includes/views/wpie-settings.php:74
+msgid "Choose Templates"
+msgstr "Choisissez des modèles"
+
+#: includes/views/wpie-manage-export.php:48
+#: includes/views/wpie-manage-export.php:155
+#: includes/views/wpie-manage-import.php:59
+#: includes/views/wpie-manage-import.php:184
+#: includes/views/wpie-settings.php:102
+msgid "Delete"
+msgstr "Supprimer"
+
+#: includes/classes/class-wpie-general.php:155
+#: includes/views/wpie-new-export.php:51 includes/views/wpie-settings.php:105
+msgid "Export"
+msgstr "Exporter"
+
+#: includes/classes/class-wpie-general.php:154
+#: includes/views/wpie-settings.php:117
+msgid "Import"
+msgstr "Importer"
+
+#: includes/views/wpie-settings.php:137 includes/views/wpie-settings.php:138
+msgid "Choose Role"
+msgstr "Choisir un rôle"
+
+#: includes/views/wpie-settings.php:175
+msgid "Manage Extensions"
+msgstr "Gérer les extensions"
+
+#: includes/views/wpie-settings.php:195
+msgid "Advance Options"
+msgstr "Options avancées"
+
+#: includes/views/wpie-manage-export.php:53
+#: includes/views/wpie-manage-import.php:64
+msgid "Apply"
+msgstr "Appliquer"
+
+#: includes/views/wpie-manage-export.php:64
+#: includes/views/wpie-manage-import.php:75
+#: includes/views/wpie-new-import.php:738
+msgid "File Name"
+msgstr "Nom du fichier"
+
+#: includes/views/wpie-manage-export.php:65
+#: includes/views/wpie-manage-import.php:76
+msgid "Query"
+msgstr "Requête"
+
+#: includes/views/wpie-manage-export.php:66
+#: includes/views/wpie-manage-import.php:77
+msgid "Summary"
+msgstr "Résumé"
+
+#: includes/views/wpie-manage-export.php:67
+#: includes/views/wpie-manage-import.php:78
+msgid "Date"
+msgstr "Date"
+
+#: includes/views/wpie-manage-export.php:68
+#: includes/views/wpie-manage-import.php:79
+msgid "Status"
+msgstr "Statut"
+
+#: includes/views/wpie-manage-export.php:69
+msgid "actions"
+msgstr "actions"
+
+#: includes/views/wpie-manage-export.php:106
+#: includes/views/wpie-manage-import.php:118
+msgid "Completed"
+msgstr "Terminé"
+
+#: includes/views/wpie-manage-export.php:136
+#: includes/views/wpie-manage-import.php:154
+msgid "Last run"
+msgstr "Dernier lancement"
+
+#: includes/views/wpie-manage-export.php:141
+msgid "Records Exported"
+msgstr "Enregistrements exportés"
+
+#: includes/views/wpie-manage-export.php:146
+#: includes/views/wpie-manage-import.php:159
+msgid "Total"
+msgstr "Total"
+
+#: includes/views/wpie-manage-export.php:170
+msgid "No Templates Found"
+msgstr "Aucun modèle trouvé"
+
+#: includes/views/wpie-manage-export.php:232
+#: includes/views/wpie-manage-import.php:258
+msgid "cancel"
+msgstr "annuler"
+
+#: includes/views/wpie-manage-import.php:51
+msgid "Import Log"
+msgstr "Journal des importations"
+
+#: includes/views/wpie-manage-import.php:80
+msgid "Actions"
+msgstr "Actions"
+
+#: includes/views/wpie-manage-import.php:159
+#: includes/views/wpie-new-import.php:775
+msgid "Records"
+msgstr "Enregistrements"
+
+#: includes/views/wpie-manage-import.php:164
+msgid "Records Imported"
+msgstr "Enregistrements importés"
+
+#: includes/views/wpie-manage-import.php:169
+msgid "updated"
+msgstr "mis à jour"
+
+#: includes/views/wpie-manage-import.php:170
+msgid "created"
+msgstr "créé"
+
+#: includes/views/wpie-manage-import.php:171
+msgid "skipped"
+msgstr "ignoré"
+
+#: includes/views/wpie-manage-import.php:179
+msgid "Download Log File"
+msgstr "Télécharger le fichier journal"
+
+#: includes/views/wpie-new-import.php:248
+msgid "Handle New and Existing Items"
+msgstr "Traiter les éléments nouveaux et existants"
+
+#: includes/views/wpie-new-import.php:333
+msgid "Apply to xpath"
+msgstr "Appliquer à xpath"
+
+#: includes/views/wpie-new-import.php:338
+msgid "XPath"
+msgstr "XPath"
+
+#: includes/views/wpie-new-import.php:547
+msgid "Handle Existing Items"
+msgstr "Traiter les éléments existants"
+
+#: includes/views/wpie-new-import.php:577
+msgid "Reverse Import"
+msgstr "Importation inversée"
+
+#: includes/views/wpie-new-import.php:588
+msgid "High Speed Small File Processing"
+msgstr "Traitement rapide des petits fichiers"
+
+#: includes/views/wpie-new-import.php:603
+msgid "Split file up into 1000 record chunks."
+msgstr "Divisez le fichier en morceaux de 1000 enregistrements."
+
+#: includes/views/wpie-new-import.php:608
+msgid "Friendly Name"
+msgstr "Nom convivial"
+
+#: includes/views/wpie-new-import.php:658
+msgid "Import Summary"
+msgstr "Résumé de l’importation"
+
+#: includes/views/wpie-new-import.php:662
+msgid "which is"
+msgstr "qui est"
+
+#: includes/views/wpie-new-import.php:665
+msgid "Existing data will be skipped with the data specified in this import."
+msgstr "Les données existantes seront ignorées avec les données spécifiées dans cette importation."
+
+#: includes/views/wpie-new-import.php:667
+msgid "New Items will be created from records that don't match the above criteria."
+msgstr "Les nouveaux éléments seront créés à partir des enregistrements qui ne correspondent pas aux critères ci-dessus."
+
+#: includes/views/wpie-new-import.php:670
+msgid "Piece By Piece Processing enabled."
+msgstr "Traitement Pièce par Pièce activé."
+
+#: includes/views/wpie-new-import.php:670
+msgid "records, your import will fail."
+msgstr "votre importation échouera."
+
+#: includes/views/wpie-new-import.php:721
+msgid "Import Data"
+msgstr "Importer les données"
+
+#: includes/views/wpie-new-import.php:758
+msgid "Created"
+msgstr "Créé"
+
+#: includes/views/wpie-new-import.php:760
+msgid "Updated"
+msgstr "Mis à jour"
+
+#: includes/views/wpie-new-import.php:762
+msgid "Skipped"
+msgstr "Ignorés"
+
+#: includes/views/wpie-new-import.php:781
+msgid "Log"
+msgstr "Journal"
+
+#: includes/views/wpie-extensions.php:46
+msgid "Export Extensions"
+msgstr "Exporter les extensions"
+
+#: includes/views/wpie-extensions.php:87 includes/views/wpie-extensions.php:145
+msgid "Pro Addon"
+msgstr "Module PRO"
+
+#: support/wordpress_4.6.php:104
+msgid "Incompatible Archive."
+msgstr "Archive incompatibles."
+
+#: support/wordpress_4.6.php:157
+msgid "Could not create directory."
+msgstr "Impossible de créer le dossier."
+
+#: support/wordpress_4.6.php:177
+msgid "Could not copy file."
+msgstr "Impossible de copier le fichier."
+
+#: includes/classes/export/class-wpie-export.php:971
+msgid "Could not open archive"
+msgstr "Impossible d’ouvrir l’archive"
+
+#: includes/classes/import/class-wpie-comment.php:127
+msgid "Fail to insert comment"
+msgstr "Échec de l’insertion du commentaire"
+
+#: includes/classes/import/class-wpie-images.php:392
+#: includes/classes/import/extensions/yoast-seo/class-images.php:119
+msgid "Image Upload failed"
+msgstr "Échec du téléchargement de l’image"
+
+#: includes/classes/import/class-wpie-import-backup.php:110
+msgid "Backup Directory is not writable"
+msgstr "Le répertoire de sauvegarde n’est pas accessible en écriture"
+
+#: includes/classes/import/fields/wpie-post.php:107
+#: includes/classes/import/fields/wpie-taxonomy.php:88
+msgid "If an image with the same file name or remote URL is found in the Media Library then that image will be attached to this record instead of importing a new image. Disable this setting if you always want to download a new image."
+msgstr "Si une image ayant le même nom de fichier ou la même URL distante est trouvée dans la médiathèque, cette image sera jointe à cet enregistrement au lieu d’importer une nouvelle image. Désactivez ce paramètre si vous souhaitez toujours télécharger une nouvelle image."
+
+#: includes/classes/import/fields/wpie-post.php:119
+#: includes/classes/import/fields/wpie-taxonomy.php:100
+msgid "If no images are downloaded successfully, create entry as Draft."
+msgstr "Si aucune image n’est téléchargée avec succès, créez une entrée comme brouillon."
+
+#: includes/classes/import/fields/wpie-post.php:384
+msgid "Use any format supported by the PHP strtotime function. That means pretty much any human-readable date will work."
+msgstr "Utilisez n’importe quel format supporté par la fonction PHP strtotime. Cela signifie qu’à peu près toutes les dates lisibles par l’homme fonctionneront."
+
+#: includes/classes/import/fields/wpie-post.php:442
+msgid "Assign the post to an existing user account by specifying the user ID, username, or e-mail address."
+msgstr "Affectez le message à un compte utilisateur existant en spécifiant l’ID utilisateur, le nom d’utilisateur ou l’adresse e-mail."
+
+#: includes/classes/import/fields/wpie-post.php:969
+msgid "Update all Custom Fields and keep fields if not found in file"
+msgstr "Mettre à jour tous les champs personnalisés et conserver les champs s’ils ne sont pas trouvés dans le fichier"
+
+#: includes/classes/import/class-wpie-import.php:512
+msgid "Import Type is undefind"
+msgstr "Le type d’importation est indéfini"
+
+#: includes/classes/import/class-wpie-import-log.php:39
+msgid "Log Directory is not writable"
+msgstr "Le répertoire du journal n’est pas accessible en écriture"
+
+#: includes/classes/import/class-wpie-import-xml-parser.php:351
+#: includes/classes/import/extensions/local-upload/class-wpie-local-upload.php:26
+#: includes/classes/import/extensions/url-upload/class-wpie-url-upload.php:38
+msgid "Uploads folder is not writable"
+msgstr "Le dossier Uploads n’est pas accessible en écriture"
+
+#: includes/classes/import/class-wpie-import-xml-parser.php:355
+msgid "Uploads file is not readable"
+msgstr "Le fichier téléchargé n’est pas lisible"
+
+#: includes/classes/import/extensions/local-upload/class-wpie-local-upload.php:86
+msgid "Failed to open temp directory"
+msgstr "Impossible d’ouvrir le répertoire temporaire"
+
+#: includes/classes/import/class-wpie-attachments.php:217
+#: includes/classes/import/class-wpie-images.php:456
+#: includes/classes/import/extensions/url-upload/class-wpie-url-upload.php:28
+#: includes/classes/import/extensions/yoast-seo/class-images.php:148
+msgid "File URL is empty"
+msgstr "L’URL du fichier est vide"
+
+#: includes/views/wpie-new-export.php:40
+msgid "Total Records Found"
+msgstr "Nombre total d’enregistrements trouvés"
+
+#: includes/views/wpie-new-export.php:71
+msgid "Select Export Type"
+msgstr "Sélectionnez le type d’exportation"
+
+#: includes/views/wpie-new-export.php:190
+msgid "Use click on text for edit field. Use Drag and Drop for change any position"
+msgstr "Cliquez sur le texte pour modifier le champ. Utilisez le glisser-déposer pour modifier n’importe quelle position"
+
+#: includes/views/wpie-new-export.php:258
+msgid "WP Import Export must be able to process this many records in less than your server's timeout settings. If your export fails before completion, to troubleshoot you should lower this number."
+msgstr "WP Import Export doit être capable de traiter ce nombre d’enregistrements en moins de temps que les réglages du délai d’expiration de votre serveur. Si votre exportation échoue avant la fin, vous devez diminuer ce nombre pour résoudre le problème."
+
+#: includes/views/wpie-new-export.php:553
+msgid "Exporting may take some time. Please do not close your browser or refresh the page until the process is complete."
+msgstr "L’exportation peut prendre un certain temps. Veuillez ne pas fermer votre navigateur ou actualiser la page tant que le processus n’est pas terminé."
+
+#: includes/views/wpie-new-export.php:652
+msgid "Pause Exporting may take some time. Please do not close your browser or refresh the page until the process is complete."
+msgstr "Pause L’exportation peut prendre un certain temps. Ne fermez pas votre navigateur et ne rafraîchissez pas la page avant que le processus ne soit terminé."
+
+#: includes/views/wpie-new-import.php:581
+msgid "Is Import Reversable"
+msgstr "L’importation est-elle réversible ?"
+
+#: includes/views/wpie-new-import.php:584
+msgid "Import Speed Optimization"
+msgstr "Optimisation de la vitesse d’importation"
+
+#: includes/views/wpie-new-import.php:652
+#: includes/views/wpie-new-import.php:690
+msgid "Confirm & Run Import"
+msgstr "Confirmer et lancer l’importation"
+
+#: includes/views/wpie-new-import.php:669
+msgid "High-Speed, Small File Processing enabled. Your import will fail if it takes longer than your server's max_execution_time."
+msgstr "Haute vitesse, petit traitement de fichier activé. Votre importation échouera si elle est plus longue que le temps d’exécution maximum de votre serveur."
+
+#: includes/views/wpie-new-import.php:670
+msgid "records will be processed each iteration. If it takes longer than your server's max_execution_time to process"
+msgstr "enregistrements seront traités à chaque itération. Si le traitement des enregistrements prend plus de temps que le temps d’exécution maximum de votre serveur, vous pouvez utiliser la méthode suivante"
+
+#: includes/views/wpie-new-import.php:671
+msgid "Your file will be split into 1000 records chunks before processing."
+msgstr "Votre fichier sera divisé en morceaux de 1000 enregistrements avant d’être traité."
+
+#: includes/views/wpie-extensions.php:96 includes/views/wpie-extensions.php:154
+msgid "No Extension installed. Please install extension for use all features."
+msgstr "Aucune extension n’est installée. Veuillez installer l’extension pour utiliser toutes les fonctionnalités."
+
+#: includes/views/wpie-extensions.php:104
+msgid "Import Extensions"
+msgstr "Importation d’extensions"
+
+#: support/wordpress_4.6.php:45
+msgid "Could not access filesystem."
+msgstr "Impossible d’accéder au système de fichiers."
+
+#: support/wordpress_4.6.php:110 support/wordpress_4.6.php:164
+msgid "Could not retrieve file from archive."
+msgstr "Impossible de récupérer les fichiers de l’archive."
+
+#: support/wordpress_4.6.php:174
+msgid "Could not extract file from archive."
+msgstr "Impossible d’extraire le fichier de l’archive."
+
+#: includes/classes/import/fields/wpie-post.php:1003
+msgid "Update only these taxonomies, leave the rest alone"
+msgstr "Mettez à jour uniquement ces taxonomies, laissez le reste tranquille"
+
+#: includes/classes/import/fields/wpie-post.php:323
+msgid "Separate %s hierarchy (parent/child) via symbol (i.e. Clothing > Men > TShirts)"
+msgstr "Séparer la hiérarchie %s (parent/enfant) par un symbole (ex. : Vêtements > Hommes > T-shirts)"
+
+#: includes/classes/import/fields/wpie-post.php:369
+msgid "The value should be one of the following: ('publish', 'draft', 'trash', 'private')."
+msgstr "La valeur doit être l’une des suivantes : (’publish’, ’draft’, ’trash’, ’private’)."
+
+#: includes/views/wpie-manage-export.php:228
+#: includes/views/wpie-manage-import.php:254
+msgid "Are you sure want to delete?"
+msgstr "﻿Êtes-vous sûr de vouloir supprimer ?"
+
+#: includes/views/wpie-settings.php:129
+msgid "Plugin Access Permission"
+msgstr "Permission d’accès aux extensions"
+
+#: includes/views/wpie-new-import.php:662
+msgid "WordPress Import Export will import the file"
+msgstr "WP Import Export importera le fichier"
+
+#: includes/views/wpie-new-import.php:663
+msgid "WordPress Import Export will process"
+msgstr "WP Import Export sera traité"
+
+#: includes/views/wpie-settings.php:205 includes/views/wpie-settings.php:248
+msgid "Delete All Data on plugin uninstall"
+msgstr "Supprimer toutes les données lors de la désinstallation de l’extension"
+
+#: includes/classes/import/fields/wpie-taxonomy.php:286
+msgid "Set slug automatically"
+msgstr "Définir le slug automatiquement"
+
+#: includes/views/wpie-new-import.php:592
+msgid "Iterative, Piece-by-Piece Processing"
+msgstr "Traitement itératif, un par un"
+
+#: includes/views/wpie-new-import.php:595
+msgid "In each iteration, process"
+msgstr "À chaque itération, traitement de"
+
+#: includes/views/wpie-new-import.php:599
+msgid "records"
+msgstr "lignes"
+
+#: includes/views/wpie-manage-export.php:159
+#: includes/views/wpie-manage-import.php:182
+#: includes/views/wpie-new-export.php:617
+#: includes/views/wpie-new-import.php:712
+msgid "Resume"
+msgstr "Reprendre"
+
+#: includes/views/wpie-new-import.php:104
+msgid "Choose how you want to import your data"
+msgstr "Choisissez comment importer vos données"
+
+#: includes/views/wpie-new-import.php:251
+msgid "Import new items & Update Existing Items"
+msgstr "Importer les nouveaux éléments et mettre à jour des éléments existants"
+
+#: includes/views/wpie-new-import.php:255
+msgid "Import new items only & Skip Existing Items"
+msgstr "Importer les nouveaux éléments et ignorer les éléments existants"
+
+#: includes/views/wpie-new-import.php:259
+msgid "Update Existing Items & Skip new items"
+msgstr "Mettre à jour des éléments existants et ignorer les nouveaux éléments"
+
+#: includes/classes/import/class-wpie-post.php:232
+#: includes/classes/import/class-wpie-taxonomy.php:80
+#: includes/classes/import/extensions/user/class-wpie-user.php:163
+msgid "something wrong, ID = 0 was generated."
+msgstr "quelque chose ne va pas, ID = 0 a été généré."
+
+#: includes/classes/import/extensions/bg/wpie_bg_btn.php:8
+msgid "Import In Background"
+msgstr "Importation en tâche de fond"
+
+#: includes/classes/import/extensions/local-upload/wpie_local_upload.php:23
+msgid "Upload from Desktop"
+msgstr "Télécharger à partir du PC"
+
+#: includes/views/wpie-new-import.php:538
+#: includes/views/wpie-new-import.php:627
+msgid "Back to Step 4"
+msgstr "Retour étape 4"
+
+#: includes/views/wpie-new-import.php:501
+msgid "Field Mapping"
+msgstr "Associer les champs"
+
+#: includes/views/wpie-new-import.php:439
+#: includes/views/wpie-new-import.php:529
+msgid "Continue to Step 5"
+msgstr "Aller étape 5"
+
+#: includes/views/wpie-new-import.php:436
+#: includes/views/wpie-new-import.php:526
+msgid "Back to Step 3"
+msgstr "Retour étape 3"
+
+#: includes/views/wpie-new-import.php:283
+#: includes/views/wpie-new-import.php:409
+msgid "Continue to Step 4"
+msgstr "Aller étape 4"
+
+#: includes/views/wpie-new-import.php:280
+#: includes/views/wpie-new-import.php:406
+msgid "Back to Step 2"
+msgstr "Retour étape 2"
+
+#: includes/views/wpie-new-import.php:98 includes/views/wpie-new-import.php:179
+msgid "Continue to Step 2"
+msgstr "Aller étape 2"
+
+#: includes/views/wpie-new-import.php:191
+#: includes/views/wpie-new-import.php:271
+msgid "Continue to Step 3"
+msgstr "Aller étape 3"
+
+#: includes/views/wpie-new-import.php:188
+#: includes/views/wpie-new-import.php:268
+msgid "Back to Step 1"
+msgstr "Retour étape 1"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:75
+#: includes/classes/import/extensions/user/wpie-user-fields.php:308
+msgid "Nicename"
+msgstr "Identifiant normalisé (usernicename)"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:94
+#: includes/classes/import/extensions/user/wpie-user-fields.php:320
+msgid "Display Name"
+msgstr "Nom à afficher publiquement (displayname)"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:57
+msgid "Login / Username"
+msgstr "Userlogin/identifiant"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:45
+#: includes/classes/import/extensions/user/wpie-user-fields.php:292
+msgid "Nickname"
+msgstr "Pseudonyme (nickname)"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:15
+msgid "A string with role slug used to set the user's role. Default role is subscriber."
+msgstr "Une chaîne avec le slug du rôle utilisé pour définir le rôle du compte. Le rôle par défaut est : subscriber."
+
+#: includes/classes/import/extensions/local-upload/wpie-local-upload-view.php:14
+msgid "Select Files"
+msgstr "Sélectionner le fichier"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:159
+#: includes/classes/import/fields/wpie-comments.php:214
+#: includes/classes/import/fields/wpie-post.php:254
+#: includes/classes/import/fields/wpie-taxonomy.php:234
+msgid "Click to specify"
+msgstr "Cliquer pour spécifier"
+
+#: includes/classes/export/extensions/user/class-wpie-user.php:165
+#: includes/classes/import/extensions/user/wpie-user-fields.php:133
+#: includes/classes/import/extensions/user/wpie-user-fields.php:227
+#: includes/classes/import/extensions/user/wpie-user-fields.php:338
+msgid "User Meta"
+msgstr "Méta du compte"
+
+#: includes/views/wpie-new-import.php:664
+msgid "WordPress Import Export will merge data into existing Items, matching the following criteria: has the same"
+msgstr "WP Import Export fusionnera les données dans les éléments existants, en respectant les critères suivants : a le même"
+
+#: includes/views/wpie-new-export.php:439
+msgid "Default : Site Date Format"
+msgstr "Par défaut : format de la date du site"
+
+#: includes/classes/import/fields/wpie-post.php:1010
+msgid "Leave these taxonomies alone, update all others"
+msgstr "Ignorer ces taxonomies, mettre à jour toutes les autres"
+
+#: support/wordpress_4.6.php:134
+msgid "Could not copy files. You may have run out of disk space."
+msgstr "Impossible de copier les fichiers. Vous manquez peut-être d’espace disque."
+
+#: includes/classes/import/fields/wpie-post.php:107
+#: includes/classes/import/fields/wpie-taxonomy.php:88
+msgid "Search through the Media Library for existing images before importing new images"
+msgstr "Recherche d’images existantes dans la médiathèque avant d’importer de nouvelles images"
+
+#: includes/views/wpie-new-export.php:281
+msgid "Include BOM in export file"
+msgstr "Inclure BOM dans le fichier d’exportation"
+
+#: includes/views/wpie-new-import.php:663
+msgid "rows in your file"
+msgstr "lignes dans votre fichier"
+
+#: includes/views/wpie-new-import.php:666
+msgid "Existing data will be updated with the data specified in this import."
+msgstr "Les données existantes seront mises à jour avec les données spécifiées dans cette importation."
+
+#: includes/views/wpie-new-import.php:668
+msgid "New Items will be skipped from records that don't match the above criteria."
+msgstr "Les nouveaux éléments seront ignorés à partir des enregistrements qui ne correspondent pas aux critères ci-dessus."
+
+#: includes/views/wpie-new-import.php:744
+msgid "File Size"
+msgstr "Taille du fichier"
+
+#: includes/views/wpie-extensions.php:80 includes/views/wpie-extensions.php:138
+msgid "ON"
+msgstr "ACTIF"
+
+#: includes/views/wpie-extensions.php:81 includes/views/wpie-extensions.php:139
+msgid "OFF"
+msgstr "INACTIF"
+
+#: includes/views/wpie-manage-export.php:40
+msgid "Export Log"
+msgstr "Exporter le journal"
+
+#: includes/classes/import/file-format/manager.php:67
+msgid "Uploaded file must be XML, CSV, ZIP, XLS, XLSX, XML, ODS, TXT, JSON, TAR"
+msgstr "Le fichier téléversé doit être de type XML, CSV, ZIP, XLS, XLSX, XML, ODS, TXT, JSON ou TAR"
+
+#: includes/classes/import/class-wpie-upload.php:78
+msgid "Uploaded file is empty"
+msgstr "Le fichier téléversé est vide"
+
+#: includes/classes/import/extensions/existing-file/wpie_existing_file.php:56
+#: includes/classes/import/extensions/local-upload/wpie_local_upload.php:52
+#: includes/classes/import/extensions/url-upload/wpie_url_upload.php:57
+msgid "Failed to upload files"
+msgstr "Échec du téléversement des fichiers"
+
+#: includes/classes/import/extensions/existing-file/wpie-existing-file-view.php:21
+#: includes/classes/import/extensions/existing-file/wpie-existing-file-view.php:22
+msgid "Select a previously uploaded file"
+msgstr "Sélectionnez un fichier précédemment téléversé"
+
+#: includes/classes/import/extensions/existing-file/wpie-existing-file-view.php:34
+msgid "Upload files to"
+msgstr "Téléverser des fichiers vers"
+
+#: includes/classes/import/extensions/local-upload/class-wpie-local-upload.php:131
+msgid "Failed to move uploaded file."
+msgstr "Impossible de déplacer le fichier téléversé."
+
+#: includes/classes/import/extensions/local-upload/class-wpie-local-upload.php:128
+#: includes/classes/import/extensions/local-upload/class-wpie-local-upload.php:165
+msgid "Failed to open output stream."
+msgstr "Impossible d’ouvrir le flux de sortie."
+
+#: includes/classes/import/extensions/local-upload/class-wpie-local-upload.php:118
+#: includes/classes/import/extensions/local-upload/class-wpie-local-upload.php:153
+msgid "Failed to open input stream."
+msgstr "Impossible d’ouvrir le flux d’entrée."
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:350
+msgid "Update only these User Meta, leave the rest alone"
+msgstr "Mettre à jour uniquement ces métas de compte, ignorer le reste"
+
+#: includes/views/wpie-new-export.php:99
+msgid "Select Taxonomy"
+msgstr "Sélectionnez la taxonomie"
+
+#: includes/views/wpie-new-export.php:221
+msgid "Export File Type"
+msgstr "Type de fichier d’exportation"
+
+#: includes/views/wpie-new-export.php:224
+msgid "Choose Export file type"
+msgstr "Choisissez le type de fichier d’exportation"
+
+#: includes/views/wpie-new-export.php:278
+msgid "The BOM will help some programs like Microsoft Excel read your export file if it includes non-English characters."
+msgstr "Le BOM aidera certains programmes comme Microsoft Excel à lire votre fichier d’exportation s’il inclut des caractères non anglais."
+
+#: includes/classes/import/fields/wpie-post.php:163
+#: includes/classes/import/fields/wpie-taxonomy.php:144
+msgid "The first alt text will be linked to the first image, the second alt text will be linked to the second image, ..."
+msgstr "Le premier texte alternatif sera lié à la première image, le second sera lié à la seconde image..."
+
+#: includes/classes/import/fields/wpie-post.php:149
+#: includes/classes/import/fields/wpie-taxonomy.php:130
+msgid "The first caption will be linked to the first image, the second caption will be linked to the second image, ..."
+msgstr "La première légende sera liée à la première image, la deuxième légende sera liée à la seconde image..."
+
+#: includes/classes/import/fields/wpie-post.php:177
+#: includes/classes/import/fields/wpie-taxonomy.php:158
+msgid "The first description will be linked to the first image, the second description will be linked to the second image, ..."
+msgstr "La première description sera liée à la première image, la seconde sera liée à la deuxième..."
+
+#: includes/classes/import/fields/wpie-taxonomy.php:433
+msgid "Update only these Term Meta, leave the rest alone"
+msgstr "Mettre à jour uniquemnt ces termes méta, ignorer le reste"
+
+#: includes/classes/import/fields/wpie-taxonomy.php:440
+msgid "Leave these fields alone, update all other Term Meta"
+msgstr "Laissez ces champs vides, mettre à jour tous les autres champs méta terme"
+
+#: includes/classes/import/fields/wpie-taxonomy.php:429
+msgid "Update all Term Meta and Remove meta if not found in file"
+msgstr "Mettre à jour toutes ces métas de termes et supprimer les métas qui ne sont pas dans le fichier"
+
+#: includes/classes/import/fields/wpie-taxonomy.php:425
+msgid "Update all Term Meta and keep meta if not found in file"
+msgstr "Mise à jour de toutes les métas de terme et maintien des métas qui ne sont pas dans le fichier"
+
+#: includes/classes/import/fields/wpie-comments.php:390
+msgid "Update all Comment Meta and keep meta if not found in file"
+msgstr "Mettre à jour toutes les métas des commentaires et conserver les métas qui ne sont pas dans le fichier"
+
+#: includes/classes/import/fields/wpie-comments.php:394
+msgid "Update all Comment Meta and Remove meta if not found in file"
+msgstr "Mettre à jour toutes les métas des commentaires et supprimer celles qui ne sont pas dans le fichier"
+
+#: includes/classes/import/fields/wpie-comments.php:398
+msgid "Update only these Comment Meta, leave the rest alone"
+msgstr "Mettre à jour uniquement ces métas de commentaires, ignorer le reste"
+
+#: includes/classes/import/fields/wpie-post.php:888
+msgid "Update only these Attributes, leave the rest alone"
+msgstr "Mettre à jour seulement ces attributs, ignorer le reste"
+
+#: includes/classes/import/fields/wpie-post.php:895
+msgid "Leave these attributes alone, update all other Attributes"
+msgstr "Ignorer ces attributs, mettez à jour tous les autres"
+
+#: includes/classes/import/fields/wpie-post.php:977
+msgid "Update only these Custom Fields, leave the rest alone"
+msgstr "Mettre à jour uniquement ces champs personnalisés, ignorer le reste"
+
+#: includes/classes/import/fields/wpie-post.php:973
+msgid "Update all Custom Fields and Remove fields if not found in file"
+msgstr "Mettre à jour tous les champs personnalisés et retirer ceux absents du fichier"
+
+#: includes/classes/import/extensions/user/wpie-user-fields.php:277
+#: includes/classes/import/fields/wpie-comments.php:330
+#: includes/classes/import/fields/wpie-post.php:686
+#: includes/classes/import/fields/wpie-taxonomy.php:388
+msgid "Check/Uncheck All"
+msgstr "Sélectionner/désélectionner tout"
+
+#: includes/classes/import/fields/wpie-post.php:132
+#: includes/classes/import/fields/wpie-post.php:146
+#: includes/classes/import/fields/wpie-post.php:160
+#: includes/classes/import/fields/wpie-post.php:174
+#: includes/classes/import/fields/wpie-post.php:193
+#: includes/classes/import/fields/wpie-post.php:206
+#: includes/classes/import/fields/wpie-taxonomy.php:113
+#: includes/classes/import/fields/wpie-taxonomy.php:127
+#: includes/classes/import/fields/wpie-taxonomy.php:141
+#: includes/classes/import/fields/wpie-taxonomy.php:155
+#: includes/classes/import/fields/wpie-taxonomy.php:174
+#: includes/classes/import/fields/wpie-taxonomy.php:187
+msgid "Enter one per line, or separate them with a"
+msgstr "Saisissez-en un nom par ligne ou séparez-les par"
+
+#: includes/classes/import/fields/wpie-post.php:111
+#: includes/classes/import/fields/wpie-taxonomy.php:92
+msgid "Keep images currently in Media Library"
+msgstr "Conserver les images actuellement dans la médiathèque"
+
+#: includes/classes/import/fields/wpie-post.php:157
+#: includes/classes/import/fields/wpie-taxonomy.php:138
+msgid "Set Alt Text(s)"
+msgstr "Définir le texte alternatif"
+
+#: includes/classes/import/fields/wpie-post.php:143
+#: includes/classes/import/fields/wpie-taxonomy.php:124
+msgid "Set Caption(s)"
+msgstr "Définir la légende"
+
+#: includes/classes/import/fields/wpie-post.php:129
+#: includes/classes/import/fields/wpie-taxonomy.php:110
+msgid "Set Title(s)"
+msgstr "Définir le titre"
+
+#: includes/classes/import/fields/wpie-post.php:171
+#: includes/classes/import/fields/wpie-taxonomy.php:152
+msgid "Set Description(s)"
+msgstr "Définir la description"
+
+#: includes/classes/import/fields/wpie-post.php:203
+#: includes/classes/import/fields/wpie-taxonomy.php:184
+msgid "Change image file extensions"
+msgstr "Modifier l’extension de l’image"
+
+#: includes/classes/import/fields/wpie-post.php:190
+#: includes/classes/import/fields/wpie-taxonomy.php:171
+msgid "Change image file names to"
+msgstr "Modifier le nom du fichier image"
+
+#: includes/views/wpie-new-import.php:197
+msgid "Import each record as"
+msgstr "Importer les enregistrements comme"
+
+#: includes/views/wpie-manage-export.php:47
+#: includes/views/wpie-manage-import.php:58
+msgid "Bulk Actions"
+msgstr "Actions groupées"
+
+#. Plugin Name of the plugin
+msgid "WP Import Export Lite"
+msgstr "WP Import Export Lite"
+
+#. Author of the plugin
+msgid "VJInfotech"
+msgstr "VJInfotech"
+
+#. Author URI of the plugin
+msgid "http://www.vjinfotech.com"
+msgstr "http://www.vjinfotech.com"
+
+#: deactivate-plugins.php:4 includes/classes/class-wpie-action.php:5
+#: includes/classes/class-wpie-common-action.php:5
+#: includes/classes/class-wpie-extensions.php:9
+#: includes/classes/class-wpie-general.php:8
+#: includes/classes/class-wpie-security.php:7
+#: includes/classes/export/class-wpie-comment.php:9
+#: includes/classes/export/class-wpie-export-actions.php:9
+#: includes/classes/export/class-wpie-export-base.php:7
+#: includes/classes/export/class-wpie-export-engine.php:7
+#: includes/classes/export/class-wpie-export.php:13
+#: includes/classes/export/class-wpie-import-config.php:7
+#: includes/classes/export/class-wpie-media.php:6
+#: includes/classes/export/class-wpie-post.php:11
+#: includes/classes/export/class-wpie-taxonomy.php:9
+#: includes/classes/export/extensions/bg/class-wpie-bg.php:7
+#: includes/classes/export/extensions/bg/wpie_bg.php:4
+#: includes/classes/export/extensions/bg/wpie_bg_btn.php:3
+#: includes/classes/export/extensions/user/class-wpie-user.php:9
+#: includes/classes/export/extensions/user/wpie_user.php:4
+#: includes/classes/export/extensions/yoast-seo/class-wpie-yoast-seo.php:7
+#: includes/classes/export/extensions/yoast-seo/class-wpie-yoast-seo_taxonomy.php:7
+#: includes/classes/export/extensions/yoast-seo/wpie_yoast_seo.php:5
+#: includes/classes/function.php:5
+#: includes/classes/import/class-wpie-attachments.php:9
+#: includes/classes/import/class-wpie-chunk.php:10
+#: includes/classes/import/class-wpie-comment.php:7
+#: includes/classes/import/class-wpie-csv-chunk.php:10
+#: includes/classes/import/class-wpie-images.php:9
+#: includes/classes/import/class-wpie-import-actions.php:9
+#: includes/classes/import/class-wpie-import-backup.php:9
+#: includes/classes/import/class-wpie-import-base.php:7
+#: includes/classes/import/class-wpie-import-engine.php:12
+#: includes/classes/import/class-wpie-import-log.php:6
+#: includes/classes/import/class-wpie-import-xml-parser.php:12
+#: includes/classes/import/class-wpie-import.php:12
+#: includes/classes/import/class-wpie-post.php:7
+#: includes/classes/import/class-wpie-record.php:10
+#: includes/classes/import/class-wpie-taxonomy.php:9
+#: includes/classes/import/class-wpie-upload-validate.php:13
+#: includes/classes/import/class-wpie-upload.php:10
+#: includes/classes/import/compatibility/manager.php:6
+#: includes/classes/import/downloader/download.php:7
+#: includes/classes/import/downloader/file-header.php:7
+#: includes/classes/import/downloader/manager.php:7
+#: includes/classes/import/extensions/bg/class-wpie-bg.php:7
+#: includes/classes/import/extensions/bg/wpie_bg.php:4
+#: includes/classes/import/extensions/bg/wpie_bg_btn.php:3
+#: includes/classes/import/extensions/existing-file/class-existing-file.php:8
+#: includes/classes/import/extensions/existing-file/wpie-existing-file-view.php:3
+#: includes/classes/import/extensions/existing-file/wpie_existing_file.php:5
+#: includes/classes/import/extensions/local-upload/class-wpie-local-upload.php:9
+#: includes/classes/import/extensions/local-upload/wpie-local-upload-view.php:3
+#: includes/classes/import/extensions/local-upload/wpie_local_upload.php:5
+#: includes/classes/import/extensions/url-upload/class-wpie-url-upload.php:9
+#: includes/classes/import/extensions/url-upload/wpie-url-upload-view.php:3
+#: includes/classes/import/extensions/url-upload/wpie_url_upload.php:5
+#: includes/classes/import/extensions/user/class-wpie-user.php:9
+#: includes/classes/import/extensions/user/user.php:4
+#: includes/classes/import/extensions/user/wpie-user-fields.php:3
+#: includes/classes/import/extensions/user/wpie-user.php:3
+#: includes/classes/import/extensions/yoast-seo/class-images.php:9
+#: includes/classes/import/extensions/yoast-seo/class-wpie-yoast-seo.php:7
+#: includes/classes/import/extensions/yoast-seo/views/post.php:3
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:3
+#: includes/classes/import/extensions/yoast-seo/wpie-yoast-seo-tab.php:5
+#: includes/classes/import/extensions/yoast-seo/wpie_yoast_seo.php:5
+#: includes/classes/import/fields/wpie-comments.php:3
+#: includes/classes/import/fields/wpie-post.php:3
+#: includes/classes/import/fields/wpie-taxonomy.php:3
+#: includes/classes/import/file-format/manager.php:6
+#: includes/views/wpie-extension-info.php:3
+#: includes/views/wpie-extensions.php:3 includes/views/wpie-manage-export.php:3
+#: includes/views/wpie-manage-import.php:3 includes/views/wpie-new-export.php:5
+#: includes/views/wpie-new-import.php:3 includes/views/wpie-settings.php:3
+#: support/support.php:5 support/wordpress_4.4.php:4
+#: support/wordpress_4.6.php:4 wp-import-export-lite.php:15
+msgid "Can't load this file directly"
+msgstr "Impossible de charger ce fichier directement"
+
+#: includes/classes/class-wpie-common-action.php:120
+msgid "Role Successfully Saved"
+msgstr "Rôle bien sauvegardé"
+
+#: includes/classes/class-wpie-common-action.php:321
+msgid "Templates Successfully Deleted"
+msgstr "Modèles bien supprimés"
+
+#: includes/classes/class-wpie-common-action.php:366
+#: includes/classes/class-wpie-common-action.php:540
+msgid "Settings Successfully Saved"
+msgstr "Réglages bien enregistrés"
+
+#: includes/classes/class-wpie-common-action.php:432
+msgid "Templates Successfully Imported"
+msgstr "Modèle bien importé"
+
+#: includes/classes/class-wpie-common-action.php:435
+#: includes/classes/class-wpie-common-action.php:439
+msgid "Empty Data"
+msgstr "Données vides"
+
+#: includes/classes/class-wpie-common-action.php:446
+msgid "Error When move uploaded file"
+msgstr "Erreur lors du déplacement du fichier téléversé"
+
+#: includes/classes/class-wpie-common-action.php:505
+#: includes/classes/export/class-wpie-export.php:611
+msgid "Empty Status"
+msgstr "État vide"
+
+#: includes/classes/class-wpie-common-action.php:510
+#: includes/classes/export/class-wpie-export.php:616
+msgid "Template id not found"
+msgstr "ID du modèle non trouvé"
+
+#: includes/classes/class-wpie-extensions.php:36
+#: includes/classes/class-wpie-extensions.php:102
+#: includes/classes/import/fields/wpie-post.php:994
+msgid "Advanced Custom Fields"
+msgstr "Advanced Custom Fields"
+
+#: includes/classes/class-wpie-extensions.php:51
+msgid "User"
+msgstr "Compte"
+
+#: includes/classes/class-wpie-extensions.php:56
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/classes/class-wpie-extensions.php:61
+#: includes/classes/class-wpie-extensions.php:152
+msgid "WPML"
+msgstr "WPML"
+
+#: includes/classes/class-wpie-extensions.php:92
+msgid "Upload From Desktop"
+msgstr "Téléverser à partir du PC"
+
+#: includes/classes/class-wpie-extensions.php:97
+#: includes/classes/import/extensions/existing-file/wpie_existing_file.php:23
+msgid "Use existing file"
+msgstr "Utiliser un fichier existant"
+
+#: includes/classes/class-wpie-extensions.php:112
+msgid "Dropbox"
+msgstr "Dropbox"
+
+#: includes/classes/class-wpie-extensions.php:117
+msgid "Upload From FTP/SFTP"
+msgstr "Téléverser depuis FTP/SFTP"
+
+#: includes/classes/class-wpie-extensions.php:122
+msgid "Google Drive"
+msgstr "Google Drive"
+
+#: includes/classes/class-wpie-extensions.php:127
+msgid "Microsoft Onedrive"
+msgstr "Microsoft Onedrive"
+
+#: includes/classes/class-wpie-extensions.php:129
+msgid "Import File from Microsoft Onedrive to WordPress Site"
+msgstr "Importation de fichier de Onedrive vers WordPress"
+
+#: includes/classes/class-wpie-extensions.php:132
+msgid "Schedule Import"
+msgstr "Importation planifiée"
+
+#: includes/classes/class-wpie-extensions.php:137
+#: includes/classes/import/extensions/url-upload/wpie_url_upload.php:23
+msgid "Upload From URL"
+msgstr "Téléverser depuis une URL"
+
+#: includes/classes/class-wpie-extensions.php:144
+msgid "Import Users & User's metadata to WordPress Site"
+msgstr "Import des comptes WordPress et de leur métadonnées"
+
+#: includes/classes/class-wpie-extensions.php:63
+#: includes/classes/class-wpie-extensions.php:68
+msgid "Export multilingual content from WordPress Site"
+msgstr "Export du contenu multilingue depuis WordPress"
+
+#: includes/classes/class-wpie-extensions.php:58
+msgid "Export Products, Orders, Product Categories and coupons from WordPress Site"
+msgstr "Export des produits, commandes, catégories de produits et codes promo depuis WordPress"
+
+#: includes/classes/class-wpie-extensions.php:53
+msgid "Export Users & User's metadata from WordPress Site"
+msgstr "Export des comptes WordPress et de leur métadonnées"
+
+#: includes/classes/class-wpie-common-action.php:477
+#: includes/classes/export/class-wpie-export.php:588
+#: includes/views/wpie-new-import.php:866
+msgid "Background Process Successfully Set"
+msgstr "Processus en tâche de fond bien réglé"
+
+#: includes/classes/class-wpie-common-action.php:487
+msgid "Process Paused Successfully"
+msgstr "Processus en pause"
+
+#: includes/classes/class-wpie-common-action.php:482
+#: includes/classes/export/class-wpie-export.php:593
+msgid "Process Stopped Successfully"
+msgstr "Processus arrêté"
+
+#: includes/classes/class-wpie-extensions.php:38
+msgid "Export Advanced Custom Fields from WordPress Site"
+msgstr "Export Advanced Custom Fields depuis WordPress"
+
+#: includes/classes/class-wpie-extensions.php:41
+msgid "Background Export"
+msgstr "Export en tâche de fond"
+
+#: includes/classes/class-wpie-extensions.php:43
+msgid "Export in Background from WordPress Site"
+msgstr "Export en tâche de fond depuis WordPress"
+
+#: includes/classes/class-wpie-extensions.php:46
+msgid "Schedule Export"
+msgstr "Planifier l’export"
+
+#: includes/classes/class-wpie-extensions.php:48
+msgid "Export automatically and periodically from WordPress Site"
+msgstr "Export automatique et périodique à partir de WordPress"
+
+#: includes/classes/class-wpie-extensions.php:104
+msgid "Import Advanced Custom Fields to WordPress Site"
+msgstr "Import Advanced Custom Fields depuis WordPress"
+
+#: includes/classes/class-wpie-extensions.php:107
+#: includes/views/wpie-new-import.php:863
+msgid "Background Import"
+msgstr "Import en tâche de fond"
+
+#: includes/classes/class-wpie-extensions.php:109
+msgid "Import in Background to WordPress Site"
+msgstr "Import en tâche de fond vers WordPress"
+
+#: includes/classes/class-wpie-extensions.php:114
+msgid "Import File from Dropbox to WordPress Site"
+msgstr "Import de fichier de Dropbox vers WordPress"
+
+#: includes/classes/class-wpie-extensions.php:119
+msgid "Import File from FTP/SFTP to WordPress Site"
+msgstr "Import de fichier de FTP/SFTP vers WordPress"
+
+#: includes/classes/class-wpie-extensions.php:124
+msgid "Import File from Google Drive to WordPress Site"
+msgstr "Import de fichier de Google Drive vers WordPress"
+
+#: includes/classes/class-wpie-extensions.php:134
+msgid "Import automatically & periodically to WordPress Site"
+msgstr "Import automatique et périodique vers WordPress"
+
+#: includes/classes/class-wpie-extensions.php:139
+msgid "Import File from URL to WordPress Site"
+msgstr "Import de fichier depuis une URL vers WordPress"
+
+#: includes/classes/class-wpie-extensions.php:142
+msgid "User Import"
+msgstr "Import de comptes"
+
+#: includes/classes/class-wpie-extensions.php:147
+msgid "WooCommerce Import"
+msgstr "Import WooCommerce"
+
+#: includes/classes/class-wpie-extensions.php:149
+msgid "Import Products, Orders, Product Categories and coupons to WordPress Site"
+msgstr "Import des produits, commandes, catégories de produits et codes promo depuis WordPress"
+
+#: includes/classes/class-wpie-extensions.php:154
+#: includes/classes/class-wpie-extensions.php:159
+msgid "Import multilingual content to WordPress Site"
+msgstr "Import du contenu multilingue depuis WordPress"
+
+#: includes/classes/class-wpie-extensions.php:197
+#: includes/classes/class-wpie-extensions.php:226
+msgid "Settings Successfully Updated"
+msgstr "Réglages mis à jour"
+
+#: includes/classes/class-wpie-general.php:588
+msgid "WP Import Export Dashboard"
+msgstr "Tableau de bord de WP Import Export"
+
+#: includes/classes/class-wpie-general.php:588
+msgid "WP Imp Exp"
+msgstr "WP Imp Exp"
+
+#: includes/classes/class-wpie-general.php:590
+#: includes/views/wpie-new-export.php:35 includes/views/wpie-settings.php:155
+msgid "New Export"
+msgstr "Nouvel export"
+
+#: includes/classes/class-wpie-general.php:592
+#: includes/views/wpie-manage-export.php:31
+#: includes/views/wpie-new-export.php:635 includes/views/wpie-settings.php:159
+msgid "Manage Export"
+msgstr "Gérer l’export"
+
+#: includes/classes/class-wpie-general.php:594
+#: includes/views/wpie-new-import.php:79 includes/views/wpie-new-import.php:870
+#: includes/views/wpie-settings.php:163
+msgid "New Import"
+msgstr "Nouvel import"
+
+#: includes/classes/class-wpie-general.php:596
+#: includes/views/wpie-manage-import.php:42
+#: includes/views/wpie-new-import.php:873 includes/views/wpie-settings.php:167
+msgid "Manage Import"
+msgstr "Gérer l’import"
+
+#: includes/classes/class-wpie-general.php:598
+#: includes/views/wpie-extension-info.php:32
+#: includes/views/wpie-settings.php:56 includes/views/wpie-settings.php:171
+msgid "Settings"
+msgstr "Réglages"
+
+#: includes/classes/class-wpie-general.php:662
+msgid "User can export new data"
+msgstr "L’utilisateur/utilisatrice peut exporter de nouvelles données"
+
+#: includes/classes/class-wpie-general.php:663
+msgid "User can manage export data"
+msgstr "L’utilisateur/utilisatrice peut gérer l’export de données"
+
+#: includes/classes/class-wpie-general.php:664
+msgid "User can import new data"
+msgstr "L’utilisateur/utilisatrice peut importer de nouvelles données"
+
+#: includes/classes/class-wpie-general.php:665
+msgid "User can manage import data"
+msgstr "L’utilisateur/utilisatrice peut gérer l’import de données"
+
+#: includes/classes/class-wpie-general.php:666
+msgid "User can manage Settings of import and export"
+msgstr "L’utilisateur/utilisatrice peut gérer les réglages d’import et d’export"
+
+#: includes/classes/class-wpie-general.php:752
+msgid "Action failed. Please refresh the page and retry."
+msgstr "L’action a échoué. Veuillez actualiser la page et essayer de nouveau."
+
+#: includes/classes/class-wpie-general.php:773
+msgid "Dismiss"
+msgstr "Ignorer"
+
+#: includes/classes/class-wpie-general.php:856
+#: includes/classes/import/extensions/yoast-seo/views/post.php:237
+#: includes/classes/import/extensions/yoast-seo/views/taxonomy.php:171
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/classes/class-wpie-general.php:857
+#: includes/views/wpie-extension-info.php:80
+#: includes/views/wpie-extensions.php:186
+#: includes/views/wpie-manage-export.php:211
+#: includes/views/wpie-manage-export.php:235
+#: includes/views/wpie-manage-import.php:230
+#: includes/views/wpie-manage-import.php:261
+#: includes/views/wpie-new-export.php:512
+#: includes/views/wpie-new-import.php:814 includes/views/wpie-settings.php:272
+msgid "Ok"
+msgstr "OK"
+
+#: includes/classes/class-wpie-general.php:858
+msgid "Error"
+msgstr "Erreur"
+
+#: includes/classes/class-wpie-general.php:860
+msgid "Select Template"
+msgstr "Sélectionner un modèle"
+
+#: includes/classes/class-wpie-general.php:863
+msgid "Not connect.\\n Verify Network."
+msgstr "Pas de connexion.\\n Vérifier le réseau."
+
+#: includes/classes/class-wpie-general.php:864
+msgid "Requested page not found. [404]"
+msgstr "La page demandée n’a pas été trouvée. [404]"
+
+#: includes/classes/class-wpie-general.php:865
+msgid "Internal Server Error [500]."
+msgstr "Erreur interne du serveur [500]."
+
+#: includes/classes/class-wpie-general.php:866
+msgid "Requested JSON parse failed."
+msgstr "L’analyse JSON demandée a échoué."
+
+#: includes/classes/class-wpie-general.php:867
+msgid "Time out error."
+msgstr "Erreur de délai dépassé."
+
+#: includes/classes/class-wpie-general.php:868
+msgid "Ajax request aborted."
+msgstr "Requête Ajax interrompue."
+
+#: includes/classes/class-wpie-general.php:869
+msgid "Bad Request"
+msgstr "Requête incorrecte"
+
+#: includes/classes/class-wpie-general.php:870
+msgid "Uncaught Error"
+msgstr "Erreur non détectée"
+
+#: includes/classes/class-wpie-general.php:871
+#: includes/views/wpie-new-export.php:152
+#: includes/views/wpie-new-import.php:307
+msgid "Select Rule"
+msgstr "Sélectionner une règle"
+
+#: includes/classes/class-wpie-general.php:872
+#: includes/views/wpie-new-export.php:147
+#: includes/views/wpie-new-import.php:302
+msgid "Select Element"
+msgstr "Sélectionner un élément"
+
+#: includes/classes/class-wpie-general.php:873
+msgid "Please choose export type"
+msgstr "Veuillez choisir un type d’export"
+
+#: includes/classes/class-wpie-general.php:874
+msgid "Please choose export taxonomy type"
+msgstr "Veuillez choisir le type de taxonomie d’export"
+
+#: includes/classes/class-wpie-general.php:875
+msgid "Please enter template Name"
+msgstr "Veuillez saisir le nom du modèle"
+
+#: includes/classes/class-wpie-general.php:877
+msgid "Please enter CSV delimiter"
+msgstr "Veuillez saisir le délimiteur CSV"
+
+#: includes/classes/class-wpie-general.php:878
+msgid "AND"
+msgstr "ET"
+
+#: includes/classes/class-wpie-general.php:879
+#: includes/classes/import/extensions/local-upload/wpie-local-upload-view.php:12
+msgid "OR"
+msgstr "OU"
+
+#: includes/classes/class-wpie-general.php:880
+#: includes/views/wpie-extension-info.php:44
+#: includes/views/wpie-extensions.php:36 includes/views/wpie-new-export.php:385
+#: includes/views/wpie-new-export.php:464
+#: includes/views/wpie-new-import.php:485 includes/views/wpie-settings.php:186
+#: includes/views/wpie-settings.php:209 includes/views/wpie-settings.php:242
+#: includes/views/wpie-settings.php:252
+msgid "Save"
+msgstr "Enregistrer"
+
+#: includes/classes/class-wpie-general.php:881
+#: includes/classes/import/extensions/user/wpie-user-fields.php:181
+#: includes/classes/import/fields/wpie-comments.php:236
+#: includes/classes/import/fields/wpie-post.php:276
+#: includes/classes/import/fields/wpie-taxonomy.php:256
+#: includes/views/wpie-new-export.php:632
+msgid "Close"
+msgstr "Fermer"
+
+#: includes/classes/export/class-wpie-export.php:201
+#: includes/classes/import/class-wpie-import.php:28
+#: includes/classes/import/fields/wpie-post.php:389
+msgid "Comments"
+msgstr "Commentaires"
+
+#: includes/classes/export/class-wpie-export.php:200
+#: includes/classes/import/class-wpie-import.php:27
+msgid "Users"
+msgstr "Comptes"
+
+#: includes/classes/export/class-wpie-export.php:206
+#: includes/classes/import/class-wpie-import.php:33
+#: includes/views/wpie-new-export.php:88 includes/views/wpie-new-import.php:221
+msgid "WooCommerce Products"
+msgstr "Produits WooCommerce"
+
+#: includes/classes/export/class-wpie-export.php:209
+#: includes/classes/import/class-wpie-import.php:36
+#: includes/views/wpie-new-export.php:91 includes/views/wpie-new-import.php:224
+msgid "WooCommerce Orders"
+msgstr "Commandes WooCommerce"
+
+#: includes/classes/class-wpie-general.php:882
+msgid "No fields found please choose other option"
+msgstr "Aucun champ trouvé, veuillez choisir une autre option"
+
+#: includes/classes/class-wpie-general.php:883
+#: includes/views/wpie-new-export.php:414
+msgid "Export Field Editor"
+msgstr "Éditeur de champs d’export"
+
+#: includes/classes/class-wpie-general.php:884
+msgid "Please Enter Field Name"
+msgstr "Veuillez saisir le nom du champ"
+
+#: includes/classes/class-wpie-general.php:886
+msgid "Export Completed"
+msgstr "Exportation terminée"
+
+#: includes/classes/class-wpie-general.php:887
+msgid "Please Activate User Export Extension"
+msgstr "Veuillez activer le module Export de compte"
+
+#: includes/classes/class-wpie-general.php:667
+msgid "User can manage Extensions of import and export"
+msgstr "L’utilisateur/utilisatrice peut gérer les modules d’import et d’export"
+
+#: includes/classes/class-wpie-general.php:600
+#: includes/views/wpie-extensions.php:30
+msgid "Extensions"
+msgstr "Modules"
+
+#: includes/classes/class-wpie-extensions.php:231
+msgid "Extension Not Found"
+msgstr "Module non trouvée"
+
+#: includes/classes/class-wpie-general.php:888
+msgid "Please Activate WooCommerce Export Extension"
+msgstr "Veuillez activer le module Export WooCommerce"
+
+#: includes/classes/class-wpie-general.php:893
+msgid "File Uploaded Successfully"
+msgstr "Fichier téléversé avec succès"
+
+#: includes/classes/class-wpie-general.php:895
+#: includes/classes/import/extensions/local-upload/wpie-local-upload-view.php:21
+msgid "Uploading"
+msgstr "Téléversement"
+
+#: includes/classes/class-wpie-general.php:896
+msgid "Upload Complete"
+msgstr "Téléversement terminé"
+
+#: includes/classes/class-wpie-general.php:897
+msgid "Parsing upload file"
+msgstr "Analyse du fichier téléversé"
+
+#: includes/classes/class-wpie-general.php:898
+msgid "Get Template List"
+msgstr "Obtenir la liste des modèles"
+
+#: includes/classes/class-wpie-general.php:901
+msgid "Get Configuration"
+msgstr "Obtenir la configuration"
+
+#: includes/classes/class-wpie-general.php:902
+msgid "Get Import Fields"
+msgstr "Obtenir les champs d’importation"
+
+#: includes/classes/class-wpie-general.php:938
+#: includes/views/wpie-manage-export.php:108
+#: includes/views/wpie-manage-import.php:122
+msgid "Paused"
+msgstr "En pause"
+
+#: includes/classes/class-wpie-general.php:939
+#: includes/views/wpie-manage-export.php:103
+#: includes/views/wpie-manage-import.php:120
+#: includes/views/wpie-manage-import.php:126
+msgid "Processing"
+msgstr "En cours"
+
+#: includes/classes/class-wpie-general.php:940
+#: includes/views/wpie-manage-export.php:110
+#: includes/views/wpie-manage-import.php:124
+msgid "Stopped"
+msgstr "Arrêté"
+
+#: includes/classes/class-wpie-general.php:943
+msgid "Set Schedule"
+msgstr "Définir la planification"
+
+#: includes/classes/class-wpie-general.php:890
+msgid "You haven't selected any columns for export."
+msgstr "Vous n’avez sélectionné aucune colonne pour l’exportation."
+
+#: includes/classes/class-wpie-general.php:885
+msgid "There aren't any Records to export."
+msgstr "Il n’y a pas d’enregistrement à exporter."
+
+#: includes/classes/class-wpie-general.php:903
+msgid "Get Preview Recods"
+msgstr "Obtenir des enregistrements préalables"
+
+#: includes/classes/class-wpie-general.php:894
+msgid "Uploaded file must be CSV, ZIP, XLS, XLSX, XML, TXT, JSON"
+msgstr "Le fichier téléversé doit être de type CSV, ZIP, XLS, XLSX, XML, TXT ou JSON"
+
+#: includes/classes/class-wpie-general.php:774
+msgid "WP Import Export : "
+msgstr "WP Import Export : "
+
+#: includes/classes/class-wpie-general.php:904
+msgid "Set Template"
+msgstr "Définir le modèle"
+
+#: includes/classes/class-wpie-general.php:906
+msgid "Save Template"
+msgstr "Enregistrer le modèle"
+
+#: includes/classes/class-wpie-general.php:907
+#: includes/views/wpie-new-import.php:477
+msgid "Save Settings"
+msgstr "Enregistrer les réglages"
+
+#: includes/classes/class-wpie-general.php:908
+msgid "No Records Found. Please Try another filters"
+msgstr "Aucun enregistrement trouvé. Veuillez essayer un autre filtre"
+
+#: includes/classes/class-wpie-general.php:910
+msgid "Import Processing"
+msgstr "Import en cours"
+
+#: includes/classes/class-wpie-general.php:911
+msgid "Import Complete!"
+msgstr "Import terminé !"
+
+#: includes/classes/class-wpie-general.php:912
+msgid "Import Paused"
+msgstr "Import en pause"
+
+#: includes/classes/class-wpie-general.php:913
+msgid "Import Stopped"
+msgstr "Import arrêté"
+
+#: includes/classes/class-wpie-general.php:917
+msgid "Please Choose Valid File"
+msgstr "Veuillez choisir un fichier valide"
+
+#: includes/classes/class-wpie-general.php:918
+msgid "Set Existing File"
+msgstr "Régler le fichier existant"
+
+#: includes/classes/class-wpie-general.php:921
+msgid "Please choose user role"
+msgstr "Veuillez sélectionner un rôle"
+
+#: includes/classes/class-wpie-general.php:922
+msgid "Please Select Templates"
+msgstr "Veuillez sélectionner un modèle"
+
+#: includes/classes/class-wpie-general.php:923
+msgid "Please select any action"
+msgstr "Veuillez sélectionner une action"
+
+#: includes/classes/class-wpie-general.php:924
+msgid "Set Background Process"
+msgstr "Régler le processus en tâche de fond"
+
+#: includes/classes/class-wpie-general.php:925
+msgid "Background Process Set Successfully"
+msgstr "Processus en tâche de fond bien réglé"
+
+#: includes/classes/class-wpie-general.php:928
+msgid "Please Enter Valid URL"
+msgstr "Veuillez entrer une URL valide"
+
+#: includes/classes/class-wpie-general.php:932
+msgid "Downloading File"
+msgstr "Téléchargement du fichier"
+
+#: includes/classes/class-wpie-general.php:937
+msgid "Prepare File"
+msgstr "Préparer le dossier"
+
+#: includes/classes/class-wpie-general.php:944
+msgid "Please Fill Required Fields"
+msgstr "Merci de remplir tous les champs obligatoires"
+
+#: includes/classes/class-wpie-general.php:955
+msgid "Pro Feature Only"
+msgstr "Fonctionnalité Pro uniquement"
+
+#: includes/classes/class-wpie-general.php:914
+msgid "Importing may take some time. Please do not close your browser or refresh the page until the process is complete."
+msgstr "L’exportation peut prendre un certain temps. Veuillez ne pas fermer votre navigateur ou actualiser la page tant que le processus n’est pas terminé."
+
+#: includes/classes/class-wpie-general.php:929
+msgid "Please Enter Valid Host Name"
+msgstr "Veuillez entrer un nom d’hôte valide"
+
+#: includes/classes/class-wpie-general.php:930
+msgid "Please Enter Valid Host Username"
+msgstr "Veuillez entrer un nom d’utilisateur valide pour l’hôte"
+
+#: includes/classes/class-wpie-general.php:931
+msgid "Please Enter Valid Host Password"
+msgstr "Veuillez entrer le mot de passe valide de l’hôte"
+
+#: includes/classes/class-wpie-general.php:933
+msgid "Please Enter Valid Host Path"
+msgstr "Veuillez entrer un chemin d’accès valide pour l’hôte"
+
+#: includes/classes/class-wpie-general.php:934
+msgid "Please Activate User Import Extension"
+msgstr "Veuillez activer l’extension d’importation d’utilisateur"
+
+#: includes/classes/class-wpie-general.php:935
+msgid "Please Activate WooCommerce Import Extension"
+msgstr "Veuillez activer l’extension d’importation WooCommerce"
+
+#: includes/classes/export/class-wpie-export.php:186
+msgid "Class %s Not Exist"
+msgstr "La classe %s n’existe pas"
+
+#: includes/classes/class-wpie-general.php:915
+msgid "WordPress Import Export partially imported your file into your WordPress installation!"
+msgstr "WP Import Export a partiellement importé votre fichier dans votre installation WordPress !"
+
+#: includes/classes/class-wpie-general.php:916
+msgid "WordPress Import Export successfully imported your file into your WordPress installation!"
+msgstr "WP Import Export a importé avec succès votre fichier dans votre installation WordPress !"
+
+#: includes/classes/class-wpie-general.php:927
+msgid "plugin will automatically import data in Background. you can close your browser."
+msgstr "l’extension importera automatiquement les données en tâche de fond. Vous pouvez fermer votre navigateur."
+
+#: includes/classes/class-wpie-general.php:926
+msgid "Import in Background"
+msgstr "Importation en tâche de fond"
+
+#: includes/classes/class-wpie-general.php:891
+#: includes/classes/import/extensions/existing-file/wpie-existing-file-view.php:18
+msgid "Choose File"
+msgstr "Choisir le fichier"
+
+#: includes/classes/class-wpie-general.php:859
+#: includes/classes/import/extensions/existing-file/wpie-existing-file-view.php:38
+#: includes/views/wpie-manage-export.php:225
+#: includes/views/wpie-manage-import.php:251
+msgid "Confirm"
+msgstr "Confirmer"
+
+#: includes/classes/export/class-wpie-export.php:210
+#: includes/classes/import/class-wpie-import.php:37
+#: includes/views/wpie-new-export.php:92 includes/views/wpie-new-import.php:225
+msgid "WooCommerce Coupons"
+msgstr "Codes promo WooCommerce"

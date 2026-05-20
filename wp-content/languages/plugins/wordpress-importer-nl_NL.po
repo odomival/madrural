@@ -1,0 +1,325 @@
+# Translation of Plugins - WordPress Importer - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - WordPress Importer - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-09-17 17:02:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - WordPress Importer - Stable (latest release)\n"
+
+#: class-wp-import.php:334
+msgid "Change all imported URLs that currently link to the previous site so that they now link to this site"
+msgstr "Wijzig alle geïmporteerde URL's die momenteel naar de vorige site linken, zodat ze nu naar deze site linken"
+
+#: class-wp-import.php:331
+msgid "Content Options"
+msgstr "Inhoud opties"
+
+#: class-wp-import.php:117
+msgid "URL rewriting requires WordPress 6.7 or newer. The import will continue without rewriting URLs."
+msgstr "Voor het herschrijven van URL's is WordPress 6.7 of nieuwer vereist. Het importeren gaat door zonder URL's te herschrijven."
+
+#. translators: %1$s is the unexpected token type.
+#: php-toolkit/XML/class-xmlprocessor.php:3812
+msgid "Unexpected token type \"%1$s\" in element stage."
+msgstr "Onverwacht type token \"%1$s\" in element stage."
+
+#. Translators: 1: The closing tag name. 2: The opening tag name.
+#. translators: %1$s is the name of the closing HTML tag, %2$s is the name of
+#. the opening HTML tag.
+#: php-toolkit/XML/class-xmlprocessor.php:3780
+#: php-toolkit/XML/class-xmlprocessor.php:3792
+msgid "The closing tag \"%1$s\" did not match the opening tag \"%2$s\"."
+msgstr "De sluitings tag \"%1$s\" komt niet overeen met de openings tag \"%2$s\"."
+
+#. Translators: 1: The XML namespace.
+#: php-toolkit/XML/class-xmlprocessor.php:3417
+msgid "The namespace \"%1$s\" is not in the current element's scope."
+msgstr "De namespace \"%1$s\" valt niet binnen het bereik van het huidige element."
+
+#: php-toolkit/XML/class-xmlprocessor.php:3398
+msgid "Setting attributes in the xmlns namespace is not yet supported by set_attribute()."
+msgstr "Attributen instellen in de xmlns namespace wordt nog niet ondersteund door set_attribute()."
+
+#: php-toolkit/XML/class-xmlprocessor.php:3390
+msgid "Non-string attribute values cannot be passed to set_attribute()."
+msgstr "Niet-string attribuutwaarden kunnen niet worden doorgegeven aan set_attribute()."
+
+#: php-toolkit/XML/class-xmlprocessor.php:3362
+msgid "Cannot set text content on a non-text node."
+msgstr "Kan geen tekstinhoud instellen op een niet-tekst node."
+
+#: php-toolkit/XML/class-xmlprocessor.php:3313
+msgid "Invalid text content encountered."
+msgstr "Ongeldige tekstinhoud gevonden."
+
+#: php-toolkit/XML/class-xmlprocessor.php:2807
+#: php-toolkit/XML/class-xmlprocessor.php:2846
+msgid "Invalid attribute value encountered."
+msgstr "Ongeldige attribuutwaarde gevonden."
+
+#: php-toolkit/XML/class-xmlprocessor.php:2630
+msgid "Too many calls to seek() - this can lead to performance issues."
+msgstr "Te veel oproepen naar seek() - dit kan leiden tot prestatieproblemen."
+
+#: php-toolkit/XML/class-xmlprocessor.php:2620
+msgid "Unknown bookmark name."
+msgstr "Onbekende bladwijzernaam."
+
+#: php-toolkit/XML/class-xmlprocessor.php:1616
+msgid "Breadcrumbs must be an array of strings or two-tuples of (namespace, local name)."
+msgstr "Kruimelpaden moeten een array zijn van strings of twee-tupels van (namespace, lokale naam)."
+
+#: php-toolkit/XML/class-xmlprocessor.php:1600
+msgid "Cannot visit tag closers in XML Processor."
+msgstr "Kan tag sluiters niet bezoeken in XML processor."
+
+#: php-toolkit/XML/class-xmlprocessor.php:1572
+msgid "Please pass a query array to this function."
+msgstr "Geef een query array door aan deze functie."
+
+#: php-toolkit/XML/class-xmlprocessor.php:1465
+msgid "Too many bookmarks: cannot create any more."
+msgstr "Te veel bladwijzers: je kunt er geen meer aanmaken."
+
+#: php-toolkit/XML/class-xmlprocessor.php:913
+msgid "Cannot append bytes after the last input chunk was provided and input_finished() was called."
+msgstr "Kan geen bytes toevoegen nadat het laatste invoerblok is geleverd en input_finished() is aangeroepen."
+
+#. translators: %s: XMLProcessor::create_fragment().
+#: php-toolkit/XML/class-xmlprocessor.php:885
+msgid "Call %s to create an XML Processor instead of calling the constructor directly."
+msgstr "Roep %s aan om een XML processor te maken in plaats van direct de constructor aan te roepen."
+
+#: parsers/class-wxr-parser.php:27 parsers/class-wxr-parser.php:28
+msgid "Invalid parser specified: %s"
+msgstr "Ongeldige parser opgegeven: %s"
+
+#: class-wp-import.php:1284
+msgid "The uploaded file could not be moved"
+msgstr "Het geüploade bestand kan niet worden verplaatst"
+
+#: class-wp-import.php:1269
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr "Dit bestandstype is niet toegestaan om veiligheidsreden."
+
+#: class-wp-import.php:1231
+msgid "Downloaded file has incorrect size"
+msgstr "Het gedownloade bestand heeft een onjuiste grootte"
+
+#. translators: 1: The HTTP error message. 2: The HTTP error code.
+#: class-wp-import.php:1207
+msgid "Remote server returned the following unexpected result: %1$s (%2$s)"
+msgstr "Het volgende onverwachte antwoord ontvangen van remote server: %1$s (%2$s)"
+
+#. translators: 1: The WordPress error message. 2: The WordPress error code.
+#: class-wp-import.php:1191
+msgid "Request failed due to an error: %1$s (%2$s)"
+msgstr "Er is een fout bij de aanvraag: %1$s (%2$s)"
+
+#: class-wp-import.php:1169
+msgid "Could not create temporary file."
+msgstr "Kon tijdelijk bestand niet aanmaken."
+
+#: class-wp-import.php:312
+msgid "To make it simpler for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site, such as your primary administrator account."
+msgstr "Om het je makkelijker te maken om geïmporteerde inhoud te bewerken en op te slaan, kun je de auteur van het geïmporteerde item opnieuw toewijzen aan een bestaande gebruiker van deze site, zoals het account van de primaire beheerder."
+
+#. Author URI of the plugin
+#: wordpress-importer.php
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. Author of the plugin
+#: wordpress-importer.php
+msgid "wordpressdotorg"
+msgstr "wordpressdotorg"
+
+#. Description of the plugin
+#: wordpress-importer.php
+msgid "Import posts, pages, comments, custom fields, categories, tags and more from a WordPress export file."
+msgstr "Importeer berichten, pagina's, reacties, aangepaste velden, categorieën, tags en meer uit een WordPress exportbestand."
+
+#. Plugin URI of the plugin
+#: wordpress-importer.php
+msgid "https://wordpress.org/plugins/wordpress-importer/"
+msgstr "https://wordpress.org/plugins/wordpress-importer/"
+
+#. Plugin Name of the plugin
+#: wordpress-importer.php
+msgid "WordPress Importer"
+msgstr "WordPress Importer"
+
+#: wordpress-importer.php:76
+msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
+msgstr "Importeer <strong>berichten, pagina's, reacties, aangepaste velden, categorieën en tags</strong> uit een WordPress exportbestand."
+
+#: class-wp-import.php:1429
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr "Kies een WXR(.xml) bestand om te uploaden, klik daarna op 'Bestand uploaden en importeren'."
+
+#: class-wp-import.php:1428
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr "Hallo! Upload je WordPress eXtended RSS (WXR) bestand en de berichten, pagina's, reacties, aangepaste velden, categorieën en tags zullen worden geïmporteerd naar deze site."
+
+#: class-wp-import.php:1413
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr "Een nieuwere versie van deze importeerfunctie is beschikbaar. Update naar versie %s om compatibiliteit met nieuwere export bestanden te verzekeren."
+
+#: class-wp-import.php:1406
+msgid "Import WordPress"
+msgstr "WordPress importeren"
+
+#: class-wp-import.php:1237
+msgid "Remote file is too large, limit is %s"
+msgstr "Het externe bestand is te groot; de limiet is %s"
+
+#: class-wp-import.php:1226
+msgid "Zero size file downloaded"
+msgstr "Leeg bestand gedownload"
+
+#: class-wp-import.php:1219
+msgid "Remote server did not respond"
+msgstr "De externe server heeft niet gereageerd"
+
+#: class-wp-import.php:1125
+msgid "Invalid file type"
+msgstr "Ongeldig bestandstype"
+
+#: class-wp-import.php:1107
+msgid "Fetching attachments is not enabled"
+msgstr "Bijlagen ophalen is niet ingeschakeld"
+
+#: class-wp-import.php:1040
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "Menu item overgeslagen vanwege een ongeldige menu slug: %s"
+
+#: class-wp-import.php:1033
+msgid "Menu item skipped due to missing menu slug"
+msgstr "Menu item overgeslagen omdat de menu slug ontbreekt"
+
+#: class-wp-import.php:847
+msgid "Failed to import %1$s &#8220;%2$s&#8221;"
+msgstr "Het importeren van %1$s &#8220;%2$s&#8221; is mislukt"
+
+#: class-wp-import.php:752
+msgid "%1$s &#8220;%2$s&#8221; already exists."
+msgstr "%1$s &#8220;%2$s&#8221; bestaat al."
+
+#: class-wp-import.php:711
+msgid "Failed to import &#8220;%1$s&#8221;: Invalid post type %2$s"
+msgstr "Het importeren van &#8220;%1$s&#8221;: is mislukt: ongeldig berichttype %2$s"
+
+#: class-wp-import.php:620 class-wp-import.php:886
+msgid "Failed to import %1$s %2$s"
+msgstr "Het importeren van %1$s %2$s is mislukt"
+
+#: class-wp-import.php:559
+msgid "Failed to import post tag %s"
+msgstr "Het importeren van de bericht tag %s is mislukt"
+
+#: class-wp-import.php:508
+msgid "Failed to import category %s"
+msgstr "Het importeren van categorie %s is mislukt"
+
+#: class-wp-import.php:449
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr "Nieuwe gebruiker aanmaken voor %s mislukt; de berichten zullen worden toegewezen aan de huidige gebruiker."
+
+#: class-wp-import.php:390
+msgid "- Select -"
+msgstr "- Selecteer -"
+
+#: class-wp-import.php:381
+msgid "or assign posts to an existing user:"
+msgstr "of wijs berichten toe aan een bestaande gebruiker:"
+
+#: class-wp-import.php:379
+msgid "assign posts to an existing user:"
+msgstr "berichten toewijzen aan een bestaande gebruiker:"
+
+#: class-wp-import.php:369
+msgid "as a new user:"
+msgstr "als een nieuwe gebruiker:"
+
+#: class-wp-import.php:366
+msgid "or create new user with login name:"
+msgstr "of creëer een nieuwe gebruiker met login naam:"
+
+#: class-wp-import.php:351
+msgid "Import author:"
+msgstr "Importeer auteur:"
+
+#: class-wp-import.php:337
+msgid "Submit"
+msgstr "Verzenden"
+
+#: class-wp-import.php:327
+msgid "Download and import file attachments"
+msgstr "Download en importeer bestandsbijlages"
+
+#: class-wp-import.php:324
+msgid "Import Attachments"
+msgstr "Importeer bijlagen"
+
+#: class-wp-import.php:314
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr "Als er een nieuwe gebruiker aangemaakt wordt door WordPress, zal er een willekeurig wachtwoord gegenereerd worden en de rol van de gebruiker zal ingesteld worden als %s. De gegevens van de nieuwe gebruiker zullen handmatig veranderd moeten worden."
+
+#: class-wp-import.php:311
+msgid "Assign Authors"
+msgstr "Wijs auteurs toe"
+
+#: class-wp-import.php:283
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr "Het importeren van auteur %s is mislukt. Hun berichten zullen worden toegewezen aan de huidige gebruiker."
+
+#: class-wp-import.php:258
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr "Dit WXR bestand (versie %s) wordt mogelijk niet ondersteund door deze versie van de importeerfunctie. Overweeg hem te updaten."
+
+#: class-wp-import.php:240
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr "Het exportbestand kon niet worden gevonden op <code>%s</code>. Het is waarschijnlijk dat dit werd veroorzaakt door een toestemming probleem."
+
+#: class-wp-import.php:220
+msgid "Remember to update the passwords and roles of imported users."
+msgstr "Vergeet niet de wachtwoorden en rollen van de geïmporteerde gebruikers te updaten."
+
+#: class-wp-import.php:219
+msgid "Have fun!"
+msgstr "Veel plezier!"
+
+#: class-wp-import.php:219
+msgid "All done."
+msgstr "Alles gedaan."
+
+#: class-wp-import.php:151
+msgid "The file does not exist, please try again."
+msgstr "Het bestand bestaat niet, probeer het nog eens."
+
+#: class-wp-import.php:150 class-wp-import.php:161 class-wp-import.php:235
+#: class-wp-import.php:239 class-wp-import.php:250
+msgid "Sorry, there has been an error."
+msgstr "Er is een fout opgetreden."
+
+#: parsers/class-wxr-parser-regex.php:102
+#: parsers/class-wxr-parser-simplexml.php:46
+#: parsers/class-wxr-parser-simplexml.php:52
+#: parsers/class-wxr-parser-xml-processor.php:190
+#: parsers/class-wxr-parser-xml.php:106
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "Het lijkt erop dat dit geen WXR bestand is; ontbrekend/ongeldig WXR versie nummer"
+
+#: parsers/class-wxr-parser.php:69
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr "De details zijn hierboven weergegeven. De importeerfunctie zal nu een andere parser proberen..."
+
+#: parsers/class-wxr-parser-simplexml.php:33
+#: parsers/class-wxr-parser-simplexml.php:41 parsers/class-wxr-parser.php:68
+msgid "There was an error when reading this WXR file"
+msgstr "Er is een fout opgetreden bij het inlezen van dit WXR bestand"

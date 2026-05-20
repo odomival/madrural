@@ -1,0 +1,55 @@
+
+/*LOGGIN PAGE*/
+
+#login {
+  width: 50vw;
+  padding: 5% 0 0;
+  margin: auto;
+  max-width: 650px;
+  min-width: 320px;
+}
+
+.login h1 a {
+	background-image: url("")!important;
+	background-size: 100%;
+	width: 100px;
+	height: 130px;
+}
+
+.login form {
+	border: none;
+	box-shadow: 1px 1px 13px -2px rgba(0, 0, 0, 0.3);
+}
+.login form .input, .login input[type=password], .login input[type=text] {
+	border-radius: 0;
+	background: #ebebeb;
+	border: 1px solid #d9d9d9;
+}
+
+.login form .input, .login input[type="password"], .login input[type="text"] {border-radius: 6px;}
+
+.login .button {padding: 5px 15px; border-radius: 13px !important;}
+
+.wp-core-ui .button-primary {
+	border-radius: 0;
+	background: #e86848;
+	border-color: #e86848;
+}
+.wp-core-ui .button-secondary {
+	color: #6e6e6e;
+}
+#nav, #backtoblog {
+	text-align: center;
+}
+.login #nav a {
+	color: #e86848;
+}
+
+.login #backtoblog a:hover {color: #000}
+
+.login .button-primary:hover {background:  #000;}
+
+.login #backtoblog {background:  #e86848; border-radius: 13px; padding: 10px 30px; text-align: center}
+
+
+.login #backtoblog a { color: #fff; font-size: 16px;text-align: center;}

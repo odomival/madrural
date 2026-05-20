@@ -1,0 +1,446 @@
+# Translation of Plugins - Antispam Bee - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Antispam Bee - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-03-15 13:27:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Antispam Bee - Stable (latest release)\n"
+
+#. translators: s=filter name
+#: inc/gui.class.php:514
+msgid "Uses output buffering instead of the %s filter."
+msgstr "Gebruikt uitvoerbuffering in plaats van het %s filter."
+
+#: inc/gui.class.php:510
+msgid "Check complete site markup for comment forms"
+msgstr "Controleer de volledige site markup van reactieformulieren"
+
+#: inc/gui.class.php:334
+msgid "https://antispambee.pluginkollektiv.org/documentation/#allow-comments-only-in-certain-language"
+msgstr "https://antispambee.pluginkollektiv.org/documentation/#allow-comments-only-in-certain-language"
+
+#: inc/gui.class.php:271
+msgid "https://antispambee.pluginkollektiv.org/documentation/#block-comments-from-specific-countries"
+msgstr "https://antispambee.pluginkollektiv.org/documentation/#block-comments-from-specific-countries"
+
+#: inc/gui.class.php:213
+msgid "https://antispambee.pluginkollektiv.org/documentation/#trust-commenters-with-a-gravatar"
+msgstr "https://antispambee.pluginkollektiv.org/documentation/#trust-commenters-with-a-gravatar"
+
+#: antispam_bee.php:2586
+msgid "Pingback"
+msgstr "Pingback"
+
+#: inc/gui.class.php:240
+msgid "BBCode links are spam"
+msgstr "BBCode links zijn spam"
+
+#: inc/columns.class.php:106
+msgid "All spam reasons"
+msgstr "Alle spam redenen"
+
+#: inc/columns.class.php:104
+msgid "Filter by spam reason"
+msgstr "Filter per spam reden"
+
+#: inc/gui.class.php:532
+msgid "https://antispambee.pluginkollektiv.org/documentation"
+msgstr "https://antispambee.pluginkollektiv.org/documentation"
+
+#. translators: 1: opening <a> tag with link to ISO codes reference. 2: closing
+#. </a> tag.
+#: inc/gui.class.php:314
+msgid "Allowed %1$sISO country codes%2$s for this option."
+msgstr "Toegestaan  %1$sISO country codes%2$s voor deze optie."
+
+#. translators: 1: opening <a> tag with link to ISO codes reference. 2: closing
+#. </a> tag.
+#: inc/gui.class.php:299
+msgid "Denied %1$sISO country codes%2$s for this option."
+msgstr "Niet toegestaan  %1$sISO land codes%2$s voor deze optie."
+
+#: antispam_bee.php:493
+msgid "Manually"
+msgstr "Handmatig"
+
+#. Plugin URI of the plugin
+#: antispam_bee.php antispam_bee.php:2641
+msgid "https://antispambee.pluginkollektiv.org/"
+msgstr "https://antispambee.pluginkollektiv.org/"
+
+#. translators: If your word count is based on single characters (e.g. East
+#. Asian characters), enter 'characters_excluding_spaces' or
+#. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
+#. into your own language.
+#: antispam_bee.php:1968
+msgctxt "Word count type. Do not translate!"
+msgid "words"
+msgstr "words"
+
+#: inc/gui.class.php:466
+msgid "If checked, you will delete all data Antispam Bee creates, when uninstalling the plugin."
+msgstr "Indien aangevinkt, worden alle gegevens die Antispam Bee aanmaakt, verwijderd wanneer je de plugin verwijdert."
+
+#: inc/gui.class.php:465
+msgid "Delete Antispam Bee data when uninstalling"
+msgstr "Gegevens van Antispam Bee verwijderen bij deïnstalleren van de plugin"
+
+#: antispam_bee.php:2583
+msgid "Trackback"
+msgstr "Trackback"
+
+#: antispam_bee.php:2581
+msgid "Comment"
+msgstr "Reactie"
+
+#: antispam_bee.php:492
+msgid "Identical Post title and blog title"
+msgstr "Identieke berichttitel en blogtitel"
+
+#. Description of the plugin
+#: antispam_bee.php
+msgid "Antispam plugin with a sophisticated toolset for effective day to day comment and trackback spam-fighting. Built with data protection and privacy in mind."
+msgstr "Antispam plugin met een geavanceerde toolset voor het dagelijks effectief bestrijden van reacties en trackback spam. Gebouwd met gegevensbescherming en privacy in het achterhoofd."
+
+#: inc/gui.class.php:265
+msgid "Block or allow comments from specific countries"
+msgstr "Blokkeer of sta reacties toe uit bepaalde landen"
+
+#. translators: The number of spam comments Antispam Bee blocked so far.
+#: antispam_bee.php:768
+msgid "%s Blocked"
+msgid_plural "%s Blocked"
+msgstr[0] "%s geblokkeerd"
+msgstr[1] ""
+
+#: antispam_bee.php:483
+msgid "Honeypot"
+msgstr "Honeypot"
+
+#: inc/gui.class.php:559
+msgid "Spanish"
+msgstr "Spaans"
+
+#: inc/gui.class.php:558
+msgid "Italian"
+msgstr "Italiaans"
+
+#: inc/gui.class.php:557
+msgid "French"
+msgstr "Frans"
+
+#: inc/gui.class.php:556
+msgid "English"
+msgstr "Engels"
+
+#: inc/gui.class.php:555
+msgid "German"
+msgstr "Duits"
+
+#: inc/gui.class.php:532
+msgid "Manual"
+msgstr "Handleiding"
+
+#: inc/gui.class.php:529
+msgid "FAQ"
+msgstr "FAQ"
+
+#: inc/gui.class.php:529
+msgid "https://wordpress.org/plugins/antispam-bee/#faq"
+msgstr "https://wordpress.org/plugins/antispam-bee/#faq"
+
+#: inc/gui.class.php:503
+msgid "No spam check for link notifications"
+msgstr "Geen spam controle voor link meldingen"
+
+#: inc/gui.class.php:486
+msgid "Generate statistics as a dashboard widget"
+msgstr "Genereer een dashboard widget met statistieken"
+
+#: inc/gui.class.php:479
+msgid "Various options"
+msgstr "Verschillende opties"
+
+#: inc/gui.class.php:430
+msgid "Pings"
+msgstr "Pings"
+
+#: inc/gui.class.php:429
+msgid "Comments"
+msgstr "Reacties"
+
+#: inc/gui.class.php:390
+msgid "Spam-Notification by email"
+msgstr "Spam-meldingen per e-mail"
+
+#: inc/gui.class.php:362
+msgid "Language"
+msgstr "Taal"
+
+#. translators: 1: opening <a> tag with link to documentation. 2: closing </a>
+#. tag.
+#: inc/gui.class.php:341
+msgid "Detect and approve only the specified language. Please note the %1$sprivacy notice%2$s for this option."
+msgstr "Achterhaal en verbeter alleen de gespecificeerde taal. Let op het%1$sprivacy bericht %2$s voor deze optie."
+
+#: inc/gui.class.php:328
+msgid "Allow comments only in certain language"
+msgstr "Sta alleen reacties toe in een bepaalde taal"
+
+#: inc/gui.class.php:293 inc/gui.class.php:308
+msgid "e.g. BF, SG, YE"
+msgstr "bv. BF, SG, YE"
+
+#. translators: 1: opening <a> tag with link to documentation. 2: closing </a>
+#. tag.
+#: inc/gui.class.php:277
+msgid "Filtering the requests depending on country. Please note the %1$sprivacy notice%2$s for this option."
+msgstr "Filter de aanvragen o.b.v. het land. Let op het %1$sprivacy bericht%2$s voor deze optie."
+
+#: inc/gui.class.php:258
+msgid "Check for spam data on your own blog"
+msgstr "Controleer op spam gegevens op je eigen blog"
+
+#: inc/gui.class.php:250
+msgid "Predefined and custom patterns by plugin hook"
+msgstr "Vooraf gedefinieerde en eigen patronen door plugin hook"
+
+#. translators: 1: opening <a> tag with link to documentation. 2: closing </a>
+#. tag
+#: inc/gui.class.php:219
+msgid "Check if commenter has a Gravatar image. Please note the %1$sprivacy notice%2$s for this option."
+msgstr "Controleer of de auteur van de reactie een Gravatar afbeelding heeft. Let op de %1$sprivacy verklaring%2$s voor deze optie."
+
+#: inc/gui.class.php:199
+msgid "No review of already commented users"
+msgstr "Geen beoordeling van gebruikers die eerder gereageerd hebben"
+
+#: antispam_bee.php:630 inc/gui.class.php:535
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: antispam_bee.php:629 inc/gui.class.php:526
+msgid "Donate"
+msgstr "Doneren"
+
+#: antispam_bee.php:491
+msgid "Regular Expression"
+msgstr "Reguliere expressie"
+
+#: antispam_bee.php:490
+msgid "Comment Language"
+msgstr "Taal van reactie"
+
+#: antispam_bee.php:489
+msgid "BBCode"
+msgstr "BBCode"
+
+#: antispam_bee.php:488
+msgid "Country Check"
+msgstr "Land controle"
+
+#: antispam_bee.php:486
+msgid "Local DB Spam"
+msgstr "Lokale DB spam"
+
+#: antispam_bee.php:487
+msgid "Fake IP"
+msgstr "Nep IP"
+
+#: antispam_bee.php:485
+msgid "Empty Data"
+msgstr "Geen gegevens"
+
+#: antispam_bee.php:484
+msgid "Comment time"
+msgstr "Reactie tijd"
+
+#. Author URI of the plugin
+#: antispam_bee.php
+msgid "https://pluginkollektiv.org"
+msgstr "https://pluginkollektiv.org"
+
+#. Author of the plugin
+#: antispam_bee.php
+msgid "pluginkollektiv"
+msgstr "pluginkollektiv"
+
+#. Plugin Name of the plugin
+#: antispam_bee.php
+msgid "Antispam Bee"
+msgstr "Antispam Bee"
+
+#: inc/gui.class.php:538
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: inc/gui.class.php:502
+msgid "Do not check trackbacks / pingbacks"
+msgstr "Trackbacks / pingbacks niet controleren"
+
+#: inc/gui.class.php:495
+msgid "Amount of identified spam comments"
+msgstr "Aantal geïdentificeerde spam reacties"
+
+#: inc/gui.class.php:494
+msgid "Spam counter on the dashboard"
+msgstr "Spam teller op het dashboard"
+
+#: inc/gui.class.php:487
+msgid "Daily updates of spam detection rate"
+msgstr "Spam detectie mate met dagelijkse waardes"
+
+#: inc/gui.class.php:476
+msgid "More"
+msgstr "Meer"
+
+#: inc/gui.class.php:445
+msgid "For multiple selections press Ctrl/CMD"
+msgstr "Meerdere keuzes door Ctrl / CMD in te drukken"
+
+#: inc/gui.class.php:444
+msgid "Delete comments by spam reasons"
+msgstr "Verwijder reacties bij spam redenen"
+
+#: inc/gui.class.php:437
+msgid "Other types of spam will be deleted immediately"
+msgstr "Een ander type spam wil direct worden verwijderd"
+
+#. translators: %s is the select field.
+#: inc/gui.class.php:425
+msgid "Limit approval to %s"
+msgstr "Toestemming beperken tot %s"
+
+#: inc/gui.class.php:413
+msgid "Cleaning up the database from old entries"
+msgstr "Database opschonen"
+
+#. translators: $s is an input field containing the number of days.
+#: inc/gui.class.php:409
+msgid "Delete existing spam after %s days"
+msgstr "Verwijder bestaande spam na %s dagen"
+
+#: inc/gui.class.php:399
+msgid "Spam reason as a table column in the spam overview"
+msgstr "Spam redenen als een tabel in het spam overzicht"
+
+#: inc/gui.class.php:398
+msgid "Do not save the spam reason"
+msgstr "Sla de spam reden niet op"
+
+#: inc/gui.class.php:391
+msgid "Notify admins by e-mail about incoming spam"
+msgstr "Stel beheerders per e-mail op de hoogte van binnenkomende spam"
+
+#: inc/gui.class.php:383
+msgid "Keep the spam in my blog."
+msgstr "Houd de spam in mijn blog."
+
+#: inc/gui.class.php:382
+msgid "Mark as spam, do not delete"
+msgstr "Markeer als spam, niet verwijderen"
+
+#: inc/gui.class.php:375
+msgid "Other antispam tools"
+msgstr "Andere antispam gereedschappen"
+
+#: inc/gui.class.php:372
+msgid "Advanced"
+msgstr "Uitgebreid"
+
+#: inc/gui.class.php:257
+msgid "Look in the local spam database"
+msgstr "Kijk in de lokale spam database"
+
+#: inc/gui.class.php:249
+msgid "Use regular expressions"
+msgstr "Gebruik reguliere uitdrukking"
+
+#: inc/gui.class.php:241
+msgid "Review the comment contents for BBCode links"
+msgstr "Beoordeling reactie inhoud voor BBCode links"
+
+#: inc/gui.class.php:233
+msgid "Not recommended when using page caching"
+msgstr "Niet aanbevolen als je gebruikt maakt van pagina caching"
+
+#: inc/gui.class.php:232
+msgid "Consider the comment time"
+msgstr "Overweeg de reactie tijd"
+
+#: inc/gui.class.php:207
+msgid "Trust commenters with a Gravatar"
+msgstr "Vertrouw auteurs van reacties met een Gravatar"
+
+#: inc/gui.class.php:198
+msgid "Trust approved commenters"
+msgstr "Vertrouw toegestane reageerders"
+
+#: inc/gui.class.php:191
+msgid "Filter in the execution order"
+msgstr "Filter in uitvoer volgorde"
+
+#: inc/gui.class.php:188
+msgid "Antispam filter"
+msgstr "Antispam filter"
+
+#: inc/gui.class.php:26 inc/gui.class.php:30
+msgid "Cheatin&#8217; uh?"
+msgstr "Aan het valsspelen, hé?"
+
+#: antispam_bee.php:2640
+msgid "Notify message by Antispam Bee"
+msgstr "Notificatiebericht van Antispam Bee"
+
+#: antispam_bee.php:2636
+msgid "Spam list"
+msgstr "Spamlijst"
+
+#: antispam_bee.php:2632
+msgid "Approve it"
+msgstr "Toestaan"
+
+#: antispam_bee.php:2626
+msgid "Delete it"
+msgstr "Verwijderen"
+
+#: antispam_bee.php:2620
+msgid "Trash it"
+msgstr "Verplaats naar prullenbak"
+
+#: antispam_bee.php:2611 inc/columns.class.php:28 inc/gui.class.php:451
+msgid "Spam Reason"
+msgstr "Spam reden"
+
+#: antispam_bee.php:2604
+msgid "Type"
+msgstr "Type"
+
+#: antispam_bee.php:2596
+msgid "Author"
+msgstr "Auteur"
+
+#: antispam_bee.php:2592
+msgid "New spam comment on your post"
+msgstr "Nieuwe spam reactie op je bericht"
+
+#: antispam_bee.php:2576
+msgid "Content removed by Antispam Bee"
+msgstr "Inhoud verwijderd door Antispam Bee"
+
+#: antispam_bee.php:2568
+msgid "Comment marked as spam"
+msgstr "Reactie gemarkeerd als spam"
+
+#: antispam_bee.php:880
+msgid "No data available."
+msgstr "Geen gegevens beschikbaar."
+
+#: antispam_bee.php:605
+msgid "Settings"
+msgstr "Instellingen"

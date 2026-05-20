@@ -1,0 +1,138 @@
+# Translation of Plugins - Honeypot for Contact Form 7 — Protect Contact Form 7 spam with ease! [100% FREE Anti-Spam Plugin] - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - Honeypot for Contact Form 7 — Protect Contact Form 7 spam with ease! [100% FREE Anti-Spam Plugin] - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-03-02 21:52:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - Honeypot for Contact Form 7 — Protect Contact Form 7 spam with ease! [100% FREE Anti-Spam Plugin] - Stable (latest release)\n"
+
+#: includes/class-honeypot4cf7-data-table.php:81
+msgid "Edit"
+msgstr "Modifica"
+
+#: includes/class-honeypot4cf7-data-table.php:69
+msgid "no"
+msgstr "no"
+
+#: includes/class-honeypot4cf7-data-table.php:66
+msgid "yes"
+msgstr "sì"
+
+#: includes/class-honeypot4cf7-data-table.php:18
+msgid "Action"
+msgstr "Azione"
+
+#: includes/class-honeypot4cf7-data-table.php:17
+msgid "Date"
+msgstr "Data"
+
+#: includes/class-honeypot4cf7-data-table.php:15
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/class-honeypot4cf7-data-table.php:14
+msgid "Title"
+msgstr "Titolo"
+
+#: includes/admin.php:174
+msgid "Forms"
+msgstr "Moduli"
+
+#: includes/admin.php:170
+msgid "General"
+msgstr "Generale"
+
+#: includes/honeypot4cf7.php:302 includes/honeypot4cf7.php:405
+msgid "Placeholder"
+msgstr "Segnaposto"
+
+#: includes/honeypot4cf7.php:293 includes/honeypot4cf7.php:398
+msgid "Wrapper ID"
+msgstr "ID wrapper"
+
+#: includes/honeypot4cf7.php:284
+msgid "Class"
+msgstr "Classe"
+
+#: includes/honeypot4cf7.php:275
+msgid "ID"
+msgstr "ID"
+
+#: includes/honeypot4cf7.php:269
+msgid "Optional Settings"
+msgstr "Impostazioni facoltative"
+
+#: includes/honeypot4cf7.php:236
+msgid "Honeypot for CF7"
+msgstr "Honeypot per CF7"
+
+#: includes/admin.php:335 includes/honeypot4cf7.php:342
+#: includes/honeypot4cf7.php:436
+msgid "seconds"
+msgstr "secondi"
+
+#: includes/admin.php:344
+msgid "Save"
+msgstr "Salva"
+
+#: includes/admin.php:268
+msgid "Flamingo"
+msgstr "Flamingo"
+
+#: includes/admin.php:112
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: includes/admin.php:47 includes/admin.php:63
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#. translators: %s: Link to Contact Form 7 plugin page.
+#: includes/admin.php:62
+msgid "The version of %s that is installed will not work with this version of Honeypot for CF7."
+msgstr "La versione installata di %s non funziona con questa versione di Honeypot for CF7."
+
+#. Plugin Name of the plugin
+#: honeypot.php includes/admin.php:160 includes/admin.php:185
+msgid "Honeypot for Contact Form 7"
+msgstr "Honeypot for Contact Form 7"
+
+#: includes/admin.php:329
+msgid "If checked, the accessibility label will not be generated. This is not recommended, but may improve spam blocking. If you're unsure, leave this unchecked."
+msgstr "Se selezionata, l'etichetta di accessibilità non verrà generata. Questo non è consigliato, ma può migliorare il blocco dello spam. In caso di dubbio, lascia questo deselezionato."
+
+#: includes/admin.php:296 includes/honeypot4cf7.php:62
+msgid "Please leave this field empty."
+msgstr "Si prega di lasciare vuoto questo campo."
+
+#: includes/admin.php:161 includes/class-honeypot4cf7-data-table.php:16
+#: includes/honeypot4cf7.php:230 includes/honeypot4cf7.php:383
+msgid "Honeypot"
+msgstr "Honeypot "
+
+#: includes/honeypot4cf7.php:354
+msgid "Insert Tag"
+msgstr "Inserisci etichetta"
+
+#: includes/honeypot4cf7.php:257
+msgid "Name"
+msgstr "Nome"
+
+#: includes/honeypot4cf7.php:235
+msgid "Generate a form-tag for a spam-stopping honeypot field. For more details, see %s."
+msgstr "Generare un modulo-etichetta per un campo di blocco-spam di honeypot. Per maggiori dettagli, vedere %s."
+
+#. translators: %s: Link to Contact Form 7 plugin page.
+#: includes/admin.php:46
+msgid "%s must be installed and activated for the CF7 Honeypot plugin to work"
+msgstr "%s deve essere installato ed attivato per far funzionare il plugin CF7 Honeypot"
+
+#. Description of the plugin
+#: honeypot.php
+msgid "Add honeypot anti-spam functionality to the popular Contact Form 7 plugin."
+msgstr "Aggiungere le funzionalità antispam honeypot al popolare plugin Contact Form 7."
