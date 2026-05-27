@@ -186,7 +186,7 @@ if ( ! class_exists( 'MADRURAL_Auth_Plugin' ) ) {
 		}
 
 		public static function load_textdomain() {
-			load_plugin_textdomain( 'madrural-auth', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+			load_plugin_textdomain( 'madrural-auth', false, dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages' );
 		}
 
 		public static function start_session() {
@@ -1339,14 +1339,14 @@ if ( ! class_exists( 'MADRURAL_Auth_Plugin' ) ) {
 
 			wp_enqueue_style(
 				'madrural-auth-frontend',
-				plugin_dir_url( __FILE__ ) . 'assets/css/frontend.css',
+				plugins_url( 'assets/css/auth-frontend.css', dirname( __FILE__ ) ),
 				array(),
 				'1.0.0'
 			);
 
 			wp_enqueue_script(
 				'madrural-auth-frontend',
-				plugin_dir_url( __FILE__ ) . 'assets/js/frontend.js',
+				plugins_url( 'assets/js/auth-frontend.js', dirname( __FILE__ ) ),
 				array(),
 				'1.0.0',
 				true

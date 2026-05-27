@@ -16,6 +16,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+require_once __DIR__ . '/includes/class-madrural-auth-plugin.php';
+
 if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 	/**
 	 * Main plugin class.
@@ -346,6 +348,9 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 			self::register_post_type_and_taxonomies();
 			self::sync_roles_and_caps();
 			self::maybe_create_default_pages( true );
+			if ( class_exists( 'MADRURAL_Auth_Plugin' ) && is_callable( array( 'MADRURAL_Auth_Plugin', 'activate' ) ) ) {
+				MADRURAL_Auth_Plugin::activate();
+			}
 			self::backfill_events_table();
 			flush_rewrite_rules();
 		}
@@ -743,6 +748,10 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 		 * @return void
 		 */
 		public static function deactivate() {
+			if ( class_exists( 'MADRURAL_Auth_Plugin' ) && is_callable( array( 'MADRURAL_Auth_Plugin', 'deactivate' ) ) ) {
+				MADRURAL_Auth_Plugin::deactivate();
+			}
+
 			flush_rewrite_rules();
 		}
 
@@ -3510,3 +3519,7 @@ register_activation_hook( __FILE__, array( 'MADRURAL_Eventos_Plugin', 'activate'
 register_deactivation_hook( __FILE__, array( 'MADRURAL_Eventos_Plugin', 'deactivate' ) );
 
 MADRURAL_Eventos_Plugin::init();
+
+if ( class_exists( 'MADRURAL_Auth_Plugin' ) ) {
+	MADRURAL_Auth_Plugin::init();
+}
