@@ -592,8 +592,25 @@
 				return;
 			}
 
-			afterViewRender(result.url, true);
-			showToast(extractToastMessage(result.url));
+			var normalizedResultUrl = normalizeUrl(result.url);
+			if (normalizedResultUrl) {
+				normalizedResultUrl.searchParams.delete('ma_edit');
+			}
+
+			var cleanUrl = normalizedResultUrl ? normalizedResultUrl.toString() : result.url;
+			fetchHtml(cleanUrl).then(function (cleanResult) {
+				var cleanDocument = parseHtml(cleanResult.html);
+				if (!replaceProfileFormSection(cleanDocument)) {
+					fetchAndRenderView(cleanUrl);
+					return;
+				}
+
+				afterViewRender(cleanUrl, true);
+				resetProfileFormToCreateMode();
+				showToast(extractToastMessage(result.url));
+			}).catch(function () {
+				fetchAndRenderView(cleanUrl);
+			});
 		}).catch(function () {
 			setTargetLoading(target, false);
 			form.submit();

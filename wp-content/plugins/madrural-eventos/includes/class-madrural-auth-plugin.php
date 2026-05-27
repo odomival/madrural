@@ -1275,9 +1275,19 @@ if ( ! class_exists( 'MADRURAL_Auth_Plugin' ) ) {
 						</tbody>
 					</table>
 					<nav class="madrural-auth-pagination" aria-label="<?php echo esc_attr__( 'Paginación', 'madrural-auth' ); ?>">
-					<?php foreach ( (array) $pagination_links as $pagination_link ) : ?>
-							<?php echo wp_kses_post( $pagination_link ); ?>
-						<?php endforeach; ?>
+						<?php if ( $current_page > 1 ) : ?>
+							<a class="page-numbers prev" href="<?php echo esc_url( $prev_url ); ?>"><?php echo esc_html__( '« Anterior', 'madrural-auth' ); ?></a>
+						<?php else : ?>
+							<span class="page-numbers prev disabled" aria-disabled="true"><?php echo esc_html__( '« Anterior', 'madrural-auth' ); ?></span>
+						<?php endif; ?>
+
+						<span aria-current="page" class="page-numbers current"><?php echo esc_html( (string) $current_page ); ?></span>
+
+						<?php if ( $current_page < $total_pages ) : ?>
+							<a class="page-numbers next" href="<?php echo esc_url( $next_url ); ?>"><?php echo esc_html__( 'Siguiente »', 'madrural-auth' ); ?></a>
+						<?php else : ?>
+							<span class="page-numbers next disabled" aria-disabled="true"><?php echo esc_html__( 'Siguiente »', 'madrural-auth' ); ?></span>
+						<?php endif; ?>
 					</nav>
 				</div>
 
@@ -1293,7 +1303,10 @@ if ( ! class_exists( 'MADRURAL_Auth_Plugin' ) ) {
 						</p>
 						<p>
 							<label for="ma_password"><?php echo esc_html__( 'Contraseña', 'madrural-auth' ); ?></label>
-							<input type="password" id="ma_password" name="password" <?php echo 0 === $edit_id ? 'required' : ''; ?>>
+							<span class="madrural-auth-password-wrap">
+								<input type="password" id="ma_password" name="password" <?php echo 0 === $edit_id ? 'required' : ''; ?>>
+								<button type="button" class="madrural-auth-password-toggle" data-target="ma_password" aria-label="<?php echo esc_attr__( 'Mostrar contraseña', 'madrural-auth' ); ?>" aria-pressed="false">👁</button>
+							</span>
 						</p>
 						<p>
 							<label for="ma_role"><?php echo esc_html__( 'Rol', 'madrural-auth' ); ?></label>
