@@ -3159,22 +3159,36 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 				'_madrural_titulo_en'      => array(
 					'text'     => (string) $post->post_title,
 					'sanitize' => 'sanitize_text_field',
+					'source_key' => '_madrural_titulo_source_es',
 				),
 				'_madrural_descripcion_en' => array(
 					'text'     => (string) $post->post_content,
 					'sanitize' => 'wp_kses_post',
+					'source_key' => '_madrural_descripcion_source_es',
 				),
 				'_madrural_categoria_en'   => array(
 					'text'     => $category_es,
 					'sanitize' => 'sanitize_text_field',
+					'source_key' => '_madrural_categoria_source_es',
 				),
 			);
 
 			try {
 				foreach ( $translations as $meta_key => $config ) {
 					$source_text = isset( $config['text'] ) ? (string) $config['text'] : '';
+					$source_key = isset( $config['source_key'] ) ? (string) $config['source_key'] : '';
+					$source_hash = md5( $source_text );
+					$previous_hash = '' !== $source_key ? (string) get_post_meta( $post_id, $source_key, true ) : '';
+
+					if ( $source_hash === $previous_hash ) {
+						continue;
+					}
+
 					if ( '' === trim( wp_strip_all_tags( $source_text ) ) ) {
 						update_post_meta( $post_id, $meta_key, '' );
+						if ( '' !== $source_key ) {
+							update_post_meta( $post_id, $source_key, $source_hash );
+						}
 						continue;
 					}
 
@@ -3186,12 +3200,192 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 
 					$sanitize_callback = isset( $config['sanitize'] ) ? $config['sanitize'] : 'sanitize_text_field';
 					update_post_meta( $post_id, $meta_key, call_user_func( $sanitize_callback, (string) $translated ) );
+					if ( '' !== $source_key ) {
+						update_post_meta( $post_id, $source_key, $source_hash );
+					}
 				}
 			} catch ( Throwable $exception ) {
 				error_log( 'MADRURAL translation exception for post ' . $post_id . ': ' . $exception->getMessage() );
 			}
 
 			self::sync_event_row_from_post( $post_id );
+		}
+
+		/**
+		 * Returns UTF-8 safe string length.
+		 *
+		 * @param string $text Text.
+		 * @return int
+		 */
+		private static function string_length( $text ) {
+			if ( function_exists( 'mb_strlen' ) ) {
+				return (int) mb_strlen( (string) $text, 'UTF-8' );
+			}
+
+			return strlen( (string) $text );
+		}
+
+		/**
+		 * Returns UTF-8 safe string substring.
+		 *
+		 * @param string   $text Text.
+		 * @param int      $start Start offset.
+		 * @param int|null $length Length.
+		 * @return string
+		 */
+		private static function string_substr( $text, $start, $length = null ) {
+			$text = (string) $text;
+			if ( function_exists( 'mb_substr' ) ) {
+				if ( null === $length ) {
+					return (string) mb_substr( $text, (int) $start, null, 'UTF-8' );
+				}
+
+				return (string) mb_substr( $text, (int) $start, (int) $length, 'UTF-8' );
+			}
+
+			if ( null === $length ) {
+				return (string) substr( $text, (int) $start );
+			}
+
+			return (string) substr( $text, (int) $start, (int) $length );
+		}
+
+		/**
+		 * Splits long text into meaningful translation chunks.
+		 *
+		 * @param string $text Source text.
+		 * @param int    $max_chars Max chars per chunk.
+		 * @return array<int,string>
+		 */
+		private static function split_text_for_translation( $text, $max_chars = 500 ) {
+			$text      = (string) $text;
+			$max_chars = max( 1, (int) $max_chars );
+
+			if ( self::string_length( $text ) <= $max_chars ) {
+				return array( $text );
+			}
+
+			$tokens = array();
+			if ( preg_match_all( '/[^.!?\n]+[.!?]?(?:\s+|$)|\n+/u', $text, $matches ) && ! empty( $matches[0] ) ) {
+				$tokens = $matches[0];
+			}
+
+			if ( empty( $tokens ) ) {
+				$tokens = preg_split( '/\s+/u', $text, -1, PREG_SPLIT_NO_EMPTY );
+			}
+
+			$chunks  = array();
+			$current = '';
+
+			foreach ( $tokens as $token ) {
+				$token = (string) $token;
+				if ( '' === $token ) {
+					continue;
+				}
+
+				if ( self::string_length( $token ) > $max_chars ) {
+					if ( '' !== trim( $current ) ) {
+						$chunks[] = $current;
+						$current  = '';
+					}
+
+					$chunks = array_merge( $chunks, self::split_long_translation_token( $token, $max_chars ) );
+					continue;
+				}
+
+				$candidate = '' === $current ? $token : $current . $token;
+				if ( self::string_length( $candidate ) <= $max_chars ) {
+					$current = $candidate;
+					continue;
+				}
+
+				if ( '' !== trim( $current ) ) {
+					$chunks[] = $current;
+				}
+				$current = $token;
+			}
+
+			if ( '' !== trim( $current ) ) {
+				$chunks[] = $current;
+			}
+
+			$chunks = array_values(
+				array_filter(
+					array_map(
+						static function( $chunk ) {
+							return (string) $chunk;
+						},
+						$chunks
+					),
+					static function( $chunk ) {
+						return '' !== trim( wp_strip_all_tags( (string) $chunk ) );
+					}
+				)
+			);
+
+			return ! empty( $chunks ) ? $chunks : array( $text );
+		}
+
+		/**
+		 * Splits an oversized token using whitespace, then hard-cuts if needed.
+		 *
+		 * @param string $token Token.
+		 * @param int    $max_chars Max chars per chunk.
+		 * @return array<int,string>
+		 */
+		private static function split_long_translation_token( $token, $max_chars ) {
+			$token     = (string) $token;
+			$max_chars = max( 1, (int) $max_chars );
+			$parts     = array();
+
+			$words = preg_split( '/(\s+)/u', $token, -1, PREG_SPLIT_DELIM_CAPTURE );
+			if ( ! is_array( $words ) || empty( $words ) ) {
+				$words = array( $token );
+			}
+
+			$current = '';
+			foreach ( $words as $word ) {
+				$word = (string) $word;
+				if ( '' === $word ) {
+					continue;
+				}
+
+				$candidate = $current . $word;
+				if ( self::string_length( $candidate ) <= $max_chars ) {
+					$current = $candidate;
+					continue;
+				}
+
+				if ( '' !== $current ) {
+					$parts[] = $current;
+					$current = '';
+				}
+
+				if ( self::string_length( $word ) <= $max_chars ) {
+					$current = $word;
+					continue;
+				}
+
+				$offset = 0;
+				$length = self::string_length( $word );
+				while ( $offset < $length ) {
+					$parts[] = self::string_substr( $word, $offset, $max_chars );
+					$offset += $max_chars;
+				}
+			}
+
+			if ( '' !== $current ) {
+				$parts[] = $current;
+			}
+
+			return array_values(
+				array_filter(
+					$parts,
+					static function( $part ) {
+						return '' !== trim( (string) $part );
+					}
+				)
+			);
 		}
 
 		/**
@@ -3202,15 +3396,7 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 		 * @param string $target_lang Target language code.
 		 * @return string|WP_Error
 		 */
-		public static function translate_text_external( $text, $source_lang = 'es', $target_lang = 'en' ) {
-			$text = (string) $text;
-			if ( '' === trim( wp_strip_all_tags( $text ) ) ) {
-				return '';
-			}
-
-			$source_lang = strtoupper( sanitize_text_field( (string) $source_lang ) );
-			$target_lang = strtoupper( sanitize_text_field( (string) $target_lang ) );
-
+		private static function translate_text_external_single_request( $text, $source_lang = 'ES', $target_lang = 'EN' ) {
 			if ( defined( 'MADRURAL_TRANSLATE_KEY' ) && '' !== trim( (string) MADRURAL_TRANSLATE_KEY ) ) {
 				$endpoint = (string) apply_filters( 'madrural_eventos_translate_endpoint', 'https://api-free.deepl.com/v2/translate' );
 				$args     = array(
@@ -3254,8 +3440,8 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 			);
 			$url      = add_query_arg(
 				array(
-					'q'        => rawurlencode( $text ),
-					'langpair' => strtolower( $source_lang ) . '|' . strtolower( $target_lang ),
+					'q'        => rawurlencode( (string) $text ),
+					'langpair' => strtolower( (string) $source_lang ) . '|' . strtolower( (string) $target_lang ),
 				),
 				esc_url_raw( $endpoint )
 			);
@@ -3278,6 +3464,44 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 			}
 
 			return (string) $data['responseData']['translatedText'];
+		}
+
+		/**
+		 * Translates text using external translation API.
+		 *
+		 * @param string $text Source text.
+		 * @param string $source_lang Source language code.
+		 * @param string $target_lang Target language code.
+		 * @return string|WP_Error
+		 */
+		public static function translate_text_external( $text, $source_lang = 'es', $target_lang = 'en' ) {
+			$text = (string) $text;
+			if ( '' === trim( wp_strip_all_tags( $text ) ) ) {
+				return '';
+			}
+
+			$source_lang = strtoupper( sanitize_text_field( (string) $source_lang ) );
+			$target_lang = strtoupper( sanitize_text_field( (string) $target_lang ) );
+
+			$max_chars = (int) apply_filters( 'madrural_eventos_translate_max_chars', 500 );
+			$max_chars = max( 1, $max_chars );
+			$chunks    = self::split_text_for_translation( $text, $max_chars );
+
+			if ( empty( $chunks ) ) {
+				return '';
+			}
+
+			$translated_chunks = array();
+			foreach ( $chunks as $chunk ) {
+				$translated_chunk = self::translate_text_external_single_request( (string) $chunk, $source_lang, $target_lang );
+				if ( is_wp_error( $translated_chunk ) ) {
+					return $translated_chunk;
+				}
+
+				$translated_chunks[] = (string) $translated_chunk;
+			}
+
+			return implode( '', $translated_chunks );
 		}
 	}
 }
