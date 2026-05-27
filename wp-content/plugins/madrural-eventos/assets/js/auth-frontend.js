@@ -112,6 +112,17 @@
 			wrapper.classList.toggle('is-open');
 		});
 
+		var menuLinks = wrapper.querySelectorAll('a');
+		Array.prototype.forEach.call(menuLinks, function (link) {
+			if (link.dataset.boundClose === '1') {
+				return;
+			}
+			link.dataset.boundClose = '1';
+			link.addEventListener('click', function () {
+				wrapper.classList.remove('is-open');
+			});
+		});
+
 		document.addEventListener('click', function (event) {
 			if (!wrapper.contains(event.target)) {
 				wrapper.classList.remove('is-open');

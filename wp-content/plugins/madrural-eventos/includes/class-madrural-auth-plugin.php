@@ -695,7 +695,7 @@ if ( ! class_exists( 'MADRURAL_Auth_Plugin' ) ) {
 
 		public static function handle_login_submission() {
 			self::start_session();
-			self::$runtime_login_redirect_to = isset( $_POST['redirect_to'] ) ? esc_url_raw( wp_unslash( $_POST['redirect_to'] ) ) : '';
+			self::$runtime_login_redirect_to = '';
 
 			if ( ! isset( $_POST['madrural_auth_nonce'] ) || ! wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['madrural_auth_nonce'] ) ), 'madrural_auth_login' ) ) {
 				self::$runtime_login_notice = 'nonce';
@@ -726,17 +726,9 @@ if ( ! class_exists( 'MADRURAL_Auth_Plugin' ) ) {
 				'territorio' => sanitize_text_field( (string) $profile['territorio'] ),
 			);
 
-			$redirect_to = self::$runtime_login_redirect_to;
-			if ( '' !== $redirect_to ) {
-				$redirect_path = trim( (string) wp_parse_url( $redirect_to, PHP_URL_PATH ), '/' );
-				if ( '' !== $redirect_path && ( $redirect_path === 'acceso-gestores' || (bool) preg_match( '#/acceso-gestores$#', $redirect_path ) ) ) {
-					$redirect_to = '';
-				}
-			}
-
-			if ( '' === $redirect_to ) {
-				$redirect_to = self::is_superadmin_profile() ? self::get_page_url( 'panel' ) : self::get_mis_eventos_url();
-			}
+			$redirect_to = class_exists( 'MADRURAL_Eventos_Plugin' ) && is_callable( array( 'MADRURAL_Eventos_Plugin', 'get_frontend_page_url' ) )
+				? MADRURAL_Eventos_Plugin::get_frontend_page_url( 'agenda', home_url( '/agenda-eventos/' ) )
+				: home_url( '/agenda-eventos/' );
 
 			wp_safe_redirect( $redirect_to );
 			exit;

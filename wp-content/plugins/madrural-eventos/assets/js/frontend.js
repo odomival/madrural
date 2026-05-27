@@ -58,7 +58,7 @@
 			return true;
 		}
 
-		return path.indexOf('/evento/') !== -1;
+		return path.indexOf('/evento/') !== -1 || path.indexOf('/eventos/') !== -1;
 	}
 
 	function getMainContent() {
@@ -71,6 +71,25 @@
 
 	function parseHtml(html) {
 		return new window.DOMParser().parseFromString(html, 'text/html');
+	}
+
+	function syncFloatingUserMenu(nextDocument) {
+		var currentFloating = document.getElementById('madrural-auth-floating');
+		var nextFloating = nextDocument ? nextDocument.getElementById('madrural-auth-floating') : null;
+
+		if (!nextFloating) {
+			if (currentFloating && currentFloating.parentNode) {
+				currentFloating.parentNode.removeChild(currentFloating);
+			}
+			return;
+		}
+
+		if (currentFloating && currentFloating.parentNode) {
+			currentFloating.replaceWith(nextFloating);
+			return;
+		}
+
+		document.body.appendChild(nextFloating);
 	}
 
 	function setTargetLoading(target, active) {
@@ -162,6 +181,36 @@
 		});
 	}
 
+	function isLogoutUrl(url) {
+		var parsed = normalizeUrl(url);
+		if (!parsed) {
+			return false;
+		}
+
+		return parsed.searchParams.get('madrural_auth_logout') === '1';
+	}
+
+	function handleAjaxLogout(logoutUrl) {
+		var pageTarget = document.querySelector('.madrural-plugin-view') || getMainContent();
+		var agendaUrl = ajaxConfig.agendaUrl || window.location.href;
+		setTargetLoading(pageTarget, true);
+
+		fetchHtml(logoutUrl).then(function () {
+			syncFloatingUserMenu(null);
+			return fetchHtml(agendaUrl);
+		}).then(function (result) {
+			var nextDocument = parseHtml(result.html);
+			if (!replaceViewFromDocument(nextDocument)) {
+				return;
+			}
+
+			afterViewRender(agendaUrl, true);
+			window.scrollTo({ top: 0, behavior: 'smooth' });
+		}).finally(function () {
+			setTargetLoading(pageTarget, false);
+		});
+	}
+
 	function replaceViewFromDocument(nextDocument) {
 		var currentContent = getMainContent();
 		var nextContent = nextDocument.querySelector('.madrural-plugin-content');
@@ -177,11 +226,124 @@
 			currentHeader.innerHTML = nextHeader.innerHTML;
 		}
 
+		syncFloatingUserMenu(nextDocument);
+
 		if (nextDocument.title) {
 			document.title = nextDocument.title;
 		}
 
 		return true;
+	}
+
+	function setFormDisabled(form, disabled) {
+		if (!form) {
+			return;
+		}
+
+		var controls = form.querySelectorAll('input, select, textarea, button');
+		Array.prototype.forEach.call(controls, function (control) {
+			control.disabled = !!disabled;
+		});
+	}
+
+	function submitLoginFormAjax(form) {
+		var submittedName = '';
+		var submittedNameInput = form.querySelector('input[name="name"]');
+		if (submittedNameInput) {
+			submittedName = submittedNameInput.value || '';
+		}
+
+		var action = form.getAttribute('action') || window.location.href;
+		var method = (form.getAttribute('method') || 'post').toUpperCase();
+		var formData = new window.FormData(form);
+
+		setTargetLoading(form, true);
+		setFormDisabled(form, true);
+
+		fetchHtml(action, { method: method, body: formData }).then(function (result) {
+			setTargetLoading(form, false);
+			var nextDocument = parseHtml(result.html);
+
+			function clearOnlyLoginPassword() {
+				var loginForm = document.querySelector('.madrural-auth-login-form');
+				if (!loginForm) {
+					return;
+				}
+
+				var nameInput = loginForm.querySelector('input[name="name"]');
+				if (nameInput) {
+					nameInput.value = submittedName;
+				}
+
+				var passwordInput = loginForm.querySelector('input[name="password"]');
+				if (passwordInput) {
+					passwordInput.value = '';
+				}
+			}
+
+			function ensureLoginErrorNotice() {
+				var loginForm = document.querySelector('.madrural-auth-login-form');
+				if (!loginForm || loginForm.querySelector('.madrural-auth-notice')) {
+					return;
+				}
+
+				var heading = loginForm.querySelector('h2');
+				var notice = document.createElement('div');
+				notice.className = 'madrural-auth-notice is-error';
+				notice.textContent = 'Credenciales inv\u00E1lidas. Revisa tus datos.';
+
+				if (heading && heading.parentNode === loginForm) {
+					heading.insertAdjacentElement('afterend', notice);
+				} else {
+					loginForm.insertBefore(notice, loginForm.firstChild);
+				}
+			}
+
+			if (!replaceViewFromDocument(nextDocument)) {
+				var replacedLoginWrap = replaceIfFound('.madrural-auth-wrap', '.madrural-auth-wrap', nextDocument);
+				if (replacedLoginWrap) {
+					if (nextDocument.title) {
+						document.title = nextDocument.title;
+					}
+
+					window.history.pushState({ madruralAjaxView: true }, '', result.url);
+					initViewEnhancements();
+					document.dispatchEvent(new CustomEvent('madrural:content-updated'));
+					ensureLoginErrorNotice();
+					clearOnlyLoginPassword();
+					window.scrollTo({ top: 0, behavior: 'smooth' });
+					return;
+				}
+
+				var currentLoginWrap = document.querySelector('.madrural-auth-wrap');
+				var nextPluginView = nextDocument.querySelector('.madrural-plugin-view');
+				if (currentLoginWrap && nextPluginView) {
+					currentLoginWrap.replaceWith(nextPluginView);
+					syncFloatingUserMenu(nextDocument);
+					if (nextDocument.title) {
+						document.title = nextDocument.title;
+					}
+
+					window.history.pushState({ madruralAjaxView: true }, '', result.url);
+					initViewEnhancements();
+					document.dispatchEvent(new CustomEvent('madrural:content-updated'));
+					window.scrollTo({ top: 0, behavior: 'smooth' });
+					return;
+				}
+
+				window.location.href = result.url;
+				return;
+			}
+
+			afterViewRender(result.url, true);
+			ensureLoginErrorNotice();
+			clearOnlyLoginPassword();
+			window.scrollTo({ top: 0, behavior: 'smooth' });
+		}).catch(function () {
+			setFormDisabled(form, false);
+			setTargetLoading(form, false);
+			form.submit();
+		});
 	}
 
 	function replaceIfFound(currentSelector, nextSelector, nextDocument) {
@@ -454,6 +616,10 @@
 			return false;
 		}
 
+		if (link.classList.contains('madrural-evento-card-link')) {
+			return true;
+		}
+
 		return isManagedPluginUrl(link.href);
 	}
 
@@ -478,6 +644,12 @@
 	function initAjaxFlow() {
 		document.addEventListener('click', function (event) {
 			var link = event.target.closest('a');
+			if (link && isLogoutUrl(link.href)) {
+				event.preventDefault();
+				handleAjaxLogout(link.href);
+				return;
+			}
+
 			if (!shouldInterceptLink(link, event)) {
 				return;
 			}
@@ -519,6 +691,12 @@
 			if (form.classList.contains('madrural-evento-formulario')) {
 				event.preventDefault();
 				submitEventFormAjax(form);
+				return;
+			}
+
+			if (form.classList.contains('madrural-auth-login-form')) {
+				event.preventDefault();
+				submitLoginFormAjax(form);
 				return;
 			}
 
