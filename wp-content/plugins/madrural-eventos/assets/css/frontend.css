@@ -11,6 +11,115 @@
 	max-width: 1180px;
 	margin: 0 auto;
 	padding: 0 14px;
+	position: relative;
+}
+
+.madrural-ajax-target {
+	position: relative;
+}
+
+.madrural-eventos-filtros,
+.madrural-auth-admin-grid .madrural-auth-card:first-child .madrural-auth-pagination,
+.madrural-pagination {
+	position: sticky;
+	z-index: 12;
+	background: #fff;
+}
+
+.madrural-eventos-filtros {
+	top: 6px;
+}
+
+.madrural-pagination,
+.madrural-auth-admin-grid .madrural-auth-card:first-child .madrural-auth-pagination {
+	bottom: 10px;
+	padding: 8px 10px;
+	border-radius: 10px;
+	box-shadow: 0 6px 14px rgba(17, 24, 39, 0.1);
+}
+
+.madrural-plugin-content.is-ajax-loading,
+.madrural-ajax-target.is-ajax-loading {
+	min-height: 180px;
+}
+
+.madrural-plugin-content.is-ajax-loading > *:not(.madrural-ajax-spinner-overlay),
+.madrural-ajax-target.is-ajax-loading > *:not(.madrural-ajax-spinner-overlay) {
+	opacity: .35;
+	pointer-events: none;
+	transition: opacity .22s ease;
+}
+
+.madrural-ajax-spinner-overlay {
+	position: absolute;
+	inset: 0;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 8px;
+	background: rgba(255, 255, 255, 0.35);
+	backdrop-filter: blur(1px);
+	z-index: 30;
+}
+
+.madrural-plugin-content.is-ajax-loading > .madrural-ajax-spinner-overlay,
+.madrural-ajax-target.is-ajax-loading > .madrural-ajax-spinner-overlay {
+	display: flex;
+}
+
+.madrural-eventos-listado.is-ajax-loading,
+.madrural-evento-formulario.is-ajax-loading,
+.madrural-auth-profile-form.is-ajax-loading,
+.madrural-auth-card.is-ajax-loading,
+.madrural-mis-eventos-wrapper.is-ajax-loading,
+.madrural-auth-table-wrapper.is-ajax-loading {
+	min-height: 220px;
+}
+
+.madrural-ajax-spinner {
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	border: 4px solid rgba(249, 115, 22, 0.22);
+	border-top-color: #f97316;
+	animation: madrural-spin .75s linear infinite;
+	box-shadow: 0 0 0 1px rgba(249, 115, 22, 0.14);
+}
+
+.madrural-ajax-spinner-text {
+	font-size: 13px;
+	font-weight: 700;
+	color: #9a3412;
+}
+
+.madrural-ajax-toast {
+	position: fixed;
+	right: 18px;
+	bottom: 18px;
+	max-width: 320px;
+	padding: 12px 14px;
+	border-radius: 10px;
+	background: linear-gradient(135deg, #ff8c2f 0%, #f97316 100%);
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	box-shadow: 0 14px 28px rgba(249, 115, 22, 0.34);
+	opacity: 0;
+	transform: translateY(8px);
+	transition: opacity .24s ease, transform .24s ease;
+	z-index: 100000;
+}
+
+.madrural-ajax-toast.is-visible {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+@keyframes madrural-spin {
+	to {
+		transform: rotate(360deg);
+	}
 }
 
 .madrural-eventos-page #main-column.col-md-9.content-area,
@@ -151,8 +260,36 @@
 .madrural-evento-formulario button,
 .madrural-eventos-filtros button,
 .madrural-add-image-input,
-.madrural-plugin-content > p > a {
+.madrural-plugin-content > p > a,
+.madrural-auth-btn,
+.madrural-auth-link-button,
+.madrural-auth-profile-form button,
+.madrural-auth-confirm-form button,
+.madrural-auth-table td a {
 	transition: all .22s ease;
+}
+
+.madrural-plugin-nav-link:active,
+.madrural-evento-action-link:active,
+.madrural-mis-eventos td a:active,
+.madrural-eventos-listado a:active,
+.madrural-evento-formulario button:active,
+.madrural-eventos-filtros button:active,
+.madrural-add-image-input:active,
+.madrural-plugin-content > p > a:active,
+.madrural-auth-btn:active,
+.madrural-auth-link-button:active,
+.madrural-auth-profile-form button:active,
+.madrural-auth-confirm-form button:active,
+.madrural-auth-table td a:active {
+	transform: translateY(1px) scale(.985);
+}
+
+.madrural-eventos-filtros button[disabled] {
+	opacity: .65;
+	cursor: not-allowed;
+	filter: grayscale(.08);
+	box-shadow: none;
 }
 
 .madrural-plugin-nav-link {

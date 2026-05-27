@@ -303,6 +303,21 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 				'1.0.0',
 				true
 			);
+
+			wp_localize_script(
+				'madrural-eventos-frontend',
+				'MADRURAL_AJAX_VIEWS',
+				array(
+					'homeUrl'        => home_url( '/' ),
+					'agendaUrl'      => self::get_frontend_page_url( 'agenda' ),
+					'misUrl'         => self::get_frontend_page_url( 'mis' ),
+					'formUrl'        => self::get_frontend_page_url( 'form' ),
+					'panelUrl'       => class_exists( 'MADRURAL_Auth_Plugin' ) && is_callable( array( 'MADRURAL_Auth_Plugin', 'get_page_url' ) ) ? MADRURAL_Auth_Plugin::get_page_url( 'panel', home_url( '/panel-perfiles-madrural/' ) ) : home_url( '/panel-perfiles-madrural/' ),
+					'loginUrl'       => class_exists( 'MADRURAL_Auth_Plugin' ) && is_callable( array( 'MADRURAL_Auth_Plugin', 'get_page_url' ) ) ? MADRURAL_Auth_Plugin::get_page_url( 'login', home_url( '/acceso-gestores/' ) ) : home_url( '/acceso-gestores/' ),
+					'loadingText'    => esc_html__( 'Cargando...', 'madrural-eventos' ),
+					'savedToastText' => esc_html__( 'Cambios guardados correctamente.', 'madrural-eventos' ),
+				)
+			);
 		}
 
 		/**
