@@ -17,6 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 require_once __DIR__ . '/includes/class-madrural-auth-plugin.php';
+require_once __DIR__ . '/api-eventos.php';
 
 if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 	/**
@@ -3534,6 +3535,10 @@ register_activation_hook( __FILE__, array( 'MADRURAL_Eventos_Plugin', 'activate'
 register_deactivation_hook( __FILE__, array( 'MADRURAL_Eventos_Plugin', 'deactivate' ) );
 
 MADRURAL_Eventos_Plugin::init();
+
+if ( class_exists( 'MADRURAL_Eventos_API' ) ) {
+	MADRURAL_Eventos_API::init();
+}
 
 if ( class_exists( 'MADRURAL_Auth_Plugin' ) ) {
 	MADRURAL_Auth_Plugin::init();
