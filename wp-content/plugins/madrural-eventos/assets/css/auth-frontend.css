@@ -88,7 +88,6 @@
 	border-radius: 16px;
 	padding: 22px;
 	box-shadow: 0 16px 34px rgba(17, 24, 39, 0.1);
-	margin-bottom: 120px;
 }
 
 .madrural-auth-login-form {
@@ -502,5 +501,33 @@
 		right: 0;
 		left: auto;
 		max-width: calc(100vw - 20px);
+	}
+
+	.madrural-auth-table,
+	.madrural-auth-table thead,
+	.madrural-auth-table tbody,
+	.madrural-auth-table tr,
+	.madrural-auth-table th,
+	.madrural-auth-table td {
+		display: block;
+		width: 100%;
+	}
+
+	.madrural-auth-table thead {
+		display: none;
+	}
+
+	.madrural-auth-table tr {
+		padding: 10px;
+		border-bottom: 1px solid #eef2f7;
+	}
+
+	.madrural-auth-table td {
+		padding: 8px 4px;
+		border: 0;
+	}
+
+	.madrural-auth-actions-cell {
+		white-space: normal;
 	}
 }
