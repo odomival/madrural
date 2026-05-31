@@ -851,6 +851,9 @@
 
 			if (link.closest('.madrural-pagination') || link.closest('.madrural-auth-pagination')) {
 				event.preventDefault();
+				if (!link.href) {
+					return;
+				}
 				fetchAndRenderList(link.href);
 				return;
 			}

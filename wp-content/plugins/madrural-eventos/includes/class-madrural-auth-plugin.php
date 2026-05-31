@@ -468,6 +468,16 @@ if ( ! class_exists( 'MADRURAL_Auth_Plugin' ) ) {
 				)
 			);
 			$pagination_links = is_array( $pagination_links ) ? $pagination_links : array();
+			$base_pagination_url = remove_query_arg( 'ma_paged' );
+			if ( ! is_string( $base_pagination_url ) || '' === $base_pagination_url ) {
+				$base_pagination_url = self::get_page_url( 'panel' );
+			}
+			$prev_url            = ( $current_page > 1 )
+				? add_query_arg( 'ma_paged', $current_page - 1, $base_pagination_url )
+				: '';
+			$next_url            = ( $current_page < $total_pages )
+				? add_query_arg( 'ma_paged', $current_page + 1, $base_pagination_url )
+				: '';
 			$pagination_links = is_array( $pagination_links ) ? $pagination_links : array();
 
 			if ( ! is_array( $pagination_links ) || empty( $pagination_links ) ) {
@@ -1216,19 +1226,32 @@ if ( ! class_exists( 'MADRURAL_Auth_Plugin' ) ) {
 			$current_role        = is_array( $edit_profile ) ? $edit_profile['role'] : 'admin';
 			$current_territorios = is_array( $edit_profile ) ? self::parse_territorios( $edit_profile['territorio'] ) : array();
 			$panel_url           = self::get_page_url( 'panel' );
-			$pagination_links   = paginate_links(
-				array(
-					'base'      => esc_url_raw( add_query_arg( 'ma_paged', '%#%', remove_query_arg( 'ma_paged' ) ) ),
-					'format'    => '',
-					'current'   => $current_page,
-					'total'     => $total_pages,
-					'type'      => 'array',
-					'prev_next' => true,
-					'prev_text' => esc_html__( '« Anterior', 'madrural-auth' ),
-					'next_text' => esc_html__( 'Siguiente »', 'madrural-auth' ),
-				)
-			);
-			$pagination_links = is_array( $pagination_links ) ? $pagination_links : array();
+			$base_pagination_url = remove_query_arg( 'ma_paged' );
+			if ( ! is_string( $base_pagination_url ) || '' === $base_pagination_url ) {
+				$base_pagination_url = self::get_page_url( 'panel' );
+			}
+
+			if ( $total_pages <= 1 ) {
+				$pagination_links = array(
+					'<span class="page-numbers prev disabled" aria-disabled="true">' . esc_html__( '« Anterior', 'madrural-auth' ) . '</span>',
+					'<span aria-current="page" class="page-numbers current">1</span>',
+					'<span class="page-numbers next disabled" aria-disabled="true">' . esc_html__( 'Siguiente »', 'madrural-auth' ) . '</span>',
+				);
+			} else {
+				$pagination_links = paginate_links(
+					array(
+						'base'      => esc_url_raw( add_query_arg( 'ma_paged', '%#%', $base_pagination_url ) ),
+						'format'    => '',
+						'current'   => $current_page,
+						'total'     => $total_pages,
+						'type'      => 'array',
+						'prev_next' => true,
+						'prev_text' => esc_html__( '« Anterior', 'madrural-auth' ),
+						'next_text' => esc_html__( 'Siguiente »', 'madrural-auth' ),
+					)
+				);
+				$pagination_links = is_array( $pagination_links ) ? $pagination_links : array();
+			}
 
 			ob_start();
 			?>
@@ -1275,19 +1298,9 @@ if ( ! class_exists( 'MADRURAL_Auth_Plugin' ) ) {
 						</tbody>
 					</table>
 					<nav class="madrural-auth-pagination" aria-label="<?php echo esc_attr__( 'Paginación', 'madrural-auth' ); ?>">
-						<?php if ( $current_page > 1 ) : ?>
-							<a class="page-numbers prev" href="<?php echo esc_url( $prev_url ); ?>"><?php echo esc_html__( '« Anterior', 'madrural-auth' ); ?></a>
-						<?php else : ?>
-							<span class="page-numbers prev disabled" aria-disabled="true"><?php echo esc_html__( '« Anterior', 'madrural-auth' ); ?></span>
-						<?php endif; ?>
-
-						<span aria-current="page" class="page-numbers current"><?php echo esc_html( (string) $current_page ); ?></span>
-
-						<?php if ( $current_page < $total_pages ) : ?>
-							<a class="page-numbers next" href="<?php echo esc_url( $next_url ); ?>"><?php echo esc_html__( 'Siguiente »', 'madrural-auth' ); ?></a>
-						<?php else : ?>
-							<span class="page-numbers next disabled" aria-disabled="true"><?php echo esc_html__( 'Siguiente »', 'madrural-auth' ); ?></span>
-						<?php endif; ?>
+						<?php foreach ( $pagination_links as $pagination_link ) : ?>
+							<?php echo wp_kses_post( $pagination_link ); ?>
+						<?php endforeach; ?>
 					</nav>
 				</div>
 
