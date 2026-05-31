@@ -12,6 +12,82 @@
 		}
 	}
 
+	function bindEventFormAddOption(selectId, wrapId, inputId, buttonId, hiddenId) {
+		var select = document.getElementById(selectId);
+		var wrap = document.getElementById(wrapId);
+		var inputNew = document.getElementById(inputId);
+		var buttonAdd = document.getElementById(buttonId);
+		var hidden = document.getElementById(hiddenId);
+		if (!select || !wrap || !inputNew || !buttonAdd || !hidden) {
+			return;
+		}
+
+		if (select.dataset.addOptionBound !== '1') {
+			select.dataset.addOptionBound = '1';
+			select.addEventListener('change', function () {
+				var show = false;
+				if (select.multiple) {
+					show = Array.prototype.some.call(select.selectedOptions || [], function (option) {
+						return option.value === '__add_new__';
+					});
+				} else {
+					show = select.value === '__add_new__';
+				}
+				wrap.style.display = show ? 'block' : 'none';
+			});
+		}
+
+		if (buttonAdd.dataset.addOptionBound !== '1') {
+			buttonAdd.dataset.addOptionBound = '1';
+			buttonAdd.addEventListener('click', function () {
+				var label = (inputNew.value || '').trim();
+				if (!label) {
+					return;
+				}
+
+				var currentValues = hidden.value ? hidden.value.split(',') : [];
+				if (currentValues.indexOf(label) === -1) {
+					currentValues.push(label);
+				}
+				hidden.value = currentValues.join(',');
+
+				var option = document.createElement('option');
+				option.value = label;
+				option.textContent = label;
+				option.selected = true;
+				select.appendChild(option);
+
+				inputNew.value = '';
+				wrap.style.display = 'none';
+
+				if (select.multiple) {
+					Array.prototype.forEach.call(select.options, function (opt) {
+						if (opt.value === '__add_new__') {
+							opt.selected = false;
+						}
+					});
+				} else if (select.value === '__add_new__') {
+					select.value = label;
+				}
+			});
+		}
+	}
+
+	function initEventFormCategoryAdder() {
+		var form = document.querySelector('.madrural-evento-formulario');
+		if (!form) {
+			return;
+		}
+
+		bindEventFormAddOption(
+			'madrural_categoria_select',
+			'madrural_categoria_add_wrap',
+			'madrural_nueva_categoria_input',
+			'madrural_add_categoria_btn',
+			'madrural_nuevas_categorias'
+		);
+	}
+
 	function initEventFormGalleryPicker() {
 		var form = document.querySelector('.madrural-evento-formulario');
 		if (!form || form.dataset.galleryPickerBound === '1') {
@@ -27,7 +103,13 @@
 			return;
 		}
 
+		if (trigger.dataset.galleryPickerBound === '1') {
+			form.dataset.galleryPickerBound = '1';
+			return;
+		}
+
 		form.dataset.galleryPickerBound = '1';
+		trigger.dataset.galleryPickerBound = '1';
 
 		var canUseDataTransfer = typeof window.DataTransfer === 'function';
 		var dt = canUseDataTransfer ? new window.DataTransfer() : null;
@@ -1145,6 +1227,7 @@
 		initEventGalleryModal();
 		initStyledConfirmLinks();
 		initEventFormGalleryPicker();
+		initEventFormCategoryAdder();
 	}
 
 	document.addEventListener('DOMContentLoaded', function () {

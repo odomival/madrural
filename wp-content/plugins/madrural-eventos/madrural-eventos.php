@@ -1960,6 +1960,8 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 					return;
 				}
 
+				trigger.dataset.galleryPickerBound = '1';
+
 				var dt = new DataTransfer();
 
 				function renderNewUploads() {

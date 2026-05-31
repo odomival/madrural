@@ -63,6 +63,10 @@
 	z-index: 30;
 }
 
+#madrural_add_categoria_btn {
+    margin-top: 10px;
+}
+
 .madrural-plugin-content.is-ajax-loading > .madrural-ajax-spinner-overlay,
 .madrural-ajax-target.is-ajax-loading > .madrural-ajax-spinner-overlay {
 	display: flex;
