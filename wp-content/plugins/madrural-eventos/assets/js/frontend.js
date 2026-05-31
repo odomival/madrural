@@ -616,7 +616,9 @@
 
 	function submitProfileFormAjax(form) {
 		var isDeleteForm = form.classList.contains('madrural-auth-confirm-form');
-		var target = isDeleteForm ? getProfileListLoadingTarget() : (form.closest('.madrural-auth-card') || form);
+		var target = isDeleteForm
+			? getProfileListLoadingTarget()
+			: (document.querySelector('.madrural-auth-admin-grid') || getMainContent());
 		setTargetLoading(target, true);
 
 		var action = form.getAttribute('action') || window.location.href;
@@ -624,8 +626,8 @@
 		var formData = new window.FormData(form);
 
 		fetchHtml(action, { method: method, body: formData }).then(function (result) {
-			setTargetLoading(target, false);
 			if (isDeleteForm) {
+				setTargetLoading(target, false);
 				resetProfileFormToCreateMode();
 				fetchAndRenderList(result.url, {
 					target: getProfileListLoadingTarget(),
@@ -639,7 +641,14 @@
 			var nextDocument = parseHtml(result.html);
 			var replaced = replaceProfileFormSection(nextDocument);
 			if (!replaced) {
-				fetchAndRenderView(result.url);
+				fetchAndRenderView(result.url, {
+					preserveScroll: true,
+					onRendered: function () {
+						showToast(extractToastMessage(result.url));
+						scrollToProfilesListPanel();
+						setTargetLoading(target, false);
+					}
+				});
 				return;
 			}
 
@@ -652,15 +661,31 @@
 			fetchHtml(cleanUrl).then(function (cleanResult) {
 				var cleanDocument = parseHtml(cleanResult.html);
 				if (!replaceProfileFormSection(cleanDocument)) {
-					fetchAndRenderView(cleanUrl);
+					fetchAndRenderView(cleanUrl, {
+						preserveScroll: true,
+						onRendered: function () {
+							showToast(extractToastMessage(result.url));
+							scrollToProfilesListPanel();
+							setTargetLoading(target, false);
+						}
+					});
 					return;
 				}
 
 				afterViewRender(cleanUrl, true);
 				resetProfileFormToCreateMode();
 				showToast(extractToastMessage(result.url));
+				scrollToProfilesListPanel();
+				setTargetLoading(target, false);
 			}).catch(function () {
-				fetchAndRenderView(cleanUrl);
+				fetchAndRenderView(cleanUrl, {
+					preserveScroll: true,
+					onRendered: function () {
+						showToast(extractToastMessage(result.url));
+						scrollToProfilesListPanel();
+						setTargetLoading(target, false);
+					}
+				});
 			});
 		}).catch(function () {
 			setTargetLoading(target, false);
