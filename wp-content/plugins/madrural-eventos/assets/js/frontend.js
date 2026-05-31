@@ -12,6 +12,108 @@
 		}
 	}
 
+	function initEventFormGalleryPicker() {
+		var form = document.querySelector('.madrural-evento-formulario');
+		if (!form || form.dataset.galleryPickerBound === '1') {
+			return;
+		}
+
+		var input = document.getElementById('madrural_event_images');
+		var trigger = document.getElementById('madrural-add-images-trigger');
+		var newGallery = document.getElementById('madrural-new-gallery');
+		var existingGallery = document.getElementById('madrural-existing-gallery');
+		var removeIdsInput = document.getElementById('madrural_galeria_remove_ids');
+		if (!input || !trigger || !newGallery) {
+			return;
+		}
+
+		form.dataset.galleryPickerBound = '1';
+
+		var canUseDataTransfer = typeof window.DataTransfer === 'function';
+		var dt = canUseDataTransfer ? new window.DataTransfer() : null;
+
+		function renderNewUploads() {
+			newGallery.innerHTML = '';
+			var files = dt ? dt.files : input.files;
+			Array.prototype.forEach.call(files, function (file, index) {
+				var card = document.createElement('div');
+				card.className = 'madrural-upload-item';
+
+				var img = document.createElement('img');
+				img.src = URL.createObjectURL(file);
+				img.alt = file.name;
+
+				var name = document.createElement('span');
+				name.className = 'madrural-upload-name';
+				name.textContent = file.name;
+
+				var remove = document.createElement('button');
+				remove.type = 'button';
+				remove.className = 'madrural-remove-upload';
+				remove.textContent = 'Remover';
+				remove.addEventListener('click', function () {
+					if (!dt) {
+						card.remove();
+						return;
+					}
+
+					var fresh = new window.DataTransfer();
+					Array.prototype.forEach.call(dt.files, function (item, itemIndex) {
+						if (itemIndex !== index) {
+							fresh.items.add(item);
+						}
+					});
+					dt = fresh;
+					input.files = dt.files;
+					renderNewUploads();
+				});
+
+				card.appendChild(img);
+				card.appendChild(name);
+				card.appendChild(remove);
+				newGallery.appendChild(card);
+			});
+		}
+
+		trigger.addEventListener('click', function () {
+			input.click();
+		});
+
+		input.addEventListener('change', function () {
+			if (dt) {
+				Array.prototype.forEach.call(input.files, function (file) {
+					dt.items.add(file);
+				});
+				input.files = dt.files;
+			}
+			renderNewUploads();
+		});
+
+		if (existingGallery && removeIdsInput) {
+			existingGallery.addEventListener('click', function (event) {
+				if (!event.target.classList.contains('madrural-remove-upload')) {
+					return;
+				}
+
+				var card = event.target.closest('.madrural-upload-item');
+				if (!card) {
+					return;
+				}
+
+				var id = card.getAttribute('data-existing-id');
+				if (id) {
+					var current = removeIdsInput.value ? removeIdsInput.value.split(',') : [];
+					if (current.indexOf(id) === -1) {
+						current.push(id);
+						removeIdsInput.value = current.join(',');
+					}
+				}
+
+				card.remove();
+			});
+		}
+	}
+
 	function getProfileListLoadingTarget() {
 		var table = document.querySelector('.madrural-auth-table');
 		if (table) {
@@ -1039,6 +1141,7 @@
 		Array.prototype.forEach.call(carousels, initCarousel);
 		initEventGalleryModal();
 		initStyledConfirmLinks();
+		initEventFormGalleryPicker();
 	}
 
 	document.addEventListener('DOMContentLoaded', function () {
