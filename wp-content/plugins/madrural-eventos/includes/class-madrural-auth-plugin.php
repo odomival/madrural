@@ -1237,7 +1237,7 @@ if ( ! class_exists( 'MADRURAL_Auth_Plugin' ) ) {
 			<div class="madrural-auth-admin-grid">
 				<div class="madrural-auth-card">
 					<h2><?php echo esc_html__( 'Perfiles registrados', 'madrural-auth' ); ?></h2>
-					<p><a class="madrural-auth-btn" href="<?php echo esc_url( $panel_url ); ?>"><?php echo esc_html__( 'Crear nuevo perfil', 'madrural-auth' ); ?></a></p>
+					<p><a class="madrural-auth-btn madrural-auth-create-profile-link" href="<?php echo esc_url( $panel_url ); ?>"><?php echo esc_html__( 'Crear nuevo perfil', 'madrural-auth' ); ?></a></p>
 					<?php if ( '' !== $msg ) : ?>
 						<div class="madrural-auth-notice <?php echo $is_error ? 'is-error' : 'is-success'; ?>"><?php echo esc_html( $msg ); ?></div>
 					<?php endif; ?>
@@ -1258,7 +1258,7 @@ if ( ! class_exists( 'MADRURAL_Auth_Plugin' ) ) {
 									<td><?php echo esc_html( $profile['role'] ); ?></td>
 									<td><?php echo esc_html( self::get_territorio_display_label( (string) $profile['territorio'] ) ); ?></td>
 									<td class="madrural-auth-actions-cell">
-										<a href="<?php echo esc_url( add_query_arg( 'ma_edit', (int) $profile['id'], self::get_page_url( 'panel' ) ) ); ?>"><?php echo esc_html__( 'Editar', 'madrural-auth' ); ?></a>
+									<a class="madrural-auth-edit-profile-link" href="<?php echo esc_url( add_query_arg( 'ma_edit', (int) $profile['id'], self::get_page_url( 'panel' ) ) ); ?>"><?php echo esc_html__( 'Editar', 'madrural-auth' ); ?></a>
 										|
 										<form method="post" class="madrural-auth-inline-form madrural-auth-confirm-form" data-confirm-message="<?php echo esc_attr__( '¿Seguro que deseas eliminar este perfil?', 'madrural-auth' ); ?>">
 											<?php wp_nonce_field( 'madrural_auth_delete_profile', 'madrural_auth_delete_nonce' ); ?>

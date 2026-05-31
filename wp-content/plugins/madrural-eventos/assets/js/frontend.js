@@ -65,6 +65,51 @@
 		return document.querySelector('.madrural-plugin-content');
 	}
 
+	function isMobileProfilesLayout() {
+		var grid = document.querySelector('.madrural-auth-admin-grid');
+		if (grid && window.getComputedStyle) {
+			var columns = window.getComputedStyle(grid).gridTemplateColumns || '';
+			if (columns && columns.split(' ').length <= 1) {
+				return true;
+			}
+		}
+
+		return window.matchMedia && window.matchMedia('(max-width: 980px)').matches;
+	}
+
+	function scrollToProfilesFormPanel() {
+		if (!isMobileProfilesLayout()) {
+			return;
+		}
+
+		var cards = document.querySelectorAll('.madrural-auth-admin-grid .madrural-auth-card');
+		var formCard = cards && cards.length > 1 ? cards[1] : null;
+		if (!formCard) {
+			return;
+		}
+
+		window.requestAnimationFrame(function () {
+			formCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+		});
+	}
+
+	function scrollToProfilesListPanel() {
+		if (!isMobileProfilesLayout()) {
+			return;
+		}
+
+		var listCard = document.querySelector('.madrural-auth-admin-grid .madrural-auth-card');
+		if (!listCard) {
+			return;
+		}
+
+		window.requestAnimationFrame(function () {
+			window.setTimeout(function () {
+				listCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+			}, 40);
+		});
+	}
+
 	function getHeader() {
 		return document.querySelector('.madrural-plugin-header');
 	}
@@ -470,7 +515,13 @@
 			}
 
 			afterViewRender(url, !options.fromPopState);
-			window.scrollTo({ top: 0, behavior: 'smooth' });
+			if (typeof options.onRendered === 'function') {
+				options.onRendered();
+			}
+
+			if (!options.preserveScroll) {
+				window.scrollTo({ top: 0, behavior: 'smooth' });
+			}
 		}).catch(function () {
 			window.location.href = url;
 		}).finally(function () {
@@ -674,6 +725,15 @@
 			if (link.closest('.madrural-pagination') || link.closest('.madrural-auth-pagination')) {
 				event.preventDefault();
 				fetchAndRenderList(link.href);
+				return;
+			}
+
+			if (link.classList.contains('madrural-auth-edit-profile-link') || link.classList.contains('madrural-auth-create-profile-link')) {
+				event.preventDefault();
+				fetchAndRenderView(link.href, {
+					preserveScroll: true,
+					onRendered: scrollToProfilesFormPanel
+				});
 				return;
 			}
 
