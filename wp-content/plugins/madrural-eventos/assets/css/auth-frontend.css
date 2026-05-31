@@ -227,6 +227,13 @@
 	max-width: 1200px;
 	margin: 0 auto 26px;
 	padding: 0 14px;
+	box-sizing: border-box;
+}
+
+.madrural-auth-table-wrapper {
+	width: 100%;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
 }
 
 .madrural-auth-table {
@@ -458,6 +465,11 @@
 		padding: 0 10px;
 	}
 
+	.madrural-auth-admin-grid {
+		padding: 0 10px;
+		gap: 12px;
+	}
+
 	.madrural-auth-lottie {
 		width: 66px;
 		height: 46px;
@@ -470,5 +482,25 @@
 
 	.madrural-auth-card {
 		padding: 18px;
+		margin-bottom: 24px;
+	}
+
+	.madrural-auth-login-form {
+		margin-bottom: 24px;
+	}
+
+	.madrural-auth-brand {
+		margin-bottom: 24px;
+	}
+
+	.madrural-auth-floating {
+		top: 10px;
+		right: 10px;
+	}
+
+	.madrural-auth-dropdown {
+		right: 0;
+		left: auto;
+		max-width: calc(100vw - 20px);
 	}
 }

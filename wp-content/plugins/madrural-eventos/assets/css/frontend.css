@@ -1,7 +1,7 @@
 .madrural-plugin-view {
 	width: 100%;
 	max-width: 100%;
-	margin: 0 0 25px;
+	margin: 0 0 70px;
 	padding: 0;
 	text-align: left;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -10,7 +10,7 @@
 .madrural-plugin-content {
 	max-width: 1180px;
 	margin: 0 auto;
-	padding: 0 14px;
+	padding: 0 30px;
 	position: relative;
 }
 
@@ -168,6 +168,7 @@
 	justify-content: space-between;
 	gap: 16px;
 	flex-wrap: wrap;
+	box-sizing: border-box;
 }
 
 .madrural-plugin-brand-link {
@@ -423,7 +424,7 @@
 
 .madrural-eventos-listado {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 	gap: 18px;
 	max-width: 100%;
 	padding: 0;
@@ -492,7 +493,7 @@
 }
 
 .madrural-evento-detail-content {
-	padding-bottom: 120px;
+	padding-bottom: 70px;
 }
 
 .madrural-evento-detail {
@@ -682,6 +683,7 @@
 	border-radius: 8px;
 	border: 1px solid #e3e1e0;
 	box-shadow: 0 10px 22px rgb(28 28 28 / 21%);
+	height: stretch;
 }
 
 .madrural-evento-detail-info-title {
@@ -1088,6 +1090,7 @@
 .madrural-evento-formulario {
 	max-width: 100%;
 	padding: 20px;
+	margin-bottom: 70px;
 	border: 1px solid #d7dde6;
 	border-radius: 16px;
 	background: #ffffff;
@@ -1291,12 +1294,32 @@
 }
 
 @media (max-width: 1024px) {
+	.madrural-plugin-header-inner {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
 	.madrural-plugin-nav {
-		justify-content: center;
+		justify-content: flex-start;
+		width: 100%;
+		overflow-x: auto;
+		flex-wrap: nowrap;
+		padding-bottom: 4px;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.madrural-plugin-nav-link {
+		white-space: nowrap;
 	}
 }
 
 @media (max-width: 980px) {
+	.madrural-eventos-filtros,
+	.madrural-pagination,
+	.madrural-auth-admin-grid .madrural-auth-card:first-child .madrural-auth-pagination {
+		position: static;
+	}
+
 	.madrural-evento-detail-hero,
 	.madrural-evento-detail-body {
 		grid-template-columns: 1fr;
@@ -1309,6 +1332,15 @@
 
 	.madrural-eventos-filtros {
 		grid-template-columns: repeat(2, minmax(140px, 1fr));
+	}
+
+	.madrural-evento-location-cta-wrap {
+		position: static;
+		margin-top: 16px;
+	}
+
+	.madrural-evento-detail-description {
+		margin-bottom: 0;
 	}
 }
 
@@ -1370,10 +1402,22 @@
 
 	.madrural-eventos-filtros {
 		grid-template-columns: 1fr;
+		padding: 12px;
 	}
 
 	.madrural-eventos-listado {
 		grid-template-columns: 1fr;
+	}
+
+	.madrural-plugin-content > p {
+		text-align: left;
+	}
+
+	.madrural-ajax-toast {
+		right: 10px;
+		left: 10px;
+		bottom: 10px;
+		max-width: none;
 	}
 
 	.madrural-mis-eventos,
