@@ -66,6 +66,8 @@
 .madrural-plugin-content.is-ajax-loading > .madrural-ajax-spinner-overlay,
 .madrural-ajax-target.is-ajax-loading > .madrural-ajax-spinner-overlay {
 	display: flex;
+	justify-content: flex-start;
+	padding-top: 200px;
 }
 
 .madrural-eventos-listado.is-ajax-loading,
