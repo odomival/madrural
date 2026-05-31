@@ -461,7 +461,7 @@
 @media (max-width: 640px) {
 	.madrural-auth-wrap,
 	.madrural-auth-brand {
-		padding: 0 10px;
+		padding: 0 10px 0 25px;
 	}
 
 	.madrural-auth-admin-grid {
@@ -485,11 +485,11 @@
 	}
 
 	.madrural-auth-login-form {
-		margin-bottom: 24px;
+		margin-bottom: 120px;
 	}
 
 	.madrural-auth-brand {
-		margin-bottom: 24px;
+		margin-bottom: 110px;
 	}
 
 	.madrural-auth-floating {
