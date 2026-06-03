@@ -1306,18 +1306,20 @@ if ( ! class_exists( 'MADRURAL_Auth_Plugin' ) ) {
 
 				<div class="madrural-auth-card">
 					<h2><?php echo esc_html( $edit_id > 0 ? __( 'Editar perfil', 'madrural-auth' ) : __( 'Nuevo perfil', 'madrural-auth' ) ); ?></h2>
-					<form method="post" class="madrural-auth-profile-form">
+					<form method="post" class="madrural-auth-profile-form" autocomplete="off">
 						<?php wp_nonce_field( 'madrural_auth_save_profile', 'madrural_auth_profile_nonce' ); ?>
 						<input type="hidden" name="madrural_auth_action" value="save_profile">
 						<input type="hidden" name="profile_id" value="<?php echo esc_attr( (string) $edit_id ); ?>">
+						<input type="text" name="madrural_fake_user" autocomplete="username" tabindex="-1" aria-hidden="true" style="position:absolute;left:-9999px;opacity:0;height:0;width:0;pointer-events:none;">
+						<input type="password" name="madrural_fake_password" autocomplete="current-password" tabindex="-1" aria-hidden="true" style="position:absolute;left:-9999px;opacity:0;height:0;width:0;pointer-events:none;">
 						<p>
 							<label for="ma_name"><?php echo esc_html__( 'Nombre', 'madrural-auth' ); ?></label>
-							<input type="text" id="ma_name" name="name" required value="<?php echo esc_attr( $current_name ); ?>">
+							<input type="text" id="ma_name" name="name" required value="<?php echo esc_attr( $current_name ); ?>" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false">
 						</p>
 						<p>
 							<label for="ma_password"><?php echo esc_html__( 'Contraseña', 'madrural-auth' ); ?></label>
 							<span class="madrural-auth-password-wrap">
-								<input type="password" id="ma_password" name="password" <?php echo 0 === $edit_id ? 'required' : ''; ?>>
+								<input type="password" id="ma_password" name="password" autocomplete="new-password" <?php echo 0 === $edit_id ? 'required' : ''; ?>>
 								<button type="button" class="madrural-auth-password-toggle" data-target="ma_password" aria-label="<?php echo esc_attr__( 'Mostrar contraseña', 'madrural-auth' ); ?>" aria-pressed="false">👁</button>
 							</span>
 						</p>
