@@ -330,6 +330,10 @@
 			return;
 		}
 
+		if (active) {
+			scrollToPluginViewTop();
+		}
+
 		target.classList.add('madrural-ajax-target');
 
 		var spinner = target.querySelector(':scope > .madrural-ajax-spinner-overlay');
@@ -774,6 +778,16 @@
 			}
 			window.location.href = url;
 		});
+	}
+
+	function scrollToPluginViewTop() {
+		var viewRoot = document.querySelector('.madrural-plugin-view') || document.querySelector('.madrural-plugin-content');
+		if (viewRoot && typeof viewRoot.scrollIntoView === 'function') {
+			viewRoot.scrollIntoView({ behavior: 'smooth', block: 'start' });
+			return;
+		}
+
+		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
 
 	function submitEventFormAjax(form) {
