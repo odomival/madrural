@@ -58,6 +58,24 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 		);
 
 		/**
+		 * Fixed default category labels.
+		 *
+		 * @var array<string>
+		 */
+		const FIXED_CATEGORIA_LABELS = array(
+			'Talleres / cursos',
+			'Exposición / museos',
+			'Teatro / danza',
+			'Cuentacuentos',
+			'Conferencia / charla',
+			'Deportes / aire libre',
+			'Conciertos',
+			'Cine / video',
+			'Mercado / obra',
+			'Gastronomía',
+		);
+
+		/**
 		 * Gestor role slug.
 		 *
 		 * @var string
@@ -96,6 +114,7 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 			add_action( 'init', array( __CLASS__, 'load_textdomain' ) );
 			add_action( 'init', array( __CLASS__, 'register_post_type_and_taxonomies' ) );
 			add_action( 'init', array( __CLASS__, 'ensure_fixed_territorios_terms' ), 15 );
+			add_action( 'init', array( __CLASS__, 'ensure_fixed_categorias_terms' ), 16 );
 			add_action( 'init', array( __CLASS__, 'register_meta_fields' ) );
 			add_action( 'init', array( __CLASS__, 'sync_roles_and_caps' ), 20 );
 			add_action( 'init', array( __CLASS__, 'register_shortcodes' ), 30 );
@@ -362,6 +381,8 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 		public static function activate() {
 			self::ensure_events_table();
 			self::register_post_type_and_taxonomies();
+			self::ensure_fixed_territorios_terms();
+			self::ensure_fixed_categorias_terms();
 			self::sync_roles_and_caps();
 			self::maybe_create_default_pages( true );
 			if ( class_exists( 'MADRURAL_Auth_Plugin' ) && is_callable( array( 'MADRURAL_Auth_Plugin', 'activate' ) ) ) {
@@ -2336,6 +2357,32 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 			foreach ( self::get_fixed_territorio_labels() as $label ) {
 				if ( ! term_exists( $label, self::TAX_TERRITORIO ) ) {
 					wp_insert_term( $label, self::TAX_TERRITORIO );
+				}
+			}
+		}
+
+		/**
+		 * Returns fixed default category labels.
+		 *
+		 * @return array<string>
+		 */
+		public static function get_fixed_categoria_labels() {
+			return self::FIXED_CATEGORIA_LABELS;
+		}
+
+		/**
+		 * Ensures fixed default category terms exist in taxonomy.
+		 *
+		 * @return void
+		 */
+		public static function ensure_fixed_categorias_terms() {
+			if ( ! taxonomy_exists( self::TAX_CATEGORIA ) ) {
+				return;
+			}
+
+			foreach ( self::get_fixed_categoria_labels() as $label ) {
+				if ( ! term_exists( $label, self::TAX_CATEGORIA ) ) {
+					wp_insert_term( $label, self::TAX_CATEGORIA );
 				}
 			}
 		}
