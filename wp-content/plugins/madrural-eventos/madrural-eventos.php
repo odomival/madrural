@@ -1553,11 +1553,13 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 
 			$current_page = isset( $_GET['me_paged'] ) ? max( 1, (int) wp_unslash( $_GET['me_paged'] ) ) : 1;
 
-			$args = array(
-				'post_type'      => self::CPT,
-				'post_status'    => 'publish',
-				'posts_per_page' => max( 1, (int) $atts['per_page'] ),
-				'paged'          => $current_page,
+			$per_page = max( 1, (int) $atts['per_page'] );
+
+			$base_args = array(
+				'post_type'           => self::CPT,
+				'post_status'         => 'publish',
+				'ignore_sticky_posts' => true,
+				'fields'              => 'ids',
 			);
 
 			$tax_query = array();
@@ -1578,7 +1580,7 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 			}
 
 			if ( ! empty( $tax_query ) ) {
-				$args['tax_query'] = $tax_query; // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_tax_query
+				$base_args['tax_query'] = $tax_query; // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_tax_query
 			}
 
 			if ( '' !== $desde || '' !== $hasta ) {
@@ -1602,10 +1604,133 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 					);
 				}
 
-				$args['meta_query'] = $meta_query; // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_query
+				$base_args['meta_query'] = $meta_query; // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_query
 			}
 
-			$query       = new WP_Query( $args );
+			$today = current_time( 'Y-m-d' );
+
+			$future_meta_query = isset( $base_args['meta_query'] ) && is_array( $base_args['meta_query'] ) ? $base_args['meta_query'] : array( 'relation' => 'AND' );
+			$future_meta_query[] = array(
+				'key'     => 'madrural_fecha_inicio',
+				'value'   => $today,
+				'compare' => '>=',
+				'type'    => 'DATE',
+			);
+
+			$past_meta_query = isset( $base_args['meta_query'] ) && is_array( $base_args['meta_query'] ) ? $base_args['meta_query'] : array( 'relation' => 'AND' );
+			$past_meta_query[] = array(
+				'key'     => 'madrural_fecha_inicio',
+				'value'   => $today,
+				'compare' => '<',
+				'type'    => 'DATE',
+			);
+
+			$future_count_args = array_merge(
+				$base_args,
+				array(
+					'posts_per_page' => 1,
+					'paged'          => 1,
+					'no_found_rows'  => false,
+					'meta_key'       => 'madrural_fecha_inicio',
+					'orderby'        => 'meta_value',
+					'order'          => 'ASC',
+					'meta_type'      => 'DATE',
+					'meta_query'     => $future_meta_query, // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_query
+				)
+			);
+
+			$past_count_args = array_merge(
+				$base_args,
+				array(
+					'posts_per_page' => 1,
+					'paged'          => 1,
+					'no_found_rows'  => false,
+					'meta_key'       => 'madrural_fecha_inicio',
+					'orderby'        => 'meta_value',
+					'order'          => 'DESC',
+					'meta_type'      => 'DATE',
+					'meta_query'     => $past_meta_query, // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_query
+				)
+			);
+
+			$future_count_query = new WP_Query( $future_count_args );
+			$past_count_query   = new WP_Query( $past_count_args );
+
+			$future_total = (int) $future_count_query->found_posts;
+			$past_total   = (int) $past_count_query->found_posts;
+			$total_events = $future_total + $past_total;
+			$total_pages  = $total_events > 0 ? (int) ceil( $total_events / $per_page ) : 1;
+
+			$offset      = max( 0, ( $current_page - 1 ) * $per_page );
+			$remaining   = $per_page;
+			$future_ids  = array();
+			$past_ids    = array();
+
+			if ( $offset < $future_total ) {
+				$future_limit = min( $remaining, $future_total - $offset );
+				if ( $future_limit > 0 ) {
+					$future_page_args = array_merge(
+						$base_args,
+						array(
+							'posts_per_page' => $future_limit,
+							'offset'         => $offset,
+							'no_found_rows'  => true,
+							'meta_key'       => 'madrural_fecha_inicio',
+							'orderby'        => 'meta_value',
+							'order'          => 'ASC',
+							'meta_type'      => 'DATE',
+							'meta_query'     => $future_meta_query, // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_query
+						)
+					);
+
+					$future_page_query = new WP_Query( $future_page_args );
+					$future_ids        = is_array( $future_page_query->posts ) ? array_map( 'intval', $future_page_query->posts ) : array();
+					$remaining        -= count( $future_ids );
+				}
+
+				if ( $remaining > 0 && $past_total > 0 ) {
+					$past_page_args = array_merge(
+						$base_args,
+						array(
+							'posts_per_page' => $remaining,
+							'offset'         => 0,
+							'no_found_rows'  => true,
+							'meta_key'       => 'madrural_fecha_inicio',
+							'orderby'        => 'meta_value',
+							'order'          => 'DESC',
+							'meta_type'      => 'DATE',
+							'meta_query'     => $past_meta_query, // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_query
+						)
+					);
+
+					$past_page_query = new WP_Query( $past_page_args );
+					$past_ids        = is_array( $past_page_query->posts ) ? array_map( 'intval', $past_page_query->posts ) : array();
+				}
+			} elseif ( $past_total > 0 ) {
+				$past_offset = $offset - $future_total;
+				if ( $past_offset < 0 ) {
+					$past_offset = 0;
+				}
+
+				$past_page_args = array_merge(
+					$base_args,
+					array(
+						'posts_per_page' => $remaining,
+						'offset'         => $past_offset,
+						'no_found_rows'  => true,
+						'meta_key'       => 'madrural_fecha_inicio',
+						'orderby'        => 'meta_value',
+						'order'          => 'DESC',
+						'meta_type'      => 'DATE',
+						'meta_query'     => $past_meta_query, // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_query
+					)
+				);
+
+				$past_page_query = new WP_Query( $past_page_args );
+				$past_ids        = is_array( $past_page_query->posts ) ? array_map( 'intval', $past_page_query->posts ) : array();
+			}
+
+			$event_ids   = array_merge( $future_ids, $past_ids );
 			$territorios = self::get_fixed_territorio_terms();
 			$categorias  = get_terms( array( 'taxonomy' => self::TAX_CATEGORIA, 'hide_empty' => false ) );
 
@@ -1654,35 +1779,43 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 				</p>
 			</form>
 			<div class="madrural-eventos-listado">
-				<?php if ( $query->have_posts() ) : ?>
-					<?php while ( $query->have_posts() ) : $query->the_post(); ?>
+				<?php if ( ! empty( $event_ids ) ) : ?>
+					<?php foreach ( $event_ids as $event_id ) : ?>
 						<?php
-						$territorio_terms  = wp_get_post_terms( get_the_ID(), self::TAX_TERRITORIO, array( 'fields' => 'names' ) );
+						$event_post = get_post( (int) $event_id );
+						if ( ! $event_post instanceof WP_Post ) {
+							continue;
+						}
+
+						$territorio_terms  = wp_get_post_terms( (int) $event_id, self::TAX_TERRITORIO, array( 'fields' => 'names' ) );
 						$territorio_label  = ( ! is_wp_error( $territorio_terms ) && ! empty( $territorio_terms ) ) ? (string) $territorio_terms[0] : '';
-						$event_description = wp_strip_all_tags( (string) get_the_content() );
+						$event_start_date  = self::sanitize_date( (string) get_post_meta( (int) $event_id, 'madrural_fecha_inicio', true ) );
+						$event_description = wp_strip_all_tags( (string) $event_post->post_content );
 						$event_description = wp_trim_words( $event_description, 24, '…' );
 						?>
 						<article class="madrural-evento-item">
-							<a class="madrural-evento-card-link" href="<?php echo esc_url( get_permalink() ); ?>" aria-label="<?php echo esc_attr( sprintf( __( 'Ver detalles de %s', 'madrural-eventos' ), get_the_title() ) ); ?>"></a>
-							<?php echo self::render_event_gallery_carousel( get_the_ID(), 'medium_large' ); ?>
+							<a class="madrural-evento-card-link" href="<?php echo esc_url( get_permalink( (int) $event_id ) ); ?>" aria-label="<?php echo esc_attr( sprintf( __( 'Ver detalles de %s', 'madrural-eventos' ), get_the_title( (int) $event_id ) ) ); ?>"></a>
+							<?php echo self::render_event_gallery_carousel( (int) $event_id, 'medium_large' ); ?>
 							<?php if ( '' !== $territorio_label ) : ?>
 								<p class="madrural-evento-territorio"><?php echo esc_html( $territorio_label ); ?></p>
 							<?php endif; ?>
-							<p class="madrural-evento-title-card"><?php echo esc_html( get_the_title() ); ?></p>
+							<p class="madrural-evento-title-card"><?php echo esc_html( get_the_title( (int) $event_id ) ); ?></p>
 							<?php if ( '' !== $event_description ) : ?>
 								<p class="madrural-evento-descripcion"><?php echo esc_html( $event_description ); ?></p>
 							<?php endif; ?>
+							<?php if ( '' !== $event_start_date ) : ?>
+								<p class="madrural-evento-fecha"><?php echo esc_html( self::format_date_for_display( $event_start_date ) ); ?></p>
+							<?php endif; ?>
 						</article>
-					<?php endwhile; ?>
+					<?php endforeach; ?>
 				<?php else : ?>
 					<p><?php echo esc_html__( 'No hay eventos para los filtros seleccionados.', 'madrural-eventos' ); ?></p>
 				<?php endif; ?>
 			</div>
-			<?php echo self::render_frontend_pagination( $current_page, (int) $query->max_num_pages, 'me_paged' ); ?>
+			<?php echo self::render_frontend_pagination( $current_page, $total_pages, 'me_paged' ); ?>
 			</div>
 			</div>
 			<?php
-			wp_reset_postdata();
 			return (string) ob_get_clean();
 		}
 

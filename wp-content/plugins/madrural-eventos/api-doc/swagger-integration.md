@@ -30,7 +30,7 @@ Swagger UI cargará la especificación desde `/wp-json/madrural/v1/api-docs`.
 
 ## 3) Autenticación en Swagger
 
-Los endpoints `POST/PUT/PATCH/DELETE` requieren Bearer token.
+Los endpoints `POST/PUT/PATCH/DELETE` y `POST /api-eventos/upload-image` requieren Bearer token.
 
 Flujo:
 
@@ -44,12 +44,25 @@ Flujo:
 - `POST /api-eventos/login`
 - `GET /api-eventos`
 - `GET /api-eventos/{id}`
+- `POST /api-eventos/upload-image`
 - `POST /api-eventos`
 - `PUT /api-eventos/{id}`
 - `PATCH /api-eventos/{id}`
 - `DELETE /api-eventos/{id}`
 
-## 5) Notas
+## 5) Contratos visibles en Swagger
+
+- Cada endpoint muestra request/response y errores (`400/401/403/404/500` según aplique).
+- `POST/PUT/PATCH` de eventos usa un esquema estricto con solo campos del formulario.
+- `categoria` es un único valor y `galeria_ids` recibe IDs numéricos de imágenes subidas previamente.
+
+## 6) Flujo recomendado para imágenes en eventos
+
+1. Ejecuta `POST /api-eventos/upload-image` con `multipart/form-data` y campo `imagen`.
+2. Copia el `image.id` del response.
+3. Envía ese ID dentro de `galeria_ids` en `POST/PUT/PATCH /api-eventos`.
+
+## 7) Notas
 
 - Swagger UI se carga por CDN (`unpkg`).
 - Si no visualizas cambios, limpia caché del navegador y caché del sitio.

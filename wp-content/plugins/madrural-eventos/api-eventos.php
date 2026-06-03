@@ -114,6 +114,74 @@ if ( ! class_exists( 'MADRURAL_Eventos_API' ) ) {
 					),
 				)
 			);
+
+			register_rest_route(
+				'madrural/v1',
+				'/api-eventos/upload-image',
+				array(
+					array(
+						'methods'             => WP_REST_Server::CREATABLE,
+						'callback'            => array( __CLASS__, 'upload_event_image' ),
+						'permission_callback' => array( __CLASS__, 'permission_edit_eventos' ),
+					),
+				)
+			);
+		}
+
+		/**
+		 * POST /madrural/v1/api-eventos/upload-image
+		 *
+		 * @param WP_REST_Request $request REST request.
+		 * @return WP_REST_Response|WP_Error
+		 */
+		public static function upload_event_image( WP_REST_Request $request ) {
+			$profile = self::get_authenticated_profile();
+			if ( ! is_array( $profile ) ) {
+				$profile = self::authenticate_request_profile( $request );
+			}
+			if ( is_wp_error( $profile ) || ! is_array( $profile ) ) {
+				return is_wp_error( $profile ) ? $profile : new WP_Error( 'madrural_api_unauthorized', esc_html__( 'No autorizado.', 'madrural-eventos' ), array( 'status' => 401 ) );
+			}
+
+			if ( ! function_exists( 'media_handle_upload' ) ) {
+				require_once ABSPATH . 'wp-admin/includes/file.php';
+				require_once ABSPATH . 'wp-admin/includes/media.php';
+				require_once ABSPATH . 'wp-admin/includes/image.php';
+			}
+
+			$file_key = '';
+			if ( isset( $_FILES['imagen'] ) ) {
+				$file_key = 'imagen';
+			} elseif ( isset( $_FILES['image'] ) ) {
+				$file_key = 'image';
+			}
+
+			if ( '' === $file_key ) {
+				return new WP_Error(
+					'madrural_api_missing_image',
+					esc_html__( 'Debes enviar un archivo en el campo imagen o image.', 'madrural-eventos' ),
+					array( 'status' => 400 )
+				);
+			}
+
+			$attachment_id = media_handle_upload( $file_key, 0 );
+			if ( is_wp_error( $attachment_id ) ) {
+				return $attachment_id;
+			}
+
+			$full_url  = wp_get_attachment_image_url( (int) $attachment_id, 'full' );
+			$thumb_url = wp_get_attachment_image_url( (int) $attachment_id, 'medium_large' );
+
+			return rest_ensure_response(
+				array(
+					'message' => esc_html__( 'Imagen subida correctamente.', 'madrural-eventos' ),
+					'image'   => array(
+						'id'        => (int) $attachment_id,
+						'url'       => $full_url ? (string) $full_url : '',
+						'thumb_url' => $thumb_url ? (string) $thumb_url : '',
+					),
+				)
+			);
 		}
 
 		/**
@@ -419,6 +487,11 @@ if ( ! class_exists( 'MADRURAL_Eventos_API' ) ) {
 				$data = array();
 			}
 
+			$data = self::normalize_event_write_payload( $data, true );
+			if ( is_wp_error( $data ) ) {
+				return $data;
+			}
+
 			if ( ! self::profile_can_use_payload_territorio( $profile, $data ) ) {
 				return new WP_Error( 'madrural_api_forbidden_territorio', esc_html__( 'No tienes permisos para el territorio indicado.', 'madrural-eventos' ), array( 'status' => 403 ) );
 			}
@@ -473,6 +546,11 @@ if ( ! class_exists( 'MADRURAL_Eventos_API' ) ) {
 				$data = array();
 			}
 
+			$data = self::normalize_event_write_payload( $data, false );
+			if ( is_wp_error( $data ) ) {
+				return $data;
+			}
+
 			if ( ! self::profile_can_use_payload_territorio( $profile, $data ) ) {
 				return new WP_Error( 'madrural_api_forbidden_territorio', esc_html__( 'No tienes permisos para asignar ese territorio.', 'madrural-eventos' ), array( 'status' => 403 ) );
 			}
@@ -495,6 +573,136 @@ if ( ! class_exists( 'MADRURAL_Eventos_API' ) ) {
 		}
 
 		/**
+		 * Validates and normalizes event write payload to form fields only.
+		 *
+		 * @param array $data Incoming body data.
+		 * @param bool  $require_title Whether title is mandatory.
+		 * @return array|WP_Error
+		 */
+		private static function normalize_event_write_payload( $data, $require_title ) {
+			if ( ! is_array( $data ) ) {
+				return new WP_Error( 'madrural_api_invalid_payload', esc_html__( 'El cuerpo de la solicitud debe ser un objeto JSON.', 'madrural-eventos' ), array( 'status' => 400 ) );
+			}
+
+			$allowed_keys = array(
+				'title',
+				'description',
+				'fecha_inicio',
+				'fecha_fin',
+				'hora_evento',
+				'ubicacion',
+				'estado_moderacion',
+				'territorio',
+				'categoria',
+				'galeria_ids',
+			);
+
+			$unknown_keys = array_values( array_diff( array_keys( $data ), $allowed_keys ) );
+			if ( ! empty( $unknown_keys ) ) {
+				return new WP_Error(
+					'madrural_api_invalid_fields',
+					esc_html__( 'El request contiene propiedades no permitidas para eventos.', 'madrural-eventos' ),
+					array(
+						'status'          => 400,
+						'invalid_fields'  => $unknown_keys,
+						'allowed_fields'  => $allowed_keys,
+					)
+				);
+			}
+
+			if ( $require_title && ! array_key_exists( 'title', $data ) ) {
+				return new WP_Error( 'madrural_missing_title', esc_html__( 'El campo title es obligatorio.', 'madrural-eventos' ), array( 'status' => 400 ) );
+			}
+
+			if ( array_key_exists( 'title', $data ) && '' === sanitize_text_field( (string) $data['title'] ) ) {
+				return new WP_Error( 'madrural_missing_title', esc_html__( 'El campo title no puede estar vacío.', 'madrural-eventos' ), array( 'status' => 400 ) );
+			}
+
+			$normalized = array();
+			foreach ( $allowed_keys as $key ) {
+				if ( array_key_exists( $key, $data ) ) {
+					$normalized[ $key ] = $data[ $key ];
+				}
+			}
+
+			if ( array_key_exists( 'categoria', $normalized ) ) {
+				$categoria_term_id = self::resolve_or_create_categoria_term_id( $normalized['categoria'] );
+				if ( is_wp_error( $categoria_term_id ) ) {
+					return $categoria_term_id;
+				}
+
+				$normalized['categorias'] = $categoria_term_id > 0 ? array( $categoria_term_id ) : array();
+				unset( $normalized['categoria'] );
+			}
+
+			if ( array_key_exists( 'galeria_ids', $normalized ) ) {
+				$normalized['galeria_ids'] = MADRURAL_Eventos_Plugin::sanitize_image_ids( $normalized['galeria_ids'] );
+			}
+
+			return $normalized;
+		}
+
+		/**
+		 * Resolves or creates a categoria term from incoming payload value.
+		 *
+		 * @param mixed $input Categoria value (id, slug or name).
+		 * @return int|WP_Error
+		 */
+		private static function resolve_or_create_categoria_term_id( $input ) {
+			if ( is_array( $input ) ) {
+				$input = reset( $input );
+			}
+
+			if ( is_numeric( $input ) ) {
+				$term_id = (int) $input;
+				if ( $term_id <= 0 ) {
+					return 0;
+				}
+
+				$existing_term = get_term( $term_id, MADRURAL_Eventos_Plugin::TAX_CATEGORIA );
+				if ( $existing_term instanceof WP_Term ) {
+					return (int) $existing_term->term_id;
+				}
+
+				return new WP_Error( 'madrural_invalid_categoria', esc_html__( 'La categoría indicada no existe.', 'madrural-eventos' ), array( 'status' => 400 ) );
+			}
+
+			$categoria_name = sanitize_text_field( (string) $input );
+			if ( '' === $categoria_name ) {
+				return 0;
+			}
+
+			$slug = sanitize_title( $categoria_name );
+
+			$term_by_slug = '' !== $slug ? get_term_by( 'slug', $slug, MADRURAL_Eventos_Plugin::TAX_CATEGORIA ) : false;
+			if ( $term_by_slug instanceof WP_Term ) {
+				return (int) $term_by_slug->term_id;
+			}
+
+			$term_by_name = get_term_by( 'name', $categoria_name, MADRURAL_Eventos_Plugin::TAX_CATEGORIA );
+			if ( $term_by_name instanceof WP_Term ) {
+				return (int) $term_by_name->term_id;
+			}
+
+			$insert_args = array();
+			if ( '' !== $slug ) {
+				$insert_args['slug'] = $slug;
+			}
+
+			$created = wp_insert_term( $categoria_name, MADRURAL_Eventos_Plugin::TAX_CATEGORIA, $insert_args );
+			if ( is_wp_error( $created ) ) {
+				$existing_id = term_exists( $categoria_name, MADRURAL_Eventos_Plugin::TAX_CATEGORIA );
+				if ( is_array( $existing_id ) && ! empty( $existing_id['term_id'] ) ) {
+					return (int) $existing_id['term_id'];
+				}
+
+				return new WP_Error( 'madrural_categoria_create_failed', esc_html__( 'No se pudo crear la categoría indicada.', 'madrural-eventos' ), array( 'status' => 500 ) );
+			}
+
+			return isset( $created['term_id'] ) ? (int) $created['term_id'] : 0;
+		}
+
+		/**
 		 * DELETE /madrural/v1/api-eventos/{id}
 		 *
 		 * @param WP_REST_Request $request REST request.
@@ -506,6 +714,18 @@ if ( ! class_exists( 'MADRURAL_Eventos_API' ) ) {
 
 			if ( ! $post instanceof WP_Post || MADRURAL_Eventos_Plugin::CPT !== $post->post_type ) {
 				return new WP_Error( 'madrural_event_not_found', esc_html__( 'Evento no encontrado.', 'madrural-eventos' ), array( 'status' => 404 ) );
+			}
+
+			if ( '' === $categoria && isset( $payload['categorias'] ) && is_array( $payload['categorias'] ) && ! empty( $payload['categorias'] ) ) {
+				$first_categoria = reset( $payload['categorias'] );
+				if ( is_numeric( $first_categoria ) ) {
+					$term = get_term( (int) $first_categoria, MADRURAL_Eventos_Plugin::TAX_CATEGORIA );
+					if ( $term instanceof WP_Term ) {
+						$categoria = (string) $term->name;
+					}
+				} elseif ( is_string( $first_categoria ) ) {
+					$categoria = sanitize_text_field( $first_categoria );
+				}
 			}
 
 			$result = wp_trash_post( $post_id );
@@ -702,19 +922,64 @@ if ( ! class_exists( 'MADRURAL_Eventos_API' ) ) {
 		public static function get_openapi_spec( WP_REST_Request $request ) {
 			unset( $request );
 
-			$event_body_schema = array(
+			$event_write_schema = array(
 				'type'       => 'object',
+				'additionalProperties' => false,
 				'properties' => array(
-					'title'            => array( 'type' => 'string' ),
-					'description'      => array( 'type' => 'string' ),
-					'estado_moderacion' => array( 'type' => 'string', 'enum' => array( 'borrador', 'pendiente', 'publicado' ) ),
-					'territorio'       => array( 'type' => 'string' ),
-					'territorios'      => array( 'type' => 'array', 'items' => array( 'type' => 'string' ) ),
-					'categorias'       => array( 'type' => 'array', 'items' => array( 'type' => 'string' ) ),
+					'title'            => array( 'type' => 'string', 'description' => 'Título del evento.' ),
+					'description'      => array( 'type' => 'string', 'description' => 'Descripción del evento.' ),
 					'fecha_inicio'     => array( 'type' => 'string', 'format' => 'date' ),
 					'fecha_fin'        => array( 'type' => 'string', 'format' => 'date' ),
 					'hora_evento'      => array( 'type' => 'string', 'example' => '10:00' ),
-					'ubicacion'        => array( 'type' => 'string' ),
+					'ubicacion'        => array( 'type' => 'string', 'example' => 'https://maps.google.com/...' ),
+					'estado_moderacion' => array( 'type' => 'string', 'enum' => array( 'borrador', 'pendiente', 'publicado' ) ),
+					'territorio'       => array( 'type' => 'string', 'description' => 'ID o slug de un solo territorio.' ),
+					'categoria'        => array( 'type' => 'string', 'description' => 'ID o slug de una sola categoría.' ),
+					'galeria_ids'      => array( 'type' => 'array', 'items' => array( 'type' => 'integer' ) ),
+				),
+				'example'    => array(
+					'title'            => 'Feria local de productores',
+					'description'      => 'Evento para promover productores de la zona.',
+					'fecha_inicio'     => '2026-08-21',
+					'fecha_fin'        => '2026-08-21',
+					'hora_evento'      => '10:00',
+					'ubicacion'        => 'https://maps.google.com/?q=Madrid',
+					'estado_moderacion' => 'pendiente',
+					'territorio'       => '1',
+					'categoria'        => '3',
+					'galeria_ids'      => array( 145, 146 ),
+				),
+			);
+
+			$error_schema = array(
+				'type'       => 'object',
+				'properties' => array(
+					'code'    => array( 'type' => 'string' ),
+					'message' => array( 'type' => 'string' ),
+					'data'    => array( 'type' => 'object' ),
+				),
+			);
+
+			$event_response_schema = array(
+				'type'       => 'object',
+				'properties' => array(
+					'message' => array( 'type' => 'string' ),
+					'event'   => array( 'type' => 'object' ),
+				),
+			);
+
+			$upload_success_schema = array(
+				'type'       => 'object',
+				'properties' => array(
+					'message' => array( 'type' => 'string' ),
+					'image'   => array(
+						'type'       => 'object',
+						'properties' => array(
+							'id'        => array( 'type' => 'integer' ),
+							'url'       => array( 'type' => 'string' ),
+							'thumb_url' => array( 'type' => 'string' ),
+						),
+					),
 				),
 			);
 
@@ -737,6 +1002,9 @@ if ( ! class_exists( 'MADRURAL_Eventos_API' ) ) {
 							'bearerFormat' => 'Token',
 						),
 					),
+					'schemas' => array(
+						'Error' => $error_schema,
+					),
 				),
 				'paths' => array(
 					'/api-eventos/login' => array(
@@ -758,9 +1026,22 @@ if ( ! class_exists( 'MADRURAL_Eventos_API' ) ) {
 								),
 							),
 							'responses' => array(
-								'200' => array( 'description' => 'Token generado correctamente.' ),
-								'400' => array( 'description' => 'Datos faltantes.' ),
-								'401' => array( 'description' => 'Credenciales inválidas.' ),
+								'200' => array(
+									'description' => 'Token generado correctamente.',
+									'content' => array( 'application/json' => array( 'schema' => array( 'type' => 'object' ) ) ),
+								),
+								'400' => array(
+									'description' => 'Datos faltantes.',
+									'content' => array( 'application/json' => array( 'schema' => $error_schema ) ),
+								),
+								'401' => array(
+									'description' => 'Credenciales inválidas.',
+									'content' => array( 'application/json' => array( 'schema' => $error_schema ) ),
+								),
+								'500' => array(
+									'description' => 'Error interno.',
+									'content' => array( 'application/json' => array( 'schema' => $error_schema ) ),
+								),
 							),
 						),
 					),
@@ -776,7 +1057,14 @@ if ( ! class_exists( 'MADRURAL_Eventos_API' ) ) {
 								array( 'name' => 'per_page', 'in' => 'query', 'schema' => array( 'type' => 'integer' ) ),
 							),
 							'responses' => array(
-								'200' => array( 'description' => 'Listado de eventos.' ),
+								'200' => array(
+									'description' => 'Listado de eventos.',
+									'content' => array( 'application/json' => array( 'schema' => array( 'type' => 'object' ) ) ),
+								),
+								'400' => array(
+									'description' => 'Parámetros inválidos.',
+									'content' => array( 'application/json' => array( 'schema' => $error_schema ) ),
+								),
 							),
 						),
 						'post' => array(
@@ -786,14 +1074,27 @@ if ( ! class_exists( 'MADRURAL_Eventos_API' ) ) {
 								'required' => true,
 								'content'  => array(
 									'application/json' => array(
-										'schema' => $event_body_schema,
+										'schema' => array_merge( $event_write_schema, array( 'required' => array( 'title' ) ) ),
 									),
 								),
 							),
 							'responses' => array(
-								'200' => array( 'description' => 'Evento creado.' ),
-								'401' => array( 'description' => 'Token faltante o inválido.' ),
-								'403' => array( 'description' => 'Sin permisos.' ),
+								'200' => array(
+									'description' => 'Evento creado.',
+									'content' => array( 'application/json' => array( 'schema' => $event_response_schema ) ),
+								),
+								'400' => array(
+									'description' => 'Payload inválido o campos no permitidos.',
+									'content' => array( 'application/json' => array( 'schema' => $error_schema ) ),
+								),
+								'401' => array(
+									'description' => 'Token faltante o inválido.',
+									'content' => array( 'application/json' => array( 'schema' => $error_schema ) ),
+								),
+								'403' => array(
+									'description' => 'Sin permisos.',
+									'content' => array( 'application/json' => array( 'schema' => $error_schema ) ),
+								),
 							),
 						),
 					),
@@ -802,6 +1103,16 @@ if ( ! class_exists( 'MADRURAL_Eventos_API' ) ) {
 							'summary' => 'Obtener evento por ID',
 							'parameters' => array(
 								array( 'name' => 'id', 'in' => 'path', 'required' => true, 'schema' => array( 'type' => 'integer' ) ),
+							),
+							'responses' => array(
+								'200' => array(
+									'description' => 'Evento encontrado.',
+									'content' => array( 'application/json' => array( 'schema' => array( 'type' => 'object' ) ) ),
+								),
+								'404' => array(
+									'description' => 'Evento no encontrado.',
+									'content' => array( 'application/json' => array( 'schema' => $error_schema ) ),
+								),
 							),
 						),
 						'put' => array(
@@ -814,8 +1125,30 @@ if ( ! class_exists( 'MADRURAL_Eventos_API' ) ) {
 								'required' => true,
 								'content'  => array(
 									'application/json' => array(
-										'schema' => $event_body_schema,
+										'schema' => array_merge( $event_write_schema, array( 'required' => array( 'title' ) ) ),
 									),
+								),
+							),
+							'responses' => array(
+								'200' => array(
+									'description' => 'Evento actualizado.',
+									'content' => array( 'application/json' => array( 'schema' => $event_response_schema ) ),
+								),
+								'400' => array(
+									'description' => 'Payload inválido.',
+									'content' => array( 'application/json' => array( 'schema' => $error_schema ) ),
+								),
+								'401' => array(
+									'description' => 'Token faltante o inválido.',
+									'content' => array( 'application/json' => array( 'schema' => $error_schema ) ),
+								),
+								'403' => array(
+									'description' => 'Sin permisos.',
+									'content' => array( 'application/json' => array( 'schema' => $error_schema ) ),
+								),
+								'404' => array(
+									'description' => 'Evento no encontrado.',
+									'content' => array( 'application/json' => array( 'schema' => $error_schema ) ),
 								),
 							),
 						),
@@ -829,8 +1162,30 @@ if ( ! class_exists( 'MADRURAL_Eventos_API' ) ) {
 								'required' => true,
 								'content'  => array(
 									'application/json' => array(
-										'schema' => $event_body_schema,
+										'schema' => array_merge( $event_write_schema, array( 'required' => array( 'title' ) ) ),
 									),
+								),
+							),
+							'responses' => array(
+								'200' => array(
+									'description' => 'Evento actualizado parcialmente.',
+									'content' => array( 'application/json' => array( 'schema' => $event_response_schema ) ),
+								),
+								'400' => array(
+									'description' => 'Payload inválido.',
+									'content' => array( 'application/json' => array( 'schema' => $error_schema ) ),
+								),
+								'401' => array(
+									'description' => 'Token faltante o inválido.',
+									'content' => array( 'application/json' => array( 'schema' => $error_schema ) ),
+								),
+								'403' => array(
+									'description' => 'Sin permisos.',
+									'content' => array( 'application/json' => array( 'schema' => $error_schema ) ),
+								),
+								'404' => array(
+									'description' => 'Evento no encontrado.',
+									'content' => array( 'application/json' => array( 'schema' => $error_schema ) ),
 								),
 							),
 						),
@@ -839,6 +1194,62 @@ if ( ! class_exists( 'MADRURAL_Eventos_API' ) ) {
 							'security' => array( array( 'BearerAuth' => array() ) ),
 							'parameters' => array(
 								array( 'name' => 'id', 'in' => 'path', 'required' => true, 'schema' => array( 'type' => 'integer' ) ),
+							),
+							'responses' => array(
+								'200' => array(
+									'description' => 'Evento eliminado.',
+									'content' => array( 'application/json' => array( 'schema' => array( 'type' => 'object' ) ) ),
+								),
+								'401' => array(
+									'description' => 'Token faltante o inválido.',
+									'content' => array( 'application/json' => array( 'schema' => $error_schema ) ),
+								),
+								'403' => array(
+									'description' => 'Sin permisos.',
+									'content' => array( 'application/json' => array( 'schema' => $error_schema ) ),
+								),
+								'404' => array(
+									'description' => 'Evento no encontrado.',
+									'content' => array( 'application/json' => array( 'schema' => $error_schema ) ),
+								),
+							),
+						),
+					),
+					'/api-eventos/upload-image' => array(
+						'post' => array(
+							'summary'  => 'Subir imagen para eventos',
+							'security' => array( array( 'BearerAuth' => array() ) ),
+							'requestBody' => array(
+								'required' => true,
+								'content'  => array(
+									'multipart/form-data' => array(
+										'schema' => array(
+											'type'       => 'object',
+											'required'   => array( 'imagen' ),
+											'properties' => array(
+												'imagen' => array( 'type' => 'string', 'format' => 'binary' ),
+											),
+										),
+									),
+								),
+							),
+							'responses' => array(
+								'200' => array(
+									'description' => 'Imagen subida correctamente.',
+									'content' => array( 'application/json' => array( 'schema' => $upload_success_schema ) ),
+								),
+								'400' => array(
+									'description' => 'Archivo faltante o inválido.',
+									'content' => array( 'application/json' => array( 'schema' => $error_schema ) ),
+								),
+								'401' => array(
+									'description' => 'Token faltante o inválido.',
+									'content' => array( 'application/json' => array( 'schema' => $error_schema ) ),
+								),
+								'403' => array(
+									'description' => 'Sin permisos.',
+									'content' => array( 'application/json' => array( 'schema' => $error_schema ) ),
+								),
 							),
 						),
 					),

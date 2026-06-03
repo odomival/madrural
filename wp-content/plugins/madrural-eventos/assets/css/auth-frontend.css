@@ -440,6 +440,20 @@
 	background: #1f2937;
 	color: #f9fafb;
 }
+.madrural-auth-dropdown .madrural-auth-user-role {
+	padding: 10px 12px;
+	margin-top: -8px;
+	font-weight: 700;
+	background: #1f2937;
+	color: #f9fafb;
+	border-bottom: 1px solid #f9fafb;
+}
+.madrural-auth-dropdown .madrural-auth-user-territorio {
+	padding: 10px 12px;
+	font-weight: 700;
+	background: #1f2937;
+	color: #f9fafb;
+}
 
 .madrural-auth-dropdown a {
 	display: block;

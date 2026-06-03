@@ -71,7 +71,7 @@
 .madrural-ajax-target.is-ajax-loading > .madrural-ajax-spinner-overlay {
 	display: flex;
 	justify-content: flex-start;
-	padding-top: 100px;
+	padding-top: 150px;
 }
 
 .madrural-eventos-listado.is-ajax-loading,
@@ -154,6 +154,14 @@
 	display: flex;
 	align-items: center;
 	gap: 10px;
+}
+
+.madrural-evento-fecha {
+	position: absolute !important;
+	bottom: 0;
+	font-size: 14px;
+	color: #b25b22;
+	right: 15px;
 }
 
 .madrural-plugin-header {

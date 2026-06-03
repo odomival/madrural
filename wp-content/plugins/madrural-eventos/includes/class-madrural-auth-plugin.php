@@ -1382,6 +1382,12 @@ if ( ! class_exists( 'MADRURAL_Auth_Plugin' ) ) {
 
 			$profile    = self::get_current_profile();
 			$initial    = strtoupper( substr( (string) $profile['name'], 0, 1 ) );
+			$role_label = isset( $profile['role'] ) ? sanitize_text_field( (string) $profile['role'] ) : '';
+			$territorio_value = isset( $profile['territorios'] ) ? $profile['territorios'] : ( isset( $profile['territorio'] ) ? (string) $profile['territorio'] : '' );
+			$territorio_label = self::get_territorio_display_label( $territorio_value );
+			if ( '' === $territorio_label && 'superadmin' === $role_label ) {
+				$territorio_label = 'global';
+			}
 			$mis_url    = self::get_mis_eventos_url();
 			$logout_url = add_query_arg(
 				array(
@@ -1395,6 +1401,12 @@ if ( ! class_exists( 'MADRURAL_Auth_Plugin' ) ) {
 				<button type="button" class="madrural-auth-avatar" id="madrural-auth-avatar"><?php echo esc_html( $initial ); ?></button>
 				<div class="madrural-auth-dropdown" id="madrural-auth-dropdown">
 					<div class="madrural-auth-user"><?php echo esc_html( $profile['name'] ); ?></div>
+					<?php if ( '' !== $role_label ) : ?>
+						<div class="madrural-auth-user-role"><?php echo esc_html( sprintf( 'Rol: %s', $role_label ) ); ?></div>
+					<?php endif; ?>
+					<?php if ( '' !== $territorio_label ) : ?>
+						<div class="madrural-auth-user-territorio"><?php echo esc_html( sprintf( 'Territorio: %s', $territorio_label ) ); ?></div>
+					<?php endif; ?>
 					<a href="<?php echo esc_url( $mis_url ); ?>"><?php echo esc_html__( 'Gestión de Eventos', 'madrural-auth' ); ?></a>
 					<?php if ( 'superadmin' === $profile['role'] ) : ?>
 						<a href="<?php echo esc_url( self::get_page_url( 'panel' ) ); ?>"><?php echo esc_html__( 'Perfiles', 'madrural-auth' ); ?></a>
