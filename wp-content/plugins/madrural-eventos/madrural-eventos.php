@@ -336,6 +336,12 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 					'loginUrl'       => class_exists( 'MADRURAL_Auth_Plugin' ) && is_callable( array( 'MADRURAL_Auth_Plugin', 'get_page_url' ) ) ? MADRURAL_Auth_Plugin::get_page_url( 'login', home_url( '/acceso-gestores/' ) ) : home_url( '/acceso-gestores/' ),
 					'loadingText'    => esc_html__( 'Cargando...', 'madrural-eventos' ),
 					'savedToastText' => esc_html__( 'Cambios guardados correctamente.', 'madrural-eventos' ),
+					'i18nDefaultLanguage' => 'es',
+					'i18nSupportedLanguages' => array( 'es', 'en' ),
+					'i18nDictionaryUrls' => array(
+						'es' => plugin_dir_url( __FILE__ ) . 'assets/i18n/es.json',
+						'en' => plugin_dir_url( __FILE__ ) . 'assets/i18n/en.json',
+					),
 				)
 			);
 		}
@@ -2508,6 +2514,18 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 			$html .= '</span>';
 			$html .= '</a>';
 			$html .= '<nav class="madrural-plugin-nav" aria-label="' . esc_attr__( 'Navegación de eventos', 'madrural-eventos' ) . '">';
+			$html .= '<div class="madrural-language-selector">';
+			$html .= '<div class="madrural-language-dropdown" data-current-lang="es">';
+			$html .= '<button type="button" class="madrural-language-trigger" aria-haspopup="listbox" aria-expanded="false" aria-label="' . esc_attr__( 'Seleccionar idioma', 'madrural-eventos' ) . '">';
+			$html .= '<span class="madrural-language-flag is-es" aria-hidden="true"></span>';
+			$html .= '<span class="madrural-language-code">ES</span>';
+			$html .= '</button>';
+			$html .= '<ul class="madrural-language-list" role="listbox" aria-label="' . esc_attr__( 'Idiomas disponibles', 'madrural-eventos' ) . '">';
+			$html .= '<li><button type="button" class="madrural-language-option is-active" data-lang="es" role="option" aria-selected="true"><span class="madrural-language-option-flag is-es" aria-hidden="true"></span><span class="madrural-language-option-code">ES</span></button></li>';
+			$html .= '<li><button type="button" class="madrural-language-option" data-lang="en" role="option" aria-selected="false"><span class="madrural-language-option-flag is-gb" aria-hidden="true"></span><span class="madrural-language-option-code">GB</span></button></li>';
+			$html .= '</ul>';
+			$html .= '</div>';
+			$html .= '</div>';
 
 			foreach ( $items as $key => $item ) {
 				$active_class = ( $active === $key ) ? ' is-active' : '';
@@ -2757,6 +2775,18 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 
 			$title = get_the_title( $post_id );
 			$primary_categoria  = ( ! is_wp_error( $categorias ) && ! empty( $categorias ) ) ? (string) $categorias[0] : '';
+			$title_en = (string) self::get_event_storage_value( $post_id, 'titulo_en', '' );
+			$description_en = (string) self::get_event_storage_value( $post_id, 'descripcion_en', '' );
+			$category_en = (string) self::get_event_storage_value( $post_id, 'categoria_en', '' );
+			if ( '' === $title_en ) {
+				$title_en = $title;
+			}
+			if ( '' === $description_en ) {
+				$description_en = wp_strip_all_tags( (string) $content );
+			}
+			if ( '' === $category_en ) {
+				$category_en = $primary_categoria;
+			}
 			$primary_territorio = ( ! is_wp_error( $territorios ) && ! empty( $territorios ) ) ? (string) $territorios[0] : '';
 			$gallery_ids = self::get_event_gallery_ids( $post_id );
 			if ( empty( $gallery_ids ) && has_post_thumbnail( $post_id ) ) {
@@ -2837,10 +2867,10 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 			$details .= '<div class="madrural-evento-hero-overlay">';
 			$details .= '<div class="madrural-evento-hero-badges">';
 			if ( '' !== $primary_categoria ) {
-				$details .= '<span class="madrural-evento-hero-badge">🏷️ ' . esc_html( $primary_categoria ) . '</span>';
+				$details .= '<span class="madrural-evento-hero-badge" data-lang-es="🏷️ ' . esc_attr( $primary_categoria ) . '" data-lang-en="🏷️ ' . esc_attr( $category_en ) . '">🏷️ ' . esc_html( $primary_categoria ) . '</span>';
 			}
 			$details .= '</div>';
-			$details .= '<h1 class="madrural-evento-detail-title">' . esc_html( $title ) . '</h1>';
+			$details .= '<h1 class="madrural-evento-detail-title" data-lang-es="' . esc_attr( $title ) . '" data-lang-en="' . esc_attr( $title_en ) . '">' . esc_html( $title ) . '</h1>';
 			$details .= '<p class="madrural-evento-hero-meta">';
 			if ( '' !== $fecha_inicio ) {
 				$details .= '<span>📅 ' . esc_html( self::format_date_for_display( $fecha_inicio ) ) . '</span>';
@@ -2857,7 +2887,7 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 			$details .= '<div class="madrural-evento-detail-body">';
 			$details .= '<div class="madrural-evento-detail-main">';
 			$details .= '<h3 class="madrural-evento-detail-section-title">' . esc_html__( 'Sobre el evento', 'madrural-eventos' ) . '</h3>';
-			$details .= '<div class="madrural-evento-detail-description">' . $content . '</div>';
+			$details .= '<div class="madrural-evento-detail-description" data-lang-es="' . esc_attr( wp_strip_all_tags( (string) $content ) ) . '" data-lang-en="' . esc_attr( wp_strip_all_tags( $description_en ) ) . '">' . $content . '</div>';
 			if ( '' !== $ubicacion ) {
 				$details .= '<p class="madrural-evento-location-cta-wrap"><a class="madrural-evento-location-btn" href="' . esc_url( $ubicacion ) . '" target="_blank" rel="noopener noreferrer">📍 ' . esc_html__( 'Ver ubicación', 'madrural-eventos' ) . '</a></p>';
 			}

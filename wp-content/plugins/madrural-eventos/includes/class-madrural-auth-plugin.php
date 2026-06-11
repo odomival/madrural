@@ -673,6 +673,19 @@ if ( ! class_exists( 'MADRURAL_Auth_Plugin' ) ) {
 			$html .= '</a>';
 			$html .= '<nav class="madrural-plugin-nav" aria-label="' . esc_attr__( 'Navegación de eventos', 'madrural-eventos' ) . '">';
 
+			$html .= '<div class="madrural-language-selector">';
+			$html .= '<div class="madrural-language-dropdown" data-current-lang="es">';
+			$html .= '<button type="button" class="madrural-language-trigger" aria-haspopup="listbox" aria-expanded="false" aria-label="' . esc_attr__( 'Seleccionar idioma', 'madrural-eventos' ) . '">';
+			$html .= '<span class="madrural-language-flag is-es" aria-hidden="true"></span>';
+			$html .= '<span class="madrural-language-code">ES</span>';
+			$html .= '</button>';
+			$html .= '<ul class="madrural-language-list" role="listbox" aria-label="' . esc_attr__( 'Idiomas disponibles', 'madrural-eventos' ) . '">';
+			$html .= '<li><button type="button" class="madrural-language-option is-active" data-lang="es" role="option" aria-selected="true"><span class="madrural-language-option-flag is-es" aria-hidden="true"></span><span class="madrural-language-option-code">ES</span></button></li>';
+			$html .= '<li><button type="button" class="madrural-language-option" data-lang="en" role="option" aria-selected="false"><span class="madrural-language-option-flag is-gb" aria-hidden="true"></span><span class="madrural-language-option-code">GB</span></button></li>';
+			$html .= '</ul>';
+			$html .= '</div>';
+			$html .= '</div>';
+
 			foreach ( $items as $key => $item ) {
 				$active_class = ( $active === $key ) ? ' is-active' : '';
 				$html        .= '<a class="madrural-plugin-nav-link' . esc_attr( $active_class ) . '" href="' . esc_url( $item['url'] ) . '">' . esc_html( $item['label'] ) . '</a>';

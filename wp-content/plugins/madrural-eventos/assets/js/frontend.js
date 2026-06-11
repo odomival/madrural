@@ -3,6 +3,344 @@
 
 	var ajaxConfig = window.MADRURAL_AJAX_VIEWS || {};
 	var isLoadingView = false;
+	var i18nState = {
+		initialized: false,
+		language: null,
+		dictionaries: {},
+		loadingPromises: {}
+	};
+
+	function getI18nDefaultLanguage() {
+		return ajaxConfig.i18nDefaultLanguage || 'es';
+	}
+
+	function applyDynamicLanguageValues(language) {
+		var lang = normalizeLanguage(language);
+		var valueKey = 'lang' + lang.charAt(0).toUpperCase() + lang.slice(1);
+
+		Array.prototype.forEach.call(document.querySelectorAll('[data-lang-es][data-lang-en]'), function (node) {
+			if (!node || !node.dataset) {
+				return;
+			}
+
+			var nextValue = node.dataset[valueKey] || node.dataset.langEs || '';
+			if (!nextValue) {
+				return;
+			}
+
+			node.textContent = nextValue;
+		});
+	}
+
+	function getI18nSupportedLanguages() {
+		return Array.isArray(ajaxConfig.i18nSupportedLanguages) && ajaxConfig.i18nSupportedLanguages.length
+			? ajaxConfig.i18nSupportedLanguages
+			: ['es', 'en'];
+	}
+
+	function normalizeLanguage(language) {
+		var supported = getI18nSupportedLanguages();
+		if (supported.indexOf(language) !== -1) {
+			return language;
+		}
+
+		return getI18nDefaultLanguage();
+	}
+
+	function getLanguageStorageKey() {
+		return ajaxConfig.i18nStorageKey || 'madruralLanguage';
+	}
+
+	function getStoredLanguage() {
+		try {
+			return window.localStorage.getItem(getLanguageStorageKey()) || '';
+		} catch (error) {
+			return '';
+		}
+	}
+
+	function persistLanguage(language) {
+		try {
+			window.localStorage.setItem(getLanguageStorageKey(), language);
+		} catch (error) {
+			return;
+		}
+	}
+
+	function getCurrentLanguage() {
+		if (!i18nState.language) {
+			i18nState.language = normalizeLanguage(getStoredLanguage() || getI18nDefaultLanguage());
+		}
+
+		return i18nState.language;
+	}
+
+	function resolveI18nValue(dictionary, key) {
+		if (!dictionary || !key) {
+			return '';
+		}
+
+		if (typeof dictionary[key] === 'string') {
+			return dictionary[key];
+		}
+
+		if (dictionary.static_texts && typeof dictionary.static_texts[key] === 'string') {
+			return dictionary.static_texts[key];
+		}
+
+		return '';
+	}
+
+	function getDictionaryUrl(language) {
+		var urls = ajaxConfig.i18nDictionaryUrls || {};
+		return urls[language] || '';
+	}
+
+	function loadDictionary(language) {
+		language = normalizeLanguage(language);
+		if (i18nState.dictionaries[language]) {
+			return Promise.resolve(i18nState.dictionaries[language]);
+		}
+
+		if (i18nState.loadingPromises[language]) {
+			return i18nState.loadingPromises[language];
+		}
+
+		var dictionaryUrl = getDictionaryUrl(language);
+		if (!dictionaryUrl) {
+			i18nState.dictionaries[language] = { static_texts: {} };
+			return Promise.resolve(i18nState.dictionaries[language]);
+		}
+
+		i18nState.loadingPromises[language] = window.fetch(dictionaryUrl, { credentials: 'same-origin' }).then(function (response) {
+			if (!response.ok) {
+				throw new Error('Unable to load dictionary: ' + language);
+			}
+
+			return response.json();
+		}).then(function (data) {
+			i18nState.dictionaries[language] = data || { static_texts: {} };
+			delete i18nState.loadingPromises[language];
+			return i18nState.dictionaries[language];
+		}).catch(function () {
+			delete i18nState.loadingPromises[language];
+			i18nState.dictionaries[language] = { static_texts: {} };
+			return i18nState.dictionaries[language];
+		});
+
+		return i18nState.loadingPromises[language];
+	}
+
+	function applyDictionaryToView(dictionary, language) {
+		if (!dictionary) {
+			return;
+		}
+
+		var activeLanguage = normalizeLanguage(language || getCurrentLanguage());
+		var staticTexts = dictionary.static_texts || {};
+		var candidates = document.querySelectorAll('h1,h2,h3,h4,h5,h6,p,label,button,a,th,td,legend,small,strong,span,option');
+		Array.prototype.forEach.call(candidates, function (node) {
+			if (!node || node.classList.contains('madrural-language-selector-select') || node.closest('.madrural-language-selector')) {
+				return;
+			}
+
+			var i18nKey = node.getAttribute('data-i18n-key');
+			if (i18nKey) {
+				var keyedValue = resolveI18nValue(dictionary, i18nKey);
+				if (keyedValue) {
+					node.textContent = keyedValue;
+				}
+				return;
+			}
+
+			if (node.children && node.children.length > 0) {
+				return;
+			}
+
+			var currentText = (node.textContent || '').trim();
+			if (!currentText && !node.dataset.i18nSourceText) {
+				return;
+			}
+
+			if (!node.dataset.i18nSourceText && currentText) {
+				node.dataset.i18nSourceText = currentText;
+			}
+
+			var sourceText = node.dataset.i18nSourceText || currentText;
+			if (!sourceText) {
+				return;
+			}
+
+			if ('es' === activeLanguage) {
+				node.textContent = sourceText;
+				return;
+			}
+
+			if (Object.prototype.hasOwnProperty.call(staticTexts, sourceText)) {
+				node.textContent = staticTexts[sourceText];
+			}
+		});
+
+		Array.prototype.forEach.call(document.querySelectorAll('[placeholder], [title], [aria-label]'), function (node) {
+			['placeholder', 'title', 'aria-label'].forEach(function (attributeName) {
+				var currentValue = node.getAttribute(attributeName);
+				var sourceKey = 'i18nSource' + attributeName.charAt(0).toUpperCase() + attributeName.slice(1).replace('-', '');
+				if (!currentValue && !node.dataset[sourceKey]) {
+					return;
+				}
+
+				if (!node.dataset[sourceKey] && currentValue) {
+					node.dataset[sourceKey] = currentValue;
+				}
+
+				var sourceValue = node.dataset[sourceKey] || currentValue;
+				if (!sourceValue) {
+					return;
+				}
+
+				if ('es' === activeLanguage) {
+					node.setAttribute(attributeName, sourceValue);
+					return;
+				}
+
+				var translated = resolveI18nValue(dictionary, sourceValue) || staticTexts[sourceValue] || '';
+				if (translated) {
+					node.setAttribute(attributeName, translated);
+				}
+			});
+		});
+
+		if (staticTexts['Cargando...']) {
+			ajaxConfig.loadingText = staticTexts['Cargando...'];
+		}
+		if (staticTexts['Cambios guardados correctamente.']) {
+			ajaxConfig.savedToastText = staticTexts['Cambios guardados correctamente.'];
+		}
+	}
+
+	function syncLanguageSelectors(language, dictionary) {
+		Array.prototype.forEach.call(document.querySelectorAll('.madrural-language-dropdown'), function (dropdown) {
+			var trigger = dropdown.querySelector('.madrural-language-trigger');
+			var triggerFlag = dropdown.querySelector('.madrural-language-flag');
+			var triggerCode = dropdown.querySelector('.madrural-language-code');
+			var options = dropdown.querySelectorAll('.madrural-language-option');
+
+			dropdown.setAttribute('data-current-lang', language);
+
+			Array.prototype.forEach.call(options, function (option) {
+				var optionLang = option.getAttribute('data-lang') || '';
+				var isActive = optionLang === language;
+				option.classList.toggle('is-active', isActive);
+				option.setAttribute('aria-selected', isActive ? 'true' : 'false');
+				var optionFlagNode = option.querySelector('.madrural-language-option-flag');
+				if (optionFlagNode) {
+					optionFlagNode.classList.toggle('is-es', optionLang === 'es');
+					optionFlagNode.classList.toggle('is-gb', optionLang === 'en');
+				}
+
+				if (isActive && triggerFlag && triggerCode) {
+					var optionCodeNode = option.querySelector('.madrural-language-option-code');
+					if (optionFlagNode) {
+						triggerFlag.classList.toggle('is-es', optionLang === 'es');
+						triggerFlag.classList.toggle('is-gb', optionLang === 'en');
+					}
+					if (optionCodeNode) {
+						triggerCode.textContent = optionCodeNode.textContent || '';
+					}
+				}
+			});
+
+			if (dropdown.dataset.boundLanguage === '1') {
+				return;
+			}
+
+			dropdown.dataset.boundLanguage = '1';
+			if (trigger) {
+				trigger.addEventListener('click', function (event) {
+					event.preventDefault();
+					event.stopPropagation();
+					var isOpen = dropdown.classList.contains('is-open');
+					Array.prototype.forEach.call(document.querySelectorAll('.madrural-language-dropdown.is-open'), function (other) {
+						other.classList.remove('is-open');
+						var otherTrigger = other.querySelector('.madrural-language-trigger');
+						if (otherTrigger) {
+							otherTrigger.setAttribute('aria-expanded', 'false');
+						}
+					});
+					dropdown.classList.toggle('is-open', !isOpen);
+					trigger.setAttribute('aria-expanded', !isOpen ? 'true' : 'false');
+				});
+			}
+
+			Array.prototype.forEach.call(options, function (option) {
+				option.addEventListener('click', function (event) {
+					event.preventDefault();
+					event.stopPropagation();
+					var nextLanguage = option.getAttribute('data-lang') || '';
+					dropdown.classList.remove('is-open');
+					if (trigger) {
+						trigger.setAttribute('aria-expanded', 'false');
+					}
+					if (nextLanguage) {
+						setLanguage(nextLanguage);
+					}
+				});
+			});
+		});
+
+		if (syncLanguageSelectors._outsideClickBound !== true) {
+			syncLanguageSelectors._outsideClickBound = true;
+			document.addEventListener('click', function () {
+				Array.prototype.forEach.call(document.querySelectorAll('.madrural-language-dropdown.is-open'), function (dropdown) {
+					dropdown.classList.remove('is-open');
+					var trigger = dropdown.querySelector('.madrural-language-trigger');
+					if (trigger) {
+						trigger.setAttribute('aria-expanded', 'false');
+					}
+				});
+			});
+		}
+
+		var languageLabel = resolveI18nValue(dictionary, 'language_label');
+		if (languageLabel) {
+			Array.prototype.forEach.call(document.querySelectorAll('.madrural-language-selector-label'), function (labelNode) {
+				labelNode.textContent = languageLabel;
+			});
+		}
+
+		var languageAria = resolveI18nValue(dictionary, 'language_select_aria');
+		if (languageAria) {
+			Array.prototype.forEach.call(document.querySelectorAll('.madrural-language-trigger'), function (triggerNode) {
+				triggerNode.setAttribute('aria-label', languageAria);
+			});
+		}
+	}
+
+	function applyCurrentLanguageToView() {
+		var language = getCurrentLanguage();
+		return loadDictionary(language).then(function (dictionary) {
+			syncLanguageSelectors(language, dictionary);
+			applyDictionaryToView(dictionary, language);
+			applyDynamicLanguageValues(language);
+			document.documentElement.setAttribute('lang', language);
+		});
+	}
+
+	function setLanguage(language) {
+		var normalized = normalizeLanguage(language);
+		i18nState.language = normalized;
+		persistLanguage(normalized);
+		applyCurrentLanguageToView();
+	}
+
+	function initI18n() {
+		if (i18nState.initialized) {
+			return applyCurrentLanguageToView();
+		}
+
+		i18nState.initialized = true;
+		return applyCurrentLanguageToView();
+	}
 
 	function normalizeUrl(url) {
 		try {
@@ -1242,6 +1580,7 @@
 		initStyledConfirmLinks();
 		initEventFormGalleryPicker();
 		initEventFormCategoryAdder();
+		initI18n();
 	}
 
 	document.addEventListener('DOMContentLoaded', function () {
