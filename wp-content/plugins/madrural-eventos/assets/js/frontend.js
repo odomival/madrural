@@ -69,7 +69,8 @@
 
 	function getCurrentLanguage() {
 		if (!i18nState.language) {
-			i18nState.language = normalizeLanguage(getStoredLanguage() || getI18nDefaultLanguage());
+			var siteLanguage = normalizeLanguage(ajaxConfig.siteLanguage || getI18nDefaultLanguage());
+			i18nState.language = normalizeLanguage(getStoredLanguage() || siteLanguage);
 		}
 
 		return i18nState.language;
@@ -331,6 +332,27 @@
 		i18nState.language = normalized;
 		persistLanguage(normalized);
 		applyCurrentLanguageToView();
+		syncLanguageWithBackend(normalized);
+	}
+
+	function syncLanguageWithBackend(language) {
+		if (!ajaxConfig.ajaxUrl || !ajaxConfig.i18nSyncAction || !ajaxConfig.i18nSyncNonce) {
+			return Promise.resolve();
+		}
+
+		var payload = new window.URLSearchParams();
+		payload.append('action', ajaxConfig.i18nSyncAction);
+		payload.append('nonce', ajaxConfig.i18nSyncNonce);
+		payload.append('lang', language);
+
+		return window.fetch(ajaxConfig.ajaxUrl, {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8' },
+			credentials: 'same-origin',
+			body: payload.toString()
+		}).catch(function () {
+			return null;
+		});
 	}
 
 	function initI18n() {

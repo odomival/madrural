@@ -131,6 +131,8 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 			add_action( 'template_redirect', array( __CLASS__, 'disable_cache_on_plugin_views' ), 1 );
 			add_action( 'admin_init', array( __CLASS__, 'maybe_create_default_pages' ) );
 			add_action( 'wp_enqueue_scripts', array( __CLASS__, 'enqueue_frontend_assets' ) );
+			add_action( 'wp_ajax_madrural_set_language', array( __CLASS__, 'handle_ajax_set_language' ) );
+			add_action( 'wp_ajax_nopriv_madrural_set_language', array( __CLASS__, 'handle_ajax_set_language' ) );
 			add_filter( 'body_class', array( __CLASS__, 'add_plugin_body_class' ) );
 			add_filter( 'the_content', array( __CLASS__, 'render_frontend_event_details' ) );
 			add_action( 'wp_head', array( __CLASS__, 'render_event_schema_json_ld' ) );
@@ -336,14 +338,181 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 					'loginUrl'       => class_exists( 'MADRURAL_Auth_Plugin' ) && is_callable( array( 'MADRURAL_Auth_Plugin', 'get_page_url' ) ) ? MADRURAL_Auth_Plugin::get_page_url( 'login', home_url( '/acceso-gestores/' ) ) : home_url( '/acceso-gestores/' ),
 					'loadingText'    => esc_html__( 'Cargando...', 'madrural-eventos' ),
 					'savedToastText' => esc_html__( 'Cambios guardados correctamente.', 'madrural-eventos' ),
-					'i18nDefaultLanguage' => 'es',
+					'siteLanguage' => self::get_current_language_slug(),
+					'i18nDefaultLanguage' => self::get_current_language_slug(),
 					'i18nSupportedLanguages' => array( 'es', 'en' ),
+					'i18nSyncAction' => 'madrural_set_language',
+					'i18nSyncNonce' => wp_create_nonce( 'madrural_set_language' ),
+					'ajaxUrl' => admin_url( 'admin-ajax.php' ),
 					'i18nDictionaryUrls' => array(
 						'es' => plugin_dir_url( __FILE__ ) . 'assets/i18n/es.json',
 						'en' => plugin_dir_url( __FILE__ ) . 'assets/i18n/en.json',
 					),
 				)
 			);
+		}
+
+		/**
+		 * Persists selected language using AJAX without reloading the page.
+		 *
+		 * @return void
+		 */
+		public static function handle_ajax_set_language() {
+			$nonce = isset( $_POST['nonce'] ) ? sanitize_text_field( wp_unslash( $_POST['nonce'] ) ) : '';
+			if ( '' === $nonce || ! wp_verify_nonce( $nonce, 'madrural_set_language' ) ) {
+				wp_send_json_error( array( 'message' => esc_html__( 'No se pudo validar la solicitud.', 'madrural-eventos' ) ), 403 );
+			}
+
+			$lang = isset( $_POST['lang'] ) ? sanitize_title( wp_unslash( $_POST['lang'] ) ) : '';
+			if ( '' === $lang ) {
+				wp_send_json_error( array( 'message' => esc_html__( 'Idioma inválido.', 'madrural-eventos' ) ), 400 );
+			}
+
+			$allowed = array( 'es', 'en' );
+			if ( function_exists( 'pll_languages_list' ) ) {
+				$languages = pll_languages_list( array( 'fields' => 'slug' ) );
+				if ( is_array( $languages ) && ! empty( $languages ) ) {
+					$allowed = array_map( 'sanitize_title', $languages );
+				}
+			}
+
+			if ( ! in_array( $lang, $allowed, true ) ) {
+				wp_send_json_error( array( 'message' => esc_html__( 'Idioma no permitido.', 'madrural-eventos' ) ), 400 );
+			}
+
+			if ( function_exists( 'pll_switch_language' ) ) {
+				pll_switch_language( $lang );
+			}
+
+			$cookie_name = defined( 'PLL_COOKIE' ) ? (string) PLL_COOKIE : 'pll_language';
+			$expire      = time() + YEAR_IN_SECONDS;
+
+			setcookie( $cookie_name, $lang, $expire, COOKIEPATH ? COOKIEPATH : '/', COOKIE_DOMAIN, is_ssl(), false );
+			if ( defined( 'SITECOOKIEPATH' ) && SITECOOKIEPATH && SITECOOKIEPATH !== COOKIEPATH ) {
+				setcookie( $cookie_name, $lang, $expire, SITECOOKIEPATH, COOKIE_DOMAIN, is_ssl(), false );
+			}
+
+			$_COOKIE[ $cookie_name ] = $lang;
+
+			wp_send_json_success( array( 'lang' => $lang ) );
+		}
+
+		/**
+		 * Gets current frontend language slug.
+		 *
+		 * @return string
+		 */
+		public static function get_current_language_slug() {
+			if ( function_exists( 'pll_current_language' ) ) {
+				$current = (string) pll_current_language( 'slug' );
+				if ( '' !== $current ) {
+					return sanitize_title( $current );
+				}
+			}
+
+			$locale = function_exists( 'determine_locale' ) ? (string) determine_locale() : (string) get_locale();
+			return ( 0 === stripos( $locale, 'en_' ) || 'en' === $locale ) ? 'en' : 'es';
+		}
+
+		/**
+		 * Returns language switcher items synchronized with Polylang.
+		 *
+		 * @return array<int,array<string,string|bool>>
+		 */
+		public static function get_language_switcher_items() {
+			$items       = array();
+			$current_url = home_url( add_query_arg( array(), isset( $_SERVER['REQUEST_URI'] ) ? (string) wp_unslash( $_SERVER['REQUEST_URI'] ) : '/' ) );
+
+			if ( function_exists( 'pll_the_languages' ) ) {
+				$languages = pll_the_languages(
+					array(
+						'raw'                    => 1,
+						'hide_if_no_translation' => 0,
+					)
+				);
+
+				if ( is_array( $languages ) && ! empty( $languages ) ) {
+					foreach ( $languages as $lang ) {
+						$slug = isset( $lang['slug'] ) ? sanitize_title( (string) $lang['slug'] ) : '';
+						if ( '' === $slug ) {
+							continue;
+						}
+
+						$items[] = array(
+							'slug'    => $slug,
+							'code'    => 'en' === $slug ? 'GB' : strtoupper( $slug ),
+							'url'     => isset( $lang['url'] ) && '' !== (string) $lang['url'] ? esc_url_raw( (string) $lang['url'] ) : esc_url_raw( add_query_arg( 'lang', $slug, $current_url ) ),
+							'current' => ! empty( $lang['current_lang'] ),
+						);
+					}
+				}
+			}
+
+			if ( empty( $items ) ) {
+				$current = self::get_current_language_slug();
+				$items[] = array(
+					'slug'    => 'es',
+					'code'    => 'ES',
+					'url'     => esc_url_raw( add_query_arg( 'lang', 'es', $current_url ) ),
+					'current' => 'es' === $current,
+				);
+				$items[] = array(
+					'slug'    => 'en',
+					'code'    => 'GB',
+					'url'     => esc_url_raw( add_query_arg( 'lang', 'en', $current_url ) ),
+					'current' => 'en' === $current,
+				);
+			}
+
+			return $items;
+		}
+
+		/**
+		 * Renders custom language dropdown.
+		 *
+		 * @return string
+		 */
+		public static function render_language_switcher_dropdown() {
+			$items = self::get_language_switcher_items();
+			if ( empty( $items ) ) {
+				return '';
+			}
+
+			$current_item = $items[0];
+			foreach ( $items as $item ) {
+				if ( ! empty( $item['current'] ) ) {
+					$current_item = $item;
+					break;
+				}
+			}
+
+			$current_slug = isset( $current_item['slug'] ) ? (string) $current_item['slug'] : 'es';
+			$current_code = isset( $current_item['code'] ) ? (string) $current_item['code'] : 'ES';
+
+			$html  = '<div class="madrural-language-selector">';
+			$html .= '<div class="madrural-language-dropdown" data-current-lang="' . esc_attr( $current_slug ) . '">';
+			$html .= '<button type="button" class="madrural-language-trigger" aria-haspopup="listbox" aria-expanded="false" aria-label="' . esc_attr__( 'Seleccionar idioma', 'madrural-eventos' ) . '">';
+			$html .= '<span class="madrural-language-flag is-' . esc_attr( $current_slug ) . '" aria-hidden="true"></span>';
+			$html .= '<span class="madrural-language-code">' . esc_html( $current_code ) . '</span>';
+			$html .= '</button>';
+			$html .= '<ul class="madrural-language-list" role="listbox" aria-label="' . esc_attr__( 'Idiomas disponibles', 'madrural-eventos' ) . '">';
+
+			foreach ( $items as $item ) {
+				$slug      = isset( $item['slug'] ) ? (string) $item['slug'] : '';
+				if ( '' === $slug ) {
+					continue;
+				}
+				$code      = isset( $item['code'] ) ? (string) $item['code'] : strtoupper( $slug );
+				$url       = isset( $item['url'] ) ? (string) $item['url'] : '';
+				$is_active = ! empty( $item['current'] );
+				$html     .= '<li><button type="button" class="madrural-language-option' . ( $is_active ? ' is-active' : '' ) . '" data-lang="' . esc_attr( $slug ) . '" data-url="' . esc_url( $url ) . '" role="option" aria-selected="' . ( $is_active ? 'true' : 'false' ) . '"><span class="madrural-language-option-flag is-' . esc_attr( $slug ) . '" aria-hidden="true"></span><span class="madrural-language-option-code">' . esc_html( $code ) . '</span></button></li>';
+			}
+
+			$html .= '</ul>';
+			$html .= '</div>';
+			$html .= '</div>';
+
+			return $html;
 		}
 
 		/**
@@ -2529,18 +2698,7 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 			$html .= '</span>';
 			$html .= '</a>';
 			$html .= '<nav class="madrural-plugin-nav" aria-label="' . esc_attr__( 'Navegación de eventos', 'madrural-eventos' ) . '">';
-			$html .= '<div class="madrural-language-selector">';
-			$html .= '<div class="madrural-language-dropdown" data-current-lang="es">';
-			$html .= '<button type="button" class="madrural-language-trigger" aria-haspopup="listbox" aria-expanded="false" aria-label="' . esc_attr__( 'Seleccionar idioma', 'madrural-eventos' ) . '">';
-			$html .= '<span class="madrural-language-flag is-es" aria-hidden="true"></span>';
-			$html .= '<span class="madrural-language-code">ES</span>';
-			$html .= '</button>';
-			$html .= '<ul class="madrural-language-list" role="listbox" aria-label="' . esc_attr__( 'Idiomas disponibles', 'madrural-eventos' ) . '">';
-			$html .= '<li><button type="button" class="madrural-language-option is-active" data-lang="es" role="option" aria-selected="true"><span class="madrural-language-option-flag is-es" aria-hidden="true"></span><span class="madrural-language-option-code">ES</span></button></li>';
-			$html .= '<li><button type="button" class="madrural-language-option" data-lang="en" role="option" aria-selected="false"><span class="madrural-language-option-flag is-gb" aria-hidden="true"></span><span class="madrural-language-option-code">GB</span></button></li>';
-			$html .= '</ul>';
-			$html .= '</div>';
-			$html .= '</div>';
+			$html .= self::render_language_switcher_dropdown();
 
 			foreach ( $items as $key => $item ) {
 				$active_class = ( $active === $key ) ? ' is-active' : '';
