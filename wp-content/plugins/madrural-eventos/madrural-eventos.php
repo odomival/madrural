@@ -1817,18 +1817,30 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 						$territorio_terms  = wp_get_post_terms( (int) $event_id, self::TAX_TERRITORIO, array( 'fields' => 'names' ) );
 						$territorio_label  = ( ! is_wp_error( $territorio_terms ) && ! empty( $territorio_terms ) ) ? (string) $territorio_terms[0] : '';
 						$event_start_date  = self::sanitize_date( (string) get_post_meta( (int) $event_id, 'madrural_fecha_inicio', true ) );
-						$event_description = wp_strip_all_tags( (string) $event_post->post_content );
-						$event_description = wp_trim_words( $event_description, 24, '…' );
+						$event_title_es    = (string) self::get_event_storage_value( (int) $event_id, 'titulo', (string) get_the_title( (int) $event_id ) );
+						$event_title_en    = (string) self::get_event_storage_value( (int) $event_id, 'titulo_en', '' );
+						$event_desc_es_raw = (string) self::get_event_storage_value( (int) $event_id, 'descripcion', (string) $event_post->post_content );
+						$event_desc_en_raw = (string) self::get_event_storage_value( (int) $event_id, 'descripcion_en', '' );
+						$event_cat_es      = (string) self::get_event_storage_value( (int) $event_id, 'categoria', '' );
+						$event_cat_en      = (string) self::get_event_storage_value( (int) $event_id, 'categoria_en', '' );
+
+						$event_description_es = wp_trim_words( wp_strip_all_tags( $event_desc_es_raw ), 24, '…' );
+						$event_description_en = wp_trim_words( wp_strip_all_tags( '' !== $event_desc_en_raw ? $event_desc_en_raw : $event_desc_es_raw ), 24, '…' );
+						$event_title_en       = '' !== $event_title_en ? $event_title_en : $event_title_es;
+						$event_cat_en         = '' !== $event_cat_en ? $event_cat_en : $event_cat_es;
 						?>
 						<article class="madrural-evento-item">
-							<a class="madrural-evento-card-link" href="<?php echo esc_url( get_permalink( (int) $event_id ) ); ?>" aria-label="<?php echo esc_attr( sprintf( __( 'Ver detalles de %s', 'madrural-eventos' ), get_the_title( (int) $event_id ) ) ); ?>"></a>
+							<a class="madrural-evento-card-link" href="<?php echo esc_url( get_permalink( (int) $event_id ) ); ?>" aria-label="<?php echo esc_attr( sprintf( __( 'Ver detalles de %s', 'madrural-eventos' ), $event_title_es ) ); ?>"></a>
 							<?php echo self::render_event_gallery_carousel( (int) $event_id, 'medium_large' ); ?>
 							<?php if ( '' !== $territorio_label ) : ?>
 								<p class="madrural-evento-territorio"><?php echo esc_html( $territorio_label ); ?></p>
 							<?php endif; ?>
-							<p class="madrural-evento-title-card"><?php echo esc_html( get_the_title( (int) $event_id ) ); ?></p>
-							<?php if ( '' !== $event_description ) : ?>
-								<p class="madrural-evento-descripcion"><?php echo esc_html( $event_description ); ?></p>
+							<p class="madrural-evento-title-card" data-lang-es="<?php echo esc_attr( $event_title_es ); ?>" data-lang-en="<?php echo esc_attr( $event_title_en ); ?>"><?php echo esc_html( $event_title_es ); ?></p>
+							<?php if ( '' !== $event_description_es ) : ?>
+								<p class="madrural-evento-descripcion" data-lang-es="<?php echo esc_attr( $event_description_es ); ?>" data-lang-en="<?php echo esc_attr( $event_description_en ); ?>"><?php echo esc_html( $event_description_es ); ?></p>
+							<?php endif; ?>
+							<?php if ( '' !== $event_cat_es ) : ?>
+								<p class="madrural-evento-categoria" data-lang-es="<?php echo esc_attr( $event_cat_es ); ?>" data-lang-en="<?php echo esc_attr( $event_cat_en ); ?>"><?php echo esc_html( $event_cat_es ); ?></p>
 							<?php endif; ?>
 							<?php if ( '' !== $event_start_date ) : ?>
 								<p class="madrural-evento-fecha"><?php echo esc_html( self::format_date_for_display( $event_start_date ) ); ?></p>
@@ -1918,9 +1930,12 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 						);
 						$territorio_terms = wp_get_post_terms( $event->ID, self::TAX_TERRITORIO, array( 'fields' => 'names' ) );
 						$territorio_label = ( is_wp_error( $territorio_terms ) || empty( $territorio_terms ) ) ? '-' : (string) $territorio_terms[0];
+						$event_title_es   = (string) self::get_event_storage_value( (int) $event->ID, 'titulo', (string) get_the_title( $event ) );
+						$event_title_en   = (string) self::get_event_storage_value( (int) $event->ID, 'titulo_en', '' );
+						$event_title_en   = '' !== $event_title_en ? $event_title_en : $event_title_es;
 						?>
 						<tr>
-							<td><?php echo esc_html( get_the_title( $event ) ); ?></td>
+							<td data-lang-es="<?php echo esc_attr( $event_title_es ); ?>" data-lang-en="<?php echo esc_attr( $event_title_en ); ?>"><?php echo esc_html( $event_title_es ); ?></td>
 							<td><?php echo esc_html( (string) get_post_meta( $event->ID, 'madrural_estado_moderacion', true ) ); ?></td>
 							<td><?php echo esc_html( $territorio_label ); ?></td>
 							<td><?php echo esc_html( self::format_date_for_display( (string) get_post_meta( $event->ID, 'madrural_fecha_inicio', true ) ) ); ?></td>
@@ -2773,19 +2788,27 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 				);
 			}
 
-			$title = get_the_title( $post_id );
+			$title = (string) self::get_event_storage_value( $post_id, 'titulo', get_the_title( $post_id ) );
 			$primary_categoria  = ( ! is_wp_error( $categorias ) && ! empty( $categorias ) ) ? (string) $categorias[0] : '';
+			$description_es = (string) self::get_event_storage_value( $post_id, 'descripcion', wp_strip_all_tags( (string) $content ) );
 			$title_en = (string) self::get_event_storage_value( $post_id, 'titulo_en', '' );
 			$description_en = (string) self::get_event_storage_value( $post_id, 'descripcion_en', '' );
+			$category_es = (string) self::get_event_storage_value( $post_id, 'categoria', $primary_categoria );
 			$category_en = (string) self::get_event_storage_value( $post_id, 'categoria_en', '' );
 			if ( '' === $title_en ) {
 				$title_en = $title;
 			}
 			if ( '' === $description_en ) {
-				$description_en = wp_strip_all_tags( (string) $content );
+				$description_en = $description_es;
+			}
+			if ( '' === $description_es ) {
+				$description_es = wp_strip_all_tags( (string) $content );
+			}
+			if ( '' === $category_es ) {
+				$category_es = $primary_categoria;
 			}
 			if ( '' === $category_en ) {
-				$category_en = $primary_categoria;
+				$category_en = $category_es;
 			}
 			$primary_territorio = ( ! is_wp_error( $territorios ) && ! empty( $territorios ) ) ? (string) $territorios[0] : '';
 			$gallery_ids = self::get_event_gallery_ids( $post_id );
@@ -2866,8 +2889,8 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 			$details .= self::render_event_gallery_carousel( $post_id, 'large' );
 			$details .= '<div class="madrural-evento-hero-overlay">';
 			$details .= '<div class="madrural-evento-hero-badges">';
-			if ( '' !== $primary_categoria ) {
-				$details .= '<span class="madrural-evento-hero-badge" data-lang-es="🏷️ ' . esc_attr( $primary_categoria ) . '" data-lang-en="🏷️ ' . esc_attr( $category_en ) . '">🏷️ ' . esc_html( $primary_categoria ) . '</span>';
+			if ( '' !== $category_es ) {
+				$details .= '<span class="madrural-evento-hero-badge" data-lang-es="🏷️ ' . esc_attr( $category_es ) . '" data-lang-en="🏷️ ' . esc_attr( $category_en ) . '">🏷️ ' . esc_html( $category_es ) . '</span>';
 			}
 			$details .= '</div>';
 			$details .= '<h1 class="madrural-evento-detail-title" data-lang-es="' . esc_attr( $title ) . '" data-lang-en="' . esc_attr( $title_en ) . '">' . esc_html( $title ) . '</h1>';
@@ -2887,7 +2910,7 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 			$details .= '<div class="madrural-evento-detail-body">';
 			$details .= '<div class="madrural-evento-detail-main">';
 			$details .= '<h3 class="madrural-evento-detail-section-title">' . esc_html__( 'Sobre el evento', 'madrural-eventos' ) . '</h3>';
-			$details .= '<div class="madrural-evento-detail-description" data-lang-es="' . esc_attr( wp_strip_all_tags( (string) $content ) ) . '" data-lang-en="' . esc_attr( wp_strip_all_tags( $description_en ) ) . '">' . $content . '</div>';
+			$details .= '<div class="madrural-evento-detail-description" data-lang-es="' . esc_attr( $description_es ) . '" data-lang-en="' . esc_attr( $description_en ) . '">' . esc_html( $description_es ) . '</div>';
 			if ( '' !== $ubicacion ) {
 				$details .= '<p class="madrural-evento-location-cta-wrap"><a class="madrural-evento-location-btn" href="' . esc_url( $ubicacion ) . '" target="_blank" rel="noopener noreferrer">📍 ' . esc_html__( 'Ver ubicación', 'madrural-eventos' ) . '</a></p>';
 			}
@@ -2907,8 +2930,8 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 				$details .= '<div class="madrural-evento-info-item"><span class="madrural-evento-info-icon">🕒</span><p><strong>' . esc_html__( 'Hora', 'madrural-eventos' ) . '</strong><span itemprop="doorTime">' . esc_html( $hora_evento ) . ' h</span></p></div>';
 			}
 
-			if ( ! is_wp_error( $categorias ) && ! empty( $categorias ) ) {
-				$details .= '<div class="madrural-evento-info-item"><span class="madrural-evento-info-icon">🏷️</span><p><strong>' . esc_html__( 'Categoría', 'madrural-eventos' ) . '</strong><span>' . esc_html( implode( ', ', $categorias ) ) . '</span></p></div>';
+			if ( '' !== $category_es ) {
+				$details .= '<div class="madrural-evento-info-item"><span class="madrural-evento-info-icon">🏷️</span><p><strong>' . esc_html__( 'Categoría', 'madrural-eventos' ) . '</strong><span data-lang-es="' . esc_attr( $category_es ) . '" data-lang-en="' . esc_attr( $category_en ) . '">' . esc_html( $category_es ) . '</span></p></div>';
 			}
 
 			if ( ! is_wp_error( $territorios ) && ! empty( $territorios ) ) {
