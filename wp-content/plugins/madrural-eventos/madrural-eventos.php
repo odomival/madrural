@@ -3032,7 +3032,7 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 			$details .= '</span>';
 			$details .= '</a>';
 			$details .= '<nav class="madrural-plugin-nav" aria-label="' . esc_attr__( 'Navegación de eventos', 'madrural-eventos' ) . '">';
-
+			$details .= self::render_language_switcher_dropdown();
 			foreach ( $header_items as $header_key => $header_item ) {
 				$active_class = ( 'agenda' === $header_key ) ? ' is-active' : '';
 				$details     .= '<a class="madrural-plugin-nav-link' . esc_attr( $active_class ) . '" href="' . esc_url( $header_item['url'] ) . '">' . esc_html( $header_item['label'] ) . '</a>';
