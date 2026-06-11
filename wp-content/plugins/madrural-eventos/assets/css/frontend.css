@@ -1001,6 +1001,14 @@
 	color: #343a46;
 }
 
+.madrural-eventos-listado .madrural-carousel-nav.madrural-carousel-prev {
+	display: none;
+}
+
+.madrural-eventos-listado .madrural-carousel-nav.madrural-carousel-next {
+	display: none;
+}
+
 .madrural-evento-carousel {
 	position: relative;
 	overflow: hidden;
