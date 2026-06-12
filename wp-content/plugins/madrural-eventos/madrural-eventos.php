@@ -1695,7 +1695,11 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 			$data = apply_filters( 'madrural_eventos_frontend_save_data', $data, $post_id, $event_id );
 
 			self::save_rest_event_meta_and_terms( $post_id, $data );
-			self::translate_and_store_event_english_meta( $post_id );
+			$translation_result = self::translate_and_store_event_english_meta( $post_id );
+
+			if ( is_array( $translation_result ) && ! empty( $translation_result['errors'] ) ) {
+				self::redirect_with_notice( 'saved_translation_warning', (int) $post_id, self::format_translation_error_message( $translation_result['errors'] ) );
+			}
 
 			self::redirect_with_notice( 'saved', (int) $post_id );
 		}
@@ -2603,12 +2607,15 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 		 * @param int    $event_id Event ID.
 		 * @return void
 		 */
-		public static function redirect_with_notice( $notice, $event_id = 0 ) {
+		public static function redirect_with_notice( $notice, $event_id = 0, $notice_detail = '' ) {
 			$dashboard_url = self::get_frontend_page_url( 'mis' );
 
 			$args = array( 'me_notice' => sanitize_key( $notice ) );
 			if ( $event_id > 0 ) {
 				$args['me_event_id'] = (int) $event_id;
+			}
+			if ( '' !== $notice_detail ) {
+				$args['me_notice_detail'] = rawurlencode( sanitize_text_field( $notice_detail ) );
 			}
 
 			wp_safe_redirect( add_query_arg( $args, $dashboard_url ) );
@@ -2628,6 +2635,7 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 			$notice = sanitize_key( wp_unslash( $_GET['me_notice'] ) );
 			$map    = array(
 				'saved'             => esc_html__( 'Evento guardado correctamente.', 'madrural-eventos' ),
+				'saved_translation_warning' => esc_html__( 'Evento guardado, pero hubo problemas en la traducción automática.', 'madrural-eventos' ),
 				'deleted'           => esc_html__( 'Evento eliminado correctamente.', 'madrural-eventos' ),
 				'error_nonce'       => esc_html__( 'No se pudo validar la solicitud. Inténtalo de nuevo.', 'madrural-eventos' ),
 				'error_permissions' => esc_html__( 'No tienes permisos para realizar esta acción.', 'madrural-eventos' ),
@@ -2642,7 +2650,45 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 				return '';
 			}
 
-			return '<div class="madrural-eventos-notice"><p>' . esc_html( $map[ $notice ] ) . '</p></div>';
+			$detail = isset( $_GET['me_notice_detail'] ) ? sanitize_text_field( rawurldecode( (string) wp_unslash( $_GET['me_notice_detail'] ) ) ) : '';
+			$message = $map[ $notice ];
+			if ( '' !== $detail ) {
+				$message .= ' ' . $detail;
+			}
+
+			return '<div class="madrural-eventos-notice"><p>' . esc_html( $message ) . '</p></div>';
+		}
+
+		/**
+		 * Builds a readable translation error message from collected error items.
+		 *
+		 * @param array $errors Translation error entries.
+		 * @return string
+		 */
+		private static function format_translation_error_message( $errors ) {
+			if ( ! is_array( $errors ) || empty( $errors ) ) {
+				return '';
+			}
+
+			$parts = array();
+			foreach ( $errors as $error ) {
+				if ( ! is_array( $error ) ) {
+					continue;
+				}
+
+				$field   = isset( $error['field'] ) ? sanitize_text_field( (string) $error['field'] ) : '';
+				$code    = isset( $error['code'] ) ? sanitize_text_field( (string) $error['code'] ) : '';
+				$message = isset( $error['message'] ) ? sanitize_text_field( (string) $error['message'] ) : '';
+
+				$prefix = '' !== $field ? $field : 'translation';
+				if ( '' !== $code ) {
+					$prefix .= ' [' . $code . ']';
+				}
+
+				$parts[] = '' !== $message ? $prefix . ': ' . $message : $prefix;
+			}
+
+			return implode( ' | ', $parts );
 		}
 
 		/**
@@ -3563,12 +3609,12 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 		 * Translates and stores English mirror fields for an evento.
 		 *
 		 * @param int $post_id Post ID.
-		 * @return void
+		 * @return array{errors: array<int,array<string,string>>}
 		 */
 		public static function translate_and_store_event_english_meta( $post_id ) {
 			$post = get_post( $post_id );
 			if ( ! $post instanceof WP_Post || self::CPT !== $post->post_type ) {
-				return;
+				return array( 'errors' => array() );
 			}
 
 			$category_es = self::get_event_primary_category_name( $post_id );
@@ -3590,6 +3636,8 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 					'source_key' => '_madrural_categoria_source_es',
 				),
 			);
+
+			$errors = array();
 
 			try {
 				foreach ( $translations as $meta_key => $config ) {
@@ -3613,6 +3661,11 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 					$translated = self::translate_text_external( $source_text, 'es', 'en' );
 					if ( is_wp_error( $translated ) ) {
 						error_log( 'MADRURAL translation error [' . $meta_key . '] for post ' . $post_id . ': ' . $translated->get_error_message() );
+						$errors[] = array(
+							'field'   => $meta_key,
+							'code'    => (string) $translated->get_error_code(),
+							'message' => (string) $translated->get_error_message(),
+						);
 						continue;
 					}
 
@@ -3624,9 +3677,24 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 				}
 			} catch ( Throwable $exception ) {
 				error_log( 'MADRURAL translation exception for post ' . $post_id . ': ' . $exception->getMessage() );
+				$errors[] = array(
+					'field'   => 'translation',
+					'code'    => 'exception',
+					'message' => (string) $exception->getMessage(),
+				);
 			}
 
 			self::sync_event_row_from_post( $post_id );
+
+			if ( empty( $errors ) ) {
+				delete_post_meta( $post_id, '_madrural_translation_last_error' );
+			} else {
+				update_post_meta( $post_id, '_madrural_translation_last_error', wp_json_encode( $errors ) );
+			}
+
+			return array(
+				'errors' => $errors,
+			);
 		}
 
 		/**
