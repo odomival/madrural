@@ -673,16 +673,15 @@ if ( ! class_exists( 'MADRURAL_Auth_Plugin' ) ) {
 			$html .= '</a>';
 			$html .= '<nav class="madrural-plugin-nav" aria-label="' . esc_attr__( 'Navegación de eventos', 'madrural-eventos' ) . '">';
 
-			if ( class_exists( 'MADRURAL_Eventos_Plugin' ) && is_callable( array( 'MADRURAL_Eventos_Plugin', 'render_language_switcher_dropdown' ) ) ) {
-				$html .= (string) MADRURAL_Eventos_Plugin::render_language_switcher_dropdown();
-			}
-
 			foreach ( $items as $key => $item ) {
 				$active_class = ( $active === $key ) ? ' is-active' : '';
 				$html        .= '<a class="madrural-plugin-nav-link' . esc_attr( $active_class ) . '" href="' . esc_url( $item['url'] ) . '">' . esc_html( $item['label'] ) . '</a>';
 			}
 
 			$html .= '</nav>';
+			if ( class_exists( 'MADRURAL_Eventos_Plugin' ) && is_callable( array( 'MADRURAL_Eventos_Plugin', 'render_language_switcher_dropdown' ) ) ) {
+				$html .= (string) MADRURAL_Eventos_Plugin::render_language_switcher_dropdown();
+			}
 			$html .= '</div>';
 			$html .= '</div>';
 

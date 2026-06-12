@@ -2713,14 +2713,14 @@ if ( ! class_exists( 'MADRURAL_Eventos_Plugin' ) ) {
 			$html .= '</span>';
 			$html .= '</a>';
 			$html .= '<nav class="madrural-plugin-nav" aria-label="' . esc_attr__( 'Navegación de eventos', 'madrural-eventos' ) . '">';
-			$html .= self::render_language_switcher_dropdown();
-
+			
 			foreach ( $items as $key => $item ) {
 				$active_class = ( $active === $key ) ? ' is-active' : '';
 				$html        .= '<a class="madrural-plugin-nav-link' . esc_attr( $active_class ) . '" href="' . esc_url( $item['url'] ) . '">' . esc_html( $item['label'] ) . '</a>';
 			}
 
 			$html .= '</nav>';
+			$html .= self::render_language_switcher_dropdown();
 			$html .= '</div>';
 			$html .= '</div>';
 
