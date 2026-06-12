@@ -70,7 +70,11 @@
 	function getCurrentLanguage() {
 		if (!i18nState.language) {
 			var siteLanguage = normalizeLanguage(ajaxConfig.siteLanguage || getI18nDefaultLanguage());
-			i18nState.language = normalizeLanguage(getStoredLanguage() || siteLanguage);
+			var storedLanguage = normalizeLanguage(getStoredLanguage() || '');
+
+			// WordPress/Polylang language is the source of truth on initial load.
+			i18nState.language = siteLanguage || storedLanguage || getI18nDefaultLanguage();
+			persistLanguage(i18nState.language);
 		}
 
 		return i18nState.language;
